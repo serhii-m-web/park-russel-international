@@ -1,0 +1,167 @@
+<section
+  class="section-slider"
+  data-section-slider
+  aria-labelledby="section-slider-title"
+>
+  <div class="container">
+    <div class="section-slider__header">
+      <h2 class="section-slider__title" id="section-slider-title">
+        Expertise for Business
+        <br />
+        at Every Stage
+      </h2>
+      <p class="section-slider__description">
+        Parker Russell International brings together specialist expertise across
+        core service areas, helping businesses address financial, regulatory and
+        strategic matters with the perspective of professionals who understand
+        both local markets and international business.
+      </p>
+    </div>
+    <div class="section-slider__content">
+      <div
+        class="swiper section-slider__swiper"
+        data-section-slider-el
+        aria-roledescription="carousel"
+        aria-label="Expertise areas"
+      >
+        <div class="swiper-wrapper">
+          <article class="swiper-slide section-slider__slide">
+            {{picture
+              "/images/sliders/slide-img-1.png"
+              alt=""
+              class="section-slider__slide-img"
+              width="500"
+              height="500"
+            }}
+            <h3 class="section-slider__slide-title">Assurance</h3>
+            <p class="section-slider__slide-description">
+              Independent assurance provides confidence where reliable
+              information matters most. Parker Russell member firms deliver
+              audit and assurance services across a wide range of businesses and
+              industries, combining technical rigour with an understanding of
+              financial reporting, regulatory requirements, risk and the
+              commercial environment in which clients operate.
+            </p>
+            <div class="section-slider__slide-footer">
+              <a class="section-slider__slide-link site-link" href="#">
+                Read More
+                <span class="visually-hidden"> about Assurance</span>
+                {{> icon
+                  name="arrow-right"
+                  width="16"
+                  height="16"
+                }}
+              </a>
+            </div>
+          </article>
+          <article class="swiper-slide section-slider__slide">
+            {{picture
+              "/images/sliders/slide-img-2.png"
+              alt=""
+              class="section-slider__slide-img"
+              width="500"
+              height="500"
+            }}
+            <h3 class="section-slider__slide-title">Tax & Legal</h3>
+            <p class="section-slider__slide-description">
+              Tax and legal matters become increasingly complex when business
+              crosses borders. Our member firms advise companies, investors and
+              individuals on domestic and international taxation, legal
+              requirements, corporate structures, transactions and compliance —
+              bringing together relevant expertise when matters extend across
+              more than one jurisdiction.
+            </p>
+            <div class="section-slider__slide-footer">
+              <a class="section-slider__slide-link site-link" href="#">
+                Read More
+                <span class="visually-hidden"> about Tax and Legal</span>
+                {{> icon
+                  name="arrow-right"
+                  width="16"
+                  height="16"
+                }}
+              </a>
+            </div>
+          </article>
+          <article class="swiper-slide section-slider__slide">
+            {{picture
+              "/images/sliders/slide-img-3.png"
+              alt=""
+              class="section-slider__slide-img"
+              width="500"
+              height="500"
+            }}
+            <h3 class="section-slider__slide-title">Corporate Services</h3>
+            <p class="section-slider__slide-description">
+              From establishing a business in a new market to managing an
+              international corporate structure, our member firms provide
+              practical support across company formation, governance, compliance
+              and ongoing corporate requirements. Local knowledge is combined
+              with international coordination where businesses operate through
+              multiple entities or jurisdictions.
+            </p>
+            <div class="section-slider__slide-footer">
+              <a class="section-slider__slide-link site-link" href="#">
+                Read More
+                <span class="visually-hidden"> about Corporate Services</span>
+                {{> icon
+                  name="arrow-right"
+                  width="16"
+                  height="16"
+                }}
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+    <div class="section-slider__footer">
+      <a class="section-slider__button site-button primary" href="#">
+        Explore Our Expertise
+        {{> icon
+          name="arrow-right"
+          width="16"
+          height="16"
+        }}
+      </a>
+      <div
+        class="section-slider__navigation"
+        role="group"
+        aria-label="Slider controls"
+      >
+        <div
+          class="swiper-scrollbar section-slider__scrollbar"
+          data-section-slider-scrollbar
+          tabindex="0"
+          aria-label="Slider progress"
+        ></div>
+        <div class="section-slider__nav-buttons">
+          <button
+            class="swiper-button-prev section-slider__nav-btn prev"
+            type="button"
+            data-section-slider-prev
+            aria-label="Previous slide"
+          >
+            {{> icon
+              name="arrow-right"
+              width="16"
+              height="16"
+            }}
+          </button>
+          <button
+            class="swiper-button-next section-slider__nav-btn next"
+            type="button"
+            data-section-slider-next
+            aria-label="Next slide"
+          >
+            {{> icon
+              name="arrow-right"
+              width="16"
+              height="16"
+            }}
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

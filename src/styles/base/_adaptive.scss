@@ -10,12 +10,15 @@ $minWidth: 400;
     #{$property}: $startSize + px;
 
     @media (max-width: #{$maxWidthContainer + px}) {
-      #{$property}: calc(
-        #{$minSize + px} + #{$addSize} *
-          (
-            (100vw - calc(#{$minWidth + px})) / #{$maxWidthContainer -
-              $minWidth}
-          )
+      #{$property}: clamp(
+        #{$minSize + px},
+        calc(
+          #{$minSize + px} + #{$addSize} *
+            (
+              (100vw - #{$minWidth + px}) / #{$maxWidthContainer - $minWidth}
+            )
+        ),
+        #{$startSize + px}
       );
     }
   } @else if $type==2 {
@@ -23,18 +26,24 @@ $minWidth: 400;
     #{$property}: $startSize + px;
 
     @media (min-width: #{$maxWidthContainer + px}) {
-      #{$property}: calc(
-        #{$minSize + px} + #{$addSize} *
-          ((100vw - calc(#{$minWidth + px})) / #{$maxWidth - $minWidth})
+      #{$property}: clamp(
+        #{$minSize + px},
+        calc(
+          #{$minSize + px} + #{$addSize} *
+            ((100vw - #{$minWidth + px}) / #{$maxWidth - $minWidth})
+        ),
+        #{$startSize + px}
       );
     }
   } @else {
     /* Во всех случаях */
-    #{$property}: calc(
-      #{$minSize +
-        px} +
-        #{$addSize} *
-        ((100vw - calc(#{$minWidth + px})) / #{$maxWidth - $minWidth})
+    #{$property}: clamp(
+      #{$minSize + px},
+      calc(
+        #{$minSize + px} + #{$addSize} *
+          ((100vw - #{$minWidth + px}) / #{$maxWidth - $minWidth})
+      ),
+      #{$startSize + px}
     );
   }
 }
@@ -54,7 +63,7 @@ $minWidth: 400;
     @include adaptive-value("font-size", 115, 96, 1);
 */
 
-/* "paddibg" - свойство которое нужно адаптировать */
-/* 50 - максимальное значение свойства в px */
-/* 20 - минимальное значение свойства в px */
+/* "property" - свойство которое нужно адаптировать */
+/* startSize - максимальное значение свойства в px */
+/* minSize - минимальное значение свойства в px (не станет меньше) */
 /* 0 или 1 или 2 - ($type) условие, по которому будет выполняться адаптив */
