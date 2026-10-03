@@ -1,0 +1,60 @@
+{
+  "expertiseSlider": {
+    "id": "expertise-slider",
+    "className": "",
+    "carouselLabel": "Expertise areas",
+    "titleLines": ["Expertise for Business", "at Every Stage"],
+    "description": "Parker Russell International brings together specialist expertise across core service areas, helping businesses address financial, regulatory and strategic matters with the perspective of professionals who understand both local markets and international business.",
+    "button": { "label": "Explore Our Expertise", "href": "#" },
+    "counter": false,
+    "slides": [
+      {
+        "image": "/images/sliders/slide-img-1.png",
+        "title": "Assurance",
+        "description": "Independent assurance provides confidence where reliable information matters most. Parker Russell member firms deliver audit and assurance services across a wide range of businesses and industries, combining technical rigour with an understanding of financial reporting, regulatory requirements, risk and the commercial environment in which clients operate.",
+        "link": { "label": "Read More", "href": "#" }
+      },
+      {
+        "image": "/images/sliders/slide-img-2.png",
+        "title": "Tax & Legal",
+        "description": "Tax and legal matters become increasingly complex when business crosses borders. Our member firms advise companies, investors and individuals on domestic and international taxation, legal requirements, corporate structures, transactions and compliance — bringing together relevant expertise when matters extend across more than one jurisdiction.",
+        "link": { "label": "Read More", "href": "#" }
+      },
+      {
+        "image": "/images/sliders/slide-img-3.png",
+        "title": "Corporate Services",
+        "description": "From establishing a business in a new market to managing an international corporate structure, our member firms provide practical support across company formation, governance, compliance and ongoing corporate requirements. Local knowledge is combined with international coordination where businesses operate through multiple entities or jurisdictions.",
+        "link": { "label": "Read More", "href": "#" }
+      }
+    ]
+  },
+  "industrySlider": {
+    "id": "industry-slider",
+    "className": "section-slider--industry",
+    "carouselLabel": "Industry areas",
+    "titleLines": ["Expertise Built Around", "Your Industry"],
+    "description": "Every industry faces its own combination of regulation, financial pressure, technological change and international complexity. Parker Russell member firms combine sector knowledge with audit, tax and advisory expertise to address the issues that matter within each market.",
+    "button": { "label": "Explore Our Services", "href": "#" },
+    "counter": true,
+    "slides": [
+      {
+        "image": "/images/sliders/slide-img-4.png",
+        "title": "Consumer Business",
+        "description": "Consumer businesses operate in markets shaped by changing demand, margin pressure, evolving sales channels and increasingly complex supply chains.",
+        "link": { "label": "Read More", "href": "#" }
+      },
+      {
+        "image": "/images/sliders/slide-img-5.png",
+        "title": "Financial Services",
+        "description": "Financial services face regulatory change. Parker Russell firms provide audit, tax and advisory expertise across compliance, reporting and strategy.",
+        "link": { "label": "Read More", "href": "#" }
+      },
+      {
+        "image": "/images/sliders/slide-img-5.png",
+        "title": "Consumer Business",
+        "description": "Consumer businesses operate in markets shaped by changing demand, margin pressure, evolving sales channels and increasingly complex supply chains.",
+        "link": { "label": "Read More", "href": "#" }
+      }
+    ]
+  }
+}
