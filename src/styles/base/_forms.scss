@@ -1,0 +1,62 @@
+@use 'variables' as *;
+@use 'mixins' as *;
+
+// forms
+form,
+fieldset {
+  margin: 0;
+  border-style: none;
+}
+
+input[type='text'],
+input[type='tel'],
+input[type='email'],
+input[type='search'],
+input[type='password'],
+//input[type='url'],
+// input[type='date'],
+textarea {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  outline: none;
+  box-sizing: border-box;
+  border: 1px solid $color-black;
+  color: $color-black;
+  // &:hover {
+
+  // }
+
+  &:focus {
+    border-color: $color-black;
+  }
+
+  @include placeholder {
+    color: rgba($color-black, 0.5);
+  }
+}
+
+input[attribute='value'] {
+}
+
+select {
+  -webkit-border-radius: 0;
+}
+
+textarea {
+  vertical-align: top;
+  resize: none;
+}
+
+button,
+input[type='button'],
+input[type='reset'],
+input[type='file'],
+input[type='submit'] {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  cursor: pointer;
+  font-family: $base-font-sans-serif;
+
+  &:hover {
+  }
+}

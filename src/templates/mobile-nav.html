@@ -1,0 +1,166 @@
+<div
+  class="mobile-nav"
+  id="mobile-nav"
+  data-mobile-nav
+  inert
+>
+  <div class="mobile-nav__top">
+    <a class="mobile-nav__logo" href="#">
+      <img
+        src="/images/header-logo.png"
+        alt="Park Russel International"
+        width="144"
+        height="26"
+      />
+    </a>
+
+    <div class="mobile-nav__actions">
+      <button
+        class="mobile-nav__action mobile-nav__action--search"
+        type="button"
+        aria-label="Search"
+      >
+        {{> icon name="search" width="20" height="20"}}
+      </button>
+      <button
+        class="mobile-nav__action mobile-nav__action--close"
+        type="button"
+        aria-label="Close menu"
+        data-mobile-close
+      >
+        {{> icon name="close" width="20" height="20"}}
+      </button>
+    </div>
+  </div>
+
+  <div class="mobile-nav__body" data-mobile-view="root">
+    <div class="mobile-nav__screen is-active" data-mobile-screen="root">
+      <div class="mobile-nav__main">
+        <ul class="mobile-nav__list">
+          <li>
+            <button
+              class="mobile-nav__item"
+              type="button"
+              data-mobile-open="about-us"
+            >
+              <span>About Us</span>
+              <span class="mobile-nav__item-icon">
+                {{> icon name="chevron-right" width="20" height="20"}}
+              </span>
+            </button>
+          </li>
+          <li>
+            <button
+              class="mobile-nav__item"
+              type="button"
+              data-mobile-open="services"
+            >
+              <span>Services</span>
+              <span class="mobile-nav__item-icon">
+                {{> icon name="chevron-right" width="20" height="20"}}
+              </span>
+            </button>
+          </li>
+          <li>
+            <button
+              class="mobile-nav__item"
+              type="button"
+              data-mobile-open="industries"
+            >
+              <span>Industries</span>
+              <span class="mobile-nav__item-icon">
+                {{> icon name="chevron-right" width="20" height="20"}}
+              </span>
+            </button>
+          </li>
+          <li>
+            <a class="mobile-nav__item" href="#">
+              <span>International Reach</span>
+              <span class="mobile-nav__item-icon">
+                {{> icon name="arrow" width="16" height="16"}}
+              </span>
+            </a>
+          </li>
+        </ul>
+
+        <ul class="mobile-nav__utility">
+          <li>
+            <a class="mobile-nav__utility-link" href="#">
+              <span>Our people</span>
+              {{> icon name="arrow" width="16" height="16"}}
+            </a>
+          </li>
+          <li>
+            <a class="mobile-nav__utility-link" href="#">
+              <span>News and Events</span>
+              {{> icon name="arrow" width="16" height="16"}}
+            </a>
+          </li>
+          <li>
+            <a class="mobile-nav__utility-link" href="#">
+              <span>Careers</span>
+              {{> icon name="arrow" width="16" height="16"}}
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="mobile-nav__bottom">
+        <a class="mobile-nav__cta site-button primary" href="#">
+          <span>Contact us</span>
+          {{> icon name="arrow" width="16" height="16"}}
+        </a>
+
+        <div class="mobile-nav__footer">
+          <ul class="mobile-nav__social" aria-label="Social media">
+            <li>
+              <a
+                class="mobile-nav__social-link"
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook (opens in a new tab)"
+              >
+                {{> icon name="facebook" width="16" height="16"}}
+              </a>
+            </li>
+            <li>
+              <a
+                class="mobile-nav__social-link"
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="X (opens in a new tab)"
+              >
+                {{> icon name="twitter" width="16" height="16"}}
+              </a>
+            </li>
+            <li>
+              <a
+                class="mobile-nav__social-link"
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn (opens in a new tab)"
+              >
+                {{> icon name="linkedin" width="16" height="16"}}
+              </a>
+            </li>
+          </ul>
+
+          <button
+            class="mobile-nav__lang"
+            type="button"
+            aria-label="Change language"
+          >
+            {{> icon name="globe" width="20" height="20"}}
+          </button>
+        </div>
+      </div>
+    </div>
+
+    {{> mobile-menus/about-us}}
+    {{> mobile-menus/services}}
+    {{> mobile-menus/industries}}
+  </div>
+</div>

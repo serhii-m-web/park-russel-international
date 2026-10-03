@@ -1,0 +1,166 @@
+<header class="site-header">
+  <div class="site-header__utility">
+    <div class="container">
+      <div class="site-header__utility-inner">
+        <ul class="site-header__social" aria-label="Social media">
+          <li class="site-header__social-item">
+            <a
+              class="site-header__social-link"
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Facebook (opens in a new tab)"
+            >
+              {{> icon name="facebook" width="16" height="16"}}
+            </a>
+          </li>
+          <li class="site-header__social-item">
+            <a
+              class="site-header__social-link"
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="X (opens in a new tab)"
+            >
+              {{> icon name="twitter" width="16" height="16"}}
+            </a>
+          </li>
+          <li class="site-header__social-item">
+            <a
+              class="site-header__social-link"
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn (opens in a new tab)"
+            >
+              {{> icon name="linkedin" width="16" height="16"}}
+            </a>
+          </li>
+        </ul>
+
+        <nav class="site-header__utility-nav" aria-label="Utility">
+          <ul class="site-header__utility-nav-list">
+            <li class="site-header__utility-nav-item">
+              <a class="site-header__utility-nav-link" href="#">Our people</a>
+            </li>
+            <li class="site-header__utility-nav-item">
+              <a class="site-header__utility-nav-link" href="#">News and Events</a>
+            </li>
+            <li class="site-header__utility-nav-item">
+              <a class="site-header__utility-nav-link" href="#">Careers</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+
+  <div class="site-header__bar">
+    <div class="container">
+      <div class="site-header__bar-inner">
+        <a class="site-header__logo" href="#">
+          <img
+            class="site-header__logo-name"
+            src="/images/header-logo.png"
+            alt="Park Russel International"
+            width="170"
+            height="40"
+          />
+        </a>
+
+        <div class="site-header__mobile-actions">
+          <button
+            class="site-header__mobile-action site-header__mobile-action--search"
+            type="button"
+            aria-label="Search"
+          >
+            {{> icon name="search" width="20" height="20"}}
+          </button>
+          <button
+            class="site-header__burger"
+            type="button"
+            aria-label="Open menu"
+            aria-expanded="false"
+            aria-controls="mobile-nav"
+            data-mobile-open-nav
+          >
+            <span class="site-header__burger-box" aria-hidden="true">
+              <span class="site-header__burger-line"></span>
+              <span class="site-header__burger-line"></span>
+              <span class="site-header__burger-line"></span>
+            </span>
+          </button>
+        </div>
+
+        <nav id="site-header-nav" class="site-header__nav" aria-label="Primary">
+          <ul class="site-header__menu">
+            <li class="site-header__menu-item site-header__menu-item--has-mega">
+              <button
+                class="site-header__menu-link"
+                type="button"
+                aria-expanded="false"
+                aria-controls="mega-about-us"
+                data-mega-trigger
+              >
+                About Us
+                {{> icon
+                  name="chevron-down"
+                  width="16"
+                  height="16"
+                  class="site-header__menu-link-icon"
+                }}
+              </button>
+              {{> mega-menus/about-us}}
+            </li>
+
+            <li class="site-header__menu-item site-header__menu-item--has-mega">
+              <button
+                class="site-header__menu-link"
+                type="button"
+                aria-expanded="false"
+                aria-controls="mega-services"
+                data-mega-trigger
+              >
+                Services
+                {{> icon
+                  name="chevron-down"
+                  width="16"
+                  height="16"
+                  class="site-header__menu-link-icon"
+                }}
+              </button>
+              {{> mega-menus/services}}
+            </li>
+
+            <li class="site-header__menu-item site-header__menu-item--has-mega">
+              <button
+                class="site-header__menu-link"
+                type="button"
+                aria-expanded="false"
+                aria-controls="mega-industries"
+                data-mega-trigger
+              >
+                Industries
+                {{> icon
+                  name="chevron-down"
+                  width="16"
+                  height="16"
+                  class="site-header__menu-link-icon"
+                }}
+              </button>
+              {{> mega-menus/industries}}
+            </li>
+
+            <li class="site-header__menu-item">
+              <a class="site-header__menu-link" href="#">International Reach</a>
+            </li>
+          </ul>
+        </nav>
+
+        <a class="site-header__cta site-button primary" href="#">Contact us</a>
+      </div>
+    </div>
+  </div>
+
+  {{> mobile-nav}}
+</header>
