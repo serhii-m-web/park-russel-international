@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "title": "Assurance | Parker Russell International",
+    "description": "Financial information sits behind some of the most important decisions an organisation makes — from investment and financing to governance, transactions and long-term strategy."
+  },
+  "assurancePageHero": {
+    "label": "Assurance",
+    "titleLines": ["Confidence in What Matters.", "Clarity Where It Counts."],
+    "description": "Financial information sits behind some of the most important decisions an organisation makes — from investment and financing to governance, transactions and long-term strategy.",
+    "imageBg": "/images/assurance-hero-bg.jpg",
+    "buttons": [
+      {
+        "label": "Discuss Your Assurance Requirements",
+        "href": "#",
+        "variant": "primary",
+        "icon": true
+      },
+      {
+        "label": "Find a Member Firm",
+        "href": "#",
+        "variant": "secondary",
+        "icon": true
+      }
+    ]
+  }
+}

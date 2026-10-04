@@ -3,8 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{{ site.title }}</title>
-    <meta name="description" content="{{ site.description }}" />
+    <title>
+      {{#if page.meta.title}}
+        {{ page.meta.title }}
+      {{else}}
+        {{ site.title }}
+      {{/if}}
+    </title>
+    <meta
+      name="description"
+      content="{{#if page.meta.description}}{{ page.meta.description }}{{else}}{{ site.description }}{{/if}}"
+    />
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -37,7 +46,11 @@
       Skip to content
     </a>
     {{> header}}
-    <main id="main-content" tabindex="-1"></main>
+    <main id="main-content" tabindex="-1">
+      {{> section-page-hero
+        pageHero=page.assurancePageHero
+      }}
+    </main>
     {{> footer}}
     <script type="module" src="/js/main.ts"></script>
   </body>

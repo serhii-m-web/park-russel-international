@@ -1,0 +1,64 @@
+<section class="page-hero" aria-labelledby="page-hero-title">
+  <div class="container">
+    <div class="page-hero__content">
+      {{#if pageHero.imageBg}}
+        <div class="page-hero__bg" aria-hidden="true">
+          {{picture
+            pageHero.imageBg
+            alt=""
+            class="page-hero__bg-image"
+            loading="eager"
+            width="1920"
+            height="800"
+          }}
+        </div>
+      {{/if}}
+      <div class="page-hero__inner">
+        {{#if pageHero.label}}
+          <span class="page-hero__label section-label">
+            {{ pageHero.label }}
+          </span>
+        {{/if}}
+
+        <h1 id="page-hero-title" class="page-hero__title">
+          {{#if pageHero.titleLines.length}}
+            {{#each pageHero.titleLines}}
+              {{#unless @first}}
+                <br />
+              {{/unless}}
+              {{ this }}
+            {{/each}}
+          {{else}}
+            {{ pageHero.title }}
+          {{/if}}
+        </h1>
+
+        {{#if pageHero.description}}
+          <p class="page-hero__description">
+            {{ pageHero.description }}
+          </p>
+        {{/if}}
+
+        {{#if pageHero.buttons.length}}
+          <div class="page-hero__buttons">
+            {{#each pageHero.buttons}}
+              <a
+                class="page-hero__button site-button {{ variant }}"
+                href="{{ href }}"
+              >
+                <span>{{ label }}</span>
+                {{#if icon}}
+                  {{> icon
+                    name="arrow-right"
+                    width="16"
+                    height="16"
+                  }}
+                {{/if}}
+              </a>
+            {{/each}}
+          </div>
+        {{/if}}
+      </div>
+    </div>
+  </div>
+</section>

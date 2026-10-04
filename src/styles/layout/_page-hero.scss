@@ -1,0 +1,109 @@
+@use '../abstracts/' as *;
+
+.page-hero {
+  padding: 24px 0;
+
+  &__content {
+    @include adaptive-value('border-radius', 32, 24, 1);
+    overflow: hidden;
+    position: relative;
+    background-color: $color-navy;
+
+    &::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      z-index: 1;
+      pointer-events: none;
+      background:
+        linear-gradient(0deg, rgba(12, 18, 27, 0.2), rgba(12, 18, 27, 0.2)),
+        linear-gradient(
+          95.26deg,
+          rgba(12, 18, 27, 0.9) 40.63%,
+          rgba(12, 18, 27, 0) 87.03%
+        ),
+        linear-gradient(
+          180deg,
+          rgba(12, 18, 27, 0) 45%,
+          rgba(12, 18, 27, 0.85) 100%
+        );
+
+      @include media('<tablet') {
+        display: none;
+      }
+    }
+  }
+
+  &__bg {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+
+    // Fill the absolute layer; img sizing comes from global reset.
+    picture {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+
+    @include media('<tablet') {
+      position: relative;
+
+      &::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        z-index: 1;
+        pointer-events: none;
+        background: linear-gradient(
+          180deg,
+          rgba($color-navy, 0.05) 0%,
+          rgba($color-navy, 0.25) 55%,
+          $color-navy 100%
+        );
+      }
+    }
+  }
+
+  &__inner {
+    position: relative;
+    z-index: 2;
+    padding: 72px 32px;
+
+    @include media('<tablet') {
+      padding: 10px 20px 32px;
+    }
+  }
+
+  &__label {
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+
+  &__title {
+    @include adaptive-value('font-size', 68, 36, 1);
+    font-weight: 500;
+    line-height: calc(72 / 68);
+    color: $color-white;
+    letter-spacing: -3%;
+    @include adaptive-value('margin-bottom', 32, 16, 1);
+  }
+
+  &__description {
+    @include adaptive-value('font-size', 22, 18, 1);
+    line-height: calc(32 / 22);
+    color: $color-ice;
+    @include adaptive-value('margin-bottom', 40, 16, 1);
+    max-width: 640px;
+    width: 100%;
+  }
+
+  &__buttons {
+    display: flex;
+    gap: 12px;
+
+    @include media('<tablet') {
+      flex-direction: column;
+    }
+  }
+}
