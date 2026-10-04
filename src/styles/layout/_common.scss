@@ -49,3 +49,22 @@
   border-radius: 1000px;
   @include adaptive-value('margin-bottom', 32, 16, 1);
 }
+
+.page-label {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 12px;
+  font-weight: 500;
+  color: $color-dark-blue;
+  letter-spacing: 14%;
+  @include adaptive-value('margin-bottom', 20, 16, 1);
+
+  &::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: $color-red;
+  }
+}
