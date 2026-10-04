@@ -150,5 +150,36 @@
         }
       }
     ]
+  },
+  "latestNews": {
+    "title": "Latest News",
+    "link": {
+      "label": "View All News",
+      "href": "#"
+    },
+    "featured": {
+      "status": "Latest",
+      "date": "4 August 2025",
+      "category": "Compliance",
+      "title": "Companies House Crackdown: Businesses Urged to Act on ECCTA Deadlines",
+      "description": "Research by Vistra shows fewer than one in three UK company directors feel ready for the upcoming Economic Crime and Corporate Transparency Act (ECCTA)…"
+    },
+    "list": [
+      {
+        "date": "25 June 2025",
+        "category": "Accounting Standards",
+        "title": "David M. Sullivan Appointed to Chair Financial Accounting Standards Advisory Council"
+      },
+      {
+        "date": "18 June 2025",
+        "category": "Regulation",
+        "title": "£4m Fine for Director in Client Money Breach"
+      },
+      {
+        "date": "20 May 2025",
+        "category": "ESG",
+        "title": "The Next Generation of Investors Is Powering ESG's Revival"
+      }
+    ]
   }
 }

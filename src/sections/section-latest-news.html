@@ -1,0 +1,93 @@
+<section class="section-latest-news" aria-labelledby="section-latest-news-title"
+>
+  <div class="container">
+    <div class="section-latest-news__header">
+      <h2 id="section-latest-news-title" class="section-latest-news__title">
+        {{ latestNews.title }}
+      </h2>
+      {{#if latestNews.link}}
+        <a
+          class="section-latest-news__button site-button secondary-red"
+          href="{{ latestNews.link.href }}"
+        >
+          {{ latestNews.link.label }}
+          {{> icon
+            name="arrow-right"
+            width="16"
+            height="16"
+            class="section-latest-news__button-icon"
+          }}
+        </a>
+      {{/if}}
+    </div>
+
+    <div class="section-latest-news__list-wrapper">
+      {{#if latestNews.featured}}
+        <article class="section-latest-news__item-big">
+          <div class="section-latest-news__item-big-header">
+            <span class="dot red" aria-hidden="true"></span>
+            <span class="section-latest-news__item-big-status">
+              {{ latestNews.featured.status }}
+            </span>
+            <span class="dot" aria-hidden="true"></span>
+            <time class="section-latest-news__item-big-date" datetime="{{ latestNews.featured.date }}">{{ latestNews.featured.date }}</time>
+            <span class="dot" aria-hidden="true"></span>
+            <span class="section-latest-news__item-big-category">
+              {{ latestNews.featured.category }}
+            </span>
+          </div>
+          <h3 class="section-latest-news__item-big-title">
+            {{ latestNews.featured.title }}
+          </h3>
+          {{#if latestNews.featured.description}}
+            <p class="section-latest-news__item-big-description">
+              {{ latestNews.featured.description }}
+            </p>
+          {{/if}}
+          <div class="section-latest-news__item-big-footer">
+            <a
+              class="section-latest-news__item-big-link"
+              href="{{ latestNews.featured.link.href }}"
+            >
+              Read article
+              <span class="section-latest-news__item-big-link-icon">
+                {{> icon
+                  name="arrow-right"
+                  width="16"
+                  height="16"
+                  class="section-latest-news__item-big-icon"
+                }}
+              </span>
+            </a>
+          </div>
+        </article>
+      {{/if}}
+
+      {{#if latestNews.list.length}}
+        <div class="section-latest-news__list">
+          {{#each latestNews.list}}
+            <a class="section-latest-news__item" href="{{ href }}">
+              <div class="section-latest-news__item-content">
+                <div class="section-latest-news__item-header">
+                  <time class="section-latest-news__item-date" datetime="{{ date }}">{{ date }}</time>
+                  <span class="section-latest-news__item-category">
+                    {{ category }}
+                  </span>
+                </div>
+                <h3 class="section-latest-news__item-title">{{ title }}</h3>
+              </div>
+              <span class="section-latest-news__item-link-icon">
+                {{> icon
+                  name="arrow-right"
+                  width="16"
+                  height="16"
+                  class="section-latest-news__item-icon"
+                }}
+              </span>
+            </a>
+          {{/each}}
+        </div>
+      {{/if}}
+    </div>
+  </div>
+</section>
