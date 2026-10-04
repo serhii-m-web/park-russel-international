@@ -1,5 +1,193 @@
-<footer id="footer" class="site-footer">
+<footer class="site-footer">
   <div class="container">
-    <small>© {{ year }} Park Russel International. All rights reserved.</small>
+    <div class="site-footer__nav">
+      <nav class="site-footer__column" aria-labelledby="footer-connect-title">
+        <h2 id="footer-connect-title" class="site-footer__title">Connect</h2>
+        <ul class="site-footer__list">
+          <li class="site-footer__item">
+            <a class="site-footer__link" href="#">Meet our people</a>
+          </li>
+          <li class="site-footer__item">
+            <a class="site-footer__link" href="#">Our UK offices</a>
+          </li>
+          <li class="site-footer__item">
+            <a class="site-footer__link" href="#">Subscribe</a>
+          </li>
+        </ul>
+      </nav>
+
+      <nav class="site-footer__column" aria-labelledby="footer-about-title">
+        <h2 id="footer-about-title" class="site-footer__title">About</h2>
+        <ul class="site-footer__list">
+          <li class="site-footer__item">
+            <a class="site-footer__link" href="#">About us</a>
+          </li>
+          <li class="site-footer__item">
+            <a class="site-footer__link" href="#">Careers</a>
+          </li>
+          <li class="site-footer__item">
+            <a class="site-footer__link" href="#">News centre</a>
+          </li>
+          <li class="site-footer__item">
+            <a class="site-footer__link" href="#">Sustainability</a>
+          </li>
+          <li class="site-footer__item">
+            <a class="site-footer__link" href="#">Your cookie preferences</a>
+          </li>
+          <li class="site-footer__item">
+            <a class="site-footer__link" href="#">Cookies on our site</a>
+          </li>
+        </ul>
+      </nav>
+
+      <nav class="site-footer__column" aria-labelledby="footer-legal-title">
+        <h2 id="footer-legal-title" class="site-footer__title">Legal</h2>
+        <ul class="site-footer__list">
+          <li class="site-footer__item">
+            <a class="site-footer__link" href="#">Privacy</a>
+          </li>
+          <li class="site-footer__item">
+            <a class="site-footer__link" href="#">Disclaimer</a>
+          </li>
+          <li class="site-footer__item">
+            <a class="site-footer__link" href="#">Terms and conditions</a>
+          </li>
+          <li class="site-footer__item">
+            <a class="site-footer__link" href="#">Our approach to tax</a>
+          </li>
+          <li class="site-footer__item">
+            <a class="site-footer__link" href="#">
+              Anti-bribery and corruption
+            </a>
+          </li>
+          <li class="site-footer__item">
+            <a class="site-footer__link" href="#">
+              Third Party code of conduct
+            </a>
+          </li>
+          <li class="site-footer__item">
+            <a class="site-footer__link" href="#">Remote access</a>
+          </li>
+          <li class="site-footer__item">
+            <a class="site-footer__link" href="#">Sitemap</a>
+          </li>
+          <li class="site-footer__item">
+            <a class="site-footer__link" href="#">Carbon reduction plan</a>
+          </li>
+          <li class="site-footer__item">
+            <a class="site-footer__link" href="#">Modern slavery statement</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="site-footer__column site-footer__column--services">
+        <h2 id="footer-services-title" class="site-footer__title">
+          Our services
+        </h2>
+        <nav aria-labelledby="footer-services-title">
+          <ul class="site-footer__list">
+            <li class="site-footer__item">
+              <a class="site-footer__link" href="#">Cyber</a>
+            </li>
+            <li class="site-footer__item">
+              <a class="site-footer__link" href="#">ESG</a>
+            </li>
+            <li class="site-footer__item">
+              <a class="site-footer__link" href="#">
+                Financial services advisory
+              </a>
+            </li>
+            <li class="site-footer__item">
+              <a class="site-footer__link" href="#">
+                Forensics and investigations
+              </a>
+            </li>
+            <li class="site-footer__item">
+              <a class="site-footer__link" href="#">
+                Government and public sector
+              </a>
+            </li>
+            <li class="site-footer__item">
+              <a class="site-footer__link" href="#">
+                Insolvency and global asset recovery
+              </a>
+            </li>
+            <li class="site-footer__item">
+              <a class="site-footer__link" href="#">Restructuring</a>
+            </li>
+            <li class="site-footer__item">
+              <a class="site-footer__link" href="#">Tax</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="site-footer__social">
+          <h2 id="footer-follow-title" class="site-footer__title">Follow us</h2>
+          <ul
+            class="site-footer__social-list"
+            aria-labelledby="footer-follow-title"
+          >
+            <li class="site-footer__social-item">
+              <a
+                class="site-footer__social-link"
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook (opens in a new tab)"
+              >
+                {{> icon
+                  name="facebook"
+                  width="16"
+                  height="16"
+                }}
+              </a>
+            </li>
+            <li class="site-footer__social-item">
+              <a
+                class="site-footer__social-link"
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="X (opens in a new tab)"
+              >
+                {{> icon
+                  name="twitter"
+                  width="16"
+                  height="16"
+                }}
+              </a>
+            </li>
+            <li class="site-footer__social-item">
+              <a
+                class="site-footer__social-link"
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn (opens in a new tab)"
+              >
+                {{> icon
+                  name="linkedin"
+                  width="16"
+                  height="16"
+                }}
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <p class="site-footer__copyright">
+      © 2016-2023 Parker Russell UK. All rights reserved. Parker Russell UK , member firm of the Parker Russell International, a leading global network of audit , tax and advisory firms. Parker Russell International and each of its member firms are legally separate and independent entities. Please see
+      <a
+        class="site-footer__copyright-link"
+        href="#"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        www.parkerrussell.co.uk/structure
+      </a>
+      for future details.
+    </p>
   </div>
 </footer>
