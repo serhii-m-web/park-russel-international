@@ -96,5 +96,59 @@
         "description": "Access coordinated audit and assurance expertise for businesses and groups whose operations, reporting requirements or stakeholders extend across multiple markets."
       }
     ]
+  },
+  "publications": {
+    "title": "Publications",
+    "button": {
+      "label": "See all publications",
+      "href": "#"
+    },
+    "items": [
+      {
+        "image": "/images/publications-cover-1.png",
+        "label": "IMF",
+        "date": "Report · October 2025",
+        "title": "Fiscal Monitor",
+        "description": "Spending Smarter: How Efficient and Well-Allocated Public Spending Can Boost Economic Growth.",
+        "link": {
+          "label": "Read more",
+          "href": "/files/Fiscal-Monitor-2025.pdf"
+        },
+        "download": {
+          "label": "Download",
+          "href": "/files/Fiscal-Monitor-2025.pdf"
+        }
+      },
+      {
+        "image": "/images/publications-cover-2.png",
+        "label": "World Bank Group",
+        "date": "Report · January 2026",
+        "title": "Global Economic Prospects",
+        "description": "The World Bank Group's flagship report on the outlook for the global economy.",
+        "link": {
+          "label": "Read more",
+          "href": "/files/Global-Economic-Prospects-2025.pdf"
+        },
+        "download": {
+          "label": "Download",
+          "href": "/files/Global-Economic-Prospects-2025.pdf"
+        }
+      },
+      {
+        "image": "/images/publications-cover-3.png",
+        "label": "OECD",
+        "date": "Outlook · 2026",
+        "title": "Anti-Corruption and Integrity Outlook 2026",
+        "description": "Harnessing the Integrity Advantage.",
+        "link": {
+          "label": "Read more",
+          "href": "/files/Anti-Corruption-and-Integrity-Outlook-2026.pdf"
+        },
+        "download": {
+          "label": "Download",
+          "href": "/files/Anti-Corruption-and-Integrity-Outlook-2026.pdf"
+        }
+      }
+    ]
   }
 }

@@ -1,0 +1,150 @@
+<section
+  class="section-publications"
+  data-publications-slider
+  aria-labelledby="section-publications-title"
+>
+  <div class="container">
+    <div class="section-publications__header">
+      <h2 id="section-publications-title" class="section-publications__title">
+        {{publications.title}}
+      </h2>
+      {{#if publications.button}}
+        <a
+          class="section-publications__button site-button secondary-red"
+          href="{{publications.button.href}}"
+        >
+          {{publications.button.label}}
+          {{> icon
+            name="arrow-right"
+            class="section-publications__button-icon"
+            width="16"
+            height="16"
+          }}
+        </a>
+      {{/if}}
+    </div>
+
+    {{#if publications.items.length}}
+      <div
+        class="swiper section-publications__list"
+        data-publications-slider-el
+        aria-roledescription="carousel"
+        aria-label="{{publications.title}}"
+      >
+        <div class="swiper-wrapper">
+          {{#each publications.items}}
+            <article class="swiper-slide section-publications__item">
+              <div class="section-publications__item-image-wrapper">
+                <img
+                  class="section-publications__item-image"
+                  src="{{image}}"
+                  alt="{{title}}"
+                  width="640"
+                  height="400"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+              <div class="section-publications__item-content">
+                <div class="section-publications__item-header">
+                  {{#if label}}
+                    <span class="section-publications__item-label">
+                      {{label}}
+                    </span>
+                  {{/if}}
+                  {{#if date}}
+                    <time
+                      class="section-publications__item-date"
+                      datetime="{{date}}"
+                    >
+                      {{date}}
+                    </time>
+                  {{/if}}
+                </div>
+                <h3 class="section-publications__item-title">{{title}}</h3>
+                {{#if description}}
+                  <p class="section-publications__item-description">
+                    {{description}}
+                  </p>
+                {{/if}}
+                <div class="section-publications__item-buttons">
+                  {{#if link}}
+                    <a
+                      class="section-publications__item-link preview-link"
+                      href="{{link.href}}"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {{link.label}}
+                      <span class="visually-hidden"> about {{title}}</span>
+                      {{> icon
+                        name="arrow-right"
+                        class="section-publications__item-icon"
+                        width="16"
+                        height="16"
+                      }}
+                    </a>
+                  {{/if}}
+                  {{#if download}}
+                    <a
+                      class="section-publications__item-link download-link"
+                      href="{{download.href}}"
+                      download
+                    >
+                      {{> icon
+                        name="download"
+                        class="section-publications__item-icon"
+                        width="16"
+                        height="16"
+                      }}
+                      {{download.label}}
+                    </a>
+                  {{/if}}
+                </div>
+              </div>
+            </article>
+          {{/each}}
+        </div>
+      </div>
+
+      <div
+        class="section-publications__navigation"
+        role="group"
+        aria-label="Publications slider controls"
+      >
+        <div
+          class="swiper-scrollbar section-publications__scrollbar"
+          data-publications-slider-scrollbar
+          tabindex="0"
+          aria-label="Slider progress"
+        ></div>
+        <div class="section-publications__nav-buttons">
+          <button
+            class="swiper-button-prev section-publications__nav-btn prev"
+            type="button"
+            data-publications-slider-prev
+            aria-label="Previous slide"
+          >
+            {{> icon
+              name="arrow-right"
+              width="16"
+              height="16"
+            }}
+          </button>
+          <button
+            class="swiper-button-next section-publications__nav-btn next"
+            type="button"
+            data-publications-slider-next
+            aria-label="Next slide"
+          >
+            {{> icon
+              name="arrow-right"
+              width="16"
+              height="16"
+            }}
+          </button>
+        </div>
+      </div>
+    {{/if}}
+  </div>
+</section>

@@ -35,4 +35,16 @@
       border: 1px solid $color-gray;
     }
   }
+
+  &.secondary-red {
+    background-color: transparent;
+    color: $color-red;
+    border: 1px solid $color-red;
+
+    &:hover {
+      background-color: $color-gray;
+      color: $color-white;
+      border: 1px solid $color-gray;
+    }
+  }
 }
