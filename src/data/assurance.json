@@ -22,5 +22,25 @@
         "icon": true
       }
     ]
+  },
+  "assuranceContentBanner": {
+    "id": "assurance-content-banner",
+    "ariaLabel": "The value of assurance",
+    "label": "THE VALUE OF ASSURANCE",
+    "title": "An Audit Ends With an Opinion. <br> Its Value Begins Much Earlier.",
+    "description": "Meaningful assurance is not simply about reviewing financial statements at the end of a reporting period.",
+    "image": "/images/content-img-2.png",
+    "imageAlt": "Assurance professionals reviewing financial information",
+    "text": "<span>It begins with understanding the organisation</span> — how it operates, where financial reporting risk exists, which judgements carry the greatest significance, how key information is produced and controlled, and whether the evidence supports the conclusions being reached.",
+    "banner": {
+      "imageBg": "/images/banner-bg-1.jpg",
+      "leftColumn": {
+        "icon": "/icons/petals.svg",
+        "text": "That becomes increasingly important as organisations grow, raise capital, complete transactions, enter new markets or operate through more complex structures."
+      },
+      "rightColumn": {
+        "text": "<span>Decisions depend on information.</span> Assurance provides confidence in what stands behind it."
+      }
+    }
   }
 }

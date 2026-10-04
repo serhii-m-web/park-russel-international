@@ -1,7 +1,6 @@
 @use '../abstracts' as *;
 
 .site-footer {
-  @include adaptive-value('margin-top', 112, 56, 1);
   @include adaptive-value('padding-top', 60, 40, 1);
   @include adaptive-value('padding-bottom', 60, 40, 1);
   color: $color-white;

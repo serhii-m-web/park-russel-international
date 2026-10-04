@@ -1,0 +1,123 @@
+<section
+  class="
+    section-page-content-banner
+    {{#if contentBanner.className}}
+      {{ contentBanner.className }}
+    {{/if}}
+  "
+  {{#if contentBanner.title}}
+    aria-labelledby="{{#if contentBanner.id}}{{ contentBanner.id }}{{else}}section-page-content-banner{{/if}}-title"
+  {{else}}
+    aria-label="{{#if contentBanner.ariaLabel}}{{ contentBanner.ariaLabel }}{{else}}Content{{/if}}"
+  {{/if}}
+>
+  <div class="container">
+    {{#if contentBanner.label}}
+      <span class="section-page-content-banner__label">
+        {{ contentBanner.label }}
+      </span>
+    {{/if}}
+
+    {{#if contentBanner.title}}
+      <div class="section-page-content-banner__header">
+        <h2
+          id="{{#if contentBanner.id}}{{ contentBanner.id }}{{else}}section-page-content-banner{{/if}}-title"
+          class="section-page-content-banner__title"
+        >
+          {{{ contentBanner.title }}}
+        </h2>
+
+        {{#if contentBanner.description}}
+          <p class="section-page-content-banner__description">
+            {{{ contentBanner.description }}}
+          </p>
+        {{/if}}
+      </div>
+    {{else}}
+      {{#if contentBanner.description}}
+        <div class="section-page-content-banner__header">
+          <p class="section-page-content-banner__description">
+            {{{ contentBanner.description }}}
+          </p>
+        </div>
+      {{/if}}
+    {{/if}}
+
+    {{#if contentBanner.image}}
+      <div class="section-page-content-banner__content">
+        {{picture
+          contentBanner.image
+          alt=contentBanner.imageAlt
+          class="section-page-content-banner__image"
+          width="1280"
+          height="720"
+        }}
+
+        {{#if contentBanner.text}}
+          <p class="section-page-content-banner__text">
+            {{{ contentBanner.text }}}
+          </p>
+        {{/if}}
+      </div>
+    {{else if contentBanner.text}}
+      <div class="section-page-content-banner__content">
+        <p class="section-page-content-banner__text">
+          {{{ contentBanner.text }}}
+        </p>
+      </div>
+    {{/if}}
+
+    {{#if contentBanner.banner}}
+      <div class="section-page-content-banner__banner">
+        {{#if contentBanner.banner.imageBg}}
+          <div
+            class="section-page-content-banner__banner-bg"
+            aria-hidden="true"
+          >
+            {{picture
+              contentBanner.banner.imageBg
+              alt=""
+              class="section-page-content-banner__banner-bg-image"
+              width="1280"
+              height="480"
+            }}
+          </div>
+        {{/if}}
+
+        <div class="section-page-content-banner__banner-content">
+          {{#if contentBanner.banner.leftColumn}}
+            <div class="section-page-content-banner__banner-left-column">
+              {{#if contentBanner.banner.leftColumn.icon}}
+                <img
+                  class="section-page-content-banner__banner-icon"
+                  src="{{ contentBanner.banner.leftColumn.icon }}"
+                  alt=""
+                  width="64"
+                  height="64"
+                  decoding="async"
+                  aria-hidden="true"
+                />
+              {{/if}}
+
+              {{#if contentBanner.banner.leftColumn.text}}
+                <p class="section-page-content-banner__banner-left-column-text">
+                  {{{ contentBanner.banner.leftColumn.text }}}
+                </p>
+              {{/if}}
+            </div>
+          {{/if}}
+
+          {{#if contentBanner.banner.rightColumn}}
+            <div class="section-page-content-banner__banner-right-column">
+              {{#if contentBanner.banner.rightColumn.text}}
+                <p class="section-page-content-banner__banner-right-column-text">
+                  {{{ contentBanner.banner.rightColumn.text }}}
+                </p>
+              {{/if}}
+            </div>
+          {{/if}}
+        </div>
+      </div>
+    {{/if}}
+  </div>
+</section>
