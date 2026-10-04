@@ -105,12 +105,19 @@ export default defineConfig(({ mode }) => {
           inc: (value: unknown) => String(Number(value) + 1),
           pad: (value: unknown, totalOrOptions?: unknown) => {
             const raw = String(value ?? '');
+
+            // Always zero-pad to 2 digits (e.g. cards: 01, 02, 03).
+            if (totalOrOptions === 'always' || totalOrOptions === true) {
+              return raw.padStart(2, '0');
+            }
+
             const total =
               typeof totalOrOptions === 'number' ||
               typeof totalOrOptions === 'string'
                 ? Number(totalOrOptions)
                 : NaN;
 
+            // Slider-style: pad only when there are 10+ items.
             if (!Number.isFinite(total) || total < 10) return raw;
             return raw.padStart(2, '0');
           },

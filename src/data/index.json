@@ -56,5 +56,45 @@
         "link": { "label": "Read More", "href": "#" }
       }
     ]
+  },
+  "mainContent": {
+    "title": ["When Business Crosses Borders,", "Complexity Multiplies."],
+    "description": "International growth rarely creates just one challenge. Entering a new market can affect tax, reporting, regulation, corporate structure, financing and compliance — often across several jurisdictions at the same time.",
+    "image": "/images/content-img.png",
+    "descriptionLines": [
+      "Parker Russell International connects the relevant expertise across its global network, enabling independent member firms to work together around the needs of the business. From a single cross-border matter to complex international operations, clients can access local knowledge in each market with the wider expertise needed to see the complete picture."
+    ],
+    "cards": [
+      {
+        "icon": "/icons/chart-pie.svg",
+        "title": "Entering a New Market",
+        "description": "From initial market entry and corporate structuring to tax, reporting and local requirements, access expertise in the jurisdictions where your business is expanding."
+      },
+      {
+        "icon": "/icons/layers.svg",
+        "title": "Managing an International Group",
+        "description": "Bring greater coordination to businesses operating across multiple countries, with expertise spanning assurance, financial reporting, taxation, transfer pricing and corporate requirements."
+      },
+      {
+        "icon": "/icons/segments.svg",
+        "title": "Cross-Border Transactions",
+        "description": "Navigate acquisitions, disposals, investments and other international transactions with financial, tax and advisory expertise across the relevant markets."
+      },
+      {
+        "icon": "/icons/quadrants.svg",
+        "title": "International Tax & Transfer Pricing",
+        "description": "Address the tax implications of international operations, corporate structures and intercompany arrangements with specialist expertise across jurisdictions."
+      },
+      {
+        "icon": "/icons/halves.svg",
+        "title": "Raising & Deploying Capital",
+        "description": "Make significant capital decisions with greater clarity through financial analysis, valuation, transaction support and strategic advisory expertise."
+      },
+      {
+        "icon": "/icons/petals.svg",
+        "title": "Multi-Jurisdiction Assurance",
+        "description": "Access coordinated audit and assurance expertise for businesses and groups whose operations, reporting requirements or stakeholders extend across multiple markets."
+      }
+    ]
   }
 }

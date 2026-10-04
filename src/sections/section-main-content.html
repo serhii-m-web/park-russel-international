@@ -1,0 +1,72 @@
+<section
+  class="section-main-content"
+  aria-labelledby="section-main-content-title"
+>
+  <div class="container">
+    <div class="section-main-content__inner">
+      <div class="section-main-content__content">
+        <h2 id="section-main-content-title" class="section-main-content__title">
+          {{#each mainContent.title}}
+            {{#unless @first}}
+              <br />
+            {{/unless}}
+            {{ this }}
+          {{/each}}
+        </h2>
+        {{#if mainContent.image}}
+          {{picture
+            mainContent.image
+            alt=""
+            class="section-main-content__image"
+            width="500"
+            height="500"
+          }}
+        {{/if}}
+      </div>
+      <div class="section-main-content__text">
+        {{#if mainContent.description}}
+          <p class="section-main-content__text-description fz22">
+            {{ mainContent.description }}
+          </p>
+        {{/if}}
+        {{#each mainContent.descriptionLines}}
+          <p class="section-main-content__text-description fz18">
+            {{ this }}
+          </p>
+        {{/each}}
+      </div>
+    </div>
+    {{#if mainContent.cards.length}}
+      <div class="section-main-content__cards">
+        {{#each mainContent.cards}}
+          <article class="section-main-content__card">
+            <div class="section-main-content__card-header">
+              {{#if icon}}
+                <img
+                  class="section-main-content__card-icon"
+                  src="{{icon}}"
+                  alt=""
+                  width="64"
+                  height="64"
+                  decoding="async"
+                  aria-hidden="true"
+                />
+              {{/if}}
+              <span class="section-main-content__card-number">
+                {{pad (inc @index) "always"}}
+              </span>
+            </div>
+            {{#if title}}
+              <h3 class="section-main-content__card-title">{{title}}</h3>
+            {{/if}}
+            {{#if description}}
+              <p class="section-main-content__card-description">
+                {{description}}
+              </p>
+            {{/if}}
+          </article>
+        {{/each}}
+      </div>
+    {{/if}}
+  </div>
+</section>
