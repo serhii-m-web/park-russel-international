@@ -35,15 +35,13 @@
           {{#each publications.items}}
             <article class="swiper-slide section-publications__item">
               <div class="section-publications__item-image-wrapper">
-                <img
+                {{picture
+                  image
+                  alt=title
                   class="section-publications__item-image"
-                  src="{{image}}"
-                  alt="{{title}}"
-                  width="640"
-                  height="400"
-                  loading="lazy"
-                  decoding="async"
-                />
+                  width="192"
+                  height="264"
+                }}
               </div>
               <div class="section-publications__item-content">
                 <div class="section-publications__item-header">
@@ -55,7 +53,7 @@
                   {{#if date}}
                     <time
                       class="section-publications__item-date"
-                      datetime="{{date}}"
+                      datetime="{{datetime}}"
                     >
                       {{date}}
                     </time>

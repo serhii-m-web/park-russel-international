@@ -82,7 +82,7 @@
 
   &__card {
     @include adaptive-value('padding', 32, 20, 1);
-    border-top: 1px solid #dfe2ea;
+    border-top: 1px solid $color-line;
     &-header {
       display: flex;
       align-items: flex-start;

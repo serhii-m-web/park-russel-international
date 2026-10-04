@@ -1,4 +1,41 @@
 {
+  "hero": {
+    "titleLines": [
+      "Business Across Borders.",
+      "Expertise Across Markets."
+    ],
+    "description": "Parker Russell International brings together independent audit, tax, accounting and advisory firms across the world — connecting businesses with the expertise they need in the markets where they operate and grow.",
+    "buttons": [
+      {
+        "label": "Find a Member Firm",
+        "href": "#",
+        "variant": "primary",
+        "icon": true
+      },
+      {
+        "label": "Explore Our Expertise",
+        "href": "#",
+        "variant": "secondary",
+        "icon": false
+      }
+    ],
+    "metricsLabel": "Key figures",
+    "metrics": [
+      {
+        "value": "86",
+        "label": "Countries"
+      },
+      {
+        "value": "184",
+        "label": "Offices"
+      },
+      {
+        "value": "2,000",
+        "suffix": "+",
+        "label": "Professionals"
+      }
+    ]
+  },
   "expertiseSlider": {
     "id": "expertise-slider",
     "className": "",
@@ -50,9 +87,9 @@
         "link": { "label": "Read More", "href": "#" }
       },
       {
-        "image": "/images/sliders/slide-img-5.png",
-        "title": "Consumer Business",
-        "description": "Consumer businesses operate in markets shaped by changing demand, margin pressure, evolving sales channels and increasingly complex supply chains.",
+        "image": "/images/sliders/slide-img-3.png",
+        "title": "Energy & Natural Resources",
+        "description": "Energy and natural resources businesses navigate capital intensity, regulatory scrutiny and shifting market conditions across exploration, production and infrastructure.",
         "link": { "label": "Read More", "href": "#" }
       }
     ]
@@ -61,6 +98,7 @@
     "title": ["When Business Crosses Borders,", "Complexity Multiplies."],
     "description": "International growth rarely creates just one challenge. Entering a new market can affect tax, reporting, regulation, corporate structure, financing and compliance — often across several jurisdictions at the same time.",
     "image": "/images/content-img.png",
+    "imageAlt": "Global business network illustration",
     "descriptionLines": [
       "Parker Russell International connects the relevant expertise across its global network, enabling independent member firms to work together around the needs of the business. From a single cross-border matter to complex international operations, clients can access local knowledge in each market with the wider expertise needed to see the complete picture."
     ],
@@ -108,77 +146,91 @@
         "image": "/images/publications-cover-1.png",
         "label": "IMF",
         "date": "Report · October 2025",
+        "datetime": "2025-10-01",
         "title": "Fiscal Monitor",
         "description": "Spending Smarter: How Efficient and Well-Allocated Public Spending Can Boost Economic Growth.",
         "link": {
           "label": "Read more",
-          "href": "/files/Fiscal-Monitor-2025.pdf"
+          "href": "#"
         },
         "download": {
           "label": "Download",
-          "href": "/files/Fiscal-Monitor-2025.pdf"
+          "href": "#"
         }
       },
       {
         "image": "/images/publications-cover-2.png",
         "label": "World Bank Group",
         "date": "Report · January 2026",
+        "datetime": "2026-01-01",
         "title": "Global Economic Prospects",
         "description": "The World Bank Group's flagship report on the outlook for the global economy.",
         "link": {
           "label": "Read more",
-          "href": "/files/Global-Economic-Prospects-2025.pdf"
+          "href": "#"
         },
         "download": {
           "label": "Download",
-          "href": "/files/Global-Economic-Prospects-2025.pdf"
+          "href": "#"
         }
       },
       {
         "image": "/images/publications-cover-3.png",
         "label": "OECD",
         "date": "Outlook · 2026",
+        "datetime": "2026-01-01",
         "title": "Anti-Corruption and Integrity Outlook 2026",
         "description": "Harnessing the Integrity Advantage.",
         "link": {
           "label": "Read more",
-          "href": "/files/Anti-Corruption-and-Integrity-Outlook-2026.pdf"
+          "href": "#"
         },
         "download": {
           "label": "Download",
-          "href": "/files/Anti-Corruption-and-Integrity-Outlook-2026.pdf"
+          "href": "#"
         }
       }
     ]
   },
   "latestNews": {
     "title": "Latest News",
-    "link": {
+    "button": {
       "label": "View All News",
       "href": "#"
     },
     "featured": {
       "status": "Latest",
       "date": "4 August 2025",
+      "datetime": "2025-08-04",
       "category": "Compliance",
       "title": "Companies House Crackdown: Businesses Urged to Act on ECCTA Deadlines",
-      "description": "Research by Vistra shows fewer than one in three UK company directors feel ready for the upcoming Economic Crime and Corporate Transparency Act (ECCTA)…"
+      "description": "Research by Vistra shows fewer than one in three UK company directors feel ready for the upcoming Economic Crime and Corporate Transparency Act (ECCTA)…",
+      "link": {
+        "label": "Read article",
+        "href": "#"
+      }
     },
     "list": [
       {
         "date": "25 June 2025",
+        "datetime": "2025-06-25",
         "category": "Accounting Standards",
-        "title": "David M. Sullivan Appointed to Chair Financial Accounting Standards Advisory Council"
+        "title": "David M. Sullivan Appointed to Chair Financial Accounting Standards Advisory Council",
+        "href": "#"
       },
       {
         "date": "18 June 2025",
+        "datetime": "2025-06-18",
         "category": "Regulation",
-        "title": "£4m Fine for Director in Client Money Breach"
+        "title": "£4m Fine for Director in Client Money Breach",
+        "href": "#"
       },
       {
         "date": "20 May 2025",
+        "datetime": "2025-05-20",
         "category": "ESG",
-        "title": "The Next Generation of Investors Is Powering ESG's Revival"
+        "title": "The Next Generation of Investors Is Powering ESG's Revival",
+        "href": "#"
       }
     ]
   }

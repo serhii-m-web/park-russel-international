@@ -48,3 +48,50 @@
     }
   }
 }
+
+.site-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  color: $color-red;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: -0.5%;
+  transition: color 0.3s ease;
+
+  svg {
+    flex-shrink: 0;
+    box-sizing: content-box;
+    padding: 8px;
+    border-radius: 50%;
+    border: 1px solid currentColor;
+    transition: all 0.3s ease;
+  }
+
+  &:hover {
+    svg {
+      color: $color-white;
+      background-color: $color-red;
+      border-color: $color-red;
+    }
+  }
+
+  &--on-dark {
+    color: $color-white;
+
+    svg {
+      border-color: $color-white;
+    }
+
+    &:hover {
+      color: $color-red;
+
+      svg {
+        color: $color-white;
+        background-color: $color-red;
+        border-color: $color-red;
+      }
+    }
+  }
+}

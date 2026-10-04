@@ -72,7 +72,7 @@
         width: 4px;
         height: 4px;
         border-radius: 50%;
-        background-color: #c7dde6;
+        background-color: $color-ice;
         flex-shrink: 0;
 
         &.red {
@@ -88,7 +88,7 @@
     &-category {
       font-size: 12px;
       font-weight: 600;
-      color: #c7dde6;
+      color: $color-ice;
       text-transform: uppercase;
     }
 
@@ -111,7 +111,7 @@
       @include adaptive-value('font-size', 18, 16, 1);
       @include adaptive-value('margin-bottom', 16, 12, 1);
       font-weight: 400;
-      color: #c7dde6;
+      color: $color-ice;
       line-height: calc(28 / 18);
       line-clamp: 3;
       -webkit-line-clamp: 3;
@@ -124,33 +124,12 @@
       position: relative;
       z-index: 2;
       @include adaptive-value('padding-top', 24, 16, 1);
-      border-top: 1px solid #dfe2ea33;
+      border-top: 1px solid rgba($color-line, 0.2);
+      margin-top: auto;
     }
 
     &-link {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 8px;
-      color: $color-white;
-
-      &:hover {
-        .section-latest-news__item-big-link-icon {
-          border-color: $color-red;
-        }
-        color: $color-red;
-      }
-    }
-
-    &-link-icon {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 32px;
-      height: 32px;
-      border-radius: 50%;
-      border: 1px solid $color-white;
-      transition: all 0.3s ease;
+      width: 100%;
     }
   }
 
@@ -161,10 +140,10 @@
     gap: 20px;
     @include adaptive-value('padding-top', 32, 20, 1);
     @include adaptive-value('padding-bottom', 32, 20, 1);
-    border-bottom: 1px solid #dfe2ea;
+    border-bottom: 1px solid $color-line;
 
     &:first-child {
-      border-top: 1px solid #dfe2ea;
+      border-top: 1px solid $color-line;
     }
 
     &:hover {
@@ -213,7 +192,7 @@
     &-title {
       @include adaptive-value('font-size', 26, 19, 1);
       font-weight: 400;
-      color: #0f1433;
+      color: $color-ink;
       line-height: calc(32 / 26);
       letter-spacing: -1%;
       line-clamp: 3;
