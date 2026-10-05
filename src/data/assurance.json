@@ -42,5 +42,57 @@
         "text": "<span>Decisions depend on information.</span> Assurance provides confidence in what stands behind it."
       }
     }
+  },
+  "assuranceCardsContent": {
+    "id": "assurance-cards-content",
+    "ariaLabel": "Assurance services",
+    "carouselLabel": "When assurance matters most",
+    "label": "WHEN ASSURANCE MATTERS MOST",
+    "title": "As Complexity Increases, <br> So Does the Need for Confidence.",
+    "description": "Periods of change can alter an organisation's financial reporting risks, control environment and stakeholder expectations. These are often the moments when independent assurance becomes particularly important.",
+    "cards": [
+      {
+        "image": "/images/card-content-img-1.png",
+        "imageAlt": "International Expansion",
+        "icon": "/icons/chart-pie-black.svg",
+        "title": "International Expansion",
+        "description": "New entities, jurisdictions, reporting requirements and regulatory environments can create additional financial and operational complexity."
+      },
+      {
+        "image": "/images/card-content-img-2.png",
+        "imageAlt": "Investment & Financing",
+        "icon": "/icons/layers-black.svg",
+        "title": "Investment & Financing",
+        "description": "Investors, lenders and other stakeholders need financial information they can assess with confidence when capital is being raised or deployed."
+      },
+      {
+        "image": "/images/card-content-img-3.png",
+        "imageAlt": "Rapid Growth",
+        "icon": "/icons/segments-black.svg",
+        "title": "Rapid Growth",
+        "description": "Financial systems, reporting processes and internal controls need to keep pace as an organisation becomes larger and more complex."
+      },
+      {
+        "image": "/images/card-content-img-4.png",
+        "imageAlt": "Transactions",
+        "icon": "/icons/layers-black.svg",
+        "title": "Transactions",
+        "description": "Acquisitions, disposals and restructuring can materially change an organisation's financial position, reporting requirements and risk profile."
+      },
+      {
+        "image": "/images/card-content-img-5.png",
+        "imageAlt": "Complex Group Structures",
+        "icon": "/icons/segments-black.svg",
+        "title": "Complex Group Structures",
+        "description": "Multiple entities and jurisdictions need to form a coherent financial picture while meeting relevant local and group requirements."
+      },
+      {
+        "image": "/images/card-content-img-6.png",
+        "imageAlt": "Regulatory Change",
+        "icon": "/icons/segments-black.svg",
+        "title": "Regulatory Change",
+        "description": "New requirements can change financial reporting, governance, control and compliance responsibilities."
+      }
+    ]
   }
 }

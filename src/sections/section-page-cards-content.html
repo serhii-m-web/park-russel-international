@@ -1,0 +1,139 @@
+<section
+  class="
+    section-page-cards-content
+    {{#if cardsContent.className}}
+      {{ cardsContent.className }}
+    {{/if}}
+  "
+  data-cards-content-slider
+  {{#if cardsContent.title}}
+    aria-labelledby="{{#if cardsContent.id}}{{ cardsContent.id }}{{else}}section-page-cards-content{{/if}}-title"
+  {{else}}
+    aria-label="{{#if cardsContent.ariaLabel}}{{ cardsContent.ariaLabel }}{{else}}Cards{{/if}}"
+  {{/if}}
+>
+  <div class="container">
+    {{#if cardsContent.label}}
+      <span class="page-label">
+        {{ cardsContent.label }}
+      </span>
+    {{/if}}
+
+    {{#if cardsContent.title}}
+      <div class="section-page-cards-content__header">
+        <h2
+          id="{{#if cardsContent.id}}{{ cardsContent.id }}{{else}}section-page-cards-content{{/if}}-title"
+          class="section-page-cards-content__title"
+        >
+          {{{ cardsContent.title }}}
+        </h2>
+
+        {{#if cardsContent.description}}
+          <p class="section-page-cards-content__description">
+            {{{ cardsContent.description }}}
+          </p>
+        {{/if}}
+      </div>
+    {{else}}
+      {{#if cardsContent.description}}
+        <div class="section-page-cards-content__header">
+          <p class="section-page-cards-content__description">
+            {{{ cardsContent.description }}}
+          </p>
+        </div>
+      {{/if}}
+    {{/if}}
+
+    {{#if cardsContent.cards.length}}
+      <div
+        class="swiper section-page-cards-content__cards"
+        data-cards-content-slider-el
+        data-cards-content-slider-label="{{#if cardsContent.carouselLabel}}{{ cardsContent.carouselLabel }}{{else}}{{ cardsContent.ariaLabel }}{{/if}}"
+      >
+        <div class="swiper-wrapper">
+          {{#each cardsContent.cards}}
+            <article class="swiper-slide section-page-cards-content__card">
+              {{#if image}}
+                {{picture
+                  image
+                  alt=imageAlt
+                  class="section-page-cards-content__card-image"
+                  width="640"
+                  height="400"
+                }}
+              {{/if}}
+
+              <div class="section-page-cards-content__card-inner">
+                {{#if icon}}
+                  <div class="section-page-cards-content__card-icon">
+                    <img
+                      src="{{ icon }}"
+                      alt=""
+                      width="64"
+                      height="64"
+                      decoding="async"
+                      aria-hidden="true"
+                    />
+                  </div>
+                {{/if}}
+
+                {{#if title}}
+                  <h3 class="section-page-cards-content__card-title">
+                    {{{ title }}}
+                  </h3>
+                {{/if}}
+
+                {{#if description}}
+                  <p class="section-page-cards-content__card-description">
+                    {{{ description }}}
+                  </p>
+                {{/if}}
+              </div>
+            </article>
+          {{/each}}
+        </div>
+      </div>
+
+      <div
+        class="section-page-cards-content__navigation"
+        role="group"
+        aria-label="Cards slider controls"
+        data-cards-content-slider-nav
+        inert
+      >
+        <div
+          class="swiper-scrollbar section-page-cards-content__scrollbar"
+          data-cards-content-slider-scrollbar
+          tabindex="0"
+          aria-label="Slider progress"
+        ></div>
+        <div class="section-page-cards-content__nav-buttons">
+          <button
+            class="swiper-button-prev section-page-cards-content__nav-btn prev"
+            type="button"
+            data-cards-content-slider-prev
+            aria-label="Previous slide"
+          >
+            {{> icon
+              name="arrow-right"
+              width="16"
+              height="16"
+            }}
+          </button>
+          <button
+            class="swiper-button-next section-page-cards-content__nav-btn next"
+            type="button"
+            data-cards-content-slider-next
+            aria-label="Next slide"
+          >
+            {{> icon
+              name="arrow-right"
+              width="16"
+              height="16"
+            }}
+          </button>
+        </div>
+      </div>
+    {{/if}}
+  </div>
+</section>

@@ -1,4 +1,5 @@
 import '../styles/main.scss';
+import { initCardsContentSlider } from './cardsContentSlider';
 import { initMegaMenu } from './megaMenu';
 import { initMobileNav } from './mobileNav';
 import { initPublicationsSlider } from './publicationsSlider';
@@ -10,6 +11,7 @@ function init(): void {
   initMobileNav();
   initSectionSlider();
   initPublicationsSlider();
+  initCardsContentSlider();
 }
 
 if (document.readyState === 'loading') {
