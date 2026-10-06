@@ -94,5 +94,53 @@
         "description": "New requirements can change financial reporting, governance, control and compliance responsibilities."
       }
     ]
+  },
+  "assuranceTabs": {
+    "id": "assurance-tabs",
+    "ariaLabel": "Assurance services",
+    "label": "ASSURANCE CAPABILITIES",
+    "title": "Different Risks Require Different <br> Forms of Assurance.",
+    "items": [
+      {
+        "id": "financial-statement-audit",
+        "label": "Financial Statement Audit",
+        "icon": "/icons/chart-pie.svg",
+        "title": "Financial Statement Audit",
+        "description": "Independent financial statement audit focused on material risk, significant judgement and the evidence supporting reported financial information.",
+        "text": "Our professionals develop an understanding of the organisation, its operations and its financial reporting environment before assessing the areas requiring the greatest audit attention.<br><br>The objective is a rigorous audit grounded in professional scepticism, appropriate evidence and a clear understanding of the business behind the financial statements."
+      },
+      {
+        "id": "internal-audit",
+        "label": "Internal Audit",
+        "icon": "/icons/layers.svg",
+        "title": "Internal Audit",
+        "description": "Independent internal audit support that strengthens oversight, evaluates controls and helps management respond to emerging risks.",
+        "text": "Work is shaped around the organisation's risk profile, governance needs and operating environment — from targeted reviews to broader internal audit programmes.<br><br>The focus is practical insight: clearer visibility of control effectiveness, stronger challenge where it matters, and recommendations that support better decision-making."
+      },
+      {
+        "id": "risk-internal-controls",
+        "label": "Risk & Internal Controls",
+        "icon": "/icons/segments.svg",
+        "title": "Risk & Internal Controls",
+        "description": "Assessment and improvement of risk management and internal control frameworks that underpin reliable reporting and sound governance.",
+        "text": "As organisations grow or change, control environments can lag behind complexity. Our teams help identify where risk concentrates, how controls operate in practice, and what needs to strengthen.<br><br>The outcome is a clearer control landscape — one that supports accurate reporting, operational resilience and stakeholder confidence."
+      },
+      {
+        "id": "information-risk",
+        "label": "Information Risk",
+        "icon": "/icons/petals.svg",
+        "title": "Information Risk",
+        "description": "Assurance over the systems, processes and controls that produce the information organisations rely on to report and decide.",
+        "text": "Financial and operational decisions depend on data that is complete, accurate and well controlled. Information risk work examines how that data is generated, protected and used.<br><br>This helps organisations reduce exposure where reporting, technology or process weaknesses could undermine the reliability of key information."
+      },
+      {
+        "id": "international-group-assurance",
+        "label": "International & Group Assurance",
+        "icon": "/icons/halves.svg",
+        "title": "International & Group Assurance",
+        "description": "Coordinated assurance across entities and jurisdictions for a coherent group financial picture.",
+        "text": "Local knowledge is combined with consistent international standards so group reporting remains clear, reliable and decision-ready.<br><br>Whether supporting component audits, group reporting packages or cross-border assurance needs, the emphasis is on coordination, quality and a joined-up view of the organisation as a whole."
+      }
+    ]
   }
 }

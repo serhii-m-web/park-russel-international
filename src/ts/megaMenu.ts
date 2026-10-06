@@ -47,9 +47,6 @@ export function initMegaMenu(root: ParentNode = document): void {
 
     panel.inert = true;
 
-    const cats = panel.querySelectorAll<HTMLButtonElement>('[data-mega-cat]');
-    const panes = panel.querySelectorAll<HTMLElement>('[data-mega-pane]');
-
     const open = () => {
       clearCloseTimer(item);
       closeAll(item);
@@ -57,23 +54,6 @@ export function initMegaMenu(root: ParentNode = document): void {
       panel.setAttribute('aria-hidden', 'false');
       panel.inert = false;
       item.classList.add('is-open');
-    };
-
-    const activateCat = (cat: HTMLButtonElement) => {
-      const targetId = cat.dataset.megaTarget;
-      if (!targetId) return;
-
-      cats.forEach((button) => {
-        const isActive = button === cat;
-        button.classList.toggle('is-active', isActive);
-        button.setAttribute('aria-selected', String(isActive));
-      });
-
-      panes.forEach((pane) => {
-        const isActive = pane.id === targetId;
-        pane.classList.toggle('is-active', isActive);
-        pane.setAttribute('aria-hidden', String(!isActive));
-      });
     };
 
     if (canHover) {
@@ -102,13 +82,6 @@ export function initMegaMenu(root: ParentNode = document): void {
 
       if (isOpen(item)) closeItem(item);
       else open();
-    });
-
-    cats.forEach((cat) => {
-      cat.addEventListener('click', (event) => {
-        event.stopPropagation();
-        activateCat(cat);
-      });
     });
   });
 

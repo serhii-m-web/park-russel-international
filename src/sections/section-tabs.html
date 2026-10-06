@@ -1,0 +1,136 @@
+<section
+  class="
+    section-tabs
+    {{#if tabs.className}}
+      {{ tabs.className }}
+    {{/if}}
+  "
+  data-section-tabs
+  {{#if tabs.title}}
+    aria-labelledby="{{#if tabs.id}}{{ tabs.id }}{{else}}section-tabs{{/if}}-title"
+  {{else}}
+    aria-label="{{#if tabs.ariaLabel}}{{ tabs.ariaLabel }}{{else}}Tabs{{/if}}"
+  {{/if}}
+>
+  <div class="container">
+    {{#if tabs.label}}
+      <span class="page-label">
+        {{ tabs.label }}
+      </span>
+    {{/if}}
+
+    {{#if tabs.title}}
+      <h2
+        id="{{#if tabs.id}}{{ tabs.id }}{{else}}section-tabs{{/if}}-title"
+        class="section-tabs__title"
+      >
+        {{{ tabs.title }}}
+      </h2>
+    {{/if}}
+
+    <div class="section-tabs__content">
+      {{#if tabs.items}}
+        <div
+          class="section-tabs__buttons"
+          role="tablist"
+          aria-orientation="vertical"
+          aria-label="{{#if tabs.ariaLabel}}{{ tabs.ariaLabel }}{{else}}{{#if tabs.label}}{{ tabs.label }}{{else}}Tabs{{/if}}{{/if}}"
+        >
+          {{#each tabs.items}}
+            <button
+              id="{{#if ../tabs.id}}{{ ../tabs.id }}{{else}}section-tabs{{/if}}-tab-{{ id }}"
+              class="
+                section-tabs__button
+                {{#if @first}}
+                  is-active
+                {{/if}}
+              "
+              type="button"
+              role="tab"
+              aria-selected="{{#if @first}}true{{else}}false{{/if}}"
+              aria-controls="{{#if ../tabs.id}}{{ ../tabs.id }}{{else}}section-tabs{{/if}}-panel-{{ id }}"
+              tabindex="{{#if @first}}0{{else}}-1{{/if}}"
+              data-tabs-trigger
+              data-tabs-target="{{#if ../tabs.id}}{{ ../tabs.id }}{{else}}section-tabs{{/if}}-panel-{{ id }}"
+            >
+              <span class="section-tabs__button-label">{{ label }}</span>
+              {{> icon
+                name="arrow-right"
+                width="16"
+                height="16"
+                class="section-tabs__button-icon"
+              }}
+            </button>
+          {{/each}}
+        </div>
+
+        <div class="section-tabs__panels">
+          {{#each tabs.items}}
+            <div
+              id="{{#if ../tabs.id}}{{ ../tabs.id }}{{else}}section-tabs{{/if}}-panel-{{ id }}"
+              class="
+                section-tabs__panel
+                {{#if @first}}
+                  is-active
+                {{/if}}
+              "
+              role="tabpanel"
+              aria-labelledby="{{#if ../tabs.id}}{{ ../tabs.id }}{{else}}section-tabs{{/if}}-tab-{{ id }}"
+              tabindex="{{#if @first}}0{{else}}-1{{/if}}"
+              data-tabs-panel
+              {{#unless @first}}
+                hidden
+              {{/unless}}
+            >
+              {{#if title}}
+                <div class="section-tabs__panel-header">
+                  <h3 class="section-tabs__panel-title">
+                    {{{ title }}}
+                  </h3>
+
+                  {{#if icon}}
+                    <img
+                      class="section-tabs__panel-icon"
+                      src="{{ icon }}"
+                      alt=""
+                      width="64"
+                      height="64"
+                      decoding="async"
+                      aria-hidden="true"
+                    />
+                  {{/if}}
+                </div>
+              {{else}}
+                {{#if icon}}
+                  <div class="section-tabs__panel-header">
+                    <img
+                      class="section-tabs__panel-icon"
+                      src="{{ icon }}"
+                      alt=""
+                      width="64"
+                      height="64"
+                      decoding="async"
+                      aria-hidden="true"
+                    />
+                  </div>
+                {{/if}}
+              {{/if}}
+
+              {{#if description}}
+                <p class="section-tabs__panel-description">
+                  {{{ description }}}
+                </p>
+              {{/if}}
+
+              {{#if text}}
+                <p class="section-tabs__panel-text">
+                  {{{ text }}}
+                </p>
+              {{/if}}
+            </div>
+          {{/each}}
+        </div>
+      {{/if}}
+    </div>
+  </div>
+</section>
