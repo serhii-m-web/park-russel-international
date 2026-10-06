@@ -1,0 +1,149 @@
+<section
+  class="
+    section-risk-perspective
+    {{#if riskPerspective.className}}
+      {{ riskPerspective.className }}
+    {{/if}}
+  "
+  data-risk-perspective-slider
+  {{#if riskPerspective.title}}
+    aria-labelledby="{{#if riskPerspective.id}}{{ riskPerspective.id }}{{else}}section-risk-perspective{{/if}}-title"
+  {{else}}
+    aria-label="{{#if riskPerspective.ariaLabel}}{{ riskPerspective.ariaLabel }}{{else}}Risk perspective{{/if}}"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-risk-perspective__layout">
+      <div class="section-risk-perspective__narrative">
+        {{#if riskPerspective.image}}
+          <div class="section-risk-perspective__narrative-media" aria-hidden="true">
+            {{picture
+              riskPerspective.image
+              alt=""
+              class="section-risk-perspective__narrative-image"
+              width="560"
+              height="834"
+            }}
+          </div>
+        {{/if}}
+
+        <div class="section-risk-perspective__narrative-content">
+          <div class="section-risk-perspective__intro">
+            {{#if riskPerspective.title}}
+              <h2
+                id="{{#if riskPerspective.id}}{{ riskPerspective.id }}{{else}}section-risk-perspective{{/if}}-title"
+                class="section-risk-perspective__title"
+              >
+                {{{ riskPerspective.title }}}
+              </h2>
+            {{/if}}
+
+            {{#if riskPerspective.lead}}
+              <p class="section-risk-perspective__lead">
+                {{{ riskPerspective.lead }}}
+              </p>
+            {{/if}}
+
+            {{#if riskPerspective.text}}
+              {{#each riskPerspective.text}}
+                <p class="section-risk-perspective__text">
+                  {{{ this }}}
+                </p>
+              {{/each}}
+            {{/if}}
+          </div>
+
+          {{#if riskPerspective.statement}}
+            <div class="section-risk-perspective__statement">
+              <span class="section-risk-perspective__rule" aria-hidden="true"></span>
+              <p class="section-risk-perspective__statement-text">
+                {{{ riskPerspective.statement }}}
+              </p>
+            </div>
+          {{/if}}
+        </div>
+      </div>
+
+      {{#if riskPerspective.factors}}
+        <div class="section-risk-perspective__factors-wrap">
+          <div
+            class="swiper section-risk-perspective__factors"
+            data-risk-perspective-slider-el
+            data-risk-perspective-slider-label="{{#if riskPerspective.carouselLabel}}{{ riskPerspective.carouselLabel }}{{else}}{{ riskPerspective.ariaLabel }}{{/if}}"
+          >
+            <div class="swiper-wrapper">
+              {{#each riskPerspective.factors}}
+                <article class="swiper-slide section-risk-perspective__factor">
+                  {{#if icon}}
+                    <span class="section-risk-perspective__factor-icon" aria-hidden="true">
+                      <img
+                        src="{{ icon }}"
+                        alt=""
+                        width="32"
+                        height="32"
+                        decoding="async"
+                      />
+                    </span>
+                  {{/if}}
+
+                  {{#if title}}
+                    <h3 class="section-risk-perspective__factor-title">
+                      {{{ title }}}
+                    </h3>
+                  {{/if}}
+
+                  {{#if description}}
+                    <p class="section-risk-perspective__factor-text">
+                      {{{ description }}}
+                    </p>
+                  {{/if}}
+                </article>
+              {{/each}}
+            </div>
+          </div>
+
+          <div
+            class="section-risk-perspective__navigation"
+            role="group"
+            aria-label="Risk factors slider controls"
+            data-risk-perspective-slider-nav
+            inert
+          >
+            <div
+              class="swiper-scrollbar section-risk-perspective__scrollbar"
+              data-risk-perspective-slider-scrollbar
+              tabindex="0"
+              aria-label="Slider progress"
+            ></div>
+            <div class="section-risk-perspective__nav-buttons">
+              <button
+                class="swiper-button-prev section-risk-perspective__nav-btn prev"
+                type="button"
+                data-risk-perspective-slider-prev
+                aria-label="Previous slide"
+              >
+                {{> icon
+                  name="arrow-right"
+                  width="16"
+                  height="16"
+                }}
+              </button>
+              <button
+                class="swiper-button-next section-risk-perspective__nav-btn next"
+                type="button"
+                data-risk-perspective-slider-next
+                aria-label="Next slide"
+              >
+                {{> icon
+                  name="arrow-right"
+                  width="16"
+                  height="16"
+                }}
+              </button>
+            </div>
+          </div>
+        </div>
+      {{/if}}
+    </div>
+  </div>
+</section>

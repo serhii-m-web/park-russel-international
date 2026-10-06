@@ -95,6 +95,51 @@
       }
     ]
   },
+  "assuranceRiskPerspective": {
+    "id": "assurance-risk-perspective",
+    "ariaLabel": "A risk-focused perspective",
+    "carouselLabel": "Risk factors",
+    "image": "/images/risk-perspective-bg.png",
+    "title": "Risk Changes. The Audit Must Respond.",
+    "lead": "No two organisations carry exactly the same financial reporting risks.",
+    "text": [
+      "Business models differ. Financing structures differ. Systems, transactions, regulation and areas of significant judgement differ.",
+      "Growth, acquisitions, new technology, market entry and regulatory change can also alter where material risk exists and where audit attention is most valuable."
+    ],
+    "statement": "That is why a meaningful audit begins with the business — not with a standard checklist.",
+    "factors": [
+      {
+        "icon": "/icons/risk-business-model.svg",
+        "title": "Business Model",
+        "description": "Understanding how the organisation operates, generates value and records financial activity."
+      },
+      {
+        "icon": "/icons/risk-reporting.svg",
+        "title": "Financial Reporting Risk",
+        "description": "Identifying where material misstatement could arise."
+      },
+      {
+        "icon": "/icons/risk-judgement.svg",
+        "title": "Judgement",
+        "description": "Recognising the estimates, assumptions and accounting judgements requiring greater scrutiny."
+      },
+      {
+        "icon": "/icons/risk-controls.svg",
+        "title": "Controls",
+        "description": "Understanding how significant financial information is produced, reviewed and governed."
+      },
+      {
+        "icon": "/icons/risk-change.svg",
+        "title": "Change",
+        "description": "Assessing how transactions, technology, growth and regulation affect the organisation's risk profile."
+      },
+      {
+        "icon": "/icons/risk-evidence.svg",
+        "title": "Evidence",
+        "description": "Determining what evidence is required to support a robust professional conclusion."
+      }
+    ]
+  },
   "assuranceTabs": {
     "id": "assurance-tabs",
     "ariaLabel": "Assurance services",

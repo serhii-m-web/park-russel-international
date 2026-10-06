@@ -3,6 +3,7 @@ import { initCardsContentSlider } from './cardsContentSlider';
 import { initMegaMenu } from './megaMenu';
 import { initMobileNav } from './mobileNav';
 import { initPublicationsSlider } from './publicationsSlider';
+import { initRiskPerspectiveSlider } from './riskPerspectiveSlider';
 import { initSectionSlider } from './sectionSlider';
 import { initSectionTabs } from './sectionTabs';
 
@@ -13,6 +14,7 @@ function init(): void {
   initSectionSlider();
   initPublicationsSlider();
   initCardsContentSlider();
+  initRiskPerspectiveSlider();
   initSectionTabs();
 }
 
