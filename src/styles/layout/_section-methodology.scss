@@ -169,8 +169,48 @@
     }
 
     &--conclusion {
+      position: relative;
       justify-content: flex-end;
+      overflow: hidden;
       background-color: $color-red;
+    }
+  }
+
+  &__conclusion-deco {
+    position: absolute;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+
+    img {
+      display: block;
+      width: 110px;
+      height: auto;
+      max-width: none;
+    }
+
+    &--1 {
+      top: -12px;
+      left: -2px;
+      width: 183px;
+      height: 153px;
+
+      img {
+        transform: rotate(-107.96deg);
+      }
+    }
+
+    &--2 {
+      top: 89px;
+      left: 144px;
+      width: 177px;
+      height: 191px;
+
+      img {
+        transform: rotate(32.28deg);
+      }
     }
   }
 
@@ -203,6 +243,8 @@
   }
 
   &__conclusion-text {
+    position: relative;
+    z-index: 1;
     margin: 0;
     color: $color-white;
     font-weight: 500;
