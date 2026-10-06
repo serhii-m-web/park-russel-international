@@ -5,6 +5,7 @@ import { initMethodologySlider } from './methodologySlider';
 import { initMobileNav } from './mobileNav';
 import { initPublicationsSlider } from './publicationsSlider';
 import { initRiskPerspectiveSlider } from './riskPerspectiveSlider';
+import { initSectionFaq } from './sectionFaq';
 import { initSectionSlider } from './sectionSlider';
 import { initSectionTabs } from './sectionTabs';
 
@@ -18,6 +19,7 @@ function init(): void {
   initRiskPerspectiveSlider();
   initMethodologySlider();
   initSectionTabs();
+  initSectionFaq();
 }
 
 if (document.readyState === 'loading') {

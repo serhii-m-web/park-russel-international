@@ -1,0 +1,90 @@
+@use '../abstracts' as *;
+
+.section-stakeholders {
+  $card-bg: #263449;
+
+  @include adaptive-value('padding-top', 96, 56, 1);
+  @include adaptive-value('padding-bottom', 96, 56, 1);
+  background-color: $color-dark-blue;
+
+  &__title {
+    margin: 0;
+    max-width: 1100px;
+    color: $color-white;
+    font-weight: 500;
+    letter-spacing: -0.8px;
+    line-height: calc(48 / 40);
+    @include adaptive-value('font-size', 40, 28, 1);
+    @include adaptive-value('margin-bottom', 64, 40, 1);
+
+    .is-muted {
+      color: $color-ice;
+    }
+  }
+
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 16px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    @include media('<desktop') {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    @include media('<tablet') {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: 100%;
+    padding: 24px 24px 30px;
+    border-radius: 20px;
+    border: 1px solid rgba($color-white, 0.06);
+    background-color: $card-bg;
+
+    @include media('<tablet') {
+      padding: 24px;
+    }
+  }
+
+  &__label {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0 0 48px;
+    color: $color-white;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(24 / 16);
+
+    @include media('<tablet') {
+      margin-bottom: 24px;
+    }
+  }
+
+  &__dot {
+    flex-shrink: 0;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: $color-red;
+  }
+
+  &__text {
+    margin: 0;
+    margin-top: auto;
+    color: $color-white;
+    font-weight: 400;
+    letter-spacing: -0.1px;
+    line-height: calc(28 / 20);
+    @include adaptive-value('font-size', 20, 16, 1);
+  }
+}

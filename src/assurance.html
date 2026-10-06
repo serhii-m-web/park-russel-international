@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow" />
     <title>
       {{#if page.meta.title}}
         {{ page.meta.title }}
@@ -64,6 +65,24 @@
       }}
       {{> section-methodology
         methodology=page.assuranceMethodology
+      }}
+      {{> section-audit-opinion
+        auditOpinion=page.assuranceAuditOpinion
+      }}
+      {{> section-confidence
+        confidence=page.assuranceConfidence
+      }}
+      {{> section-slider
+        slider=page.assuranceIndustrySlider
+      }}
+      {{> section-stakeholders
+        stakeholders=page.assuranceStakeholders
+      }}
+      {{> section-faq
+        faq=page.assuranceFaq
+      }}
+      {{> section-page-hero
+        pageHero=page.assuranceDecision
       }}
     </main>
     {{> footer}}

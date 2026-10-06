@@ -1,4 +1,18 @@
-<section class="page-hero" aria-labelledby="page-hero-title">
+<section
+  class="
+    page-hero
+    {{#if pageHero.className}}
+      {{ pageHero.className }}
+    {{/if}}
+  "
+  {{#if pageHero.title}}
+    aria-labelledby="{{#if pageHero.id}}{{ pageHero.id }}{{else}}page-hero{{/if}}-title"
+  {{else if pageHero.titleLines.length}}
+    aria-labelledby="{{#if pageHero.id}}{{ pageHero.id }}{{else}}page-hero{{/if}}-title"
+  {{else}}
+    aria-label="{{#if pageHero.ariaLabel}}{{ pageHero.ariaLabel }}{{else}}Page hero{{/if}}"
+  {{/if}}
+>
   <div class="container">
     <div class="page-hero__content">
       {{#if pageHero.imageBg}}
@@ -7,7 +21,7 @@
             pageHero.imageBg
             alt=""
             class="page-hero__bg-image"
-            loading="eager"
+            loading=pageHero.imageLoading
             width="1920"
             height="800"
           }}
@@ -20,22 +34,49 @@
           </span>
         {{/if}}
 
-        <h1 id="page-hero-title" class="page-hero__title">
-          {{#if pageHero.titleLines.length}}
-            {{#each pageHero.titleLines}}
-              {{#unless @first}}
-                <br />
-              {{/unless}}
-              {{ this }}
-            {{/each}}
-          {{else}}
-            {{ pageHero.title }}
-          {{/if}}
-        </h1>
+        {{#if pageHero.isSection}}
+          <h2
+            id="{{#if pageHero.id}}{{ pageHero.id }}{{else}}page-hero{{/if}}-title"
+            class="page-hero__title"
+          >
+            {{#if pageHero.titleLines.length}}
+              {{#each pageHero.titleLines}}
+                {{#unless @first}}
+                  <br />
+                {{/unless}}
+                {{ this }}
+              {{/each}}
+            {{else}}
+              {{{ pageHero.title }}}
+            {{/if}}
+          </h2>
+        {{else}}
+          <h1
+            id="{{#if pageHero.id}}{{ pageHero.id }}{{else}}page-hero{{/if}}-title"
+            class="page-hero__title"
+          >
+            {{#if pageHero.titleLines.length}}
+              {{#each pageHero.titleLines}}
+                {{#unless @first}}
+                  <br />
+                {{/unless}}
+                {{ this }}
+              {{/each}}
+            {{else}}
+              {{{ pageHero.title }}}
+            {{/if}}
+          </h1>
+        {{/if}}
 
         {{#if pageHero.description}}
           <p class="page-hero__description">
-            {{ pageHero.description }}
+            {{{ pageHero.description }}}
+          </p>
+        {{/if}}
+
+        {{#if pageHero.note}}
+          <p class="page-hero__note">
+            {{{ pageHero.note }}}
           </p>
         {{/if}}
 

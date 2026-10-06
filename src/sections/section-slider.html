@@ -46,6 +46,19 @@
                   width="500"
                   height="500"
                 }}
+
+                {{#if icon}}
+                  <div class="section-slider__slide-icon" aria-hidden="true">
+                    <img
+                      src="{{ icon }}"
+                      alt=""
+                      width="24"
+                      height="24"
+                      decoding="async"
+                    />
+                  </div>
+                {{/if}}
+
                 {{#if ../slider.counter}}
                   <div class="section-slider__slide-counter">
                     <div class="section-slider__slide-counter-line"></div>
@@ -63,9 +76,11 @@
                   </div>
                 {{/if}}
                 <h3 class="section-slider__slide-title">{{ title }}</h3>
-                <p class="section-slider__slide-description">
-                  {{ description }}
-                </p>
+                {{#if description}}
+                  <p class="section-slider__slide-description">
+                    {{ description }}
+                  </p>
+                {{/if}}
                 <div class="section-slider__slide-footer">
                   <a
                     class="section-slider__slide-link site-link"

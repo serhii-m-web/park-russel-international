@@ -1,0 +1,111 @@
+<section
+  class="
+    section-audit-opinion
+    {{#if auditOpinion.className}}
+      {{ auditOpinion.className }}
+    {{/if}}
+  "
+  {{#if auditOpinion.title}}
+    aria-labelledby="{{#if auditOpinion.id}}{{ auditOpinion.id }}{{else}}section-audit-opinion{{/if}}-title"
+  {{else}}
+    aria-label="{{#if auditOpinion.ariaLabel}}{{ auditOpinion.ariaLabel }}{{else}}Audit opinion{{/if}}"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-audit-opinion__header">
+      {{#if auditOpinion.title}}
+        <h2
+          id="{{#if auditOpinion.id}}{{ auditOpinion.id }}{{else}}section-audit-opinion{{/if}}-title"
+          class="section-audit-opinion__title"
+        >
+          {{{ auditOpinion.title }}}
+        </h2>
+      {{/if}}
+
+      {{#if auditOpinion.lead}}
+        <p class="section-audit-opinion__lead">
+          {{{ auditOpinion.lead }}}
+        </p>
+      {{/if}}
+    </div>
+
+    <div class="section-audit-opinion__body">
+      {{#if auditOpinion.leftItems}}
+        <ul class="section-audit-opinion__list">
+          {{#each auditOpinion.leftItems}}
+            <li class="section-audit-opinion__item">
+              {{#if title}}
+                <h3 class="section-audit-opinion__item-title">
+                  {{{ title }}}
+                </h3>
+              {{/if}}
+              {{#if description}}
+                <p class="section-audit-opinion__item-text">
+                  {{{ description }}}
+                </p>
+              {{/if}}
+            </li>
+          {{/each}}
+        </ul>
+      {{/if}}
+
+      <div class="section-audit-opinion__stack">
+        <div class="section-audit-opinion__stack-layer section-audit-opinion__stack-layer--back" aria-hidden="true"></div>
+        <div class="section-audit-opinion__stack-layer section-audit-opinion__stack-layer--mid" aria-hidden="true"></div>
+
+        <div class="section-audit-opinion__card">
+          {{#if auditOpinion.card.image}}
+            <div class="section-audit-opinion__card-media" aria-hidden="true">
+              {{picture
+                auditOpinion.card.image
+                alt=""
+                class="section-audit-opinion__card-image"
+                width="416"
+                height="391"
+              }}
+            </div>
+          {{/if}}
+
+          <div class="section-audit-opinion__card-content">
+            {{#if auditOpinion.card.icon}}
+              <img
+                class="section-audit-opinion__card-icon"
+                src="{{ auditOpinion.card.icon }}"
+                alt=""
+                width="48"
+                height="48"
+                decoding="async"
+                aria-hidden="true"
+              />
+            {{/if}}
+
+            {{#if auditOpinion.card.text}}
+              <p class="section-audit-opinion__card-text">
+                {{{ auditOpinion.card.text }}}
+              </p>
+            {{/if}}
+          </div>
+        </div>
+      </div>
+
+      {{#if auditOpinion.rightItems}}
+        <ul class="section-audit-opinion__list">
+          {{#each auditOpinion.rightItems}}
+            <li class="section-audit-opinion__item">
+              {{#if title}}
+                <h3 class="section-audit-opinion__item-title">
+                  {{{ title }}}
+                </h3>
+              {{/if}}
+              {{#if description}}
+                <p class="section-audit-opinion__item-text">
+                  {{{ description }}}
+                </p>
+              {{/if}}
+            </li>
+          {{/each}}
+        </ul>
+      {{/if}}
+    </div>
+  </div>
+</section>

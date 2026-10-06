@@ -1,0 +1,6 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Toggle">
+<rect width="36" height="36" rx="18" fill="#F2F3F6"/>
+<path id="Plus" d="M12 18H24M18 12V24" stroke="#1E293B" stroke-width="1.75" stroke-linecap="round"/>
+</g>
+</svg>

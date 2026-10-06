@@ -1,0 +1,70 @@
+<section
+  class="
+    section-confidence
+    {{#if confidence.className}}
+      {{ confidence.className }}
+    {{/if}}
+  "
+  {{#if confidence.title}}
+    aria-labelledby="{{#if confidence.id}}{{ confidence.id }}{{else}}section-confidence{{/if}}-title"
+  {{else}}
+    aria-label="{{#if confidence.ariaLabel}}{{ confidence.ariaLabel }}{{else}}What confidence is built on{{/if}}"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-confidence__header">
+      {{#if confidence.title}}
+        <h2
+          id="{{#if confidence.id}}{{ confidence.id }}{{else}}section-confidence{{/if}}-title"
+          class="section-confidence__title"
+        >
+          {{{ confidence.title }}}
+        </h2>
+      {{/if}}
+
+      {{#if confidence.lead}}
+        <p class="section-confidence__lead">
+          {{{ confidence.lead }}}
+        </p>
+      {{/if}}
+    </div>
+
+    {{#if confidence.pillars}}
+      <ul class="section-confidence__pillars">
+        {{#each confidence.pillars}}
+          <li class="section-confidence__pillar">
+            <div class="section-confidence__icon" aria-hidden="true">
+              {{#if ../confidence.iconAccent}}
+                <img
+                  class="section-confidence__icon-accent"
+                  src="{{ ../confidence.iconAccent }}"
+                  alt=""
+                  width="23"
+                  height="23"
+                  decoding="async"
+                />
+              {{/if}}
+              {{#if number}}
+                <span class="section-confidence__icon-number">{{ number }}.</span>
+              {{/if}}
+            </div>
+
+            <div class="section-confidence__pillar-content">
+              {{#if title}}
+                <h3 class="section-confidence__pillar-title">
+                  {{{ title }}}
+                </h3>
+              {{/if}}
+
+              {{#if description}}
+                <p class="section-confidence__pillar-text">
+                  {{{ description }}}
+                </p>
+              {{/if}}
+            </div>
+          </li>
+        {{/each}}
+      </ul>
+    {{/if}}
+  </div>
+</section>

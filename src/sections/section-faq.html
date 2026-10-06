@@ -1,0 +1,80 @@
+<section
+  class="
+    section-faq
+    {{#if faq.className}}
+      {{ faq.className }}
+    {{/if}}
+  "
+  data-section-faq
+  {{#if faq.title}}
+    aria-labelledby="{{#if faq.id}}{{ faq.id }}{{else}}section-faq{{/if}}-title"
+  {{else}}
+    aria-label="{{#if faq.ariaLabel}}{{ faq.ariaLabel }}{{else}}Frequently asked questions{{/if}}"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-faq__layout">
+      <div class="section-faq__intro">
+        {{#if faq.label}}
+          <span class="section-faq__label">
+            {{ faq.label }}
+          </span>
+        {{/if}}
+
+        {{#if faq.title}}
+          <h2
+            id="{{#if faq.id}}{{ faq.id }}{{else}}section-faq{{/if}}-title"
+            class="section-faq__title"
+          >
+            {{{ faq.title }}}
+          </h2>
+        {{/if}}
+      </div>
+
+      {{#if faq.items}}
+        <div class="section-faq__list">
+          {{#each faq.items}}
+            <div
+              class="
+                section-faq__item
+                {{#if @first}}
+                  is-open
+                {{/if}}
+              "
+              data-faq-item
+            >
+              <button
+                class="section-faq__trigger"
+                type="button"
+                id="{{#if ../faq.id}}{{ ../faq.id }}{{else}}section-faq{{/if}}-trigger-{{ @index }}"
+                aria-expanded="{{#if @first}}true{{else}}false{{/if}}"
+                aria-controls="{{#if ../faq.id}}{{ ../faq.id }}{{else}}section-faq{{/if}}-panel-{{ @index }}"
+                data-faq-trigger
+              >
+                <span class="section-faq__question">{{ question }}</span>
+                <span class="section-faq__toggle" aria-hidden="true"></span>
+              </button>
+
+              <div
+                class="section-faq__panel"
+                id="{{#if ../faq.id}}{{ ../faq.id }}{{else}}section-faq{{/if}}-panel-{{ @index }}"
+                role="region"
+                aria-labelledby="{{#if ../faq.id}}{{ ../faq.id }}{{else}}section-faq{{/if}}-trigger-{{ @index }}"
+                data-faq-panel
+                {{#unless @first}}
+                  hidden
+                {{/unless}}
+              >
+                {{#if answer}}
+                  <p class="section-faq__answer">
+                    {{{ answer }}}
+                  </p>
+                {{/if}}
+              </div>
+            </div>
+          {{/each}}
+        </div>
+      {{/if}}
+    </div>
+  </div>
+</section>

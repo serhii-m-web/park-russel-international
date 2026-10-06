@@ -1,13 +1,15 @@
 {
   "meta": {
     "title": "Assurance | Parker Russell International",
-    "description": "Financial information sits behind some of the most important decisions an organisation makes — from investment and financing to governance, transactions and long-term strategy."
+    "description": "Independent audit and assurance from Parker Russell member firms — financial statement audit, internal audit, risk and controls, information risk, and international group assurance."
   },
   "assurancePageHero": {
+    "id": "assurance-page-hero",
     "label": "Assurance",
     "titleLines": ["Confidence in What Matters.", "Clarity Where It Counts."],
     "description": "Financial information sits behind some of the most important decisions an organisation makes — from investment and financing to governance, transactions and long-term strategy.",
     "imageBg": "/images/assurance-hero-bg.jpg",
+    "imageLoading": "eager",
     "buttons": [
       {
         "label": "Discuss Your Assurance Requirements",
@@ -75,21 +77,21 @@
       {
         "image": "/images/card-content-img-4.png",
         "imageAlt": "Transactions",
-        "icon": "/icons/layers-black.svg",
+        "icon": "/icons/halves-black.svg",
         "title": "Transactions",
         "description": "Acquisitions, disposals and restructuring can materially change an organisation's financial position, reporting requirements and risk profile."
       },
       {
         "image": "/images/card-content-img-5.png",
         "imageAlt": "Complex Group Structures",
-        "icon": "/icons/segments-black.svg",
+        "icon": "/icons/quadrants-black.svg",
         "title": "Complex Group Structures",
         "description": "Multiple entities and jurisdictions need to form a coherent financial picture while meeting relevant local and group requirements."
       },
       {
         "image": "/images/card-content-img-6.png",
         "imageAlt": "Regulatory Change",
-        "icon": "/icons/segments-black.svg",
+        "icon": "/icons/petals-black.svg",
         "title": "Regulatory Change",
         "description": "New requirements can change financial reporting, governance, control and compliance responsibilities."
       }
@@ -184,6 +186,239 @@
         "label": "CONCLUDE",
         "progress": 6,
         "description": "Apply professional judgement, reach appropriate conclusions and communicate significant matters clearly."
+      }
+    ]
+  },
+  "assuranceAuditOpinion": {
+    "id": "assurance-audit-opinion",
+    "ariaLabel": "What sits behind an audit opinion",
+    "title": "What Sits Behind an Audit Opinion?",
+    "lead": "An audit opinion may be concise. The work required to support it is not.",
+    "card": {
+      "image": "/images/audit-opinion-card.png",
+      "icon": "/icons/check-circle.svg",
+      "text": "The opinion is the outcome.<br><span class=\"is-muted\">The quality lies in everything behind it.</span>"
+    },
+    "leftItems": [
+      {
+        "title": "Understanding",
+        "description": "A detailed understanding of the organisation, its environment and the financial reporting issues that matter."
+      },
+      {
+        "title": "Professional Scepticism",
+        "description": "A questioning mindset and critical assessment of information and evidence rather than acceptance at face value."
+      },
+      {
+        "title": "Professional Judgement",
+        "description": "Experience applied where accounting, evidence or circumstances do not provide a purely mechanical answer."
+      }
+    ],
+    "rightItems": [
+      {
+        "title": "Evidence",
+        "description": "Sufficient appropriate evidence capable of supporting the conclusions reached."
+      },
+      {
+        "title": "Technical Discipline",
+        "description": "Application of relevant professional, auditing and financial reporting requirements throughout the engagement."
+      },
+      {
+        "title": "Communication",
+        "description": "Clear communication of significant matters to management and those charged with governance."
+      }
+    ]
+  },
+  "assuranceConfidence": {
+    "id": "assurance-confidence",
+    "ariaLabel": "What confidence is built on",
+    "iconAccent": "/icons/pillar-corner.svg",
+    "title": "Rigour Cannot Be Added at the End.",
+    "lead": "The quality of assurance depends on what happens throughout the engagement: the questions asked, risks identified, evidence obtained, judgements made and matters communicated.",
+    "pillars": [
+      {
+        "number": "01",
+        "title": "Professional Judgement",
+        "description": "Complex matters require experience and informed judgement, not mechanical answers."
+      },
+      {
+        "number": "02",
+        "title": "Risk-Based Methodology",
+        "description": "Audit attention is directed towards the risks and areas of financial reporting that require it most."
+      },
+      {
+        "number": "03",
+        "title": "International Capability",
+        "description": "Access to independent member firms in relevant jurisdictions when an engagement extends beyond a single market."
+      },
+      {
+        "number": "04",
+        "title": "Technical Resources",
+        "description": "Methodology, professional resources and technical expertise supporting the assurance process."
+      },
+      {
+        "number": "05",
+        "title": "Sector Understanding",
+        "description": "Understanding an organisation's industry and business model provides essential context for assessing financial reporting risk."
+      }
+    ]
+  },
+  "assuranceIndustrySlider": {
+    "id": "assurance-industry-slider",
+    "className": "section-slider--industry",
+    "carouselLabel": "Industries",
+    "titleLines": [
+      "The Same Numbers Can Mean Different Things in Different Industries."
+    ],
+    "description": "A financial institution, property group, technology company and manufacturer do not carry the same risks. Sector understanding therefore matters because understanding the business is fundamental to understanding its financial reporting risk. Their revenue models differ. Their assets differ. Their regulatory environments differ. Their capital structures and significant accounting judgements differ.",
+    "button": {
+      "label": "Explore Our Industries",
+      "href": "#"
+    },
+    "counter": true,
+    "slides": [
+      {
+        "image": "/images/industries/financial-services.png",
+        "icon": "/icons/industry-finance.svg",
+        "title": "Financial Services",
+        "link": { "label": "Read More", "href": "#" }
+      },
+      {
+        "image": "/images/industries/real-estate.png",
+        "icon": "/icons/industry-real-estate.svg",
+        "title": "Real Estate",
+        "link": { "label": "Read More", "href": "#" }
+      },
+      {
+        "image": "/images/industries/tech-media.png",
+        "icon": "/icons/industry-telecom.svg",
+        "title": "Technology, Media & Telecoms",
+        "link": { "label": "Read More", "href": "#" }
+      },
+      {
+        "image": "/images/industries/manufacturing.png",
+        "icon": "/icons/industry-manufacturing.svg",
+        "title": "Manufacturing",
+        "link": { "label": "Read More", "href": "#" }
+      },
+      {
+        "image": "/images/sliders/slide-img-4.png",
+        "icon": "/icons/industry-real-estate.svg",
+        "title": "Consumer Business",
+        "link": { "label": "Read More", "href": "#" }
+      },
+      {
+        "image": "/images/card-content-img-2.png",
+        "icon": "/icons/industry-finance.svg",
+        "title": "Tourism & Hospitality",
+        "link": { "label": "Read More", "href": "#" }
+      },
+      {
+        "image": "/images/card-content-img-1.png",
+        "icon": "/icons/industry-telecom.svg",
+        "title": "E-commerce Services",
+        "link": { "label": "Read More", "href": "#" }
+      },
+      {
+        "image": "/images/sliders/slide-img-1.png",
+        "icon": "/icons/industry-finance.svg",
+        "title": "Government & Public",
+        "link": { "label": "Read More", "href": "#" }
+      },
+      {
+        "image": "/images/card-content-img-5.png",
+        "icon": "/icons/industry-manufacturing.svg",
+        "title": "Renewable Energy",
+        "link": { "label": "Read More", "href": "#" }
+      },
+      {
+        "image": "/images/card-content-img-6.png",
+        "icon": "/icons/industry-manufacturing.svg",
+        "title": "Energy Infrastructure",
+        "link": { "label": "Read More", "href": "#" }
+      }
+    ]
+  },
+  "assuranceStakeholders": {
+    "id": "assurance-stakeholders",
+    "ariaLabel": "Different stakeholders",
+    "title": "Assurance matters differently depending on where you sit — <span class=\"is-muted\">but the underlying requirement remains the same: confidence in the information being used to make decisions.</span>",
+    "items": [
+      {
+        "label": "For Boards",
+        "text": "Is the information available to those charged with governance sufficiently reliable to support effective oversight?"
+      },
+      {
+        "label": "For Management",
+        "text": "Where do the most significant financial reporting and control risks sit, and which matters require greater attention?"
+      },
+      {
+        "label": "For Investors",
+        "text": "Does the financial information provide a credible basis for assessing performance, position and risk?"
+      },
+      {
+        "label": "For Lenders",
+        "text": "Can financial information be relied upon when assessing credit, financing and ongoing obligations?"
+      },
+      {
+        "label": "For International Groups",
+        "text": "How can assurance requirements across entities and jurisdictions be addressed within a wider group perspective?"
+      }
+    ]
+  },
+  "assuranceDecision": {
+    "id": "assurance-decision",
+    "ariaLabel": "The decision",
+    "isSection": true,
+    "className": "page-hero--section",
+    "imageBg": "/images/assurance-decision-bg.jpg",
+    "imageLoading": "lazy",
+    "title": "Confidence Is Earned Through What Happens Before the Opinion.",
+    "description": "Understanding the business. Identifying the right risks. Challenging significant judgements. Testing the evidence. Communicating what matters.",
+    "note": "That is what turns an audit requirement into meaningful assurance.",
+    "buttons": [
+      {
+        "label": "Discuss Your Assurance Requirements",
+        "href": "#",
+        "variant": "primary",
+        "icon": true
+      },
+      {
+        "label": "Find a Member Firm",
+        "href": "#",
+        "variant": "secondary",
+        "icon": true
+      }
+    ]
+  },
+  "assuranceFaq": {
+    "id": "assurance-faq",
+    "ariaLabel": "Frequently asked questions",
+    "label": "Frequently Asked Questions",
+    "title": "Assurance,<br>Explained.",
+    "items": [
+      {
+        "question": "What is the difference between audit and assurance?",
+        "answer": "Audit is a specific form of assurance focused on financial statements and performed within applicable auditing and reporting requirements. Assurance is broader and may address other information, processes or areas where independent professional evaluation is required."
+      },
+      {
+        "question": "When does an organisation require a statutory audit?",
+        "answer": "Statutory audit requirements depend on the jurisdiction, the size and structure of the organisation, and any applicable regulatory or ownership conditions. Thresholds and exemptions vary by country, so requirements should be assessed against local law and the organisation's reporting obligations."
+      },
+      {
+        "question": "How does Parker Russell approach international or group assurance?",
+        "answer": "Where assurance needs extend across entities or jurisdictions, Parker Russell member firms combine local knowledge with coordinated international standards. The aim is a coherent group view — with clear communication, consistent quality and attention to the risks that matter across the organisation as a whole."
+      },
+      {
+        "question": "Can Parker Russell provide outsourced or co-sourced internal audit?",
+        "answer": "Yes. Depending on the organisation's needs, Parker Russell member firms can support internal audit through outsourced or co-sourced arrangements — from targeted reviews to broader programmes shaped around risk, controls and governance requirements."
+      },
+      {
+        "question": "What is a risk-based audit approach?",
+        "answer": "A risk-based approach directs audit attention to the areas where material misstatement is most likely to arise. It begins with understanding the business, identifying significant risks and judgements, and designing procedures that obtain evidence proportionate to those risks."
+      },
+      {
+        "question": "How do I find the appropriate Parker Russell firm?",
+        "answer": "Parker Russell International is a network of independent member firms. The right firm depends on where your organisation operates and the expertise required. Use Find a Member Firm to locate a firm in the relevant market, or contact us and we will help connect you."
       }
     ]
   },

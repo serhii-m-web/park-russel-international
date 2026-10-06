@@ -1,0 +1,45 @@
+<section
+  class="
+    section-stakeholders
+    {{#if stakeholders.className}}
+      {{ stakeholders.className }}
+    {{/if}}
+  "
+  {{#if stakeholders.title}}
+    aria-labelledby="{{#if stakeholders.id}}{{ stakeholders.id }}{{else}}section-stakeholders{{/if}}-title"
+  {{else}}
+    aria-label="{{#if stakeholders.ariaLabel}}{{ stakeholders.ariaLabel }}{{else}}Stakeholders{{/if}}"
+  {{/if}}
+>
+  <div class="container">
+    {{#if stakeholders.title}}
+      <h2
+        id="{{#if stakeholders.id}}{{ stakeholders.id }}{{else}}section-stakeholders{{/if}}-title"
+        class="section-stakeholders__title"
+      >
+        {{{ stakeholders.title }}}
+      </h2>
+    {{/if}}
+
+    {{#if stakeholders.items}}
+      <ul class="section-stakeholders__list">
+        {{#each stakeholders.items}}
+          <li class="section-stakeholders__item">
+            {{#if label}}
+              <p class="section-stakeholders__label">
+                <span class="section-stakeholders__dot" aria-hidden="true"></span>
+                <span>{{ label }}</span>
+              </p>
+            {{/if}}
+
+            {{#if text}}
+              <p class="section-stakeholders__text">
+                {{{ text }}}
+              </p>
+            {{/if}}
+          </li>
+        {{/each}}
+      </ul>
+    {{/if}}
+  </div>
+</section>

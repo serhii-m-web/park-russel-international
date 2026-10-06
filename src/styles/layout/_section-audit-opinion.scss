@@ -1,0 +1,222 @@
+@use '../abstracts' as *;
+
+.section-audit-opinion {
+  @include adaptive-value('padding-top', 96, 56, 1);
+  @include adaptive-value('padding-bottom', 96, 56, 1);
+  background-color: $color-white;
+
+  &__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    max-width: 864px;
+    margin: 0 auto;
+    @include adaptive-value('margin-bottom', 64, 40, 1);
+  }
+
+  &__title {
+    margin: 0;
+    color: $color-dark-blue;
+    font-weight: 500;
+    letter-spacing: -1.2px;
+    line-height: calc(52 / 48);
+    @include adaptive-value('font-size', 48, 32, 1);
+  }
+
+  &__lead {
+    margin: 0;
+    color: $color-text-muted;
+    font-weight: 400;
+    letter-spacing: -0.11px;
+    line-height: calc(32 / 22);
+    @include adaptive-value('font-size', 22, 18, 1);
+  }
+
+  &__body {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(280px, 416px) minmax(0, 1fr);
+    align-items: start;
+    gap: 32px;
+
+    @include media('<desktop') {
+      grid-template-columns: 1fr;
+      gap: 16px;
+    }
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    min-width: 0;
+
+    @include media('<desktop') {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 24px;
+    }
+
+    @include media('<tablet') {
+      grid-template-columns: 1fr;
+      gap: 0;
+    }
+  }
+
+  &__item {
+    padding-top: 24px;
+    border-top: 1px solid $color-line;
+
+    @include media('<tablet') {
+      padding-top: 20px;
+      padding-bottom: 20px;
+
+      &:last-child {
+        padding-bottom: 0;
+      }
+    }
+  }
+
+  &__item-title {
+    margin: 0 0 8px;
+    color: $color-dark-blue;
+    font-weight: 500;
+    letter-spacing: -0.1px;
+    line-height: calc(28 / 20);
+    @include adaptive-value('font-size', 20, 18, 1);
+  }
+
+  &__item-text {
+    margin: 0;
+    color: $color-text-muted;
+    font-weight: 400;
+    line-height: calc(24 / 16);
+    @include adaptive-value('font-size', 16, 15, 1);
+  }
+
+  &__stack {
+    position: relative;
+    width: 100%;
+    max-width: 416px;
+    margin: 0 auto;
+    padding-top: 24px;
+
+    @include media('<phone') {
+      padding-top: 0;
+    }
+  }
+
+  &__stack-layer {
+    position: absolute;
+    border-radius: 24px;
+    pointer-events: none;
+
+    @include media('<phone') {
+      display: none;
+    }
+
+    &--back {
+      top: 0;
+      left: 32px;
+      right: 32px;
+      height: calc(100% - 24px);
+      background-color: $color-slate;
+    }
+
+    &--mid {
+      top: 12px;
+      left: 16px;
+      right: 16px;
+      height: calc(100% - 24px);
+      background-color: rgba(#94a3b8, 0.55);
+    }
+  }
+
+  &__card {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 391px;
+    padding: 40px;
+    border-radius: 24px;
+    overflow: hidden;
+    color: $color-white;
+
+    @include media('<tablet') {
+      min-height: 280px;
+      padding: 24px 20px;
+    }
+  }
+
+  &__card-media {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+
+    &::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        180deg,
+        rgba($color-dark-blue, 0.35) 0%,
+        rgba($color-dark-blue, 0.8) 55%,
+        rgba($color-dark-blue, 0.96) 100%
+      );
+    }
+  }
+
+  &__card-image {
+    display: block;
+    width: 100%;
+    height: 100%;
+
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__card-content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 24px;
+    flex: 1;
+    min-height: 0;
+
+    @include media('<desktop') {
+      justify-content: flex-end;
+    }
+  }
+
+  &__card-icon {
+    display: block;
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+  }
+
+  &__card-text {
+    margin: 0;
+    color: $color-white;
+    font-weight: 500;
+    letter-spacing: -0.48px;
+    line-height: calc(40 / 32);
+    @include adaptive-value('font-size', 32, 24, 1);
+
+    .is-muted {
+      color: $color-ice;
+    }
+  }
+}

@@ -27,6 +27,8 @@ export function initSectionSlider(root: ParentNode = document): void {
       '[data-section-slider-scrollbar]',
     );
 
+    const isIndustry = section.classList.contains('section-slider--industry');
+
     new Swiper(slider, {
       modules: [Navigation, Scrollbar, A11y, Keyboard],
       slidesPerView: 1.15,
@@ -47,12 +49,20 @@ export function initSectionSlider(root: ParentNode = document): void {
         nextSlideMessage: 'Next slide',
         slideLabelMessage: '{{index}} / {{slidesLength}}',
       },
-      breakpoints: {
-        320: { slidesPerView: 1.15, spaceBetween: 12 },
-        480: { slidesPerView: 1.4, spaceBetween: 16 },
-        768: { slidesPerView: 2.2, spaceBetween: 24 },
-        1024: { slidesPerView: 2.5, spaceBetween: 32 },
-      },
+      breakpoints: isIndustry
+        ? {
+            320: { slidesPerView: 1.15, spaceBetween: 16 },
+            480: { slidesPerView: 1.4, spaceBetween: 16 },
+            768: { slidesPerView: 2.2, spaceBetween: 24 },
+            1024: { slidesPerView: 3.2, spaceBetween: 32 },
+            1280: { slidesPerView: 4.1, spaceBetween: 32 },
+          }
+        : {
+            320: { slidesPerView: 1.15, spaceBetween: 12 },
+            480: { slidesPerView: 1.4, spaceBetween: 16 },
+            768: { slidesPerView: 2.2, spaceBetween: 24 },
+            1024: { slidesPerView: 2.5, spaceBetween: 32 },
+          },
     });
 
     slider.dataset.sliderReady = 'true';
