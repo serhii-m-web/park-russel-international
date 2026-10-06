@@ -1,9 +1,6 @@
 {
   "hero": {
-    "titleLines": [
-      "Business Across Borders.",
-      "Expertise Across Markets."
-    ],
+    "titleLines": ["Business Across Borders.", "Expertise Across Markets."],
     "description": "Parker Russell International brings together independent audit, tax, accounting and advisory firms across the world — connecting businesses with the expertise they need in the markets where they operate and grow.",
     "buttons": [
       {
@@ -68,6 +65,7 @@
   "industrySlider": {
     "id": "industry-slider",
     "className": "section-slider--industry",
+    "breakpoints": "regular",
     "carouselLabel": "Industry areas",
     "titleLines": ["Expertise Built Around", "Your Industry"],
     "description": "Every industry faces its own combination of regulation, financial pressure, technological change and international complexity. Parker Russell member firms combine sector knowledge with audit, tax and advisory expertise to address the issues that matter within each market.",

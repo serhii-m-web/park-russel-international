@@ -1,0 +1,107 @@
+@use '../abstracts' as *;
+
+.section-questions {
+  @include adaptive-value('padding-top', 80, 56, 1);
+  @include adaptive-value('padding-bottom', 80, 56, 1);
+  background-color: $color-bg-muted;
+
+  &__layout {
+    display: grid;
+    grid-template-columns: minmax(0, 416px) minmax(0, 1fr);
+    gap: 96px;
+    align-items: stretch;
+
+    @include media('<desktop') {
+      grid-template-columns: 1fr;
+      gap: 40px;
+    }
+  }
+
+  &__intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 48px;
+  }
+
+  &__title {
+    margin: 0;
+    color: $color-dark-blue;
+    font-weight: 500;
+    letter-spacing: -1.2px;
+    line-height: calc(52 / 48);
+    @include adaptive-value('font-size', 48, 32, 1);
+  }
+
+  &__lead {
+    margin: 0;
+    color: $color-text-muted;
+    line-height: calc(28 / 18);
+    @include adaptive-value('font-size', 18, 16, 1);
+  }
+
+  &__conclusion {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  &__rule {
+    display: block;
+    width: 64px;
+    height: 2px;
+    background-color: $color-red;
+  }
+
+  &__conclusion-text {
+    margin: 0;
+    color: $color-dark-blue;
+    font-weight: 500;
+    letter-spacing: -0.28px;
+    line-height: calc(36 / 28);
+    @include adaptive-value('font-size', 28, 20, 1);
+  }
+
+  &__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__item {
+    display: grid;
+    grid-template-columns: 220px minmax(0, 1fr);
+    gap: 32px;
+    align-items: center;
+    padding: 28px 0;
+    border-top: 1px solid $color-line;
+
+    &:last-child {
+      border-bottom: 1px solid $color-line;
+    }
+
+    @include media('<tablet') {
+      grid-template-columns: 1fr;
+      gap: 8px;
+      padding: 20px 0;
+    }
+  }
+
+  &__item-label {
+    color: $color-red;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    line-height: calc(20 / 15);
+  }
+
+  &__item-text {
+    margin: 0;
+    color: $color-dark-blue;
+    font-weight: 400;
+    letter-spacing: -0.26px;
+    line-height: calc(34 / 26);
+    @include adaptive-value('font-size', 26, 18, 1);
+  }
+}

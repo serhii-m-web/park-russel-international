@@ -1,0 +1,103 @@
+<!doctype html>
+<html id="top" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>
+      {{#if page.meta.title}}
+        {{ page.meta.title }}
+      {{else}}
+        {{ site.title }}
+      {{/if}}
+    </title>
+    <meta
+      name="description"
+      content="{{#if page.meta.description}}{{ page.meta.description }}{{else}}{{ site.description }}{{/if}}"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicon/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    {{> sprite}}
+    <a class="skip-link visually-hidden" href="#main-content">
+      Skip to content
+    </a>
+    {{> header}}
+    <main id="main-content" tabindex="-1">
+      {{> section-page-hero
+        pageHero=page.corporatePageHero
+      }}
+      {{> section-page-content-banner
+        contentBanner=page.corporateNumbers
+      }}
+      {{> section-page-cards-content
+        cardsContent=page.corporateDecisions
+      }}
+      {{> section-page-cards-content
+        cardsContent=page.corporateOpportunity
+      }}
+      {{> section-methodology
+        methodology=page.corporateTransaction
+      }}
+      {{> section-value-judgement
+        value=page.corporateValue
+      }}
+      {{> section-feature-split
+        feature=page.corporateCapital
+      }}
+      {{> section-feature-split
+        feature=page.corporateBorders
+      }}
+      {{> section-feature-split
+        feature=page.corporateBusinessCase
+      }}
+      {{> section-stakeholders
+        stakeholders=page.corporateStakeholders
+      }}
+      {{> section-slider
+        slider=page.corporateIndustrySlider
+      }}
+      {{> section-confidence
+        confidence=page.corporateAdvice
+      }}
+      {{> section-questions
+        questions=page.corporateQuestions
+      }}
+      {{> section-latest-news
+        latestNews=page.corporateInsights
+      }}
+      {{> section-faq
+        faq=page.corporateFaq
+      }}
+      {{> section-page-hero
+        pageHero=page.corporateDecision
+      }}
+    </main>
+    {{> footer}}
+    <script type="module" src="/ts/main.ts"></script>
+  </body>
+</html>

@@ -1,0 +1,56 @@
+<section
+  class="
+    section-questions
+    {{#if questions.className}}
+      {{ questions.className }}
+    {{/if}}
+  "
+  {{#if questions.title}}
+    aria-labelledby="{{#if questions.id}}{{ questions.id }}{{else}}section-questions{{/if}}-title"
+  {{else}}
+    aria-label="{{#if questions.ariaLabel}}{{ questions.ariaLabel }}{{else}}Questions{{/if}}"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-questions__layout">
+      <div class="section-questions__intro">
+        {{#if questions.title}}
+          <h2
+            id="{{#if questions.id}}{{ questions.id }}{{else}}section-questions{{/if}}-title"
+            class="section-questions__title"
+          >
+            {{{ questions.title }}}
+          </h2>
+        {{/if}}
+
+        {{#if questions.lead}}
+          <p class="section-questions__lead">
+            {{{ questions.lead }}}
+          </p>
+        {{/if}}
+
+        {{#if questions.conclusion}}
+          <div class="section-questions__conclusion">
+            <span class="section-questions__rule" aria-hidden="true"></span>
+            <p class="section-questions__conclusion-text">
+              {{{ questions.conclusion }}}
+            </p>
+          </div>
+        {{/if}}
+      </div>
+
+      {{#if questions.items}}
+        <ol class="section-questions__list">
+          {{#each questions.items}}
+            <li class="section-questions__item">
+              {{#if label}}
+                <span class="section-questions__item-label">{{ label }}</span>
+              {{/if}}
+              <p class="section-questions__item-text">{{{ text }}}</p>
+            </li>
+          {{/each}}
+        </ol>
+      {{/if}}
+    </div>
+  </div>
+</section>

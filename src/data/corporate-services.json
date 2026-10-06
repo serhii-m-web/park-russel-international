@@ -1,0 +1,616 @@
+{
+  "meta": {
+    "title": "Corporate Services | Parker Russell International",
+    "description": "Independent corporate finance advice from Parker Russell member firms — M&A, disposals, capital raising, valuations, joint ventures and cross-border transactions."
+  },
+  "corporatePageHero": {
+    "id": "corporate-page-hero",
+    "className": "page-hero--rich",
+    "label": "Corporate Services",
+    "labelPill": true,
+    "imageBg": "/images/corporate-services/hero-bg.jpg",
+    "imageLoading": "eager",
+    "breadcrumb": [
+      { "label": "Home", "href": "index.html" },
+      { "label": "Services", "href": "#" },
+      { "label": "Corporate Services" }
+    ],
+    "title": "Important Decisions Change the Direction of a Business.",
+    "keywords": "Growth. Acquisition. Disposal. Capital. Restructuring. International expansion.",
+    "description": "These are not routine decisions. They can change the ownership, financial structure and future direction of an organisation.",
+    "aside": "Parker Russell member firms provide independent corporate finance expertise to businesses, shareholders and investors facing significant transactions and strategic decisions — combining financial analysis, sector understanding and access to expertise across international markets.",
+    "buttons": [
+      {
+        "label": "Discuss a Corporate Finance Matter",
+        "href": "#",
+        "variant": "primary",
+        "icon": true
+      },
+      {
+        "label": "Find a Member Firm",
+        "href": "#",
+        "variant": "secondary",
+        "icon": true
+      }
+    ]
+  },
+  "corporateNumbers": {
+    "id": "corporate-numbers",
+    "ariaLabel": "Numbers alone",
+    "title": "Some Decisions Cannot Be Made on Numbers Alone.",
+    "tensions": [
+      "A transaction may look attractive financially and still be strategically wrong.",
+      "A business may need capital, but the structure and source of that capital can matter as much as the amount raised.",
+      "An acquisition can accelerate growth — or introduce risks that were not apparent at the outset.",
+      "A disposal can release value — if the business, timing and transaction are positioned correctly."
+    ],
+    "image": "/images/corporate-services/boardroom.jpg",
+    "imageAlt": "Boardroom meeting space",
+    "text": "<span class=\"is-muted\">Corporate finance sits where strategy, capital, valuation, risk and execution meet.</span><br><span>That is where experienced, independent advice matters.</span>",
+    "banner": {
+      "imageBg": "/images/corporate-services/statement-bg.jpg",
+      "leftColumn": {
+        "icon": "/icons/petals.svg",
+        "text": "The question is rarely simply whether a transaction can be done."
+      },
+      "rightColumn": {
+        "text": "The real question is whether it should be done <span>— and on what terms.</span>"
+      }
+    }
+  },
+  "corporateDecisions": {
+    "id": "corporate-decisions",
+    "className": "section-page-cards-content--muted",
+    "ariaLabel": "Decisions that define what comes next",
+    "carouselLabel": "Decision scenarios",
+    "title": "The Decisions That Define What <br> Comes Next.",
+    "cards": [
+      {
+        "image": "/images/card-content-img-1.png",
+        "imageAlt": "Acquiring a Business",
+        "icon": "/icons/chart-pie-black.svg",
+        "title": "Acquiring a Business",
+        "description": "An acquisition can provide access to new capabilities, customers, markets or scale. The financial logic, valuation, structure and risks behind the opportunity need to withstand scrutiny."
+      },
+      {
+        "image": "/images/card-content-img-2.png",
+        "imageAlt": "Selling a Business or Asset",
+        "icon": "/icons/layers-black.svg",
+        "title": "Selling a Business or Asset",
+        "description": "A successful disposal requires more than finding a purchaser. Value, positioning, timing, transaction structure and negotiation can materially affect the outcome."
+      },
+      {
+        "image": "/images/card-content-img-3.png",
+        "imageAlt": "Raising Capital",
+        "icon": "/icons/segments-black.svg",
+        "title": "Raising Capital",
+        "description": "The right financing decision depends on the organisation's objectives, capital structure, cost of funds and future requirements — not simply on access to finance."
+      },
+      {
+        "image": "/images/card-content-img-4.png",
+        "imageAlt": "Entering a New Market",
+        "icon": "/icons/halves-black.svg",
+        "title": "Entering a New Market",
+        "description": "International expansion introduces questions around investment, structure, potential partners, financing and the commercial realities of a new jurisdiction."
+      },
+      {
+        "image": "/images/card-content-img-5.png",
+        "imageAlt": "Restructuring the Business",
+        "icon": "/icons/quadrants-black.svg",
+        "title": "Restructuring the Business",
+        "description": "When parts of an organisation no longer fit its strategy, restructuring can help refocus capital and management attention on where they create greater value."
+      },
+      {
+        "image": "/images/card-content-img-6.png",
+        "imageAlt": "Responding to Underperformance",
+        "icon": "/icons/petals-black.svg",
+        "title": "Responding to Underperformance",
+        "description": "Financial pressure or changing market conditions may require difficult decisions around operations, financing, assets and the future structure of the organisation."
+      }
+    ]
+  },
+  "corporateOpportunity": {
+    "id": "corporate-opportunity",
+    "className": "section-page-cards-content--carousel",
+    "ariaLabel": "From opportunity to execution",
+    "carouselLabel": "Corporate finance services",
+    "title": "From Opportunity to <br> Execution.",
+    "cards": [
+      {
+        "image": "/images/sliders/slide-img-1.png",
+        "imageAlt": "Mergers, Acquisitions & Disposals",
+        "title": "Mergers, Acquisitions & Disposals",
+        "description": "Independent advice across acquisitions, mergers and disposals — from evaluating the strategic and financial rationale through to transaction structure, valuation and execution.",
+        "descriptionSecondary": "Where transactions cross borders, Parker Russell member firms can bring relevant market and jurisdictional expertise into the process."
+      },
+      {
+        "image": "/images/sliders/slide-img-2.png",
+        "imageAlt": "Flotations & Public Offerings",
+        "title": "Flotations & Public Offerings",
+        "description": "Corporate finance expertise for organisations considering access to public capital markets, addressing the financial and strategic considerations surrounding flotation and public offering processes."
+      },
+      {
+        "image": "/images/sliders/slide-img-3.png",
+        "imageAlt": "Financing Advice",
+        "title": "Financing Advice",
+        "description": "Assessment of financing requirements, structures and available alternatives with a focus on aligning capital with the organisation's commercial objectives.",
+        "descriptionSecondary": "Independence from financing sources allows a broader consideration of potential funding routes rather than an approach driven by a particular financial product, institution or market."
+      },
+      {
+        "image": "/images/sliders/slide-img-4.png",
+        "imageAlt": "Leveraged & Management Buyouts",
+        "title": "Leveraged & Management Buyouts",
+        "description": "Financial and transaction advice around leveraged and management buyouts, where valuation, funding structure, commercial assumptions and execution need to work together."
+      },
+      {
+        "image": "/images/sliders/slide-img-5.png",
+        "imageAlt": "Valuations & Appraisals",
+        "title": "Valuations & Appraisals",
+        "description": "Independent valuation and appraisal expertise supporting transactions and other significant corporate decisions where understanding economic value is fundamental."
+      },
+      {
+        "image": "/images/card-content-img-1.png",
+        "imageAlt": "Joint Ventures",
+        "title": "Joint Ventures",
+        "description": "Advice around joint venture opportunities where businesses combine capital, expertise, market access or other strategic resources."
+      },
+      {
+        "image": "/images/card-content-img-4.png",
+        "imageAlt": "Privatisation Advice",
+        "title": "Privatisation Advice",
+        "description": "Corporate finance advice relating to privatisation processes and the financial considerations surrounding changes in ownership."
+      }
+    ]
+  },
+  "corporateTransaction": {
+    "id": "corporate-transaction",
+    "className": "section-methodology--grid-4",
+    "ariaLabel": "Transaction architecture",
+    "carouselLabel": "Transaction questions",
+    "image": "/images/methodology-earth.svg",
+    "title": "A Transaction Is Never Just a Transaction.",
+    "lead": "Behind every significant corporate transaction sit a series of interconnected questions.",
+    "conclusion": "The strength of a deal depends on how well these questions connect.",
+    "steps": [
+      {
+        "progress": "1",
+        "label": "Strategy",
+        "description": "Why this transaction — and why now?"
+      },
+      {
+        "progress": "2",
+        "label": "Value",
+        "description": "What is the business, asset or opportunity actually worth?"
+      },
+      {
+        "progress": "3",
+        "label": "Capital",
+        "description": "How should the transaction be financed?"
+      },
+      {
+        "progress": "4",
+        "label": "Risk",
+        "description": "What could materially change the expected outcome?"
+      },
+      {
+        "progress": "5",
+        "label": "Structure",
+        "description": "How should ownership, financing and transaction terms be organised?"
+      },
+      {
+        "progress": "6",
+        "label": "Market",
+        "description": "What external conditions could affect value or execution?"
+      },
+      {
+        "progress": "7",
+        "label": "Execution",
+        "description": "How does the organisation move from strategic intention to completed transaction?"
+      }
+    ]
+  },
+  "corporateValue": {
+    "id": "corporate-value",
+    "ariaLabel": "Value requires judgement",
+    "surfaceTitle": "Price Is Visible.",
+    "title": "Value Requires Judgement.",
+    "lead": "Valuation sits at the centre of many corporate finance decisions, but value cannot always be reduced to a single calculation.",
+    "conclusion": "Each can influence how an opportunity should be assessed.",
+    "factors": [
+      "Future cash flows.",
+      "Market position.",
+      "Assets.",
+      "Liabilities.",
+      "Growth assumptions.",
+      "Risk.",
+      "Sector conditions.",
+      "Capital structure."
+    ],
+    "takeaway": "<span>Whether considering an acquisition, disposal, investment or restructuring, </span><span class=\"is-emphasis\">understanding the assumptions behind value is as important as the number itself.</span>",
+    "iconAccent": "/icons/index-corner.svg",
+    "know": [
+      {
+        "number": "01",
+        "text": "Know what you are paying for."
+      },
+      {
+        "number": "02",
+        "text": "Know what you are selling."
+      },
+      {
+        "number": "03",
+        "text": "Know what could change the value.",
+        "accent": true
+      }
+    ]
+  },
+  "corporateCapital": {
+    "id": "corporate-capital",
+    "className": "section-feature-split--muted section-feature-split--capital",
+    "ariaLabel": "Capital and structure",
+    "title": "Capital Has a Cost. Structure Has Consequences.",
+    "lead": "Businesses do not simply need capital.",
+    "text": "They need capital that fits the purpose, risk profile and future direction of the organisation.",
+    "statement": "Capital should serve the strategy — not define it.",
+    "panel": {
+      "image": "/images/corporate-services/capital-panel.jpg",
+      "imageAlt": "Modern building facade"
+    },
+    "items": [
+      {
+        "icon": "/icons/change-circle.svg",
+        "text": "The source, cost, structure and terms of financing can affect cash flow, ownership, flexibility and the economics of a transaction long after the capital has been raised."
+      },
+      {
+        "icon": "/icons/verified-user.svg",
+        "text": "Independent corporate finance advice allows financing alternatives to be considered against the commercial objectives of the business rather than the interests of a particular provider."
+      }
+    ]
+  },
+  "corporateBorders": {
+    "id": "corporate-borders",
+    "className": "section-feature-split--borders",
+    "ariaLabel": "Across borders",
+    "title": "Opportunity Crosses Borders. So Does Complexity.",
+    "image": "/images/corporate-services/cross-border.jpg",
+    "imageAlt": "Cross-border shipping port",
+    "secondaryLead": "An international transaction introduces another layer of questions.",
+    "list": [
+      "Different markets.",
+      "Different commercial practices.",
+      "Different regulatory environments.",
+      "Different tax considerations.",
+      "Different information."
+    ],
+    "emphasis": "And often — different expectations on each side of the transaction.",
+    "network": {
+      "text": "Through Parker Russell International, independent member firms can collaborate across relevant jurisdictions, bringing together local market understanding and wider international capability.",
+      "button": {
+        "label": "Explore Our Global Network",
+        "href": "#"
+      },
+      "perspectives": [
+        {
+          "icon": "/icons/perspective-local.svg",
+          "text": "Local intelligence where the transaction happens."
+        },
+        {
+          "icon": "/icons/perspective-intl.svg",
+          "text": "International perspective around the transaction as a whole."
+        }
+      ]
+    }
+  },
+  "corporateBusinessCase": {
+    "id": "corporate-business-case",
+    "className": "section-feature-split--muted section-feature-split--business",
+    "ariaLabel": "Business case",
+    "title": "Advice Should Follow the Business Case.",
+    "lead": "The value of corporate finance advice depends on the ability to assess alternatives objectively.",
+    "principles": [
+      {
+        "icon": "/icons/verified-user.svg",
+        "text": "Parker Russell's existing corporate finance proposition emphasises <span class=\"is-emphasis\">advice independent from financing sources</span> — allowing alternatives to be considered without being tied to a particular product, bank or funding route."
+      },
+      {
+        "icon": "/icons/psychology.svg",
+        "text": "That matters when the objective is not simply to complete a transaction, but to understand <span class=\"is-emphasis\">which course of action best serves the organisation</span>."
+      }
+    ],
+    "imageSecondary": "/images/corporate-services/independent-thinking.jpg",
+    "imageSecondaryAlt": "Independent professional working at night",
+    "photoMark": "/icons/assurance-mark.svg",
+    "photoStatement": "Independent thinking creates room for <span class=\"is-muted\">better decisions.</span>"
+  },
+  "corporateStakeholders": {
+    "id": "corporate-stakeholders",
+    "className": "section-stakeholders--headline",
+    "ariaLabel": "People around the decision",
+    "eyebrow": "The people around the decision",
+    "title": "Different Stakeholders. Different Priorities.",
+    "items": [
+      {
+        "label": "For Business Owners",
+        "text": "What is the business worth? Is this the right time to sell, acquire or bring in external capital?"
+      },
+      {
+        "label": "For Boards",
+        "text": "Does the proposed transaction support the organisation's strategy — and are the financial assumptions sufficiently robust?"
+      },
+      {
+        "label": "For Management",
+        "text": "How will the transaction affect operations, financing, ownership and the next stage of the business?"
+      },
+      {
+        "label": "For Investors",
+        "text": "Does the opportunity justify the capital and risk involved?"
+      },
+      {
+        "label": "For International Groups",
+        "text": "How should a transaction involving multiple markets be assessed and coordinated across jurisdictions?"
+      }
+    ]
+  },
+  "corporateIndustrySlider": {
+    "id": "corporate-industry-slider",
+    "className": "section-slider--industry section-slider--industry-corporate",
+    "label": "SECTOR INTELLIGENCE",
+    "carouselLabel": "Sector intelligence",
+    "titleLines": ["Transactions Make More Sense", "in Context."],
+    "lead": "Financial analysis cannot be separated entirely from the industry in which a business operates.",
+    "description": "The drivers of value in financial services differ from those in real estate. Technology businesses carry different assumptions from manufacturers. Energy and infrastructure transactions may involve different capital structures, investment horizons and risk considerations again.",
+    "conclusion": "Sector understanding therefore influences how opportunities, risks and valuations are interpreted.",
+    "button": {
+      "label": "Explore Our Industries",
+      "href": "#"
+    },
+    "counter": true,
+    "slides": [
+      {
+        "image": "/images/industries/financial-services.png",
+        "icon": "/icons/industry-finance.svg",
+        "title": "Financial Services",
+        "link": { "label": "Read More", "href": "#" }
+      },
+      {
+        "image": "/images/industries/real-estate.png",
+        "icon": "/icons/industry-real-estate.svg",
+        "title": "Real Estate",
+        "link": { "label": "Read More", "href": "#" }
+      },
+      {
+        "image": "/images/industries/tech-media.png",
+        "icon": "/icons/industry-telecom.svg",
+        "title": "Technology, Media & Telecoms",
+        "link": { "label": "Read More", "href": "#" }
+      },
+      {
+        "image": "/images/industries/manufacturing.png",
+        "icon": "/icons/industry-manufacturing.svg",
+        "title": "Manufacturing",
+        "link": { "label": "Read More", "href": "#" }
+      },
+      {
+        "image": "/images/sliders/slide-img-4.png",
+        "icon": "/icons/industry-real-estate.svg",
+        "title": "Consumer Business",
+        "link": { "label": "Read More", "href": "#" }
+      },
+      {
+        "image": "/images/card-content-img-2.png",
+        "icon": "/icons/industry-finance.svg",
+        "title": "Tourism & Hospitality",
+        "link": { "label": "Read More", "href": "#" }
+      },
+      {
+        "image": "/images/card-content-img-1.png",
+        "icon": "/icons/industry-telecom.svg",
+        "title": "E-commerce Services",
+        "link": { "label": "Read More", "href": "#" }
+      },
+      {
+        "image": "/images/sliders/slide-img-1.png",
+        "icon": "/icons/industry-finance.svg",
+        "title": "Government & Public",
+        "link": { "label": "Read More", "href": "#" }
+      },
+      {
+        "image": "/images/card-content-img-5.png",
+        "icon": "/icons/industry-manufacturing.svg",
+        "title": "Renewable Energy",
+        "link": { "label": "Read More", "href": "#" }
+      },
+      {
+        "image": "/images/card-content-img-6.png",
+        "icon": "/icons/industry-manufacturing.svg",
+        "title": "Energy Infrastructure",
+        "link": { "label": "Read More", "href": "#" }
+      }
+    ]
+  },
+  "corporateAdvice": {
+    "id": "corporate-advice",
+    "className": "section-confidence--grid-6",
+    "ariaLabel": "What good advice depends on",
+    "title": "Good Advice Is More Than a Recommendation.",
+    "iconAccent": "/icons/index-corner.svg",
+    "pillars": [
+      {
+        "number": "01",
+        "title": "Independence",
+        "description": "The ability to consider alternatives without being tied to a financing source."
+      },
+      {
+        "number": "02",
+        "title": "Financial Judgement",
+        "description": "Understanding the numbers — and the assumptions behind them."
+      },
+      {
+        "number": "03",
+        "title": "Transaction Perspective",
+        "description": "Seeing valuation, financing, structure and execution as connected questions."
+      },
+      {
+        "number": "04",
+        "title": "Sector Understanding",
+        "description": "Interpreting financial information within the commercial realities of the relevant market."
+      },
+      {
+        "number": "05",
+        "title": "International Reach",
+        "description": "Access to member firms across jurisdictions where a transaction extends beyond one country."
+      },
+      {
+        "number": "06",
+        "title": "Long-Term Perspective",
+        "description": "Understanding that the consequences of a major corporate decision continue long after completion."
+      }
+    ]
+  },
+  "corporateQuestions": {
+    "id": "corporate-questions",
+    "ariaLabel": "Questions that matter",
+    "title": "Before the Deal, Ask the Questions That Matter.",
+    "conclusion": "The quality of the decision begins with the quality of the questions.",
+    "items": [
+      {
+        "label": "Why?",
+        "text": "What strategic objective does the transaction serve?"
+      },
+      {
+        "label": "Why now?",
+        "text": "What makes this the right moment?"
+      },
+      {
+        "label": "What value?",
+        "text": "What assumptions support the valuation?"
+      },
+      {
+        "label": "What risk?",
+        "text": "What could materially change the outcome?"
+      },
+      {
+        "label": "What structure?",
+        "text": "How should ownership and financing be arranged?"
+      },
+      {
+        "label": "What alternative?",
+        "text": "Is there another route capable of producing a better outcome?"
+      },
+      {
+        "label": "What next?",
+        "text": "What will the organisation look like after the transaction?"
+      }
+    ]
+  },
+  "corporateInsights": {
+    "id": "corporate-insights",
+    "label": "INSIGHTS",
+    "title": "Perspective Before the Decision.",
+    "description": "Major transactions are shaped by markets, capital conditions, regulation, taxation and sector developments.",
+    "button": {
+      "label": "Explore Latest Insights",
+      "href": "#"
+    },
+    "topics": [
+      "M&A",
+      "Corporate Finance",
+      "Valuations",
+      "International Business",
+      "Markets & Transactions"
+    ],
+    "featured": {
+      "status": "Latest",
+      "date": "4 August 2025",
+      "datetime": "2025-08-04",
+      "category": "Compliance",
+      "title": "Companies House Crackdown: Businesses Urged to Act on ECCTA Deadlines",
+      "description": "Research by Vistra shows fewer than one in three UK company directors feel ready for the upcoming Economic Crime and Corporate Transparency Act (ECCTA)…",
+      "link": {
+        "label": "Read article",
+        "href": "#"
+      }
+    },
+    "list": [
+      {
+        "date": "25 June 2025",
+        "datetime": "2025-06-25",
+        "category": "Accounting Standards",
+        "title": "David M. Sullivan Appointed to Chair Financial Accounting Standards Advisory Council",
+        "href": "#"
+      },
+      {
+        "date": "18 June 2025",
+        "datetime": "2025-06-18",
+        "category": "Regulation",
+        "title": "£4m Fine for Director in Client Money Breach",
+        "href": "#"
+      },
+      {
+        "date": "20 May 2025",
+        "datetime": "2025-05-20",
+        "category": "ESG",
+        "title": "The Next Generation of Investors Is Powering ESG's Revival",
+        "href": "#"
+      }
+    ]
+  },
+  "corporateFaq": {
+    "id": "corporate-faq",
+    "className": "section-faq--centered",
+    "ariaLabel": "Frequently asked questions",
+    "title": "FAQ",
+    "items": [
+      {
+        "question": "When should a business involve a corporate finance adviser?",
+        "answer": "When a decision could change ownership, capital structure, valuation or strategic direction — and when independent challenge of assumptions, alternatives and risk would improve the quality of that decision."
+      },
+      {
+        "question": "How can Parker Russell support an acquisition or disposal?",
+        "answer": "Parker Russell member firms can support the strategic and financial rationale, valuation, transaction structure, negotiation and execution — with local insight and international coordination where needed."
+      },
+      {
+        "question": "Can Parker Russell advise on cross-border transactions?",
+        "answer": "Yes. Where a transaction spans jurisdictions, member firms can bring local market knowledge together with coordinated international expertise so decisions are assessed with the full picture in view."
+      },
+      {
+        "question": "What is the role of valuation in an M&A transaction?",
+        "answer": "Valuation provides an independent view of economic value. It tests assumptions about growth, risk and cash generation, and helps parties understand whether proposed terms reflect the substance of the opportunity."
+      },
+      {
+        "question": "Can Parker Russell advise on financing alternatives?",
+        "answer": "Yes. Independence from financing sources allows a broader assessment of debt, equity and hybrid alternatives — focused on aligning capital with commercial objectives rather than a single preferred product."
+      },
+      {
+        "question": "How do I find a Parker Russell corporate finance adviser in my market?",
+        "answer": "Use Find a Member Firm to locate a firm in the relevant market, or contact us and we will help connect you with the appropriate expertise."
+      }
+    ]
+  },
+  "corporateDecision": {
+    "id": "corporate-decision",
+    "ariaLabel": "The next transaction",
+    "isSection": true,
+    "className": "page-hero--section",
+    "imageBg": "/images/corporate-services/decision-bg.jpg",
+    "imageLoading": "lazy",
+    "title": "The Next Transaction Could Change the Direction of Your Business.",
+    "description": "The right advice should do more than help complete it.",
+    "note": "It should challenge the assumptions, understand the value, examine the alternatives and bring greater clarity to the decision being made.",
+    "tagline": "Make the decision with the full picture in view.",
+    "buttons": [
+      {
+        "label": "Discuss a Corporate Finance Matter",
+        "href": "#",
+        "variant": "primary",
+        "icon": true
+      },
+      {
+        "label": "Find a Member Firm",
+        "href": "#",
+        "variant": "secondary",
+        "icon": true
+      }
+    ]
+  }
+}

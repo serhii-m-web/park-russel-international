@@ -9,22 +9,54 @@
     {{/if}}
   "
   data-section-slider
+  {{#if slider.breakpoints}}
+    data-breakpoints="{{ slider.breakpoints }}"
+  {{/if}}
   aria-labelledby="{{ slider.id }}-title"
 >
   <div class="container">
     <div class="section-slider__header">
-      <h2 id="{{ slider.id }}-title" class="section-slider__title">
-        {{#each slider.titleLines}}
-          {{#unless @first}}
-            <br />
-          {{/unless}}
-          {{ this }}
-        {{/each}}
-      </h2>
-      {{#if slider.description}}
-        <p class="section-slider__description">
-          {{ slider.description }}
-        </p>
+      <div class="section-slider__intro">
+        {{#if slider.label}}
+          <span class="page-label">
+            {{ slider.label }}
+          </span>
+        {{/if}}
+
+        <h2 id="{{ slider.id }}-title" class="section-slider__title">
+          {{#each slider.titleLines}}
+            {{#unless @first}}
+              <br />
+            {{/unless}}
+            {{ this }}
+          {{/each}}
+        </h2>
+      </div>
+
+      {{#if slider.lead}}
+        <div class="section-slider__description">
+          <p class="section-slider__description-lead">
+            {{{ slider.lead }}}
+          </p>
+
+          {{#if slider.description}}
+            <p class="section-slider__description-body">
+              {{{ slider.description }}}
+            </p>
+          {{/if}}
+
+          {{#if slider.conclusion}}
+            <p class="section-slider__description-conclusion">
+              {{{ slider.conclusion }}}
+            </p>
+          {{/if}}
+        </div>
+      {{else}}
+        {{#if slider.description}}
+          <p class="section-slider__description">
+            {{{ slider.description }}}
+          </p>
+        {{/if}}
       {{/if}}
     </div>
 

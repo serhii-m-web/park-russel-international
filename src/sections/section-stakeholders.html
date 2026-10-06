@@ -12,6 +12,13 @@
   {{/if}}
 >
   <div class="container">
+    {{#if stakeholders.eyebrow}}
+      <p class="section-stakeholders__eyebrow">
+        <span class="section-stakeholders__eyebrow-rule" aria-hidden="true"></span>
+        <span>{{ stakeholders.eyebrow }}</span>
+      </p>
+    {{/if}}
+
     {{#if stakeholders.title}}
       <h2
         id="{{#if stakeholders.id}}{{ stakeholders.id }}{{else}}section-stakeholders{{/if}}-title"

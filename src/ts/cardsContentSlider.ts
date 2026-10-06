@@ -20,6 +20,9 @@ export function initCardsContentSlider(root: ParentNode = document): void {
     );
     if (!slider) return;
 
+    const alwaysCarousel = section.classList.contains(
+      'section-page-cards-content--carousel',
+    );
     const nextEl = section.querySelector<HTMLElement>(
       '[data-cards-content-slider-next]',
     );
@@ -51,13 +54,14 @@ export function initCardsContentSlider(root: ParentNode = document): void {
     };
 
     const enable = () => {
-      if (swiper || !mq.matches) return;
+      if (swiper) return;
+      if (!alwaysCarousel && !mq.matches) return;
 
       setCarouselAttrs(true);
 
       swiper = new Swiper(slider, {
         modules: [Navigation, Scrollbar, A11y, Keyboard],
-        slidesPerView: 1.15,
+        slidesPerView: alwaysCarousel ? 1.15 : 1.15,
         spaceBetween: 16,
         watchOverflow: true,
         speed: prefersReducedMotion ? 0 : 400,
@@ -75,16 +79,17 @@ export function initCardsContentSlider(root: ParentNode = document): void {
           nextSlideMessage: 'Next slide',
           slideLabelMessage: '{{index}} / {{slidesLength}}',
         },
-        breakpoints: {
-          480: {
-            slidesPerView: 1.35,
-            spaceBetween: 16,
-          },
-          768: {
-            slidesPerView: 2.15,
-            spaceBetween: 20,
-          },
-        },
+        breakpoints: alwaysCarousel
+          ? {
+              480: { slidesPerView: 1.35, spaceBetween: 16 },
+              768: { slidesPerView: 1.8, spaceBetween: 24 },
+              1024: { slidesPerView: 2.35, spaceBetween: 32 },
+              1280: { slidesPerView: 2.45, spaceBetween: 32 },
+            }
+          : {
+              480: { slidesPerView: 1.35, spaceBetween: 16 },
+              768: { slidesPerView: 2.15, spaceBetween: 20 },
+            },
       });
     };
 
@@ -97,7 +102,7 @@ export function initCardsContentSlider(root: ParentNode = document): void {
     };
 
     const sync = () => {
-      if (mq.matches) enable();
+      if (alwaysCarousel || mq.matches) enable();
       else disable();
     };
 

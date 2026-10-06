@@ -5,6 +5,25 @@
   @include adaptive-value('padding-bottom', 96, 56, 1);
   background-color: $color-bg-muted;
 
+  &--centered {
+    .section-faq__layout {
+      flex-direction: column;
+      align-items: center;
+      gap: 40px;
+    }
+
+    .section-faq__intro {
+      align-items: center;
+      max-width: none;
+      text-align: center;
+    }
+
+    .section-faq__list {
+      width: 100%;
+      max-width: 864px;
+    }
+  }
+
   &__layout {
     display: flex;
     align-items: flex-start;

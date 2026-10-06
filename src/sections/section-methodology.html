@@ -72,6 +72,7 @@
                   <span></span>
                   <span></span>
                   <span></span>
+                  <span></span>
                 </div>
 
                 {{#if label}}
@@ -87,6 +88,14 @@
                 {{/if}}
               </article>
             {{/each}}
+
+            {{#if methodology.conclusion}}
+              <article class="swiper-slide section-methodology__step section-methodology__step--conclusion">
+                <p class="section-methodology__conclusion-text">
+                  {{{ methodology.conclusion }}}
+                </p>
+              </article>
+            {{/if}}
           </div>
         </div>
 

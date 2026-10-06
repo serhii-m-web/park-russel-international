@@ -7,6 +7,26 @@
   @include adaptive-value('padding-bottom', 96, 56, 1);
   background-color: $color-dark-blue;
 
+  &__eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    margin: 0 0 20px;
+    color: $color-ice;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 1.68px;
+    line-height: calc(16 / 12);
+    text-transform: uppercase;
+  }
+
+  &__eyebrow-rule {
+    flex-shrink: 0;
+    width: 20px;
+    height: 2px;
+    background-color: $color-red;
+  }
+
   &__title {
     margin: 0;
     max-width: 1100px;
@@ -19,6 +39,15 @@
 
     .is-muted {
       color: $color-ice;
+    }
+  }
+
+  &--headline {
+    .section-stakeholders__title {
+      max-width: 580px;
+      letter-spacing: -1.2px;
+      line-height: calc(52 / 48);
+      @include adaptive-value('font-size', 48, 32, 1);
     }
   }
 

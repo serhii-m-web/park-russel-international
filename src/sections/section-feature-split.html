@@ -1,0 +1,225 @@
+<section
+  class="
+    section-feature-split
+    {{#if feature.className}}
+      {{ feature.className }}
+    {{/if}}
+  "
+  {{#if feature.title}}
+    aria-labelledby="{{#if feature.id}}{{ feature.id }}{{else}}section-feature-split{{/if}}-title"
+  {{else}}
+    aria-label="{{#if feature.ariaLabel}}{{ feature.ariaLabel }}{{else}}Feature{{/if}}"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-feature-split__layout">
+      <div class="section-feature-split__primary">
+        {{#if feature.panel}}
+          <div class="section-feature-split__panel">
+            {{#if feature.panel.image}}
+              {{picture
+                feature.panel.image
+                alt=feature.panel.imageAlt
+                class="section-feature-split__panel-media"
+                width="1120"
+                height="1280"
+              }}
+            {{/if}}
+            <div class="section-feature-split__panel-content">
+              {{#if feature.title}}
+                <h2
+                  id="{{#if feature.id}}{{ feature.id }}{{else}}section-feature-split{{/if}}-title"
+                  class="section-feature-split__title section-feature-split__title--on-dark"
+                >
+                  {{{ feature.title }}}
+                </h2>
+              {{/if}}
+
+              {{#if feature.lead}}
+                <p class="section-feature-split__lead section-feature-split__lead--on-dark">
+                  {{{ feature.lead }}}
+                </p>
+              {{/if}}
+
+              {{#if feature.text}}
+                <p class="section-feature-split__text section-feature-split__text--on-dark">
+                  {{{ feature.text }}}
+                </p>
+              {{/if}}
+
+              {{#if feature.statement}}
+                <div class="section-feature-split__statement">
+                  <span class="section-feature-split__rule" aria-hidden="true"></span>
+                  <p class="section-feature-split__statement-text">
+                    {{{ feature.statement }}}
+                  </p>
+                </div>
+              {{/if}}
+            </div>
+          </div>
+        {{else}}
+          {{#if feature.title}}
+            <h2
+              id="{{#if feature.id}}{{ feature.id }}{{else}}section-feature-split{{/if}}-title"
+              class="section-feature-split__title"
+            >
+              {{{ feature.title }}}
+            </h2>
+          {{/if}}
+
+          {{#if feature.lead}}
+            <p class="section-feature-split__lead">
+              {{{ feature.lead }}}
+            </p>
+          {{/if}}
+
+          {{#if feature.image}}
+            {{picture
+              feature.image
+              alt=feature.imageAlt
+              class="section-feature-split__image"
+              width="1280"
+              height="600"
+            }}
+          {{/if}}
+
+          {{#if feature.text}}
+            <p class="section-feature-split__text">
+              {{{ feature.text }}}
+            </p>
+          {{/if}}
+
+          {{#if feature.principles}}
+            <ul class="section-feature-split__principles">
+              {{#each feature.principles}}
+                <li class="section-feature-split__principle">
+                  {{#if icon}}
+                    <span class="section-feature-split__principle-icon" aria-hidden="true">
+                      <img src="{{ icon }}" alt="" width="32" height="32" decoding="async" />
+                    </span>
+                  {{/if}}
+                  <p class="section-feature-split__principle-text">
+                    {{{ text }}}
+                  </p>
+                </li>
+              {{/each}}
+            </ul>
+          {{/if}}
+        {{/if}}
+      </div>
+
+      <div class="section-feature-split__secondary">
+        {{#if feature.secondaryLead}}
+          <p class="section-feature-split__secondary-lead">
+            {{{ feature.secondaryLead }}}
+          </p>
+        {{/if}}
+
+        {{#if feature.items}}
+          <ul class="section-feature-split__items">
+            {{#each feature.items}}
+              <li class="section-feature-split__item">
+                {{#if icon}}
+                  <span class="section-feature-split__item-icon" aria-hidden="true">
+                    <img src="{{ icon }}" alt="" width="32" height="32" decoding="async" />
+                  </span>
+                {{/if}}
+                {{#if title}}
+                  <h3 class="section-feature-split__item-title">{{ title }}</h3>
+                {{/if}}
+                {{#if text}}
+                  <p class="section-feature-split__item-text">{{{ text }}}</p>
+                {{/if}}
+              </li>
+            {{/each}}
+          </ul>
+        {{/if}}
+
+        {{#if feature.list}}
+          <ul class="section-feature-split__list">
+            {{#each feature.list}}
+              <li class="section-feature-split__list-item">{{{ this }}}</li>
+            {{/each}}
+          </ul>
+        {{/if}}
+
+        {{#if feature.emphasis}}
+          <p class="section-feature-split__emphasis">
+            {{{ feature.emphasis }}}
+          </p>
+        {{/if}}
+
+        {{#if feature.imageSecondary}}
+          <div class="section-feature-split__photo">
+            {{picture
+              feature.imageSecondary
+              alt=feature.imageSecondaryAlt
+              class="section-feature-split__photo-media"
+              width="1184"
+              height="1160"
+            }}
+
+            {{#if feature.photoMark}}
+              <span class="section-feature-split__photo-mark" aria-hidden="true">
+                <img
+                  src="{{ feature.photoMark }}"
+                  alt=""
+                  width="64"
+                  height="64"
+                  decoding="async"
+                />
+              </span>
+            {{/if}}
+
+            {{#if feature.photoStatement}}
+              <div class="section-feature-split__photo-statement">
+                <span class="section-feature-split__rule" aria-hidden="true"></span>
+                <p class="section-feature-split__photo-statement-text">
+                  {{{ feature.photoStatement }}}
+                </p>
+              </div>
+            {{/if}}
+          </div>
+        {{/if}}
+      </div>
+    </div>
+
+    {{#if feature.network}}
+      <div class="section-feature-split__network">
+        <div class="section-feature-split__network-main">
+          {{#if feature.network.text}}
+            <p class="section-feature-split__network-text">
+              {{{ feature.network.text }}}
+            </p>
+          {{/if}}
+          {{#if feature.network.button}}
+            <a
+              class="site-button primary"
+              href="{{ feature.network.button.href }}"
+            >
+              <span>{{ feature.network.button.label }}</span>
+              {{> icon name="arrow-right" width="16" height="16"}}
+            </a>
+          {{/if}}
+        </div>
+
+        {{#if feature.network.perspectives}}
+          <ul class="section-feature-split__perspectives">
+            {{#each feature.network.perspectives}}
+              <li class="section-feature-split__perspective">
+                {{#if icon}}
+                  <span class="section-feature-split__perspective-icon" aria-hidden="true">
+                    <img src="{{ icon }}" alt="" width="45" height="45" decoding="async" />
+                  </span>
+                {{/if}}
+                {{#if text}}
+                  <p class="section-feature-split__perspective-text">{{{ text }}}</p>
+                {{/if}}
+              </li>
+            {{/each}}
+          </ul>
+        {{/if}}
+      </div>
+    {{/if}}
+  </div>
+</section>

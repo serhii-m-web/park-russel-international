@@ -88,6 +88,26 @@
                     {{{ description }}}
                   </p>
                 {{/if}}
+
+                {{#if descriptionSecondary}}
+                  <p class="section-page-cards-content__card-description section-page-cards-content__card-description--muted">
+                    {{{ descriptionSecondary }}}
+                  </p>
+                {{/if}}
+
+                {{#if link}}
+                  <a
+                    class="section-page-cards-content__card-link site-link"
+                    href="{{ link.href }}"
+                  >
+                    <span>{{ link.label }}</span>
+                    {{> icon
+                      name="arrow-right"
+                      width="16"
+                      height="16"
+                    }}
+                  </a>
+                {{/if}}
               </div>
             </article>
           {{/each}}

@@ -118,6 +118,15 @@
       }
     }
 
+    .section-methodology--grid-4 & {
+      @include media('>=desktop') {
+        .swiper-wrapper {
+          grid-template-columns: repeat(4, minmax(0, 1fr));
+          gap: 24px;
+        }
+      }
+    }
+
     @include media('<desktop') {
       @include media('>=tablet') {
         .swiper-wrapper {
@@ -158,6 +167,11 @@
       min-height: 0;
       padding: 24px;
     }
+
+    &--conclusion {
+      justify-content: flex-end;
+      background-color: $color-red;
+    }
   }
 
   &__progress {
@@ -182,9 +196,19 @@
     &[data-progress='3'] span:nth-child(-n + 3),
     &[data-progress='4'] span:nth-child(-n + 4),
     &[data-progress='5'] span:nth-child(-n + 5),
-    &[data-progress='6'] span:nth-child(-n + 6) {
+    &[data-progress='6'] span:nth-child(-n + 6),
+    &[data-progress='7'] span:nth-child(-n + 7) {
       background-color: $color-red;
     }
+  }
+
+  &__conclusion-text {
+    margin: 0;
+    color: $color-white;
+    font-weight: 500;
+    letter-spacing: -0.24px;
+    line-height: calc(32 / 24);
+    @include adaptive-value('font-size', 24, 20, 1);
   }
 
   &__step-label {

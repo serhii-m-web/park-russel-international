@@ -60,6 +60,75 @@
     }
   }
 
+  &--grid-6 {
+    background-color: $color-white;
+
+    .section-confidence__header {
+      justify-content: flex-start;
+    }
+
+    .section-confidence__lead {
+      display: none;
+    }
+
+    .section-confidence__pillars {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      background-color: $color-bg-muted;
+
+      @include media('<desktop') {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      @include media('<tablet') {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .section-confidence__pillar {
+      border-left: 1px solid $color-line;
+      border-top: 0;
+
+      &:nth-child(3n + 1) {
+        border-left: 0;
+      }
+
+      &:nth-child(n + 4) {
+        border-top: 1px solid $color-line;
+      }
+
+      @include media('<desktop') {
+        border-left: 0;
+        border-top: 1px solid $color-line;
+
+        &:nth-child(even) {
+          border-left: 1px solid $color-line;
+        }
+
+        &:nth-child(-n + 2) {
+          border-top: 0;
+        }
+
+        &:nth-child(3n + 1) {
+          border-left: 0;
+        }
+      }
+
+      @include media('<tablet') {
+        border-left: 0 !important;
+        border-top: 1px solid $color-line;
+
+        &:first-child {
+          border-top: 0;
+        }
+      }
+    }
+
+    .section-confidence__pillar-title {
+      min-height: 0;
+    }
+  }
+
   &__pillar {
     display: flex;
     flex: 1;

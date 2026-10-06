@@ -1,0 +1,152 @@
+<section
+  class="
+    section-value-judgement
+    {{#if value.className}}
+      {{ value.className }}
+    {{/if}}
+  "
+  {{#if value.title}}
+    aria-labelledby="{{#if value.id}}{{ value.id }}{{else}}section-value-judgement{{/if}}-title"
+  {{else}}
+    aria-label="{{#if value.ariaLabel}}{{ value.ariaLabel }}{{else}}Value requires judgement{{/if}}"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-value-judgement__iceberg" aria-hidden="false">
+      <div class="section-value-judgement__surface" aria-hidden="true"></div>
+      <div class="section-value-judgement__depth" aria-hidden="true"></div>
+
+      <div class="section-value-judgement__graphic" aria-hidden="true">
+        <img
+          class="section-value-judgement__iceberg-below"
+          src="/images/corporate-services/iceberg-below.svg"
+          alt=""
+          width="500"
+          height="488"
+          decoding="async"
+        />
+        <img
+          class="section-value-judgement__iceberg-facet2"
+          src="/images/corporate-services/iceberg-facet2.svg"
+          alt=""
+          width="134"
+          height="214"
+          decoding="async"
+        />
+        <img
+          class="section-value-judgement__iceberg-facet1"
+          src="/images/corporate-services/iceberg-facet1.svg"
+          alt=""
+          width="230"
+          height="174"
+          decoding="async"
+        />
+        <img
+          class="section-value-judgement__iceberg-above"
+          src="/images/corporate-services/iceberg-above.svg"
+          alt=""
+          width="240"
+          height="130"
+          decoding="async"
+        />
+        <img
+          class="section-value-judgement__iceberg-facet"
+          src="/images/corporate-services/iceberg-facet.svg"
+          alt=""
+          width="140"
+          height="130"
+          decoding="async"
+        />
+      </div>
+
+      <div class="section-value-judgement__waterline" aria-hidden="true">
+        <span class="section-value-judgement__waterline-accent"></span>
+      </div>
+
+      {{#if value.surfaceTitle}}
+        <p class="section-value-judgement__surface-title">
+          {{{ value.surfaceTitle }}}
+        </p>
+      {{/if}}
+
+      <div class="section-value-judgement__below">
+        {{#if value.title}}
+          <h2
+            id="{{#if value.id}}{{ value.id }}{{else}}section-value-judgement{{/if}}-title"
+            class="section-value-judgement__title"
+          >
+            {{{ value.title }}}
+          </h2>
+        {{/if}}
+
+        {{#if value.lead}}
+          <p class="section-value-judgement__lead">
+            {{{ value.lead }}}
+          </p>
+        {{/if}}
+      </div>
+
+      {{#if value.conclusion}}
+        <div class="section-value-judgement__conclusion">
+          <span class="section-value-judgement__rule" aria-hidden="true"></span>
+          <p class="section-value-judgement__conclusion-text">
+            {{{ value.conclusion }}}
+          </p>
+        </div>
+      {{/if}}
+
+      {{#if value.factors}}
+        <ul class="section-value-judgement__factors">
+          {{#each value.factors}}
+            <li class="section-value-judgement__factor">
+              <span class="section-value-judgement__factor-dot" aria-hidden="true"></span>
+              <span>{{ this }}</span>
+            </li>
+          {{/each}}
+        </ul>
+      {{/if}}
+    </div>
+
+    <div class="section-value-judgement__takeaway">
+      {{#if value.takeaway}}
+        <p class="section-value-judgement__takeaway-text">
+          {{{ value.takeaway }}}
+        </p>
+      {{/if}}
+
+      {{#if value.know}}
+        <ul class="section-value-judgement__know">
+          {{#each value.know}}
+            <li
+              class="
+                section-value-judgement__know-item
+                {{#if accent}}
+                  section-value-judgement__know-item--accent
+                {{/if}}
+              "
+            >
+              <div class="section-value-judgement__know-index" aria-hidden="true">
+                {{#if ../value.iconAccent}}
+                  <img
+                    class="section-value-judgement__know-accent"
+                    src="{{ ../value.iconAccent }}"
+                    alt=""
+                    width="22"
+                    height="22"
+                    decoding="async"
+                  />
+                {{/if}}
+                {{#if number}}
+                  <span class="section-value-judgement__know-number">{{ number }}.</span>
+                {{/if}}
+              </div>
+              {{#if text}}
+                <p class="section-value-judgement__know-text">{{{ text }}}</p>
+              {{/if}}
+            </li>
+          {{/each}}
+        </ul>
+      {{/if}}
+    </div>
+  </div>
+</section>

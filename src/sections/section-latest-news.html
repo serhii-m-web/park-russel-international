@@ -1,12 +1,35 @@
 <section
-  class="section-latest-news"
-  aria-labelledby="section-latest-news-title"
+  class="
+    section-latest-news
+    {{#if latestNews.className}}
+      {{ latestNews.className }}
+    {{/if}}
+  "
+  aria-labelledby="{{#if latestNews.id}}{{ latestNews.id }}{{else}}section-latest-news{{/if}}-title"
 >
   <div class="container">
     <div class="section-latest-news__header">
-      <h2 id="section-latest-news-title" class="section-latest-news__title">
-        {{ latestNews.title }}
-      </h2>
+      <div class="section-latest-news__intro">
+        {{#if latestNews.label}}
+          <span class="page-label">
+            {{ latestNews.label }}
+          </span>
+        {{/if}}
+
+        <h2
+          id="{{#if latestNews.id}}{{ latestNews.id }}{{else}}section-latest-news{{/if}}-title"
+          class="section-latest-news__title"
+        >
+          {{{ latestNews.title }}}
+        </h2>
+
+        {{#if latestNews.description}}
+          <p class="section-latest-news__description">
+            {{{ latestNews.description }}}
+          </p>
+        {{/if}}
+      </div>
+
       {{#if latestNews.button}}
         <a
           class="section-latest-news__button site-button secondary-red"
@@ -22,6 +45,14 @@
         </a>
       {{/if}}
     </div>
+
+    {{#if latestNews.topics}}
+      <ul class="section-latest-news__topics" aria-label="Topics">
+        {{#each latestNews.topics}}
+          <li class="section-latest-news__topic">{{ this }}</li>
+        {{/each}}
+      </ul>
+    {{/if}}
 
     <div class="section-latest-news__list-wrapper">
       {{#if latestNews.featured}}

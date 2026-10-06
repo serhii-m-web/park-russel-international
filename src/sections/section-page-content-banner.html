@@ -43,6 +43,19 @@
       {{/if}}
     {{/if}}
 
+    {{#if contentBanner.tensions}}
+      <ul class="section-page-content-banner__tensions">
+        {{#each contentBanner.tensions}}
+          <li class="section-page-content-banner__tension">
+            <span class="section-page-content-banner__tension-rule" aria-hidden="true"></span>
+            <p class="section-page-content-banner__tension-text">
+              {{{ this }}}
+            </p>
+          </li>
+        {{/each}}
+      </ul>
+    {{/if}}
+
     {{#if contentBanner.image}}
       <div class="section-page-content-banner__content">
         {{picture
