@@ -140,6 +140,53 @@
       }
     ]
   },
+  "assuranceMethodology": {
+    "id": "assurance-methodology",
+    "ariaLabel": "Our methodology",
+    "carouselLabel": "Methodology steps",
+    "image": "/images/methodology-earth.svg",
+    "title": "Understand the Business. Follow the Risk. Test the Evidence.",
+    "lead": "Parker Russell's financial statement audit approach is supported by the Business Measurement Process (BMP) — the network's risk-based methodology for financial statement audits.",
+    "text": "The methodology directs attention towards identified risks and areas requiring professional judgement, providing a structured basis for planning, performing and concluding the audit.",
+    "steps": [
+      {
+        "number": "01",
+        "label": "UNDERSTAND",
+        "progress": 1,
+        "description": "Build an informed understanding of the organisation, its business model, operating environment and financial reporting requirements."
+      },
+      {
+        "number": "02",
+        "label": "IDENTIFY",
+        "progress": 2,
+        "description": "Determine material financial reporting risks and areas involving significant judgement."
+      },
+      {
+        "number": "03",
+        "label": "ASSESS",
+        "progress": 3,
+        "description": "Evaluate relevant systems, controls and financial information in the context of the risks identified."
+      },
+      {
+        "number": "04",
+        "label": "RESPOND",
+        "progress": 4,
+        "description": "Design and perform audit procedures appropriate to those risks."
+      },
+      {
+        "number": "05",
+        "label": "EVALUATE",
+        "progress": 5,
+        "description": "Assess the quality and sufficiency of the audit evidence obtained."
+      },
+      {
+        "number": "06",
+        "label": "CONCLUDE",
+        "progress": 6,
+        "description": "Apply professional judgement, reach appropriate conclusions and communicate significant matters clearly."
+      }
+    ]
+  },
   "assuranceTabs": {
     "id": "assurance-tabs",
     "ariaLabel": "Assurance services",

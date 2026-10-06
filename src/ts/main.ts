@@ -1,6 +1,7 @@
 import '../styles/main.scss';
 import { initCardsContentSlider } from './cardsContentSlider';
 import { initMegaMenu } from './megaMenu';
+import { initMethodologySlider } from './methodologySlider';
 import { initMobileNav } from './mobileNav';
 import { initPublicationsSlider } from './publicationsSlider';
 import { initRiskPerspectiveSlider } from './riskPerspectiveSlider';
@@ -15,6 +16,7 @@ function init(): void {
   initPublicationsSlider();
   initCardsContentSlider();
   initRiskPerspectiveSlider();
+  initMethodologySlider();
   initSectionTabs();
 }
 

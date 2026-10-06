@@ -1,0 +1,136 @@
+<section
+  class="
+    section-methodology
+    {{#if methodology.className}}
+      {{ methodology.className }}
+    {{/if}}
+  "
+  data-methodology-slider
+  {{#if methodology.title}}
+    aria-labelledby="{{#if methodology.id}}{{ methodology.id }}{{else}}section-methodology{{/if}}-title"
+  {{else}}
+    aria-label="{{#if methodology.ariaLabel}}{{ methodology.ariaLabel }}{{else}}Methodology{{/if}}"
+  {{/if}}
+>
+  {{#if methodology.image}}
+    <div class="section-methodology__bg" aria-hidden="true">
+      <img
+        class="section-methodology__bg-image"
+        src="{{ methodology.image }}"
+        alt=""
+        width="990"
+        height="911"
+        decoding="async"
+      />
+    </div>
+  {{/if}}
+
+  <div class="container">
+    <div class="section-methodology__header">
+      {{#if methodology.title}}
+        <h2
+          id="{{#if methodology.id}}{{ methodology.id }}{{else}}section-methodology{{/if}}-title"
+          class="section-methodology__title"
+        >
+          {{{ methodology.title }}}
+        </h2>
+      {{/if}}
+
+      <div class="section-methodology__intro">
+        {{#if methodology.lead}}
+          <p class="section-methodology__lead">
+            {{{ methodology.lead }}}
+          </p>
+        {{/if}}
+
+        {{#if methodology.text}}
+          <p class="section-methodology__text">
+            {{{ methodology.text }}}
+          </p>
+        {{/if}}
+      </div>
+    </div>
+
+    {{#if methodology.steps}}
+      <div class="section-methodology__steps-wrap">
+        <div
+          class="swiper section-methodology__steps"
+          data-methodology-slider-el
+          data-methodology-slider-label="{{#if methodology.carouselLabel}}{{ methodology.carouselLabel }}{{else}}{{ methodology.ariaLabel }}{{/if}}"
+        >
+          <div class="swiper-wrapper">
+            {{#each methodology.steps}}
+              <article class="swiper-slide section-methodology__step">
+                <div
+                  class="section-methodology__progress"
+                  data-progress="{{ progress }}"
+                  aria-hidden="true"
+                >
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+
+                {{#if label}}
+                  <p class="section-methodology__step-label">
+                    {{#if number}}{{ number }} — {{/if}}{{ label }}
+                  </p>
+                {{/if}}
+
+                {{#if description}}
+                  <p class="section-methodology__step-text">
+                    {{{ description }}}
+                  </p>
+                {{/if}}
+              </article>
+            {{/each}}
+          </div>
+        </div>
+
+        <div
+          class="section-methodology__navigation"
+          role="group"
+          aria-label="Methodology steps slider controls"
+          data-methodology-slider-nav
+          inert
+        >
+          <div
+            class="swiper-scrollbar section-methodology__scrollbar"
+            data-methodology-slider-scrollbar
+            tabindex="0"
+            aria-label="Slider progress"
+          ></div>
+          <div class="section-methodology__nav-buttons">
+            <button
+              class="swiper-button-prev section-methodology__nav-btn prev"
+              type="button"
+              data-methodology-slider-prev
+              aria-label="Previous slide"
+            >
+              {{> icon
+                name="arrow-right"
+                width="16"
+                height="16"
+              }}
+            </button>
+            <button
+              class="swiper-button-next section-methodology__nav-btn next"
+              type="button"
+              data-methodology-slider-next
+              aria-label="Next slide"
+            >
+              {{> icon
+                name="arrow-right"
+                width="16"
+                height="16"
+              }}
+            </button>
+          </div>
+        </div>
+      </div>
+    {{/if}}
+  </div>
+</section>
