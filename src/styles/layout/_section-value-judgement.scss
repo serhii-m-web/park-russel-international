@@ -26,6 +26,10 @@
     width: 100%;
     height: 190px;
     background-color: $color-bg-muted;
+
+    @include media('<desktop') {
+      display: none;
+    }
   }
 
   &__depth {
@@ -35,12 +39,20 @@
     width: 100%;
     height: calc(100% - 171px);
     background: linear-gradient(180deg, #2a3750 0%, #1a2333 100%);
+
+    @include media('<desktop') {
+      display: none;
+    }
   }
 
   &__graphic {
     position: absolute;
     inset: 0;
     pointer-events: none;
+
+    @include media('<desktop') {
+      display: none;
+    }
   }
 
   &__iceberg-below,
@@ -95,6 +107,10 @@
     width: 100%;
     height: 1px;
     background-color: rgba($color-white, 0.25);
+
+    @include media('<desktop') {
+      display: none;
+    }
   }
 
   &__waterline-accent {
@@ -119,11 +135,12 @@
     font-weight: 500;
     letter-spacing: -1.92px;
     line-height: calc(68 / 64);
-    @include adaptive-value('font-size', 64, 36, 1);
+    @include adaptive-value('font-size', 64, 30, 1);
 
-    @include media('<tablet') {
+    @include media('<desktop') {
       padding: 28px 24px 0;
       letter-spacing: -1px;
+      color: $color-white;
     }
   }
 
@@ -134,7 +151,7 @@
     margin: 128px 0 0;
     padding: 0 64px;
 
-    @include media('<tablet') {
+    @include media('<desktop') {
       margin-top: 40px;
       padding: 0 24px;
     }
@@ -146,7 +163,7 @@
     font-weight: 500;
     letter-spacing: -1.92px;
     line-height: calc(68 / 64);
-    @include adaptive-value('font-size', 64, 36, 1);
+    @include adaptive-value('font-size', 64, 30, 1);
 
     @include media('<tablet') {
       letter-spacing: -1px;
@@ -170,7 +187,7 @@
     margin-top: 70px;
     padding: 0 64px 48px;
 
-    @include media('<tablet') {
+    @include media('<desktop') {
       margin-top: 40px;
       padding: 0 24px 32px;
     }
@@ -293,7 +310,10 @@
     border-radius: 20px;
     background-color: $color-bg-muted;
 
-    @include media('<tablet') {
+    @include media('<desktop') {
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
       min-height: 0;
       gap: 32px;
       padding: 24px;
@@ -344,6 +364,6 @@
     font-weight: 500;
     letter-spacing: -0.24px;
     line-height: calc(30 / 24);
-    @include adaptive-value('font-size', 24, 20, 1);
+    @include adaptive-value('font-size', 24, 18, 1);
   }
 }

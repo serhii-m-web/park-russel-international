@@ -10,10 +10,13 @@
       flex-direction: column;
       align-items: center;
       gap: 40px;
+
+      @include media('<desktop') {
+        gap: 32px;
+      }
     }
 
     .section-faq__intro {
-      align-items: center;
       max-width: none;
       text-align: center;
     }

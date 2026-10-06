@@ -186,6 +186,10 @@
     letter-spacing: -0.1px;
     line-height: calc(28 / 20);
     @include adaptive-value('font-size', 20, 17, 1);
+
+    @include media('<desktop') {
+      align-items: flex-start;
+    }
   }
 
   &__tagline-rule {
@@ -193,6 +197,10 @@
     width: 32px;
     height: 2px;
     background-color: $color-red;
+
+    @include media('<desktop') {
+      margin-top: 11px;
+    }
   }
 
   &__aside {
@@ -237,7 +245,7 @@
     color: $color-ice;
     font-weight: 400;
     line-height: calc(26 / 17);
-    @include adaptive-value('font-size', 17, 15, 1);
+    @include adaptive-value('font-size', 17, 16, 1);
   }
 
   &__buttons {
@@ -280,15 +288,66 @@
       @include adaptive-value('padding-top', 72, 40, 1);
       @include adaptive-value('padding-bottom', 72, 40, 1);
       @include adaptive-value('min-height', 600, 0, 1);
+
+      @include media('<tablet') {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+
+    .page-hero__main {
+      @include media('<tablet') {
+        display: contents;
+      }
+    }
+
+    .page-hero__label {
+      @include media('<tablet') {
+        width: max-content;
+        order: 1;
+      }
     }
 
     .page-hero__title {
       max-width: 1100px;
       margin-bottom: 24px;
+
+      @include media('<tablet') {
+        order: 2;
+      }
+    }
+
+    .page-hero__keywords {
+      @include media('<tablet') {
+        order: 3;
+      }
     }
 
     .page-hero__description {
-      margin-bottom: 40px;
+      margin-bottom: 16px;
+
+      @include media('<tablet') {
+        order: 4;
+      }
+    }
+
+    .page-hero__buttons {
+      @include media('<tablet') {
+        order: 6;
+      }
+    }
+
+    .page-hero__aside {
+      @include media('<tablet') {
+        margin-top: 0;
+        order: 5;
+      }
+    }
+
+    .page-hero__aside-text {
+      @include media('<tablet') {
+        margin-bottom: 16px;
+      }
     }
   }
 }
