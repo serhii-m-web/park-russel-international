@@ -4,10 +4,16 @@
     {{#if slider.className}}
       {{ slider.className }}
     {{/if}}
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
     {{#if class}}
       {{ class }}
     {{/if}}
   "
+  {{#if slider.id}}
+    id="{{ slider.id }}"
+  {{/if}}
   data-section-slider
   {{#if slider.breakpoints}}
     data-breakpoints="{{ slider.breakpoints }}"
@@ -43,6 +49,14 @@
             <p class="section-slider__description-body">
               {{{ slider.description }}}
             </p>
+          {{/if}}
+
+          {{#if slider.tags}}
+            <ul class="section-slider__tags">
+              {{#each slider.tags}}
+                <li class="section-slider__tag">{{ this }}</li>
+              {{/each}}
+            </ul>
           {{/if}}
 
           {{#if slider.conclusion}}

@@ -1,0 +1,330 @@
+@use '../abstracts' as *;
+
+.section-structure {
+  position: relative;
+  overflow: hidden;
+  @include adaptive-value('padding-top', 120, 56, 1);
+  @include adaptive-value('padding-bottom', 120, 56, 1);
+  background-color: $color-dark-blue;
+  color: $color-white;
+
+  &__bg {
+    position: absolute;
+    top: 50px;
+    left: max(16px, calc(50% - 660px + 64px));
+    width: min(990px, 90vw);
+    height: auto;
+    pointer-events: none;
+    opacity: 0.9;
+
+    @include media('<desktop') {
+      top: 24px;
+      left: 0;
+      width: min(720px, 120%);
+      opacity: 0.45;
+    }
+  }
+
+  &__bg-image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .container {
+    position: relative;
+    z-index: 1;
+  }
+
+  &__header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 48px;
+    @include adaptive-value('margin-bottom', 64, 40, 1);
+
+    @include media('<desktop') {
+      flex-direction: column;
+      gap: 32px;
+    }
+  }
+
+  &__title {
+    margin: 0;
+    width: 48%;
+    max-width: 640px;
+    color: $color-white;
+    font-weight: 500;
+    letter-spacing: -1.2px;
+    line-height: calc(52 / 48);
+    @include adaptive-value('font-size', 48, 32, 1);
+
+    @include media('<desktop') {
+      width: 100%;
+      max-width: none;
+    }
+  }
+
+  &__questions {
+    flex: 1;
+    min-width: 0;
+    max-width: 640px;
+
+    @include media('<desktop') {
+      max-width: none;
+    }
+  }
+
+  &__question-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  &__question {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 14px 0;
+    border-top: 1px solid rgba($color-white, 0.12);
+
+    &:last-child {
+      border-bottom: 1px solid rgba($color-white, 0.12);
+    }
+  }
+
+  &__question-dot {
+    flex-shrink: 0;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: $color-red;
+  }
+
+  &__question-text {
+    margin: 0;
+    color: $color-white;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: calc(26 / 18);
+  }
+
+  &__questions-note {
+    margin: 24px 0 0;
+    color: $color-ice;
+    font-weight: 500;
+    letter-spacing: -0.1px;
+    line-height: calc(28 / 20);
+    @include adaptive-value('font-size', 20, 17, 1);
+  }
+
+  &__stages-wrap {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+  }
+
+  &__stages {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    margin: 0;
+    padding: 0;
+    overflow: visible !important;
+
+    @include media('>=tablet') {
+      overflow: visible;
+
+      .swiper-wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 24px;
+        transform: none !important;
+      }
+
+      .swiper-slide {
+        width: auto !important;
+        margin: 0 !important;
+        height: auto;
+      }
+    }
+
+    @include media('<desktop') {
+      @include media('>=tablet') {
+        .swiper-wrapper {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+          gap: 20px;
+        }
+      }
+    }
+
+    @include media('<tablet') {
+      overflow: hidden;
+
+      .swiper-wrapper {
+        align-items: stretch;
+      }
+    }
+  }
+
+  .swiper-slide {
+    @include media('<tablet') {
+      height: auto !important;
+      min-height: 0 !important;
+    }
+  }
+
+  &__stage {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;
+    height: auto;
+    padding: 32px 32px 40px;
+    border-radius: 16px;
+    background-color: #273449;
+
+    @include media('<tablet') {
+      padding: 28px 24px 32px;
+    }
+  }
+
+  &__stage-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 56px;
+    margin-bottom: 32px;
+    border-radius: 6px;
+    background-color: $color-red;
+
+    @include media('<tablet') {
+      width: 48px;
+      height: 48px;
+      margin-bottom: 20px;
+    }
+
+    img {
+      display: block;
+      width: 30px;
+      height: 30px;
+
+      @include media('<tablet') {
+        width: 24px;
+        height: 24px;
+      }
+    }
+  }
+
+  &__stage-label {
+    margin: 0 0 12px;
+    color: $color-white;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1.28px;
+    line-height: calc(24 / 16);
+    text-transform: uppercase;
+  }
+
+  &__stage-text {
+    margin: 0;
+    color: $color-ice;
+    font-weight: 400;
+    letter-spacing: -0.1px;
+    line-height: calc(28 / 20);
+    @include adaptive-value('font-size', 20, 17, 1);
+  }
+
+  &__navigation {
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+    width: 100%;
+    @include adaptive-value('margin-top', 32, 24, 1);
+
+    @include media('<tablet') {
+      display: flex;
+    }
+  }
+
+  &__nav-buttons {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  &__scrollbar {
+    position: static !important;
+    left: auto !important;
+    right: auto !important;
+    top: auto !important;
+    bottom: auto !important;
+    flex: 1 1 auto;
+    width: auto !important;
+    max-width: 210px;
+    min-width: 0;
+    height: 6px !important;
+    background: rgba($color-white, 0.14) !important;
+
+    .swiper-scrollbar-drag {
+      background: $color-red !important;
+    }
+  }
+
+  &__nav-btn {
+    position: static !important;
+    width: 40px !important;
+    height: 40px !important;
+    margin: 0 !important;
+    flex-shrink: 0;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    background-color: $color-red;
+    color: $color-white !important;
+
+    &::after {
+      display: none !important;
+    }
+
+    &.prev {
+      transform: rotate(180deg);
+    }
+
+    &.swiper-button-disabled {
+      border-color: rgba($color-white, 0.35);
+      background-color: transparent;
+      color: $color-white !important;
+    }
+
+    svg {
+      width: 16px !important;
+      height: 16px !important;
+    }
+  }
+
+  &__conclusion {
+    position: relative;
+    overflow: hidden;
+    margin-top: 32px;
+    padding: 36px 40px;
+    border-radius: 16px;
+    background-color: $color-red;
+
+    @include media('<tablet') {
+      padding: 28px 24px;
+    }
+  }
+
+  &__conclusion-text {
+    position: relative;
+    z-index: 1;
+    margin: 0;
+    color: $color-white;
+    font-weight: 500;
+    letter-spacing: -0.28px;
+    line-height: calc(36 / 28);
+    @include adaptive-value('font-size', 28, 20, 1);
+  }
+}

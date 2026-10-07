@@ -2,6 +2,7 @@
 
 .section-stakeholders {
   $card-bg: #263449;
+  overflow: hidden;
 
   @include adaptive-value('padding-top', 96, 56, 1);
   @include adaptive-value('padding-bottom', 96, 56, 1);
@@ -51,21 +52,59 @@
     }
   }
 
+  &__list-wrap {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+  }
+
   &__list {
-    display: grid;
-    grid-template-columns: repeat(5, minmax(0, 1fr));
-    gap: 16px;
-    list-style: none;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
     margin: 0;
     padding: 0;
+    overflow: visible !important;
+
+    @include media('>=tablet') {
+      overflow: visible;
+
+      .swiper-wrapper {
+        display: grid;
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+        gap: 16px;
+        transform: none !important;
+      }
+
+      .swiper-slide {
+        width: auto !important;
+        margin: 0 !important;
+        height: auto;
+      }
+    }
 
     @include media('<desktop') {
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 12px;
+      @include media('>=tablet') {
+        .swiper-wrapper {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+          gap: 12px;
+        }
+      }
     }
 
     @include media('<tablet') {
-      grid-template-columns: 1fr;
+      overflow: hidden;
+
+      .swiper-wrapper {
+        align-items: stretch;
+      }
+    }
+  }
+
+  .swiper-slide {
+    @include media('<tablet') {
+      height: auto !important;
+      min-height: 0 !important;
     }
   }
 
@@ -73,7 +112,9 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    box-sizing: border-box;
     min-height: 100%;
+    height: auto;
     padding: 24px 24px 30px;
     border-radius: 20px;
     border: 1px solid rgba($color-white, 0.06);
@@ -117,6 +158,74 @@
     @include adaptive-value('font-size', 20, 16, 1);
   }
 
+  &__navigation {
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+    width: 100%;
+    @include adaptive-value('margin-top', 32, 24, 1);
+
+    @include media('<tablet') {
+      display: flex;
+    }
+  }
+
+  &__nav-buttons {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  &__scrollbar {
+    position: static !important;
+    left: auto !important;
+    right: auto !important;
+    top: auto !important;
+    bottom: auto !important;
+    flex: 1 1 auto;
+    width: auto !important;
+    max-width: 210px;
+    min-width: 0;
+    height: 6px !important;
+    background: rgba($color-white, 0.14) !important;
+
+    .swiper-scrollbar-drag {
+      background: $color-red !important;
+    }
+  }
+
+  &__nav-btn {
+    position: static !important;
+    width: 40px !important;
+    height: 40px !important;
+    margin: 0 !important;
+    flex-shrink: 0;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    background-color: $color-red;
+    color: $color-white !important;
+
+    &::after {
+      display: none !important;
+    }
+
+    &.prev {
+      transform: rotate(180deg);
+    }
+
+    &.swiper-button-disabled {
+      border-color: rgba($color-white, 0.35);
+      background-color: transparent;
+      color: $color-white !important;
+    }
+
+    svg {
+      width: 16px !important;
+      height: 16px !important;
+    }
+  }
+
   &__statement {
     margin: 48px 0 0;
     max-width: 960px;
@@ -134,14 +243,18 @@
 
   &--dark {
     .section-stakeholders__list {
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-
-      @include media('<desktop') {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
+      @include media('>=tablet') {
+        .swiper-wrapper {
+          grid-template-columns: repeat(3, minmax(0, 1fr));
+        }
       }
 
-      @include media('<tablet') {
-        grid-template-columns: 1fr;
+      @include media('<desktop') {
+        @include media('>=tablet') {
+          .swiper-wrapper {
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+          }
+        }
       }
     }
 
@@ -162,6 +275,12 @@
   &.fa-stakeholders {
     .section-stakeholders__statement {
       max-width: 930px;
+    }
+  }
+
+  &.tl-stakeholders {
+    .section-stakeholders__title {
+      max-width: 100%;
     }
   }
 }

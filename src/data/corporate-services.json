@@ -10,11 +10,6 @@
     "labelPill": true,
     "imageBg": "/images/corporate-services/hero-bg.jpg",
     "imageLoading": "eager",
-    "breadcrumb": [
-      { "label": "Home", "href": "index.html" },
-      { "label": "Services", "href": "#" },
-      { "label": "Corporate Services" }
-    ],
     "title": "Important Decisions Change the Direction of a Business.",
     "keywords": "Growth. Acquisition. Disposal. Capital. Restructuring. International expansion.",
     "description": "These are not routine decisions. They can change the ownership, financial structure and future direction of an organisation.",

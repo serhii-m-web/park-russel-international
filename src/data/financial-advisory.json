@@ -10,11 +10,6 @@
     "labelPill": true,
     "imageBg": "/images/financial-advisory/hero-bg.jpg",
     "imageLoading": "eager",
-    "breadcrumb": [
-      { "label": "Home", "href": "index.html" },
-      { "label": "Services", "href": "#" },
-      { "label": "Financial Advisory" }
-    ],
     "title": "Better Decisions Begin With a Clearer Financial Picture.",
     "description": "Significant business decisions rarely depend on a single number. They involve questions of value, performance, capital, risk and future outcomes — often at moments when the consequences of getting the decision wrong are substantial.",
     "aside": "Parker Russell member firms provide financial advisory expertise to businesses, boards, shareholders, investors and other stakeholders facing complex financial decisions and periods of change.",

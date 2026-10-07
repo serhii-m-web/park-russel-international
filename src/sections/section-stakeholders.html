@@ -8,6 +8,10 @@
       {{ sectionClass }}
     {{/if}}
   "
+  {{#if stakeholders.id}}
+    id="{{ stakeholders.id }}"
+  {{/if}}
+  data-stakeholders-slider
   {{#if stakeholders.title}}
     aria-labelledby="{{#if stakeholders.id}}{{ stakeholders.id }}{{else}}section-stakeholders{{/if}}-title"
   {{else}}
@@ -33,25 +37,74 @@
     {{/if}}
 
     {{#if stakeholders.items}}
-      <ul class="section-stakeholders__list">
-        {{#each stakeholders.items}}
-          <li class="section-stakeholders__item">
-            {{#if label}}
-              <p class="section-stakeholders__label">
-                <span class="section-stakeholders__dot" aria-hidden="true"
-                ></span>
-                <span>{{ label }}</span>
-              </p>
-            {{/if}}
+      <div class="section-stakeholders__list-wrap">
+        <div
+          class="swiper section-stakeholders__list"
+          data-stakeholders-slider-el
+          data-stakeholders-slider-label="{{#if stakeholders.carouselLabel}}{{ stakeholders.carouselLabel }}{{else}}{{ stakeholders.ariaLabel }}{{/if}}"
+        >
+          <div class="swiper-wrapper">
+            {{#each stakeholders.items}}
+              <article class="swiper-slide section-stakeholders__item">
+                {{#if label}}
+                  <p class="section-stakeholders__label">
+                    <span class="section-stakeholders__dot" aria-hidden="true"
+                    ></span>
+                    <span>{{ label }}</span>
+                  </p>
+                {{/if}}
 
-            {{#if text}}
-              <p class="section-stakeholders__text">
-                {{{ text }}}
-              </p>
-            {{/if}}
-          </li>
-        {{/each}}
-      </ul>
+                {{#if text}}
+                  <p class="section-stakeholders__text">
+                    {{{ text }}}
+                  </p>
+                {{/if}}
+              </article>
+            {{/each}}
+          </div>
+        </div>
+
+        <div
+          class="section-stakeholders__navigation"
+          role="group"
+          aria-label="Stakeholders slider controls"
+          data-stakeholders-slider-nav
+          inert
+        >
+          <div
+            class="swiper-scrollbar section-stakeholders__scrollbar"
+            data-stakeholders-slider-scrollbar
+            tabindex="0"
+            aria-label="Slider progress"
+          ></div>
+          <div class="section-stakeholders__nav-buttons">
+            <button
+              class="swiper-button-prev section-stakeholders__nav-btn prev"
+              type="button"
+              data-stakeholders-slider-prev
+              aria-label="Previous slide"
+            >
+              {{> icon
+                name="arrow-right"
+                width="16"
+                height="16"
+              }}
+            </button>
+            <button
+              class="swiper-button-next section-stakeholders__nav-btn next"
+              type="button"
+              data-stakeholders-slider-next
+              aria-label="Next slide"
+            >
+              {{> icon
+                name="arrow-right"
+                width="16"
+                height="16"
+              }}
+            </button>
+          </div>
+        </div>
+      </div>
     {{/if}}
 
     {{#if stakeholders.statement}}

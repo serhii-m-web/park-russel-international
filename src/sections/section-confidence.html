@@ -8,6 +8,9 @@
       {{ sectionClass }}
     {{/if}}
   "
+  {{#if confidence.id}}
+    id="{{ confidence.id }}"
+  {{/if}}
   {{#if confidence.title}}
     aria-labelledby="{{#if confidence.id}}{{ confidence.id }}{{else}}section-confidence{{/if}}-title"
   {{else}}

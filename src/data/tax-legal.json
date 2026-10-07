@@ -1,0 +1,615 @@
+{
+  "meta": {
+    "title": "Tax & Legal | Parker Russell International",
+    "description": "Tax and legal expertise from Parker Russell member firms — helping businesses understand local requirements and cross-border consequences of international decisions."
+  },
+  "tlPageHero": {
+    "id": "tl-page-hero",
+    "className": "page-hero--rich",
+    "label": "TAX & LEGAL",
+    "labelPill": true,
+    "imageBg": "/images/tax-legal/hero-bg.jpg",
+    "imageLoading": "eager",
+    "title": "When Business Crosses Borders, Every Decision Has More Than One Dimension.",
+    "description": "Tax and legal considerations influence how businesses invest, operate, employ people, structure transactions and enter new markets.",
+    "aside": "As organisations expand internationally, those considerations become interconnected. A decision made in one jurisdiction can create tax, regulatory or commercial consequences elsewhere.",
+    "buttons": [
+      {
+        "label": "Discuss a Tax or Legal Matter",
+        "href": "#",
+        "variant": "primary",
+        "icon": true
+      },
+      {
+        "label": "Find a Member Firm",
+        "href": "#",
+        "variant": "secondary",
+        "icon": true
+      }
+    ]
+  },
+  "tlLocal": {
+    "id": "tl-local",
+    "className": "section-page-content-banner--muted",
+    "ariaLabel": "Local and connected",
+    "image": "/images/tax-legal/local-advisers.jpg",
+    "imageAlt": "Advisers meeting in a modern office",
+    "text": "<span class=\"is-muted\">Parker Russell member firms provide tax and legal expertise across international markets, </span><span>combining knowledge of local requirements with the wider perspective needed when businesses, transactions, people and capital move across borders.</span>",
+    "body": "From day-to-day compliance to complex international structures and transactions, our professionals focus on understanding not only the immediate requirement — but the wider business context surrounding it.",
+    "banner": {
+      "imageBg": "/images/tax-legal/local-statement-bg.jpg",
+      "leftColumn": {
+        "icon": "/icons/financial-assurance.svg"
+      },
+      "rightColumn": {
+        "text": "<span>Local rules matter. </span><span class=\"is-muted\">So does understanding how they connect.</span>"
+      }
+    }
+  },
+  "tlJurisdictions": {
+    "id": "tl-jurisdictions",
+    "className": "section-page-cards-content--muted",
+    "ariaLabel": "Multiple jurisdictions",
+    "carouselLabel": "Cross-border decision scenarios",
+    "title": "One Business Decision Can Trigger Questions Across Multiple Jurisdictions.",
+    "cards": [
+      {
+        "image": "/images/tax-legal/jurisdiction-1.jpg",
+        "imageAlt": "Entering a New Market",
+        "icon": "/icons/chart-pie-black.svg",
+        "title": "Entering a New Market",
+        "description": "Expansion can create questions around corporate presence, taxation, operating structures, employees, transactions and local compliance."
+      },
+      {
+        "image": "/images/tax-legal/jurisdiction-2.jpg",
+        "imageAlt": "Operating an International Group",
+        "icon": "/icons/halves-black.svg",
+        "title": "Operating an International Group",
+        "description": "Businesses with entities in several jurisdictions need to consider how activities, profits, transactions and obligations interact across the wider group."
+      },
+      {
+        "image": "/images/tax-legal/jurisdiction-3.jpg",
+        "imageAlt": "Moving People Across Borders",
+        "icon": "/icons/quadrants-black.svg",
+        "title": "Moving People Across Borders",
+        "description": "International executives and mobile employees can create personal, corporate and reporting considerations in more than one jurisdiction."
+      },
+      {
+        "image": "/images/tax-legal/jurisdiction-4.jpg",
+        "imageAlt": "Buying or Selling a Business",
+        "icon": "/icons/segments-black.svg",
+        "title": "Buying or Selling a Business",
+        "description": "M&A can create significant tax consequences around transaction structure, ownership, financing and the treatment of assets or entities involved."
+      },
+      {
+        "image": "/images/tax-legal/jurisdiction-5.jpg",
+        "imageAlt": "Moving Goods Internationally",
+        "icon": "/icons/layers-black.svg",
+        "title": "Moving Goods Internationally",
+        "description": "Cross-border supply chains bring indirect tax, customs and trade considerations into everyday commercial operations."
+      },
+      {
+        "image": "/images/tax-legal/jurisdiction-6.jpg",
+        "imageAlt": "Changing the Corporate Structure",
+        "icon": "/icons/petals-black.svg",
+        "title": "Changing the Corporate Structure",
+        "description": "Reorganisation, investment and changes in ownership can create consequences that need to be considered before the structure changes — not after."
+      }
+    ]
+  },
+  "tlExpertise": {
+    "id": "tl-expertise",
+    "className": "section-page-cards-content--carousel",
+    "ariaLabel": "Tax expertise",
+    "carouselLabel": "Tax and legal services",
+    "title": "Expertise Across the Tax Questions International Business Creates.",
+    "button": {
+      "label": "Explore Our Services",
+      "href": "#"
+    },
+    "cards": [
+      {
+        "image": "/images/tax-legal/expertise-1.jpg",
+        "imageAlt": "International Corporate Tax",
+        "title": "International Corporate Tax",
+        "description": "International businesses need to understand how tax rules interact across the jurisdictions in which they operate.",
+        "descriptionSecondary": "Parker Russell member firms advise on international corporate tax matters, bringing local tax knowledge into the wider context of group structures, cross-border activities and commercial objectives.<br><br>The objective is not simply to address an isolated tax question, but to understand how decisions in one market may affect the wider organisation.",
+        "link": {
+          "label": "Read More",
+          "href": "#"
+        }
+      },
+      {
+        "image": "/images/tax-legal/expertise-2.jpg",
+        "imageAlt": "Transfer Pricing",
+        "title": "Transfer Pricing",
+        "description": "Transactions between related entities are increasingly important to international tax management and regulatory scrutiny.",
+        "descriptionSecondary": "Parker Russell professionals provide transfer pricing expertise around the policies, arrangements and documentation governing transactions between associated businesses.<br><br>Where multiple jurisdictions are involved, the ability to connect local requirements with the wider group position becomes particularly important.",
+        "link": {
+          "label": "Explore Transfer Pricing",
+          "href": "#"
+        }
+      },
+      {
+        "image": "/images/tax-legal/expertise-3.jpg",
+        "imageAlt": "Mergers & Acquisitions",
+        "title": "Mergers & Acquisitions",
+        "description": "Tax can materially influence the economics and structure of a transaction.",
+        "descriptionSecondary": "Understanding relevant tax implications before an acquisition, disposal or restructuring can allow decision-makers to assess the transaction with a more complete view of its potential consequences.<br><br>Parker Russell member firms provide tax expertise around M&A matters in their relevant markets and can collaborate where transactions cross jurisdictions.",
+        "link": {
+          "label": "Read More",
+          "href": "#"
+        }
+      },
+      {
+        "image": "/images/tax-legal/expertise-4.jpg",
+        "imageAlt": "Indirect Tax",
+        "title": "Indirect Tax",
+        "description": "VAT and other forms of indirect taxation can affect pricing, cash flow, supply chains and compliance obligations.",
+        "descriptionSecondary": "For businesses operating internationally, different rules and reporting requirements can add considerable complexity to transactions that may appear commercially straightforward.",
+        "link": {
+          "label": "Read More",
+          "href": "#"
+        }
+      },
+      {
+        "image": "/images/tax-legal/expertise-5.jpg",
+        "imageAlt": "Trade & Customs",
+        "title": "Trade & Customs",
+        "description": "Moving goods across borders introduces customs, duties and other trade considerations that can influence cost, supply chains and operating decisions.",
+        "descriptionSecondary": "Understanding these obligations is particularly important when businesses enter new markets, change sourcing arrangements or reorganise international supply chains.",
+        "link": {
+          "label": "Read More",
+          "href": "#"
+        }
+      },
+      {
+        "image": "/images/tax-legal/expertise-6.jpg",
+        "imageAlt": "International Executive Services",
+        "title": "International Executive Services",
+        "description": "International mobility can create tax and reporting considerations for both individuals and the organisations employing them.",
+        "descriptionSecondary": "Parker Russell's existing international tax offering includes International Executive Services, providing relevant expertise where executives and other individuals work across jurisdictions.",
+        "link": {
+          "label": "Read More",
+          "href": "#"
+        }
+      },
+      {
+        "image": "/images/tax-legal/expertise-7.jpg",
+        "imageAlt": "e-Tax Solutions",
+        "title": "e-Tax Solutions",
+        "description": "Technology continues to change the way tax information is prepared, reported and managed.",
+        "descriptionSecondary": "e-Tax Solutions form part of Parker Russell's established tax proposition, reflecting the increasing role of technology within tax administration and compliance.",
+        "link": {
+          "label": "Read More",
+          "href": "#"
+        }
+      },
+      {
+        "image": "/images/tax-legal/expertise-8.jpg",
+        "imageAlt": "Domestic Business & Personal Tax",
+        "title": "Domestic Business & Personal Tax",
+        "description": "International capability begins with strong local expertise.",
+        "descriptionSecondary": "Parker Russell member firms also provide domestic business and personal tax services according to the requirements and tax regimes of their respective jurisdictions.",
+        "link": {
+          "label": "Read More",
+          "href": "#"
+        }
+      }
+    ]
+  },
+  "tlEnvironments": {
+    "id": "tl-environments",
+    "className": "section-feature-split--borders",
+    "ariaLabel": "Many tax environments",
+    "title": "One Organisation. Many Tax Environments.",
+    "image": "/images/tax-legal/environments.jpg",
+    "imageAlt": "International business meeting",
+    "secondaryLead": "A group may operate commercially as one organisation while being treated differently by tax authorities across multiple jurisdictions.",
+    "list": [
+      "Different corporate tax regimes.",
+      "Different indirect taxes.",
+      "Different reporting obligations.",
+      "Different approaches to related-party transactions.",
+      "Different treaties and local requirements."
+    ],
+    "emphasis": "<span class=\"is-muted\">The challenge is therefore not simply understanding each jurisdiction individually.</span><br>It is understanding how the jurisdictions interact around the same business.",
+    "network": {
+      "text": "Through Parker Russell International, independent member firms can collaborate where tax matters extend across borders, allowing relevant local expertise to contribute to a wider international perspective.",
+      "button": {
+        "label": "Explore Our Global Network",
+        "href": "#"
+      }
+    }
+  },
+  "tlStructure": {
+    "id": "tl-structure",
+    "ariaLabel": "Structure creates consequences",
+    "carouselLabel": "Structure stages",
+    "image": "/images/tax-legal/structure-earth.svg",
+    "title": "Structure Creates Consequences.",
+    "questions": [
+      "Where should an international activity sit?",
+      "How should transactions between related entities be structured and documented?",
+      "What happens when capital, goods or people cross borders?",
+      "How will an acquisition affect the wider group?",
+      "What tax consequences could arise before profits are distributed?",
+      "Which obligations are created when a business enters another jurisdiction?"
+    ],
+    "questionsNote": "These questions demonstrate why tax should not be considered only at the end of a business decision.",
+    "stages": [
+      {
+        "icon": "/icons/risk-business-model.svg",
+        "label": "ENTER",
+        "description": "How should the business approach a new jurisdiction?"
+      },
+      {
+        "icon": "/icons/risk-controls.svg",
+        "label": "STRUCTURE",
+        "description": "How should activities and entities fit within the wider organisation?"
+      },
+      {
+        "icon": "/icons/risk-reporting.svg",
+        "label": "TRANSACT",
+        "description": "What are the tax implications of transactions and investments?"
+      },
+      {
+        "icon": "/icons/verified-user.svg",
+        "label": "OPERATE",
+        "description": "What ongoing tax and reporting obligations arise?"
+      },
+      {
+        "icon": "/icons/financial-advisory/factor-globe.svg",
+        "label": "MOVE",
+        "description": "What happens when people, goods or capital cross borders?"
+      },
+      {
+        "icon": "/icons/change-circle.svg",
+        "label": "CHANGE",
+        "description": "What are the consequences of acquisitions, disposals or restructuring?"
+      }
+    ],
+    "conclusion": "Tax follows the business. Strong advice anticipates where it will lead."
+  },
+  "tlRisk": {
+    "id": "tl-risk",
+    "className": "section-feature-split--value-panel section-feature-split--risk",
+    "ariaLabel": "Tax risk",
+    "eyebrow": "TAX RISK",
+    "title": "Tax Risk Often Appears Where Business Complexity Meets Change.",
+    "lead": "Tax exposure does not arise only from an incorrect calculation.",
+    "texts": [
+      "It can arise because the business has changed while its tax position has not been reconsidered.",
+      "The earlier these implications are understood, the more effectively they can be addressed."
+    ],
+    "statement": "The right time to understand a tax consequence is before it becomes a tax problem.",
+    "panel": {
+      "image": "/images/tax-legal/risk-panel.jpg",
+      "imageAlt": "Business discussion on tax risk"
+    },
+    "items": [
+      {
+        "icon": "/icons/financial-advisory/factor-globe.svg",
+        "title": "A company expands internationally."
+      },
+      {
+        "icon": "/icons/financial-advisory/factor-trend.svg",
+        "title": "A supply chain changes."
+      },
+      {
+        "icon": "/icons/verified-user.svg",
+        "title": "An employee begins working in another country."
+      },
+      {
+        "icon": "/icons/financial-advisory/factor-bank.svg",
+        "title": "A group introduces new intercompany arrangements."
+      },
+      {
+        "icon": "/icons/change-circle.svg",
+        "title": "An acquisition changes the corporate structure."
+      },
+      {
+        "icon": "/icons/psychology.svg",
+        "title": "Digital activity creates obligations in markets where the organisation previously had limited presence."
+      }
+    ]
+  },
+  "tlKnowledge": {
+    "id": "tl-knowledge",
+    "className": "section-feature-split--muted section-feature-split--business section-feature-split--knowledge",
+    "ariaLabel": "Local knowledge",
+    "eyebrow": "FROM LOCAL RULES TO INTERNATIONAL PERSPECTIVE",
+    "title": "International Tax Requires Local Knowledge.",
+    "lead": "There is no single international tax system.",
+    "principles": [
+      {
+        "icon": "/icons/psychology.svg",
+        "text": "Businesses operate within national legislation, local administrative requirements and different regulatory environments, while international treaties and cross-border principles can influence how those systems interact. Parker Russell's existing proposition explicitly identifies national and international tax laws, policies, accounting and commercial principles and international tax treaties as part of the knowledge required for its tax work."
+      },
+      {
+        "icon": "/icons/financial-advisory/factor-globe.svg",
+        "text": "<span class=\"is-emphasis\">That makes local expertise essential.</span> <br> But when the business operates internationally, local answers must also be understood within the context of the wider organisation."
+      }
+    ],
+    "imageSecondary": "/images/tax-legal/knowledge-bg.jpg",
+    "imageSecondaryAlt": "Local and international tax perspective",
+    "photoMark": "/icons/financial-assurance.svg",
+    "photoStatement": "Local knowledge provides the answer in the jurisdiction. <span class=\"is-muted\">International collaboration helps reveal what that answer means elsewhere.</span>"
+  },
+  "tlLifecycle": {
+    "id": "tl-lifecycle",
+    "className": "section-methodology--timeline",
+    "timeline": true,
+    "ariaLabel": "Tax lifecycle",
+    "title": "Different Stages Create Different Tax Questions.",
+    "steps": [
+      {
+        "progress": "1",
+        "number": "01",
+        "label": "ESTABLISH",
+        "description": "Entering a market, establishing operations and understanding initial tax obligations."
+      },
+      {
+        "progress": "2",
+        "number": "02",
+        "label": "OPERATE",
+        "description": "Managing corporate tax, indirect tax, people and ongoing compliance requirements."
+      },
+      {
+        "progress": "3",
+        "number": "03",
+        "label": "EXPAND",
+        "description": "Adding jurisdictions, entities, employees and cross-border transactions."
+      },
+      {
+        "progress": "4",
+        "number": "04",
+        "label": "INVEST",
+        "description": "Understanding the tax implications surrounding investment and M&A activity."
+      },
+      {
+        "progress": "5",
+        "number": "05",
+        "label": "RESTRUCTURE",
+        "description": "Considering the consequences of changes in ownership, operations or group structure."
+      },
+      {
+        "progress": "6",
+        "number": "06",
+        "label": "TRANSITION",
+        "description": "Addressing tax matters arising when assets or businesses are sold or ownership changes."
+      }
+    ]
+  },
+  "tlTogether": {
+    "id": "tl-together",
+    "className": "section-feature-split--muted section-feature-split--together",
+    "ariaLabel": "Tax and legal together",
+    "title": "Tax and Legal Questions Often Meet at the Same Decision.",
+    "principles": [
+      {
+        "icon": "/icons/financial-advisory/borders-bank.svg",
+        "text": "International business decisions rarely fall neatly into one professional category. Corporate structures, transactions, ownership, contracts and market entry can involve legal considerations alongside taxation."
+      },
+      {
+        "icon": "/icons/financial-advisory/borders-globe.svg",
+        "text": "Where relevant capabilities are available within the network, Parker Russell member firms can bring appropriate tax and legal perspectives to matters requiring more than one discipline."
+      }
+    ],
+    "statement": "For international businesses, this can provide a more connected understanding of the commercial decision and the requirements arising within the relevant jurisdictions."
+  },
+  "tlStakeholders": {
+    "id": "tl-stakeholders",
+    "className": "section-stakeholders--dark",
+    "ariaLabel": "Where you sit",
+    "carouselLabel": "Stakeholder perspectives",
+    "title": "Tax Matters Differ Depending on Where You Sit.",
+    "items": [
+      {
+        "label": "For CEOs",
+        "text": "How could tax affect the economics, structure and execution of the wider business strategy?"
+      },
+      {
+        "label": "For CFOs & Finance Teams",
+        "text": "What obligations, reporting requirements and financial exposures need to be understood across the organisation?"
+      },
+      {
+        "label": "For Boards",
+        "text": "Are material tax implications and risks being identified before significant decisions are approved?"
+      },
+      {
+        "label": "For Business Owners",
+        "text": "How could business structure, transactions and changes in ownership affect the wider tax position?"
+      },
+      {
+        "label": "For International Groups",
+        "text": "How do tax requirements in individual jurisdictions connect across the wider organisation?"
+      },
+      {
+        "label": "For Investors",
+        "text": "Could tax materially alter the economics, structure or expected outcome of an investment?"
+      }
+    ]
+  },
+  "tlContext": {
+    "id": "tl-context",
+    "className": "section-confidence--grid-6",
+    "ariaLabel": "Context makes it useful",
+    "title": "Technical Knowledge Is the Starting Point. Context Makes It Useful.",
+    "iconAccent": "/icons/pillar-corner.svg",
+    "pillars": [
+      {
+        "number": "01",
+        "title": "Local Expertise",
+        "description": "Understanding the legislation, requirements and practices of the jurisdiction concerned."
+      },
+      {
+        "number": "02",
+        "title": "International Perspective",
+        "description": "Recognising when a local decision has implications elsewhere in the group."
+      },
+      {
+        "number": "03",
+        "title": "Commercial Understanding",
+        "description": "Considering tax within the context of what the business is actually trying to achieve."
+      },
+      {
+        "number": "04",
+        "title": "Technical Depth",
+        "description": "Understanding relevant tax rules, international principles and the interaction between different obligations."
+      },
+      {
+        "number": "05",
+        "title": "Cross-Border Collaboration",
+        "description": "Connecting expertise across member firms when a matter involves multiple markets."
+      },
+      {
+        "number": "06",
+        "title": "Forward Thinking",
+        "description": "Considering tax consequences before important business decisions are implemented."
+      }
+    ]
+  },
+  "tlIndustry": {
+    "id": "tl-industry",
+    "className": "section-slider--industry section-slider--industry-corporate",
+    "label": "",
+    "carouselLabel": "Industry context",
+    "titleLines": [
+      "Tax Complexity Changes From",
+      "Industry to Industry."
+    ],
+    "lead": "A financial institution, property group, technology business and manufacturer may operate across the same jurisdictions while facing very different tax questions.",
+    "tags": [
+      "Business models differ.",
+      "Transactions differ.",
+      "Assets differ.",
+      "Supply chains differ.",
+      "Workforces differ.",
+      "Regulation differs."
+    ],
+    "conclusion": "Understanding the commercial and sector context therefore matters when interpreting how tax rules apply to the business itself.",
+    "button": {
+      "label": "Explore Our Industries",
+      "href": "#"
+    },
+    "counter": true,
+    "slides": [
+      {
+        "image": "/images/industries/financial-services.png",
+        "icon": "/icons/industry-finance.svg",
+        "title": "Financial Services",
+        "link": {
+          "label": "Read More",
+          "href": "#"
+        }
+      },
+      {
+        "image": "/images/industries/real-estate.png",
+        "icon": "/icons/industry-real-estate.svg",
+        "title": "Real Estate",
+        "link": {
+          "label": "Read More",
+          "href": "#"
+        }
+      },
+      {
+        "image": "/images/industries/tech-media.png",
+        "icon": "/icons/industry-telecom.svg",
+        "title": "Technology, Media & Telecoms",
+        "link": {
+          "label": "Read More",
+          "href": "#"
+        }
+      },
+      {
+        "image": "/images/industries/manufacturing.png",
+        "icon": "/icons/industry-manufacturing.svg",
+        "title": "Manufacturing",
+        "link": {
+          "label": "Read More",
+          "href": "#"
+        }
+      }
+    ]
+  },
+  "tlInsights": {
+    "id": "tl-insights",
+    "label": "INSIGHTS",
+    "title": "Tax Changes. Businesses Need to See What Changes With It.",
+    "description": "International tax rules, national legislation and administrative requirements continue to evolve.",
+    "button": {
+      "label": "Explore Tax Insights",
+      "href": "#"
+    },
+    "topics": [
+      "International Tax",
+      "Corporate Tax",
+      "Indirect Tax",
+      "Transfer Pricing",
+      "M&A",
+      "Trade & Customs"
+    ],
+    "featured": {
+      "status": "Latest",
+      "date": "4 August 2025",
+      "datetime": "2025-08-04",
+      "category": "Compliance",
+      "title": "Companies House Crackdown: Businesses Urged to Act on ECCTA Deadlines",
+      "description": "Research by Vistra shows fewer than one in three UK company directors feel ready for the upcoming Economic Crime and Corporate Transparency Act (ECCTA)…",
+      "link": {
+        "label": "Read article",
+        "href": "#"
+      }
+    },
+    "list": [
+      {
+        "date": "25 June 2025",
+        "datetime": "2025-06-25",
+        "category": "Accounting Standards",
+        "title": "David M. Sullivan Appointed to Chair Financial Accounting Standards Advisory Council",
+        "href": "#"
+      },
+      {
+        "date": "18 June 2025",
+        "datetime": "2025-06-18",
+        "category": "Regulation",
+        "title": "£4m Fine for Director in Client Money Breach",
+        "href": "#"
+      },
+      {
+        "date": "20 May 2025",
+        "datetime": "2025-05-20",
+        "category": "ESG",
+        "title": "The Next Generation of Investors Is Powering ESG's Revival",
+        "href": "#"
+      }
+    ]
+  },
+  "tlFinal": {
+    "id": "tl-final",
+    "ariaLabel": "Think beyond the immediate tax question",
+    "isSection": true,
+    "className": "page-hero--section",
+    "imageBg": "/images/tax-legal/final-cta-bg.jpg",
+    "imageLoading": "lazy",
+    "title": "Think Beyond the Immediate Tax Question.",
+    "description": "A decision made today can create tax consequences across entities, transactions and jurisdictions long after it has been implemented.",
+    "note": "Understanding those consequences early provides businesses with a stronger basis for deciding how to structure, invest, operate and expand. Parker Russell member firms combine local tax expertise with international collaboration to bring greater clarity to tax matters wherever business takes you.",
+    "tagline": "Understand the rules locally. Understand the consequences internationally.",
+    "buttons": [
+      {
+        "label": "Discuss a Tax or Legal Matter",
+        "href": "#",
+        "variant": "primary",
+        "icon": true
+      },
+      {
+        "label": "Find a Member Firm",
+        "href": "#",
+        "variant": "secondary",
+        "icon": true
+      }
+    ]
+  }
+}

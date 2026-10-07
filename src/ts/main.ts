@@ -8,6 +8,8 @@ import { initRiskPerspectiveSlider } from './riskPerspectiveSlider';
 import { initSectionFaq } from './sectionFaq';
 import { initSectionSlider } from './sectionSlider';
 import { initSectionTabs } from './sectionTabs';
+import { initStakeholdersSlider } from './stakeholdersSlider';
+import { initStructureSlider } from './structureSlider';
 
 function init(): void {
   document.documentElement.classList.add('js');
@@ -18,6 +20,8 @@ function init(): void {
   initCardsContentSlider();
   initRiskPerspectiveSlider();
   initMethodologySlider();
+  initStructureSlider();
+  initStakeholdersSlider();
   initSectionTabs();
   initSectionFaq();
 }

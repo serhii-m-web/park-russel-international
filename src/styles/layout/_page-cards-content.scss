@@ -226,6 +226,7 @@
       img {
         width: 36px;
         height: 36px;
+        object-fit: contain;
       }
     }
 
@@ -558,6 +559,30 @@
 
     .section-page-cards-content__card {
       background-color: $color-white;
+    }
+  }
+
+  &.tl-expertise {
+    background-color: $color-bg-muted;
+
+    .section-page-cards-content__card {
+      background-color: $color-white;
+    }
+
+    .section-page-cards-content__card-image {
+      height: 256px;
+    }
+  }
+
+  &.tl-jurisdictions {
+    background-color: $color-white;
+
+    .section-page-cards-content__card {
+      background-color: $color-bg-muted;
+    }
+
+    .section-page-cards-content__card-inner {
+      background-color: transparent;
     }
   }
 }

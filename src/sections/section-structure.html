@@ -1,0 +1,148 @@
+<section
+  class="
+    section-structure
+    {{#if structure.className}}
+      {{ structure.className }}
+    {{/if}}
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if structure.id}}
+    id="{{ structure.id }}"
+  {{/if}}
+  data-structure-slider
+  {{#if structure.title}}
+    aria-labelledby="{{#if structure.id}}{{ structure.id }}{{else}}section-structure{{/if}}-title"
+  {{else}}
+    aria-label="{{#if structure.ariaLabel}}{{ structure.ariaLabel }}{{else}}Structure{{/if}}"
+  {{/if}}
+>
+  {{#if structure.image}}
+    <div class="section-structure__bg" aria-hidden="true">
+      <img
+        class="section-structure__bg-image"
+        src="{{ structure.image }}"
+        alt=""
+        width="990"
+        height="911"
+        decoding="async"
+      />
+    </div>
+  {{/if}}
+
+  <div class="container">
+    <div class="section-structure__header">
+      {{#if structure.title}}
+        <h2
+          id="{{#if structure.id}}{{ structure.id }}{{else}}section-structure{{/if}}-title"
+          class="section-structure__title"
+        >
+          {{{ structure.title }}}
+        </h2>
+      {{/if}}
+
+      <div class="section-structure__questions">
+        {{#if structure.questions}}
+          <ul class="section-structure__question-list">
+            {{#each structure.questions}}
+              <li class="section-structure__question">
+                <span class="section-structure__question-dot" aria-hidden="true"></span>
+                <p class="section-structure__question-text">{{{ this }}}</p>
+              </li>
+            {{/each}}
+          </ul>
+        {{/if}}
+
+        {{#if structure.questionsNote}}
+          <p class="section-structure__questions-note">
+            {{{ structure.questionsNote }}}
+          </p>
+        {{/if}}
+      </div>
+    </div>
+
+    {{#if structure.stages}}
+      <div class="section-structure__stages-wrap">
+        <div
+          class="swiper section-structure__stages"
+          data-structure-slider-el
+          data-structure-slider-label="{{#if structure.carouselLabel}}{{ structure.carouselLabel }}{{else}}{{ structure.ariaLabel }}{{/if}}"
+        >
+          <div class="swiper-wrapper">
+            {{#each structure.stages}}
+              <article class="swiper-slide section-structure__stage">
+                {{#if icon}}
+                  <span class="section-structure__stage-icon" aria-hidden="true">
+                    <img
+                      src="{{ icon }}"
+                      alt=""
+                      width="30"
+                      height="30"
+                      decoding="async"
+                    />
+                  </span>
+                {{/if}}
+                {{#if label}}
+                  <p class="section-structure__stage-label">{{ label }}</p>
+                {{/if}}
+                {{#if description}}
+                  <p class="section-structure__stage-text">{{{ description }}}</p>
+                {{/if}}
+              </article>
+            {{/each}}
+          </div>
+        </div>
+
+        <div
+          class="section-structure__navigation"
+          role="group"
+          aria-label="Structure stages slider controls"
+          data-structure-slider-nav
+          inert
+        >
+          <div
+            class="swiper-scrollbar section-structure__scrollbar"
+            data-structure-slider-scrollbar
+            tabindex="0"
+            aria-label="Slider progress"
+          ></div>
+          <div class="section-structure__nav-buttons">
+            <button
+              class="swiper-button-prev section-structure__nav-btn prev"
+              type="button"
+              data-structure-slider-prev
+              aria-label="Previous slide"
+            >
+              {{> icon
+                name="arrow-right"
+                width="16"
+                height="16"
+              }}
+            </button>
+            <button
+              class="swiper-button-next section-structure__nav-btn next"
+              type="button"
+              data-structure-slider-next
+              aria-label="Next slide"
+            >
+              {{> icon
+                name="arrow-right"
+                width="16"
+                height="16"
+              }}
+            </button>
+          </div>
+        </div>
+      </div>
+    {{/if}}
+
+    {{#if structure.conclusion}}
+      <div class="section-structure__conclusion">
+        <p class="section-structure__conclusion-text">
+          {{{ structure.conclusion }}}
+        </p>
+      </div>
+    {{/if}}
+  </div>
+</section>

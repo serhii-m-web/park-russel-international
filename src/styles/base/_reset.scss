@@ -44,6 +44,10 @@ body {
   }
 }
 
+section {
+  overflow: hidden;
+}
+
 // adaptive images
 img {
   max-width: 100%;

@@ -8,6 +8,9 @@
       {{ sectionClass }}
     {{/if}}
   "
+  {{#if pageHero.id}}
+    id="{{ pageHero.id }}"
+  {{/if}}
   {{#if pageHero.title}}
     aria-labelledby="{{#if pageHero.id}}{{ pageHero.id }}{{else}}page-hero{{/if}}-title"
   {{else if pageHero.titleLines.length}}
@@ -17,31 +20,6 @@
   {{/if}}
 >
   <div class="container">
-    {{#if pageHero.breadcrumb.length}}
-      <nav class="page-hero__breadcrumb" aria-label="Breadcrumb">
-        <ol class="page-hero__breadcrumb-list">
-          {{#each pageHero.breadcrumb}}
-            <li class="page-hero__breadcrumb-item">
-              {{#unless @first}}
-                <span class="page-hero__breadcrumb-sep" aria-hidden="true">
-                  /
-                </span>
-              {{/unless}}
-              {{#if href}}
-                <a class="page-hero__breadcrumb-link" href="{{ href }}">
-                  {{ label }}
-                </a>
-              {{else}}
-                <span class="page-hero__breadcrumb-current" aria-current="page">
-                  {{ label }}
-                </span>
-              {{/if}}
-            </li>
-          {{/each}}
-        </ol>
-      </nav>
-    {{/if}}
-
     <div class="page-hero__content">
       {{#if pageHero.imageBg}}
         <div class="page-hero__bg" aria-hidden="true">

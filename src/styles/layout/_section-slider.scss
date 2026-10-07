@@ -78,6 +78,38 @@
     @include adaptive-value('font-size', 16, 15, 1);
   }
 
+  &__tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  &__tag {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+    padding: 8px 16px;
+    background-color: $color-white;
+    border-radius: 1000px;
+    color: $color-dark-blue;
+    font-weight: 400;
+    letter-spacing: -0.1px;
+    line-height: calc(28 / 20);
+    @include adaptive-value('font-size', 20, 16, 1);
+
+    &::before {
+      content: '';
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background-color: $color-red;
+    }
+  }
+
   &__content {
     @include adaptive-value('margin-bottom', 40, 24, 1);
   }

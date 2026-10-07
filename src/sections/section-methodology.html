@@ -8,7 +8,12 @@
       {{ sectionClass }}
     {{/if}}
   "
-  data-methodology-slider
+  {{#if methodology.id}}
+    id="{{ methodology.id }}"
+  {{/if}}
+  {{#unless methodology.timeline}}
+    data-methodology-slider
+  {{/unless}}
   {{#if methodology.title}}
     aria-labelledby="{{#if methodology.id}}{{ methodology.id }}{{else}}section-methodology{{/if}}-title"
   {{else}}
@@ -63,112 +68,158 @@
     </div>
 
     {{#if methodology.steps}}
-      <div class="section-methodology__steps-wrap">
-        <div
-          class="swiper section-methodology__steps"
-          data-methodology-slider-el
-          data-methodology-slider-label="{{#if methodology.carouselLabel}}{{ methodology.carouselLabel }}{{else}}{{ methodology.ariaLabel }}{{/if}}"
-        >
-          <div class="swiper-wrapper">
-            {{#each methodology.steps}}
-              <article class="swiper-slide section-methodology__step">
-                <div
-                  class="section-methodology__progress"
-                  data-progress="{{ progress }}"
-                  aria-hidden="true"
-                >
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                </div>
+      {{#if methodology.timeline}}
+        <div class="section-methodology__steps-wrap">
+          <div class="section-methodology__steps">
+            <div class="section-methodology__list">
+              {{#each methodology.steps}}
+                <article class="section-methodology__step">
+                  <div class="section-methodology__track" aria-hidden="true">
+                    <span
+                      class="section-methodology__node{{#if @first}} is-active{{/if}}"
+                    >
+                      {{#if number}}{{ number }}{{/if}}
+                    </span>
+                    {{#unless @last}}
+                      <span class="section-methodology__line"></span>
+                      <img
+                        class="section-methodology__arrow"
+                        src="/icons/tax-legal/timeline-arrow.svg"
+                        alt=""
+                        width="20"
+                        height="20"
+                        decoding="async"
+                      />
+                      <span class="section-methodology__gap"></span>
+                    {{/unless}}
+                  </div>
 
-                {{#if label}}
-                  <p class="section-methodology__step-label">
-                    {{#if number}}{{ number }} — {{/if}}{{ label }}
-                  </p>
-                {{/if}}
+                  <div class="section-methodology__step-body">
+                    {{#if label}}
+                      <p class="section-methodology__step-label">
+                        {{ label }}
+                      </p>
+                    {{/if}}
 
-                {{#if description}}
-                  <p class="section-methodology__step-text">
-                    {{{ description }}}
-                  </p>
-                {{/if}}
-              </article>
-            {{/each}}
-
-            {{#if methodology.conclusion}}
-              <article class="swiper-slide section-methodology__step section-methodology__step--conclusion">
-                <span class="section-methodology__conclusion-deco section-methodology__conclusion-deco--1" aria-hidden="true">
-                  <img
-                    src="/icons/methodology-conclusion-arc-1.svg"
-                    alt=""
-                    width="110"
-                    height="157"
-                    decoding="async"
-                  />
-                </span>
-                <span class="section-methodology__conclusion-deco section-methodology__conclusion-deco--2" aria-hidden="true">
-                  <img
-                    src="/icons/methodology-conclusion-arc-2.svg"
-                    alt=""
-                    width="110"
-                    height="157"
-                    decoding="async"
-                  />
-                </span>
-                <p class="section-methodology__conclusion-text">
-                  {{{ methodology.conclusion }}}
-                </p>
-              </article>
-            {{/if}}
+                    {{#if description}}
+                      <p class="section-methodology__step-text">
+                        {{{ description }}}
+                      </p>
+                    {{/if}}
+                  </div>
+                </article>
+              {{/each}}
+            </div>
           </div>
         </div>
-
-        <div
-          class="section-methodology__navigation"
-          role="group"
-          aria-label="Methodology steps slider controls"
-          data-methodology-slider-nav
-          inert
-        >
+      {{else}}
+        <div class="section-methodology__steps-wrap">
           <div
-            class="swiper-scrollbar section-methodology__scrollbar"
-            data-methodology-slider-scrollbar
-            tabindex="0"
-            aria-label="Slider progress"
-          ></div>
-          <div class="section-methodology__nav-buttons">
-            <button
-              class="swiper-button-prev section-methodology__nav-btn prev"
-              type="button"
-              data-methodology-slider-prev
-              aria-label="Previous slide"
-            >
-              {{> icon
-                name="arrow-right"
-                width="16"
-                height="16"
-              }}
-            </button>
-            <button
-              class="swiper-button-next section-methodology__nav-btn next"
-              type="button"
-              data-methodology-slider-next
-              aria-label="Next slide"
-            >
-              {{> icon
-                name="arrow-right"
-                width="16"
-                height="16"
-              }}
-            </button>
+            class="swiper section-methodology__steps"
+            data-methodology-slider-el
+            data-methodology-slider-label="{{#if methodology.carouselLabel}}{{ methodology.carouselLabel }}{{else}}{{ methodology.ariaLabel }}{{/if}}"
+          >
+            <div class="swiper-wrapper">
+              {{#each methodology.steps}}
+                <article class="swiper-slide section-methodology__step">
+                  <div
+                    class="section-methodology__progress"
+                    data-progress="{{ progress }}"
+                    aria-hidden="true"
+                  >
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+
+                  {{#if label}}
+                    <p class="section-methodology__step-label">
+                      {{#if number}}{{ number }} — {{/if}}{{ label }}
+                    </p>
+                  {{/if}}
+
+                  {{#if description}}
+                    <p class="section-methodology__step-text">
+                      {{{ description }}}
+                    </p>
+                  {{/if}}
+                </article>
+              {{/each}}
+
+              {{#if methodology.conclusion}}
+                <article class="swiper-slide section-methodology__step section-methodology__step--conclusion">
+                  <span class="section-methodology__conclusion-deco section-methodology__conclusion-deco--1" aria-hidden="true">
+                    <img
+                      src="/icons/methodology-conclusion-arc-1.svg"
+                      alt=""
+                      width="110"
+                      height="157"
+                      decoding="async"
+                    />
+                  </span>
+                  <span class="section-methodology__conclusion-deco section-methodology__conclusion-deco--2" aria-hidden="true">
+                    <img
+                      src="/icons/methodology-conclusion-arc-2.svg"
+                      alt=""
+                      width="110"
+                      height="157"
+                      decoding="async"
+                    />
+                  </span>
+                  <p class="section-methodology__conclusion-text">
+                    {{{ methodology.conclusion }}}
+                  </p>
+                </article>
+              {{/if}}
+            </div>
+          </div>
+
+          <div
+            class="section-methodology__navigation"
+            role="group"
+            aria-label="Methodology steps slider controls"
+            data-methodology-slider-nav
+            inert
+          >
+            <div
+              class="swiper-scrollbar section-methodology__scrollbar"
+              data-methodology-slider-scrollbar
+              tabindex="0"
+              aria-label="Slider progress"
+            ></div>
+            <div class="section-methodology__nav-buttons">
+              <button
+                class="swiper-button-prev section-methodology__nav-btn prev"
+                type="button"
+                data-methodology-slider-prev
+                aria-label="Previous slide"
+              >
+                {{> icon
+                  name="arrow-right"
+                  width="16"
+                  height="16"
+                }}
+              </button>
+              <button
+                class="swiper-button-next section-methodology__nav-btn next"
+                type="button"
+                data-methodology-slider-next
+                aria-label="Next slide"
+              >
+                {{> icon
+                  name="arrow-right"
+                  width="16"
+                  height="16"
+                }}
+              </button>
+            </div>
           </div>
         </div>
-      </div>
+      {{/if}}
     {{/if}}
   </div>
 </section>

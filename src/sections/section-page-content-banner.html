@@ -73,16 +73,30 @@
         }}
 
         {{#if contentBanner.text}}
-          <p class="section-page-content-banner__text">
-            {{{ contentBanner.text }}}
-          </p>
+          <div class="section-page-content-banner__copy">
+            <p class="section-page-content-banner__text">
+              {{{ contentBanner.text }}}
+            </p>
+            {{#if contentBanner.body}}
+              <p class="section-page-content-banner__body">
+                {{{ contentBanner.body }}}
+              </p>
+            {{/if}}
+          </div>
         {{/if}}
       </div>
     {{else if contentBanner.text}}
       <div class="section-page-content-banner__content">
-        <p class="section-page-content-banner__text">
-          {{{ contentBanner.text }}}
-        </p>
+        <div class="section-page-content-banner__copy">
+          <p class="section-page-content-banner__text">
+            {{{ contentBanner.text }}}
+          </p>
+          {{#if contentBanner.body}}
+            <p class="section-page-content-banner__body">
+              {{{ contentBanner.body }}}
+            </p>
+          {{/if}}
+        </div>
       </div>
     {{/if}}
 

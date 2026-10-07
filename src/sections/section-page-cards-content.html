@@ -8,6 +8,9 @@
       {{ sectionClass }}
     {{/if}}
   "
+  {{#if cardsContent.id}}
+    id="{{ cardsContent.id }}"
+  {{/if}}
   data-cards-content-slider
   {{#if cardsContent.title}}
     aria-labelledby="{{#if cardsContent.id}}{{ cardsContent.id }}{{else}}section-page-cards-content{{/if}}-title"

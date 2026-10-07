@@ -126,6 +126,23 @@
     }
   }
 
+  &__copy {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    flex: 1;
+    min-width: 0;
+    max-width: 768px;
+  }
+
+  &__body {
+    margin: 0;
+    color: $color-text-muted;
+    font-weight: 400;
+    line-height: calc(28 / 18);
+    @include adaptive-value('font-size', 18, 16, 1);
+  }
+
   &__image {
     max-width: 480px;
     width: 100%;
@@ -182,6 +199,13 @@
         rgba(30, 41, 59, 0.88) 50%,
         rgba(30, 41, 59, 0.62) 100%
       );
+    }
+
+    @include media('<tablet') {
+      display: flex;
+      align-items: flex-end;
+      justify-content: flex-start;
+      min-height: 280px;
     }
 
     &-bg {

@@ -4,7 +4,13 @@
     {{#if latestNews.className}}
       {{ latestNews.className }}
     {{/if}}
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
   "
+  {{#if latestNews.id}}
+    id="{{ latestNews.id }}"
+  {{/if}}
   aria-labelledby="{{#if latestNews.id}}{{ latestNews.id }}{{else}}section-latest-news{{/if}}-title"
 >
   <div class="container">
