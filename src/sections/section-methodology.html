@@ -4,6 +4,9 @@
     {{#if methodology.className}}
       {{ methodology.className }}
     {{/if}}
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
   "
   data-methodology-slider
   {{#if methodology.title}}
@@ -27,14 +30,22 @@
 
   <div class="container">
     <div class="section-methodology__header">
-      {{#if methodology.title}}
-        <h2
-          id="{{#if methodology.id}}{{ methodology.id }}{{else}}section-methodology{{/if}}-title"
-          class="section-methodology__title"
-        >
-          {{{ methodology.title }}}
-        </h2>
-      {{/if}}
+      <div class="section-methodology__heading">
+        {{#if methodology.eyebrow}}
+          <p class="section-methodology__eyebrow">
+            {{ methodology.eyebrow }}
+          </p>
+        {{/if}}
+
+        {{#if methodology.title}}
+          <h2
+            id="{{#if methodology.id}}{{ methodology.id }}{{else}}section-methodology{{/if}}-title"
+            class="section-methodology__title"
+          >
+            {{{ methodology.title }}}
+          </h2>
+        {{/if}}
+      </div>
 
       <div class="section-methodology__intro">
         {{#if methodology.lead}}

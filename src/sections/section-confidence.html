@@ -4,6 +4,9 @@
     {{#if confidence.className}}
       {{ confidence.className }}
     {{/if}}
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
   "
   {{#if confidence.title}}
     aria-labelledby="{{#if confidence.id}}{{ confidence.id }}{{else}}section-confidence{{/if}}-title"
@@ -23,48 +26,111 @@
       {{/if}}
 
       {{#if confidence.lead}}
-        <p class="section-confidence__lead">
-          {{{ confidence.lead }}}
+        <div class="section-confidence__intro">
+          <p class="section-confidence__lead">
+            {{{ confidence.lead }}}
+          </p>
+
+          {{#if confidence.body}}
+            <p class="section-confidence__body">
+              {{{ confidence.body }}}
+            </p>
+          {{/if}}
+        </div>
+      {{else if confidence.body}}
+        <p class="section-confidence__body">
+          {{{ confidence.body }}}
         </p>
       {{/if}}
     </div>
 
     {{#if confidence.pillars}}
-      <ul class="section-confidence__pillars">
-        {{#each confidence.pillars}}
-          <li class="section-confidence__pillar">
-            <div class="section-confidence__icon" aria-hidden="true">
-              {{#if ../confidence.iconAccent}}
-                <img
-                  class="section-confidence__icon-accent"
-                  src="{{ ../confidence.iconAccent }}"
-                  alt=""
-                  width="23"
-                  height="23"
-                  decoding="async"
-                />
-              {{/if}}
+      {{#if confidence.relationshipsLabel}}
+        <div class="section-confidence__relationships">
+          <p class="section-confidence__relationships-label">
+            {{{ confidence.relationshipsLabel }}}
+          </p>
+
+          <ul class="section-confidence__pillars">
+            {{#each confidence.pillars}}
+              <li class="section-confidence__pillar">
+                {{#if number}}
+                  <div class="section-confidence__icon" aria-hidden="true">
+                    <span class="section-confidence__icon-number">{{ number }}</span>
+                  </div>
+                {{/if}}
+
+                <div class="section-confidence__pillar-content">
+                  {{#if title}}
+                    <h3 class="section-confidence__pillar-title">
+                      {{{ title }}}
+                    </h3>
+                  {{/if}}
+
+                  {{#if description}}
+                    <p class="section-confidence__pillar-text">
+                      {{{ description }}}
+                    </p>
+                  {{/if}}
+                </div>
+              </li>
+            {{/each}}
+          </ul>
+        </div>
+      {{else}}
+        <ul class="section-confidence__pillars">
+          {{#each confidence.pillars}}
+            <li class="section-confidence__pillar">
               {{#if number}}
-                <span class="section-confidence__icon-number">{{ number }}.</span>
+                <div class="section-confidence__icon" aria-hidden="true">
+                  {{#if ../confidence.iconAccent}}
+                    <img
+                      class="section-confidence__icon-accent"
+                      src="{{ ../confidence.iconAccent }}"
+                      alt=""
+                      width="23"
+                      height="23"
+                      decoding="async"
+                    />
+                  {{/if}}
+                  <span class="section-confidence__icon-number">{{ number }}.</span>
+                </div>
+              {{else if ../confidence.iconAccent}}
+                <div class="section-confidence__icon" aria-hidden="true">
+                  <img
+                    class="section-confidence__icon-accent"
+                    src="{{ ../confidence.iconAccent }}"
+                    alt=""
+                    width="23"
+                    height="23"
+                    decoding="async"
+                  />
+                </div>
               {{/if}}
-            </div>
 
-            <div class="section-confidence__pillar-content">
-              {{#if title}}
-                <h3 class="section-confidence__pillar-title">
-                  {{{ title }}}
-                </h3>
-              {{/if}}
+              <div class="section-confidence__pillar-content">
+                {{#if title}}
+                  <h3 class="section-confidence__pillar-title">
+                    {{{ title }}}
+                  </h3>
+                {{/if}}
 
-              {{#if description}}
-                <p class="section-confidence__pillar-text">
-                  {{{ description }}}
-                </p>
-              {{/if}}
-            </div>
-          </li>
-        {{/each}}
-      </ul>
+                {{#if description}}
+                  <p class="section-confidence__pillar-text">
+                    {{{ description }}}
+                  </p>
+                {{/if}}
+              </div>
+            </li>
+          {{/each}}
+        </ul>
+      {{/if}}
+    {{/if}}
+
+    {{#if confidence.conclusion}}
+      <p class="section-confidence__conclusion">
+        {{{ confidence.conclusion }}}
+      </p>
     {{/if}}
   </div>
 </section>

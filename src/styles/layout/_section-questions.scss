@@ -104,4 +104,211 @@
     line-height: calc(34 / 26);
     @include adaptive-value('font-size', 26, 18, 1);
   }
+
+  &__aside {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    min-width: 0;
+  }
+
+  &__texts {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  &__text {
+    margin: 0;
+    color: $color-text-muted;
+    line-height: calc(28 / 18);
+    @include adaptive-value('font-size', 18, 16, 1);
+  }
+
+  &__emphasis {
+    margin: 0;
+    color: $color-dark-blue;
+    font-weight: 500;
+    letter-spacing: -0.11px;
+    line-height: calc(32 / 22);
+    @include adaptive-value('font-size', 22, 18, 1);
+  }
+
+  &__list-label {
+    margin: 0;
+    color: $color-dark-blue;
+    font-weight: 500;
+    letter-spacing: -0.1px;
+    line-height: calc(28 / 20);
+    @include adaptive-value('font-size', 20, 17, 1);
+  }
+
+  &__banner {
+    position: relative;
+    overflow: hidden;
+    margin-top: 64px;
+    border-radius: 24px;
+    background-color: $color-dark-blue;
+    @include adaptive-value('min-height', 280, 220, 1);
+
+    @include media('<tablet') {
+      margin-top: 40px;
+    }
+  }
+
+  &__banner-bg {
+    position: absolute;
+    inset: 0;
+  }
+
+  &__banner-bg-image {
+    display: block;
+    width: 100%;
+    height: 100%;
+
+    &::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        90deg,
+        rgba($color-dark-blue, 0.92) 0%,
+        rgba($color-dark-blue, 0.72) 55%,
+        rgba($color-dark-blue, 0.45) 100%
+      );
+    }
+
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__banner-content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    max-width: 720px;
+    padding: 48px;
+
+    @include media('<tablet') {
+      padding: 32px 24px;
+    }
+  }
+
+  &__banner-icon {
+    display: block;
+    width: 64px;
+    height: 64px;
+  }
+
+  &__banner-title {
+    margin: 0;
+    color: $color-white;
+    font-weight: 500;
+    letter-spacing: -0.28px;
+    line-height: calc(36 / 28);
+    @include adaptive-value('font-size', 28, 22, 1);
+  }
+
+  &--assumptions {
+    background-color: $color-bg-muted;
+
+    .section-questions__intro {
+      gap: 24px;
+      justify-content: flex-start;
+    }
+
+    .section-questions__item {
+      grid-template-columns: 28px minmax(0, 1fr);
+      gap: 20px;
+      padding: 22px 0;
+      border-top: 1px solid $color-line;
+
+      &:last-child {
+        border-bottom: 1px solid $color-line;
+      }
+
+      @include media('<tablet') {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .section-questions__emphasis {
+      @include adaptive-value('font-size', 17, 16, 1);
+    }
+
+    .section-questions__item-label {
+      color: $color-text-muted;
+      font-size: 14px;
+      letter-spacing: 0.56px;
+      text-transform: none;
+    }
+
+    .section-questions__item-text {
+      color: $color-dark-blue;
+      font-weight: 500;
+      @include adaptive-value('font-size', 22, 18, 1);
+      line-height: calc(30 / 22);
+      letter-spacing: -0.11px;
+    }
+
+    .section-questions__list-label {
+      color: $color-red;
+      font-size: 14px;
+      letter-spacing: 1.12px;
+      text-transform: none;
+      margin-bottom: 20px;
+    }
+  }
+
+  &.fa-assumptions {
+    .section-questions__layout {
+      gap: 20px 64px;
+      grid-template-columns: minmax(300px, 720px) minmax(400px, 1fr);
+
+      @include media('<desktop') {
+        grid-template-columns: 1fr;
+      }
+    }
+    .section-questions__aside {
+      gap: 0;
+    }
+
+    .section-questions__item {
+      @include media('<tablet') {
+        align-items: flex-start;
+        grid-template-columns: auto 1fr;
+      }
+    }
+
+    .section-questions__item-label {
+      margin-top: 2px;
+    }
+
+    .section-questions__banner {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .section-questions__banner-content {
+      align-items: center;
+      text-align: center;
+      max-width: 100%;
+    }
+
+    .section-questions__banner-title {
+      @include adaptive-value('font-size', 52, 32, 1);
+
+      .is-muted {
+        color: $color-ice;
+      }
+    }
+  }
 }

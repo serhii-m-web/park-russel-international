@@ -1,0 +1,103 @@
+<!doctype html>
+<html id="top" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>
+      {{#if page.meta.title}}
+        {{ page.meta.title }}
+      {{else}}
+        {{ site.title }}
+      {{/if}}
+    </title>
+    <meta
+      name="description"
+      content="{{#if page.meta.description}}{{ page.meta.description }}{{else}}{{ site.description }}{{/if}}"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicon/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    {{> sprite}}
+    <a class="skip-link visually-hidden" href="#main-content">
+      Skip to content
+    </a>
+    {{> header}}
+    <main id="main-content" tabindex="-1">
+      {{> section-page-hero
+        pageHero=page.faPageHero
+        sectionClass="fa-hero"
+      }}
+      {{> section-page-content-banner
+        contentBanner=page.faNumbers
+        sectionClass="fa-numbers"
+      }}
+      {{> section-page-cards-content
+        cardsContent=page.faDecisions
+        sectionClass="fa-decisions"
+      }}
+      {{> section-page-cards-content
+        cardsContent=page.faInsight
+        sectionClass="fa-insight"
+      }}
+      {{> section-confidence
+        confidence=page.faDrives
+        sectionClass="fa-drives"
+      }}
+      {{> section-questions
+        questions=page.faAssumptions
+        sectionClass="fa-assumptions"
+      }}
+      {{> section-feature-split
+        feature=page.faValue
+        sectionClass="fa-value"
+      }}
+      {{> section-page-cards-content
+        cardsContent=page.faScenarios
+        sectionClass="fa-scenarios"
+      }}
+      {{> section-stakeholders
+        stakeholders=page.faStakeholders
+        sectionClass="fa-stakeholders"
+      }}
+      {{> section-feature-split
+        feature=page.faBorders
+        sectionClass="fa-borders"
+      }}
+      {{> section-methodology
+        methodology=page.faMethod
+        sectionClass="fa-method"
+      }}
+      {{> section-page-hero
+        pageHero=page.faFinal
+        sectionClass="fa-final"
+      }}
+    </main>
+    {{> footer}}
+    <script type="module" src="/ts/main.ts"></script>
+  </body>
+</html>

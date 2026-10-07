@@ -1,0 +1,460 @@
+{
+  "meta": {
+    "title": "Financial Advisory | Parker Russell International",
+    "description": "Independent financial advisory from Parker Russell member firms — helping businesses, boards and stakeholders understand value, performance, capital, risk and future outcomes."
+  },
+  "faPageHero": {
+    "id": "fa-page-hero",
+    "className": "page-hero--rich",
+    "label": "FINANCIAL ADVISORY",
+    "labelPill": true,
+    "imageBg": "/images/financial-advisory/hero-bg.jpg",
+    "imageLoading": "eager",
+    "breadcrumb": [
+      { "label": "Home", "href": "index.html" },
+      { "label": "Services", "href": "#" },
+      { "label": "Financial Advisory" }
+    ],
+    "title": "Better Decisions Begin With a Clearer Financial Picture.",
+    "description": "Significant business decisions rarely depend on a single number. They involve questions of value, performance, capital, risk and future outcomes — often at moments when the consequences of getting the decision wrong are substantial.",
+    "aside": "Parker Russell member firms provide financial advisory expertise to businesses, boards, shareholders, investors and other stakeholders facing complex financial decisions and periods of change.",
+    "buttons": [
+      {
+        "label": "Discuss a Financial Advisory Matter",
+        "href": "#",
+        "variant": "primary",
+        "icon": true
+      },
+      {
+        "label": "Find a Member Firm",
+        "href": "#",
+        "variant": "secondary",
+        "icon": true
+      }
+    ]
+  },
+  "faNumbers": {
+    "id": "fa-numbers",
+    "className": "section-page-content-banner--muted",
+    "ariaLabel": "Behind the numbers",
+    "image": "/images/financial-advisory/analysis.jpg",
+    "imageAlt": "Financial analysis documents and charts",
+    "text": "<span class=\"is-muted\">By combining financial analysis, commercial understanding and professional judgement, </span><span>our professionals help decision-makers understand the position behind the numbers, challenge the assumptions that matter and evaluate the options ahead.</span>",
+    "banner": {
+      "imageBg": "/images/financial-advisory/statement-bg.jpg",
+      "leftColumn": {
+        "icon": "/icons/financial-assurance.svg"
+      },
+      "rightColumn": {
+        "text": "<span>Because the objective is not simply to understand the numbers. </span><span class=\"is-muted\">It is to understand what they mean for the decision.</span>"
+      }
+    }
+  },
+  "faDecisions": {
+    "id": "fa-decisions",
+    "className": "section-page-cards-content--moments",
+    "ariaLabel": "Financial decisions that shape what comes next",
+    "carouselLabel": "Decision moments",
+    "title": "Some Financial Decisions Shape What Comes Next",
+    "lead": "Financial advisory becomes particularly important when an organisation reaches a point where historic information alone is no longer enough.",
+    "bodies": [
+      "A business may be growing but consuming increasing amounts of capital. Performance may appear strong while cash generation tells a different story. An investment may look attractive until its assumptions are tested. Different stakeholders may look at the same financial position and reach very different conclusions.",
+      "At these moments, decision-makers need more than information. They need a clear understanding of value, financial exposure, available options and the consequences of each potential course of action."
+    ],
+    "cards": [
+      {
+        "icon": "/icons/financial-advisory/moment-value.svg",
+        "title": "Understanding Value",
+        "description": "When a business, asset or opportunity needs to be assessed beyond its headline financial figures."
+      },
+      {
+        "icon": "/icons/financial-advisory/moment-performance.svg",
+        "title": "Assessing Performance",
+        "description": "When changes in revenue, margins, cash generation or costs require a deeper understanding of what is driving the business."
+      },
+      {
+        "icon": "/icons/financial-advisory/moment-capital.svg",
+        "title": "Capital at Stake",
+        "description": "When an investment, financing or strategic decision could materially affect financial flexibility and future returns."
+      },
+      {
+        "icon": "/icons/financial-advisory/moment-change.svg",
+        "title": "Business Change",
+        "description": "When growth, restructuring, ownership changes or strategic decisions alter the organisation's financial position."
+      },
+      {
+        "icon": "/icons/financial-advisory/moment-stakeholder.svg",
+        "title": "Stakeholder Complexity",
+        "description": "When shareholders, management, creditors, investors or other stakeholders have different financial interests in the outcome."
+      }
+    ]
+  },
+  "faInsight": {
+    "id": "fa-insight",
+    "className": "section-page-cards-content--carousel",
+    "ariaLabel": "Financial insight",
+    "carouselLabel": "Financial advisory services",
+    "title": "Financial Insight Around the <br> Questions That Matter.",
+    "button": {
+      "label": "Explore Our Services",
+      "href": "#"
+    },
+    "cards": [
+      {
+        "image": "/images/financial-advisory/insight-1.jpg",
+        "imageAlt": "Financial Analysis & Decision Support",
+        "title": "Financial Analysis & Decision Support",
+        "description": "Financial information becomes more valuable when it is considered in the context of the decision being made.",
+        "descriptionSecondary": "Our professionals examine performance, profitability, cash generation, financial position and relevant assumptions to identify the factors most capable of influencing the outcome.",
+        "link": { "label": "Read More", "href": "#" }
+      },
+      {
+        "image": "/images/financial-advisory/insight-2.jpg",
+        "imageAlt": "Business & Financial Assessment",
+        "title": "Business & Financial Assessment",
+        "description": "A meaningful assessment considers more than historic results.",
+        "descriptionSecondary": "Understanding current performance, cost structures, assets, liabilities, cash requirements and future expectations together can provide a more complete picture of an organisation's financial strength and areas of exposure.",
+        "link": { "label": "Read More", "href": "#" }
+      },
+      {
+        "image": "/images/financial-advisory/insight-3.jpg",
+        "imageAlt": "Value Assessment",
+        "title": "Value Assessment",
+        "description": "Understanding value requires understanding what drives it.",
+        "descriptionSecondary": "Performance, cash flow, growth expectations, market conditions, capital requirements and risk can all influence how a business or opportunity should be assessed.",
+        "link": { "label": "Read More", "href": "#" }
+      },
+      {
+        "image": "/images/financial-advisory/insight-4.jpg",
+        "imageAlt": "Capital & Stakeholder Considerations",
+        "title": "Capital & Stakeholder Considerations",
+        "description": "Major financial decisions can affect shareholders, creditors, investors and management differently.",
+        "descriptionSecondary": "A wider financial perspective can help decision-makers understand how different options affect capital, risk, ownership and stakeholder interests.",
+        "link": { "label": "Read More", "href": "#" }
+      },
+      {
+        "image": "/images/financial-advisory/insight-5.jpg",
+        "imageAlt": "Strategic Financial Decision Support",
+        "title": "Strategic Financial Decision Support",
+        "description": "Where several viable options exist, financial analysis can provide a structured basis for comparing alternatives, challenging assumptions and understanding their potential consequences.",
+        "link": { "label": "Read More", "href": "#" }
+      },
+      {
+        "image": "/images/financial-advisory/insight-6.jpg",
+        "imageAlt": "Cross-Border Financial Advisory",
+        "title": "Cross-Border Financial Advisory",
+        "description": "Where businesses, assets or stakeholders extend across jurisdictions, Parker Russell member firms can collaborate across relevant markets, combining local financial knowledge with a broader international perspective.",
+        "link": { "label": "Read More", "href": "#" }
+      }
+    ]
+  },
+  "faDrives": {
+    "id": "fa-drives",
+    "className": "section-confidence--relationships",
+    "ariaLabel": "What drives the number",
+    "title": "The Number Matters. What <br> Drives It Matters More.",
+    "lead": "Strong financial analysis looks beneath the headline result.",
+    "body": "A profitable business may have weak cash conversion. Strong revenue growth may depend on increasing capital investment. An attractive forecast may rely on assumptions that leave little room for changing market conditions.",
+    "relationshipsLabel": "Understanding the financial position therefore means understanding the relationships between:",
+    "pillars": [
+      {
+        "number": "01",
+        "title": "Performance",
+        "description": " — what is driving financial results?"
+      },
+      {
+        "number": "02",
+        "title": "Cash Flow",
+        "description": " — how effectively does performance translate into cash?"
+      },
+      {
+        "number": "03",
+        "title": "Capital",
+        "description": " — what resources are required to sustain the business and its plans?"
+      },
+      {
+        "number": "04",
+        "title": "Value",
+        "description": " — which factors create, preserve or reduce economic value?"
+      },
+      {
+        "number": "05",
+        "title": "Risk",
+        "description": " — what could materially alter the expected outcome?"
+      },
+      {
+        "number": "06",
+        "title": "Future Performance",
+        "description": " — which assumptions underpin expectations about what happens next?"
+      }
+    ],
+    "conclusion": "<span class=\"is-muted\">A number without context is information.</span><br>A number understood in context becomes intelligence."
+  },
+  "faAssumptions": {
+    "id": "fa-assumptions",
+    "className": "section-questions--assumptions",
+    "ariaLabel": "Assumptions behind financial conclusions",
+    "title": "Every Financial Conclusion Depends on Something Being True.",
+    "lead": "Forecasts, valuations and investment cases are built on assumptions.",
+    "texts": [
+      "Revenue may be expected to grow. Margins may be expected to remain stable. Financing may remain available. Costs may develop in a particular way. Market conditions may support a certain level of demand."
+    ],
+    "emphasis": "But the quality of a financial decision depends partly on how robust those assumptions are.",
+    "listLabel": "That means asking:",
+    "items": [
+      {
+        "label": "01",
+        "text": "Which assumptions have the greatest influence over the outcome?"
+      },
+      {
+        "label": "02",
+        "text": "What evidence supports them?"
+      },
+      {
+        "label": "03",
+        "text": "Which are most exposed to changing business or market conditions?"
+      },
+      {
+        "label": "04",
+        "text": "What happens if they prove wrong?"
+      }
+    ],
+    "banner": {
+      "imageBg": "/images/financial-advisory/assumptions-bg.jpg",
+      "icon": "/icons/financial-advisory/assumptions-mark.svg",
+      "title": "Do not only ask what the numbers say.<br><span class=\"is-muted\">Ask what must be true for them to remain true.</span>"
+    }
+  },
+  "faValue": {
+    "id": "fa-value",
+    "className": "section-feature-split--value-panel",
+    "ariaLabel": "Value is more than a number",
+    "title": "Value Is More Than a Number.",
+    "lead": "Two businesses with similar revenue and profitability can have very different economic values.",
+    "texts": [
+      "Their ability to generate cash may differ. One may require significant future investment. Another may face greater market or customer concentration risk. Their growth prospects, capital structures and exposure to external change may be fundamentally different.",
+      "Understanding value therefore requires looking beyond the calculation to the business and assumptions behind it."
+    ],
+    "statement": "Know the number. Understand what drives it. Know what could change it.",
+    "panel": {
+      "image": "/images/financial-advisory/value-panel.jpg",
+      "imageAlt": "Financial advisory discussion"
+    },
+    "items": [
+      {
+        "icon": "/icons/financial-advisory/factor-bar.svg",
+        "title": "Performance",
+        "text": "How effectively does the business generate earnings?"
+      },
+      {
+        "icon": "/icons/financial-advisory/factor-cash.svg",
+        "title": "Cash Generation",
+        "text": "How effectively do those earnings translate into cash?"
+      },
+      {
+        "icon": "/icons/financial-advisory/factor-trend.svg",
+        "title": "Growth",
+        "text": "What assumptions and investment are required to achieve future expectations?"
+      },
+      {
+        "icon": "/icons/financial-advisory/factor-warning.svg",
+        "title": "Risk",
+        "text": "What could materially affect performance or future value?"
+      },
+      {
+        "icon": "/icons/financial-advisory/factor-bank.svg",
+        "title": "Capital",
+        "text": "What financial resources are required to maintain and develop the business?"
+      },
+      {
+        "icon": "/icons/financial-advisory/factor-globe.svg",
+        "title": "Market",
+        "text": "How do sector and economic conditions affect expectations?"
+      }
+    ]
+  },
+  "faScenarios": {
+    "id": "fa-scenarios",
+    "className": "section-page-cards-content--scenarios section-page-cards-content--muted",
+    "ariaLabel": "Scenario thinking",
+    "carouselLabel": "Financial scenarios",
+    "iconAccent": "/icons/index-corner.svg",
+    "title": "One Forecast Is Not the Future.",
+    "lead": "Financial models provide a structured view of what may happen. They do not remove uncertainty.",
+    "bodies": [
+      "For significant decisions, understanding how the financial position changes under different assumptions can be as important as understanding the central forecast itself."
+    ],
+    "cards": [
+      {
+        "number": "01.",
+        "title": "BASE CASE",
+        "description": "What happens if current expectations broadly hold?"
+      },
+      {
+        "number": "02.",
+        "title": "UPSIDE",
+        "description": "What could create additional financial value?"
+      },
+      {
+        "number": "03.",
+        "title": "DOWNSIDE",
+        "description": "Where does pressure emerge if conditions deteriorate?"
+      },
+      {
+        "number": "04.",
+        "title": "STRESS",
+        "description": "Which assumptions create the greatest financial vulnerability?"
+      },
+      {
+        "number": "05.",
+        "title": "ALTERNATIVE",
+        "description": "Could another course of action produce a stronger outcome?"
+      }
+    ],
+    "conclusion": "Scenario thinking allows decision-makers to understand not only the expected result, but the range of potential outcomes surrounding it."
+  },
+  "faStakeholders": {
+    "id": "fa-stakeholders",
+    "className": "section-stakeholders--dark",
+    "ariaLabel": "Where you sit",
+    "title": "The Same Financial Position Can Look Different Depending on Where You Sit.",
+    "items": [
+      {
+        "label": "For CEOs & Management",
+        "text": "How will the decision affect performance, cash, capital requirements and the organisation's future options?"
+      },
+      {
+        "label": "For Boards",
+        "text": "Are the assumptions sufficiently robust? Are the principal financial risks understood? Is there enough information to challenge the proposed course of action?"
+      },
+      {
+        "label": "For Shareholders",
+        "text": "How could the decision affect value, ownership, risk and future returns?"
+      },
+      {
+        "label": "For Creditors & Lenders",
+        "text": "What does the financial position mean for liquidity, leverage and repayment capacity?"
+      },
+      {
+        "label": "For Investors",
+        "text": "Does the expected return justify the capital required and the risk being taken?"
+      },
+      {
+        "label": "For International Groups",
+        "text": "How do different entities, markets and jurisdictions affect the wider financial picture?"
+      }
+    ],
+    "statement": "Different interests create different questions. <span class=\"is-emphasis\">Strong financial advice understands the distinction.</span>"
+  },
+  "faBorders": {
+    "id": "fa-borders",
+    "className": "section-feature-split--muted section-feature-split--business section-feature-split--borders-fa",
+    "ariaLabel": "Across borders",
+    "title": "Financial Decisions Do Not Stop at Borders.",
+    "lead": "International businesses may operate through multiple entities, currencies and markets while important financial decisions need to consider the organisation as a whole.",
+    "principles": [
+      {
+        "icon": "/icons/financial-advisory/borders-bank.svg",
+        "text": "An investment in one jurisdiction can affect capital allocation elsewhere. Different markets can carry different assumptions and risks. Local financial conditions can influence the economics of a wider international decision."
+      },
+      {
+        "icon": "/icons/financial-advisory/borders-globe.svg",
+        "text": "Through Parker Russell International, independent member firms can collaborate where financial matters extend across jurisdictions, bringing relevant local knowledge into a broader assessment."
+      }
+    ],
+    "imageSecondary": "/images/financial-advisory/borders.jpg",
+    "imageSecondaryAlt": "Local and international financial advisory",
+    "photoMark": "/icons/financial-advisory/borders-mark.svg",
+    "photoStatement": "Understand the market locally. <span class=\"is-muted\">See the decision in its wider context.</span>",
+    "button": {
+      "label": "Explore Our Global Network",
+      "href": "#"
+    }
+  },
+  "faMethod": {
+    "id": "fa-method",
+    "ariaLabel": "How strong financial decisions are built",
+    "carouselLabel": "Decision methodology",
+    "image": "/images/methodology-earth.svg",
+    "eyebrow": "HOW STRONG FINANCIAL DECISIONS ARE BUILT",
+    "title": "Clarity Comes From Asking the Right Questions in the Right Order.",
+    "conclusion": "The quality of the decision begins with the quality of the questions behind it.",
+    "steps": [
+      {
+        "progress": "1",
+        "number": "01",
+        "label": "DEFINE",
+        "description": "What decision actually needs to be made?"
+      },
+      {
+        "progress": "2",
+        "number": "02",
+        "label": "UNDERSTAND",
+        "description": "What does the financial information tell us about the current position?"
+      },
+      {
+        "progress": "3",
+        "number": "03",
+        "label": "IDENTIFY",
+        "description": "Which factors have the greatest influence over performance, value and risk?"
+      },
+      {
+        "progress": "4",
+        "number": "04",
+        "label": "CHALLENGE",
+        "description": "Which assumptions are fundamental to the financial case?"
+      },
+      {
+        "progress": "5",
+        "number": "05",
+        "label": "TEST",
+        "description": "How does the outcome change under different scenarios?"
+      },
+      {
+        "progress": "6",
+        "number": "06",
+        "label": "COMPARE",
+        "description": "What credible alternatives exist?"
+      },
+      {
+        "progress": "7",
+        "number": "07",
+        "label": "DECIDE",
+        "description": "Which course of action is supported by the strongest financial rationale?"
+      }
+    ]
+  },
+  "faFinal": {
+    "id": "fa-final",
+    "ariaLabel": "Important decisions deserve more",
+    "isSection": true,
+    "className": "page-hero--section page-hero--chips",
+    "imageBg": "/images/financial-advisory/cta-bg.jpg",
+    "imageLoading": "lazy",
+    "title": "Important Decisions Deserve More Than a Headline Number.",
+    "description": "Before capital is committed, value is accepted or a strategic direction is chosen, decision-makers need to understand the financial picture behind the decision.",
+    "chips": [
+      "What drives the outcome?",
+      "What assumptions does it depend on?",
+      "What could change?",
+      "Where does the risk sit?",
+      "What alternatives exist?"
+    ],
+    "note": "Parker Russell member firms bring together financial analysis, commercial perspective and professional judgement to provide greater clarity around the decisions that matter.",
+    "tagline": "Understand the position. Challenge the assumptions. See the alternatives. Then decide.",
+    "buttons": [
+      {
+        "label": "Discuss a Financial Advisory Matter",
+        "href": "#",
+        "variant": "primary",
+        "icon": true
+      },
+      {
+        "label": "Find a Member Firm",
+        "href": "#",
+        "variant": "secondary",
+        "icon": true
+      }
+    ]
+  }
+}

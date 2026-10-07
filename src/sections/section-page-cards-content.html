@@ -4,6 +4,9 @@
     {{#if cardsContent.className}}
       {{ cardsContent.className }}
     {{/if}}
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
   "
   data-cards-content-slider
   {{#if cardsContent.title}}
@@ -28,7 +31,29 @@
           {{{ cardsContent.title }}}
         </h2>
 
-        {{#if cardsContent.description}}
+        {{#if cardsContent.lead}}
+          <div class="section-page-cards-content__intro">
+            <p class="section-page-cards-content__lead">
+              {{{ cardsContent.lead }}}
+            </p>
+
+            {{#if cardsContent.bodies}}
+              <div class="section-page-cards-content__bodies">
+                {{#each cardsContent.bodies}}
+                  <p class="section-page-cards-content__body">
+                    {{{ this }}}
+                  </p>
+                {{/each}}
+              </div>
+            {{/if}}
+
+            {{#if cardsContent.description}}
+              <p class="section-page-cards-content__description">
+                {{{ cardsContent.description }}}
+              </p>
+            {{/if}}
+          </div>
+        {{else if cardsContent.description}}
           <p class="section-page-cards-content__description">
             {{{ cardsContent.description }}}
           </p>
@@ -64,7 +89,21 @@
               {{/if}}
 
               <div class="section-page-cards-content__card-inner">
-                {{#if icon}}
+                {{#if number}}
+                  <div class="section-page-cards-content__card-number" aria-hidden="true">
+                    {{#if ../cardsContent.iconAccent}}
+                      <img
+                        class="section-page-cards-content__card-number-accent"
+                        src="{{ ../cardsContent.iconAccent }}"
+                        alt=""
+                        width="23"
+                        height="23"
+                        decoding="async"
+                      />
+                    {{/if}}
+                    <span class="section-page-cards-content__card-number-text">{{ number }}</span>
+                  </div>
+                {{else if icon}}
                   <div class="section-page-cards-content__card-icon">
                     <img
                       src="{{ icon }}"
@@ -114,46 +153,109 @@
         </div>
       </div>
 
-      <div
-        class="section-page-cards-content__navigation"
-        role="group"
-        aria-label="Cards slider controls"
-        data-cards-content-slider-nav
-        inert
-      >
-        <div
-          class="swiper-scrollbar section-page-cards-content__scrollbar"
-          data-cards-content-slider-scrollbar
-          tabindex="0"
-          aria-label="Slider progress"
-        ></div>
-        <div class="section-page-cards-content__nav-buttons">
-          <button
-            class="swiper-button-prev section-page-cards-content__nav-btn prev"
-            type="button"
-            data-cards-content-slider-prev
-            aria-label="Previous slide"
+      {{#if cardsContent.button}}
+        <div class="section-page-cards-content__actions">
+          <a
+            class="section-page-cards-content__button site-button primary"
+            href="{{ cardsContent.button.href }}"
           >
+            <span>{{ cardsContent.button.label }}</span>
             {{> icon
               name="arrow-right"
               width="16"
               height="16"
             }}
-          </button>
-          <button
-            class="swiper-button-next section-page-cards-content__nav-btn next"
-            type="button"
-            data-cards-content-slider-next
-            aria-label="Next slide"
+          </a>
+
+          <div
+            class="section-page-cards-content__navigation"
+            role="group"
+            aria-label="Cards slider controls"
+            data-cards-content-slider-nav
+            inert
           >
-            {{> icon
-              name="arrow-right"
-              width="16"
-              height="16"
-            }}
-          </button>
+            <div
+              class="swiper-scrollbar section-page-cards-content__scrollbar"
+              data-cards-content-slider-scrollbar
+              tabindex="0"
+              aria-label="Slider progress"
+            ></div>
+            <div class="section-page-cards-content__nav-buttons">
+              <button
+                class="swiper-button-prev section-page-cards-content__nav-btn prev"
+                type="button"
+                data-cards-content-slider-prev
+                aria-label="Previous slide"
+              >
+                {{> icon
+                  name="arrow-right"
+                  width="16"
+                  height="16"
+                }}
+              </button>
+              <button
+                class="swiper-button-next section-page-cards-content__nav-btn next"
+                type="button"
+                data-cards-content-slider-next
+                aria-label="Next slide"
+              >
+                {{> icon
+                  name="arrow-right"
+                  width="16"
+                  height="16"
+                }}
+              </button>
+            </div>
+          </div>
         </div>
-      </div>
+      {{else}}
+        <div
+          class="section-page-cards-content__navigation"
+          role="group"
+          aria-label="Cards slider controls"
+          data-cards-content-slider-nav
+          inert
+        >
+          <div
+            class="swiper-scrollbar section-page-cards-content__scrollbar"
+            data-cards-content-slider-scrollbar
+            tabindex="0"
+            aria-label="Slider progress"
+          ></div>
+          <div class="section-page-cards-content__nav-buttons">
+            <button
+              class="swiper-button-prev section-page-cards-content__nav-btn prev"
+              type="button"
+              data-cards-content-slider-prev
+              aria-label="Previous slide"
+            >
+              {{> icon
+                name="arrow-right"
+                width="16"
+                height="16"
+              }}
+            </button>
+            <button
+              class="swiper-button-next section-page-cards-content__nav-btn next"
+              type="button"
+              data-cards-content-slider-next
+              aria-label="Next slide"
+            >
+              {{> icon
+                name="arrow-right"
+                width="16"
+                height="16"
+              }}
+            </button>
+          </div>
+        </div>
+      {{/if}}
+    {{/if}}
+
+    {{#if cardsContent.conclusion}}
+      <p class="section-page-cards-content__conclusion">
+        {{{ cardsContent.conclusion }}}
+      </p>
     {{/if}}
   </div>
 </section>

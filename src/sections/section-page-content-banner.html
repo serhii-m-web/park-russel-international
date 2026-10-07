@@ -4,7 +4,13 @@
     {{#if contentBanner.className}}
       {{ contentBanner.className }}
     {{/if}}
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
   "
+  {{#if contentBanner.id}}
+    id="{{ contentBanner.id }}"
+  {{/if}}
   {{#if contentBanner.title}}
     aria-labelledby="{{#if contentBanner.id}}{{ contentBanner.id }}{{else}}section-page-content-banner{{/if}}-title"
   {{else}}

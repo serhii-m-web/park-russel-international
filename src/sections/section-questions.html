@@ -4,6 +4,9 @@
     {{#if questions.className}}
       {{ questions.className }}
     {{/if}}
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
   "
   {{#if questions.title}}
     aria-labelledby="{{#if questions.id}}{{ questions.id }}{{else}}section-questions{{/if}}-title"
@@ -29,6 +32,22 @@
           </p>
         {{/if}}
 
+        {{#if questions.texts}}
+          <div class="section-questions__texts">
+            {{#each questions.texts}}
+              <p class="section-questions__text">
+                {{{ this }}}
+              </p>
+            {{/each}}
+          </div>
+        {{/if}}
+
+        {{#if questions.emphasis}}
+          <p class="section-questions__emphasis">
+            {{{ questions.emphasis }}}
+          </p>
+        {{/if}}
+
         {{#if questions.conclusion}}
           <div class="section-questions__conclusion">
             <span class="section-questions__rule" aria-hidden="true"></span>
@@ -39,18 +58,62 @@
         {{/if}}
       </div>
 
-      {{#if questions.items}}
-        <ol class="section-questions__list">
-          {{#each questions.items}}
-            <li class="section-questions__item">
-              {{#if label}}
-                <span class="section-questions__item-label">{{ label }}</span>
-              {{/if}}
-              <p class="section-questions__item-text">{{{ text }}}</p>
-            </li>
-          {{/each}}
-        </ol>
-      {{/if}}
+      <div class="section-questions__aside">
+        {{#if questions.listLabel}}
+          <p class="section-questions__list-label">
+            {{{ questions.listLabel }}}
+          </p>
+        {{/if}}
+
+        {{#if questions.items}}
+          <ol class="section-questions__list">
+            {{#each questions.items}}
+              <li class="section-questions__item">
+                {{#if label}}
+                  <span class="section-questions__item-label">{{ label }}</span>
+                {{/if}}
+                <p class="section-questions__item-text">{{{ text }}}</p>
+              </li>
+            {{/each}}
+          </ol>
+        {{/if}}
+      </div>
     </div>
+
+    {{#if questions.banner}}
+      <div class="section-questions__banner">
+        {{#if questions.banner.imageBg}}
+          <div class="section-questions__banner-bg" aria-hidden="true">
+            {{picture
+              questions.banner.imageBg
+              alt=""
+              class="section-questions__banner-bg-image"
+              width="1280"
+              height="480"
+            }}
+          </div>
+        {{/if}}
+
+        <div class="section-questions__banner-content">
+          {{#if questions.banner.icon}}
+            <img
+              class="section-questions__banner-icon"
+              src="{{ questions.banner.icon }}"
+              alt=""
+              width="64"
+              height="64"
+              decoding="async"
+              aria-hidden="true"
+            />
+          {{/if}}
+
+          {{#if questions.banner.title}}
+            <p class="section-questions__banner-title">
+              {{{ questions.banner.title }}}
+            </p>
+          {{/if}}
+        </div>
+      </div>
+    {{/if}}
   </div>
 </section>

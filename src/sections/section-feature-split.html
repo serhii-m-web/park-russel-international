@@ -4,6 +4,9 @@
     {{#if feature.className}}
       {{ feature.className }}
     {{/if}}
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
   "
   {{#if feature.title}}
     aria-labelledby="{{#if feature.id}}{{ feature.id }}{{else}}section-feature-split{{/if}}-title"
@@ -41,7 +44,15 @@
                 </p>
               {{/if}}
 
-              {{#if feature.text}}
+              {{#if feature.texts}}
+                <div class="section-feature-split__texts">
+                  {{#each feature.texts}}
+                    <p class="section-feature-split__text section-feature-split__text--on-dark">
+                      {{{ this }}}
+                    </p>
+                  {{/each}}
+                </div>
+              {{else if feature.text}}
                 <p class="section-feature-split__text section-feature-split__text--on-dark">
                   {{{ feature.text }}}
                 </p>
@@ -83,7 +94,15 @@
             }}
           {{/if}}
 
-          {{#if feature.text}}
+          {{#if feature.texts}}
+            <div class="section-feature-split__texts">
+              {{#each feature.texts}}
+                <p class="section-feature-split__text">
+                  {{{ this }}}
+                </p>
+              {{/each}}
+            </div>
+          {{else if feature.text}}
             <p class="section-feature-split__text">
               {{{ feature.text }}}
             </p>
@@ -104,6 +123,16 @@
                 </li>
               {{/each}}
             </ul>
+          {{/if}}
+
+          {{#if feature.button}}
+            <a
+              class="section-feature-split__button site-button primary"
+              href="{{ feature.button.href }}"
+            >
+              <span>{{ feature.button.label }}</span>
+              {{> icon name="arrow-right" width="16" height="16"}}
+            </a>
           {{/if}}
         {{/if}}
       </div>

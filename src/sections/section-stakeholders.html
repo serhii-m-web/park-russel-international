@@ -4,6 +4,9 @@
     {{#if stakeholders.className}}
       {{ stakeholders.className }}
     {{/if}}
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
   "
   {{#if stakeholders.title}}
     aria-labelledby="{{#if stakeholders.id}}{{ stakeholders.id }}{{else}}section-stakeholders{{/if}}-title"
@@ -49,6 +52,12 @@
           </li>
         {{/each}}
       </ul>
+    {{/if}}
+
+    {{#if stakeholders.statement}}
+      <p class="section-stakeholders__statement">
+        {{{ stakeholders.statement }}}
+      </p>
     {{/if}}
   </div>
 </section>

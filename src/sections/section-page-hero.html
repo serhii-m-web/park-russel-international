@@ -4,6 +4,9 @@
     {{#if pageHero.className}}
       {{ pageHero.className }}
     {{/if}}
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
   "
   {{#if pageHero.title}}
     aria-labelledby="{{#if pageHero.id}}{{ pageHero.id }}{{else}}page-hero{{/if}}-title"
@@ -20,12 +23,18 @@
           {{#each pageHero.breadcrumb}}
             <li class="page-hero__breadcrumb-item">
               {{#unless @first}}
-                <span class="page-hero__breadcrumb-sep" aria-hidden="true">/</span>
+                <span class="page-hero__breadcrumb-sep" aria-hidden="true">
+                  /
+                </span>
               {{/unless}}
               {{#if href}}
-                <a class="page-hero__breadcrumb-link" href="{{ href }}">{{ label }}</a>
+                <a class="page-hero__breadcrumb-link" href="{{ href }}">
+                  {{ label }}
+                </a>
               {{else}}
-                <span class="page-hero__breadcrumb-current" aria-current="page">{{ label }}</span>
+                <span class="page-hero__breadcrumb-current" aria-current="page">
+                  {{ label }}
+                </span>
               {{/if}}
             </li>
           {{/each}}
@@ -97,60 +106,72 @@
             </h1>
           {{/if}}
 
-          {{#if pageHero.keywords}}
-            <p class="page-hero__keywords">
-              {{{ pageHero.keywords }}}
-            </p>
-          {{/if}}
+          <div class="page-hero__content-inner">
+            <div class="page-hero__content-inner-main">
+              {{#if pageHero.keywords}}
+                <p class="page-hero__keywords">
+                  {{{ pageHero.keywords }}}
+                </p>
+              {{/if}}
 
-          {{#if pageHero.description}}
-            <p class="page-hero__description">
-              {{{ pageHero.description }}}
-            </p>
-          {{/if}}
+              {{#if pageHero.description}}
+                <p class="page-hero__description">
+                  {{{ pageHero.description }}}
+                </p>
+              {{/if}}
 
-          {{#if pageHero.note}}
-            <p class="page-hero__note">
-              {{{ pageHero.note }}}
-            </p>
-          {{/if}}
+              {{#if pageHero.chips.length}}
+                <ul class="page-hero__chips" aria-label="Key questions">
+                  {{#each pageHero.chips}}
+                    <li class="page-hero__chip">
+                      {{{ this }}}
+                    </li>
+                  {{/each}}
+                </ul>
+              {{/if}}
 
-          {{#if pageHero.tagline}}
-            <p class="page-hero__tagline">
-              <span class="page-hero__tagline-rule" aria-hidden="true"></span>
-              <span>{{{ pageHero.tagline }}}</span>
-            </p>
-          {{/if}}
+              {{#if pageHero.note}}
+                <p class="page-hero__note">
+                  {{{ pageHero.note }}}
+                </p>
+              {{/if}}
 
-          {{#if pageHero.buttons.length}}
-            <div class="page-hero__buttons">
-              {{#each pageHero.buttons}}
-                <a
-                  class="page-hero__button site-button {{ variant }}"
-                  href="{{ href }}"
-                >
-                  <span>{{ label }}</span>
-                  {{#if icon}}
-                    {{> icon
-                      name="arrow-right"
-                      width="16"
-                      height="16"
-                    }}
-                  {{/if}}
-                </a>
-              {{/each}}
+              {{#if pageHero.tagline}}
+                <p class="page-hero__tagline">
+                  <span class="page-hero__tagline-rule" aria-hidden="true"
+                  ></span>
+                  <span>{{{ pageHero.tagline }}}</span>
+                </p>
+              {{/if}}
+
+              {{#if pageHero.buttons.length}}
+                <div class="page-hero__buttons">
+                  {{#each pageHero.buttons}}
+                    <a
+                      class="page-hero__button site-button {{ variant }}"
+                      href="{{ href }}"
+                    >
+                      <span>{{ label }}</span>
+                      {{#if icon}}
+                        {{> icon
+                          name="arrow-right"
+                          width="16"
+                          height="16"
+                        }}
+                      {{/if}}
+                    </a>
+                  {{/each}}
+                </div>
+              {{/if}}
             </div>
-          {{/if}}
+            {{#if pageHero.aside}}
+              <aside class="page-hero__aside">
+                <div class="page-hero__aside-rule" aria-hidden="true"></div>
+                <p class="page-hero__aside-text">{{{ pageHero.aside }}}</p>
+              </aside>
+            {{/if}}
+          </div>
         </div>
-
-        {{#if pageHero.aside}}
-          <aside class="page-hero__aside">
-            <div class="page-hero__aside-rule" aria-hidden="true"></div>
-            <p class="page-hero__aside-text">
-              {{{ pageHero.aside }}}
-            </p>
-          </aside>
-        {{/if}}
       </div>
     </div>
   </div>

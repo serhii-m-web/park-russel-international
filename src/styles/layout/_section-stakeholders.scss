@@ -116,4 +116,52 @@
     line-height: calc(28 / 20);
     @include adaptive-value('font-size', 20, 16, 1);
   }
+
+  &__statement {
+    margin: 48px 0 0;
+    max-width: 960px;
+    color: $color-ice;
+    font-weight: 500;
+    letter-spacing: -0.48px;
+    line-height: calc(40 / 32);
+    @include adaptive-value('font-size', 32, 22, 1);
+
+    .is-emphasis {
+      color: $color-white;
+      font-weight: 500;
+    }
+  }
+
+  &--dark {
+    .section-stakeholders__list {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+
+      @include media('<desktop') {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      @include media('<tablet') {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .section-stakeholders__title {
+      max-width: 900px;
+      letter-spacing: -1.2px;
+      line-height: calc(52 / 48);
+      @include adaptive-value('font-size', 48, 32, 1);
+    }
+
+    .section-stakeholders__text {
+      letter-spacing: -0.09px;
+      line-height: calc(24 / 18);
+      @include adaptive-value('font-size', 18, 16, 1);
+    }
+  }
+
+  &.fa-stakeholders {
+    .section-stakeholders__statement {
+      max-width: 930px;
+    }
+  }
 }
