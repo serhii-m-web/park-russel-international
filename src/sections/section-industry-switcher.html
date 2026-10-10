@@ -1,0 +1,37 @@
+<nav
+  class="
+    section-industry-switcher
+    {{#if switcher.className}}
+      {{ switcher.className }}
+    {{/if}}
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if switcher.id}}
+    id="{{ switcher.id }}"
+  {{/if}}
+  aria-label="{{#if switcher.ariaLabel}}{{ switcher.ariaLabel }}{{else}}Browse industries{{/if}}"
+>
+  <div class="container">
+    <div class="section-industry-switcher__scroller">
+      {{#if switcher.items.length}}
+        <ul class="section-industry-switcher__list">
+          {{#each switcher.items}}
+            <li class="section-industry-switcher__item">
+              <a
+                class="section-industry-switcher__chip{{#if active}} is-active{{/if}}"
+                href="{{ href }}"
+                {{#if active}}
+                  aria-current="page"
+                {{/if}}
+              >
+                {{ label }}
+              </a>
+            </li>
+          {{/each}}
+        </ul>
+      {{/if}}
+    </div>
+  </div>
+</nav>

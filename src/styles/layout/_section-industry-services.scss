@@ -1,0 +1,256 @@
+@use '../abstracts' as *;
+
+.section-industry-services {
+  @include adaptive-value('padding-top', 120, 56, 1);
+  @include adaptive-value('padding-bottom', 120, 56, 1);
+  background-color: $color-white;
+
+  &__layout {
+    display: grid;
+    grid-template-columns: minmax(0, 464px) minmax(0, 1fr);
+    gap: 96px;
+    align-items: stretch;
+
+    @include media('<desktop') {
+      grid-template-columns: 1fr;
+      gap: 40px;
+    }
+
+    @include media('<tablet') {
+      gap: 28px;
+    }
+  }
+
+  &__intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 40px;
+    min-height: 100%;
+
+    @include media('<tablet') {
+      gap: 24px;
+      min-height: 0;
+    }
+  }
+
+  &__heading {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    @include media('<tablet') {
+      gap: 16px;
+    }
+  }
+
+  &__eyebrow {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 0;
+    color: $color-dark-blue;
+    font-weight: 500;
+    letter-spacing: 1.68px;
+    line-height: calc(16 / 12);
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+
+  &__eyebrow-rule {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: $color-red;
+    flex-shrink: 0;
+  }
+
+  &__title {
+    margin: 0;
+    color: $color-dark-blue;
+    font-weight: 500;
+    letter-spacing: -1.2px;
+    line-height: calc(52 / 48);
+    @include adaptive-value('font-size', 48, 30, 1);
+
+    @include media('<tablet') {
+      letter-spacing: -0.75px;
+      line-height: calc(34 / 30);
+    }
+  }
+
+  &__subtitle {
+    margin: 0;
+    color: $color-text-muted;
+    letter-spacing: -0.22px;
+    line-height: calc(32 / 22);
+    @include adaptive-value('font-size', 22, 18, 1);
+
+    @include media('<tablet') {
+      letter-spacing: -0.18px;
+      line-height: calc(26 / 18);
+    }
+  }
+
+  &__media {
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+
+    @include media('<desktop') {
+      height: auto;
+      aspect-ratio: 464 / 300;
+    }
+
+    @include media('<tablet') {
+      aspect-ratio: 370 / 239;
+    }
+
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid $color-line;
+
+    @include media('<tablet') {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      border-bottom: none;
+    }
+  }
+
+  &__item {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    grid-template-areas:
+      'icon title link'
+      'icon description link';
+    column-gap: 24px;
+    row-gap: 6px;
+    align-items: center;
+    padding: 28px 0;
+    border-top: 1px solid $color-line;
+
+    @include media('<desktop') {
+      grid-template-columns: auto minmax(0, 1fr);
+      grid-template-areas:
+        'icon title'
+        'icon description'
+        '. link';
+    }
+
+    @include media('<tablet') {
+      grid-template-columns: auto minmax(0, 1fr);
+      grid-template-areas:
+        'icon title'
+        'description description'
+        'link link';
+      column-gap: 14px;
+      row-gap: 14px;
+      padding: 20px;
+      border-top: none;
+      border-radius: 16px;
+      background-color: $color-bg-muted;
+    }
+  }
+
+  &__item-icon {
+    grid-area: icon;
+    display: inline-flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 56px;
+    border-radius: 6px;
+    background-color: $color-dark-blue;
+    align-self: center;
+
+    img {
+      display: block;
+      width: 30px;
+      height: 30px;
+    }
+
+    @include media('<tablet') {
+      width: 48px;
+      height: 48px;
+      border-radius: 12px;
+
+      img {
+        width: 24px;
+        height: 24px;
+      }
+    }
+  }
+
+  &__item-title {
+    grid-area: title;
+    margin: 0;
+    color: $color-dark-blue;
+    font-weight: 500;
+    letter-spacing: -0.24px;
+    line-height: calc(30 / 24);
+    @include adaptive-value('font-size', 24, 19, 1);
+
+    @include media('<tablet') {
+      letter-spacing: -0.19px;
+      line-height: calc(26 / 19);
+    }
+  }
+
+  &__item-description {
+    grid-area: description;
+    margin: 0;
+    color: $color-text-muted;
+    line-height: calc(24 / 16);
+    font-size: 16px;
+
+    @include media('<desktop') {
+      margin-top: 0;
+    }
+
+    @include media('<tablet') {
+      font-size: 15px;
+      line-height: calc(23 / 15);
+    }
+  }
+
+  &__item-link {
+    grid-area: link;
+    flex-shrink: 0;
+    width: max-content;
+    gap: 8px;
+    font-size: 15px;
+    align-self: center;
+
+    @include media('<desktop') {
+      margin-top: 12px;
+    }
+
+    @include media('<tablet') {
+      width: 100%;
+      margin-top: 0;
+      padding-top: 14px;
+      border-top: 1px solid #dde1e8;
+      justify-content: space-between;
+    }
+
+    svg {
+      width: 16px;
+      height: 16px;
+      padding: 8px;
+      box-sizing: content-box;
+    }
+  }
+}

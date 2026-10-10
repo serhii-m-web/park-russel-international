@@ -1,0 +1,111 @@
+<!doctype html>
+<html id="top" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>
+      {{#if page.meta.title}}
+        {{ page.meta.title }}
+      {{else}}
+        {{ site.title }}
+      {{/if}}
+    </title>
+    <meta
+      name="description"
+      content="{{#if page.meta.description}}{{ page.meta.description }}{{else}}{{ site.description }}{{/if}}"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicon/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    {{> sprite}}
+    <a class="skip-link visually-hidden" href="#main-content">
+      Skip to content
+    </a>
+    {{> header}}
+    <main id="main-content" tabindex="-1">
+      {{> section-page-hero
+        pageHero=page.cbHero
+        sectionClass="cb-hero"
+      }}
+      {{> section-industry-switcher
+        switcher=page.cbSwitcher
+        sectionClass="cb-switcher"
+      }}
+      {{> section-page-content-banner
+        contentBanner=page.cbOverview
+        sectionClass="cb-overview"
+      }}
+      {{> section-page-cards-content
+        cardsContent=page.cbPressures
+        sectionClass="cb-pressures"
+      }}
+      {{> section-numbered-split
+        numberedSplit=page.cbRevenue
+        sectionClass="cb-revenue"
+      }}
+      {{> section-inventory-feature
+        inventoryFeature=page.cbInventory
+        sectionClass="cb-inventory"
+      }}
+      {{> section-page-cards-content
+        cardsContent=page.cbChannels
+        sectionClass="cb-channels"
+      }}
+      {{> section-industry-questions
+        industryQuestions=page.cbQuestions
+        sectionClass="cb-questions"
+      }}
+      {{> section-industry-services
+        services=page.cbServices
+        sectionClass="cb-services"
+      }}
+      {{> section-page-cards-content
+        cardsContent=page.cbMoments
+        sectionClass="cb-moments"
+      }}
+      {{> section-industry-international
+        international=page.cbInternational
+        sectionClass="cb-international"
+      }}
+      {{> section-page-cards-content
+        cardsContent=page.cbSegments
+        sectionClass="cb-segments"
+      }}
+      {{> section-industry-insights
+        insights=page.cbInsights
+        sectionClass="cb-insights"
+      }}
+      {{> section-page-hero
+        pageHero=page.cbFinal
+        sectionClass="cb-final"
+      }}
+    </main>
+    {{> footer}}
+    <script type="module" src="/ts/main.ts"></script>
+  </body>
+</html>

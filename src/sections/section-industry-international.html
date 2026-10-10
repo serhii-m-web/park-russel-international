@@ -1,0 +1,126 @@
+<section
+  class="
+    section-industry-international
+    {{#if international.className}}
+      {{ international.className }}
+    {{/if}}
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if international.id}}
+    id="{{ international.id }}"
+  {{/if}}
+  {{#if international.title}}
+    aria-labelledby="{{#if international.id}}{{ international.id }}{{else}}section-industry-international{{/if}}-title"
+  {{else}}
+    aria-label="{{#if international.ariaLabel}}{{ international.ariaLabel }}{{else}}International growth{{/if}}"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-industry-international__layout">
+      <div class="section-industry-international__primary">
+        {{#if international.eyebrow}}
+          <p class="section-industry-international__eyebrow">
+            <span
+              class="section-industry-international__eyebrow-rule"
+              aria-hidden="true"
+            ></span>
+            <span>{{ international.eyebrow }}</span>
+          </p>
+        {{/if}}
+
+        {{#if international.title}}
+          <h2
+            id="{{#if international.id}}{{ international.id }}{{else}}section-industry-international{{/if}}-title"
+            class="section-industry-international__title"
+          >
+            {{{ international.title }}}
+          </h2>
+        {{/if}}
+
+        {{#if international.lead}}
+          <p class="section-industry-international__lead">
+            {{{ international.lead }}}
+          </p>
+        {{/if}}
+
+        {{#if international.bullets.length}}
+          <ul class="section-industry-international__bullets">
+            {{#each international.bullets}}
+              <li class="section-industry-international__bullet">
+                {{{ this }}}
+              </li>
+            {{/each}}
+          </ul>
+        {{/if}}
+
+        {{#if international.networkText}}
+          <p class="section-industry-international__network-text">
+            {{{ international.networkText }}}
+          </p>
+        {{/if}}
+
+        {{#if international.button}}
+          <a
+            class="section-industry-international__button site-button primary"
+            href="{{ international.button.href }}"
+          >
+            <span>{{ international.button.label }}</span>
+            {{> icon
+              name="arrow-right"
+              width="16"
+              height="16"
+            }}
+          </a>
+        {{/if}}
+      </div>
+
+      <div class="section-industry-international__secondary">
+        {{#if international.image}}
+          <div class="section-industry-international__photo">
+            {{picture
+              international.image
+              alt=international.imageAlt
+              class="section-industry-international__photo-media"
+              width="640"
+              height="760"
+            }}
+
+            {{#if international.overlayText}}
+              <div class="section-industry-international__overlay">
+                <p class="section-industry-international__overlay-text">
+                  {{{ international.overlayText }}}
+                </p>
+              </div>
+            {{/if}}
+          </div>
+        {{/if}}
+
+        {{#if international.stats.length}}
+          <ul class="section-industry-international__stats">
+            {{#each international.stats}}
+              <li class="section-industry-international__stat">
+                <span
+                  class="section-industry-international__stat-rule"
+                  aria-hidden="true"
+                ></span>
+                <span class="section-industry-international__stat-number">
+                  {{ number }}
+                  {{#if suffix}}
+                    <span>
+                      {{ suffix }}
+                    </span>
+                  {{/if}}
+                </span>
+                <span class="section-industry-international__stat-label">
+                  {{ label }}
+                </span>
+              </li>
+            {{/each}}
+          </ul>
+        {{/if}}
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,121 @@
+@use '../abstracts' as *;
+
+.section-numbered-split {
+  @include adaptive-value('padding-top', 120, 56, 1);
+  @include adaptive-value('padding-bottom', 120, 56, 1);
+  background-color: $color-white;
+
+  &__layout {
+    display: grid;
+    grid-template-columns: minmax(0, 416px) minmax(0, 1fr);
+    gap: 48px 96px;
+    align-items: stretch;
+
+    @include media('<desktop') {
+      grid-template-columns: 1fr;
+      gap: 32px;
+    }
+  }
+
+  &__intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 32px;
+    min-height: 100%;
+  }
+
+  &__eyebrow {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 0 0 20px;
+    color: $color-dark-blue;
+    font-weight: 500;
+    letter-spacing: 1.68px;
+    line-height: calc(16 / 12);
+    text-transform: uppercase;
+    @include adaptive-value('font-size', 12, 11, 1);
+  }
+
+  &__eyebrow-rule {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: $color-red;
+    flex-shrink: 0;
+  }
+
+  &__title {
+    margin: 0;
+    color: $color-dark-blue;
+    font-weight: 500;
+    letter-spacing: -1.2px;
+    line-height: calc(52 / 48);
+    @include adaptive-value('font-size', 48, 32, 1);
+  }
+
+  &__conclusion {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  &__rule {
+    display: block;
+    width: 64px;
+    height: 2px;
+    background-color: $color-red;
+  }
+
+  &__conclusion-text {
+    margin: 0;
+    color: $color-dark-blue;
+    font-weight: 500;
+    letter-spacing: -0.28px;
+    line-height: calc(36 / 28);
+    @include adaptive-value('font-size', 28, 22, 1);
+  }
+
+  &__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    padding: 32px 0;
+    border-top: 1px solid $color-line;
+
+    &:last-child {
+      border-bottom: 1px solid $color-line;
+    }
+
+    @include media('<tablet') {
+      align-items: flex-start;
+      gap: 16px;
+      padding: 20px 0;
+    }
+  }
+
+  &__item-number {
+    flex-shrink: 0;
+    width: 56px;
+    color: $color-red;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+    line-height: calc(20 / 15);
+    font-size: 15px;
+  }
+
+  &__item-text {
+    margin: 0;
+    color: $color-dark-blue;
+    letter-spacing: -0.26px;
+    line-height: calc(34 / 26);
+    @include adaptive-value('font-size', 26, 18, 1);
+  }
+}

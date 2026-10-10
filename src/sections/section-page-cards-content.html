@@ -49,6 +49,12 @@
               {{{ cardsContent.lead }}}
             </p>
 
+            {{#if cardsContent.leadStrong}}
+              <p class="section-page-cards-content__lead-strong">
+                {{{ cardsContent.leadStrong }}}
+              </p>
+            {{/if}}
+
             {{#if cardsContent.bodies}}
               <div class="section-page-cards-content__bodies">
                 {{#each cardsContent.bodies}}

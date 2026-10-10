@@ -1,0 +1,91 @@
+<section
+  class="
+    section-inventory-feature
+    {{#if inventoryFeature.className}}
+      {{ inventoryFeature.className }}
+    {{/if}}
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if inventoryFeature.id}}
+    id="{{ inventoryFeature.id }}"
+  {{/if}}
+  {{#if inventoryFeature.title}}
+    aria-labelledby="{{#if inventoryFeature.id}}{{ inventoryFeature.id }}{{else}}section-inventory-feature{{/if}}-title"
+  {{else}}
+    aria-label="{{#if inventoryFeature.ariaLabel}}{{ inventoryFeature.ariaLabel }}{{else}}Inventory and working capital{{/if}}"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-inventory-feature__layout">
+      <div class="section-inventory-feature__primary">
+        {{#if inventoryFeature.eyebrow}}
+          <p class="section-inventory-feature__eyebrow">
+            <span class="section-inventory-feature__eyebrow-rule" aria-hidden="true"></span>
+            <span>{{ inventoryFeature.eyebrow }}</span>
+          </p>
+        {{/if}}
+
+        {{#if inventoryFeature.title}}
+          <h2
+            id="{{#if inventoryFeature.id}}{{ inventoryFeature.id }}{{else}}section-inventory-feature{{/if}}-title"
+            class="section-inventory-feature__title"
+          >
+            {{{ inventoryFeature.title }}}
+          </h2>
+        {{/if}}
+
+        {{#if inventoryFeature.lead}}
+          <p class="section-inventory-feature__lead">
+            {{{ inventoryFeature.lead }}}
+          </p>
+        {{/if}}
+
+        {{#if inventoryFeature.cards.length}}
+          <div class="section-inventory-feature__cards">
+            {{#each inventoryFeature.cards}}
+              <div class="section-inventory-feature__card">
+                {{#if label}}
+                  <p class="section-inventory-feature__card-label">{{ label }}</p>
+                {{/if}}
+                {{#if text}}
+                  <p class="section-inventory-feature__card-text">{{{ text }}}</p>
+                {{/if}}
+              </div>
+            {{/each}}
+          </div>
+        {{/if}}
+
+        {{#if inventoryFeature.body}}
+          <p class="section-inventory-feature__body">
+            {{{ inventoryFeature.body }}}
+          </p>
+        {{/if}}
+      </div>
+
+      <div class="section-inventory-feature__secondary">
+        {{#if inventoryFeature.image}}
+          <div class="section-inventory-feature__photo">
+            {{picture
+              inventoryFeature.image
+              alt=inventoryFeature.imageAlt
+              class="section-inventory-feature__photo-media"
+              width="640"
+              height="760"
+            }}
+
+            {{#if inventoryFeature.statement}}
+              <div class="section-inventory-feature__statement">
+                <span class="section-inventory-feature__rule" aria-hidden="true"></span>
+                <p class="section-inventory-feature__statement-text">
+                  {{{ inventoryFeature.statement }}}
+                </p>
+              </div>
+            {{/if}}
+          </div>
+        {{/if}}
+      </div>
+    </div>
+  </div>
+</section>

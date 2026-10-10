@@ -74,6 +74,11 @@
     .section-page-cards-content__intro & {
       width: 100%;
     }
+
+    // Shared muted-second-line treatment for titles split with <br><span class="is-muted">
+    .is-muted {
+      color: $color-text-muted;
+    }
   }
 
   &__lead {
@@ -84,6 +89,16 @@
     letter-spacing: -0.11px;
     line-height: calc(32 / 22);
     @include adaptive-value('font-size', 22, 18, 1);
+  }
+
+  &__lead-strong {
+    margin: 0;
+    max-width: 752px;
+    color: $color-dark-blue;
+    font-weight: 500;
+    letter-spacing: -0.11px;
+    line-height: calc(28 / 18);
+    @include adaptive-value('font-size', 18, 16, 1);
   }
 
   &__bodies {
@@ -652,6 +667,167 @@
 
     .section-page-cards-content__card-inner {
       background-color: transparent;
+    }
+  }
+
+  // Consumer Business: pressures grid — white cards with red square icon badges
+  &--pressures {
+    .section-page-cards-content__cards {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 24px;
+
+      @include media('<desktop') {
+        display: block;
+      }
+    }
+
+    .section-page-cards-content__card {
+      background-color: $color-white;
+
+      &-icon {
+        border-radius: 6px;
+        background-color: $color-red;
+
+        img {
+          width: 30px;
+          height: 30px;
+          filter: brightness(0) invert(1);
+        }
+      }
+
+      &-inner {
+        @include adaptive-value('padding', 32, 24, 1);
+        padding-bottom: 36px;
+      }
+    }
+  }
+
+  // Consumer Business: channels grid — muted cards with round red icon badges
+  &--channels {
+    background-color: $color-white;
+
+    .section-page-cards-content__cards {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 24px;
+
+      @include media('<desktop') {
+        display: block;
+      }
+    }
+
+    .section-page-cards-content__card {
+      background-color: $color-bg-muted;
+
+      &-inner {
+        background-color: transparent;
+      }
+
+      &-icon {
+        position: static;
+        width: 48px;
+        height: 48px;
+        margin-bottom: 28px;
+        border-radius: 50%;
+        box-shadow: none;
+        background-color: $color-red;
+
+        img {
+          width: 24px;
+          height: 24px;
+          filter: brightness(0) invert(1);
+        }
+      }
+    }
+  }
+
+  // Consumer Business: growth moments icons are exported white-on-transparent,
+  // so the shared --moments white badge needs a red background to stay visible.
+  &.cb-moments {
+    .section-page-cards-content__card-icon {
+      background-color: $color-red;
+
+      img {
+        filter: brightness(0) invert(1);
+      }
+    }
+  }
+
+  // Consumer Business: segments grid — muted cards with red square icon badges
+  &--segments {
+    background-color: $color-white;
+
+    .section-page-cards-content__cards {
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      gap: 16px;
+
+      @include media('<desktop') {
+        display: block;
+      }
+    }
+
+    .section-page-cards-content__card {
+      background-color: $color-bg-muted;
+      border-radius: 20px;
+
+      &-inner {
+        background-color: transparent;
+      }
+
+      &-icon {
+        position: static;
+        width: 56px;
+        height: 56px;
+        margin-bottom: 28px;
+        border-radius: 14px;
+        box-shadow: none;
+        background-color: $color-red;
+
+        img {
+          width: 30px;
+          height: 30px;
+          filter: brightness(0) invert(1);
+        }
+      }
+    }
+  }
+
+  &.cb-pressures {
+    .section-page-cards-content__card-icon {
+      position: static;
+      @include adaptive-value('margin-bottom', 40, 24, 1);
+    }
+  }
+
+  &.cb-channels {
+    .section-page-cards-content__intro {
+      max-width: 530px;
+      gap: 8px;
+    }
+
+    .section-page-cards-content__lead {
+      color: #565b70;
+    }
+  }
+
+  &.cb-channels {
+    background-color: $color-bg-muted;
+
+    .section-page-cards-content__card {
+      background-color: $color-white;
+    }
+  }
+
+  &.cb-moments {
+    background-color: $color-bg-muted;
+
+    .section-page-cards-content__card {
+      background-color: $color-white;
+    }
+  }
+
+  &.cb-segments {
+    .section-page-cards-content__card-icon {
+      @include adaptive-value('margin-bottom', 40, 24, 1);
     }
   }
 }

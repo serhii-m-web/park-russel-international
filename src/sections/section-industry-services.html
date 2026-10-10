@@ -1,0 +1,97 @@
+<section
+  class="
+    section-industry-services
+    {{#if services.className}}
+      {{ services.className }}
+    {{/if}}
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if services.id}}
+    id="{{ services.id }}"
+  {{/if}}
+  {{#if services.title}}
+    aria-labelledby="{{#if services.id}}{{ services.id }}{{else}}section-industry-services{{/if}}-title"
+  {{else}}
+    aria-label="{{#if services.ariaLabel}}{{ services.ariaLabel }}{{else}}Services{{/if}}"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-industry-services__layout">
+      <div class="section-industry-services__intro">
+        <div class="section-industry-services__heading">
+          {{#if services.eyebrow}}
+            <p class="section-industry-services__eyebrow">
+              <span class="section-industry-services__eyebrow-rule" aria-hidden="true"></span>
+              <span>{{ services.eyebrow }}</span>
+            </p>
+          {{/if}}
+
+          {{#if services.title}}
+            <h2
+              id="{{#if services.id}}{{ services.id }}{{else}}section-industry-services{{/if}}-title"
+              class="section-industry-services__title"
+            >
+              {{{ services.title }}}
+            </h2>
+          {{/if}}
+
+          {{#if services.subtitle}}
+            <p class="section-industry-services__subtitle">
+              {{{ services.subtitle }}}
+            </p>
+          {{/if}}
+        </div>
+
+        {{#if services.image}}
+          <div class="section-industry-services__media">
+            {{picture
+              services.image
+              alt=services.imageAlt
+              class="section-industry-services__image"
+              width="464"
+              height="300"
+            }}
+          </div>
+        {{/if}}
+      </div>
+
+      {{#if services.items.length}}
+        <ul class="section-industry-services__list">
+          {{#each services.items}}
+            <li class="section-industry-services__item">
+              {{#if icon}}
+                <span class="section-industry-services__item-icon" aria-hidden="true">
+                  <img src="{{ icon }}" alt="" width="30" height="30" decoding="async" />
+                </span>
+              {{/if}}
+
+              {{#if title}}
+                <h3 class="section-industry-services__item-title">{{ title }}</h3>
+              {{/if}}
+
+              {{#if description}}
+                <p class="section-industry-services__item-description">{{ description }}</p>
+              {{/if}}
+
+              {{#if link}}
+                <a
+                  class="section-industry-services__item-link site-link"
+                  href="{{ link.href }}"
+                >
+                  <span>{{ link.label }}</span>
+                  {{> icon
+                    name="arrow-right"
+                    width="16"
+                    height="16"
+                  }}
+                </a>
+              {{/if}}
+            </li>
+          {{/each}}
+        </ul>
+      {{/if}}
+    </div>
+  </div>
+</section>

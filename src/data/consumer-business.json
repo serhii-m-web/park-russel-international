@@ -1,0 +1,408 @@
+{
+  "meta": {
+    "title": "Consumer Business | Parker Russell International",
+    "description": "Sector expertise from Parker Russell member firms — helping consumer businesses understand demand, margin, inventory, channels and international growth."
+  },
+  "cbHero": {
+    "id": "cb-page-hero",
+    "className": "page-hero--rich",
+    "label": "CONSUMER BUSINESS",
+    "labelPill": true,
+    "imageBg": "/images/consumer-business/hero-bg.jpg",
+    "imageLoading": "eager",
+    "title": "Consumer Markets Move Fast. Strong Businesses See What Is Changing Beneath the Surface.",
+    "description": "Consumer businesses operate in an environment shaped by changing demand, margin pressure, new routes to market and increasingly complex supply chains.",
+    "note": "Growth can create opportunity, but it can also place pressure on inventory, cash, operations and capital. International expansion adds another layer of tax, reporting and regulatory complexity.",
+    "aside": "Parker Russell member firms combine sector understanding with audit, tax and advisory expertise to address the financial and commercial issues behind these changes.",
+    "buttons": [
+      {
+        "label": "Discuss Your Business",
+        "href": "#",
+        "variant": "primary",
+        "icon": true
+      },
+      {
+        "label": "Find a Member Firm",
+        "href": "#",
+        "variant": "secondary",
+        "icon": true
+      }
+    ]
+  },
+  "cbSwitcher": {
+    "id": "cb-switcher",
+    "ariaLabel": "Browse industries",
+    "items": [
+      { "label": "Consumer Business", "href": "consumer-business.html", "active": true },
+      { "label": "E-commerce Services", "href": "#" },
+      { "label": "Energy Infrastructure", "href": "#" },
+      { "label": "Financial Services", "href": "#" },
+      { "label": "Government & Public Sector", "href": "#" },
+      { "label": "Manufacturing", "href": "#" },
+      { "label": "Real Estate", "href": "#" },
+      { "label": "Renewable Energy", "href": "#" },
+      { "label": "Technology, Media and Telecoms", "href": "#" },
+      { "label": "Tourism, Hospitality & Leisure", "href": "#" }
+    ]
+  },
+  "cbOverview": {
+    "id": "cb-overview",
+    "className": "section-page-content-banner--muted",
+    "ariaLabel": "Consumer business overview",
+    "image": "/images/consumer-business/overview.jpg",
+    "imageAlt": "Advisors consulting with a retail business owner",
+    "text": "<span>Consumer Business Is Changing From Every Direction.</span>",
+    "body": "The relationship between brands, products and customers continues to evolve. Digital commerce has transformed routes to market, international sourcing has extended supply chains, and shifts in consumer behaviour can change demand faster than many businesses can adapt.",
+    "banner": {
+      "imageBg": "/images/consumer-business/statement-bg.jpg",
+      "leftColumn": {
+        "icon": "/icons/consumer-business/statement-icon.svg"
+      },
+      "rightColumn": {
+        "text": "<span class=\"is-muted\">For management, the challenge is not simply responding to change.</span><span> It is understanding what that change means for performance, cash, risk and future growth.</span>"
+      }
+    }
+  },
+  "cbPressures": {
+    "id": "cb-pressures",
+    "className": "section-page-cards-content--muted section-page-cards-content--pressures",
+    "ariaLabel": "The pressures behind performance",
+    "carouselLabel": "Pressures facing consumer businesses",
+    "eyebrow": "THE PRESSURES BEHIND PERFORMANCE",
+    "title": "What Happens in the Market Quickly Reaches the Numbers.",
+    "cards": [
+      {
+        "icon": "/icons/consumer-business/pressure-cart.svg",
+        "title": "Changing Demand",
+        "description": "Consumer behaviour can move quickly, affecting product performance, pricing decisions and investment priorities."
+      },
+      {
+        "icon": "/icons/consumer-business/pressure-percent.svg",
+        "title": "Margin Pressure",
+        "description": "Rising product, labour, logistics and fulfilment costs can weaken profitability even when headline sales remain strong."
+      },
+      {
+        "icon": "/icons/consumer-business/pressure-inventory.svg",
+        "title": "Inventory & Working Capital",
+        "description": "Stock supports sales, but it also absorbs capital. Managing the balance between availability, demand and cash becomes increasingly important as businesses scale."
+      },
+      {
+        "icon": "/icons/consumer-business/pressure-storefront.svg",
+        "title": "Channel Economics",
+        "description": "Retail, wholesale, marketplaces and direct-to-consumer channels can produce very different margins and cost structures."
+      },
+      {
+        "icon": "/icons/consumer-business/pressure-shipping.svg",
+        "title": "Supply Chain Complexity",
+        "description": "International sourcing creates dependencies across suppliers, logistics, customs, taxation and working capital."
+      },
+      {
+        "icon": "/icons/consumer-business/pressure-public.svg",
+        "title": "International Growth",
+        "description": "New markets bring new customers — alongside different tax regimes, reporting requirements and operating environments."
+      }
+    ]
+  },
+  "cbRevenue": {
+    "id": "cb-revenue",
+    "ariaLabel": "Revenue is only part of the picture",
+    "title": "Revenue Is Only Part of the Picture.",
+    "conclusion": "Understanding performance means understanding the economics behind the growth.",
+    "items": [
+      {
+        "number": "01",
+        "text": "A consumer business can grow sales while margins decline."
+      },
+      {
+        "number": "02",
+        "text": "It can increase market reach while cash becomes tighter."
+      },
+      {
+        "number": "03",
+        "text": "A successful new channel can generate substantial revenue while introducing higher acquisition, fulfilment and return costs."
+      },
+      {
+        "number": "04",
+        "text": "And international expansion can accelerate growth while increasing the capital and complexity required to sustain it."
+      }
+    ]
+  },
+  "cbInventory": {
+    "id": "cb-inventory",
+    "ariaLabel": "Inventory and working capital",
+    "title": "Inventory Is More Than Stock.<br><span class=\"is-ice\">It Is Capital Already Committed.</span>",
+    "lead": "For product-based businesses, inventory sits directly between consumer demand and financial performance.",
+    "cards": [
+      {
+        "text": "Too little can restrict sales."
+      },
+      {
+        "text": "Too much can absorb cash and increase exposure to discounting, obsolescence and changing demand."
+      }
+    ],
+    "body": "As the business grows, inventory decisions increasingly affect working capital, margins, liquidity and financial flexibility.",
+    "image": "/images/consumer-business/inventory.jpg",
+    "imageAlt": "Warehouse inventory and stock management",
+    "statement": "That makes inventory a financial question as much as an operational one."
+  },
+  "cbChannels": {
+    "id": "cb-channels",
+    "className": "section-page-cards-content--channels",
+    "ariaLabel": "One brand, different channels, different economics",
+    "carouselLabel": "Consumer business channels",
+    "title": "One Brand. Different Channels. Different Economics.",
+    "lead": "The customer may see the same product and the same brand.",
+    "leadStrong": "The business may see very different economics.",
+    "cards": [
+      {
+        "icon": "/icons/consumer-business/channel-storefront.svg",
+        "title": "Retail",
+        "description": "Different margins and operating costs."
+      },
+      {
+        "icon": "/icons/consumer-business/channel-warehouse.svg",
+        "title": "Wholesale",
+        "description": "Different pricing and payment structures."
+      },
+      {
+        "icon": "/icons/consumer-business/channel-cart.svg",
+        "title": "Marketplaces",
+        "description": "Different commissions, fulfilment and customer relationships."
+      },
+      {
+        "icon": "/icons/consumer-business/channel-devices.svg",
+        "title": "Direct-to-Consumer",
+        "description": "Different acquisition costs, data, margins and infrastructure requirements."
+      }
+    ],
+    "conclusion": "The channel generating the most revenue is not always the one creating the most value."
+  },
+  "cbQuestions": {
+    "id": "cb-questions",
+    "ariaLabel": "The questions consumer businesses are asking",
+    "image": "/images/consumer-business/earth-sphere.svg",
+    "title": "The Questions Consumer Businesses Are Asking",
+    "items": [
+      {
+        "number": "01",
+        "question": "Sales are growing. Why is cash getting tighter?",
+        "answer": "Look beyond revenue to inventory, working capital, margins and the cost of supporting growth."
+      },
+      {
+        "number": "02",
+        "question": "Which channels are actually performing best?",
+        "answer": "Understand the economics behind each route to market, not simply the sales it generates."
+      },
+      {
+        "number": "03",
+        "question": "Are our margins changing?",
+        "answer": "Identify whether pressure is coming from pricing, product costs, logistics, channel mix or wider operating expenses."
+      },
+      {
+        "number": "04",
+        "question": "Are we ready to enter another market?",
+        "answer": "Consider the financial, tax and operational implications alongside the commercial opportunity."
+      },
+      {
+        "number": "05",
+        "question": "Can our financial infrastructure support further growth?",
+        "answer": "Reporting, controls and financial systems need to develop as the organisation becomes larger and more complex."
+      }
+    ]
+  },
+  "cbServices": {
+    "id": "cb-services",
+    "ariaLabel": "Expertise around the decisions that matter",
+    "title": "Expertise Around the Decisions That Matter.",
+    "subtitle": "One Business. Connected Financial Questions.",
+    "image": "/images/consumer-business/services-team.jpg",
+    "imageAlt": "Advisory team meeting with a consumer business client",
+    "items": [
+      {
+        "icon": "/icons/consumer-business/service-verified.svg",
+        "title": "Audit & Assurance",
+        "description": "Confidence in financial reporting as operations, systems and group structures become more complex.",
+        "link": { "label": "Explore Assurance", "href": "assurance.html" }
+      },
+      {
+        "icon": "/icons/consumer-business/service-gavel.svg",
+        "title": "Tax & Legal",
+        "description": "Tax expertise around domestic and international operations, transactions, indirect taxation and cross-border activity.",
+        "link": { "label": "Explore Tax & Legal", "href": "tax-legal.html" }
+      },
+      {
+        "icon": "/icons/consumer-business/service-monitoring.svg",
+        "title": "Financial Advisory",
+        "description": "Greater clarity around performance, value, capital, financial exposure and significant business decisions.",
+        "link": { "label": "Explore Financial Advisory", "href": "financial-advisory.html" }
+      },
+      {
+        "icon": "/icons/consumer-business/service-handshake.svg",
+        "title": "Corporate Services",
+        "description": "Corporate finance expertise around acquisitions, disposals, financing and other strategic transactions.",
+        "link": { "label": "Explore Corporate Services", "href": "corporate-services.html" }
+      },
+      {
+        "icon": "/icons/consumer-business/service-swap.svg",
+        "title": "Transfer Pricing",
+        "description": "Expertise around transactions and arrangements between associated businesses operating across jurisdictions.",
+        "link": { "label": "Explore Transfer Pricing", "href": "transfer-pricing.html" }
+      }
+    ]
+  },
+  "cbMoments": {
+    "id": "cb-moments",
+    "className": "section-page-cards-content--moments",
+    "ariaLabel": "Growth changes the business",
+    "carouselLabel": "Growth moments for consumer businesses",
+    "title": "Growth Changes the Business.<br><span class=\"is-muted\">And It Changes the Questions.</span>",
+    "cards": [
+      {
+        "icon": "/icons/consumer-business/moment-public.svg",
+        "description": "<strong>Entering a new market</strong> brings questions of tax, structure, reporting and capital."
+      },
+      {
+        "icon": "/icons/consumer-business/moment-sell.svg",
+        "description": "<strong>Launching a new channel</strong> changes margins, costs, payment flows and financial controls."
+      },
+      {
+        "icon": "/icons/consumer-business/moment-rocket.svg",
+        "description": "<strong>Scaling rapidly</strong> increases pressure on inventory, cash, systems and working capital."
+      },
+      {
+        "icon": "/icons/consumer-business/moment-handshake.svg",
+        "description": "<strong>Making an acquisition</strong> brings value, financing, tax and financial information into the same decision."
+      },
+      {
+        "icon": "/icons/consumer-business/moment-trending.svg",
+        "description": "<strong>Preparing for investment or sale</strong> places greater attention on performance, cash generation, controls and the drivers of value."
+      }
+    ],
+    "conclusion": "Parker Russell member firms bring relevant professional expertise around these moments — when decisions become more significant and the financial consequences become more interconnected."
+  },
+  "cbInternational": {
+    "id": "cb-international",
+    "ariaLabel": "International growth creates more than commercial opportunity",
+    "eyebrow": "CONSUMER BUSINESS WITHOUT BORDERS.",
+    "title": "International Growth Creates More Than Commercial Opportunity.",
+    "lead": "When a consumer business expands internationally, products, inventory, customers, people and group entities may begin operating across different jurisdictions.",
+    "bullets": [
+      "Where products are sourced can affect customs and cost.",
+      "Where inventory is held can create tax and operational considerations.",
+      "Where customers buy can influence indirect tax requirements.",
+      "Transactions between international group companies can introduce transfer pricing questions."
+    ],
+    "networkText": "Through Parker Russell International, independent member firms can collaborate across relevant jurisdictions, bringing local expertise into the context of the wider business.",
+    "button": {
+      "label": "Explore Our Global Network",
+      "href": "#"
+    },
+    "image": "/images/consumer-business/international.jpg",
+    "imageAlt": "Global consumer business network",
+    "overlayText": "Local knowledge where the business operates. <span class=\"is-ice\">International perspective where the business connects.</span>",
+    "stats": [
+      { "number": "86", "label": "Countries" },
+      { "number": "184", "label": "Offices" },
+      { "number": "2,000", "suffix": "+", "label": "Professionals" }
+    ]
+  },
+  "cbSegments": {
+    "id": "cb-segments",
+    "className": "section-page-cards-content--segments",
+    "ariaLabel": "Different models, different priorities",
+    "carouselLabel": "Consumer business segments",
+    "title": "Different Models. Different Priorities.",
+    "lead": "Consumer business covers organisations with very different commercial and financial models.",
+    "cards": [
+      {
+        "icon": "/icons/consumer-business/segment-bag.svg",
+        "title": "Consumer Products",
+        "description": "Product economics, demand, inventory and international distribution."
+      },
+      {
+        "icon": "/icons/consumer-business/segment-storefront.svg",
+        "title": "Retail",
+        "description": "Margins, locations, working capital and changing customer behaviour."
+      },
+      {
+        "icon": "/icons/consumer-business/segment-devices.svg",
+        "title": "Direct-to-Consumer",
+        "description": "Customer acquisition, fulfilment, digital channels and growth economics."
+      },
+      {
+        "icon": "/icons/consumer-business/segment-warehouse.svg",
+        "title": "Wholesale & Distribution",
+        "description": "Pricing, inventory, supply chains and cash cycles."
+      },
+      {
+        "icon": "/icons/consumer-business/segment-hub.svg",
+        "title": "Multi-Channel Businesses",
+        "description": "Understanding performance across increasingly connected routes to market."
+      }
+    ]
+  },
+  "cbInsights": {
+    "id": "cb-insights",
+    "ariaLabel": "Insight for a market that never stands still",
+    "carouselLabel": "Consumer business insights",
+    "title": "Insight for a Market That Never Stands Still.",
+    "lead": "Consumer markets continue to evolve as technology, international trade, economic conditions and customer behaviour reshape how businesses operate.",
+    "body": "Parker Russell perspectives examine the financial, tax and commercial developments behind that change — and what they can mean for businesses across the sector.",
+    "button": {
+      "label": "Explore Consumer Business Insights",
+      "href": "#"
+    },
+    "items": [
+      {
+        "image": "/images/consumer-business/insight-1.jpg",
+        "topic": "COMPLIANCE",
+        "date": "4 AUGUST 2025",
+        "datetime": "2025-08-04",
+        "title": "Companies House Crackdown: Businesses Urged to Act on ECCTA Deadlines",
+        "link": { "label": "Read article", "href": "#" }
+      },
+      {
+        "image": "/images/consumer-business/insight-2.jpg",
+        "topic": "REGULATION",
+        "date": "18 JUNE 2025",
+        "datetime": "2025-06-18",
+        "title": "£4m Fine for Director in Client Money Breach",
+        "link": { "label": "Read article", "href": "#" }
+      },
+      {
+        "image": "/images/consumer-business/insight-3.jpg",
+        "topic": "ESG",
+        "date": "20 MAY 2025",
+        "datetime": "2025-05-20",
+        "title": "The Next Generation of Investors Is Powering ESG's Revival",
+        "link": { "label": "Read article", "href": "#" }
+      }
+    ]
+  },
+  "cbFinal": {
+    "id": "cb-final",
+    "ariaLabel": "What change means for your business",
+    "isSection": true,
+    "className": "page-hero--section",
+    "imageBg": "/images/consumer-business/final-cta-bg.jpg",
+    "imageLoading": "lazy",
+    "title": "Consumer Markets Will Keep Changing.<br><span class=\"is-ice\">The Important Question Is What That Change Means for Your Business.</span>",
+    "description": "Behind changing demand, new channels and international growth sit decisions about margin, cash, inventory, capital, tax and long-term value.",
+    "note": "Parker Russell member firms combine sector understanding, professional expertise and international collaboration to provide greater clarity around those decisions.",
+    "tagline": "See beyond the sale. Understand the business behind it.",
+    "buttons": [
+      {
+        "label": "Discuss Your Business",
+        "href": "#",
+        "variant": "primary",
+        "icon": true
+      },
+      {
+        "label": "Find a Member Firm",
+        "href": "#",
+        "variant": "secondary",
+        "icon": true
+      }
+    ]
+  }
+}

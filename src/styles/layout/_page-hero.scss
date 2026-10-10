@@ -102,6 +102,11 @@
     color: $color-white;
     letter-spacing: -3%;
     @include adaptive-value('margin-bottom', 32, 16, 1);
+
+    // Secondary line treatment for titles split with <br><span class="is-ice">
+    .is-ice {
+      color: $color-ice;
+    }
   }
 
   &__keywords {

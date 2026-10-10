@@ -1,0 +1,63 @@
+<section
+  class="
+    section-numbered-split
+    {{#if numberedSplit.className}}
+      {{ numberedSplit.className }}
+    {{/if}}
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if numberedSplit.id}}
+    id="{{ numberedSplit.id }}"
+  {{/if}}
+  {{#if numberedSplit.title}}
+    aria-labelledby="{{#if numberedSplit.id}}{{ numberedSplit.id }}{{else}}section-numbered-split{{/if}}-title"
+  {{else}}
+    aria-label="{{#if numberedSplit.ariaLabel}}{{ numberedSplit.ariaLabel }}{{else}}Numbered statements{{/if}}"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-numbered-split__layout">
+      <div class="section-numbered-split__intro">
+        {{#if numberedSplit.eyebrow}}
+          <p class="section-numbered-split__eyebrow">
+            <span class="section-numbered-split__eyebrow-rule" aria-hidden="true"></span>
+            <span>{{ numberedSplit.eyebrow }}</span>
+          </p>
+        {{/if}}
+
+        {{#if numberedSplit.title}}
+          <h2
+            id="{{#if numberedSplit.id}}{{ numberedSplit.id }}{{else}}section-numbered-split{{/if}}-title"
+            class="section-numbered-split__title"
+          >
+            {{{ numberedSplit.title }}}
+          </h2>
+        {{/if}}
+
+        {{#if numberedSplit.conclusion}}
+          <div class="section-numbered-split__conclusion">
+            <span class="section-numbered-split__rule" aria-hidden="true"></span>
+            <p class="section-numbered-split__conclusion-text">
+              {{{ numberedSplit.conclusion }}}
+            </p>
+          </div>
+        {{/if}}
+      </div>
+
+      {{#if numberedSplit.items.length}}
+        <ol class="section-numbered-split__list">
+          {{#each numberedSplit.items}}
+            <li class="section-numbered-split__item">
+              <span class="section-numbered-split__item-number" aria-hidden="true">
+                {{#if number}}{{ number }}{{else}}{{ pad @index 'always' }}{{/if}}
+              </span>
+              <p class="section-numbered-split__item-text">{{{ text }}}</p>
+            </li>
+          {{/each}}
+        </ol>
+      {{/if}}
+    </div>
+  </div>
+</section>

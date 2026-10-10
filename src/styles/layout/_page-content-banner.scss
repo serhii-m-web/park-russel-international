@@ -38,6 +38,10 @@
     }
   }
 
+  &.cb-overview {
+    background-color: $color-white;
+  }
+
   &__header {
     display: flex;
     justify-content: space-between;

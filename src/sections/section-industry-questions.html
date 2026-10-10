@@ -1,0 +1,72 @@
+<section
+  class="
+    section-industry-questions
+    {{#if industryQuestions.className}}
+      {{ industryQuestions.className }}
+    {{/if}}
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if industryQuestions.id}}
+    id="{{ industryQuestions.id }}"
+  {{/if}}
+  {{#if industryQuestions.title}}
+    aria-labelledby="{{#if industryQuestions.id}}{{ industryQuestions.id }}{{else}}section-industry-questions{{/if}}-title"
+  {{else}}
+    aria-label="{{#if industryQuestions.ariaLabel}}{{ industryQuestions.ariaLabel }}{{else}}Questions worth asking{{/if}}"
+  {{/if}}
+>
+  {{#if industryQuestions.image}}
+    <div class="section-industry-questions__bg" aria-hidden="true">
+      <img
+        class="section-industry-questions__bg-image"
+        src="{{ industryQuestions.image }}"
+        alt=""
+        width="640"
+        height="640"
+        decoding="async"
+      />
+    </div>
+  {{/if}}
+
+  <div class="container">
+    <div class="section-industry-questions__header">
+      {{#if industryQuestions.eyebrow}}
+        <p class="section-industry-questions__eyebrow">
+          <span class="section-industry-questions__eyebrow-rule" aria-hidden="true"></span>
+          <span>{{ industryQuestions.eyebrow }}</span>
+        </p>
+      {{/if}}
+
+      {{#if industryQuestions.title}}
+        <h2
+          id="{{#if industryQuestions.id}}{{ industryQuestions.id }}{{else}}section-industry-questions{{/if}}-title"
+          class="section-industry-questions__title"
+        >
+          {{{ industryQuestions.title }}}
+        </h2>
+      {{/if}}
+
+      {{#if industryQuestions.lead}}
+        <p class="section-industry-questions__lead">
+          {{{ industryQuestions.lead }}}
+        </p>
+      {{/if}}
+    </div>
+
+    {{#if industryQuestions.items.length}}
+      <ol class="section-industry-questions__list">
+        {{#each industryQuestions.items}}
+          <li class="section-industry-questions__item">
+            <span class="section-industry-questions__item-number" aria-hidden="true">
+              {{#if number}}{{ number }}{{else}}{{ pad @index 'always' }}{{/if}}
+            </span>
+            <p class="section-industry-questions__item-question">{{{ question }}}</p>
+            <p class="section-industry-questions__item-answer">{{{ answer }}}</p>
+          </li>
+        {{/each}}
+      </ol>
+    {{/if}}
+  </div>
+</section>
