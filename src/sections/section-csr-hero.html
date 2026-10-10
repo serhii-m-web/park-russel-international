@@ -1,0 +1,91 @@
+<section
+  class="
+    section-csr-hero
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if csrHero.id}}
+    id="{{ csrHero.id }}"
+  {{/if}}
+  {{#if csrHero.title}}
+    aria-labelledby="{{#if csrHero.id}}{{ csrHero.id }}{{else}}section-csr-hero{{/if}}-title"
+  {{else}}
+    aria-label="Corporate social responsibility"
+  {{/if}}
+>
+  <div class="container">
+    {{#if csrHero.breadcrumb.length}}
+      <nav class="section-csr-hero__breadcrumb" aria-label="Breadcrumb">
+        <ol class="section-csr-hero__breadcrumb-list">
+          {{#each csrHero.breadcrumb}}
+            <li class="section-csr-hero__breadcrumb-item">
+              {{#if href}}
+                <a class="section-csr-hero__breadcrumb-link" href="{{ href }}">
+                  {{ label }}
+                </a>
+              {{else}}
+                <span class="section-csr-hero__breadcrumb-current" aria-current="page">
+                  {{ label }}
+                </span>
+              {{/if}}
+            </li>
+          {{/each}}
+        </ol>
+      </nav>
+    {{/if}}
+
+    <div class="section-csr-hero__card">
+      {{#if csrHero.imageBg}}
+        <div class="section-csr-hero__bg" aria-hidden="true">
+          {{picture
+            csrHero.imageBg
+            alt=""
+            class="section-csr-hero__bg-image"
+            loading=csrHero.imageLoading
+            width="1920"
+            height="800"
+          }}
+        </div>
+      {{/if}}
+
+      <div class="section-csr-hero__inner">
+        {{#if csrHero.label}}
+          <span class="section-csr-hero__label">{{ csrHero.label }}</span>
+        {{/if}}
+
+        {{#if csrHero.title}}
+          <h1
+            id="{{#if csrHero.id}}{{ csrHero.id }}{{else}}section-csr-hero{{/if}}-title"
+            class="section-csr-hero__title"
+          >
+            {{{ csrHero.title }}}
+          </h1>
+        {{/if}}
+
+        {{#if csrHero.description}}
+          <p class="section-csr-hero__description">
+            {{{ csrHero.description }}}
+          </p>
+        {{/if}}
+      </div>
+    </div>
+
+    {{#if csrHero.principles.length}}
+      <ul class="section-csr-hero__principles">
+        {{#each csrHero.principles}}
+          <li class="section-csr-hero__principle">
+            {{#if icon}}
+              <span class="section-csr-hero__principle-icon" aria-hidden="true">
+                <img src="{{ icon }}" alt="" width="28" height="28" decoding="async" />
+              </span>
+            {{/if}}
+            <p class="section-csr-hero__principle-text">
+              {{{ text }}}
+            </p>
+          </li>
+        {{/each}}
+      </ul>
+    {{/if}}
+  </div>
+</section>

@@ -1,0 +1,56 @@
+<section
+  class="
+    section-csr-commitment
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if csrCommitment.id}}
+    id="{{ csrCommitment.id }}"
+  {{/if}}
+  {{#if csrCommitment.title}}
+    aria-labelledby="{{#if csrCommitment.id}}{{ csrCommitment.id }}{{else}}section-csr-commitment{{/if}}-title"
+  {{else}}
+    aria-label="Our wider commitment"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-csr-commitment__layout">
+      <div class="section-csr-commitment__intro">
+        {{#if csrCommitment.icon}}
+          <span class="section-csr-commitment__icon" aria-hidden="true">
+            <img src="{{ csrCommitment.icon }}" alt="" width="34" height="34" decoding="async" />
+          </span>
+        {{/if}}
+
+        {{#if csrCommitment.title}}
+          <h2
+            id="{{#if csrCommitment.id}}{{ csrCommitment.id }}{{else}}section-csr-commitment{{/if}}-title"
+            class="section-csr-commitment__title"
+          >
+            {{{ csrCommitment.title }}}
+          </h2>
+        {{/if}}
+
+        {{#if csrCommitment.lead}}
+          <p class="section-csr-commitment__lead">{{{ csrCommitment.lead }}}</p>
+        {{/if}}
+      </div>
+
+      <div class="section-csr-commitment__card">
+        {{#if csrCommitment.cardTitle}}
+          <h3 class="section-csr-commitment__card-title">{{{ csrCommitment.cardTitle }}}</h3>
+        {{/if}}
+
+        {{#if csrCommitment.cardChange}}
+          <p class="section-csr-commitment__card-change">{{{ csrCommitment.cardChange }}}</p>
+        {{/if}}
+
+        {{#if csrCommitment.cardBody}}
+          <span class="section-csr-commitment__divider" aria-hidden="true"></span>
+          <p class="section-csr-commitment__card-body">{{{ csrCommitment.cardBody }}}</p>
+        {{/if}}
+      </div>
+    </div>
+  </div>
+</section>

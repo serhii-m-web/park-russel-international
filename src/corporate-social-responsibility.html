@@ -1,0 +1,95 @@
+<!doctype html>
+<html id="top" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>
+      {{#if page.meta.title}}
+        {{ page.meta.title }}
+      {{else}}
+        {{ site.title }}
+      {{/if}}
+    </title>
+    <meta
+      name="description"
+      content="{{#if page.meta.description}}{{ page.meta.description }}{{else}}{{ site.description }}{{/if}}"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicon/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    {{> sprite}}
+    <a class="skip-link visually-hidden" href="#main-content">
+      Skip to content
+    </a>
+    {{> header}}
+    <main id="main-content" tabindex="-1">
+      {{> section-csr-hero
+        csrHero=page.csrHero
+        sectionClass="csr-hero"
+      }}
+      {{> section-csr-integrity
+        csrIntegrity=page.csrIntegrity
+        sectionClass="csr-integrity"
+      }}
+      {{> section-csr-approach
+        csrApproach=page.csrApproach
+        sectionClass="csr-approach"
+      }}
+      {{> section-csr-clients
+        csrClients=page.csrClients
+        sectionClass="csr-clients"
+      }}
+      {{> section-csr-principles
+        csrPrinciples=page.csrPrinciples
+        sectionClass="csr-principles"
+      }}
+      {{> section-csr-network
+        csrNetwork=page.csrNetwork
+        sectionClass="csr-network"
+      }}
+      {{> section-csr-values
+        csrValues=page.csrValues
+        sectionClass="csr-values"
+      }}
+      {{> section-csr-members
+        csrMembers=page.csrMembers
+        sectionClass="csr-members"
+      }}
+      {{> section-csr-commitment
+        csrCommitment=page.csrCommitment
+        sectionClass="csr-commitment"
+      }}
+      {{> section-csr-final
+        csrFinal=page.csrFinal
+        sectionClass="csr-final"
+      }}
+    </main>
+    {{> footer}}
+    <script type="module" src="/ts/main.ts"></script>
+  </body>
+</html>

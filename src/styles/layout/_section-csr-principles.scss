@@ -1,0 +1,159 @@
+@use '../abstracts' as *;
+
+.section-csr-principles {
+  @include adaptive-value('padding-top', 120, 56, 1);
+  @include adaptive-value('padding-bottom', 120, 56, 1);
+  background-color: $color-white;
+
+  &__header {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 32px 96px;
+    align-items: start;
+    @include adaptive-value('margin-bottom', 64, 32, 1);
+
+    @include media('<desktop') {
+      grid-template-columns: 1fr;
+      gap: 28px;
+    }
+  }
+
+  &__title-block {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+  }
+
+  &__rule {
+    display: block;
+    width: 48px;
+    height: 3px;
+    background-color: $color-red;
+  }
+
+  &__title {
+    margin: 0;
+    color: $color-dark-blue;
+    font-weight: 500;
+    letter-spacing: -1.2px;
+    line-height: calc(52 / 48);
+    @include adaptive-value('font-size', 48, 32, 1);
+  }
+
+  &__intro {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 8px;
+  }
+
+  &__lead {
+    margin: 0;
+    color: $color-dark-blue;
+    letter-spacing: -0.11px;
+    line-height: calc(32 / 22);
+    @include adaptive-value('font-size', 22, 18, 1);
+  }
+
+  &__body,
+  &__body-secondary {
+    margin: 0;
+    color: $color-text-muted;
+    line-height: calc(26 / 17);
+    @include adaptive-value('font-size', 17, 16, 1);
+  }
+
+  &__highlight {
+    display: flex;
+    align-items: stretch;
+    gap: 20px;
+  }
+
+  &__highlight-bar {
+    flex-shrink: 0;
+    width: 3px;
+    border-radius: 2px;
+    background-color: $color-red;
+  }
+
+  &__highlight-text {
+    margin: 0;
+    color: $color-dark-blue;
+    font-weight: 500;
+    letter-spacing: -0.095px;
+    line-height: calc(29 / 19);
+    @include adaptive-value('font-size', 19, 16, 1);
+  }
+
+  &__banner {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    min-height: 400px;
+    padding: 64px;
+    border-radius: 28px;
+
+    @include media('<tablet') {
+      min-height: 260px;
+      padding: 32px 24px;
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      z-index: 1;
+      pointer-events: none;
+      background: linear-gradient(
+        90deg,
+        rgba(12, 18, 27, 0.92) 0%,
+        rgba(12, 18, 27, 0.35) 70%,
+        rgba(12, 18, 27, 0.2) 100%
+      );
+    }
+  }
+
+  &__banner-bg {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+
+    picture,
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__banner-content {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    max-width: 860px;
+  }
+
+  &__banner-rule {
+    display: block;
+    width: 48px;
+    height: 3px;
+    background-color: $color-red;
+  }
+
+  &__banner-text {
+    margin: 0;
+    color: $color-white;
+    font-weight: 500;
+    letter-spacing: -1.3px;
+    line-height: calc(58 / 52);
+    @include adaptive-value('font-size', 52, 28, 1);
+
+    .is-muted {
+      color: $color-ice;
+    }
+  }
+}

@@ -1,0 +1,81 @@
+<section
+  class="
+    section-csr-network
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if csrNetwork.id}}
+    id="{{ csrNetwork.id }}"
+  {{/if}}
+  {{#if csrNetwork.title}}
+    aria-labelledby="{{#if csrNetwork.id}}{{ csrNetwork.id }}{{else}}section-csr-network{{/if}}-title"
+  {{else}}
+    aria-label="Responsibility across the network"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-csr-network__layout">
+      <div class="section-csr-network__copy">
+        <span class="section-csr-network__rule" aria-hidden="true"></span>
+
+        {{#if csrNetwork.title}}
+          <h2
+            id="{{#if csrNetwork.id}}{{ csrNetwork.id }}{{else}}section-csr-network{{/if}}-title"
+            class="section-csr-network__title"
+          >
+            {{{ csrNetwork.title }}}
+          </h2>
+        {{/if}}
+
+        {{#if csrNetwork.lead}}
+          <p class="section-csr-network__lead">{{{ csrNetwork.lead }}}</p>
+        {{/if}}
+
+        {{#if csrNetwork.body}}
+          <p class="section-csr-network__body">{{{ csrNetwork.body }}}</p>
+        {{/if}}
+
+        {{#if csrNetwork.highlight}}
+          <div class="section-csr-network__highlight">
+            <span class="section-csr-network__highlight-bar" aria-hidden="true"></span>
+            <p class="section-csr-network__highlight-text">
+              {{{ csrNetwork.highlight }}}
+            </p>
+          </div>
+        {{/if}}
+
+        {{#if csrNetwork.examples.length}}
+          <ul class="section-csr-network__examples">
+            {{#each csrNetwork.examples}}
+              <li class="section-csr-network__example">
+                {{#if icon}}
+                  <span class="section-csr-network__example-icon" aria-hidden="true">
+                    <img src="{{ icon }}" alt="" width="26" height="26" decoding="async" />
+                  </span>
+                {{/if}}
+                <p class="section-csr-network__example-text">{{ text }}</p>
+              </li>
+            {{/each}}
+          </ul>
+        {{/if}}
+
+        {{#if csrNetwork.footer}}
+          <p class="section-csr-network__footer">{{{ csrNetwork.footer }}}</p>
+        {{/if}}
+      </div>
+
+      {{#if csrNetwork.image}}
+        <div class="section-csr-network__media">
+          {{picture
+            csrNetwork.image
+            alt=csrNetwork.imageAlt
+            class="section-csr-network__image"
+            width="520"
+            height="608"
+          }}
+        </div>
+      {{/if}}
+    </div>
+  </div>
+</section>

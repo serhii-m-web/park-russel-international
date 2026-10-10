@@ -1,0 +1,138 @@
+@use '../abstracts' as *;
+
+.section-csr-members {
+  @include adaptive-value('padding-top', 120, 56, 1);
+  @include adaptive-value('padding-bottom', 120, 56, 1);
+  background-color: $color-bg-muted;
+
+  &__layout {
+    display: flex;
+    align-items: center;
+    gap: 96px;
+
+    @include media('<widescreen') {
+      gap: 48px;
+    }
+
+    @include media('<desktop') {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 40px;
+    }
+  }
+
+  &__media {
+    position: relative;
+    flex: 0 0 540px;
+    width: 540px;
+    max-width: 100%;
+    height: 620px;
+    overflow: hidden;
+    border-radius: 24px;
+
+    @include media('<widescreen') {
+      flex-basis: 440px;
+      width: 440px;
+      height: 500px;
+    }
+
+    @include media('<desktop') {
+      flex: none;
+      width: 100%;
+      max-width: 540px;
+      height: auto;
+      aspect-ratio: 540 / 620;
+      margin-inline: auto;
+    }
+
+    @include media('<tablet') {
+      max-height: 320px;
+      aspect-ratio: 16 / 10;
+    }
+  }
+
+  &__image {
+    position: absolute;
+    inset: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__copy {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    min-width: 0;
+  }
+
+  &__rule {
+    display: block;
+    width: 48px;
+    height: 3px;
+    background-color: $color-red;
+  }
+
+  &__title {
+    margin: 0;
+    color: $color-dark-blue;
+    font-weight: 500;
+    letter-spacing: -1.2px;
+    line-height: calc(52 / 48);
+    @include adaptive-value('font-size', 48, 32, 1);
+  }
+
+  &__statement {
+    margin: 0;
+    color: $color-dark-blue;
+    font-weight: 500;
+    letter-spacing: -0.45px;
+    line-height: calc(38 / 30);
+    @include adaptive-value('font-size', 30, 22, 1);
+
+    .is-muted {
+      color: #858d9f;
+      font-weight: 500;
+    }
+  }
+
+  &__text {
+    margin: 0;
+    color: $color-text-muted;
+    line-height: calc(26 / 17);
+    @include adaptive-value('font-size', 17, 16, 1);
+  }
+
+  &__highlight {
+    display: flex;
+    align-items: stretch;
+    gap: 20px;
+    width: 100%;
+  }
+
+  &__highlight-bar {
+    flex-shrink: 0;
+    width: 3px;
+    background-color: $color-red;
+  }
+
+  &__highlight-text {
+    flex: 1 1 auto;
+    min-width: 0;
+    margin: 0;
+    color: $color-dark-blue;
+    font-weight: 500;
+    letter-spacing: -0.095px;
+    line-height: calc(29 / 19);
+    @include adaptive-value('font-size', 19, 16, 1);
+  }
+}

@@ -1,0 +1,79 @@
+<section
+  class="
+    section-csr-integrity
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if csrIntegrity.id}}
+    id="{{ csrIntegrity.id }}"
+  {{/if}}
+  {{#if csrIntegrity.title}}
+    aria-labelledby="{{#if csrIntegrity.id}}{{ csrIntegrity.id }}{{else}}section-csr-integrity{{/if}}-title"
+  {{else}}
+    aria-label="Professional integrity"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-csr-integrity__layout">
+      {{#if csrIntegrity.image}}
+        <div class="section-csr-integrity__media">
+          {{picture
+            csrIntegrity.image
+            alt=csrIntegrity.imageAlt
+            class="section-csr-integrity__image"
+            width="560"
+            height="600"
+          }}
+
+          {{#if csrIntegrity.statement}}
+            <div class="section-csr-integrity__statement">
+              <span class="section-csr-integrity__statement-rule" aria-hidden="true"></span>
+              <p class="section-csr-integrity__statement-text">
+                {{{ csrIntegrity.statement }}}
+              </p>
+            </div>
+          {{/if}}
+        </div>
+      {{/if}}
+
+      <div class="section-csr-integrity__copy">
+        {{#if csrIntegrity.title}}
+          <h2
+            id="{{#if csrIntegrity.id}}{{ csrIntegrity.id }}{{else}}section-csr-integrity{{/if}}-title"
+            class="section-csr-integrity__title"
+          >
+            {{{ csrIntegrity.title }}}
+          </h2>
+        {{/if}}
+
+        {{#if csrIntegrity.lead}}
+          <p class="section-csr-integrity__lead">
+            {{{ csrIntegrity.lead }}}
+          </p>
+        {{/if}}
+
+        {{#if csrIntegrity.body}}
+          <p class="section-csr-integrity__body">
+            {{{ csrIntegrity.body }}}
+          </p>
+        {{/if}}
+
+        {{#if csrIntegrity.highlight}}
+          <div class="section-csr-integrity__highlight">
+            <span class="section-csr-integrity__highlight-bar" aria-hidden="true"></span>
+            <p class="section-csr-integrity__highlight-text">
+              {{{ csrIntegrity.highlight }}}
+            </p>
+          </div>
+        {{/if}}
+
+        {{#if csrIntegrity.bodySecondary}}
+          <p class="section-csr-integrity__body-secondary">
+            {{{ csrIntegrity.bodySecondary }}}
+          </p>
+        {{/if}}
+      </div>
+    </div>
+  </div>
+</section>

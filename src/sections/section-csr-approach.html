@@ -1,0 +1,105 @@
+<section
+  class="
+    section-csr-approach
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if csrApproach.id}}
+    id="{{ csrApproach.id }}"
+  {{/if}}
+  {{#if csrApproach.title}}
+    aria-labelledby="{{#if csrApproach.id}}{{ csrApproach.id }}{{else}}section-csr-approach{{/if}}-title"
+  {{else}}
+    aria-label="Our approach to responsible business"
+  {{/if}}
+>
+  <div class="container">
+    {{#if csrApproach.title}}
+      <div class="section-csr-approach__header">
+        <p class="section-csr-approach__eyebrow">
+          <span class="section-csr-approach__eyebrow-rule" aria-hidden="true"></span>
+        </p>
+        <h2
+          id="{{#if csrApproach.id}}{{ csrApproach.id }}{{else}}section-csr-approach{{/if}}-title"
+          class="section-csr-approach__title"
+        >
+          {{{ csrApproach.title }}}
+        </h2>
+      </div>
+    {{/if}}
+
+    {{#if csrApproach.pillars.length}}
+      <div class="section-csr-approach__pillars">
+        {{#each csrApproach.pillars}}
+          <article
+            class="section-csr-approach__pillar section-csr-approach__pillar--{{ layout }}"
+          >
+            {{#if image}}
+              <div class="section-csr-approach__pillar-media">
+                {{picture
+                  image
+                  alt=imageAlt
+                  class="section-csr-approach__pillar-image"
+                  width="520"
+                  height="360"
+                }}
+              </div>
+            {{/if}}
+
+            <div class="section-csr-approach__pillar-content">
+              <div class="section-csr-approach__pillar-head">
+                {{#if icon}}
+                  <span class="section-csr-approach__pillar-icon" aria-hidden="true">
+                    <img src="{{ icon }}" alt="" width="28" height="28" decoding="async" />
+                  </span>
+                {{/if}}
+
+                {{#if title}}
+                  <h3 class="section-csr-approach__pillar-title">{{ title }}</h3>
+                {{/if}}
+              </div>
+
+              {{#if lead}}
+                <p class="section-csr-approach__pillar-lead">{{{ lead }}}</p>
+              {{/if}}
+
+              {{#if body.length}}
+                <div class="section-csr-approach__pillar-body">
+                  {{#each body}}
+                    <p class="section-csr-approach__pillar-text">{{{ this }}}</p>
+                  {{/each}}
+                </div>
+              {{/if}}
+
+              {{#if values.length}}
+                <div class="section-csr-approach__values">
+                  {{#if valuesLabel}}
+                    <p class="section-csr-approach__values-label">{{ valuesLabel }}</p>
+                  {{/if}}
+                  <ul class="section-csr-approach__values-list">
+                    {{#each values}}
+                      <li class="section-csr-approach__values-item">
+                        <span class="section-csr-approach__values-check" aria-hidden="true">
+                          <img src="/icons/csr/icon-check.svg" alt="" width="20" height="20" decoding="async" />
+                        </span>
+                        <span>{{ this }}</span>
+                      </li>
+                    {{/each}}
+                  </ul>
+                </div>
+              {{/if}}
+
+              {{#if highlight}}
+                <div class="section-csr-approach__pillar-highlight">
+                  <span class="section-csr-approach__pillar-highlight-bar" aria-hidden="true"></span>
+                  <p class="section-csr-approach__pillar-highlight-text">{{{ highlight }}}</p>
+                </div>
+              {{/if}}
+            </div>
+          </article>
+        {{/each}}
+      </div>
+    {{/if}}
+  </div>
+</section>

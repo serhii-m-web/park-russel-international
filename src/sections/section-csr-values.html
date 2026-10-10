@@ -1,0 +1,107 @@
+<section
+  class="
+    section-csr-values
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if csrValues.id}}
+    id="{{ csrValues.id }}"
+  {{/if}}
+  data-csr-values-slider
+  {{#if csrValues.title}}
+    aria-labelledby="{{#if csrValues.id}}{{ csrValues.id }}{{else}}section-csr-values{{/if}}-title"
+  {{else}}
+    aria-label="What responsibility means"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-csr-values__header">
+      <span class="section-csr-values__rule" aria-hidden="true"></span>
+
+      {{#if csrValues.title}}
+        <h2
+          id="{{#if csrValues.id}}{{ csrValues.id }}{{else}}section-csr-values{{/if}}-title"
+          class="section-csr-values__title"
+        >
+          {{{ csrValues.title }}}
+        </h2>
+      {{/if}}
+    </div>
+
+    {{#if csrValues.items.length}}
+      <div class="section-csr-values__grid-wrap">
+        <div
+          class="swiper section-csr-values__grid"
+          data-csr-values-slider-el
+          data-csr-values-slider-label="{{#if csrValues.carouselLabel}}{{ csrValues.carouselLabel }}{{else}}What responsibility means{{/if}}"
+        >
+          <div class="swiper-wrapper">
+            {{#each csrValues.items}}
+              <article class="swiper-slide section-csr-values__card">
+                <div class="section-csr-values__top">
+                  {{#if icon}}
+                    <span class="section-csr-values__icon" aria-hidden="true">
+                      <img src="{{ icon }}" alt="" width="30" height="30" decoding="async" />
+                    </span>
+                  {{/if}}
+                  <span class="section-csr-values__accent" aria-hidden="true"></span>
+                </div>
+
+                <div class="section-csr-values__text">
+                  {{#if title}}
+                    <h3 class="section-csr-values__card-title">{{ title }}</h3>
+                  {{/if}}
+                  {{#if description}}
+                    <p class="section-csr-values__card-description">{{ description }}</p>
+                  {{/if}}
+                </div>
+              </article>
+            {{/each}}
+          </div>
+        </div>
+
+        <div
+          class="section-csr-values__navigation"
+          role="group"
+          aria-label="Values slider controls"
+          data-csr-values-slider-nav
+          inert
+        >
+          <div
+            class="swiper-scrollbar section-csr-values__scrollbar"
+            data-csr-values-slider-scrollbar
+            tabindex="0"
+            aria-label="Slider progress"
+          ></div>
+          <div class="section-csr-values__nav-buttons">
+            <button
+              class="swiper-button-prev section-csr-values__nav-btn prev"
+              type="button"
+              data-csr-values-slider-prev
+              aria-label="Previous slide"
+            >
+              {{> icon
+                name="arrow-right"
+                width="16"
+                height="16"
+              }}
+            </button>
+            <button
+              class="swiper-button-next section-csr-values__nav-btn next"
+              type="button"
+              data-csr-values-slider-next
+              aria-label="Next slide"
+            >
+              {{> icon
+                name="arrow-right"
+                width="16"
+                height="16"
+              }}
+            </button>
+          </div>
+        </div>
+      </div>
+    {{/if}}
+  </div>
+</section>

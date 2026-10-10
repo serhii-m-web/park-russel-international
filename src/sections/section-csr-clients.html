@@ -1,0 +1,70 @@
+<section
+  class="
+    section-csr-clients
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if csrClients.id}}
+    id="{{ csrClients.id }}"
+  {{/if}}
+  {{#if csrClients.title}}
+    aria-labelledby="{{#if csrClients.id}}{{ csrClients.id }}{{else}}section-csr-clients{{/if}}-title"
+  {{else}}
+    aria-label="Supporting clients"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-csr-clients__header">
+      <div class="section-csr-clients__title-block">
+        {{#if csrClients.title}}
+          <h2
+            id="{{#if csrClients.id}}{{ csrClients.id }}{{else}}section-csr-clients{{/if}}-title"
+            class="section-csr-clients__title"
+          >
+            {{{ csrClients.title }}}
+          </h2>
+        {{/if}}
+      </div>
+
+      <div class="section-csr-clients__intro">
+        {{#if csrClients.lead}}
+          <p class="section-csr-clients__lead">{{{ csrClients.lead }}}</p>
+        {{/if}}
+        {{#if csrClients.body}}
+          <p class="section-csr-clients__body">{{{ csrClients.body }}}</p>
+        {{/if}}
+      </div>
+    </div>
+
+    <div class="section-csr-clients__cards">
+      {{#if csrClients.image}}
+        <div class="section-csr-clients__photo">
+          {{picture
+            csrClients.image
+            alt=csrClients.imageAlt
+            class="section-csr-clients__photo-image"
+            width="720"
+            height="480"
+          }}
+        </div>
+      {{/if}}
+
+      <div class="section-csr-clients__card">
+        {{#if csrClients.icon}}
+          <span class="section-csr-clients__card-icon" aria-hidden="true">
+            <img src="{{ csrClients.icon }}" alt="" width="32" height="32" decoding="async" />
+          </span>
+        {{/if}}
+
+        {{#if csrClients.cardBody}}
+          <p class="section-csr-clients__card-body">{{{ csrClients.cardBody }}}</p>
+        {{/if}}
+
+        {{#if csrClients.cardStatement}}
+          <p class="section-csr-clients__card-statement">{{{ csrClients.cardStatement }}}</p>
+        {{/if}}
+      </div>
+    </div>
+  </div>
+</section>

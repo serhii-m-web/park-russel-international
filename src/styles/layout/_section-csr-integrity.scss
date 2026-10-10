@@ -1,0 +1,194 @@
+@use '../abstracts' as *;
+
+.section-csr-integrity {
+  @include adaptive-value('padding-top', 120, 56, 1);
+  @include adaptive-value('padding-bottom', 120, 56, 1);
+  overflow: visible;
+  background-color: $color-white;
+
+  &__layout {
+    display: flex;
+    align-items: center;
+    gap: 96px;
+
+    @include media('<widescreen') {
+      gap: 48px;
+    }
+
+    @include media('<desktop') {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 20px;
+    }
+  }
+
+  &__media {
+    position: relative;
+    flex: 0 0 620px;
+    width: 620px;
+    max-width: 100%;
+    height: 707px;
+    overflow: visible;
+
+    @include media('<widescreen') {
+      flex-basis: 480px;
+      width: 480px;
+      height: 500px;
+    }
+
+    @include media('<desktop') {
+      flex: none;
+      width: 100%;
+      max-width: 560px;
+      height: auto;
+      aspect-ratio: 0;
+      margin-inline: auto;
+    }
+  }
+
+  &__image {
+    display: block;
+    width: 540px;
+    max-width: 87.097%;
+    height: 600px;
+    max-height: 84.865%;
+    border-radius: 24px;
+    overflow: hidden;
+
+    @include media('<widescreen') {
+      width: 448px;
+      height: 480px;
+    }
+
+    @include media('<desktop') {
+      width: 100%;
+      max-width: 100%;
+      height: 100%;
+      max-height: none;
+      height: 300px;
+    }
+
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__statement {
+    position: absolute;
+    top: 480px;
+    left: 240px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-sizing: border-box;
+    width: 380px;
+    max-width: calc(100% - 24px);
+    padding: 32px 32px 36px;
+    border-radius: 20px;
+    background-color: $color-dark-blue;
+    box-shadow: 0 20px 48px rgba(30, 41, 59, 0.18);
+
+    @include media('<widescreen') {
+      top: auto;
+      left: auto;
+      right: 0;
+      bottom: 0;
+      width: min(100%, 340px);
+    }
+
+    @include media('<tablet') {
+      position: relative;
+      top: auto;
+      left: 50%;
+      transform: translateX(-50%);
+      right: auto;
+      bottom: auto;
+      max-width: 330px;
+      width: 100%;
+      margin-top: -48px;
+      padding: 24px 20px;
+    }
+  }
+
+  &__statement-rule {
+    display: block;
+    width: 48px;
+    height: 3px;
+    background-color: $color-red;
+  }
+
+  &__statement-text {
+    margin: 0;
+    color: $color-ice;
+    font-weight: 500;
+    letter-spacing: -0.26px;
+    line-height: calc(34 / 26);
+    @include adaptive-value('font-size', 26, 18, 1);
+
+    .is-emphasis {
+      color: $color-white;
+    }
+  }
+
+  &__copy {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    gap: 24px;
+    min-width: 0;
+  }
+
+  &__title {
+    margin: 0;
+    color: $color-dark-blue;
+    font-weight: 500;
+    letter-spacing: -1.2px;
+    line-height: calc(52 / 48);
+    @include adaptive-value('font-size', 48, 32, 1);
+  }
+
+  &__lead {
+    margin: 0;
+    color: $color-dark-blue;
+    letter-spacing: -0.11px;
+    line-height: calc(32 / 22);
+    @include adaptive-value('font-size', 22, 18, 1);
+  }
+
+  &__body,
+  &__body-secondary {
+    margin: 0;
+    color: $color-text-muted;
+    line-height: calc(26 / 17);
+    @include adaptive-value('font-size', 17, 16, 1);
+  }
+
+  &__highlight {
+    display: flex;
+    align-items: stretch;
+    gap: 20px;
+    width: 100%;
+  }
+
+  &__highlight-bar {
+    flex-shrink: 0;
+    width: 3px;
+    border-radius: 2px;
+    background-color: $color-red;
+  }
+
+  &__highlight-text {
+    flex: 1 1 auto;
+    min-width: 0;
+    margin: 0;
+    color: $color-dark-blue;
+    font-weight: 500;
+    letter-spacing: -0.095px;
+    line-height: calc(29 / 19);
+    @include adaptive-value('font-size', 19, 16, 1);
+  }
+}

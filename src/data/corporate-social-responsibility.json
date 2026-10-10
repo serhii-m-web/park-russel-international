@@ -1,0 +1,235 @@
+{
+  "meta": {
+    "title": "Corporate Social Responsibility | Parker Russell International",
+    "description": "How Parker Russell International approaches corporate social responsibility across people, communities, environment and governance."
+  },
+  "csrHero": {
+    "id": "csr-hero",
+    "breadcrumb": [
+      { "label": "Home", "href": "index.html" },
+      { "label": "Corporate Social Responsibility" }
+    ],
+    "label": "Corporate Social Responsibility",
+    "imageBg": "/images/csr/hero-bg.jpg",
+    "imageLoading": "eager",
+    "title": "Responsibility Beyond the Engagement",
+    "description": "Professional responsibility extends beyond the work we deliver.",
+    "principles": [
+      {
+        "icon": "/icons/csr/icon-public.svg",
+        "text": "As an international network, Parker Russell International recognises that the decisions made by our firms, our people and the businesses we advise <span class=\"is-emphasis\">can have a wider impact on clients, communities, economies and the environment.</span>"
+      },
+      {
+        "icon": "/icons/csr/icon-balance.svg",
+        "text": "Our approach to corporate responsibility is grounded in the same principles that guide our professional work: <span class=\"is-emphasis\">integrity, accountability, respect and long-term thinking.</span>"
+      },
+      {
+        "icon": "/icons/csr/icon-eco.svg",
+        "text": "Across our network, we encourage member firms to consider not only what creates value today, but what contributes to <span class=\"is-emphasis\">stronger businesses, stronger communities and a more sustainable future.</span>"
+      }
+    ]
+  },
+  "csrIntegrity": {
+    "id": "csr-integrity",
+    "image": "/images/csr/integrity-fixed.png",
+    "imageAlt": "Professional handshake across a meeting table",
+    "statement": "Responsibility is not separate from professional quality.<br /><span class=\"is-emphasis\">It is part of it.</span>",
+    "title": "Professional Responsibility Starts with Integrity",
+    "lead": "Trust is fundamental to our profession.",
+    "body": "Clients, regulators, investors and wider stakeholders rely on professional advisers to act objectively, exercise sound judgement and maintain high ethical standards.",
+    "highlight": "For Parker Russell International, responsible business therefore begins with the way we work.",
+    "bodySecondary": "It means acting with honesty and integrity, respecting professional obligations and considering the wider consequences of the advice and decisions in which we are involved."
+  },
+  "csrApproach": {
+    "id": "csr-approach",
+    "title": "Our Approach to Responsible Business",
+    "pillars": [
+      {
+        "layout": "media-left",
+        "image": "/images/csr/people.png",
+        "imageAlt": "Professionals collaborating around a table",
+        "icon": "/icons/csr/icon-groups.svg",
+        "title": "People",
+        "lead": "The strength of Parker Russell International comes from the people within our member firms.",
+        "body": [
+          "We support professional environments where people are respected, encouraged to develop and given the opportunity to build meaningful careers."
+        ],
+        "valuesLabel": "Across the network, we value:",
+        "values": [
+          "professional development;",
+          "knowledge sharing;",
+          "inclusion and respect;",
+          "collaboration across cultures and markets;",
+          "opportunities for the next generation of professionals."
+        ],
+        "highlight": "Investing in people strengthens individual firms and the international network around them."
+      },
+      {
+        "layout": "media-right",
+        "image": "/images/csr/communities.png",
+        "imageAlt": "Community support and volunteering",
+        "icon": "/icons/csr/icon-volunteer.svg",
+        "title": "Communities",
+        "lead": "Our member firms are independent organisations with deep roots in their local markets.",
+        "body": [
+          "They employ locally, advise local businesses and contribute to the professional and economic communities in which they operate.",
+          "That local connection is an important part of the Parker Russell model.",
+          "We encourage firms to engage responsibly with their communities and support initiatives that create meaningful local value."
+        ],
+        "highlight": "Because international reach should never come at the expense of local responsibility."
+      },
+      {
+        "layout": "media-left",
+        "image": "/images/csr/environment.jpg",
+        "imageAlt": "Natural landscape representing environmental responsibility",
+        "icon": "/icons/csr/icon-eco.svg",
+        "title": "Environment",
+        "lead": "We recognise the responsibility businesses have to understand and reduce their environmental impact where reasonably possible.",
+        "body": [
+          "Across the network, member firms are encouraged to consider areas such as resource use, energy consumption, travel, technology and working practices as part of a more responsible approach to business."
+        ],
+        "highlight": "The objective is practical progress — integrating environmental consideration into everyday decision-making rather than treating sustainability as a separate exercise."
+      },
+      {
+        "layout": "media-right",
+        "image": "/images/csr/governance.jpg",
+        "imageAlt": "Boardroom meeting on governance",
+        "icon": "/icons/csr/icon-governance.svg",
+        "title": "Responsible Business & Governance",
+        "lead": "Strong organisations are built on more than financial performance.",
+        "body": [
+          "Good governance, ethical conduct, accountability and responsible decision-making help businesses remain resilient and maintain the confidence of their stakeholders.",
+          "These principles apply to Parker Russell International, our member firms and the work we perform for clients."
+        ],
+        "highlight": "Our role as professional advisers gives us an additional responsibility: to bring clarity, challenge assumptions where appropriate and support decisions that are technically sound and commercially responsible."
+      }
+    ]
+  },
+  "csrClients": {
+    "id": "csr-clients",
+    "title": "Supporting Clients in a Changing Business Environment",
+    "lead": "Corporate responsibility is increasingly connected to strategy, investment, reporting, risk and long-term value.",
+    "body": "Businesses are facing greater expectations from investors, regulators, employees, customers and other stakeholders around how they manage environmental, social and governance matters.",
+    "image": "/images/csr/clients.jpg",
+    "imageAlt": "Advisers discussing client strategy",
+    "icon": "/icons/csr/icon-monitoring.svg",
+    "cardBody": "Parker Russell member firms can bring together relevant audit, tax, financial and advisory expertise to help clients understand these issues within the context of their own organisations.",
+    "cardStatement": "<span class=\"is-muted\">The objective is not to apply a single model to every business.</span><br />It is to help organisations understand what is relevant, what is required and what responsible progress means in their particular market."
+  },
+  "csrPrinciples": {
+    "id": "csr-principles",
+    "title": "Shared Principles. Local Action.",
+    "lead": "Parker Russell International operates through independent member firms across different countries, economies and communities.",
+    "body": "The social, environmental and economic priorities in one market may differ substantially from those in another.",
+    "highlight": "Our approach therefore combines shared international principles with local responsibility.",
+    "bodySecondary": "Member firms are encouraged to respond to the needs and circumstances of their own markets while remaining connected by the broader values of Parker Russell International.",
+    "bannerImage": "/images/csr/principles-banner.png",
+    "bannerText": "One network. <span class=\"is-muted\">Different communities.</span> Shared responsibility."
+  },
+  "csrNetwork": {
+    "id": "csr-network",
+    "title": "Responsibility Across the Network",
+    "lead": "Corporate responsibility also strengthens the relationships between our member firms.",
+    "body": "Through international forums, technical committees and wider network collaboration, members can exchange knowledge, discuss emerging expectations and learn from approaches being developed in other markets.",
+    "highlight": "This enables good ideas to move beyond one firm or jurisdiction.",
+    "examples": [
+      {
+        "icon": "/icons/csr/icon-lightbulb.svg",
+        "text": "A successful initiative locally can become useful knowledge internationally."
+      },
+      {
+        "icon": "/icons/csr/icon-forum.svg",
+        "text": "A challenge identified in one market can inform conversations elsewhere."
+      }
+    ],
+    "footer": "The network provides the platform through which that learning can be shared.",
+    "image": "/images/csr/network.jpg",
+    "imageAlt": "International collaboration meeting"
+  },
+  "csrValues": {
+    "id": "csr-values",
+    "title": "What Responsibility Means to Parker Russell",
+    "items": [
+      {
+        "icon": "/icons/csr/icon-verified.svg",
+        "title": "Integrity",
+        "description": "Doing what is right, maintaining professional standards and protecting the trust placed in us."
+      },
+      {
+        "icon": "/icons/csr/icon-respect.svg",
+        "title": "Respect",
+        "description": "Creating professional relationships built on fairness, inclusion and respect for different perspectives."
+      },
+      {
+        "icon": "/icons/csr/icon-groups.svg",
+        "title": "People",
+        "description": "Investing in the professionals who build our firms and shape the future of the network."
+      },
+      {
+        "icon": "/icons/csr/icon-volunteer.svg",
+        "title": "Communities",
+        "description": "Recognising the role our member firms play within the economies and communities they serve."
+      },
+      {
+        "icon": "/icons/csr/icon-eco.svg",
+        "title": "Sustainability",
+        "description": "Considering environmental impact and supporting practical progress towards more responsible business practices."
+      },
+      {
+        "icon": "/icons/csr/icon-longterm.svg",
+        "title": "Long-Term Thinking",
+        "description": "Looking beyond immediate outcomes and considering the wider consequences of decisions."
+      }
+    ]
+  },
+  "csrMembers": {
+    "id": "csr-members",
+    "image": "/images/csr/members.png",
+    "imageAlt": "Member firm professionals collaborating",
+    "title": "For Our Member Firms",
+    "statement": "<span class=\"is-muted\">Membership of an international network brings opportunity.</span> It also brings responsibility.",
+    "body": [
+      "Parker Russell International aims to create an environment where member firms can strengthen their own responsible-business practices while learning from peers across other markets.",
+      "Through shared values, international collaboration and knowledge exchange, firms can develop approaches that reflect both local priorities and wider professional expectations."
+    ],
+    "highlight": "This allows independence to remain a strength while shared principles continue to connect the network."
+  },
+  "csrCommitment": {
+    "id": "csr-commitment",
+    "icon": "/icons/csr/icon-public.svg",
+    "title": "Our Wider Commitment",
+    "lead": "Parker Russell International has expressed its commitment to continuously improving the sustainability and inclusivity of its operations and to making a positive contribution to clients, people, markets and communities, with reference to the United Nations Sustainable Development Goals.",
+    "cardTitle": "We recognise that responsible business is not a fixed destination.",
+    "cardChange": "Expectations change. <span class=\"is-muted\">Markets evolve.</span> <span class=\"is-accent\">New challenges emerge.</span>",
+    "cardBody": "Our responsibility is to continue learning, improving and encouraging progress across the international network."
+  },
+  "csrFinal": {
+    "id": "csr-final",
+    "imageBg": "/images/csr/final-cta-bg.jpg",
+    "title": "Doing Good Business Responsibly",
+    "description": "The reputation of a professional organisation is shaped not only by the quality of its technical work, but by how it conducts itself and the impact it leaves behind.",
+    "tagline": "Parker Russell International brings together independent firms around a shared commitment to professional excellence, integrity and responsible progress.",
+    "audience": [
+      {
+        "text": "<span class=\"is-emphasis\">For our clients,</span> that means advisers who consider the wider context of the decisions they support."
+      },
+      {
+        "text": "<span class=\"is-emphasis\">For our member firms,</span> it means belonging to an international network where professional success and responsible leadership are expected to develop together."
+      }
+    ],
+    "buttons": [
+      {
+        "label": "Discover Parker Russell International",
+        "href": "about-us.html",
+        "variant": "primary",
+        "icon": true
+      },
+      {
+        "label": "Explore Our Member Firms",
+        "href": "#",
+        "variant": "secondary",
+        "icon": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+<section
+  class="
+    section-csr-final
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if csrFinal.id}}
+    id="{{ csrFinal.id }}"
+  {{/if}}
+  {{#if csrFinal.title}}
+    aria-labelledby="{{#if csrFinal.id}}{{ csrFinal.id }}{{else}}section-csr-final{{/if}}-title"
+  {{else}}
+    aria-label="Doing good business responsibly"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-csr-final__card">
+      {{#if csrFinal.imageBg}}
+        <div class="section-csr-final__bg" aria-hidden="true">
+          {{picture
+            csrFinal.imageBg
+            alt=""
+            class="section-csr-final__bg-image"
+            width="1920"
+            height="900"
+          }}
+        </div>
+      {{/if}}
+
+      <div class="section-csr-final__inner">
+        {{#if csrFinal.title}}
+          <h2
+            id="{{#if csrFinal.id}}{{ csrFinal.id }}{{else}}section-csr-final{{/if}}-title"
+            class="section-csr-final__title"
+          >
+            {{{ csrFinal.title }}}
+          </h2>
+        {{/if}}
+
+        {{#if csrFinal.description}}
+          <p class="section-csr-final__description">
+            {{{ csrFinal.description }}}
+          </p>
+        {{/if}}
+
+        {{#if csrFinal.tagline}}
+          <p class="section-csr-final__tagline">
+            <span class="section-csr-final__tagline-rule" aria-hidden="true"></span>
+            <span>{{{ csrFinal.tagline }}}</span>
+          </p>
+        {{/if}}
+
+        {{#if csrFinal.audience.length}}
+          <ul class="section-csr-final__audience">
+            {{#each csrFinal.audience}}
+              <li class="section-csr-final__audience-chip">
+                {{{ text }}}
+              </li>
+            {{/each}}
+          </ul>
+        {{/if}}
+
+        {{#if csrFinal.buttons.length}}
+          <div class="section-csr-final__buttons">
+            {{#each csrFinal.buttons}}
+              <a
+                class="section-csr-final__button site-button {{ variant }}"
+                href="{{ href }}"
+              >
+                <span>{{ label }}</span>
+                {{#if icon}}
+                  {{> icon
+                    name="arrow-right"
+                    width="16"
+                    height="16"
+                  }}
+                {{/if}}
+              </a>
+            {{/each}}
+          </div>
+        {{/if}}
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,79 @@
+<section
+  class="
+    section-csr-principles
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if csrPrinciples.id}}
+    id="{{ csrPrinciples.id }}"
+  {{/if}}
+  {{#if csrPrinciples.title}}
+    aria-labelledby="{{#if csrPrinciples.id}}{{ csrPrinciples.id }}{{else}}section-csr-principles{{/if}}-title"
+  {{else}}
+    aria-label="Shared principles, local action"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-csr-principles__header">
+      <div class="section-csr-principles__title-block">
+        <span class="section-csr-principles__rule" aria-hidden="true"></span>
+
+        {{#if csrPrinciples.title}}
+          <h2
+            id="{{#if csrPrinciples.id}}{{ csrPrinciples.id }}{{else}}section-csr-principles{{/if}}-title"
+            class="section-csr-principles__title"
+          >
+            {{{ csrPrinciples.title }}}
+          </h2>
+        {{/if}}
+
+        {{#if csrPrinciples.lead}}
+          <p class="section-csr-principles__lead">{{{ csrPrinciples.lead }}}</p>
+        {{/if}}
+      </div>
+
+      <div class="section-csr-principles__intro">
+        {{#if csrPrinciples.body}}
+          <p class="section-csr-principles__body">{{{ csrPrinciples.body }}}</p>
+        {{/if}}
+
+        {{#if csrPrinciples.highlight}}
+          <div class="section-csr-principles__highlight">
+            <span class="section-csr-principles__highlight-bar" aria-hidden="true"></span>
+            <p class="section-csr-principles__highlight-text">
+              {{{ csrPrinciples.highlight }}}
+            </p>
+          </div>
+        {{/if}}
+
+        {{#if csrPrinciples.bodySecondary}}
+          <p class="section-csr-principles__body-secondary">{{{ csrPrinciples.bodySecondary }}}</p>
+        {{/if}}
+      </div>
+    </div>
+
+    {{#if csrPrinciples.bannerImage}}
+      <div class="section-csr-principles__banner">
+        <div class="section-csr-principles__banner-bg" aria-hidden="true">
+          {{picture
+            csrPrinciples.bannerImage
+            alt=""
+            class="section-csr-principles__banner-image"
+            width="1280"
+            height="400"
+          }}
+        </div>
+
+        {{#if csrPrinciples.bannerText}}
+          <div class="section-csr-principles__banner-content">
+            <span class="section-csr-principles__banner-rule" aria-hidden="true"></span>
+            <p class="section-csr-principles__banner-text">
+              {{{ csrPrinciples.bannerText }}}
+            </p>
+          </div>
+        {{/if}}
+      </div>
+    {{/if}}
+  </div>
+</section>

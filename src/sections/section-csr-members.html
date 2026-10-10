@@ -1,0 +1,62 @@
+<section
+  class="
+    section-csr-members
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if csrMembers.id}}
+    id="{{ csrMembers.id }}"
+  {{/if}}
+  {{#if csrMembers.title}}
+    aria-labelledby="{{#if csrMembers.id}}{{ csrMembers.id }}{{else}}section-csr-members{{/if}}-title"
+  {{else}}
+    aria-label="For our member firms"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-csr-members__layout">
+      {{#if csrMembers.image}}
+        <div class="section-csr-members__media">
+          {{picture
+            csrMembers.image
+            alt=csrMembers.imageAlt
+            class="section-csr-members__image"
+            width="540"
+            height="620"
+          }}
+        </div>
+      {{/if}}
+
+      <div class="section-csr-members__copy">
+        <span class="section-csr-members__rule" aria-hidden="true"></span>
+
+        {{#if csrMembers.title}}
+          <h2
+            id="{{#if csrMembers.id}}{{ csrMembers.id }}{{else}}section-csr-members{{/if}}-title"
+            class="section-csr-members__title"
+          >
+            {{{ csrMembers.title }}}
+          </h2>
+        {{/if}}
+
+        {{#if csrMembers.statement}}
+          <p class="section-csr-members__statement">{{{ csrMembers.statement }}}</p>
+        {{/if}}
+
+        {{#if csrMembers.body.length}}
+          {{#each csrMembers.body}}
+            <p class="section-csr-members__text">{{{ this }}}</p>
+          {{/each}}
+        {{/if}}
+
+        {{#if csrMembers.highlight}}
+          <div class="section-csr-members__highlight">
+            <span class="section-csr-members__highlight-bar" aria-hidden="true"></span>
+            <p class="section-csr-members__highlight-text">{{{ csrMembers.highlight }}}</p>
+          </div>
+        {{/if}}
+      </div>
+    </div>
+  </div>
+</section>

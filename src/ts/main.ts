@@ -4,6 +4,7 @@ import { initDesignDefendSlider } from './designDefendSlider';
 import { initFeatureItemsSlider } from './featureItemsSlider';
 import { initFollowValueSlider } from './followValueSlider';
 import { initAboutCardsSlider } from './aboutCardsSlider';
+import { initCsrValuesSlider } from './csrValuesSlider';
 import { initIndustryInsightsSlider } from './industryInsightsSlider';
 import { initMegaMenu } from './megaMenu';
 import { initMethodologySlider } from './methodologySlider';
@@ -34,6 +35,7 @@ function init(): void {
   initProcessRampSlider();
   initIndustryInsightsSlider();
   initAboutCardsSlider();
+  initCsrValuesSlider();
   initSectionTabs();
   initSectionFaq();
 }
