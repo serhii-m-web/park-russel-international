@@ -1,0 +1,101 @@
+<section
+  class="
+    section-about-clients
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if auClients.id}}
+    id="{{ auClients.id }}"
+  {{/if}}
+  data-about-cards-slider
+  {{#if auClients.title}}
+    aria-labelledby="{{#if auClients.id}}{{ auClients.id }}{{else}}section-about-clients{{/if}}-title"
+  {{else}}
+    aria-label="{{#if auClients.ariaLabel}}{{ auClients.ariaLabel }}{{else}}What this means for clients{{/if}}"
+  {{/if}}
+>
+  <div class="container">
+    {{#if auClients.title}}
+      <h2
+        id="{{#if auClients.id}}{{ auClients.id }}{{else}}section-about-clients{{/if}}-title"
+        class="section-about-clients__title"
+      >
+        {{{ auClients.title }}}
+      </h2>
+    {{/if}}
+
+    {{#if auClients.cards.length}}
+      <div class="section-about-clients__list-wrap">
+        <div
+          class="swiper section-about-clients__list"
+          data-about-cards-slider-el
+          data-about-cards-slider-label="{{#if auClients.carouselLabel}}{{ auClients.carouselLabel }}{{else}}{{ auClients.ariaLabel }}{{/if}}"
+        >
+          <div class="swiper-wrapper">
+            {{#each auClients.cards}}
+              <article class="swiper-slide section-about-clients__card">
+                {{#if icon}}
+                  <span class="section-about-clients__card-icon" aria-hidden="true">
+                    <img src="{{ icon }}" alt="" width="28" height="28" decoding="async" />
+                  </span>
+                {{/if}}
+
+                {{#if title}}
+                  <h3 class="section-about-clients__card-title">{{ title }}</h3>
+                {{/if}}
+
+                {{#if description}}
+                  <p class="section-about-clients__card-description">
+                    {{{ description }}}
+                  </p>
+                {{/if}}
+              </article>
+            {{/each}}
+          </div>
+        </div>
+
+        <div
+          class="section-about-clients__navigation"
+          role="group"
+          aria-label="Client benefits slider controls"
+          data-about-cards-slider-nav
+          inert
+        >
+          <div
+            class="swiper-scrollbar section-about-clients__scrollbar"
+            data-about-cards-slider-scrollbar
+            tabindex="0"
+            aria-label="Slider progress"
+          ></div>
+          <div class="section-about-clients__nav-buttons">
+            <button
+              class="swiper-button-prev section-about-clients__nav-btn prev"
+              type="button"
+              data-about-cards-slider-prev
+              aria-label="Previous slide"
+            >
+              {{> icon
+                name="arrow-right"
+                width="16"
+                height="16"
+              }}
+            </button>
+            <button
+              class="swiper-button-next section-about-clients__nav-btn next"
+              type="button"
+              data-about-cards-slider-next
+              aria-label="Next slide"
+            >
+              {{> icon
+                name="arrow-right"
+                width="16"
+                height="16"
+              }}
+            </button>
+          </div>
+        </div>
+      </div>
+    {{/if}}
+  </div>
+</section>

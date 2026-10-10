@@ -1,0 +1,136 @@
+<section
+  class="
+    section-about-members
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if auMembers.id}}
+    id="{{ auMembers.id }}"
+  {{/if}}
+  data-about-cards-slider
+  {{#if auMembers.title}}
+    aria-labelledby="{{#if auMembers.id}}{{ auMembers.id }}{{else}}section-about-members{{/if}}-title"
+  {{else}}
+    aria-label="{{#if auMembers.ariaLabel}}{{ auMembers.ariaLabel }}{{else}}For our member firms{{/if}}"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-about-members__header">
+      <div class="section-about-members__title-block">
+        {{#if auMembers.eyebrow}}
+          <p class="section-about-members__eyebrow">
+            <span class="section-about-members__eyebrow-rule" aria-hidden="true"></span>
+            <span>{{ auMembers.eyebrow }}</span>
+          </p>
+        {{/if}}
+
+        {{#if auMembers.title}}
+          <h2
+            id="{{#if auMembers.id}}{{ auMembers.id }}{{else}}section-about-members{{/if}}-title"
+            class="section-about-members__title"
+          >
+            {{{ auMembers.title }}}
+          </h2>
+        {{/if}}
+      </div>
+
+      {{#if auMembers.lead}}
+        <div class="section-about-members__intro">
+          <p class="section-about-members__lead">
+            {{{ auMembers.lead }}}
+          </p>
+        </div>
+      {{/if}}
+    </div>
+
+    {{#if auMembers.cards.length}}
+      <div class="section-about-members__list-wrap">
+        <div
+          class="swiper section-about-members__list"
+          data-about-cards-slider-el
+          data-about-cards-slider-label="{{#if auMembers.carouselLabel}}{{ auMembers.carouselLabel }}{{else}}{{ auMembers.ariaLabel }}{{/if}}"
+        >
+          <div class="swiper-wrapper">
+            {{#each auMembers.cards}}
+              <article
+                class="
+                  swiper-slide
+                  section-about-members__card
+                  {{#if dark}}
+                    section-about-members__card--dark
+                  {{/if}}
+                "
+              >
+                {{#if icon}}
+                  <span class="section-about-members__card-icon" aria-hidden="true">
+                    <img src="{{ icon }}" alt="" width="32" height="32" decoding="async" />
+                  </span>
+                {{/if}}
+
+                {{#if title}}
+                  <h3 class="section-about-members__card-title">
+                    {{{ title }}}
+                  </h3>
+                {{/if}}
+
+                {{#if description}}
+                  <p class="section-about-members__card-description">
+                    {{{ description }}}
+                  </p>
+                {{/if}}
+              </article>
+            {{/each}}
+          </div>
+        </div>
+
+        <div
+          class="section-about-members__navigation"
+          role="group"
+          aria-label="Member benefits slider controls"
+          data-about-cards-slider-nav
+          inert
+        >
+          <div
+            class="swiper-scrollbar section-about-members__scrollbar"
+            data-about-cards-slider-scrollbar
+            tabindex="0"
+            aria-label="Slider progress"
+          ></div>
+          <div class="section-about-members__nav-buttons">
+            <button
+              class="swiper-button-prev section-about-members__nav-btn prev"
+              type="button"
+              data-about-cards-slider-prev
+              aria-label="Previous slide"
+            >
+              {{> icon
+                name="arrow-right"
+                width="16"
+                height="16"
+              }}
+            </button>
+            <button
+              class="swiper-button-next section-about-members__nav-btn next"
+              type="button"
+              data-about-cards-slider-next
+              aria-label="Next slide"
+            >
+              {{> icon
+                name="arrow-right"
+                width="16"
+                height="16"
+              }}
+            </button>
+          </div>
+        </div>
+      </div>
+    {{/if}}
+
+    {{#if auMembers.statement}}
+      <p class="section-about-members__statement">
+        {{{ auMembers.statement }}}
+      </p>
+    {{/if}}
+  </div>
+</section>

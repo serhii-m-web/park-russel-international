@@ -1,0 +1,7 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Hub / London">
+<circle id="Halo" cx="16" cy="16" r="16" fill="#D71D36" fill-opacity="0.28"/>
+<circle id="Ring" cx="16" cy="16" r="8" fill="#D71D36" fill-opacity="0.45"/>
+<path id="Core" d="M20.25 16C20.25 18.3472 18.3472 20.25 16 20.25C13.6528 20.25 11.75 18.3472 11.75 16C11.75 13.6528 13.6528 11.75 16 11.75C18.3472 11.75 20.25 13.6528 20.25 16Z" fill="#D71D36" stroke-width="1.5" stroke="white"/>
+</g>
+</svg>

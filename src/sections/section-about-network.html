@@ -1,0 +1,119 @@
+<section
+  class="
+    section-about-network
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if auNetwork.id}}
+    id="{{ auNetwork.id }}"
+  {{/if}}
+  {{#if auNetwork.title}}
+    aria-labelledby="{{#if auNetwork.id}}{{ auNetwork.id }}{{else}}section-about-network{{/if}}-title"
+  {{else}}
+    aria-label="{{#if auNetwork.ariaLabel}}{{ auNetwork.ariaLabel }}{{else}}Independent firms{{/if}}"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-about-network__header">
+      {{#if auNetwork.title}}
+        <h2
+          id="{{#if auNetwork.id}}{{ auNetwork.id }}{{else}}section-about-network{{/if}}-title"
+          class="section-about-network__title"
+        >
+          {{{ auNetwork.title }}}
+        </h2>
+      {{/if}}
+
+      <div class="section-about-network__intro">
+        {{#if auNetwork.lead}}
+          <p class="section-about-network__lead">
+            {{{ auNetwork.lead }}}
+          </p>
+        {{/if}}
+
+        {{#if auNetwork.body}}
+          <p class="section-about-network__body">
+            {{{ auNetwork.body }}}
+          </p>
+        {{/if}}
+      </div>
+    </div>
+
+    <div class="section-about-network__member">
+      <div class="section-about-network__collage">
+        <span class="section-about-network__accent" aria-hidden="true"></span>
+
+        {{#if auNetwork.collage.primary}}
+          <div class="section-about-network__photo section-about-network__photo--primary">
+            {{picture
+              auNetwork.collage.primary.image
+              alt=auNetwork.collage.primary.alt
+              class="section-about-network__photo-media"
+              width="720"
+              height="560"
+            }}
+          </div>
+        {{/if}}
+
+        {{#if auNetwork.collage.secondary}}
+          <div class="section-about-network__photo section-about-network__photo--secondary">
+            {{picture
+              auNetwork.collage.secondary.image
+              alt=auNetwork.collage.secondary.alt
+              class="section-about-network__photo-media"
+              width="480"
+              height="360"
+            }}
+          </div>
+        {{/if}}
+      </div>
+
+      <div class="section-about-network__copy">
+        {{#if auNetwork.statement}}
+          <div class="section-about-network__statement">
+            <span class="section-about-network__rule" aria-hidden="true"></span>
+            <p class="section-about-network__statement-text">
+              {{{ auNetwork.statement }}}
+            </p>
+          </div>
+        {{/if}}
+
+        {{#if auNetwork.firmBody}}
+          <p class="section-about-network__firm-body">
+            {{{ auNetwork.firmBody }}}
+          </p>
+        {{/if}}
+      </div>
+    </div>
+
+    {{#if auNetwork.qualities}}
+      <div class="section-about-network__qualities">
+        <div class="section-about-network__qualities-copy">
+          {{#if auNetwork.qualities.label}}
+            <p class="section-about-network__qualities-label">
+              {{ auNetwork.qualities.label }}
+            </p>
+          {{/if}}
+          {{#if auNetwork.qualities.text}}
+            <p class="section-about-network__qualities-text">
+              {{{ auNetwork.qualities.text }}}
+            </p>
+          {{/if}}
+        </div>
+
+        {{#if auNetwork.qualities.image}}
+          <div class="section-about-network__qualities-media">
+            {{picture
+              auNetwork.qualities.image
+              alt=auNetwork.qualities.imageAlt
+              class="section-about-network__qualities-image"
+              width="640"
+              height="420"
+            }}
+          </div>
+        {{/if}}
+      </div>
+    {{/if}}
+  </div>
+</section>

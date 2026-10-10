@@ -1,0 +1,155 @@
+<section
+  class="
+    section-about-reach
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if auReach.id}}
+    id="{{ auReach.id }}"
+  {{/if}}
+  {{#if auReach.title}}
+    aria-labelledby="{{#if auReach.id}}{{ auReach.id }}{{else}}section-about-reach{{/if}}-title"
+  {{else}}
+    aria-label="{{#if auReach.ariaLabel}}{{ auReach.ariaLabel }}{{else}}Our international reach{{/if}}"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-about-reach__header">
+      {{#if auReach.title}}
+        <h2
+          id="{{#if auReach.id}}{{ auReach.id }}{{else}}section-about-reach{{/if}}-title"
+          class="section-about-reach__title"
+        >
+          {{{ auReach.title }}}
+        </h2>
+      {{/if}}
+
+      {{#if auReach.lead}}
+        <p class="section-about-reach__lead">
+          {{{ auReach.lead }}}
+        </p>
+      {{/if}}
+    </div>
+
+    {{#if auReach.map}}
+      <div class="section-about-reach__map" aria-hidden="true">
+        {{#if auReach.map.world}}
+          <img
+            class="section-about-reach__map-world"
+            src="{{ auReach.map.world }}"
+            alt=""
+            width="1200"
+            height="620"
+            decoding="async"
+          />
+        {{/if}}
+
+        {{#if auReach.map.connections}}
+          <img
+            class="section-about-reach__map-connections"
+            src="{{ auReach.map.connections }}"
+            alt=""
+            width="1200"
+            height="620"
+            decoding="async"
+          />
+        {{/if}}
+
+        {{#if auReach.map.hubs.length}}
+          <div class="section-about-reach__hubs">
+            {{#each auReach.map.hubs}}
+              <span
+                class="section-about-reach__hub"
+                style="left: {{ left }}; top: {{ top }};"
+                title="{{ label }}"
+              >
+                <img
+                  class="section-about-reach__hub-icon"
+                  src="{{ icon }}"
+                  alt=""
+                  width="32"
+                  height="32"
+                  decoding="async"
+                />
+                <span class="visually-hidden">{{ label }}</span>
+              </span>
+            {{/each}}
+          </div>
+        {{/if}}
+      </div>
+    {{/if}}
+
+    <div class="section-about-reach__band">
+      {{#if auReach.stats.length}}
+        <ul class="section-about-reach__stats">
+          {{#each auReach.stats}}
+            <li class="section-about-reach__stat">
+              <span class="section-about-reach__stat-rule" aria-hidden="true"></span>
+              <p class="section-about-reach__stat-figure">
+                <span class="section-about-reach__stat-value">{{ value }}</span>
+                <span class="section-about-reach__stat-label">{{ label }}</span>
+              </p>
+              {{#if description}}
+                <p class="section-about-reach__stat-description">
+                  {{{ description }}}
+                </p>
+              {{/if}}
+            </li>
+          {{/each}}
+        </ul>
+      {{/if}}
+
+      {{#if auReach.capabilities.length}}
+        <ul class="section-about-reach__capabilities">
+          {{#each auReach.capabilities}}
+            <li class="section-about-reach__capability">
+              {{#if icon}}
+                <span class="section-about-reach__capability-icon" aria-hidden="true">
+                  <img src="{{ icon }}" alt="" width="32" height="32" decoding="async" />
+                </span>
+              {{/if}}
+              <div class="section-about-reach__capability-content">
+                {{#if title}}
+                  <h3 class="section-about-reach__capability-title">
+                    {{{ title }}}
+                  </h3>
+                {{/if}}
+                {{#if description}}
+                  <p class="section-about-reach__capability-description">
+                    {{{ description }}}
+                  </p>
+                {{/if}}
+              </div>
+            </li>
+          {{/each}}
+        </ul>
+      {{/if}}
+    </div>
+
+    <div class="section-about-reach__footer">
+      {{#if auReach.footerStatement}}
+        <div class="section-about-reach__footer-statement">
+          <span class="section-about-reach__footer-rule" aria-hidden="true"></span>
+          <p class="section-about-reach__footer-text">
+            {{{ auReach.footerStatement }}}
+          </p>
+        </div>
+      {{/if}}
+
+      {{#if auReach.button}}
+        <a
+          class="section-about-reach__button site-button primary"
+          href="{{ auReach.button.href }}"
+        >
+          <span>{{ auReach.button.label }}</span>
+          {{> icon
+            name="arrow-right"
+            width="16"
+            height="16"
+          }}
+        </a>
+      {{/if}}
+    </div>
+  </div>
+</section>

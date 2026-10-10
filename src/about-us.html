@@ -1,0 +1,107 @@
+<!doctype html>
+<html id="top" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>
+      {{#if page.meta.title}}
+        {{ page.meta.title }}
+      {{else}}
+        {{ site.title }}
+      {{/if}}
+    </title>
+    <meta
+      name="description"
+      content="{{#if page.meta.description}}{{ page.meta.description }}{{else}}{{ site.description }}{{/if}}"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicon/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    {{> sprite}}
+    <a class="skip-link visually-hidden" href="#main-content">
+      Skip to content
+    </a>
+    {{> header}}
+    <main id="main-content" tabindex="-1">
+      {{> section-about-hero
+        auHero=page.auHero
+        sectionClass="au-hero"
+      }}
+      {{> section-about-network
+        auNetwork=page.auNetwork
+        sectionClass="au-network"
+      }}
+      {{> section-about-needs
+        auNeeds=page.auNeeds
+        sectionClass="au-needs"
+      }}
+      {{> section-about-local
+        auLocal=page.auLocal
+        sectionClass="au-local"
+      }}
+      {{> section-about-clients
+        auClients=page.auClients
+        sectionClass="au-clients"
+      }}
+      {{> section-about-standards
+        auStandards=page.auStandards
+        sectionClass="au-standards"
+      }}
+      {{> section-about-expertise
+        auExpertise=page.auExpertise
+        sectionClass="au-expertise"
+      }}
+      {{> section-about-independent
+        auIndependent=page.auIndependent
+        sectionClass="au-independent"
+      }}
+      {{> section-about-members
+        auMembers=page.auMembers
+        sectionClass="au-members"
+      }}
+      {{> section-about-reach
+        auReach=page.auReach
+        sectionClass="au-reach"
+      }}
+      {{> section-about-referral
+        auReferral=page.auReferral
+        sectionClass="au-referral"
+      }}
+      {{> section-about-why
+        auWhy=page.auWhy
+        sectionClass="au-why"
+      }}
+      {{> section-about-final
+        auFinal=page.auFinal
+        sectionClass="au-final"
+      }}
+    </main>
+    {{> footer}}
+    <script type="module" src="/ts/main.ts"></script>
+  </body>
+</html>

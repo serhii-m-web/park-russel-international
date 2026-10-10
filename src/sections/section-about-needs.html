@@ -1,0 +1,254 @@
+<section
+  class="
+    section-about-needs
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if auNeeds.id}}
+    id="{{ auNeeds.id }}"
+  {{/if}}
+  {{#if auNeeds.title}}
+    aria-labelledby="{{#if auNeeds.id}}{{ auNeeds.id }}{{else}}section-about-needs{{/if}}-title"
+  {{else}}
+    aria-label="{{#if auNeeds.ariaLabel}}{{ auNeeds.ariaLabel }}{{else}}International business needs{{/if}}"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-about-needs__header">
+      {{#if auNeeds.title}}
+        <h2
+          id="{{#if auNeeds.id}}{{ auNeeds.id }}{{else}}section-about-needs{{/if}}-title"
+          class="section-about-needs__title"
+        >
+          {{{ auNeeds.title }}}
+        </h2>
+      {{/if}}
+
+      <div class="section-about-needs__intro">
+        {{#if auNeeds.lead}}
+          <p class="section-about-needs__lead">
+            {{{ auNeeds.lead }}}
+          </p>
+        {{/if}}
+
+        {{#if auNeeds.body}}
+          <p class="section-about-needs__body">
+            {{{ auNeeds.body }}}
+          </p>
+        {{/if}}
+      </div>
+    </div>
+
+    {{#if auNeeds.scenarios.length}}
+      <div class="section-about-needs__scenarios" data-about-cards-slider>
+        <div
+          class="swiper section-about-needs__scenarios-list"
+          data-about-cards-slider-el
+          data-about-cards-slider-label="{{#if auNeeds.scenariosLabel}}{{ auNeeds.scenariosLabel }}{{else}}{{ auNeeds.ariaLabel }}{{/if}}"
+        >
+          <div class="swiper-wrapper">
+            {{#each auNeeds.scenarios}}
+              <article class="swiper-slide section-about-needs__scenario">
+                {{#if icon}}
+                  <span
+                    class="section-about-needs__scenario-icon"
+                    aria-hidden="true"
+                  >
+                    <img
+                      src="{{ icon }}"
+                      alt=""
+                      width="28"
+                      height="28"
+                      decoding="async"
+                    />
+                  </span>
+                {{/if}}
+                {{#if text}}
+                  <p class="section-about-needs__scenario-text">
+                    {{{ text }}}
+                  </p>
+                {{/if}}
+              </article>
+            {{/each}}
+          </div>
+        </div>
+
+        <div
+          class="section-about-needs__navigation"
+          role="group"
+          aria-label="Scenarios slider controls"
+          data-about-cards-slider-nav
+          inert
+        >
+          <div
+            class="swiper-scrollbar section-about-needs__scrollbar"
+            data-about-cards-slider-scrollbar
+            tabindex="0"
+            aria-label="Slider progress"
+          ></div>
+          <div class="section-about-needs__nav-buttons">
+            <button
+              class="swiper-button-prev section-about-needs__nav-btn prev"
+              type="button"
+              data-about-cards-slider-prev
+              aria-label="Previous slide"
+            >
+              {{> icon
+                name="arrow-right"
+                width="16"
+                height="16"
+              }}
+            </button>
+            <button
+              class="swiper-button-next section-about-needs__nav-btn next"
+              type="button"
+              data-about-cards-slider-next
+              aria-label="Next slide"
+            >
+              {{> icon
+                name="arrow-right"
+                width="16"
+                height="16"
+              }}
+            </button>
+          </div>
+        </div>
+      </div>
+    {{/if}}
+
+    {{#if auNeeds.capabilities}}
+      <div class="section-about-needs__capabilities">
+        {{#if auNeeds.capabilities.lead}}
+          <p class="section-about-needs__capabilities-lead">
+            {{{ auNeeds.capabilities.lead }}}
+          </p>
+        {{/if}}
+
+        {{#if auNeeds.capabilities.label}}
+          <p class="section-about-needs__capabilities-label">
+            {{ auNeeds.capabilities.label }}
+          </p>
+        {{/if}}
+
+        {{#if auNeeds.capabilities.items.length}}
+          <div
+            class="section-about-needs__capabilities-wrap"
+            data-about-cards-slider
+          >
+            <div
+              class="swiper section-about-needs__capabilities-list"
+              data-about-cards-slider-el
+              data-about-cards-slider-label="{{#if auNeeds.capabilities.carouselLabel}}{{ auNeeds.capabilities.carouselLabel }}{{else}}{{ auNeeds.ariaLabel }}{{/if}}"
+            >
+              <div class="swiper-wrapper">
+                {{#each auNeeds.capabilities.items}}
+                  <article class="swiper-slide section-about-needs__capability">
+                    <a
+                      class="section-about-needs__capability-link"
+                      href="{{#if href}}{{ href }}{{else}}#{{/if}}"
+                    >
+                      {{#if image}}
+                        {{picture
+                          image
+                          alt=""
+                          class="section-about-needs__capability-image"
+                          width="400"
+                          height="280"
+                        }}
+                        <span class="section-about-needs__capability-overlay"
+                        ></span>
+                      {{/if}}
+
+                      {{#if icon}}
+                        <span
+                          class="section-about-needs__capability-icon"
+                          aria-hidden="true"
+                        >
+                          <img
+                            src="{{ icon }}"
+                            alt=""
+                            width="22"
+                            height="22"
+                            decoding="async"
+                          />
+                        </span>
+                      {{/if}}
+
+                      <div class="section-about-needs__capability-footer">
+                        {{#if title}}
+                          <h3 class="section-about-needs__capability-title">
+                            {{ title }}
+                          </h3>
+                        {{/if}}
+                        <span
+                          class="section-about-needs__capability-arrow"
+                          aria-hidden="true"
+                        >
+                          {{> icon
+                            name="arrow-right"
+                            width="20"
+                            height="20"
+                          }}
+                        </span>
+                      </div>
+                    </a>
+                  </article>
+                {{/each}}
+              </div>
+            </div>
+
+            <div
+              class="section-about-needs__navigation section-about-needs__navigation--on-dark"
+              role="group"
+              aria-label="Capabilities slider controls"
+              data-about-cards-slider-nav
+              inert
+            >
+              <div
+                class="swiper-scrollbar section-about-needs__scrollbar"
+                data-about-cards-slider-scrollbar
+                tabindex="0"
+                aria-label="Slider progress"
+              ></div>
+              <div class="section-about-needs__nav-buttons">
+                <button
+                  class="swiper-button-prev section-about-needs__nav-btn prev"
+                  type="button"
+                  data-about-cards-slider-prev
+                  aria-label="Previous slide"
+                >
+                  {{> icon
+                    name="arrow-right"
+                    width="16"
+                    height="16"
+                  }}
+                </button>
+                <button
+                  class="swiper-button-next section-about-needs__nav-btn next"
+                  type="button"
+                  data-about-cards-slider-next
+                  aria-label="Next slide"
+                >
+                  {{> icon
+                    name="arrow-right"
+                    width="16"
+                    height="16"
+                  }}
+                </button>
+              </div>
+            </div>
+          </div>
+        {{/if}}
+
+        {{#if auNeeds.statement}}
+          <div class="section-about-needs__statement">
+            <p class="section-about-needs__statement-text">
+              {{{ auNeeds.statement }}}
+            </p>
+          </div>
+        {{/if}}
+      </div>
+    {{/if}}
+  </div>
+</section>

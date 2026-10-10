@@ -1,0 +1,424 @@
+{
+  "meta": {
+    "title": "About Us | Parker Russell International",
+    "description": "Parker Russell International is a global network of independent audit, tax, advisory and professional services firms — local expertise connected internationally."
+  },
+  "auHero": {
+    "id": "au-hero",
+    "ariaLabel": "About Parker Russell International",
+    "breadcrumb": [
+      { "label": "Home", "href": "index.html" },
+      { "label": "About Us" }
+    ],
+    "label": "About Parker Russell International",
+    "imageBg": "/images/about-us/hero-bg.jpg",
+    "imageLoading": "eager",
+    "title": "Local Expertise. Connected Internationally.",
+    "description": "Parker Russell International is a global network of independent audit, tax, advisory and professional services firms.",
+    "note": "Our strength comes from bringing together established firms with deep knowledge of their local markets and connecting that expertise across borders.",
+    "buttons": [
+      {
+        "label": "Find a Member Firm",
+        "href": "#",
+        "variant": "primary",
+        "icon": true
+      },
+      {
+        "label": "Join Parker Russell International",
+        "href": "#",
+        "variant": "secondary",
+        "icon": true
+      }
+    ],
+    "audience": [
+      {
+        "icon": "/icons/about-us/icon-groups.svg",
+        "text": "<span class=\"is-emphasis\">For clients,</span> <span class=\"is-muted\">this means access to professionals who understand the jurisdiction in which they operate while remaining connected to expertise in the markets where their businesses invest, trade and grow.</span>"
+      },
+      {
+        "icon": "/icons/about-us/icon-domain.svg",
+        "text": "<span class=\"is-emphasis\">For our member firms,</span> <span class=\"is-muted\">it means retaining the independence, relationships and market knowledge that made them successful while gaining the reach, resources and professional community of an international network.</span>"
+      }
+    ]
+  },
+  "auNetwork": {
+    "id": "au-network",
+    "ariaLabel": "Independent firms, one international network",
+    "title": "Independent Firms. One International Network.",
+    "lead": "International business requires local knowledge.",
+    "body": "Tax systems, regulation, reporting requirements, commercial practice and business culture differ from one market to another. Effective professional advice therefore needs to be grounded in the jurisdiction where decisions are being made.",
+    "collage": {
+      "primary": {
+        "image": "/images/about-us/local-market.jpg",
+        "alt": "Local market skyline"
+      },
+      "secondary": {
+        "image": "/images/about-us/client-relationships.jpg",
+        "alt": "Client relationship handshake"
+      }
+    },
+    "statement": "<span class=\"is-muted\">That is why Parker Russell International is built around </span><span class=\"is-emphasis\">strong independent member firms.</span>",
+    "firmBody": "Each firm brings its own local expertise, leadership and client relationships. The network connects those capabilities internationally, allowing members to collaborate where clients require expertise across more than one market.",
+    "qualities": {
+      "label": "The result is a model that combines two important qualities:",
+      "text": "the depth of local professional knowledge <span class=\"is-red\">and the reach of an international organisation.</span>",
+      "image": "/images/about-us/international-reach.jpg",
+      "imageAlt": "International reach from an aircraft window"
+    }
+  },
+  "auNeeds": {
+    "id": "au-needs",
+    "ariaLabel": "Built around the needs of international business",
+    "title": "Built Around the Needs of International Business",
+    "lead": "A company expanding internationally rarely faces one isolated question.",
+    "body": "Entering a new market can involve taxation, entity structuring, financial reporting, transfer pricing, transactions, regulatory requirements and local compliance at the same time.",
+    "scenariosLabel": "International business scenarios",
+    "scenarios": [
+      {
+        "icon": "/icons/about-us/icon-apartment.svg",
+        "text": "An acquisition may require advisers in several jurisdictions."
+      },
+      {
+        "icon": "/icons/about-us/icon-account-tree.svg",
+        "text": "An international group may need audit, tax and corporate support across multiple entities."
+      },
+      {
+        "icon": "/icons/about-us/icon-travel-explore.svg",
+        "text": "An investor may need local expertise in a market they have never entered before."
+      }
+    ],
+    "capabilities": {
+      "lead": "Parker Russell member firms work together so that these requirements can be addressed within the wider context of the client's business.",
+      "label": "Our international capabilities span:",
+      "carouselLabel": "International capabilities",
+      "items": [
+        {
+          "image": "/images/about-us/cap-assurance.jpg",
+          "icon": "/icons/about-us/icon-verified-user.svg",
+          "title": "Assurance",
+          "href": "assurance.html"
+        },
+        {
+          "image": "/images/about-us/cap-tax-legal.jpg",
+          "icon": "/icons/about-us/icon-gavel.svg",
+          "title": "Tax & Legal",
+          "href": "tax-legal.html"
+        },
+        {
+          "image": "/images/about-us/cap-corporate.jpg",
+          "icon": "/icons/about-us/icon-handshake.svg",
+          "title": "Corporate Services",
+          "href": "corporate-services.html"
+        },
+        {
+          "image": "/images/about-us/cap-transfer-pricing.jpg",
+          "icon": "/icons/about-us/icon-swap-horiz.svg",
+          "title": "Transfer Pricing",
+          "href": "transfer-pricing.html"
+        },
+        {
+          "image": "/images/about-us/cap-financial-advisory.jpg",
+          "icon": "/icons/about-us/icon-monitoring.svg",
+          "title": "Financial Advisory",
+          "href": "financial-advisory.html"
+        },
+        {
+          "image": "/images/about-us/cap-cross-border.jpg",
+          "icon": "/icons/about-us/icon-travel-explore.svg",
+          "title": "Cross-border and international assignments",
+          "href": "#"
+        }
+      ]
+    },
+    "statement": "<span class=\"is-muted\">The service may be delivered locally. </span><span class=\"is-emphasis\">The thinking behind it can be international.</span>"
+  },
+  "auLocal": {
+    "id": "au-local",
+    "ariaLabel": "Local knowledge matters",
+    "title": "Local Knowledge Matters",
+    "lead": "Global reach has little value without understanding what happens on the ground.",
+    "bodies": [
+      "Our member firms know their local regulatory environments, tax systems, commercial practices and professional standards because they work within them every day.",
+      "That local knowledge allows clients to receive advice relevant to the market in which they are actually operating rather than generic international guidance applied from a distance."
+    ],
+    "emphasis": "Where several jurisdictions are involved, firms can work together around the same wider objective.",
+    "image": "/images/about-us/local-professionals.jpg",
+    "imageAlt": "Local professionals collaborating",
+    "banner": {
+      "imageBg": "/images/about-us/local-statement-bg.jpg",
+      "icon": "/icons/about-us/icon-assurance.svg",
+      "text": "<span class=\"is-emphasis\">Local expertise remains local. </span><span class=\"is-muted\">International capability connects it.</span>"
+    }
+  },
+  "auClients": {
+    "id": "au-clients",
+    "ariaLabel": "What this means for clients",
+    "title": "What This Means for Clients",
+    "carouselLabel": "Client benefits",
+    "cards": [
+      {
+        "icon": "/icons/about-us/icon-visibility.svg",
+        "title": "One Wider View of the Business",
+        "description": "International assignments often involve several advisers. Parker Russell helps connect those requirements so that decisions made in one jurisdiction can be considered alongside their potential impact elsewhere."
+      },
+      {
+        "icon": "/icons/about-us/icon-location.svg",
+        "title": "Access to Local Specialists",
+        "description": "Clients can access professionals with direct knowledge of the markets in which they operate, invest or expand."
+      },
+      {
+        "icon": "/icons/about-us/icon-diversity.svg",
+        "title": "Broader Expertise When It Is Needed",
+        "description": "A member firm can draw upon capabilities within the wider network when an assignment requires expertise beyond its own jurisdiction or specialist field."
+      },
+      {
+        "icon": "/icons/about-us/icon-all-inclusive.svg",
+        "title": "Continuity as Businesses Grow",
+        "description": "A company may begin with one market and later expand into several. The network structure means the professional relationship does not need to start again every time the geography changes."
+      },
+      {
+        "icon": "/icons/about-us/icon-person.svg",
+        "title": "Senior Professional Relationships",
+        "description": "Our model is built around member firms where experienced professionals remain closely involved in client relationships and significant engagements. For businesses managing important financial decisions, that continuity matters."
+      }
+    ]
+  },
+  "auStandards": {
+    "id": "au-standards",
+    "ariaLabel": "A network built on standards",
+    "image": "/images/about-us/standards.jpg",
+    "imageAlt": "Professional standards and quality",
+    "title": "A Network Built on Standards, Not Simply Geography",
+    "pullQuote": "<span class=\"is-muted\">International presence alone does not create a strong professional network.</span><br>The quality of the firms within it does.",
+    "body": "Parker Russell International selects member firms against professional and organisational requirements that consider factors including <span class=\"is-emphasis\">reputation, quality of practice, technical capability and market presence</span>. Members are expected to continue meeting the standards required by the network.",
+    "principle": {
+      "icon": "/icons/about-us/icon-workspace-premium.svg",
+      "text": "This approach is fundamental to the Parker Russell model."
+    },
+    "objective": {
+      "not": {
+        "icon": "/icons/about-us/icon-not.svg",
+        "text": "The objective is not simply to increase the number of locations carrying the name."
+      },
+      "is": {
+        "icon": "/icons/about-us/icon-is.svg",
+        "text": "It is to build a network of firms capable of representing Parker Russell professionally within their own markets and working effectively with other members internationally."
+      }
+    }
+  },
+  "auExpertise": {
+    "id": "au-expertise",
+    "ariaLabel": "Connected expertise",
+    "title": "Connected Expertise",
+    "lead": "The network provides a platform through which member firms can exchange knowledge, collaborate on international assignments and draw upon expertise from across the organisation.",
+    "image": "/images/about-us/collaborating.jpg",
+    "imageAlt": "Professionals collaborating",
+    "areasLabel": "This collaboration can become particularly valuable in areas such as:",
+    "areas": [
+      { "number": "01", "title": "international taxation;" },
+      { "number": "02", "title": "audit and assurance;" },
+      { "number": "03", "title": "transfer pricing;" },
+      { "number": "04", "title": "cross-border transactions;" },
+      { "number": "05", "title": "business valuations;" },
+      { "number": "06", "title": "financial due diligence;" },
+      { "number": "07", "title": "corporate restructuring;" },
+      { "number": "08", "title": "international expansion;" },
+      { "number": "09", "title": "capital markets;" },
+      { "number": "10", "title": "specialist industry assignments." }
+    ],
+    "conclusion": "When a client's requirements move beyond one jurisdiction, the network creates the connections required to bring the right professionals into the conversation."
+  },
+  "auIndependent": {
+    "id": "au-independent",
+    "ariaLabel": "Stronger together, independent by design",
+    "title": "Stronger Together. Independent by Design.",
+    "lead": "Parker Russell International is not a single multinational partnership.",
+    "body": "Its member firms are legally independent organisations responsible for their own professional services and client engagements, while Parker Russell International Limited acts as the coordinating entity for the network.",
+    "emphasis": "We see that independence as a strength.",
+    "bodies": [
+      "Successful professional firms understand their own markets, clients and people.",
+      "Joining an international network should strengthen those capabilities — not replace the identity and relationships that made the firm successful."
+    ],
+    "conclusion": "Parker Russell enables independent firms to remain locally led while participating in something larger.",
+    "image": "/images/about-us/independent-network.jpg",
+    "imageAlt": "Independent firms, one network"
+  },
+  "auMembers": {
+    "id": "au-members",
+    "ariaLabel": "For our member firms",
+    "eyebrow": "For Our Member Firms",
+    "title": "International Reach Without Losing Independence",
+    "lead": "Membership gives firms the ability to extend their international capability while retaining control of their local businesses.",
+    "carouselLabel": "Member firm benefits",
+    "cards": [
+      {
+        "icon": "/icons/about-us/icon-travel-explore.svg",
+        "title": "Cross-Border Opportunities",
+        "description": "Members can collaborate on international client assignments and develop relationships with firms across other markets."
+      },
+      {
+        "icon": "/icons/about-us/icon-diversity.svg",
+        "title": "Wider Professional Expertise",
+        "description": "The network connects firms with professionals working across different technical disciplines, industries and jurisdictions."
+      },
+      {
+        "icon": "/icons/about-us/icon-badge.svg",
+        "title": "International Brand",
+        "description": "Membership provides association with a recognised international professional network while allowing firms to retain their local market expertise."
+      },
+      {
+        "icon": "/icons/about-us/icon-forum.svg",
+        "title": "Knowledge & Collaboration",
+        "description": "Technical committees, network initiatives and member relationships create opportunities to exchange knowledge, discuss emerging issues and strengthen professional capability."
+      },
+      {
+        "icon": "/icons/about-us/icon-groups.svg",
+        "title": "A Global Professional Community",
+        "description": "Perhaps most importantly, Parker Russell connects firms with peers who understand the challenges of building and leading professional services organisations.",
+        "dark": true
+      }
+    ],
+    "statement": "<span class=\"is-muted\">Membership is not simply about appearing on an international map.</span><br>It is about becoming part of a network that can create opportunities neither the individual firm nor the network could achieve as effectively alone."
+  },
+  "auReach": {
+    "id": "au-reach",
+    "ariaLabel": "Our international reach",
+    "title": "Our International Reach",
+    "lead": "Parker Russell International connects independent professional firms across major business regions worldwide.",
+    "map": {
+      "world": "/images/about-us/world-map.svg",
+      "connections": "/images/about-us/map-connections.svg",
+      "hubs": [
+        { "label": "London", "icon": "/icons/about-us/hub-primary.svg", "left": "48.75%", "top": "17.48%" },
+        { "label": "New York", "icon": "/icons/about-us/hub-secondary.svg", "left": "28.22%", "top": "25.29%" },
+        { "label": "Toronto", "icon": "/icons/about-us/hub-secondary.svg", "left": "26.72%", "top": "23.12%" },
+        { "label": "Mexico City", "icon": "/icons/about-us/hub-secondary.svg", "left": "21.25%", "top": "40.74%" },
+        { "label": "São Paulo", "icon": "/icons/about-us/hub-secondary.svg", "left": "35.84%", "top": "71.81%" },
+        { "label": "Frankfurt", "icon": "/icons/about-us/hub-secondary.svg", "left": "51.20%", "top": "18.49%" },
+        { "label": "Lagos", "icon": "/icons/about-us/hub-secondary.svg", "left": "49.73%", "top": "50.08%" },
+        { "label": "Johannesburg", "icon": "/icons/about-us/hub-secondary.svg", "left": "56.55%", "top": "73.78%" },
+        { "label": "Dubai", "icon": "/icons/about-us/hub-secondary.svg", "left": "64.14%", "top": "36.52%" },
+        { "label": "Mumbai", "icon": "/icons/about-us/hub-secondary.svg", "left": "69.00%", "top": "41.01%" },
+        { "label": "Singapore", "icon": "/icons/about-us/hub-secondary.svg", "left": "77.61%", "top": "53.82%" },
+        { "label": "Hong Kong", "icon": "/icons/about-us/hub-secondary.svg", "left": "80.50%", "top": "38.63%" },
+        { "label": "Tokyo", "icon": "/icons/about-us/hub-secondary.svg", "left": "87.58%", "top": "28.93%" },
+        { "label": "Sydney", "icon": "/icons/about-us/hub-secondary.svg", "left": "90.78%", "top": "79.36%" }
+      ]
+    },
+    "stats": [
+      {
+        "value": "86",
+        "label": "Countries",
+        "description": "Local expertise across an established international footprint."
+      },
+      {
+        "value": "180+",
+        "label": "Offices",
+        "description": "Professionals positioned close to the businesses, markets and communities they serve."
+      }
+    ],
+    "capabilities": [
+      {
+        "icon": "/icons/about-us/icon-public.svg",
+        "title": "Global Expertise",
+        "description": "Audit, tax, advisory and specialist capabilities across multiple sectors and jurisdictions."
+      },
+      {
+        "icon": "/icons/about-us/icon-hub.svg",
+        "title": "Connected Network",
+        "description": "Member firms collaborating across borders when clients, investments and transactions extend beyond one market."
+      }
+    ],
+    "footerStatement": "Our international reach allows clients to access locally based professionals while benefiting from the wider knowledge and capabilities of the network.",
+    "button": {
+      "label": "Explore Our Member Firms",
+      "href": "#"
+    }
+  },
+  "auReferral": {
+    "id": "au-referral",
+    "ariaLabel": "More than a referral network",
+    "title": "More Than a Referral Network",
+    "lead": "A strong international network should do more than introduce one firm to another.",
+    "body": "It should make collaboration easier, strengthen professional capability and help member firms serve increasingly international clients with greater confidence.",
+    "infrastructure": {
+      "icon": "/icons/about-us/icon-account-tree.svg",
+      "text": "Parker Russell International provides the structure through which independent firms can share expertise, coordinate international work and develop common approaches in areas including strategy, brand, risk and quality.",
+      "emphasis": "That infrastructure helps transform geographic reach into practical professional capability."
+    },
+    "statement": {
+      "image": "/images/about-us/referral-statement.jpg",
+      "imageAlt": "Professionals collaborating across the network",
+      "text": "<span class=\"is-muted\">Because for the client, the number of countries on a map is not the real measure of an international network.</span><br>What matters is whether those firms can work together when the client needs them to."
+    }
+  },
+  "auWhy": {
+    "id": "au-why",
+    "ariaLabel": "Why Parker Russell International",
+    "title": "Why Parker Russell International?",
+    "iconAccent": "/icons/about-us/pillar-accent.svg",
+    "pillars": [
+      {
+        "number": "01.",
+        "title": "Local Authority",
+        "description": "Our member firms understand the markets in which they operate because they are established within them."
+      },
+      {
+        "number": "02.",
+        "title": "International Capability",
+        "description": "Clients can access expertise beyond a single jurisdiction when their businesses, investments or transactions cross borders."
+      },
+      {
+        "number": "03.",
+        "title": "Independent Relationships",
+        "description": "Member firms retain the personal relationships, accountability and entrepreneurial culture of independent professional practices."
+      },
+      {
+        "number": "04.",
+        "title": "Professional Standards",
+        "description": "Membership is based on defined requirements and an ongoing commitment to the standards of the Parker Russell network."
+      },
+      {
+        "number": "05.",
+        "title": "Connected Expertise",
+        "description": "The network creates access to people, knowledge and technical capability across multiple disciplines and markets."
+      },
+      {
+        "number": "06.",
+        "title": "Built for Long-Term Relationships",
+        "description": "Our structure allows clients and member firms to build relationships that can develop as businesses, markets and professional requirements evolve."
+      }
+    ]
+  },
+  "auFinal": {
+    "id": "au-final",
+    "ariaLabel": "International reach, local responsibility",
+    "imageBg": "/images/about-us/final-cta-bg.jpg",
+    "title": "International Reach. <span class=\"is-muted\">Local Responsibility.</span>",
+    "description": "Businesses increasingly operate across borders, but the most important professional relationships remain personal.",
+    "tagline": "Parker Russell International brings those two realities together.",
+    "body": "We connect independent firms with international capability while preserving the local expertise, professional responsibility and close client relationships on which trusted advice depends.",
+    "audience": [
+      {
+        "text": "<span class=\"is-emphasis\">For clients,</span> <span class=\"is-muted\">that creates access to the right expertise wherever business takes them.</span>"
+      },
+      {
+        "text": "<span class=\"is-emphasis\">For member firms,</span> <span class=\"is-muted\">it creates a platform to extend their capabilities, serve clients internationally and grow alongside a global professional community.</span>"
+      }
+    ],
+    "buttons": [
+      {
+        "label": "Find a Member Firm",
+        "href": "#",
+        "variant": "primary",
+        "icon": true
+      },
+      {
+        "label": "Join Parker Russell International",
+        "href": "#",
+        "variant": "secondary",
+        "icon": true
+      }
+    ]
+  }
+}

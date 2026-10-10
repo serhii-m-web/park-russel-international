@@ -1,0 +1,99 @@
+<section
+  class="
+    section-about-local
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if auLocal.id}}
+    id="{{ auLocal.id }}"
+  {{/if}}
+  {{#if auLocal.title}}
+    aria-labelledby="{{#if auLocal.id}}{{ auLocal.id }}{{else}}section-about-local{{/if}}-title"
+  {{else}}
+    aria-label="{{#if auLocal.ariaLabel}}{{ auLocal.ariaLabel }}{{else}}Local knowledge{{/if}}"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-about-local__layout">
+      {{#if auLocal.image}}
+        <div class="section-about-local__media">
+          {{picture
+            auLocal.image
+            alt=auLocal.imageAlt
+            class="section-about-local__image"
+            width="480"
+            height="420"
+          }}
+        </div>
+      {{/if}}
+
+      <div class="section-about-local__copy">
+        {{#if auLocal.title}}
+          <h2
+            id="{{#if auLocal.id}}{{ auLocal.id }}{{else}}section-about-local{{/if}}-title"
+            class="section-about-local__title"
+          >
+            {{{ auLocal.title }}}
+          </h2>
+        {{/if}}
+
+        {{#if auLocal.lead}}
+          <p class="section-about-local__lead">
+            {{{ auLocal.lead }}}
+          </p>
+        {{/if}}
+
+        {{#if auLocal.bodies.length}}
+          {{#each auLocal.bodies}}
+            <p class="section-about-local__body">
+              {{{ this }}}
+            </p>
+          {{/each}}
+        {{/if}}
+
+        {{#if auLocal.emphasis}}
+          <p class="section-about-local__emphasis">
+            {{{ auLocal.emphasis }}}
+          </p>
+        {{/if}}
+      </div>
+    </div>
+
+    {{#if auLocal.banner}}
+      <div class="section-about-local__banner">
+        {{#if auLocal.banner.imageBg}}
+          <div class="section-about-local__banner-bg" aria-hidden="true">
+            {{picture
+              auLocal.banner.imageBg
+              alt=""
+              class="section-about-local__banner-image"
+              width="1280"
+              height="360"
+            }}
+          </div>
+        {{/if}}
+
+        <div class="section-about-local__banner-content">
+          {{#if auLocal.banner.icon}}
+            <span class="section-about-local__banner-icon" aria-hidden="true">
+              <img
+                src="{{ auLocal.banner.icon }}"
+                alt=""
+                width="64"
+                height="64"
+                decoding="async"
+              />
+            </span>
+          {{/if}}
+
+          {{#if auLocal.banner.text}}
+            <p class="section-about-local__banner-text">
+              {{{ auLocal.banner.text }}}
+            </p>
+          {{/if}}
+        </div>
+      </div>
+    {{/if}}
+  </div>
+</section>

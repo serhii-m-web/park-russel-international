@@ -1,0 +1,80 @@
+<section
+  class="
+    section-about-independent
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if auIndependent.id}}
+    id="{{ auIndependent.id }}"
+  {{/if}}
+  {{#if auIndependent.title}}
+    aria-labelledby="{{#if auIndependent.id}}{{ auIndependent.id }}{{else}}section-about-independent{{/if}}-title"
+  {{else}}
+    aria-label="{{#if auIndependent.ariaLabel}}{{ auIndependent.ariaLabel }}{{else}}Stronger together{{/if}}"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-about-independent__layout">
+      {{#if auIndependent.image}}
+        <div class="section-about-independent__media">
+          {{picture
+            auIndependent.image
+            alt=auIndependent.imageAlt
+            class="section-about-independent__image"
+            width="720"
+            height="640"
+          }}
+        </div>
+      {{/if}}
+
+      <div class="section-about-independent__copy">
+        {{#if auIndependent.title}}
+          <h2
+            id="{{#if auIndependent.id}}{{ auIndependent.id }}{{else}}section-about-independent{{/if}}-title"
+            class="section-about-independent__title"
+          >
+            {{{ auIndependent.title }}}
+          </h2>
+        {{/if}}
+
+        {{#if auIndependent.lead}}
+          <p class="section-about-independent__lead">
+            {{{ auIndependent.lead }}}
+          </p>
+        {{/if}}
+
+        {{#if auIndependent.body}}
+          <p class="section-about-independent__body">
+            {{{ auIndependent.body }}}
+          </p>
+        {{/if}}
+
+        {{#if auIndependent.emphasis}}
+          <div class="section-about-independent__emphasis">
+            <span class="section-about-independent__emphasis-rule" aria-hidden="true"></span>
+            <p class="section-about-independent__emphasis-text">
+              {{{ auIndependent.emphasis }}}
+            </p>
+          </div>
+        {{/if}}
+
+        {{#if auIndependent.bodies.length}}
+          <div class="section-about-independent__bodies">
+            {{#each auIndependent.bodies}}
+              <p class="section-about-independent__body-item">
+                {{{ this }}}
+              </p>
+            {{/each}}
+          </div>
+        {{/if}}
+
+        {{#if auIndependent.conclusion}}
+          <p class="section-about-independent__conclusion">
+            {{{ auIndependent.conclusion }}}
+          </p>
+        {{/if}}
+      </div>
+    </div>
+  </div>
+</section>

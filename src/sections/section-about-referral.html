@@ -1,0 +1,96 @@
+<section
+  class="
+    section-about-referral
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if auReferral.id}}
+    id="{{ auReferral.id }}"
+  {{/if}}
+  {{#if auReferral.title}}
+    aria-labelledby="{{#if auReferral.id}}{{ auReferral.id }}{{else}}section-about-referral{{/if}}-title"
+  {{else}}
+    aria-label="{{#if auReferral.ariaLabel}}{{ auReferral.ariaLabel }}{{else}}More than a referral network{{/if}}"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-about-referral__header">
+      {{#if auReferral.title}}
+        <h2
+          id="{{#if auReferral.id}}{{ auReferral.id }}{{else}}section-about-referral{{/if}}-title"
+          class="section-about-referral__title"
+        >
+          {{{ auReferral.title }}}
+        </h2>
+      {{/if}}
+
+      <div class="section-about-referral__intro">
+        {{#if auReferral.lead}}
+          <p class="section-about-referral__lead">
+            {{{ auReferral.lead }}}
+          </p>
+        {{/if}}
+
+        {{#if auReferral.body}}
+          <p class="section-about-referral__body">
+            {{{ auReferral.body }}}
+          </p>
+        {{/if}}
+      </div>
+    </div>
+
+    <div class="section-about-referral__cards">
+      {{#if auReferral.infrastructure}}
+        <div class="section-about-referral__infrastructure">
+          {{#if auReferral.infrastructure.icon}}
+            <span class="section-about-referral__infrastructure-icon" aria-hidden="true">
+              <img
+                src="{{ auReferral.infrastructure.icon }}"
+                alt=""
+                width="32"
+                height="32"
+                decoding="async"
+              />
+            </span>
+          {{/if}}
+
+          {{#if auReferral.infrastructure.text}}
+            <p class="section-about-referral__infrastructure-text">
+              {{{ auReferral.infrastructure.text }}}
+            </p>
+          {{/if}}
+
+          {{#if auReferral.infrastructure.emphasis}}
+            <p class="section-about-referral__infrastructure-emphasis">
+              {{{ auReferral.infrastructure.emphasis }}}
+            </p>
+          {{/if}}
+        </div>
+      {{/if}}
+
+      {{#if auReferral.statement}}
+        <div class="section-about-referral__statement">
+          {{#if auReferral.statement.image}}
+            <div class="section-about-referral__statement-bg" aria-hidden="true">
+              {{picture
+                auReferral.statement.image
+                alt=""
+                class="section-about-referral__statement-image"
+                width="720"
+                height="480"
+              }}
+            </div>
+          {{/if}}
+
+          <span class="section-about-referral__statement-rule" aria-hidden="true"></span>
+          {{#if auReferral.statement.text}}
+            <p class="section-about-referral__statement-text">
+              {{{ auReferral.statement.text }}}
+            </p>
+          {{/if}}
+        </div>
+      {{/if}}
+    </div>
+  </div>
+</section>

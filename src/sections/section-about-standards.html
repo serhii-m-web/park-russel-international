@@ -1,0 +1,126 @@
+<section
+  class="
+    section-about-standards
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if auStandards.id}}
+    id="{{ auStandards.id }}"
+  {{/if}}
+  {{#if auStandards.title}}
+    aria-labelledby="{{#if auStandards.id}}{{ auStandards.id }}{{else}}section-about-standards{{/if}}-title"
+  {{else}}
+    aria-label="{{#if auStandards.ariaLabel}}{{ auStandards.ariaLabel }}{{else}}Network standards{{/if}}"
+  {{/if}}
+>
+  <div class="section-about-standards__split">
+    {{#if auStandards.image}}
+      <div class="section-about-standards__media">
+        {{picture
+          auStandards.image
+          alt=auStandards.imageAlt
+          class="section-about-standards__image"
+          width="600"
+          height="815"
+        }}
+        <span class="section-about-standards__media-fade" aria-hidden="true"></span>
+      </div>
+    {{/if}}
+
+    <div class="section-about-standards__copy">
+      {{#if auStandards.title}}
+        <h2
+          id="{{#if auStandards.id}}{{ auStandards.id }}{{else}}section-about-standards{{/if}}-title"
+          class="section-about-standards__title"
+        >
+          {{{ auStandards.title }}}
+        </h2>
+      {{/if}}
+
+      {{#if auStandards.pullQuote}}
+        <blockquote class="section-about-standards__pull-quote">
+          <span class="section-about-standards__pull-bar" aria-hidden="true"></span>
+          <p class="section-about-standards__pull-text">
+            {{{ auStandards.pullQuote }}}
+          </p>
+        </blockquote>
+      {{/if}}
+
+      {{#if auStandards.body}}
+        <p class="section-about-standards__body">
+          {{{ auStandards.body }}}
+        </p>
+      {{/if}}
+
+      {{#if auStandards.principle}}
+        <div class="section-about-standards__principle">
+          {{#if auStandards.principle.icon}}
+            <span class="section-about-standards__principle-icon" aria-hidden="true">
+              <img
+                src="{{ auStandards.principle.icon }}"
+                alt=""
+                width="28"
+                height="28"
+                decoding="async"
+              />
+            </span>
+          {{/if}}
+          {{#if auStandards.principle.text}}
+            <p class="section-about-standards__principle-text">
+              {{{ auStandards.principle.text }}}
+            </p>
+          {{/if}}
+        </div>
+      {{/if}}
+    </div>
+  </div>
+
+  {{#if auStandards.objective}}
+    <div class="container">
+      <div class="section-about-standards__objective">
+        {{#if auStandards.objective.not}}
+          <div class="section-about-standards__objective-item section-about-standards__objective-item--not">
+            {{#if auStandards.objective.not.icon}}
+              <span class="section-about-standards__objective-icon" aria-hidden="true">
+                <img
+                  src="{{ auStandards.objective.not.icon }}"
+                  alt=""
+                  width="40"
+                  height="40"
+                  decoding="async"
+                />
+              </span>
+            {{/if}}
+            {{#if auStandards.objective.not.text}}
+              <p class="section-about-standards__objective-text">
+                {{{ auStandards.objective.not.text }}}
+              </p>
+            {{/if}}
+          </div>
+        {{/if}}
+
+        {{#if auStandards.objective.is}}
+          <div class="section-about-standards__objective-item section-about-standards__objective-item--is">
+            {{#if auStandards.objective.is.icon}}
+              <span class="section-about-standards__objective-icon" aria-hidden="true">
+                <img
+                  src="{{ auStandards.objective.is.icon }}"
+                  alt=""
+                  width="40"
+                  height="40"
+                  decoding="async"
+                />
+              </span>
+            {{/if}}
+            {{#if auStandards.objective.is.text}}
+              <p class="section-about-standards__objective-text">
+                {{{ auStandards.objective.is.text }}}
+              </p>
+            {{/if}}
+          </div>
+        {{/if}}
+      </div>
+    </div>
+  {{/if}}
+</section>

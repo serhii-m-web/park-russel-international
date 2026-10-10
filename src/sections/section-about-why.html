@@ -1,0 +1,63 @@
+<section
+  class="
+    section-about-why
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if auWhy.id}}
+    id="{{ auWhy.id }}"
+  {{/if}}
+  {{#if auWhy.title}}
+    aria-labelledby="{{#if auWhy.id}}{{ auWhy.id }}{{else}}section-about-why{{/if}}-title"
+  {{else}}
+    aria-label="{{#if auWhy.ariaLabel}}{{ auWhy.ariaLabel }}{{else}}Why Parker Russell International{{/if}}"
+  {{/if}}
+>
+  <div class="container">
+    {{#if auWhy.title}}
+      <h2
+        id="{{#if auWhy.id}}{{ auWhy.id }}{{else}}section-about-why{{/if}}-title"
+        class="section-about-why__title"
+      >
+        {{{ auWhy.title }}}
+      </h2>
+    {{/if}}
+
+    {{#if auWhy.pillars.length}}
+      <ul class="section-about-why__pillars">
+        {{#each auWhy.pillars}}
+          <li class="section-about-why__pillar">
+            <div class="section-about-why__badge" aria-hidden="true">
+              {{#if ../auWhy.iconAccent}}
+                <img
+                  class="section-about-why__badge-accent"
+                  src="{{ ../auWhy.iconAccent }}"
+                  alt=""
+                  width="23"
+                  height="23"
+                  decoding="async"
+                />
+              {{/if}}
+              <span class="section-about-why__badge-number">{{ number }}</span>
+            </div>
+
+            <div class="section-about-why__pillar-content">
+              {{#if title}}
+                <h3 class="section-about-why__pillar-title">
+                  {{{ title }}}
+                </h3>
+              {{/if}}
+
+              {{#if description}}
+                <p class="section-about-why__pillar-description">
+                  {{{ description }}}
+                </p>
+              {{/if}}
+            </div>
+          </li>
+        {{/each}}
+      </ul>
+    {{/if}}
+  </div>
+</section>

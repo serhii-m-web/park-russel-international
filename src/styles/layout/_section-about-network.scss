@@ -1,0 +1,250 @@
+@use '../abstracts' as *;
+
+.section-about-network {
+  @include adaptive-value('padding-top', 120, 56, 1);
+  @include adaptive-value('padding-bottom', 120, 56, 1);
+  background-color: $color-bg-muted;
+
+  &__header {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 48px 96px;
+    @include adaptive-value('margin-bottom', 64, 32, 1);
+
+    @include media('<desktop') {
+      grid-template-columns: 1fr;
+      gap: 24px;
+    }
+  }
+
+  &__title {
+    margin: 0;
+    color: $color-dark-blue;
+    font-weight: 500;
+    letter-spacing: -1.2px;
+    line-height: calc(52 / 48);
+    @include adaptive-value('font-size', 48, 32, 1);
+  }
+
+  &__intro {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-top: 8px;
+
+    @include media('<desktop') {
+      padding-top: 0;
+    }
+  }
+
+  &__lead {
+    margin: 0;
+    color: $color-dark-blue;
+    letter-spacing: -0.11px;
+    line-height: calc(32 / 22);
+    @include adaptive-value('font-size', 22, 18, 1);
+  }
+
+  &__body {
+    margin: 0;
+    color: $color-text-muted;
+    line-height: calc(28 / 18);
+    @include adaptive-value('font-size', 18, 16, 1);
+  }
+
+  &__member {
+    display: grid;
+    grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
+    gap: 64px 96px;
+    align-items: center;
+    @include adaptive-value('margin-bottom', 64, 40, 1);
+
+    @include media('<desktop') {
+      grid-template-columns: 1fr;
+      gap: 40px;
+    }
+  }
+
+  &__collage {
+    position: relative;
+    min-height: 520px;
+
+    @include media('<tablet') {
+      min-height: 340px;
+    }
+  }
+
+  &__accent {
+    position: absolute;
+    top: -24px;
+    left: -24px;
+    z-index: 0;
+    width: 120px;
+    height: 120px;
+    border-radius: 16px;
+    background-color: $color-red;
+
+    @include media('<tablet') {
+      top: -10px;
+      left: -10px;
+      width: 56px;
+      height: 56px;
+    }
+  }
+
+  &__photo {
+    position: absolute;
+    overflow: hidden;
+    border-radius: 20px;
+
+    &--primary {
+      top: 0;
+      left: 0;
+      width: 82%;
+      height: 87%;
+      z-index: 1;
+    }
+
+    &--secondary {
+      right: 0;
+      bottom: 0;
+      width: 46%;
+      aspect-ratio: 1;
+      z-index: 2;
+      border: 10px solid $color-bg-muted;
+
+      @include media('<tablet') {
+        border-width: 6px;
+      }
+    }
+  }
+
+  &__photo-media {
+    display: block;
+    width: 100%;
+    height: 100%;
+
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__copy {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+  }
+
+  &__statement {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  &__rule {
+    display: block;
+    width: 48px;
+    height: 3px;
+    background-color: $color-red;
+  }
+
+  &__statement-text {
+    margin: 0;
+    color: $color-dark-blue;
+    font-weight: 400;
+    letter-spacing: -0.51px;
+    line-height: calc(42 / 34);
+    @include adaptive-value('font-size', 34, 24, 1);
+
+    .is-muted {
+      color: #858d9f;
+    }
+
+    .is-emphasis {
+      color: $color-dark-blue;
+    }
+  }
+
+  &__firm-body {
+    margin: 0;
+    color: $color-text-muted;
+    line-height: calc(27 / 17);
+    font-size: 17px;
+  }
+
+  &__qualities {
+    display: grid;
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+    align-items: stretch;
+    overflow: hidden;
+    border-radius: 24px;
+    background-color: $color-white;
+
+    @include media('<desktop') {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &__qualities-copy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 64px;
+
+    @include media('<tablet') {
+      padding: 28px 24px;
+      order: 2;
+    }
+  }
+
+  &__qualities-label {
+    margin: 0;
+    color: $color-red;
+    font-weight: 500;
+    line-height: calc(24 / 16);
+    font-size: 16px;
+  }
+
+  &__qualities-text {
+    margin: 0;
+    color: $color-dark-blue;
+    font-weight: 500;
+    letter-spacing: -0.28px;
+    line-height: calc(36 / 28);
+    @include adaptive-value('font-size', 28, 22, 1);
+
+    .is-red {
+      color: $color-red;
+    }
+  }
+
+  &__qualities-media {
+    position: relative;
+    overflow: hidden;
+    border-radius: 24px;
+    min-height: 360px;
+
+    @include media('<tablet') {
+      min-height: 240px;
+    }
+  }
+
+  &__qualities-image {
+    position: absolute;
+    inset: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}

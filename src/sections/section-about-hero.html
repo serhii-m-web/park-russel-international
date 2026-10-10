@@ -1,0 +1,117 @@
+<section
+  class="
+    section-about-hero
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if auHero.id}}
+    id="{{ auHero.id }}"
+  {{/if}}
+  {{#if auHero.title}}
+    aria-labelledby="{{#if auHero.id}}{{ auHero.id }}{{else}}section-about-hero{{/if}}-title"
+  {{else}}
+    aria-label="{{#if auHero.ariaLabel}}{{ auHero.ariaLabel }}{{else}}About Us{{/if}}"
+  {{/if}}
+>
+  <div class="container">
+    {{#if auHero.breadcrumb.length}}
+      <nav class="section-about-hero__breadcrumb" aria-label="Breadcrumb">
+        <ol class="section-about-hero__breadcrumb-list">
+          {{#each auHero.breadcrumb}}
+            <li class="section-about-hero__breadcrumb-item">
+              {{#if href}}
+                <a class="section-about-hero__breadcrumb-link" href="{{ href }}">
+                  {{ label }}
+                </a>
+              {{else}}
+                <span class="section-about-hero__breadcrumb-current" aria-current="page">
+                  {{ label }}
+                </span>
+              {{/if}}
+            </li>
+          {{/each}}
+        </ol>
+      </nav>
+    {{/if}}
+
+    <div class="section-about-hero__card">
+      {{#if auHero.imageBg}}
+        <div class="section-about-hero__bg" aria-hidden="true">
+          {{picture
+            auHero.imageBg
+            alt=""
+            class="section-about-hero__bg-image"
+            loading=auHero.imageLoading
+            width="1920"
+            height="800"
+          }}
+        </div>
+      {{/if}}
+
+      <div class="section-about-hero__inner">
+        {{#if auHero.label}}
+          <span class="section-about-hero__label">{{ auHero.label }}</span>
+        {{/if}}
+
+        {{#if auHero.title}}
+          <h1
+            id="{{#if auHero.id}}{{ auHero.id }}{{else}}section-about-hero{{/if}}-title"
+            class="section-about-hero__title"
+          >
+            {{{ auHero.title }}}
+          </h1>
+        {{/if}}
+
+        {{#if auHero.description}}
+          <p class="section-about-hero__description">
+            {{{ auHero.description }}}
+          </p>
+        {{/if}}
+
+        {{#if auHero.note}}
+          <p class="section-about-hero__note">
+            {{{ auHero.note }}}
+          </p>
+        {{/if}}
+
+        {{#if auHero.buttons.length}}
+          <div class="section-about-hero__buttons">
+            {{#each auHero.buttons}}
+              <a
+                class="section-about-hero__button site-button {{ variant }}"
+                href="{{ href }}"
+              >
+                <span>{{ label }}</span>
+                {{#if icon}}
+                  {{> icon
+                    name="arrow-right"
+                    width="16"
+                    height="16"
+                  }}
+                {{/if}}
+              </a>
+            {{/each}}
+          </div>
+        {{/if}}
+      </div>
+    </div>
+
+    {{#if auHero.audience.length}}
+      <ul class="section-about-hero__audience">
+        {{#each auHero.audience}}
+          <li class="section-about-hero__audience-card">
+            {{#if icon}}
+              <span class="section-about-hero__audience-icon" aria-hidden="true">
+                <img src="{{ icon }}" alt="" width="24" height="24" decoding="async" />
+              </span>
+            {{/if}}
+            <p class="section-about-hero__audience-text">
+              {{{ text }}}
+            </p>
+          </li>
+        {{/each}}
+      </ul>
+    {{/if}}
+  </div>
+</section>

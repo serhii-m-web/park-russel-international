@@ -1,0 +1,81 @@
+<section
+  class="
+    section-about-expertise
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if auExpertise.id}}
+    id="{{ auExpertise.id }}"
+  {{/if}}
+  {{#if auExpertise.title}}
+    aria-labelledby="{{#if auExpertise.id}}{{ auExpertise.id }}{{else}}section-about-expertise{{/if}}-title"
+  {{else}}
+    aria-label="{{#if auExpertise.ariaLabel}}{{ auExpertise.ariaLabel }}{{else}}Connected expertise{{/if}}"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-about-expertise__header">
+      {{#if auExpertise.title}}
+        <h2
+          id="{{#if auExpertise.id}}{{ auExpertise.id }}{{else}}section-about-expertise{{/if}}-title"
+          class="section-about-expertise__title"
+        >
+          {{{ auExpertise.title }}}
+        </h2>
+      {{/if}}
+
+      {{#if auExpertise.lead}}
+        <p class="section-about-expertise__lead">
+          {{{ auExpertise.lead }}}
+        </p>
+      {{/if}}
+    </div>
+
+    <div class="section-about-expertise__layout">
+      {{#if auExpertise.image}}
+        <div class="section-about-expertise__media">
+          {{picture
+            auExpertise.image
+            alt=auExpertise.imageAlt
+            class="section-about-expertise__image"
+            width="640"
+            height="720"
+          }}
+        </div>
+      {{/if}}
+
+      <div class="section-about-expertise__areas">
+        {{#if auExpertise.areasLabel}}
+          <p class="section-about-expertise__areas-label">
+            {{{ auExpertise.areasLabel }}}
+          </p>
+        {{/if}}
+
+        {{#if auExpertise.areas.length}}
+          <ol class="section-about-expertise__list">
+            {{#each auExpertise.areas}}
+              <li class="section-about-expertise__item">
+                <span class="section-about-expertise__item-number" aria-hidden="true">
+                  {{ number }}
+                </span>
+                <span class="section-about-expertise__item-title">
+                  {{{ title }}}
+                </span>
+              </li>
+            {{/each}}
+          </ol>
+        {{/if}}
+      </div>
+    </div>
+
+    {{#if auExpertise.conclusion}}
+      <div class="section-about-expertise__conclusion">
+        <span class="section-about-expertise__rule" aria-hidden="true"></span>
+        <p class="section-about-expertise__conclusion-text">
+          {{{ auExpertise.conclusion }}}
+        </p>
+      </div>
+    {{/if}}
+  </div>
+</section>

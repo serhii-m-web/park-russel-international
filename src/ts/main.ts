@@ -3,6 +3,7 @@ import { initCardsContentSlider } from './cardsContentSlider';
 import { initDesignDefendSlider } from './designDefendSlider';
 import { initFeatureItemsSlider } from './featureItemsSlider';
 import { initFollowValueSlider } from './followValueSlider';
+import { initAboutCardsSlider } from './aboutCardsSlider';
 import { initIndustryInsightsSlider } from './industryInsightsSlider';
 import { initMegaMenu } from './megaMenu';
 import { initMethodologySlider } from './methodologySlider';
@@ -32,6 +33,7 @@ function init(): void {
   initFeatureItemsSlider();
   initProcessRampSlider();
   initIndustryInsightsSlider();
+  initAboutCardsSlider();
   initSectionTabs();
   initSectionFaq();
 }
