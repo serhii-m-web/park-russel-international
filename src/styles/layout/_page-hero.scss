@@ -195,6 +195,26 @@
     }
   }
 
+  &.tp-final {
+    .page-hero__tagline {
+      align-items: flex-start;
+      letter-spacing: -0.11px;
+      line-height: calc(32 / 22);
+      @include adaptive-value('font-size', 22, 17, 1);
+    }
+
+    .page-hero__tagline-rule {
+      width: 3px;
+      height: 96px;
+      margin-top: 4px;
+
+      @include media('<desktop') {
+        height: 48px;
+        margin-top: 6px;
+      }
+    }
+  }
+
   &__aside {
     display: flex;
     flex-direction: column;

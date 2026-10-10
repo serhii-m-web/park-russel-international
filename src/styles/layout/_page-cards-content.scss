@@ -17,6 +17,36 @@
     }
   }
 
+  &__heading {
+    width: 70%;
+    min-width: 0;
+
+    @include media('<desktop') {
+      width: 100%;
+    }
+  }
+
+  &__eyebrow {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 0 0 20px;
+    color: $color-dark-blue;
+    font-weight: 500;
+    letter-spacing: 1.68px;
+    line-height: calc(16 / 12);
+    text-transform: uppercase;
+    @include adaptive-value('font-size', 12, 11, 1);
+  }
+
+  &__eyebrow-rule {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: $color-red;
+    flex-shrink: 0;
+  }
+
   &__intro {
     display: flex;
     flex-direction: column;
@@ -30,11 +60,15 @@
   }
 
   &__title {
-    width: 70%;
+    width: 100%;
     margin: 0;
 
-    @include media('<desktop') {
-      width: 100%;
+    .section-page-cards-content__header > & {
+      width: 70%;
+
+      @include media('<desktop') {
+        width: 100%;
+      }
     }
 
     .section-page-cards-content__intro & {
@@ -335,7 +369,8 @@
 
   &--moments {
     background-color: $color-white;
-    .section-page-cards-content__title {
+
+    .section-page-cards-content__heading {
       width: 48%;
       max-width: 640px;
 
@@ -343,6 +378,11 @@
         width: 100%;
         max-width: none;
       }
+    }
+
+    .section-page-cards-content__title {
+      width: 100%;
+      max-width: none;
     }
 
     .section-page-cards-content__intro {
@@ -400,6 +440,35 @@
         color: $color-text-muted;
         @include adaptive-value('font-size', 16, 15, 1);
         line-height: calc(24 / 16);
+      }
+    }
+  }
+
+  &--critical {
+    .section-page-cards-content__cards {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 24px;
+
+      @include media('<desktop') {
+        display: block;
+      }
+    }
+
+    .section-page-cards-content__card {
+      &-icon {
+        border-radius: 6px;
+        background-color: $color-red;
+
+        img {
+          width: 30px;
+          height: 30px;
+          filter: brightness(0) invert(1);
+        }
+      }
+
+      &-inner {
+        @include adaptive-value('padding', 32, 24, 1);
+        padding-bottom: 36px;
       }
     }
   }

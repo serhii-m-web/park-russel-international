@@ -11,6 +11,9 @@
   {{#if feature.id}}
     id="{{ feature.id }}"
   {{/if}}
+  {{#if feature.itemsSlider}}
+    data-feature-items-slider
+  {{/if}}
   {{#if feature.title}}
     aria-labelledby="{{#if feature.id}}{{ feature.id }}{{else}}section-feature-split{{/if}}-title"
   {{else}}
@@ -111,20 +114,6 @@
             }}
           {{/if}}
 
-          {{#if feature.texts}}
-            <div class="section-feature-split__texts">
-              {{#each feature.texts}}
-                <p class="section-feature-split__text">
-                  {{{ this }}}
-                </p>
-              {{/each}}
-            </div>
-          {{else if feature.text}}
-            <p class="section-feature-split__text">
-              {{{ feature.text }}}
-            </p>
-          {{/if}}
-
           {{#if feature.principles}}
             <ul class="section-feature-split__principles">
               {{#each feature.principles}}
@@ -140,6 +129,20 @@
                 </li>
               {{/each}}
             </ul>
+          {{/if}}
+
+          {{#if feature.texts}}
+            <div class="section-feature-split__texts">
+              {{#each feature.texts}}
+                <p class="section-feature-split__text">
+                  {{{ this }}}
+                </p>
+              {{/each}}
+            </div>
+          {{else if feature.text}}
+            <p class="section-feature-split__text">
+              {{{ feature.text }}}
+            </p>
           {{/if}}
 
           {{#if feature.statement}}
@@ -171,23 +174,92 @@
         {{/if}}
 
         {{#if feature.items}}
-          <ul class="section-feature-split__items">
-            {{#each feature.items}}
-              <li class="section-feature-split__item">
-                {{#if icon}}
-                  <span class="section-feature-split__item-icon" aria-hidden="true">
-                    <img src="{{ icon }}" alt="" width="32" height="32" decoding="async" />
-                  </span>
-                {{/if}}
-                {{#if title}}
-                  <h3 class="section-feature-split__item-title">{{ title }}</h3>
-                {{/if}}
-                {{#if text}}
-                  <p class="section-feature-split__item-text">{{{ text }}}</p>
-                {{/if}}
-              </li>
-            {{/each}}
-          </ul>
+          {{#if feature.itemsSlider}}
+            <div class="section-feature-split__items-wrap">
+              <div
+                class="swiper section-feature-split__items"
+                data-feature-items-slider-el
+                data-feature-items-slider-label="{{#if feature.carouselLabel}}{{ feature.carouselLabel }}{{else}}{{ feature.ariaLabel }}{{/if}}"
+              >
+                <div class="swiper-wrapper">
+                  {{#each feature.items}}
+                    <article class="swiper-slide section-feature-split__item">
+                      {{#if icon}}
+                        <span class="section-feature-split__item-icon" aria-hidden="true">
+                          <img src="{{ icon }}" alt="" width="32" height="32" decoding="async" />
+                        </span>
+                      {{/if}}
+                      {{#if title}}
+                        <h3 class="section-feature-split__item-title">{{ title }}</h3>
+                      {{/if}}
+                      {{#if text}}
+                        <p class="section-feature-split__item-text">{{{ text }}}</p>
+                      {{/if}}
+                    </article>
+                  {{/each}}
+                </div>
+              </div>
+
+              <div
+                class="section-feature-split__navigation"
+                role="group"
+                aria-label="Feature items slider controls"
+                data-feature-items-slider-nav
+                inert
+              >
+                <div
+                  class="swiper-scrollbar section-feature-split__scrollbar"
+                  data-feature-items-slider-scrollbar
+                  tabindex="0"
+                  aria-label="Slider progress"
+                ></div>
+                <div class="section-feature-split__nav-buttons">
+                  <button
+                    class="swiper-button-prev section-feature-split__nav-btn prev"
+                    type="button"
+                    data-feature-items-slider-prev
+                    aria-label="Previous slide"
+                  >
+                    {{> icon
+                      name="arrow-right"
+                      width="16"
+                      height="16"
+                    }}
+                  </button>
+                  <button
+                    class="swiper-button-next section-feature-split__nav-btn next"
+                    type="button"
+                    data-feature-items-slider-next
+                    aria-label="Next slide"
+                  >
+                    {{> icon
+                      name="arrow-right"
+                      width="16"
+                      height="16"
+                    }}
+                  </button>
+                </div>
+              </div>
+            </div>
+          {{else}}
+            <ul class="section-feature-split__items">
+              {{#each feature.items}}
+                <li class="section-feature-split__item">
+                  {{#if icon}}
+                    <span class="section-feature-split__item-icon" aria-hidden="true">
+                      <img src="{{ icon }}" alt="" width="32" height="32" decoding="async" />
+                    </span>
+                  {{/if}}
+                  {{#if title}}
+                    <h3 class="section-feature-split__item-title">{{ title }}</h3>
+                  {{/if}}
+                  {{#if text}}
+                    <p class="section-feature-split__item-text">{{{ text }}}</p>
+                  {{/if}}
+                </li>
+              {{/each}}
+            </ul>
+          {{/if}}
         {{/if}}
 
         {{#if feature.list}}
@@ -238,6 +310,30 @@
         {{/if}}
       </div>
     </div>
+
+    {{#if feature.consequence}}
+      <div class="section-feature-split__consequence">
+        <div class="section-feature-split__consequence-main">
+          {{#if feature.consequence.title}}
+            <p class="section-feature-split__consequence-title">
+              {{{ feature.consequence.title }}}
+            </p>
+          {{/if}}
+          {{#if feature.consequence.text}}
+            <p class="section-feature-split__consequence-text">
+              {{{ feature.consequence.text }}}
+            </p>
+          {{/if}}
+        </div>
+        {{#if feature.consequence.statement}}
+          <div class="section-feature-split__consequence-card">
+            <p class="section-feature-split__consequence-statement">
+              {{{ feature.consequence.statement }}}
+            </p>
+          </div>
+        {{/if}}
+      </div>
+    {{/if}}
 
     {{#if feature.network}}
       <div class="section-feature-split__network">

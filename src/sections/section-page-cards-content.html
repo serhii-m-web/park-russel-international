@@ -27,12 +27,21 @@
 
     {{#if cardsContent.title}}
       <div class="section-page-cards-content__header">
-        <h2
-          id="{{#if cardsContent.id}}{{ cardsContent.id }}{{else}}section-page-cards-content{{/if}}-title"
-          class="section-page-cards-content__title"
-        >
-          {{{ cardsContent.title }}}
-        </h2>
+        <div class="section-page-cards-content__heading">
+          {{#if cardsContent.eyebrow}}
+            <p class="section-page-cards-content__eyebrow">
+              <span class="section-page-cards-content__eyebrow-rule" aria-hidden="true"></span>
+              <span>{{ cardsContent.eyebrow }}</span>
+            </p>
+          {{/if}}
+
+          <h2
+            id="{{#if cardsContent.id}}{{ cardsContent.id }}{{else}}section-page-cards-content{{/if}}-title"
+            class="section-page-cards-content__title"
+          >
+            {{{ cardsContent.title }}}
+          </h2>
+        </div>
 
         {{#if cardsContent.lead}}
           <div class="section-page-cards-content__intro">

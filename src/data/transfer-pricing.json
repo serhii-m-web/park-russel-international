@@ -1,0 +1,549 @@
+{
+  "meta": {
+    "title": "Transfer Pricing | Parker Russell International",
+    "description": "Transfer pricing expertise from Parker Russell member firms — helping international businesses design, document and defend intercompany arrangements across jurisdictions."
+  },
+  "tpPageHero": {
+    "id": "tp-page-hero",
+    "className": "page-hero--rich",
+    "label": "TRANSFER PRICING",
+    "labelPill": true,
+    "imageBg": "/images/transfer-pricing/hero-bg.jpg",
+    "imageLoading": "eager",
+    "title": "When Value Moves Across Borders, Transfer Pricing Matters.",
+    "description": "For multinational businesses, transactions between related entities are part of everyday operations. Goods are supplied. Services are provided. Intellectual property is used. Financing moves between companies. Functions, assets and risks are distributed across jurisdictions.",
+    "aside": "Each of those arrangements can have transfer pricing consequences.",
+    "buttons": [
+      {
+        "label": "Discuss Your Transfer Pricing Requirements",
+        "href": "#",
+        "variant": "primary",
+        "icon": true
+      },
+      {
+        "label": "Find a Member Firm",
+        "href": "#",
+        "variant": "secondary",
+        "icon": true
+      }
+    ]
+  },
+  "tpCommercial": {
+    "id": "tp-commercial",
+    "className": "section-page-content-banner--muted",
+    "ariaLabel": "Commercial reality",
+    "image": "/images/transfer-pricing/commercial.jpg",
+    "imageAlt": "Professionals reviewing transfer pricing analysis",
+    "text": "<span class=\"is-muted\">Parker Russell member firms provide transfer pricing expertise </span><span>to international businesses seeking to understand, structure, document and defend their intercompany arrangements across multiple jurisdictions.</span>",
+    "body": "Our approach considers not only the numbers attached to a transaction, but the business activity behind them — how value is created, which entities perform the relevant functions, where assets are used, how risks are managed and whether the resulting transfer pricing position can withstand scrutiny.",
+    "banner": {
+      "imageBg": "/images/transfer-pricing/commercial-statement-bg.jpg",
+      "leftColumn": {
+        "icon": "/icons/financial-assurance.svg"
+      },
+      "rightColumn": {
+        "text": "<span>Transfer pricing should reflect </span><span class=\"is-muted\">how the business actually operates.</span>"
+      }
+    }
+  },
+  "tpWhy": {
+    "id": "tp-why",
+    "ariaLabel": "Why transfer pricing matters",
+    "eyebrow": "01 — WHY TRANSFER PRICING MATTERS",
+    "title": "An Internal Transaction Can Create an External Tax Risk.",
+    "lead": "Transactions within a group may happen between related companies, but their tax consequences are very real.",
+    "bodies": [
+      "As businesses expand internationally, tax authorities increasingly need to understand how profits are allocated between jurisdictions and whether related-party transactions reflect the economic activity taking place.",
+      "A transfer pricing position that is not properly designed or documented can create uncertainty, adjustments and disputes — particularly when different tax authorities examine different parts of the same international structure."
+    ],
+    "card": {
+      "title": "That makes transfer pricing more than a documentation exercise.",
+      "label": "It requires businesses to understand the relationship between:",
+      "steps": [
+        { "number": "01", "text": "how the group operates;" },
+        { "number": "02", "text": "where value is created;" },
+        { "number": "03", "text": "how related entities transact;" },
+        { "number": "04", "text": "how profits are allocated;" },
+        {
+          "number": "05",
+          "text": "and how that position can be supported.",
+          "accent": true
+        }
+      ]
+    },
+    "conclusion": "The stronger the connection between commercial reality and transfer pricing, the stronger the position behind it."
+  },
+  "tpCritical": {
+    "id": "tp-critical",
+    "className": "section-page-cards-content--moments section-page-cards-content--critical",
+    "ariaLabel": "When transfer pricing becomes critical",
+    "carouselLabel": "Critical transfer pricing situations",
+    "eyebrow": "02 — WHEN TRANSFER PRICING BECOMES CRITICAL",
+    "title": "International Growth Changes the Transfer Pricing Picture.",
+    "lead": "Transfer pricing becomes increasingly important as the number, scale and complexity of transactions within an international group grow.",
+    "cards": [
+      {
+        "icon": "/icons/transfer-pricing/critical-public.svg",
+        "title": "Entering New Markets",
+        "description": "Establishing entities or operations in another jurisdiction can introduce new intercompany relationships and transfer pricing requirements."
+      },
+      {
+        "icon": "/icons/transfer-pricing/critical-tree.svg",
+        "title": "Changing the Group Structure",
+        "description": "Acquisitions, reorganisations and changes in operating models can alter where functions are performed, assets are used and risks are managed."
+      },
+      {
+        "icon": "/icons/transfer-pricing/critical-swap.svg",
+        "title": "Increasing Intercompany Transactions",
+        "description": "Growing volumes of goods, services, financing, intellectual property or other related-party transactions can increase both complexity and exposure."
+      },
+      {
+        "icon": "/icons/transfer-pricing/critical-bulb.svg",
+        "title": "Developing Intellectual Property",
+        "description": "Where intellectual property is developed, owned or used across jurisdictions, understanding the underlying functions and economic relationships becomes particularly important."
+      },
+      {
+        "icon": "/icons/transfer-pricing/critical-bank.svg",
+        "title": "Financing Across the Group",
+        "description": "Intercompany loans and other financial arrangements can create transfer pricing considerations around pricing, terms and the commercial basis of the arrangement."
+      },
+      {
+        "icon": "/icons/transfer-pricing/critical-verified.svg",
+        "title": "Facing Greater Tax Scrutiny",
+        "description": "When tax authorities examine related-party transactions, businesses need a position that is supported by appropriate analysis and documentation."
+      }
+    ]
+  },
+  "tpDesign": {
+    "id": "tp-design",
+    "ariaLabel": "Design. Document. Defend.",
+    "carouselLabel": "Design document defend stages",
+    "eyebrow": "03 — DESIGN. DOCUMENT. DEFEND.",
+    "title": "A Strong Transfer Pricing Position Has to Work at Every Stage.",
+    "image": "/images/transfer-pricing/earth-sphere.svg",
+    "stages": [
+      {
+        "icon": "/icons/transfer-pricing/ddd-draw.svg",
+        "label": "01 — DESIGN",
+        "title": "Build the Position Around the Business.",
+        "lead": "Transfer pricing begins with understanding how the group actually operates.",
+        "questions": [
+          "Which entities perform the important functions?",
+          "Where are key decisions made?",
+          "Which assets are used?",
+          "Where are risks assumed and managed?",
+          "How do entities contribute to the creation of value?"
+        ],
+        "texts": [
+          "The answers provide the economic foundation for considering how related-party transactions should be structured and priced."
+        ],
+        "emphasis": "A transfer pricing policy that does not reflect commercial reality may become difficult to support regardless of how extensive the documentation is."
+      },
+      {
+        "icon": "/icons/transfer-pricing/ddd-doc.svg",
+        "label": "02 — DOCUMENT",
+        "title": "Make the Rationale Clear and Supportable.",
+        "lead": "Documentation should explain more than the result.",
+        "texts": [
+          "It should provide a coherent basis for understanding the relevant transactions, entities, functions, economic circumstances and transfer pricing approach.",
+          "Parker Russell member firms can bring relevant local expertise to documentation requirements within their jurisdictions while considering the wider international structure of the group."
+        ],
+        "emphasis": "The objective is a transfer pricing position that can be understood, evidenced and consistently applied."
+      },
+      {
+        "icon": "/icons/transfer-pricing/ddd-shield.svg",
+        "label": "03 — DEFEND",
+        "title": "Be Ready to Explain the Position Under Scrutiny.",
+        "lead": "Transfer pricing positions may be examined by tax authorities long after the underlying transactions have taken place.",
+        "texts": [
+          "A defensible position therefore requires more than documentation prepared simply to satisfy a filing requirement."
+        ],
+        "emphasis": "The commercial rationale, economic analysis and supporting evidence need to tell a consistent story."
+      }
+    ],
+    "principles": [
+      { "number": "01", "text": "Design the position correctly." },
+      { "number": "02", "text": "Document the reasoning clearly." },
+      {
+        "number": "03",
+        "text": "Be prepared to defend the result.",
+        "accent": true
+      }
+    ]
+  },
+  "tpExpertise": {
+    "id": "tp-expertise",
+    "className": "section-page-cards-content--carousel",
+    "ariaLabel": "Transfer pricing expertise",
+    "carouselLabel": "Transfer pricing services",
+    "eyebrow": "04 — TRANSFER PRICING EXPERTISE",
+    "title": "Expertise Across the Intercompany Relationship.",
+    "button": {
+      "label": "Explore Our Services",
+      "href": "#"
+    },
+    "cards": [
+      {
+        "image": "/images/transfer-pricing/expertise-1.jpg",
+        "imageAlt": "Transfer Pricing Risk Assessment",
+        "title": "Transfer Pricing Risk Assessment",
+        "description": "Understanding where transfer pricing exposure exists across an international group.",
+        "descriptionSecondary": "The assessment considers current or proposed intercompany arrangements, the jurisdictions involved and whether the wider transfer pricing system appropriately reflects the commercial and economic relationships within the business.",
+        "link": { "label": "Read More", "href": "#" }
+      },
+      {
+        "image": "/images/transfer-pricing/expertise-2.jpg",
+        "imageAlt": "Transfer Pricing Policy & Framework",
+        "title": "Transfer Pricing Policy & Framework",
+        "description": "A coherent transfer pricing framework provides a basis for how related-party transactions are approached across the organisation.",
+        "descriptionSecondary": "The objective is to connect transfer pricing policy with the group's operating model rather than treating pricing as a separate tax exercise.",
+        "link": { "label": "Read More", "href": "#" }
+      },
+      {
+        "image": "/images/transfer-pricing/expertise-3.jpg",
+        "imageAlt": "Intercompany Transactions",
+        "title": "Intercompany Transactions",
+        "description": "Different transactions can create different transfer pricing considerations.",
+        "descriptionSecondary": "Goods. Services. Financing. Intellectual property. Management and support arrangements.<br><br>Understanding the nature and economic purpose of each transaction is fundamental to determining an appropriate approach.",
+        "link": { "label": "Read More", "href": "#" }
+      },
+      {
+        "image": "/images/transfer-pricing/expertise-4.jpg",
+        "imageAlt": "Economic & Functional Analysis",
+        "title": "Economic & Functional Analysis",
+        "description": "Transfer pricing requires an understanding of what each entity actually contributes.",
+        "descriptionSecondary": "Functions performed, assets used and risks assumed provide important context for assessing the economic relationship between related parties.",
+        "link": { "label": "Read More", "href": "#" }
+      },
+      {
+        "image": "/images/transfer-pricing/expertise-5.jpg",
+        "imageAlt": "Transfer Pricing Documentation",
+        "title": "Transfer Pricing Documentation",
+        "description": "Clear documentation provides evidence of the basis on which a transfer pricing position has been established.",
+        "descriptionSecondary": "For international groups, this also requires consideration of the requirements applicable within relevant jurisdictions.",
+        "link": { "label": "Read More", "href": "#" }
+      },
+      {
+        "image": "/images/transfer-pricing/expertise-6.jpg",
+        "imageAlt": "Transfer Pricing Review",
+        "title": "Transfer Pricing Review",
+        "description": "Business models evolve.",
+        "descriptionSecondary": "A transfer pricing approach established several years ago may no longer accurately reflect how the organisation operates today.<br><br>Periodic review can identify where changes in functions, transactions, markets or group structure have altered the transfer pricing position.",
+        "link": { "label": "Read More", "href": "#" }
+      }
+    ]
+  },
+  "tpValue": {
+    "id": "tp-value",
+    "ariaLabel": "Follow the value",
+    "carouselLabel": "Value creation dimensions",
+    "eyebrow": "05 — FOLLOW THE VALUE",
+    "title": "Transfer Pricing Starts With Understanding Where Value Is Created.",
+    "lead": "A legal structure shows where companies are incorporated.",
+    "bodies": [
+      "It does not necessarily explain where economic activity takes place.",
+      "To understand an international group's transfer pricing position, it is necessary to look beneath the organisational chart."
+    ],
+    "structureLabel": "The structure tells you where the entities are.",
+    "analysisIcon": "/icons/transfer-pricing/value-arrow.svg",
+    "analysisLabel": "The analysis explains what they actually do.",
+    "dimensions": [
+      {
+        "icon": "/icons/transfer-pricing/value-engineering.svg",
+        "label": "FUNCTIONS",
+        "text": "What activities does each entity actually perform?"
+      },
+      {
+        "icon": "/icons/transfer-pricing/value-inventory.svg",
+        "label": "ASSETS",
+        "text": "Which tangible and intangible assets are used to create value?"
+      },
+      {
+        "icon": "/icons/transfer-pricing/value-shield.svg",
+        "label": "RISKS",
+        "text": "Which entities assume and manage economically significant risks?"
+      },
+      {
+        "icon": "/icons/transfer-pricing/value-groups.svg",
+        "label": "PEOPLE",
+        "text": "Where are important activities and decisions actually carried out?"
+      },
+      {
+        "icon": "/icons/transfer-pricing/value-swap.svg",
+        "label": "TRANSACTIONS",
+        "text": "What is being transferred between related entities — and why?"
+      },
+      {
+        "icon": "/icons/transfer-pricing/value-diamond.svg",
+        "label": "VALUE",
+        "text": "How do those contributions connect to the economic outcome?",
+        "accent": true
+      }
+    ]
+  },
+  "tpChallenge": {
+    "id": "tp-challenge",
+    "className": "section-feature-split--muted section-feature-split--business section-feature-split--knowledge section-feature-split--challenge",
+    "ariaLabel": "The international challenge",
+    "eyebrow": "06 — THE INTERNATIONAL CHALLENGE",
+    "title": "One Group. Multiple Tax Authorities.",
+    "lead": "Transfer pricing is inherently international.",
+    "principles": [
+      {
+        "icon": "/icons/transfer-pricing/challenge-hub.svg",
+        "text": "A transaction between two related companies connects at least two entities — and potentially two different tax systems with different documentation requirements, administrative practices and areas of scrutiny.<br><br><span class=\"is-emphasis\">For larger international structures, the number of interconnected relationships can grow quickly.</span>"
+      },
+      {
+        "icon": "/icons/transfer-pricing/critical-public.svg",
+        "text": "The challenge is therefore not simply to establish an appropriate position within one jurisdiction.<br><br><span class=\"is-emphasis\">It is to understand how that position fits within the group as a whole.</span>"
+      }
+    ],
+    "texts": [
+      "Through Parker Russell International, independent member firms can collaborate where transfer pricing matters extend across jurisdictions, combining relevant local knowledge with a wider view of the international structure."
+    ],
+    "button": {
+      "label": "Explore Our Global Network",
+      "href": "#"
+    },
+    "imageSecondary": "/images/transfer-pricing/challenge.jpg",
+    "imageSecondaryAlt": "International collaboration on transfer pricing",
+    "photoMark": "/icons/financial-assurance.svg",
+    "photoStatement": "Local requirements. <span class=\"is-muted\">International consistency.</span>"
+  },
+  "tpChanges": {
+    "id": "tp-changes",
+    "className": "section-feature-split--changes",
+    "ariaLabel": "When the business changes",
+    "carouselLabel": "Business change scenarios",
+    "itemsSlider": true,
+    "eyebrow": "07 — WHEN THE BUSINESS CHANGES, TRANSFER PRICING MUST FOLLOW",
+    "title": "Yesterday's Policy May Not Reflect Today's Business.",
+    "lead": "International businesses change continuously.",
+    "items": [
+      {
+        "icon": "/icons/transfer-pricing/change-handshake.svg",
+        "title": "They acquire companies."
+      },
+      {
+        "icon": "/icons/transfer-pricing/change-public.svg",
+        "title": "Enter new markets."
+      },
+      {
+        "icon": "/icons/transfer-pricing/change-moving.svg",
+        "title": "Move functions."
+      },
+      {
+        "icon": "/icons/transfer-pricing/change-bulb.svg",
+        "title": "Develop intellectual property."
+      },
+      {
+        "icon": "/icons/transfer-pricing/change-shipping.svg",
+        "title": "Change supply chains."
+      },
+      {
+        "icon": "/icons/transfer-pricing/change-hub.svg",
+        "title": "Centralise services."
+      },
+      {
+        "icon": "/icons/transfer-pricing/change-bank.svg",
+        "title": "Introduce new financing arrangements."
+      },
+      {
+        "icon": "/icons/transfer-pricing/change-tree.svg",
+        "title": "Restructure operations."
+      }
+    ],
+    "consequence": {
+      "title": "Each change can alter the economic relationships between group entities.",
+      "text": "A transfer pricing framework therefore needs to remain aligned with how the organisation actually operates — not simply how it operated when the original documentation was prepared.",
+      "statement": "If the business changes, the transfer pricing analysis may need to change with it."
+    }
+  },
+  "tpProcess": {
+    "id": "tp-process",
+    "ariaLabel": "From transaction to transfer pricing position",
+    "carouselLabel": "Transfer pricing process steps",
+    "eyebrow": "08 — FROM TRANSACTION TO TRANSFER PRICING POSITION",
+    "title": "Understand the Transaction Before Pricing It.",
+    "steps": [
+      {
+        "number": "01",
+        "label": "01 — IDENTIFY",
+        "description": "Which related-party transactions exist across the group?"
+      },
+      {
+        "number": "02",
+        "label": "02 — UNDERSTAND",
+        "description": "What is the commercial purpose and economic substance of each arrangement?"
+      },
+      {
+        "number": "03",
+        "label": "03 — ANALYSE",
+        "description": "Which functions are performed, assets used and risks assumed by the relevant entities?"
+      },
+      {
+        "number": "04",
+        "label": "04 — ASSESS",
+        "description": "How should the transaction be considered from a transfer pricing perspective?"
+      },
+      {
+        "number": "05",
+        "label": "05 — DOCUMENT",
+        "description": "What evidence and documentation are required to support the position?",
+        "dark": true
+      },
+      {
+        "number": "06",
+        "label": "06 — REVIEW",
+        "description": "Does the approach remain appropriate as the business and regulatory environment evolve?",
+        "darker": true
+      }
+    ],
+    "conclusion": "A defensible position begins with understanding the transaction itself."
+  },
+  "tpRisk": {
+    "id": "tp-risk",
+    "ariaLabel": "Transfer pricing risk",
+    "eyebrow": "09 — TRANSFER PRICING RISK",
+    "title": "Risk Often Sits in the Gap Between Policy and Reality.",
+    "bodies": [
+      "A group may have a transfer pricing policy on paper.",
+      "The more important question is whether actual business activity continues to reflect it."
+    ],
+    "image": "/images/transfer-pricing/risk-illustration.jpg",
+    "imageAlt": "Illustration of transfer pricing policy versus business reality",
+    "triggersLabel": "Risk can emerge when:",
+    "triggers": [
+      {
+        "number": "01",
+        "text": "intercompany arrangements evolve but documentation does not;"
+      },
+      {
+        "number": "02",
+        "text": "the business enters new jurisdictions;"
+      },
+      {
+        "number": "03",
+        "text": "functions or decision-making move between entities;"
+      },
+      {
+        "number": "04",
+        "text": "new intellectual property is developed or used;"
+      },
+      {
+        "number": "05",
+        "text": "group financing changes;"
+      },
+      {
+        "number": "06",
+        "text": "actual conduct differs from documented arrangements;"
+      },
+      {
+        "number": "07",
+        "text": "or different parts of the group apply the policy inconsistently."
+      }
+    ],
+    "note": "That is why Parker Russell's existing Transfer Pricing Process focuses specifically on assessing current or future transfer pricing systems against the principles of designing, documenting and defending a position across multiple countries.",
+    "conclusion": "<span class=\"is-muted\">The question is not only whether a policy exists. </span>It is whether the position behind it can be supported."
+  },
+  "tpStakeholders": {
+    "id": "tp-stakeholders",
+    "className": "section-stakeholders--dark",
+    "ariaLabel": "Different stakeholders",
+    "carouselLabel": "Stakeholder perspectives",
+    "eyebrow": "10 — DIFFERENT STAKEHOLDERS. DIFFERENT RESPONSIBILITIES.",
+    "title": "Transfer Pricing Extends Beyond the Tax Department.",
+    "items": [
+      {
+        "label": "For CFOs",
+        "text": "How could transfer pricing affect the group's financial and tax position across jurisdictions?"
+      },
+      {
+        "label": "For Tax Directors",
+        "text": "Is the group's transfer pricing framework coherent, documented and aligned with its current operating model?"
+      },
+      {
+        "label": "For Boards",
+        "text": "Are significant international tax risks understood and appropriately governed?"
+      },
+      {
+        "label": "For Finance Teams",
+        "text": "Are intercompany arrangements being applied consistently and supported by appropriate information?"
+      },
+      {
+        "label": "For International Groups",
+        "text": "Can the transfer pricing position be understood consistently across the jurisdictions in which the organisation operates?"
+      },
+      {
+        "label": "For Businesses Entering New Markets",
+        "text": "How should new intercompany relationships be considered before operations begin to scale?"
+      }
+    ]
+  },
+  "tpPosition": {
+    "id": "tp-position",
+    "className": "section-confidence--grid-6",
+    "ariaLabel": "What a strong transfer pricing position requires",
+    "eyebrow": "11 — WHAT A STRONG TRANSFER PRICING POSITION REQUIRES",
+    "title": "Technical Analysis Is Only One Part of the Position.",
+    "iconAccent": "/icons/pillar-corner.svg",
+    "pillars": [
+      {
+        "number": "01",
+        "title": "Commercial Understanding",
+        "description": "Transfer pricing needs to reflect how the business actually creates value and operates."
+      },
+      {
+        "number": "02",
+        "title": "Economic Analysis",
+        "description": "The financial and economic substance of related-party arrangements needs to support the approach taken."
+      },
+      {
+        "number": "03",
+        "title": "Local Knowledge",
+        "description": "Requirements and areas of scrutiny can differ between jurisdictions."
+      },
+      {
+        "number": "04",
+        "title": "International Perspective",
+        "description": "Individual transactions need to be understood within the wider structure of the multinational group."
+      },
+      {
+        "number": "05",
+        "title": "Consistency",
+        "description": "Policy, documentation and actual business conduct should tell the same economic story."
+      },
+      {
+        "number": "06",
+        "title": "Forward Thinking",
+        "description": "Changes in the business should be considered before they create inconsistencies in the transfer pricing position."
+      }
+    ]
+  },
+  "tpFinal": {
+    "id": "tp-final",
+    "ariaLabel": "Build a transfer pricing position that can stand up to scrutiny",
+    "isSection": true,
+    "className": "page-hero--section",
+    "imageBg": "/images/transfer-pricing/final-cta-bg.jpg",
+    "imageLoading": "lazy",
+    "title": "Build a Transfer Pricing Position That Can Stand Up to Scrutiny.",
+    "description": "A strong transfer pricing framework should do more than satisfy a documentation requirement.",
+    "note": "It should reflect how the business operates, provide a coherent basis for related-party transactions and remain supportable as the organisation grows and changes.<br><br>Parker Russell member firms combine local tax knowledge with international collaboration to help businesses understand and assess transfer pricing risk across the jurisdictions in which they operate.",
+    "tagline": "Design it around the business.<br>Document it around the evidence.<br>Defend it with confidence.",
+    "buttons": [
+      {
+        "label": "Discuss Your Transfer Pricing Requirements",
+        "href": "#",
+        "variant": "primary",
+        "icon": true
+      },
+      {
+        "label": "Find a Member Firm",
+        "href": "#",
+        "variant": "secondary",
+        "icon": true
+      }
+    ]
+  }
+}

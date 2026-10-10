@@ -1,0 +1,168 @@
+<section
+  class="
+    section-design-defend
+    {{#if designDefend.className}}
+      {{ designDefend.className }}
+    {{/if}}
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if designDefend.id}}
+    id="{{ designDefend.id }}"
+  {{/if}}
+  data-design-defend-slider
+  {{#if designDefend.title}}
+    aria-labelledby="{{#if designDefend.id}}{{ designDefend.id }}{{else}}section-design-defend{{/if}}-title"
+  {{else}}
+    aria-label="{{#if designDefend.ariaLabel}}{{ designDefend.ariaLabel }}{{else}}Design. Document. Defend.{{/if}}"
+  {{/if}}
+>
+  {{#if designDefend.image}}
+    <div class="section-design-defend__bg" aria-hidden="true">
+      <img
+        class="section-design-defend__bg-image"
+        src="{{ designDefend.image }}"
+        alt=""
+        width="990"
+        height="911"
+        decoding="async"
+      />
+    </div>
+  {{/if}}
+
+  <div class="container">
+    <div class="section-design-defend__header">
+      {{#if designDefend.eyebrow}}
+        <p class="section-design-defend__eyebrow">
+          <span class="section-design-defend__eyebrow-rule" aria-hidden="true"></span>
+          <span>{{ designDefend.eyebrow }}</span>
+        </p>
+      {{/if}}
+
+      {{#if designDefend.title}}
+        <h2
+          id="{{#if designDefend.id}}{{ designDefend.id }}{{else}}section-design-defend{{/if}}-title"
+          class="section-design-defend__title"
+        >
+          {{{ designDefend.title }}}
+        </h2>
+      {{/if}}
+    </div>
+
+    {{#if designDefend.stages}}
+      <div class="section-design-defend__stages-wrap">
+        <div
+          class="swiper section-design-defend__stages"
+          data-design-defend-slider-el
+          data-design-defend-slider-label="{{#if designDefend.carouselLabel}}{{ designDefend.carouselLabel }}{{else}}{{ designDefend.ariaLabel }}{{/if}}"
+        >
+          <div class="swiper-wrapper">
+            {{#each designDefend.stages}}
+              <article class="swiper-slide section-design-defend__stage">
+                {{#if icon}}
+                  <span class="section-design-defend__stage-icon" aria-hidden="true">
+                    <img src="{{ icon }}" alt="" width="34" height="34" decoding="async" />
+                  </span>
+                {{/if}}
+
+                {{#if label}}
+                  <p class="section-design-defend__stage-label">{{ label }}</p>
+                {{/if}}
+
+                {{#if title}}
+                  <h3 class="section-design-defend__stage-title">{{{ title }}}</h3>
+                {{/if}}
+
+                <div class="section-design-defend__stage-body">
+                  {{#if lead}}
+                    <p class="section-design-defend__stage-lead">{{{ lead }}}</p>
+                  {{/if}}
+
+                  {{#if questions}}
+                    <ul class="section-design-defend__questions">
+                      {{#each questions}}
+                        <li class="section-design-defend__question">{{{ this }}}</li>
+                      {{/each}}
+                    </ul>
+                  {{/if}}
+
+                  {{#if texts}}
+                    {{#each texts}}
+                      <p class="section-design-defend__stage-text">{{{ this }}}</p>
+                    {{/each}}
+                  {{/if}}
+
+                  {{#if emphasis}}
+                    <p class="section-design-defend__stage-emphasis">{{{ emphasis }}}</p>
+                  {{/if}}
+                </div>
+              </article>
+            {{/each}}
+          </div>
+        </div>
+
+        <div
+          class="section-design-defend__navigation"
+          role="group"
+          aria-label="Design stages slider controls"
+          data-design-defend-slider-nav
+          inert
+        >
+          <div
+            class="swiper-scrollbar section-design-defend__scrollbar"
+            data-design-defend-slider-scrollbar
+            tabindex="0"
+            aria-label="Slider progress"
+          ></div>
+          <div class="section-design-defend__nav-buttons">
+            <button
+              class="swiper-button-prev section-design-defend__nav-btn prev"
+              type="button"
+              data-design-defend-slider-prev
+              aria-label="Previous slide"
+            >
+              {{> icon
+                name="arrow-right"
+                width="16"
+                height="16"
+              }}
+            </button>
+            <button
+              class="swiper-button-next section-design-defend__nav-btn next"
+              type="button"
+              data-design-defend-slider-next
+              aria-label="Next slide"
+            >
+              {{> icon
+                name="arrow-right"
+                width="16"
+                height="16"
+              }}
+            </button>
+          </div>
+        </div>
+      </div>
+    {{/if}}
+
+    {{#if designDefend.principles}}
+      <div class="section-design-defend__principles">
+        {{#each designDefend.principles}}
+          <div
+            class="
+              section-design-defend__principle
+              {{#if accent}}
+                is-accent
+              {{/if}}
+            "
+          >
+            {{#if number}}
+              <span class="section-design-defend__principle-number">{{ number }}</span>
+            {{/if}}
+            <p class="section-design-defend__principle-text">{{{ text }}}</p>
+          </div>
+        {{/each}}
+      </div>
+    {{/if}}
+  </div>
+</section>

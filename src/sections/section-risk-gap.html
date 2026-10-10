@@ -1,0 +1,96 @@
+<section
+  class="
+    section-risk-gap
+    {{#if riskGap.className}}
+      {{ riskGap.className }}
+    {{/if}}
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if riskGap.id}}
+    id="{{ riskGap.id }}"
+  {{/if}}
+  {{#if riskGap.title}}
+    aria-labelledby="{{#if riskGap.id}}{{ riskGap.id }}{{else}}section-risk-gap{{/if}}-title"
+  {{else}}
+    aria-label="{{#if riskGap.ariaLabel}}{{ riskGap.ariaLabel }}{{else}}Transfer pricing risk{{/if}}"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-risk-gap__header">
+      <div class="section-risk-gap__heading">
+        {{#if riskGap.eyebrow}}
+          <p class="section-risk-gap__eyebrow">
+            <span class="section-risk-gap__eyebrow-rule" aria-hidden="true"></span>
+            <span>{{ riskGap.eyebrow }}</span>
+          </p>
+        {{/if}}
+
+        {{#if riskGap.title}}
+          <h2
+            id="{{#if riskGap.id}}{{ riskGap.id }}{{else}}section-risk-gap{{/if}}-title"
+            class="section-risk-gap__title"
+          >
+            {{{ riskGap.title }}}
+          </h2>
+        {{/if}}
+      </div>
+
+      <div class="section-risk-gap__intro">
+        {{#if riskGap.bodies}}
+          {{#each riskGap.bodies}}
+            <p class="section-risk-gap__body{{#if @last}} is-strong{{/if}}">
+              {{{ this }}}
+            </p>
+          {{/each}}
+        {{/if}}
+      </div>
+    </div>
+
+    <div class="section-risk-gap__content">
+      {{#if riskGap.image}}
+        <div class="section-risk-gap__media">
+          {{picture
+            riskGap.image
+            alt=riskGap.imageAlt
+            class="section-risk-gap__image"
+            width="1120"
+            height="1074"
+          }}
+        </div>
+      {{/if}}
+
+      {{#if riskGap.triggers}}
+        <div class="section-risk-gap__panel">
+          {{#if riskGap.triggersLabel}}
+            <p class="section-risk-gap__panel-label">{{ riskGap.triggersLabel }}</p>
+          {{/if}}
+          <ol class="section-risk-gap__triggers">
+            {{#each riskGap.triggers}}
+              <li class="section-risk-gap__trigger">
+                <span class="section-risk-gap__trigger-number" aria-hidden="true">
+                  {{#if number}}{{ number }}{{else}}{{ pad @index 'always' }}{{/if}}
+                </span>
+                <p class="section-risk-gap__trigger-text">{{{ text }}}</p>
+              </li>
+            {{/each}}
+          </ol>
+        </div>
+      {{/if}}
+    </div>
+
+    {{#if riskGap.note}}
+      <div class="section-risk-gap__footer">
+        <p class="section-risk-gap__note">{{{ riskGap.note }}}</p>
+        {{#if riskGap.conclusion}}
+          <p class="section-risk-gap__conclusion">{{{ riskGap.conclusion }}}</p>
+        {{/if}}
+      </div>
+    {{else if riskGap.conclusion}}
+      <div class="section-risk-gap__footer">
+        <p class="section-risk-gap__conclusion">{{{ riskGap.conclusion }}}</p>
+      </div>
+    {{/if}}
+  </div>
+</section>

@@ -32,6 +32,12 @@
     }
   }
 
+  &.tp-commercial {
+    .section-page-content-banner__banner-right-column-text {
+      @include adaptive-value('font-size', 36, 25, 1);
+    }
+  }
+
   &__header {
     display: flex;
     justify-content: space-between;

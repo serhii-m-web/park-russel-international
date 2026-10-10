@@ -19,14 +19,23 @@
 >
   <div class="container">
     <div class="section-confidence__header">
-      {{#if confidence.title}}
-        <h2
-          id="{{#if confidence.id}}{{ confidence.id }}{{else}}section-confidence{{/if}}-title"
-          class="section-confidence__title"
-        >
-          {{{ confidence.title }}}
-        </h2>
-      {{/if}}
+      <div class="section-confidence__heading">
+        {{#if confidence.eyebrow}}
+          <p class="section-confidence__eyebrow">
+            <span class="section-confidence__eyebrow-rule" aria-hidden="true"></span>
+            <span>{{ confidence.eyebrow }}</span>
+          </p>
+        {{/if}}
+
+        {{#if confidence.title}}
+          <h2
+            id="{{#if confidence.id}}{{ confidence.id }}{{else}}section-confidence{{/if}}-title"
+            class="section-confidence__title"
+          >
+            {{{ confidence.title }}}
+          </h2>
+        {{/if}}
+      </div>
 
       {{#if confidence.lead}}
         <div class="section-confidence__intro">

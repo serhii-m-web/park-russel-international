@@ -1,0 +1,305 @@
+@use '../abstracts' as *;
+
+.section-process-ramp {
+  @include adaptive-value('padding-top', 120, 56, 1);
+  @include adaptive-value('padding-bottom', 120, 56, 1);
+  background-color: $color-white;
+
+  &__header {
+    @include adaptive-value('margin-bottom', 64, 32, 1);
+  }
+
+  &__eyebrow {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 0 0 20px;
+    color: $color-dark-blue;
+    font-weight: 500;
+    letter-spacing: 1.68px;
+    line-height: calc(16 / 12);
+    text-transform: uppercase;
+    @include adaptive-value('font-size', 12, 11, 1);
+  }
+
+  &__eyebrow-rule {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: $color-red;
+    flex-shrink: 0;
+  }
+
+  &__title {
+    margin: 0;
+    max-width: 1100px;
+    color: $color-dark-blue;
+    font-weight: 500;
+    letter-spacing: -1.2px;
+    line-height: calc(52 / 48);
+    @include adaptive-value('font-size', 48, 32, 1);
+  }
+
+  &__steps-wrap {
+    margin: 0 0 64px;
+
+    @include media('<tablet') {
+      margin-bottom: 40px;
+    }
+  }
+
+  &__steps {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    margin: 0;
+    padding: 0;
+    overflow: visible !important;
+
+    @include media('>=tablet') {
+      overflow: visible;
+
+      .swiper-wrapper {
+        display: flex;
+        align-items: flex-end;
+        gap: 12px;
+        transform: none !important;
+      }
+
+      .swiper-slide {
+        width: auto !important;
+        margin: 0 !important;
+        height: auto;
+        flex: 1;
+      }
+    }
+
+    @include media('<desktop') {
+      @include media('>=tablet') {
+        .swiper-wrapper {
+          display: grid;
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+          align-items: stretch;
+          gap: 12px;
+        }
+
+        .swiper-slide {
+          flex: none;
+          width: auto !important;
+        }
+      }
+    }
+
+    @include media('<tablet') {
+      overflow: hidden;
+
+      .swiper-wrapper {
+        align-items: stretch;
+      }
+    }
+  }
+
+  .swiper-slide {
+    @include media('<tablet') {
+      height: auto !important;
+      min-height: 0 !important;
+    }
+  }
+
+  &__step {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-width: 0;
+    box-sizing: border-box;
+    padding: 28px 24px;
+    border-radius: 20px;
+    background-color: $color-bg-muted;
+    color: $color-dark-blue;
+
+    &:nth-child(1) {
+      min-height: 300px;
+    }
+
+    &:nth-child(2) {
+      min-height: 344px;
+      background-color: #eceef3;
+    }
+
+    &:nth-child(3) {
+      min-height: 388px;
+      background-color: #e6e9ef;
+    }
+
+    &:nth-child(4) {
+      min-height: 432px;
+      background-color: #dfe3ea;
+    }
+
+    &.is-dark {
+      min-height: 476px;
+      background-color: #273449;
+      color: $color-white;
+
+      .section-process-ramp__step-label {
+        color: $color-ice;
+      }
+    }
+
+    &.is-darker {
+      min-height: 520px;
+      background-color: $color-dark-blue;
+      color: $color-white;
+
+      .section-process-ramp__step-label {
+        color: $color-ice;
+      }
+    }
+
+    @include media('<desktop') {
+      min-height: 0 !important;
+    }
+
+    @include media('<tablet') {
+      flex: none;
+      flex-grow: 0;
+      flex-shrink: 0;
+      min-height: 280px !important;
+    }
+  }
+
+  &__step-number {
+    display: block;
+    margin-bottom: auto;
+    font-weight: 500;
+    letter-spacing: -0.88px;
+    line-height: 1;
+    @include adaptive-value('font-size', 44, 36, 1);
+  }
+
+  &__step-body {
+    margin-top: 24px;
+  }
+
+  &__step-rule {
+    display: block;
+    width: 32px;
+    height: 3px;
+    margin-bottom: 16px;
+    background-color: $color-red;
+  }
+
+  &__step-label {
+    margin: 0 0 10px;
+    color: $color-red;
+    font-weight: 500;
+    letter-spacing: 1.04px;
+    line-height: calc(18 / 13);
+    font-size: 13px;
+  }
+
+  &__step-text {
+    margin: 0;
+    letter-spacing: -0.054px;
+    line-height: calc(26 / 18);
+    @include adaptive-value('font-size', 18, 16, 1);
+  }
+
+  &__navigation {
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+    width: 100%;
+    @include adaptive-value('margin-top', 32, 24, 1);
+
+    @include media('<tablet') {
+      display: flex;
+    }
+  }
+
+  &__nav-buttons {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  &__scrollbar {
+    position: static !important;
+    left: auto !important;
+    right: auto !important;
+    top: auto !important;
+    bottom: auto !important;
+    flex: 1 1 auto;
+    width: auto !important;
+    max-width: 210px;
+    min-width: 0;
+    height: 6px !important;
+    background: $color-line !important;
+
+    .swiper-scrollbar-drag {
+      background: $color-red !important;
+    }
+  }
+
+  &__nav-btn {
+    position: static !important;
+    width: 40px !important;
+    height: 40px !important;
+    margin: 0 !important;
+    flex-shrink: 0;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    background-color: $color-red;
+    color: $color-white !important;
+
+    &::after {
+      display: none !important;
+    }
+
+    &.prev {
+      transform: rotate(180deg);
+    }
+
+    &.swiper-button-disabled {
+      border-color: $color-dark-blue;
+      background-color: transparent;
+      color: $color-dark-blue !important;
+    }
+
+    svg {
+      width: 16px !important;
+      height: 16px !important;
+    }
+  }
+
+  &__conclusion {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+
+    @include media('<tablet') {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 12px;
+    }
+  }
+
+  &__conclusion-rule {
+    display: block;
+    width: 48px;
+    height: 3px;
+    background-color: $color-red;
+    flex-shrink: 0;
+  }
+
+  &__conclusion-text {
+    margin: 0;
+    max-width: 1000px;
+    color: $color-dark-blue;
+    font-weight: 500;
+    letter-spacing: -0.28px;
+    line-height: calc(36 / 28);
+    @include adaptive-value('font-size', 28, 22, 1);
+  }
+}

@@ -1,0 +1,112 @@
+<section
+  class="
+    section-insight-chain
+    {{#if insight.className}}
+      {{ insight.className }}
+    {{/if}}
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if insight.id}}
+    id="{{ insight.id }}"
+  {{/if}}
+  {{#if insight.title}}
+    aria-labelledby="{{#if insight.id}}{{ insight.id }}{{else}}section-insight-chain{{/if}}-title"
+  {{else}}
+    aria-label="{{#if insight.ariaLabel}}{{ insight.ariaLabel }}{{else}}Insight{{/if}}"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-insight-chain__header">
+      <div class="section-insight-chain__heading">
+        {{#if insight.eyebrow}}
+          <p class="section-insight-chain__eyebrow">
+            <span class="section-insight-chain__eyebrow-rule" aria-hidden="true"></span>
+            <span>{{ insight.eyebrow }}</span>
+          </p>
+        {{/if}}
+
+        {{#if insight.title}}
+          <h2
+            id="{{#if insight.id}}{{ insight.id }}{{else}}section-insight-chain{{/if}}-title"
+            class="section-insight-chain__title"
+          >
+            {{{ insight.title }}}
+          </h2>
+        {{/if}}
+      </div>
+
+      <div class="section-insight-chain__intro">
+        {{#if insight.lead}}
+          <p class="section-insight-chain__lead">
+            {{{ insight.lead }}}
+          </p>
+        {{/if}}
+
+        {{#if insight.bodies}}
+          <div class="section-insight-chain__bodies">
+            {{#each insight.bodies}}
+              <p class="section-insight-chain__body">
+                {{{ this }}}
+              </p>
+            {{/each}}
+          </div>
+        {{/if}}
+      </div>
+    </div>
+
+    {{#if insight.card}}
+      <div class="section-insight-chain__card">
+        <div class="section-insight-chain__card-header">
+          {{#if insight.card.title}}
+            <p class="section-insight-chain__card-title">
+              {{{ insight.card.title }}}
+            </p>
+          {{/if}}
+          {{#if insight.card.label}}
+            <p class="section-insight-chain__card-label">
+              {{{ insight.card.label }}}
+            </p>
+          {{/if}}
+        </div>
+
+        {{#if insight.card.steps}}
+          <ol class="section-insight-chain__steps">
+            {{#each insight.card.steps}}
+              <li
+                class="
+                  section-insight-chain__step
+                  {{#if accent}}
+                    is-accent
+                  {{/if}}
+                "
+              >
+                <div class="section-insight-chain__step-track" aria-hidden="true">
+                  <span class="section-insight-chain__step-node">
+                    {{#if number}}{{ number }}{{else}}{{ pad @index 'always' }}{{/if}}
+                  </span>
+                  {{#unless @last}}
+                    <span class="section-insight-chain__step-line"></span>
+                  {{/unless}}
+                </div>
+                <p class="section-insight-chain__step-text">
+                  {{{ text }}}
+                </p>
+              </li>
+            {{/each}}
+          </ol>
+        {{/if}}
+      </div>
+    {{/if}}
+
+    {{#if insight.conclusion}}
+      <div class="section-insight-chain__conclusion">
+        <span class="section-insight-chain__conclusion-rule" aria-hidden="true"></span>
+        <p class="section-insight-chain__conclusion-text">
+          {{{ insight.conclusion }}}
+        </p>
+      </div>
+    {{/if}}
+  </div>
+</section>

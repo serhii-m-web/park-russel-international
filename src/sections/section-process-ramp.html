@@ -1,0 +1,130 @@
+<section
+  class="
+    section-process-ramp
+    {{#if processRamp.className}}
+      {{ processRamp.className }}
+    {{/if}}
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if processRamp.id}}
+    id="{{ processRamp.id }}"
+  {{/if}}
+  data-process-ramp-slider
+  {{#if processRamp.title}}
+    aria-labelledby="{{#if processRamp.id}}{{ processRamp.id }}{{else}}section-process-ramp{{/if}}-title"
+  {{else}}
+    aria-label="{{#if processRamp.ariaLabel}}{{ processRamp.ariaLabel }}{{else}}Process{{/if}}"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-process-ramp__header">
+      {{#if processRamp.eyebrow}}
+        <p class="section-process-ramp__eyebrow">
+          <span class="section-process-ramp__eyebrow-rule" aria-hidden="true"></span>
+          <span>{{ processRamp.eyebrow }}</span>
+        </p>
+      {{/if}}
+
+      {{#if processRamp.title}}
+        <h2
+          id="{{#if processRamp.id}}{{ processRamp.id }}{{else}}section-process-ramp{{/if}}-title"
+          class="section-process-ramp__title"
+        >
+          {{{ processRamp.title }}}
+        </h2>
+      {{/if}}
+    </div>
+
+    {{#if processRamp.steps}}
+      <div class="section-process-ramp__steps-wrap">
+        <div
+          class="swiper section-process-ramp__steps"
+          data-process-ramp-slider-el
+          data-process-ramp-slider-label="{{#if processRamp.carouselLabel}}{{ processRamp.carouselLabel }}{{else}}{{ processRamp.ariaLabel }}{{/if}}"
+        >
+          <div class="swiper-wrapper">
+            {{#each processRamp.steps}}
+              <article
+                class="
+                  swiper-slide
+                  section-process-ramp__step
+                  {{#if dark}}
+                    is-dark
+                  {{/if}}
+                  {{#if darker}}
+                    is-darker
+                  {{/if}}
+                "
+              >
+                <span class="section-process-ramp__step-number" aria-hidden="true">
+                  {{#if number}}{{ number }}{{else}}{{ pad @index 'always' }}{{/if}}
+                </span>
+                <div class="section-process-ramp__step-body">
+                  <span class="section-process-ramp__step-rule" aria-hidden="true"></span>
+                  {{#if label}}
+                    <p class="section-process-ramp__step-label">{{ label }}</p>
+                  {{/if}}
+                  {{#if description}}
+                    <p class="section-process-ramp__step-text">{{{ description }}}</p>
+                  {{/if}}
+                </div>
+              </article>
+            {{/each}}
+          </div>
+        </div>
+
+        <div
+          class="section-process-ramp__navigation"
+          role="group"
+          aria-label="Process steps slider controls"
+          data-process-ramp-slider-nav
+          inert
+        >
+          <div
+            class="swiper-scrollbar section-process-ramp__scrollbar"
+            data-process-ramp-slider-scrollbar
+            tabindex="0"
+            aria-label="Slider progress"
+          ></div>
+          <div class="section-process-ramp__nav-buttons">
+            <button
+              class="swiper-button-prev section-process-ramp__nav-btn prev"
+              type="button"
+              data-process-ramp-slider-prev
+              aria-label="Previous slide"
+            >
+              {{> icon
+                name="arrow-right"
+                width="16"
+                height="16"
+              }}
+            </button>
+            <button
+              class="swiper-button-next section-process-ramp__nav-btn next"
+              type="button"
+              data-process-ramp-slider-next
+              aria-label="Next slide"
+            >
+              {{> icon
+                name="arrow-right"
+                width="16"
+                height="16"
+              }}
+            </button>
+          </div>
+        </div>
+      </div>
+    {{/if}}
+
+    {{#if processRamp.conclusion}}
+      <div class="section-process-ramp__conclusion">
+        <span class="section-process-ramp__conclusion-rule" aria-hidden="true"></span>
+        <p class="section-process-ramp__conclusion-text">
+          {{{ processRamp.conclusion }}}
+        </p>
+      </div>
+    {{/if}}
+  </div>
+</section>

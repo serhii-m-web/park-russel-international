@@ -1,0 +1,162 @@
+<section
+  class="
+    section-follow-value
+    {{#if followValue.className}}
+      {{ followValue.className }}
+    {{/if}}
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if followValue.id}}
+    id="{{ followValue.id }}"
+  {{/if}}
+  data-follow-value-slider
+  {{#if followValue.title}}
+    aria-labelledby="{{#if followValue.id}}{{ followValue.id }}{{else}}section-follow-value{{/if}}-title"
+  {{else}}
+    aria-label="{{#if followValue.ariaLabel}}{{ followValue.ariaLabel }}{{else}}Follow the value{{/if}}"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-follow-value__header">
+      <div class="section-follow-value__heading">
+        {{#if followValue.eyebrow}}
+          <p class="section-follow-value__eyebrow">
+            <span class="section-follow-value__eyebrow-rule" aria-hidden="true"></span>
+            <span>{{ followValue.eyebrow }}</span>
+          </p>
+        {{/if}}
+
+        {{#if followValue.title}}
+          <h2
+            id="{{#if followValue.id}}{{ followValue.id }}{{else}}section-follow-value{{/if}}-title"
+            class="section-follow-value__title"
+          >
+            {{{ followValue.title }}}
+          </h2>
+        {{/if}}
+      </div>
+
+      <div class="section-follow-value__intro">
+        {{#if followValue.lead}}
+          <p class="section-follow-value__lead">{{{ followValue.lead }}}</p>
+        {{/if}}
+        {{#if followValue.bodies}}
+          {{#each followValue.bodies}}
+            <p class="section-follow-value__body">{{{ this }}}</p>
+          {{/each}}
+        {{/if}}
+      </div>
+    </div>
+
+    <div class="section-follow-value__layers">
+      {{#if followValue.structureLabel}}
+        <div class="section-follow-value__structure">
+          <p class="section-follow-value__structure-text">
+            {{{ followValue.structureLabel }}}
+          </p>
+        </div>
+      {{/if}}
+
+      <div class="section-follow-value__analysis">
+        {{#if followValue.analysisLabel}}
+          <div class="section-follow-value__analysis-caption">
+            {{#if followValue.analysisIcon}}
+              <img
+                class="section-follow-value__analysis-icon"
+                src="{{ followValue.analysisIcon }}"
+                alt=""
+                width="40"
+                height="40"
+                decoding="async"
+              />
+            {{/if}}
+            <p class="section-follow-value__analysis-text">
+              {{{ followValue.analysisLabel }}}
+            </p>
+          </div>
+        {{/if}}
+
+        {{#if followValue.dimensions}}
+          <div class="section-follow-value__dimensions-wrap">
+            <div
+              class="swiper section-follow-value__dimensions"
+              data-follow-value-slider-el
+              data-follow-value-slider-label="{{#if followValue.carouselLabel}}{{ followValue.carouselLabel }}{{else}}{{ followValue.ariaLabel }}{{/if}}"
+            >
+              <div class="swiper-wrapper">
+                {{#each followValue.dimensions}}
+                  <article
+                    class="
+                      swiper-slide
+                      section-follow-value__dimension
+                      {{#if accent}}
+                        is-accent
+                      {{/if}}
+                    "
+                  >
+                    {{#if icon}}
+                      <span class="section-follow-value__dimension-icon" aria-hidden="true">
+                        <img src="{{ icon }}" alt="" width="28" height="28" decoding="async" />
+                      </span>
+                    {{/if}}
+                    <div class="section-follow-value__dimension-content">
+                      {{#if label}}
+                        <p class="section-follow-value__dimension-label">{{ label }}</p>
+                      {{/if}}
+                      {{#if text}}
+                        <p class="section-follow-value__dimension-text">{{{ text }}}</p>
+                      {{/if}}
+                    </div>
+                  </article>
+                {{/each}}
+              </div>
+            </div>
+
+            <div
+              class="section-follow-value__navigation"
+              role="group"
+              aria-label="Value dimensions slider controls"
+              data-follow-value-slider-nav
+              inert
+            >
+              <div
+                class="swiper-scrollbar section-follow-value__scrollbar"
+                data-follow-value-slider-scrollbar
+                tabindex="0"
+                aria-label="Slider progress"
+              ></div>
+              <div class="section-follow-value__nav-buttons">
+                <button
+                  class="swiper-button-prev section-follow-value__nav-btn prev"
+                  type="button"
+                  data-follow-value-slider-prev
+                  aria-label="Previous slide"
+                >
+                  {{> icon
+                    name="arrow-right"
+                    width="16"
+                    height="16"
+                  }}
+                </button>
+                <button
+                  class="swiper-button-next section-follow-value__nav-btn next"
+                  type="button"
+                  data-follow-value-slider-next
+                  aria-label="Next slide"
+                >
+                  {{> icon
+                    name="arrow-right"
+                    width="16"
+                    height="16"
+                  }}
+                </button>
+              </div>
+            </div>
+          </div>
+        {{/if}}
+      </div>
+    </div>
+  </div>
+</section>
