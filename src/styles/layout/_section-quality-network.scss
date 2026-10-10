@@ -1,0 +1,161 @@
+@use '../abstracts' as *;
+
+.section-quality-network {
+  @include adaptive-value('padding-top', 120, 56, 1);
+  @include adaptive-value('padding-bottom', 120, 56, 1);
+  background-color: $color-white;
+
+  &__header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 48px;
+    @include adaptive-value('margin-bottom', 56, 32, 1);
+
+    @include media('<desktop') {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 24px;
+    }
+  }
+
+  &__heading {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    min-width: 0;
+    max-width: 620px;
+  }
+
+  &__rule {
+    display: block;
+    width: 48px;
+    height: 3px;
+    background-color: $color-red;
+  }
+
+  &__title {
+    margin: 0;
+    color: $color-dark-blue;
+    font-weight: 500;
+    letter-spacing: -1.2px;
+    line-height: calc(52 / 48);
+    @include adaptive-value('font-size', 48, 32, 1);
+  }
+
+  &__lead {
+    max-width: 540px;
+    margin: 0;
+    color: $color-dark-blue;
+    letter-spacing: -0.11px;
+    line-height: calc(32 / 22);
+    @include adaptive-value('font-size', 22, 18, 1);
+  }
+
+  &__levels {
+    display: grid;
+    grid-template-columns: minmax(0, 520px) minmax(0, 1fr);
+    gap: 24px;
+    align-items: stretch;
+
+    @include media('<desktop') {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &__level {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    box-sizing: border-box;
+    min-height: 100%;
+    padding: 48px;
+    border-radius: 28px;
+
+    @include media('<tablet') {
+      gap: 24px;
+      padding: 28px 24px;
+    }
+
+    &--light {
+      background-color: $color-bg-muted;
+
+      .section-quality-network__icon {
+        background-color: $color-dark-blue;
+      }
+
+      .section-quality-network__text {
+        color: $color-dark-blue;
+      }
+    }
+
+    &--dark {
+      gap: 24px;
+      padding: 48px 56px 48px 48px;
+      background:
+        radial-gradient(
+          45% 40% at 15% 50%,
+          rgba($color-red, 0.22) 0%,
+          rgba($color-red, 0) 100%
+        ),
+        $color-dark-blue;
+
+      @include media('<tablet') {
+        padding: 28px 24px;
+      }
+
+      .section-quality-network__icon {
+        background-color: $color-red;
+      }
+    }
+  }
+
+  &__icon {
+    display: inline-flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+    border-radius: 12px;
+
+    @include media('<tablet') {
+      width: 52px;
+      height: 52px;
+    }
+
+    img {
+      display: block;
+      width: 35px;
+      height: 35px;
+
+      @include media('<tablet') {
+        width: 28px;
+        height: 28px;
+      }
+    }
+  }
+
+  &__text,
+  &__level-lead {
+    margin: 0;
+    font-weight: 500;
+    letter-spacing: -0.42px;
+    line-height: calc(38 / 28);
+    @include adaptive-value('font-size', 28, 22, 1);
+  }
+
+  &__level-lead {
+    color: $color-white;
+  }
+
+  &__level-body {
+    margin: 0;
+    color: $color-ice;
+    line-height: calc(30 / 19);
+    @include adaptive-value('font-size', 19, 16, 1);
+  }
+}

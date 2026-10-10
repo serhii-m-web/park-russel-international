@@ -1,0 +1,61 @@
+<section
+  class="
+    section-quality-forum
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if qualityForum.id}}
+    id="{{ qualityForum.id }}"
+  {{/if}}
+  {{#if qualityForum.title}}
+    aria-labelledby="{{#if qualityForum.id}}{{ qualityForum.id }}{{else}}section-quality-forum{{/if}}-title"
+  {{else}}
+    aria-label="A Member of the Forum of Firms"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-quality-forum__layout">
+      <div class="section-quality-forum__copy">
+        <span class="section-quality-forum__rule" aria-hidden="true"></span>
+        {{#if qualityForum.title}}
+          <h2
+            id="{{#if qualityForum.id}}{{ qualityForum.id }}{{else}}section-quality-forum{{/if}}-title"
+            class="section-quality-forum__title"
+          >
+            {{{ qualityForum.title }}}
+          </h2>
+        {{/if}}
+        {{#if qualityForum.lead}}
+          <p class="section-quality-forum__lead">{{{ qualityForum.lead }}}</p>
+        {{/if}}
+        {{#if qualityForum.body.length}}
+          {{#each qualityForum.body}}
+            <p class="section-quality-forum__body{{#if @last}} section-quality-forum__body--muted{{/if}}">
+              {{{ this }}}
+            </p>
+          {{/each}}
+        {{/if}}
+      </div>
+
+      {{#if qualityForum.card}}
+        <aside class="section-quality-forum__card">
+          {{#if qualityForum.card.icon}}
+            <span class="section-quality-forum__seal" aria-hidden="true">
+              <img
+                src="{{ qualityForum.card.icon }}"
+                alt=""
+                width="40"
+                height="40"
+                decoding="async"
+              />
+            </span>
+          {{/if}}
+          {{#if qualityForum.card.text}}
+            <p class="section-quality-forum__card-text">{{{ qualityForum.card.text }}}</p>
+          {{/if}}
+        </aside>
+      {{/if}}
+    </div>
+  </div>
+</section>

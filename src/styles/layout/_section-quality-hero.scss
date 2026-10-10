@@ -1,0 +1,285 @@
+@use '../abstracts' as *;
+
+.section-quality-hero {
+  padding: 24px 0;
+  background-color: $color-white;
+
+  &__breadcrumb {
+    @include adaptive-value('margin-bottom', 24, 16, 1);
+  }
+
+  &__breadcrumb-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  &__breadcrumb-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: $color-text-muted;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(20 / 14);
+
+    &:not(:last-child)::after {
+      content: '/';
+      color: $color-text-muted;
+    }
+  }
+
+  &__breadcrumb-link {
+    color: $color-text-muted;
+    text-decoration: none;
+    transition: color 0.2s ease;
+
+    &:hover {
+      color: $color-dark-blue;
+    }
+  }
+
+  &__breadcrumb-current {
+    color: $color-dark-blue;
+  }
+
+  &__card {
+    position: relative;
+    overflow: hidden;
+    @include adaptive-value('border-radius', 32, 24, 1);
+    background-color: $color-navy;
+
+    &::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      z-index: 1;
+      pointer-events: none;
+      background:
+        linear-gradient(0deg, rgba(12, 18, 27, 0.2), rgba(12, 18, 27, 0.2)),
+        linear-gradient(
+          102.2deg,
+          rgba(12, 18, 27, 0.9) 40.63%,
+          rgba(12, 18, 27, 0) 87.03%
+        ),
+        linear-gradient(
+          180deg,
+          rgba(12, 18, 27, 0) 45%,
+          rgba(12, 18, 27, 0.85) 100%
+        );
+
+      @include media('<tablet') {
+        display: none;
+      }
+    }
+  }
+
+  &__bg {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+
+    @include media('<tablet') {
+      position: relative;
+
+      &::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        z-index: 1;
+        pointer-events: none;
+        background: linear-gradient(
+          180deg,
+          rgba($color-navy, 0.05) 0%,
+          rgba($color-navy, 0.25) 55%,
+          $color-navy 100%
+        );
+      }
+    }
+  }
+
+  &__bg-image {
+    display: block;
+    width: 100%;
+    height: 100%;
+
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__inner {
+    position: relative;
+    z-index: 2;
+    @include adaptive-value('padding-top', 72, 40, 1);
+    @include adaptive-value('padding-bottom', 72, 40, 1);
+    @include adaptive-value('padding-left', 32, 20, 1);
+    @include adaptive-value('padding-right', 32, 20, 1);
+    @include adaptive-value('min-height', 554, 0, 1);
+
+    @include media('<tablet') {
+      padding-top: 10px;
+      min-height: 0;
+    }
+  }
+
+  &__label {
+    display: inline-flex;
+    align-items: center;
+    height: 32px;
+    @include adaptive-value('margin-bottom', 32, 16, 1);
+    padding: 0 12px;
+    border: 1px solid rgba($color-white, 0.32);
+    border-radius: 1000px;
+    background-color: rgba($color-white, 0.08);
+    color: $color-white;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0.13px;
+  }
+
+  &__title {
+    margin: 0;
+    max-width: 788px;
+    color: $color-white;
+    font-weight: 500;
+    letter-spacing: -2.04px;
+    line-height: calc(72 / 68);
+    @include adaptive-value('font-size', 68, 36, 1);
+    @include adaptive-value('margin-bottom', 24, 16, 1);
+  }
+
+  &__lead {
+    margin: 0;
+    max-width: 720px;
+    color: $color-white;
+    letter-spacing: -0.11px;
+    line-height: calc(32 / 22);
+    @include adaptive-value('font-size', 22, 18, 1);
+    @include adaptive-value('margin-bottom', 24, 16, 1);
+  }
+
+  &__body {
+    margin: 0;
+    max-width: 660px;
+    color: $color-ice;
+    letter-spacing: -0.085px;
+    line-height: calc(26 / 17);
+    @include adaptive-value('font-size', 17, 16, 1);
+  }
+
+  &__panel {
+    position: relative;
+    overflow: hidden;
+    @include adaptive-value('margin-top', 20, 16, 1);
+    @include adaptive-value('padding-top', 56, 40, 1);
+    @include adaptive-value('padding-bottom', 56, 40, 1);
+    @include adaptive-value('padding-left', 64, 24, 1);
+    @include adaptive-value('padding-right', 64, 24, 1);
+    @include adaptive-value('border-radius', 32, 24, 1);
+    background:
+      radial-gradient(
+        55% 35% at 0% 80%,
+        rgba($color-red, 0.28) 0%,
+        rgba($color-red, 0) 100%
+      ),
+      #141c2e;
+  }
+
+  &__objective {
+    display: flex;
+    align-items: flex-start;
+    gap: 36px;
+    padding-bottom: 48px;
+
+    @include media('<tablet') {
+      flex-direction: column;
+      gap: 20px;
+      padding-bottom: 32px;
+    }
+  }
+
+  &__objective-icon {
+    display: inline-flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    width: 72px;
+    height: 72px;
+    border-radius: 14px;
+    background-color: $color-red;
+    box-shadow: 0 12px 28px rgba($color-red, 0.35);
+
+    @include media('<tablet') {
+      width: 56px;
+      height: 56px;
+    }
+
+    img {
+      display: block;
+      width: 39px;
+      height: 39px;
+
+      @include media('<tablet') {
+        width: 30px;
+        height: 30px;
+      }
+    }
+  }
+
+  &__objective-text {
+    margin: 0;
+    color: $color-white;
+    letter-spacing: -0.28px;
+    line-height: calc(40 / 28);
+    @include adaptive-value('font-size', 28, 18, 1);
+
+    .is-accent {
+      color: #ff5a6e;
+      font-weight: 500;
+    }
+  }
+
+  &__statement {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    padding-top: 48px;
+    border-top: 1px solid rgba($color-white, 0.12);
+
+    @include media('<desktop') {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 20px;
+      padding-top: 32px;
+    }
+  }
+
+  &__statement-rule {
+    flex-shrink: 0;
+    width: 64px;
+    height: 3px;
+    background-color: $color-red;
+  }
+
+  &__statement-text {
+    margin: 0;
+    color: $color-white;
+    font-weight: 500;
+    letter-spacing: -1.05px;
+    line-height: calc(50 / 42);
+    @include adaptive-value('font-size', 42, 26, 1);
+
+    .is-muted {
+      color: #8fa0b8;
+    }
+  }
+}

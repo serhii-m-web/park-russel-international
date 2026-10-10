@@ -1,0 +1,62 @@
+<section
+  class="
+    section-quality-support
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if qualitySupport.id}}
+    id="{{ qualitySupport.id }}"
+  {{/if}}
+  {{#if qualitySupport.title}}
+    aria-labelledby="{{#if qualitySupport.id}}{{ qualitySupport.id }}{{else}}section-quality-support{{/if}}-title"
+  {{else}}
+    aria-label="How We Support Quality"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-quality-support__header">
+      <span class="section-quality-support__rule" aria-hidden="true"></span>
+      {{#if qualitySupport.title}}
+        <h2
+          id="{{#if qualitySupport.id}}{{ qualitySupport.id }}{{else}}section-quality-support{{/if}}-title"
+          class="section-quality-support__title"
+        >
+          {{{ qualitySupport.title }}}
+        </h2>
+      {{/if}}
+    </div>
+
+    {{#if qualitySupport.pillars.length}}
+      <div class="section-quality-support__pillars">
+        {{#each qualitySupport.pillars}}
+          <article class="section-quality-support__pillar">
+            <div class="section-quality-support__pillar-title">
+              {{#if icon}}
+                <span class="section-quality-support__icon" aria-hidden="true">
+                  <img src="{{ icon }}" alt="" width="35" height="35" decoding="async" />
+                </span>
+              {{/if}}
+              {{#if title}}
+                <h3 class="section-quality-support__pillar-heading">{{ title }}</h3>
+              {{/if}}
+            </div>
+            <span class="section-quality-support__divider" aria-hidden="true"></span>
+            {{#if lead}}
+              <p class="section-quality-support__lead">{{{ lead }}}</p>
+            {{/if}}
+            {{#if body}}
+              <p class="section-quality-support__body">{{{ body }}}</p>
+            {{/if}}
+            {{#if emphasis}}
+              <div class="section-quality-support__emphasis">
+                <span class="section-quality-support__emphasis-bar" aria-hidden="true"></span>
+                <p class="section-quality-support__emphasis-text">{{{ emphasis }}}</p>
+              </div>
+            {{/if}}
+          </article>
+        {{/each}}
+      </div>
+    {{/if}}
+  </div>
+</section>

@@ -1,0 +1,102 @@
+<section
+  class="
+    section-quality-hero
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if qualityHero.id}}
+    id="{{ qualityHero.id }}"
+  {{/if}}
+  {{#if qualityHero.title}}
+    aria-labelledby="{{#if qualityHero.id}}{{ qualityHero.id }}{{else}}section-quality-hero{{/if}}-title"
+  {{else}}
+    aria-label="Our Commitment to Quality"
+  {{/if}}
+>
+  <div class="container">
+    {{#if qualityHero.breadcrumb.length}}
+      <nav class="section-quality-hero__breadcrumb" aria-label="Breadcrumb">
+        <ol class="section-quality-hero__breadcrumb-list">
+          {{#each qualityHero.breadcrumb}}
+            <li class="section-quality-hero__breadcrumb-item">
+              {{#if href}}
+                <a class="section-quality-hero__breadcrumb-link" href="{{ href }}">
+                  {{ label }}
+                </a>
+              {{else}}
+                <span class="section-quality-hero__breadcrumb-current" aria-current="page">
+                  {{ label }}
+                </span>
+              {{/if}}
+            </li>
+          {{/each}}
+        </ol>
+      </nav>
+    {{/if}}
+
+    <div class="section-quality-hero__card">
+      {{#if qualityHero.imageBg}}
+        <div class="section-quality-hero__bg" aria-hidden="true">
+          {{picture
+            qualityHero.imageBg
+            alt=""
+            class="section-quality-hero__bg-image"
+            width="1376"
+            height="554"
+            loading=qualityHero.imageLoading
+          }}
+        </div>
+      {{/if}}
+
+      <div class="section-quality-hero__inner">
+        {{#if qualityHero.label}}
+          <span class="section-quality-hero__label">{{ qualityHero.label }}</span>
+        {{/if}}
+
+        {{#if qualityHero.title}}
+          <h1
+            id="{{#if qualityHero.id}}{{ qualityHero.id }}{{else}}section-quality-hero{{/if}}-title"
+            class="section-quality-hero__title"
+          >
+            {{{ qualityHero.title }}}
+          </h1>
+        {{/if}}
+
+        {{#if qualityHero.lead}}
+          <p class="section-quality-hero__lead">{{{ qualityHero.lead }}}</p>
+        {{/if}}
+
+        {{#if qualityHero.body}}
+          <p class="section-quality-hero__body">{{{ qualityHero.body }}}</p>
+        {{/if}}
+      </div>
+    </div>
+
+    <div class="section-quality-hero__panel">
+      {{#if qualityHero.objective}}
+        <div class="section-quality-hero__objective">
+          {{#if qualityHero.objective.icon}}
+            <span class="section-quality-hero__objective-icon" aria-hidden="true">
+              <img
+                src="{{ qualityHero.objective.icon }}"
+                alt=""
+                width="39"
+                height="39"
+                decoding="async"
+              />
+            </span>
+          {{/if}}
+          <p class="section-quality-hero__objective-text">{{{ qualityHero.objective.text }}}</p>
+        </div>
+      {{/if}}
+
+      {{#if qualityHero.statement}}
+        <div class="section-quality-hero__statement">
+          <span class="section-quality-hero__statement-rule" aria-hidden="true"></span>
+          <p class="section-quality-hero__statement-text">{{{ qualityHero.statement }}}</p>
+        </div>
+      {{/if}}
+    </div>
+  </div>
+</section>

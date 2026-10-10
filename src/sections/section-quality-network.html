@@ -1,0 +1,58 @@
+<section
+  class="
+    section-quality-network
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if qualityNetwork.id}}
+    id="{{ qualityNetwork.id }}"
+  {{/if}}
+  {{#if qualityNetwork.title}}
+    aria-labelledby="{{#if qualityNetwork.id}}{{ qualityNetwork.id }}{{else}}section-quality-network{{/if}}-title"
+  {{else}}
+    aria-label="Quality Across an International Network"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-quality-network__header">
+      <div class="section-quality-network__heading">
+        <span class="section-quality-network__rule" aria-hidden="true"></span>
+        {{#if qualityNetwork.title}}
+          <h2
+            id="{{#if qualityNetwork.id}}{{ qualityNetwork.id }}{{else}}section-quality-network{{/if}}-title"
+            class="section-quality-network__title"
+          >
+            {{{ qualityNetwork.title }}}
+          </h2>
+        {{/if}}
+      </div>
+      {{#if qualityNetwork.lead}}
+        <p class="section-quality-network__lead">{{{ qualityNetwork.lead }}}</p>
+      {{/if}}
+    </div>
+
+    {{#if qualityNetwork.levels.length}}
+      <div class="section-quality-network__levels">
+        {{#each qualityNetwork.levels}}
+          <article class="section-quality-network__level section-quality-network__level--{{ variant }}">
+            {{#if icon}}
+              <span class="section-quality-network__icon" aria-hidden="true">
+                <img src="{{ icon }}" alt="" width="35" height="35" decoding="async" />
+              </span>
+            {{/if}}
+            {{#if text}}
+              <p class="section-quality-network__text">{{{ text }}}</p>
+            {{/if}}
+            {{#if lead}}
+              <p class="section-quality-network__level-lead">{{{ lead }}}</p>
+            {{/if}}
+            {{#if body}}
+              <p class="section-quality-network__level-body">{{{ body }}}</p>
+            {{/if}}
+          </article>
+        {{/each}}
+      </div>
+    {{/if}}
+  </div>
+</section>
