@@ -1,0 +1,201 @@
+@use '../abstracts' as *;
+
+.section-mission-local {
+  @include adaptive-value('padding-top', 120, 56, 1);
+  @include adaptive-value('padding-bottom', 120, 56, 1);
+  background-color: $color-white;
+
+  &__header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    @include adaptive-value('margin-bottom', 56, 32, 1);
+  }
+
+  &__rule {
+    display: block;
+    width: 48px;
+    height: 3px;
+    background-color: $color-red;
+  }
+
+  &__title {
+    margin: 0;
+    max-width: 1000px;
+    color: $color-dark-blue;
+    font-weight: 500;
+    letter-spacing: -1.2px;
+    line-height: calc(52 / 48);
+    @include adaptive-value('font-size', 48, 32, 1);
+  }
+
+  &__cards {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px;
+    @include adaptive-value('margin-bottom', 56, 40, 1);
+
+    @include media('<desktop') {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &__card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    min-height: 600px;
+    overflow: hidden;
+    border-radius: 28px;
+
+    @include media('<tablet') {
+      min-height: 420px;
+    }
+  }
+
+  &__card-bg {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+
+    &::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        180deg,
+        rgba(12, 18, 27, 0.25) 0%,
+        rgba(12, 18, 27, 0.55) 45%,
+        rgba(12, 18, 27, 0.94) 100%
+      );
+    }
+  }
+
+  &__card-image {
+    display: block;
+    width: 100%;
+    height: 100%;
+
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__card-content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 48px 56px 48px 48px;
+
+    @include media('<tablet') {
+      padding: 32px 24px;
+      gap: 16px;
+    }
+  }
+
+  &__card-icon {
+    display: inline-flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 56px;
+    margin-bottom: 8px;
+    border-radius: 6px;
+    background-color: $color-red;
+
+    img {
+      display: block;
+      width: 30px;
+      height: 30px;
+    }
+  }
+
+  &__card-title {
+    margin: 0;
+    color: $color-white;
+    font-weight: 500;
+    letter-spacing: -0.51px;
+    line-height: calc(40 / 34);
+    @include adaptive-value('font-size', 34, 26, 1);
+  }
+
+  &__card-body {
+    margin: 0;
+    color: #dbe4ee;
+    line-height: calc(28 / 18);
+    @include adaptive-value('font-size', 18, 16, 1);
+  }
+
+  &__connection {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    background-color: $color-white;
+    box-shadow: 0 12px 32px rgba(12, 18, 27, 0.25);
+    transform: translate(-50%, -50%);
+
+    img {
+      display: block;
+      width: 40px;
+      height: 40px;
+
+      @include media('<tablet') {
+        width: 28px;
+        height: 28px;
+      }
+    }
+
+    @include media('<tablet') {
+      width: 56px;
+      height: 56px;
+    }
+  }
+
+  &__conclusion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    text-align: center;
+
+    @include media('<phone') {
+      text-align: start;
+    }
+  }
+
+  &__conclusion-title {
+    margin: 0;
+    max-width: 1000px;
+    color: $color-dark-blue;
+    font-weight: 500;
+    letter-spacing: -1.1px;
+    line-height: calc(52 / 44);
+    @include adaptive-value('font-size', 44, 28, 1);
+  }
+
+  &__conclusion-lead {
+    margin: 0;
+    max-width: 800px;
+    color: $color-text-muted;
+    letter-spacing: -0.11px;
+    line-height: calc(32 / 22);
+    @include adaptive-value('font-size', 22, 18, 1);
+  }
+}

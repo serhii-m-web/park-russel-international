@@ -1,0 +1,100 @@
+<section
+  class="
+    section-mission-hero
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if missionHero.id}}
+    id="{{ missionHero.id }}"
+  {{/if}}
+  {{#if missionHero.title}}
+    aria-labelledby="{{#if missionHero.id}}{{ missionHero.id }}{{else}}section-mission-hero{{/if}}-title"
+  {{else}}
+    aria-label="Our Mission"
+  {{/if}}
+>
+  <div class="container">
+    {{#if missionHero.breadcrumb.length}}
+      <nav class="section-mission-hero__breadcrumb" aria-label="Breadcrumb">
+        <ol class="section-mission-hero__breadcrumb-list">
+          {{#each missionHero.breadcrumb}}
+            <li class="section-mission-hero__breadcrumb-item">
+              {{#if href}}
+                <a class="section-mission-hero__breadcrumb-link" href="{{ href }}">
+                  {{ label }}
+                </a>
+              {{else}}
+                <span class="section-mission-hero__breadcrumb-current" aria-current="page">
+                  {{ label }}
+                </span>
+              {{/if}}
+            </li>
+          {{/each}}
+        </ol>
+      </nav>
+    {{/if}}
+
+    <div class="section-mission-hero__card">
+      {{#if missionHero.imageBg}}
+        <div class="section-mission-hero__bg" aria-hidden="true">
+          {{picture
+            missionHero.imageBg
+            alt=""
+            class="section-mission-hero__bg-image"
+            width="1376"
+            height="586"
+            loading=missionHero.imageLoading
+          }}
+        </div>
+      {{/if}}
+
+      <div class="section-mission-hero__inner">
+        {{#if missionHero.label}}
+          <span class="section-mission-hero__label">{{ missionHero.label }}</span>
+        {{/if}}
+
+        {{#if missionHero.title}}
+          <h1
+            id="{{#if missionHero.id}}{{ missionHero.id }}{{else}}section-mission-hero{{/if}}-title"
+            class="section-mission-hero__title"
+          >
+            {{{ missionHero.title }}}
+          </h1>
+        {{/if}}
+
+        {{#if missionHero.lead}}
+          <p class="section-mission-hero__lead">{{{ missionHero.lead }}}</p>
+        {{/if}}
+
+        {{#if missionHero.body}}
+          <p class="section-mission-hero__body">{{{ missionHero.body }}}</p>
+        {{/if}}
+      </div>
+    </div>
+
+    <div class="section-mission-hero__panel">
+      {{#if missionHero.audiences.length}}
+        <ul class="section-mission-hero__audiences">
+          {{#each missionHero.audiences}}
+            <li class="section-mission-hero__audience">
+              {{#if icon}}
+                <span class="section-mission-hero__audience-icon" aria-hidden="true">
+                  <img src="{{ icon }}" alt="" width="34" height="34" decoding="async" />
+                </span>
+              {{/if}}
+              <p class="section-mission-hero__audience-text">{{{ text }}}</p>
+            </li>
+          {{/each}}
+        </ul>
+      {{/if}}
+
+      {{#if missionHero.statement}}
+        <div class="section-mission-hero__statement">
+          <span class="section-mission-hero__statement-rule" aria-hidden="true"></span>
+          <p class="section-mission-hero__statement-text">{{{ missionHero.statement }}}</p>
+        </div>
+      {{/if}}
+    </div>
+  </div>
+</section>

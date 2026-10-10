@@ -1,0 +1,77 @@
+<section
+  class="
+    section-mission-clients
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if missionClients.id}}
+    id="{{ missionClients.id }}"
+  {{/if}}
+  {{#if missionClients.title}}
+    aria-labelledby="{{#if missionClients.id}}{{ missionClients.id }}{{else}}section-mission-clients{{/if}}-title"
+  {{else}}
+    aria-label="What this means for clients"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-mission-clients__layout">
+      <div class="section-mission-clients__copy">
+        <span class="section-mission-clients__rule" aria-hidden="true"></span>
+
+        {{#if missionClients.title}}
+          <h2
+            id="{{#if missionClients.id}}{{ missionClients.id }}{{else}}section-mission-clients{{/if}}-title"
+            class="section-mission-clients__title"
+          >
+            {{{ missionClients.title }}}
+          </h2>
+        {{/if}}
+
+        {{#if missionClients.lead}}
+          <p class="section-mission-clients__lead">{{{ missionClients.lead }}}</p>
+        {{/if}}
+
+        {{#if missionClients.body}}
+          <p class="section-mission-clients__body">{{{ missionClients.body }}}</p>
+        {{/if}}
+
+        {{#if missionClients.highlight}}
+          <div class="section-mission-clients__highlight">
+            <span class="section-mission-clients__highlight-bar" aria-hidden="true"></span>
+            <p class="section-mission-clients__highlight-text">
+              {{{ missionClients.highlight }}}
+            </p>
+          </div>
+        {{/if}}
+      </div>
+
+      {{#if missionClients.items.length}}
+        <div class="section-mission-clients__card">
+          {{#if missionClients.listLabel}}
+            <p class="section-mission-clients__card-label">{{ missionClients.listLabel }}</p>
+          {{/if}}
+
+          <ul class="section-mission-clients__list">
+            {{#each missionClients.items}}
+              <li class="section-mission-clients__item">
+                {{#if ../missionClients.checkIcon}}
+                  <span class="section-mission-clients__check" aria-hidden="true">
+                    <img
+                      src="{{ ../missionClients.checkIcon }}"
+                      alt=""
+                      width="26"
+                      height="26"
+                      decoding="async"
+                    />
+                  </span>
+                {{/if}}
+                <span class="section-mission-clients__item-text">{{ this }}</span>
+              </li>
+            {{/each}}
+          </ul>
+        </div>
+      {{/if}}
+    </div>
+  </div>
+</section>

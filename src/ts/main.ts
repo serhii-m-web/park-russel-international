@@ -5,6 +5,7 @@ import { initFeatureItemsSlider } from './featureItemsSlider';
 import { initFollowValueSlider } from './followValueSlider';
 import { initAboutCardsSlider } from './aboutCardsSlider';
 import { initCsrValuesSlider } from './csrValuesSlider';
+import { initMissionFirmsSlider } from './missionFirmsSlider';
 import { initIndustryInsightsSlider } from './industryInsightsSlider';
 import { initMegaMenu } from './megaMenu';
 import { initMethodologySlider } from './methodologySlider';
@@ -36,6 +37,7 @@ function init(): void {
   initIndustryInsightsSlider();
   initAboutCardsSlider();
   initCsrValuesSlider();
+  initMissionFirmsSlider();
   initSectionTabs();
   initSectionFaq();
 }

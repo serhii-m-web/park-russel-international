@@ -1,0 +1,78 @@
+<section
+  class="
+    section-mission-purpose
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if missionPurpose.id}}
+    id="{{ missionPurpose.id }}"
+  {{/if}}
+  {{#if missionPurpose.title}}
+    aria-labelledby="{{#if missionPurpose.id}}{{ missionPurpose.id }}{{else}}section-mission-purpose{{/if}}-title"
+  {{else}}
+    aria-label="Our purpose"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-mission-purpose__header">
+      <div class="section-mission-purpose__heading">
+        {{#if missionPurpose.eyebrow}}
+          <p class="section-mission-purpose__eyebrow">
+            <span class="section-mission-purpose__eyebrow-rule" aria-hidden="true"></span>
+            <span>{{ missionPurpose.eyebrow }}</span>
+          </p>
+        {{/if}}
+
+        {{#if missionPurpose.title}}
+          <h2
+            id="{{#if missionPurpose.id}}{{ missionPurpose.id }}{{else}}section-mission-purpose{{/if}}-title"
+            class="section-mission-purpose__title"
+          >
+            {{{ missionPurpose.title }}}
+          </h2>
+        {{/if}}
+      </div>
+
+      {{#if missionPurpose.lead}}
+        <p class="section-mission-purpose__lead">{{{ missionPurpose.lead }}}</p>
+      {{/if}}
+    </div>
+
+    {{#if missionPurpose.qualities.length}}
+      <ul class="section-mission-purpose__qualities">
+        {{#each missionPurpose.qualities}}
+          <li class="section-mission-purpose__quality">
+            {{#if icon}}
+              <span class="section-mission-purpose__quality-icon" aria-hidden="true">
+                <img src="{{ icon }}" alt="" width="28" height="28" decoding="async" />
+              </span>
+            {{/if}}
+            <p class="section-mission-purpose__quality-text">{{ text }}</p>
+          </li>
+        {{/each}}
+      </ul>
+    {{/if}}
+
+    <div class="section-mission-purpose__panel">
+      {{#if missionPurpose.statement}}
+        <div class="section-mission-purpose__statement">
+          <span class="section-mission-purpose__statement-rule" aria-hidden="true"></span>
+          <p class="section-mission-purpose__statement-text">
+            {{{ missionPurpose.statement }}}
+          </p>
+        </div>
+      {{/if}}
+
+      {{#if missionPurpose.outcomes.length}}
+        <ul class="section-mission-purpose__outcomes">
+          {{#each missionPurpose.outcomes}}
+            <li class="section-mission-purpose__outcome">
+              <p class="section-mission-purpose__outcome-text">{{{ text }}}</p>
+            </li>
+          {{/each}}
+        </ul>
+      {{/if}}
+    </div>
+  </div>
+</section>

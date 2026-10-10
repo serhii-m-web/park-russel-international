@@ -1,0 +1,75 @@
+<section
+  class="
+    section-mission-collab
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if missionCollab.id}}
+    id="{{ missionCollab.id }}"
+  {{/if}}
+  {{#if missionCollab.title}}
+    aria-labelledby="{{#if missionCollab.id}}{{ missionCollab.id }}{{else}}section-mission-collab{{/if}}-title"
+  {{else}}
+    aria-label="Growing through collaboration"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-mission-collab__layout">
+      {{#if missionCollab.image}}
+        <div class="section-mission-collab__media">
+          {{picture
+            missionCollab.image
+            alt=missionCollab.imageAlt
+            class="section-mission-collab__image"
+            width="560"
+            height="545"
+          }}
+        </div>
+      {{/if}}
+
+      <div class="section-mission-collab__copy">
+        <span class="section-mission-collab__rule" aria-hidden="true"></span>
+
+        {{#if missionCollab.title}}
+          <h2
+            id="{{#if missionCollab.id}}{{ missionCollab.id }}{{else}}section-mission-collab{{/if}}-title"
+            class="section-mission-collab__title"
+          >
+            {{{ missionCollab.title }}}
+          </h2>
+        {{/if}}
+
+        {{#if missionCollab.lead}}
+          <p class="section-mission-collab__lead">{{{ missionCollab.lead }}}</p>
+        {{/if}}
+
+        {{#if missionCollab.highlight}}
+          <div class="section-mission-collab__highlight">
+            <span class="section-mission-collab__highlight-bar" aria-hidden="true"></span>
+            <p class="section-mission-collab__highlight-text">
+              {{{ missionCollab.highlight }}}
+            </p>
+          </div>
+        {{/if}}
+
+        {{#if missionCollab.body}}
+          <p class="section-mission-collab__body">{{{ missionCollab.body }}}</p>
+        {{/if}}
+
+        {{#if missionCollab.ambitionLead}}
+          <div class="section-mission-collab__ambition">
+            <p class="section-mission-collab__ambition-lead">
+              {{{ missionCollab.ambitionLead }}}
+            </p>
+            {{#if missionCollab.ambitionEmphasis}}
+              <p class="section-mission-collab__ambition-emphasis">
+                {{{ missionCollab.ambitionEmphasis }}}
+              </p>
+            {{/if}}
+          </div>
+        {{/if}}
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,60 @@
+<section
+  class="
+    section-mission-aims
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if missionAims.id}}
+    id="{{ missionAims.id }}"
+  {{/if}}
+  {{#if missionAims.title}}
+    aria-labelledby="{{#if missionAims.id}}{{ missionAims.id }}{{else}}section-mission-aims{{/if}}-title"
+  {{else}}
+    aria-label="What we aim to achieve"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-mission-aims__header">
+      <span class="section-mission-aims__rule" aria-hidden="true"></span>
+      {{#if missionAims.title}}
+        <h2
+          id="{{#if missionAims.id}}{{ missionAims.id }}{{else}}section-mission-aims{{/if}}-title"
+          class="section-mission-aims__title"
+        >
+          {{{ missionAims.title }}}
+        </h2>
+      {{/if}}
+    </div>
+
+    {{#if missionAims.items.length}}
+      <ul class="section-mission-aims__list">
+        {{#each missionAims.items}}
+          <li class="section-mission-aims__item">
+            <div class="section-mission-aims__item-title">
+              {{#if icon}}
+                <span class="section-mission-aims__icon" aria-hidden="true">
+                  <img src="{{ icon }}" alt="" width="30" height="30" decoding="async" />
+                </span>
+              {{/if}}
+              {{#if title}}
+                <h3 class="section-mission-aims__item-heading">{{ title }}</h3>
+              {{/if}}
+            </div>
+
+            <div class="section-mission-aims__item-text">
+              {{#if lead}}
+                <p class="section-mission-aims__item-lead">{{{ lead }}}</p>
+              {{/if}}
+              {{#if body.length}}
+                {{#each body}}
+                  <p class="section-mission-aims__item-body">{{{ this }}}</p>
+                {{/each}}
+              {{/if}}
+            </div>
+          </li>
+        {{/each}}
+      </ul>
+    {{/if}}
+  </div>
+</section>

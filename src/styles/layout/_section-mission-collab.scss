@@ -1,0 +1,161 @@
+@use '../abstracts' as *;
+
+.section-mission-collab {
+  @include adaptive-value('padding-top', 120, 56, 1);
+  @include adaptive-value('padding-bottom', 120, 56, 1);
+  background-color: $color-bg-muted;
+
+  &__layout {
+    display: flex;
+    align-items: stretch;
+    gap: 96px;
+
+    @include media('<widescreen') {
+      gap: 48px;
+    }
+
+    @include media('<desktop') {
+      flex-direction: column;
+      gap: 40px;
+    }
+  }
+
+  &__media {
+    position: relative;
+    flex: 0 0 560px;
+    width: 560px;
+    max-width: 100%;
+    min-height: 545px;
+    overflow: hidden;
+    border-radius: 24px;
+
+    @include media('<widescreen') {
+      flex-basis: 440px;
+      width: 440px;
+      min-height: 440px;
+    }
+
+    @include media('<desktop') {
+      flex: none;
+      width: 100%;
+      max-width: 560px;
+      min-height: 0;
+      aspect-ratio: 560 / 545;
+      margin-inline: auto;
+    }
+
+    @include media('<tablet') {
+      max-height: 320px;
+      aspect-ratio: 16 / 10;
+    }
+  }
+
+  &__image {
+    position: absolute;
+    inset: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__copy {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    min-width: 0;
+  }
+
+  &__rule {
+    display: block;
+    width: 48px;
+    height: 3px;
+    background-color: $color-red;
+  }
+
+  &__title {
+    margin: 0;
+    color: $color-dark-blue;
+    font-weight: 500;
+    letter-spacing: -1.2px;
+    line-height: calc(52 / 48);
+    @include adaptive-value('font-size', 48, 32, 1);
+  }
+
+  &__lead {
+    margin: 0;
+    color: $color-dark-blue;
+    letter-spacing: -0.11px;
+    line-height: calc(32 / 22);
+    @include adaptive-value('font-size', 22, 18, 1);
+  }
+
+  &__highlight {
+    display: flex;
+    align-items: stretch;
+    gap: 20px;
+    width: 100%;
+  }
+
+  &__highlight-bar {
+    flex-shrink: 0;
+    width: 3px;
+    background-color: $color-red;
+  }
+
+  &__highlight-text {
+    flex: 1 1 auto;
+    min-width: 0;
+    margin: 0;
+    color: $color-dark-blue;
+    font-weight: 500;
+    letter-spacing: -0.13px;
+    line-height: calc(34 / 26);
+    @include adaptive-value('font-size', 26, 20, 1);
+  }
+
+  &__body {
+    margin: 0;
+    color: $color-text-muted;
+    line-height: calc(26 / 17);
+    @include adaptive-value('font-size', 17, 16, 1);
+  }
+
+  &__ambition {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    width: 100%;
+    padding: 32px;
+    border-radius: 20px;
+    background-color: $color-white;
+
+    @include media('<tablet') {
+      padding: 24px;
+    }
+  }
+
+  &__ambition-lead {
+    margin: 0 0 0;
+    color: $color-text-muted;
+    letter-spacing: -0.057px;
+    line-height: calc(29 / 19);
+    @include adaptive-value('font-size', 19, 16, 1);
+  }
+
+  &__ambition-emphasis {
+    margin: 8px 0 0;
+    color: $color-dark-blue;
+    font-weight: 500;
+    line-height: calc(33 / 24);
+    @include adaptive-value('font-size', 24, 20, 1);
+  }
+}

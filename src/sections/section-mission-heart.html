@@ -1,0 +1,77 @@
+<section
+  class="
+    section-mission-heart
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if missionHeart.id}}
+    id="{{ missionHeart.id }}"
+  {{/if}}
+  {{#if missionHeart.title}}
+    aria-labelledby="{{#if missionHeart.id}}{{ missionHeart.id }}{{else}}section-mission-heart{{/if}}-title"
+  {{else}}
+    aria-label="What sits at the heart of our mission"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-mission-heart__layout">
+      {{#if missionHeart.image}}
+        <div class="section-mission-heart__media">
+          {{picture
+            missionHeart.image
+            alt=missionHeart.imageAlt
+            class="section-mission-heart__image"
+            width="540"
+            height="612"
+          }}
+        </div>
+      {{/if}}
+
+      <div class="section-mission-heart__copy">
+        {{#if missionHeart.eyebrow}}
+          <p class="section-mission-heart__eyebrow">
+            <span class="section-mission-heart__eyebrow-rule" aria-hidden="true"></span>
+            <span>{{ missionHeart.eyebrow }}</span>
+          </p>
+        {{/if}}
+
+        {{#if missionHeart.title}}
+          <h2
+            id="{{#if missionHeart.id}}{{ missionHeart.id }}{{else}}section-mission-heart{{/if}}-title"
+            class="section-mission-heart__title"
+          >
+            {{{ missionHeart.title }}}
+          </h2>
+        {{/if}}
+
+        {{#if missionHeart.lead}}
+          <p class="section-mission-heart__lead">{{{ missionHeart.lead }}}</p>
+        {{/if}}
+
+        {{#if missionHeart.beliefLead}}
+          <div class="section-mission-heart__belief">
+            <span class="section-mission-heart__belief-rule" aria-hidden="true"></span>
+            <p class="section-mission-heart__belief-lead">{{{ missionHeart.beliefLead }}}</p>
+            {{#if missionHeart.beliefEmphasis}}
+              <p class="section-mission-heart__belief-emphasis">
+                {{{ missionHeart.beliefEmphasis }}}
+              </p>
+            {{/if}}
+          </div>
+        {{/if}}
+
+        {{#if missionHeart.body}}
+          <p class="section-mission-heart__body">{{{ missionHeart.body }}}</p>
+        {{/if}}
+
+        {{#if missionHeart.highlight}}
+          <div class="section-mission-heart__highlight">
+            <span class="section-mission-heart__highlight-bar" aria-hidden="true"></span>
+            <p class="section-mission-heart__highlight-text">{{{ missionHeart.highlight }}}</p>
+          </div>
+        {{/if}}
+      </div>
+    </div>
+  </div>
+</section>

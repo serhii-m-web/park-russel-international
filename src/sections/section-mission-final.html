@@ -1,0 +1,86 @@
+<section
+  class="
+    section-mission-final
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if missionFinal.id}}
+    id="{{ missionFinal.id }}"
+  {{/if}}
+  {{#if missionFinal.title}}
+    aria-labelledby="{{#if missionFinal.id}}{{ missionFinal.id }}{{else}}section-mission-final{{/if}}-title"
+  {{else}}
+    aria-label="Moving forward together"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-mission-final__card">
+      {{#if missionFinal.imageBg}}
+        <div class="section-mission-final__bg" aria-hidden="true">
+          {{picture
+            missionFinal.imageBg
+            alt=""
+            class="section-mission-final__bg-image"
+            width="1920"
+            height="900"
+          }}
+        </div>
+      {{/if}}
+
+      <div class="section-mission-final__inner">
+        {{#if missionFinal.title}}
+          <h2
+            id="{{#if missionFinal.id}}{{ missionFinal.id }}{{else}}section-mission-final{{/if}}-title"
+            class="section-mission-final__title"
+          >
+            {{{ missionFinal.title }}}
+          </h2>
+        {{/if}}
+
+        {{#if missionFinal.description}}
+          <p class="section-mission-final__description">
+            {{{ missionFinal.description }}}
+          </p>
+        {{/if}}
+
+        {{#if missionFinal.audience.length}}
+          <ul class="section-mission-final__audience">
+            {{#each missionFinal.audience}}
+              <li class="section-mission-final__audience-chip">
+                {{{ text }}}
+              </li>
+            {{/each}}
+          </ul>
+        {{/if}}
+
+        {{#if missionFinal.tagline}}
+          <p class="section-mission-final__tagline">
+            <span class="section-mission-final__tagline-rule" aria-hidden="true"></span>
+            <span>{{{ missionFinal.tagline }}}</span>
+          </p>
+        {{/if}}
+
+        {{#if missionFinal.buttons.length}}
+          <div class="section-mission-final__buttons">
+            {{#each missionFinal.buttons}}
+              <a
+                class="section-mission-final__button site-button {{ variant }}"
+                href="{{ href }}"
+              >
+                <span>{{ label }}</span>
+                {{#if icon}}
+                  {{> icon
+                    name="arrow-right"
+                    width="16"
+                    height="16"
+                  }}
+                {{/if}}
+              </a>
+            {{/each}}
+          </div>
+        {{/if}}
+      </div>
+    </div>
+  </div>
+</section>

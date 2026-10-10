@@ -1,0 +1,254 @@
+{
+  "meta": {
+    "title": "Our Mission | Parker Russell International",
+    "description": "Parker Russell International exists to strengthen independent professional firms by connecting expertise, client relationships and local market knowledge across borders."
+  },
+  "missionHero": {
+    "id": "mission-hero",
+    "breadcrumb": [
+      { "label": "Home", "href": "index.html" },
+      { "label": "Our Mission" }
+    ],
+    "label": "Our Mission",
+    "imageBg": "/images/mission/hero-bg.png",
+    "imageLoading": "eager",
+    "title": "Strong Independent Firms. Connected for Greater Possibility.",
+    "lead": "Parker Russell International exists to strengthen independent professional firms by connecting their expertise, client relationships and local market knowledge across borders.",
+    "body": "Our mission is to create an international network where member firms can retain their independence while gaining the reach, knowledge and professional relationships required to serve increasingly international businesses.",
+    "audiences": [
+      {
+        "icon": "/icons/mission/icon-groups.svg",
+        "text": "<span class=\"is-accent\">For clients,</span> this means trusted local expertise supported by wider international capability."
+      },
+      {
+        "icon": "/icons/mission/icon-domain.svg",
+        "text": "<span class=\"is-accent\">For member firms,</span> it means the opportunity to grow beyond the limits of a single market without losing the independence that defines their business."
+      }
+    ],
+    "statement": "<span class=\"is-muted\">One network. </span>Local strength. International possibility."
+  },
+  "missionHeart": {
+    "id": "mission-heart",
+    "image": "/images/mission/heart.png",
+    "imageAlt": "Independent professional in an office setting",
+    "eyebrow": "What Sits at the Heart of Our Mission",
+    "title": "Strengthening the Firms That Strengthen Their Clients",
+    "lead": "We bring together strong independent professional firms and create an environment in which they can collaborate, exchange expertise and deliver greater value to clients.",
+    "beliefLead": "We believe international capability should not come at the expense of local expertise or personal client relationships.",
+    "beliefEmphasis": "The two should strengthen one another.",
+    "body": "Parker Russell International connects firms across jurisdictions so that local expertise can become part of a broader international solution whenever a client requires it.",
+    "highlight": "That is the purpose of our network."
+  },
+  "missionAims": {
+    "id": "mission-aims",
+    "title": "What We Aim to Achieve",
+    "items": [
+      {
+        "icon": "/icons/mission/icon-hub.svg",
+        "title": "Better Connected Expertise",
+        "lead": "No single firm needs to hold every capability in every market.",
+        "body": [
+          "A strong international network provides access to the right expertise when it is needed.",
+          "By connecting professionals across countries, industries and technical disciplines, Parker Russell enables member firms to respond to more complex and increasingly international client requirements."
+        ]
+      },
+      {
+        "icon": "/icons/mission/icon-domain.svg",
+        "title": "Stronger Independent Firms",
+        "lead": "Independence is fundamental to our model.",
+        "body": [
+          "Our role is to help member firms extend their capabilities, international presence and professional relationships while preserving the leadership, culture and client connections that make them successful in their local markets."
+        ]
+      },
+      {
+        "icon": "/icons/mission/icon-handshake.svg",
+        "title": "Greater Value for Clients",
+        "lead": "International businesses need more than a collection of unrelated advisers.",
+        "body": [
+          "They need professionals who understand local requirements while recognising how decisions in one jurisdiction may affect the wider organisation.",
+          "Our role is to make that international collaboration practical, effective and genuinely valuable to the client."
+        ]
+      },
+      {
+        "icon": "/icons/mission/icon-premium.svg",
+        "title": "Higher Professional Standards",
+        "lead": "The reputation of Parker Russell International depends on the quality of the firms within it.",
+        "body": [
+          "We are committed to developing a network where professional standards, technical capability and responsible practice remain central to membership and long-term development."
+        ]
+      }
+    ]
+  },
+  "missionLocal": {
+    "id": "mission-local",
+    "title": "Local Strength. International Perspective.",
+    "cards": [
+      {
+        "image": "/images/mission/local-strength.png",
+        "imageAlt": "Local market business storefront",
+        "icon": "/icons/mission/icon-location.svg",
+        "title": "Every market is different.",
+        "body": [
+          "Taxation, regulation, reporting requirements, commercial practice and business culture remain fundamentally local.",
+          "That is why Parker Russell International is built around firms that understand their own jurisdictions deeply."
+        ]
+      },
+      {
+        "image": "/images/mission/international.png",
+        "imageAlt": "Globe representing international perspective",
+        "icon": "/icons/mission/icon-public.svg",
+        "title": "But modern business rarely stops at national borders.",
+        "body": [
+          "When clients expand, invest, acquire, restructure or operate internationally, those local capabilities need to connect."
+        ]
+      }
+    ],
+    "connectionIcon": "/icons/mission/icon-link.svg",
+    "conclusionTitle": "Our mission is to make that connection work.",
+    "conclusionLead": "Not by replacing local relationships, but by extending what those relationships can achieve."
+  },
+  "missionClients": {
+    "id": "mission-clients",
+    "title": "What This Means for Clients",
+    "lead": "Clients should not have to choose between personal service and international capability.",
+    "body": "Through Parker Russell International, they can work with advisers who understand their business and local market while gaining access to additional expertise when their requirements extend beyond one jurisdiction.",
+    "highlight": "Where the business grows, the capability around it can grow too.",
+    "listLabel": "This provides:",
+    "items": [
+      "local knowledge where decisions are made;",
+      "access to expertise across other jurisdictions;",
+      "greater continuity as businesses expand internationally;",
+      "collaboration across audit, tax, advisory and corporate services;",
+      "a broader perspective on international decisions;",
+      "relationships built around long-term business needs."
+    ],
+    "checkIcon": "/icons/mission/icon-check.svg"
+  },
+  "missionFirms": {
+    "id": "mission-firms",
+    "title": "What This Means for Member Firms",
+    "lead": "A strong international network should create tangible value for the firms within it.",
+    "platformLabel": "Parker Russell International provides a platform through which independent firms can:",
+    "items": [
+      {
+        "icon": "/icons/mission/icon-trending.svg",
+        "text": "extend their international capabilities;"
+      },
+      {
+        "icon": "/icons/mission/icon-add-business.svg",
+        "text": "support clients entering new markets;"
+      },
+      {
+        "icon": "/icons/mission/icon-swap.svg",
+        "text": "collaborate on cross-border assignments;"
+      },
+      {
+        "icon": "/icons/mission/icon-forum.svg",
+        "text": "exchange technical knowledge and experience;"
+      },
+      {
+        "icon": "/icons/mission/icon-groups.svg",
+        "text": "build professional relationships with colleagues around the world;"
+      },
+      {
+        "icon": "/icons/mission/icon-tree.svg",
+        "text": "access broader sector and service expertise;"
+      },
+      {
+        "icon": "/icons/mission/icon-explore.svg",
+        "text": "strengthen their international market position;"
+      },
+      {
+        "icon": "/icons/mission/icon-volunteer.svg",
+        "text": "contribute to the continued development of the network."
+      }
+    ],
+    "closing": "Membership should expand what an independent firm can achieve <span class=\"is-muted\">— without taking away what made it successful in the first place.</span>"
+  },
+  "missionCollab": {
+    "id": "mission-collab",
+    "image": "/images/mission/collaboration.png",
+    "imageAlt": "Team joining hands in collaboration",
+    "title": "Growing Through Collaboration",
+    "lead": "The strength of an international network is not measured only by the number of countries or offices represented.",
+    "highlight": "It is measured by how effectively its people work together.",
+    "body": "Parker Russell International continues to develop the professional relationships, technical connections and infrastructure that allow member firms to collaborate across borders.",
+    "ambitionLead": "As the network grows, our ambition is not simply to become larger.",
+    "ambitionEmphasis": "We aim to become more connected, more capable and more valuable to the firms and clients who rely on us."
+  },
+  "missionPurpose": {
+    "id": "mission-purpose",
+    "eyebrow": "Our Purpose",
+    "title": "International Capability Without Losing Local Responsibility",
+    "lead": "Our purpose is to combine the reach of an international organisation with the qualities that make strong independent firms particularly valuable:",
+    "qualities": [
+      {
+        "icon": "/icons/mission/icon-location.svg",
+        "text": "deep knowledge of their markets;"
+      },
+      {
+        "icon": "/icons/mission/icon-partner.svg",
+        "text": "close client relationships;"
+      },
+      {
+        "icon": "/icons/mission/icon-balance.svg",
+        "text": "professional judgement;"
+      },
+      {
+        "icon": "/icons/mission/icon-verified.svg",
+        "text": "personal accountability;"
+      },
+      {
+        "icon": "/icons/mission/icon-rocket.svg",
+        "text": "entrepreneurial leadership."
+      }
+    ],
+    "statement": "Parker Russell International exists to connect those strengths.",
+    "outcomes": [
+      {
+        "text": "<span class=\"is-accent\">For clients,</span> that creates broader capability."
+      },
+      {
+        "text": "<span class=\"is-accent\">For member firms,</span> it creates greater opportunity."
+      },
+      {
+        "text": "<span class=\"is-accent\">For the network,</span> it creates a stronger international professional community built around shared progress."
+      }
+    ]
+  },
+  "missionFinal": {
+    "id": "mission-final",
+    "imageBg": "/images/mission/final-cta-bg.png",
+    "title": "Moving Forward Together",
+    "description": "Our mission is ultimately about creating opportunities for progress.",
+    "audience": [
+      {
+        "text": "<span class=\"is-emphasis\">For clients</span> <span class=\"is-muted\">entering new markets and making more complex decisions.</span>"
+      },
+      {
+        "text": "<span class=\"is-emphasis\">For independent firms</span> <span class=\"is-muted\">developing stronger international capabilities.</span>"
+      },
+      {
+        "text": "<span class=\"is-emphasis\">For professionals</span> <span class=\"is-muted\">exchanging knowledge across borders.</span>"
+      },
+      {
+        "text": "<span class=\"is-emphasis\">And for Parker Russell International</span> <span class=\"is-muted\">as a network defined not simply by where we are present, but by what our firms can achieve together.</span>"
+      }
+    ],
+    "tagline": "Local expertise. International connection. Shared progress.",
+    "buttons": [
+      {
+        "label": "Explore Our Member Firms",
+        "href": "#",
+        "variant": "primary",
+        "icon": true
+      },
+      {
+        "label": "Join Parker Russell International",
+        "href": "#",
+        "variant": "secondary",
+        "icon": true
+      }
+    ]
+  }
+}

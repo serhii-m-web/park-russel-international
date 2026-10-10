@@ -1,0 +1,91 @@
+<section
+  class="
+    section-mission-local
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if missionLocal.id}}
+    id="{{ missionLocal.id }}"
+  {{/if}}
+  {{#if missionLocal.title}}
+    aria-labelledby="{{#if missionLocal.id}}{{ missionLocal.id }}{{else}}section-mission-local{{/if}}-title"
+  {{else}}
+    aria-label="Local strength, international perspective"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-mission-local__header">
+      <span class="section-mission-local__rule" aria-hidden="true"></span>
+      {{#if missionLocal.title}}
+        <h2
+          id="{{#if missionLocal.id}}{{ missionLocal.id }}{{else}}section-mission-local{{/if}}-title"
+          class="section-mission-local__title"
+        >
+          {{{ missionLocal.title }}}
+        </h2>
+      {{/if}}
+    </div>
+
+    {{#if missionLocal.cards.length}}
+      <div class="section-mission-local__cards">
+        {{#each missionLocal.cards}}
+          <article class="section-mission-local__card">
+            {{#if image}}
+              <div class="section-mission-local__card-bg" aria-hidden="true">
+                {{picture
+                  image
+                  alt=""
+                  class="section-mission-local__card-image"
+                  width="640"
+                  height="600"
+                }}
+              </div>
+            {{/if}}
+
+            <div class="section-mission-local__card-content">
+              {{#if icon}}
+                <span class="section-mission-local__card-icon" aria-hidden="true">
+                  <img src="{{ icon }}" alt="" width="30" height="30" decoding="async" />
+                </span>
+              {{/if}}
+              {{#if title}}
+                <h3 class="section-mission-local__card-title">{{ title }}</h3>
+              {{/if}}
+              {{#if body.length}}
+                {{#each body}}
+                  <p class="section-mission-local__card-body">{{{ this }}}</p>
+                {{/each}}
+              {{/if}}
+            </div>
+          </article>
+        {{/each}}
+
+        {{#if missionLocal.connectionIcon}}
+          <span class="section-mission-local__connection" aria-hidden="true">
+            <img
+              src="{{ missionLocal.connectionIcon }}"
+              alt=""
+              width="40"
+              height="40"
+              decoding="async"
+            />
+          </span>
+        {{/if}}
+      </div>
+    {{/if}}
+
+    <div class="section-mission-local__conclusion">
+      {{#if missionLocal.conclusionTitle}}
+        <p class="section-mission-local__conclusion-title">
+          {{{ missionLocal.conclusionTitle }}}
+        </p>
+      {{/if}}
+      {{#if missionLocal.conclusionLead}}
+        <p class="section-mission-local__conclusion-lead">
+          {{{ missionLocal.conclusionLead }}}
+        </p>
+      {{/if}}
+    </div>
+  </div>
+</section>

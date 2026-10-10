@@ -1,0 +1,116 @@
+<section
+  class="
+    section-mission-firms
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if missionFirms.id}}
+    id="{{ missionFirms.id }}"
+  {{/if}}
+  data-mission-firms-slider
+  {{#if missionFirms.title}}
+    aria-labelledby="{{#if missionFirms.id}}{{ missionFirms.id }}{{else}}section-mission-firms{{/if}}-title"
+  {{else}}
+    aria-label="What this means for member firms"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-mission-firms__header">
+      <div class="section-mission-firms__heading">
+        <span class="section-mission-firms__rule" aria-hidden="true"></span>
+        {{#if missionFirms.title}}
+          <h2
+            id="{{#if missionFirms.id}}{{ missionFirms.id }}{{else}}section-mission-firms{{/if}}-title"
+            class="section-mission-firms__title"
+          >
+            {{{ missionFirms.title }}}
+          </h2>
+        {{/if}}
+      </div>
+
+      {{#if missionFirms.lead}}
+        <p class="section-mission-firms__lead">{{{ missionFirms.lead }}}</p>
+      {{/if}}
+    </div>
+
+    <div class="section-mission-firms__platform">
+      {{#if missionFirms.platformLabel}}
+        <p class="section-mission-firms__platform-label">
+          {{{ missionFirms.platformLabel }}}
+        </p>
+      {{/if}}
+
+      {{#if missionFirms.items.length}}
+        <div class="section-mission-firms__grid-wrap">
+          <div
+            class="swiper section-mission-firms__grid"
+            data-mission-firms-slider-el
+            data-mission-firms-slider-label="{{#if missionFirms.carouselLabel}}{{ missionFirms.carouselLabel }}{{else}}Member firm benefits{{/if}}"
+          >
+            <div class="swiper-wrapper">
+              {{#each missionFirms.items}}
+                <article class="swiper-slide section-mission-firms__card">
+                  {{#if icon}}
+                    <span class="section-mission-firms__icon" aria-hidden="true">
+                      <img src="{{ icon }}" alt="" width="26" height="26" decoding="async" />
+                    </span>
+                  {{/if}}
+                  <p class="section-mission-firms__card-text">{{ text }}</p>
+                </article>
+              {{/each}}
+            </div>
+          </div>
+
+          <div
+            class="section-mission-firms__navigation"
+            role="group"
+            aria-label="Member firm benefits slider controls"
+            data-mission-firms-slider-nav
+            inert
+          >
+            <div
+              class="swiper-scrollbar section-mission-firms__scrollbar"
+              data-mission-firms-slider-scrollbar
+              tabindex="0"
+              aria-label="Slider progress"
+            ></div>
+            <div class="section-mission-firms__nav-buttons">
+              <button
+                class="swiper-button-prev section-mission-firms__nav-btn prev"
+                type="button"
+                data-mission-firms-slider-prev
+                aria-label="Previous slide"
+              >
+                {{> icon
+                  name="arrow-right"
+                  width="16"
+                  height="16"
+                }}
+              </button>
+              <button
+                class="swiper-button-next section-mission-firms__nav-btn next"
+                type="button"
+                data-mission-firms-slider-next
+                aria-label="Next slide"
+              >
+                {{> icon
+                  name="arrow-right"
+                  width="16"
+                  height="16"
+                }}
+              </button>
+            </div>
+          </div>
+        </div>
+      {{/if}}
+    </div>
+
+    {{#if missionFirms.closing}}
+      <div class="section-mission-firms__closing">
+        <span class="section-mission-firms__closing-rule" aria-hidden="true"></span>
+        <p class="section-mission-firms__closing-text">{{{ missionFirms.closing }}}</p>
+      </div>
+    {{/if}}
+  </div>
+</section>

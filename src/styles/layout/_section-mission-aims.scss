@@ -1,0 +1,119 @@
+@use '../abstracts' as *;
+
+.section-mission-aims {
+  @include adaptive-value('padding-top', 120, 56, 1);
+  @include adaptive-value('padding-bottom', 120, 56, 1);
+  background-color: $color-navy;
+
+  &__header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    @include adaptive-value('margin-bottom', 48, 32, 1);
+  }
+
+  &__rule {
+    display: block;
+    width: 48px;
+    height: 3px;
+    background-color: $color-red;
+  }
+
+  &__title {
+    margin: 0;
+    max-width: 640px;
+    color: $color-white;
+    font-weight: 500;
+    letter-spacing: -1.2px;
+    line-height: calc(52 / 48);
+    @include adaptive-value('font-size', 48, 32, 1);
+  }
+
+  &__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  &__item {
+    display: flex;
+    align-items: flex-start;
+    gap: 64px;
+    padding: 44px 0;
+    border-top: 1px solid rgba($color-white, 0.12);
+
+    @include media('<desktop') {
+      flex-direction: column;
+      gap: 24px;
+      padding: 32px 0;
+    }
+  }
+
+  &__item-title {
+    display: flex;
+    flex: 0 0 480px;
+    align-items: flex-start;
+    gap: 24px;
+    width: 480px;
+    max-width: 100%;
+
+    @include media('<desktop') {
+      flex: none;
+      width: 100%;
+    }
+  }
+
+  &__icon {
+    display: inline-flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 56px;
+    border-radius: 6px;
+    background-color: $color-red;
+
+    img {
+      display: block;
+      width: 30px;
+      height: 30px;
+    }
+  }
+
+  &__item-heading {
+    margin: 0;
+    flex: 1 1 auto;
+    min-width: 0;
+    color: $color-white;
+    font-weight: 500;
+    letter-spacing: -0.45px;
+    line-height: calc(36 / 30);
+    @include adaptive-value('font-size', 30, 22, 1);
+  }
+
+  &__item-text {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    gap: 14px;
+    min-width: 0;
+    padding-top: 4px;
+  }
+
+  &__item-lead {
+    margin: 0;
+    color: $color-white;
+    font-weight: 500;
+    letter-spacing: -0.11px;
+    line-height: calc(32 / 22);
+    @include adaptive-value('font-size', 22, 18, 1);
+  }
+
+  &__item-body {
+    margin: 0;
+    color: $color-ice;
+    line-height: calc(27 / 17);
+    @include adaptive-value('font-size', 17, 16, 1);
+  }
+}
