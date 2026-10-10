@@ -1,0 +1,89 @@
+<section
+  class="
+    section-board-hero
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if boardHero.id}}
+    id="{{ boardHero.id }}"
+  {{/if}}
+  {{#if boardHero.title}}
+    aria-labelledby="{{#if boardHero.id}}{{ boardHero.id }}{{else}}section-board-hero{{/if}}-title"
+  {{else}}
+    aria-label="Board of Members"
+  {{/if}}
+>
+  <div class="container">
+    {{#if boardHero.breadcrumb.length}}
+      <nav class="section-board-hero__breadcrumb" aria-label="Breadcrumb">
+        <ol class="section-board-hero__breadcrumb-list">
+          {{#each boardHero.breadcrumb}}
+            <li class="section-board-hero__breadcrumb-item">
+              {{#if href}}
+                <a class="section-board-hero__breadcrumb-link" href="{{ href }}">
+                  {{ label }}
+                </a>
+              {{else}}
+                <span class="section-board-hero__breadcrumb-current" aria-current="page">
+                  {{ label }}
+                </span>
+              {{/if}}
+            </li>
+          {{/each}}
+        </ol>
+      </nav>
+    {{/if}}
+
+    <div class="section-board-hero__card">
+      {{#if boardHero.imageBg}}
+        <div class="section-board-hero__bg" aria-hidden="true">
+          {{picture
+            boardHero.imageBg
+            alt=""
+            class="section-board-hero__bg-image"
+            width="1376"
+            height="500"
+            loading=boardHero.imageLoading
+          }}
+        </div>
+      {{/if}}
+
+      <div class="section-board-hero__inner">
+        {{#if boardHero.label}}
+          <span class="section-board-hero__label">{{ boardHero.label }}</span>
+        {{/if}}
+
+        {{#if boardHero.title}}
+          <h1
+            id="{{#if boardHero.id}}{{ boardHero.id }}{{else}}section-board-hero{{/if}}-title"
+            class="section-board-hero__title"
+          >
+            {{{ boardHero.title }}}
+          </h1>
+        {{/if}}
+
+        {{#if boardHero.lead}}
+          <p class="section-board-hero__lead">{{{ boardHero.lead }}}</p>
+        {{/if}}
+      </div>
+    </div>
+
+    {{#if boardHero.roles.length}}
+      <div class="section-board-hero__panel">
+        <ul class="section-board-hero__roles">
+          {{#each boardHero.roles}}
+            <li class="section-board-hero__role">
+              {{#if icon}}
+                <span class="section-board-hero__role-icon" aria-hidden="true">
+                  <img src="{{ icon }}" alt="" width="34" height="34" decoding="async" />
+                </span>
+              {{/if}}
+              <p class="section-board-hero__role-text">{{{ text }}}</p>
+            </li>
+          {{/each}}
+        </ul>
+      </div>
+    {{/if}}
+  </div>
+</section>

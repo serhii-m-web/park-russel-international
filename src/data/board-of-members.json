@@ -1,0 +1,123 @@
+{
+  "meta": {
+    "title": "Board of Members | Parker Russell International",
+    "description": "The Parker Russell International Board of Members brings together senior professionals from across our global network, representing different regions, markets and areas of expertise."
+  },
+  "boardHero": {
+    "id": "board-hero",
+    "breadcrumb": [
+      { "label": "Home", "href": "index.html" },
+      { "label": "Board of Members" }
+    ],
+    "label": "Board of Members",
+    "imageBg": "/images/board/hero-bg.jpg",
+    "imageLoading": "eager",
+    "title": "Leadership Across Our International Network",
+    "lead": "The Parker Russell International Board of Members brings together senior professionals from across our global network, representing different regions, markets and areas of expertise.",
+    "roles": [
+      {
+        "icon": "/icons/mission/icon-forum.svg",
+        "text": "<span class=\"is-accent\">Working alongside the Board of Directors,</span> its members help strengthen communication across the network, support regional development and encourage closer collaboration between member firms."
+      },
+      {
+        "icon": "/icons/mission/icon-public.svg",
+        "text": "<span class=\"is-accent\">Their collective experience</span> helps ensure that Parker Russell International continues to develop as a connected, internationally capable network while remaining grounded in the strength and independence of its local firms."
+      }
+    ]
+  },
+  "boardMembers": {
+    "id": "board-members",
+    "title": "Board of Members",
+    "carouselLabel": "Board of Members",
+    "placeholderImage": "/icons/board/placeholder-silhouette.svg",
+    "icons": {
+      "location": "/icons/board/icon-location.svg",
+      "call": "/icons/board/icon-call.svg",
+      "mail": "/icons/board/icon-mail.svg",
+      "linkedin": "/icons/board/icon-linkedin.svg"
+    },
+    "cvLabel": "Read full CV",
+    "items": [
+      {
+        "name": "Jason Parker - MA, FCA",
+        "role": "President and CEO",
+        "location": "London, UK",
+        "phone": "+44(0) 2073787500",
+        "phoneHref": "tel:+442073787500",
+        "email": "jparker@parkerrussell.co.uk",
+        "linkedinHref": "#",
+        "cvHref": "#"
+      },
+      {
+        "name": "Augusto Navarro - CPA",
+        "role": "Deputy President",
+        "location": "Peru",
+        "phone": "00511 255 72 96",
+        "phoneHref": "tel:+5112557296",
+        "email": "anavarro@parkerrussell.com.pe",
+        "linkedinHref": "#",
+        "cvHref": "#"
+      },
+      {
+        "name": "Ramzi Bukhari - CPA",
+        "role": "Vice President of Middle East",
+        "location": "Jordan",
+        "phone": "0096265857570",
+        "phoneHref": "tel:+96265857570",
+        "email": "rbukhari@parkerrussell-jordan.com",
+        "linkedinHref": "#",
+        "cvHref": "#"
+      },
+      {
+        "name": "Antonio Cocurullo - CPA",
+        "role": "Vice President of Latin America",
+        "location": "Brazil",
+        "phone": "00551136285126",
+        "phoneHref": "tel:+551136285126",
+        "email": "acocurullo@parkerrussell.com.br",
+        "linkedinHref": "#",
+        "cvHref": "#"
+      },
+      {
+        "name": "Fabio Cosmai",
+        "role": "Vice President of Europe",
+        "location": "Italy",
+        "phone": "+39 329 9439624",
+        "phoneHref": "tel:+393299439624",
+        "email": "fabio.cosmai@studiocosmai.it",
+        "linkedinHref": "#",
+        "cvHref": "#"
+      },
+      {
+        "name": "Coutts Otolo",
+        "role": "Vice President of Africa",
+        "location": "Eastern Africa",
+        "phone": "+254 20 239 9149",
+        "phoneHref": "tel:+254202399149",
+        "email": "coutts.otolo@parkerrandall-ea.com",
+        "linkedinHref": "#",
+        "cvHref": "#"
+      },
+      {
+        "name": "Junaid Suhani FCA",
+        "role": "Vice President of South East Asia",
+        "location": "Pakistan",
+        "phone": "+92 (41) 8502082-83",
+        "phoneHref": "tel:+92418502082",
+        "email": "junaid@parkerrussell.pk",
+        "linkedinHref": "#",
+        "cvHref": "#"
+      },
+      {
+        "name": "Charles Yi - CPA, MBA",
+        "role": "Vice President of USA",
+        "location": "USA",
+        "phone": "212-232-0122",
+        "phoneHref": "tel:+12122320122",
+        "email": "charlesyi@yslcpa.com",
+        "linkedinHref": "#",
+        "cvHref": "#"
+      }
+    ]
+  }
+}
