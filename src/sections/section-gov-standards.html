@@ -1,0 +1,60 @@
+<section
+  class="
+    section-gov-standards
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if govStandards.id}}
+    id="{{ govStandards.id }}"
+  {{/if}}
+  {{#if govStandards.title}}
+    aria-labelledby="{{#if govStandards.id}}{{ govStandards.id }}{{else}}section-gov-standards{{/if}}-title"
+  {{else}}
+    aria-label="Membership & Network Standards"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-gov-standards__content">
+      <div class="section-gov-standards__heading">
+        <span class="section-gov-standards__rule" aria-hidden="true"></span>
+        {{#if govStandards.title}}
+          <h2
+            id="{{#if govStandards.id}}{{ govStandards.id }}{{else}}section-gov-standards{{/if}}-title"
+            class="section-gov-standards__title"
+          >
+            {{{ govStandards.title }}}
+          </h2>
+        {{/if}}
+        {{#if govStandards.lead}}
+          <p class="section-gov-standards__lead">{{{ govStandards.lead }}}</p>
+        {{/if}}
+      </div>
+
+      {{#if govStandards.body.length}}
+        <div class="section-gov-standards__copy">
+          {{#each govStandards.body}}
+            <p class="section-gov-standards__body">{{{ this }}}</p>
+          {{/each}}
+        </div>
+      {{/if}}
+    </div>
+
+    {{#if govStandards.aim}}
+      <div class="section-gov-standards__aim">
+        {{#if govStandards.aim.icon}}
+          <span class="section-gov-standards__aim-icon" aria-hidden="true">
+            <img
+              src="{{ govStandards.aim.icon }}"
+              alt=""
+              width="39"
+              height="39"
+              decoding="async"
+            />
+          </span>
+        {{/if}}
+        <p class="section-gov-standards__aim-text">{{{ govStandards.aim.text }}}</p>
+      </div>
+    {{/if}}
+  </div>
+</section>

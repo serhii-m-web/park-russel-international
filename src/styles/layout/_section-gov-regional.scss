@@ -1,0 +1,171 @@
+@use '../abstracts' as *;
+
+.section-gov-regional {
+  @include adaptive-value('padding-top', 120, 56, 1);
+  @include adaptive-value('padding-bottom', 120, 56, 1);
+  background-color: $color-white;
+
+  &__layout {
+    display: flex;
+    align-items: flex-start;
+    gap: 96px;
+
+    @include media('<widescreen') {
+      gap: 48px;
+    }
+
+    @include media('<desktop') {
+      flex-direction: column;
+      gap: 32px;
+    }
+  }
+
+  &__media {
+    position: relative;
+    flex: 0 0 540px;
+    width: 540px;
+    max-width: 100%;
+    min-height: 624px;
+    overflow: hidden;
+    border-radius: 24px;
+
+    @include media('<widescreen') {
+      flex-basis: 440px;
+      width: 440px;
+      min-height: 520px;
+    }
+
+    @include media('<desktop') {
+      flex: none;
+      width: 100%;
+      max-width: 540px;
+      min-height: 360px;
+      margin-inline: auto;
+    }
+  }
+
+  &__image {
+    position: absolute;
+    inset: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__copy {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    min-width: 0;
+  }
+
+  &__eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    margin: 0;
+    color: $color-red;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.14px;
+    line-height: 20px;
+  }
+
+  &__eyebrow-rule {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: $color-red;
+  }
+
+  &__title {
+    margin: 0;
+    color: $color-dark-blue;
+    font-weight: 500;
+    letter-spacing: -1.2px;
+    line-height: calc(52 / 48);
+    @include adaptive-value('font-size', 48, 32, 1);
+  }
+
+  &__lead {
+    margin: 0;
+    color: $color-dark-blue;
+    letter-spacing: -0.11px;
+    line-height: calc(32 / 22);
+    @include adaptive-value('font-size', 22, 18, 1);
+  }
+
+  &__body {
+    margin: 0;
+    color: $color-text-muted;
+    line-height: calc(26 / 17);
+    @include adaptive-value('font-size', 17, 16, 1);
+  }
+
+  &__emphasis {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    width: 100%;
+  }
+
+  &__emphasis-bar {
+    flex-shrink: 0;
+    width: 3px;
+    align-self: stretch;
+    background-color: $color-red;
+  }
+
+  &__emphasis-text {
+    margin: 0;
+    color: $color-dark-blue;
+    font-weight: 500;
+    letter-spacing: -0.11px;
+    line-height: calc(30 / 22);
+    @include adaptive-value('font-size', 22, 18, 1);
+  }
+
+  &__button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    height: 48px;
+    margin-top: 4px;
+    padding: 0 24px;
+    border-radius: 1000px;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.08px;
+    line-height: 20px;
+    text-decoration: none;
+    transition:
+      color 0.2s ease,
+      border-color 0.2s ease,
+      background-color 0.2s ease;
+
+    &--outline {
+      border: 1px solid rgba($color-dark-blue, 0.24);
+      color: $color-dark-blue;
+
+      svg {
+        color: $color-red;
+      }
+
+      &:hover {
+        border-color: $color-red;
+        background-color: rgba($color-red, 0.04);
+        color: $color-red;
+      }
+    }
+  }
+}

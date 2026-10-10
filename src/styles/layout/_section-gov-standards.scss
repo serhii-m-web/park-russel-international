@@ -1,0 +1,128 @@
+@use '../abstracts' as *;
+
+.section-gov-standards {
+  @include adaptive-value('padding-top', 120, 56, 1);
+  @include adaptive-value('padding-bottom', 120, 56, 1);
+  background-color: $color-bg-muted;
+
+  &__content {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 96px;
+    @include adaptive-value('margin-bottom', 48, 32, 1);
+
+    @include media('<widescreen') {
+      gap: 48px;
+    }
+
+    @include media('<desktop') {
+      grid-template-columns: 1fr;
+      gap: 32px;
+    }
+  }
+
+  &__heading {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 28px;
+  }
+
+  &__rule {
+    display: block;
+    width: 48px;
+    height: 3px;
+    background-color: $color-red;
+  }
+
+  &__title {
+    margin: 0;
+    color: $color-dark-blue;
+    font-weight: 500;
+    letter-spacing: -1.2px;
+    line-height: calc(52 / 48);
+    @include adaptive-value('font-size', 48, 32, 1);
+  }
+
+  &__lead {
+    margin: 0;
+    color: $color-dark-blue;
+    letter-spacing: -0.11px;
+    line-height: calc(32 / 22);
+    @include adaptive-value('font-size', 22, 18, 1);
+  }
+
+  &__copy {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 8px;
+  }
+
+  &__body {
+    margin: 0;
+    color: $color-text-muted;
+    line-height: calc(26 / 17);
+    @include adaptive-value('font-size', 17, 16, 1);
+  }
+
+  &__aim {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 48px 56px;
+    border-radius: 28px;
+    background-color: $color-white;
+
+    @include media('<tablet') {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 16px;
+      padding: 24px;
+    }
+  }
+
+  &__aim-icon {
+    display: inline-flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    width: 72px;
+    height: 72px;
+    border-radius: 14px;
+    background-color: $color-red;
+
+    @include media('<tablet') {
+      width: 52px;
+      height: 52px;
+    }
+
+    img {
+      display: block;
+      width: 39px;
+      height: 39px;
+
+      @include media('<tablet') {
+        width: 30px;
+        height: 30px;
+      }
+    }
+  }
+
+  &__aim-text {
+    margin: 0;
+    color: $color-dark-blue;
+    font-weight: 500;
+    letter-spacing: -0.45px;
+    line-height: calc(40 / 30);
+    @include adaptive-value('font-size', 30, 20, 1);
+
+    .is-muted {
+      color: #858d9f;
+    }
+
+    .is-emphasis {
+      color: $color-dark-blue;
+    }
+  }
+}

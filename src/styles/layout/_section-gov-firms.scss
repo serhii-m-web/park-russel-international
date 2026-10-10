@@ -1,0 +1,183 @@
+@use '../abstracts' as *;
+
+.section-gov-firms {
+  @include adaptive-value('padding-top', 120, 56, 1);
+  @include adaptive-value('padding-bottom', 120, 56, 1);
+  background-color: $color-white;
+
+  &__layout {
+    display: flex;
+    align-items: flex-start;
+    gap: 64px;
+
+    @include media('<widescreen') {
+      gap: 40px;
+    }
+
+    @include media('<desktop') {
+      flex-direction: column;
+      gap: 40px;
+    }
+  }
+
+  &__copy {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    min-width: 0;
+  }
+
+  &__rule {
+    display: block;
+    width: 48px;
+    height: 3px;
+    background-color: $color-red;
+  }
+
+  &__title {
+    margin: 0;
+    color: $color-dark-blue;
+    font-weight: 500;
+    letter-spacing: -1.2px;
+    line-height: calc(52 / 48);
+    @include adaptive-value('font-size', 48, 32, 1);
+  }
+
+  &__lead {
+    margin: 0;
+    color: $color-dark-blue;
+    font-weight: 500;
+    letter-spacing: -0.26px;
+    line-height: calc(34 / 26);
+    @include adaptive-value('font-size', 26, 20, 1);
+  }
+
+  &__body {
+    margin: 0;
+    color: $color-text-muted;
+    line-height: calc(26 / 17);
+    @include adaptive-value('font-size', 17, 16, 1);
+  }
+
+  &__emphasis {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    width: 100%;
+  }
+
+  &__emphasis-bar {
+    flex-shrink: 0;
+    width: 3px;
+    align-self: stretch;
+    background-color: $color-red;
+  }
+
+  &__emphasis-text {
+    margin: 0;
+    color: $color-dark-blue;
+    font-weight: 500;
+    letter-spacing: -0.1px;
+    line-height: calc(30 / 20);
+    @include adaptive-value('font-size', 20, 17, 1);
+  }
+
+  &__panel {
+    flex: 0 0 600px;
+    width: 600px;
+    max-width: 100%;
+    overflow: hidden;
+    border-radius: 28px;
+    background-color: $color-bg-muted;
+
+    @include media('<widescreen') {
+      flex-basis: 480px;
+      width: 480px;
+    }
+
+    @include media('<desktop') {
+      flex: none;
+      width: 100%;
+    }
+  }
+
+  &__panel-header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 36px 40px;
+    background-color: $color-dark-blue;
+
+    @include media('<tablet') {
+      padding: 28px 24px;
+    }
+  }
+
+  &__panel-icon {
+    display: inline-flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 12px;
+    background-color: $color-red;
+
+    img {
+      display: block;
+      width: 32px;
+      height: 32px;
+    }
+  }
+
+  &__panel-title {
+    margin: 0;
+    color: $color-white;
+    font-weight: 500;
+    letter-spacing: -0.42px;
+    line-height: calc(34 / 28);
+    @include adaptive-value('font-size', 28, 22, 1);
+  }
+
+  &__panel-body {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 36px 40px 40px;
+
+    @include media('<tablet') {
+      padding: 28px 24px 32px;
+    }
+  }
+
+  &__panel-lead {
+    margin: 0;
+    color: $color-dark-blue;
+    font-weight: 500;
+    letter-spacing: -0.1px;
+    line-height: calc(30 / 20);
+    @include adaptive-value('font-size', 20, 17, 1);
+  }
+
+  &__panel-text {
+    margin: 0;
+    color: $color-text-muted;
+    line-height: calc(26 / 17);
+    @include adaptive-value('font-size', 17, 16, 1);
+  }
+
+  &__panel-emphasis {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    width: 100%;
+
+    .section-gov-firms__emphasis-text {
+      letter-spacing: -0.09px;
+      line-height: calc(28 / 18);
+      @include adaptive-value('font-size', 18, 16, 1);
+    }
+  }
+}

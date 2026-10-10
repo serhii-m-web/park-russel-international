@@ -1,0 +1,146 @@
+@use '../abstracts' as *;
+
+.section-gov-directors {
+  @include adaptive-value('padding-top', 120, 56, 1);
+  @include adaptive-value('padding-bottom', 120, 56, 1);
+  background-color: $color-bg-muted;
+
+  &__layout {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+
+    @include media('<widescreen') {
+      gap: 48px;
+    }
+
+    @include media('<desktop') {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 40px;
+    }
+  }
+
+  &__copy {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    min-width: 0;
+  }
+
+  &__rule {
+    display: block;
+    width: 48px;
+    height: 3px;
+    background-color: $color-red;
+  }
+
+  &__title {
+    margin: 0;
+    color: $color-dark-blue;
+    font-weight: 500;
+    letter-spacing: -1.2px;
+    line-height: calc(52 / 48);
+    @include adaptive-value('font-size', 48, 32, 1);
+  }
+
+  &__lead {
+    margin: 0;
+    color: $color-dark-blue;
+    letter-spacing: -0.11px;
+    line-height: calc(32 / 22);
+    @include adaptive-value('font-size', 22, 18, 1);
+  }
+
+  &__body {
+    margin: 0;
+    color: $color-text-muted;
+    line-height: calc(26 / 17);
+    @include adaptive-value('font-size', 17, 16, 1);
+  }
+
+  &__button {
+    margin-top: 8px;
+  }
+
+  &__panel {
+    flex: 0 0 580px;
+    width: 580px;
+    max-width: 100%;
+    padding: 44px 44px 24px;
+    border-radius: 28px;
+    background-color: $color-dark-blue;
+
+    @include media('<widescreen') {
+      flex-basis: 480px;
+      width: 480px;
+      padding: 36px 32px 20px;
+    }
+
+    @include media('<desktop') {
+      flex: none;
+      width: 100%;
+    }
+  }
+
+  &__panel-title {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 20px;
+  }
+
+  &__panel-icon {
+    display: inline-flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 56px;
+    border-radius: 10px;
+    background-color: $color-red;
+
+    img {
+      display: block;
+      width: 30px;
+      height: 30px;
+    }
+  }
+
+  &__panel-heading {
+    margin: 0;
+    color: $color-white;
+    font-weight: 500;
+    letter-spacing: -0.42px;
+    line-height: calc(34 / 28);
+    @include adaptive-value('font-size', 28, 22, 1);
+  }
+
+  &__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 18px 0;
+    border-top: 1px solid rgba($color-white, 0.1);
+    color: $color-white;
+    font-weight: 500;
+    letter-spacing: -0.057px;
+    line-height: calc(27 / 19);
+    @include adaptive-value('font-size', 19, 16, 1);
+  }
+
+  &__check {
+    display: block;
+    flex-shrink: 0;
+    width: 24px;
+    height: 24px;
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "meta": {
+    "title": "Governance | Parker Russell International",
+    "description": "Clear leadership, shared standards and independent responsibility — how Parker Russell International is governed across its international network of member firms."
+  },
+  "govHero": {
+    "id": "governance-hero",
+    "breadcrumb": [
+      { "label": "Home", "href": "index.html" },
+      { "label": "Governance" }
+    ],
+    "label": "Governance",
+    "imageBg": "/images/governance/hero-bg.jpg",
+    "imageLoading": "eager",
+    "title": "Clear Leadership. Shared Standards. Independent Responsibility.",
+    "lead": "Strong international networks depend on more than geographic reach.",
+    "body": "They require clear leadership, defined responsibilities and a governance structure capable of supporting collaboration while protecting the independence and professional responsibility of individual member firms.",
+    "audiences": [
+      {
+        "icon": "/icons/governance/icon-account-tree.svg",
+        "text": "<span class=\"is-muted\">Parker Russell International is governed through a structured framework </span><span class=\"is-emphasis\">led by the Board of Directors, supported by the Board of Members and relevant committees across the network.</span>"
+      },
+      {
+        "icon": "/icons/governance/icon-balance.svg",
+        "text": "<span class=\"is-muted\">This structure provides oversight of the network’s strategic development, membership, policies and international coordination </span><span class=\"is-emphasis\">while preserving the legal independence of each member firm.</span>"
+      }
+    ]
+  },
+  "govNetwork": {
+    "id": "governance-network",
+    "title": "Governance Built for an International Network",
+    "lead": "Parker Russell International brings together independent professional firms operating across different jurisdictions, regulatory environments and markets.",
+    "body": "Our governance structure is designed to create alignment where it matters — around strategy, quality, brand, risk and the development of the network — while recognising that each member firm remains responsible for its own professional services and client engagements.",
+    "emphasis": "This balance is central to the Parker Russell model.",
+    "statement": "<span class=\"is-dark\">Connected internationally. </span><span class=\"is-accent\">Accountable locally.</span>"
+  },
+  "govDirectors": {
+    "id": "board-of-directors",
+    "title": "Board of Directors",
+    "lead": "The Board of Directors is responsible for the management of Parker Russell International and for overseeing the practical implementation of the organisation’s objectives under its governing documents.",
+    "body": [
+      "Its responsibilities include considering matters affecting the network as a whole, developing recommendations for member firms, establishing committees and supporting the continued development of Parker Russell International.",
+      "The Board also has responsibility for the admission of new member firms, helping ensure that the expansion of the network remains aligned with its professional and organisational expectations."
+    ],
+    "button": {
+      "label": "Meet Our Leadership",
+      "href": "#",
+      "variant": "primary"
+    },
+    "panel": {
+      "icon": "/icons/governance/icon-account-tree-panel.svg",
+      "title": "Key Areas of Oversight",
+      "items": [
+        "network strategy and development;",
+        "policies and governance;",
+        "membership and expansion;",
+        "establishment of committees;",
+        "international coordination;",
+        "matters affecting the network as a whole."
+      ]
+    }
+  },
+  "govRegional": {
+    "id": "regional-experience",
+    "image": "/images/governance/regional.jpg",
+    "imageAlt": "Senior professional representing regional experience",
+    "eyebrow": "Board of Members",
+    "title": "Regional Experience at the Centre of the Network",
+    "lead": "The Board of Members supports the Board of Directors in the management and development of Parker Russell International.",
+    "body": [
+      "Its role includes helping identify suitable prospective member firms, strengthening communication between member firms and the Board of Directors, supporting regional meetings and contributing to the ongoing activities of the network.",
+      "The Board brings together senior professionals from different regions, helping ensure that the development of Parker Russell International remains informed by the markets and member firms that make up the network."
+    ],
+    "emphasis": "This creates an important connection between international leadership and local experience.",
+    "button": {
+      "label": "Explore the Board of Members",
+      "href": "board-of-members.html",
+      "variant": "outline"
+    }
+  },
+  "govCollab": {
+    "id": "governance-collaboration",
+    "title": "Governance Through Collaboration",
+    "lead": "An international network cannot be managed effectively from one perspective alone.",
+    "intro": [
+      "Different markets face different regulatory, professional and commercial conditions.",
+      "Parker Russell therefore combines central coordination with input from senior professionals across the network."
+    ],
+    "listLabel": "This allows the organisation to:",
+    "items": [
+      {
+        "icon": "/icons/governance/icon-travel-explore.svg",
+        "text": "understand developments across different regions;"
+      },
+      {
+        "icon": "/icons/governance/icon-forum.svg",
+        "text": "strengthen communication between member firms;"
+      },
+      {
+        "icon": "/icons/governance/icon-account-tree-sm.svg",
+        "text": "coordinate network-wide priorities;"
+      },
+      {
+        "icon": "/icons/governance/icon-handshake.svg",
+        "text": "identify opportunities for international collaboration;"
+      },
+      {
+        "icon": "/icons/governance/icon-verified.svg",
+        "text": "support consistent professional expectations;"
+      },
+      {
+        "icon": "/icons/governance/icon-update.svg",
+        "text": "respond to the changing needs of the network."
+      }
+    ],
+    "statement": "<span class=\"is-muted\">Good governance provides structure. </span><span class=\"is-emphasis\">Strong relationships make that structure effective.</span>"
+  },
+  "govCommittees": {
+    "id": "committees-technical",
+    "title": "Committees & Technical Leadership",
+    "lead": "The Board of Directors may establish committees and invite representatives from member firms to contribute their expertise in areas relevant to the network. These committees operate within defined terms of reference and are accountable to the Board.",
+    "body": "This structure allows technical knowledge and practical experience from across Parker Russell International to contribute to wider network development.",
+    "emphasis": "Through technical committees and professional collaboration, member firms can exchange knowledge, consider emerging issues and strengthen expertise across jurisdictions.",
+    "image": "/images/governance/committees.jpg",
+    "imageAlt": "Technical committee meeting",
+    "button": {
+      "label": "Explore Our Technical Committees",
+      "href": "#",
+      "variant": "primary"
+    }
+  },
+  "govStandards": {
+    "id": "membership-standards",
+    "title": "Membership & Network Standards",
+    "lead": "Growth is an important part of an international network, but governance requires that expansion is approached carefully.",
+    "body": [
+      "New member firms are admitted through the network’s governance framework, while Parker Russell International maintains common policies and professional expectations for firms operating under the Parker Russell name.",
+      "Member firms can access network methodologies, resources and the capabilities of other members, while also being expected to maintain the standards and common policies established by Parker Russell International."
+    ],
+    "aim": {
+      "icon": "/icons/governance/icon-domain.svg",
+      "text": "<span class=\"is-muted\">The aim is not simply to expand geographic coverage.</span><br /><span class=\"is-emphasis\">It is to build a network whose members can represent Parker Russell with credibility in their own markets and collaborate effectively internationally.</span>"
+    }
+  },
+  "govFirms": {
+    "id": "independent-firms",
+    "title": "Independent Firms. Defined Responsibility.",
+    "lead": "Parker Russell International is not a single multinational partnership.",
+    "body": [
+      "The network consists of separate legal entities. Each member firm is responsible for its own professional services, engagements, actions and obligations and cannot bind Parker Russell International Limited or another member firm."
+    ],
+    "emphasis": "This distinction is fundamental to the governance of the network.",
+    "bodyAfter": [
+      "Independence allows firms to remain closely connected to their local markets, regulatory environments and clients.",
+      "The role of the international organisation is to provide coordination, shared infrastructure and common direction where appropriate — not to replace the professional responsibility of individual firms."
+    ],
+    "panel": {
+      "icon": "/icons/governance/icon-account-balance.svg",
+      "title": "Parker Russell International Limited",
+      "lead": "Parker Russell International Limited (PRIL) is the coordinating entity of the Parker Russell network.",
+      "body": [
+        "It is an English private company limited by guarantee and does not itself practise accountancy or provide professional services to clients. Its role is to support and coordinate the member firms of the network, with particular focus on areas including strategy, brand, risk and quality.",
+        "The Parker Russell brand and associated intellectual property used by member firms are owned by Parker Russell International Limited."
+      ],
+      "emphasis": "This structure provides the organisational framework through which independent firms can operate under a connected international identity."
+    }
+  },
+  "govFinal": {
+    "id": "governance-final",
+    "imageBg": "/images/governance/final-cta-bg.jpg",
+    "title": "Governance That Supports Confidence",
+    "foundations": [
+      {
+        "text": "<span class=\"is-emphasis\">For clients,</span> <span class=\"is-muted\">governance provides confidence that international capability is supported by clear structures, defined responsibility and professional standards.</span>"
+      },
+      {
+        "text": "<span class=\"is-emphasis\">For member firms,</span> <span class=\"is-muted\">it provides a framework through which they can participate in the development of the network while retaining their independence and local leadership.</span>"
+      },
+      {
+        "text": "<span class=\"is-emphasis\">For Parker Russell International,</span> <span class=\"is-muted\">it creates the structure required to grow responsibly and maintain stronger connections between firms operating across multiple markets.</span>"
+      }
+    ],
+    "tagline": "Independent by structure. Connected through governance.",
+    "buttons": [
+      {
+        "label": "Meet Our Leadership",
+        "href": "#",
+        "variant": "primary",
+        "icon": true
+      },
+      {
+        "label": "Explore Our Member Firms",
+        "href": "#",
+        "variant": "secondary",
+        "icon": true
+      }
+    ]
+  }
+}

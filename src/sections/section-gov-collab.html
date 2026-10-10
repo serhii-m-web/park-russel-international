@@ -1,0 +1,73 @@
+<section
+  class="
+    section-gov-collab
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if govCollab.id}}
+    id="{{ govCollab.id }}"
+  {{/if}}
+  {{#if govCollab.title}}
+    aria-labelledby="{{#if govCollab.id}}{{ govCollab.id }}{{else}}section-gov-collab{{/if}}-title"
+  {{else}}
+    aria-label="Governance Through Collaboration"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-gov-collab__header">
+      <div class="section-gov-collab__heading">
+        <span class="section-gov-collab__rule" aria-hidden="true"></span>
+        {{#if govCollab.title}}
+          <h2
+            id="{{#if govCollab.id}}{{ govCollab.id }}{{else}}section-gov-collab{{/if}}-title"
+            class="section-gov-collab__title"
+          >
+            {{{ govCollab.title }}}
+          </h2>
+        {{/if}}
+        {{#if govCollab.lead}}
+          <p class="section-gov-collab__lead">{{{ govCollab.lead }}}</p>
+        {{/if}}
+      </div>
+
+      {{#if govCollab.intro.length}}
+        <div class="section-gov-collab__intro">
+          {{#each govCollab.intro}}
+            <p class="section-gov-collab__intro-text">{{{ this }}}</p>
+          {{/each}}
+        </div>
+      {{/if}}
+    </div>
+
+    {{#if govCollab.listLabel}}
+      <p class="section-gov-collab__list-label">{{{ govCollab.listLabel }}}</p>
+    {{/if}}
+
+    {{#if govCollab.items.length}}
+      <div class="section-gov-collab__grid-wrap">
+        <ul class="section-gov-collab__grid">
+          {{#each govCollab.items}}
+            <li class="section-gov-collab__item">
+              <article class="section-gov-collab__card">
+                {{#if icon}}
+                  <span class="section-gov-collab__icon" aria-hidden="true">
+                    <img src="{{ icon }}" alt="" width="28" height="28" decoding="async" />
+                  </span>
+                {{/if}}
+                <p class="section-gov-collab__card-text">{{ text }}</p>
+              </article>
+            </li>
+          {{/each}}
+        </ul>
+      </div>
+    {{/if}}
+
+    {{#if govCollab.statement}}
+      <div class="section-gov-collab__statement">
+        <span class="section-gov-collab__statement-rule" aria-hidden="true"></span>
+        <p class="section-gov-collab__statement-text">{{{ govCollab.statement }}}</p>
+      </div>
+    {{/if}}
+  </div>
+</section>

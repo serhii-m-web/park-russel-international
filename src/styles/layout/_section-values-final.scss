@@ -5,6 +5,13 @@
   @include adaptive-value('padding-bottom', 32, 24, 1);
   background-color: $color-white;
 
+  &.gov-final {
+    .section-values-final__foundation {
+      background: rgba(20, 28, 46, 0.82);
+      backdrop-filter: blur(6px);
+    }
+  }
+
   &__card {
     position: relative;
     overflow: hidden;

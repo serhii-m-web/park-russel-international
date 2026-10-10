@@ -1,0 +1,54 @@
+<section
+  class="
+    section-gov-network
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if govNetwork.id}}
+    id="{{ govNetwork.id }}"
+  {{/if}}
+  {{#if govNetwork.title}}
+    aria-labelledby="{{#if govNetwork.id}}{{ govNetwork.id }}{{else}}section-gov-network{{/if}}-title"
+  {{else}}
+    aria-label="Governance Built for an International Network"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-gov-network__content">
+      <div class="section-gov-network__heading">
+        <span class="section-gov-network__rule" aria-hidden="true"></span>
+        {{#if govNetwork.title}}
+          <h2
+            id="{{#if govNetwork.id}}{{ govNetwork.id }}{{else}}section-gov-network{{/if}}-title"
+            class="section-gov-network__title"
+          >
+            {{{ govNetwork.title }}}
+          </h2>
+        {{/if}}
+        {{#if govNetwork.lead}}
+          <p class="section-gov-network__lead">{{{ govNetwork.lead }}}</p>
+        {{/if}}
+      </div>
+
+      <div class="section-gov-network__copy">
+        {{#if govNetwork.body}}
+          <p class="section-gov-network__body">{{{ govNetwork.body }}}</p>
+        {{/if}}
+        {{#if govNetwork.emphasis}}
+          <div class="section-gov-network__emphasis">
+            <span class="section-gov-network__emphasis-bar" aria-hidden="true"></span>
+            <p class="section-gov-network__emphasis-text">{{{ govNetwork.emphasis }}}</p>
+          </div>
+        {{/if}}
+      </div>
+    </div>
+
+    {{#if govNetwork.statement}}
+      <div class="section-gov-network__statement">
+        <span class="section-gov-network__statement-rule" aria-hidden="true"></span>
+        <p class="section-gov-network__statement-text">{{{ govNetwork.statement }}}</p>
+      </div>
+    {{/if}}
+  </div>
+</section>

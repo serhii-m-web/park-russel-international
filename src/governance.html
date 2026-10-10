@@ -1,0 +1,91 @@
+<!doctype html>
+<html id="top" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>
+      {{#if page.meta.title}}
+        {{ page.meta.title }}
+      {{else}}
+        {{ site.title }}
+      {{/if}}
+    </title>
+    <meta
+      name="description"
+      content="{{#if page.meta.description}}{{ page.meta.description }}{{else}}{{ site.description }}{{/if}}"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicon/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    {{> sprite}}
+    <a class="skip-link visually-hidden" href="#main-content">
+      Skip to content
+    </a>
+    {{> header}}
+    <main id="main-content" tabindex="-1">
+      {{> section-mission-hero
+        missionHero=page.govHero
+        sectionClass="mission-hero gov-hero"
+      }}
+      {{> section-gov-network
+        govNetwork=page.govNetwork
+        sectionClass="gov-network"
+      }}
+      {{> section-gov-directors
+        govDirectors=page.govDirectors
+        sectionClass="gov-directors"
+      }}
+      {{> section-gov-regional
+        govRegional=page.govRegional
+        sectionClass="gov-regional"
+      }}
+      {{> section-gov-collab
+        govCollab=page.govCollab
+        sectionClass="gov-collab"
+      }}
+      {{> section-gov-committees
+        govCommittees=page.govCommittees
+        sectionClass="gov-committees"
+      }}
+      {{> section-gov-standards
+        govStandards=page.govStandards
+        sectionClass="gov-standards"
+      }}
+      {{> section-gov-firms
+        govFirms=page.govFirms
+        sectionClass="gov-firms"
+      }}
+      {{> section-values-final
+        valuesFinal=page.govFinal
+        sectionClass="values-final gov-final"
+      }}
+    </main>
+    {{> footer}}
+    <script type="module" src="/ts/main.ts"></script>
+  </body>
+</html>

@@ -1,0 +1,206 @@
+@use '../abstracts' as *;
+
+.section-gov-collab {
+  @include adaptive-value('padding-top', 120, 56, 1);
+  @include adaptive-value('padding-bottom', 120, 56, 1);
+  background-color: $color-navy;
+
+  &__header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 48px;
+    @include adaptive-value('margin-bottom', 56, 32, 1);
+
+    @include media('<desktop') {
+      flex-direction: column;
+      gap: 24px;
+    }
+  }
+
+  &__heading {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    min-width: 0;
+  }
+
+  &__rule {
+    display: block;
+    width: 48px;
+    height: 3px;
+    background-color: $color-red;
+  }
+
+  &__title {
+    margin: 0;
+    color: $color-white;
+    font-weight: 500;
+    letter-spacing: -1.2px;
+    line-height: calc(52 / 48);
+    @include adaptive-value('font-size', 48, 32, 1);
+  }
+
+  &__lead {
+    margin: 0;
+    color: $color-white;
+    font-weight: 500;
+    letter-spacing: -0.26px;
+    line-height: calc(34 / 26);
+    @include adaptive-value('font-size', 26, 20, 1);
+  }
+
+  &__intro {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    gap: 16px;
+    min-width: 0;
+    padding-top: 8px;
+  }
+
+  &__intro-text {
+    margin: 0;
+    color: $color-ice;
+    line-height: calc(30 / 19);
+    @include adaptive-value('font-size', 19, 16, 1);
+  }
+
+  &__list-label {
+    margin: 0;
+    @include adaptive-value('margin-bottom', 32, 24, 1);
+    color: $color-white;
+    font-weight: 500;
+    letter-spacing: -0.11px;
+    line-height: calc(30 / 22);
+    @include adaptive-value('font-size', 22, 18, 1);
+  }
+
+  &__grid-wrap {
+    width: 100%;
+    min-width: 0;
+    @include adaptive-value('margin-bottom', 56, 40, 1);
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    @include media('<desktop') {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    @include media('<tablet') {
+      grid-template-columns: 1fr;
+      gap: 10px;
+    }
+  }
+
+  &__item {
+    min-width: 0;
+  }
+
+  &__card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    box-sizing: border-box;
+    min-height: 202px;
+    height: 100%;
+    padding: 28px 28px 32px;
+    border: 1px solid rgba($color-white, 0.08);
+    border-radius: 20px;
+    background-color: $color-dark-blue;
+
+    @include media('<tablet') {
+      flex-direction: row;
+      gap: 16px;
+      min-height: 0;
+      padding: 16px;
+    }
+  }
+
+  &__icon {
+    display: inline-flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    width: 52px;
+    height: 52px;
+    border-radius: 10px;
+    background-color: $color-red;
+
+    @include media('<tablet') {
+      width: 44px;
+      height: 44px;
+    }
+
+    img {
+      display: block;
+      width: 28px;
+      height: 28px;
+      object-fit: contain;
+
+      @include media('<tablet') {
+        width: 24px;
+        height: 24px;
+      }
+    }
+  }
+
+  &__card-text {
+    margin: 0;
+    color: $color-white;
+    font-weight: 500;
+    letter-spacing: -0.1px;
+    line-height: calc(28 / 20);
+    @include adaptive-value('font-size', 20, 17, 1);
+  }
+
+  &__statement {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    padding-top: 48px;
+    border-top: 1px solid rgba($color-white, 0.12);
+
+    @include media('<tablet') {
+      flex-direction: column;
+      gap: 20px;
+      padding-top: 32px;
+    }
+  }
+
+  &__statement-rule {
+    flex-shrink: 0;
+    width: 64px;
+    height: 4px;
+    margin-top: 0.45em;
+    background-color: $color-red;
+  }
+
+  &__statement-text {
+    margin: 0;
+    max-width: 1100px;
+    color: $color-white;
+    font-weight: 500;
+    letter-spacing: -1.1px;
+    line-height: calc(52 / 44);
+    @include adaptive-value('font-size', 44, 26, 1);
+
+    .is-muted {
+      color: #8fa0b8;
+    }
+
+    .is-emphasis {
+      color: $color-white;
+    }
+  }
+}

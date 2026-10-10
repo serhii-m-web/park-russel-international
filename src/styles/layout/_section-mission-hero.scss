@@ -157,6 +157,16 @@
     @include adaptive-value('margin-bottom', 24, 16, 1);
   }
 
+  &.gov-hero &__title {
+    max-width: 1220px;
+  }
+
+  &.gov-hero &__audience-text {
+    letter-spacing: -0.176px;
+    line-height: calc(33 / 22);
+    @include adaptive-value('font-size', 22, 18, 1);
+  }
+
   &__lead {
     margin: 0;
     max-width: 720px;
@@ -257,6 +267,15 @@
 
     .is-accent {
       color: #ff5a6e;
+      font-weight: 500;
+    }
+
+    .is-muted {
+      color: #8fa0b8;
+    }
+
+    .is-emphasis {
+      color: $color-white;
       font-weight: 500;
     }
   }

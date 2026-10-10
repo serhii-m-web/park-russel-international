@@ -1,0 +1,88 @@
+<section
+  class="
+    section-gov-firms
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if govFirms.id}}
+    id="{{ govFirms.id }}"
+  {{/if}}
+  {{#if govFirms.title}}
+    aria-labelledby="{{#if govFirms.id}}{{ govFirms.id }}{{else}}section-gov-firms{{/if}}-title"
+  {{else}}
+    aria-label="Independent Firms. Defined Responsibility."
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-gov-firms__layout">
+      <div class="section-gov-firms__copy">
+        <span class="section-gov-firms__rule" aria-hidden="true"></span>
+        {{#if govFirms.title}}
+          <h2
+            id="{{#if govFirms.id}}{{ govFirms.id }}{{else}}section-gov-firms{{/if}}-title"
+            class="section-gov-firms__title"
+          >
+            {{{ govFirms.title }}}
+          </h2>
+        {{/if}}
+        {{#if govFirms.lead}}
+          <p class="section-gov-firms__lead">{{{ govFirms.lead }}}</p>
+        {{/if}}
+        {{#if govFirms.body.length}}
+          {{#each govFirms.body}}
+            <p class="section-gov-firms__body">{{{ this }}}</p>
+          {{/each}}
+        {{/if}}
+        {{#if govFirms.emphasis}}
+          <div class="section-gov-firms__emphasis">
+            <span class="section-gov-firms__emphasis-bar" aria-hidden="true"></span>
+            <p class="section-gov-firms__emphasis-text">{{{ govFirms.emphasis }}}</p>
+          </div>
+        {{/if}}
+        {{#if govFirms.bodyAfter.length}}
+          {{#each govFirms.bodyAfter}}
+            <p class="section-gov-firms__body">{{{ this }}}</p>
+          {{/each}}
+        {{/if}}
+      </div>
+
+      {{#if govFirms.panel}}
+        <aside class="section-gov-firms__panel" aria-label="{{ govFirms.panel.title }}">
+          <div class="section-gov-firms__panel-header">
+            {{#if govFirms.panel.icon}}
+              <span class="section-gov-firms__panel-icon" aria-hidden="true">
+                <img
+                  src="{{ govFirms.panel.icon }}"
+                  alt=""
+                  width="32"
+                  height="32"
+                  decoding="async"
+                />
+              </span>
+            {{/if}}
+            {{#if govFirms.panel.title}}
+              <h3 class="section-gov-firms__panel-title">{{ govFirms.panel.title }}</h3>
+            {{/if}}
+          </div>
+          <div class="section-gov-firms__panel-body">
+            {{#if govFirms.panel.lead}}
+              <p class="section-gov-firms__panel-lead">{{{ govFirms.panel.lead }}}</p>
+            {{/if}}
+            {{#if govFirms.panel.body.length}}
+              {{#each govFirms.panel.body}}
+                <p class="section-gov-firms__panel-text">{{{ this }}}</p>
+              {{/each}}
+            {{/if}}
+            {{#if govFirms.panel.emphasis}}
+              <div class="section-gov-firms__panel-emphasis">
+                <span class="section-gov-firms__emphasis-bar" aria-hidden="true"></span>
+                <p class="section-gov-firms__emphasis-text">{{{ govFirms.panel.emphasis }}}</p>
+              </div>
+            {{/if}}
+          </div>
+        </aside>
+      {{/if}}
+    </div>
+  </div>
+</section>

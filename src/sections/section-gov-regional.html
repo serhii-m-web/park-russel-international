@@ -1,0 +1,81 @@
+<section
+  class="
+    section-gov-regional
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if govRegional.id}}
+    id="{{ govRegional.id }}"
+  {{/if}}
+  {{#if govRegional.title}}
+    aria-labelledby="{{#if govRegional.id}}{{ govRegional.id }}{{else}}section-gov-regional{{/if}}-title"
+  {{else}}
+    aria-label="Regional Experience at the Centre of the Network"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-gov-regional__layout">
+      {{#if govRegional.image}}
+        <div class="section-gov-regional__media">
+          {{picture
+            govRegional.image
+            alt=govRegional.imageAlt
+            class="section-gov-regional__image"
+            width="540"
+            height="624"
+          }}
+        </div>
+      {{/if}}
+
+      <div class="section-gov-regional__copy">
+        {{#if govRegional.eyebrow}}
+          <p class="section-gov-regional__eyebrow">
+            <span class="section-gov-regional__eyebrow-rule" aria-hidden="true"></span>
+            <span>{{ govRegional.eyebrow }}</span>
+          </p>
+        {{/if}}
+
+        {{#if govRegional.title}}
+          <h2
+            id="{{#if govRegional.id}}{{ govRegional.id }}{{else}}section-gov-regional{{/if}}-title"
+            class="section-gov-regional__title"
+          >
+            {{{ govRegional.title }}}
+          </h2>
+        {{/if}}
+
+        {{#if govRegional.lead}}
+          <p class="section-gov-regional__lead">{{{ govRegional.lead }}}</p>
+        {{/if}}
+
+        {{#if govRegional.body.length}}
+          {{#each govRegional.body}}
+            <p class="section-gov-regional__body">{{{ this }}}</p>
+          {{/each}}
+        {{/if}}
+
+        {{#if govRegional.emphasis}}
+          <div class="section-gov-regional__emphasis">
+            <span class="section-gov-regional__emphasis-bar" aria-hidden="true"></span>
+            <p class="section-gov-regional__emphasis-text">{{{ govRegional.emphasis }}}</p>
+          </div>
+        {{/if}}
+
+        {{#if govRegional.button}}
+          <a
+            class="section-gov-regional__button section-gov-regional__button--{{ govRegional.button.variant }}"
+            href="{{ govRegional.button.href }}"
+          >
+            <span>{{ govRegional.button.label }}</span>
+            {{> icon
+              name="arrow"
+              width="16"
+              height="16"
+            }}
+          </a>
+        {{/if}}
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,69 @@
+<section
+  class="
+    section-gov-committees
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if govCommittees.id}}
+    id="{{ govCommittees.id }}"
+  {{/if}}
+  {{#if govCommittees.title}}
+    aria-labelledby="{{#if govCommittees.id}}{{ govCommittees.id }}{{else}}section-gov-committees{{/if}}-title"
+  {{else}}
+    aria-label="Committees & Technical Leadership"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-gov-committees__layout">
+      <div class="section-gov-committees__copy">
+        <span class="section-gov-committees__rule" aria-hidden="true"></span>
+        {{#if govCommittees.title}}
+          <h2
+            id="{{#if govCommittees.id}}{{ govCommittees.id }}{{else}}section-gov-committees{{/if}}-title"
+            class="section-gov-committees__title"
+          >
+            {{{ govCommittees.title }}}
+          </h2>
+        {{/if}}
+        {{#if govCommittees.lead}}
+          <p class="section-gov-committees__lead">{{{ govCommittees.lead }}}</p>
+        {{/if}}
+        {{#if govCommittees.body}}
+          <p class="section-gov-committees__body">{{{ govCommittees.body }}}</p>
+        {{/if}}
+        {{#if govCommittees.emphasis}}
+          <div class="section-gov-committees__emphasis">
+            <span class="section-gov-committees__emphasis-bar" aria-hidden="true"></span>
+            <p class="section-gov-committees__emphasis-text">{{{ govCommittees.emphasis }}}</p>
+          </div>
+        {{/if}}
+        {{#if govCommittees.button}}
+          <a
+            class="section-gov-committees__button site-button {{ govCommittees.button.variant }}"
+            href="{{ govCommittees.button.href }}"
+          >
+            <span>{{ govCommittees.button.label }}</span>
+            {{> icon
+              name="arrow-right"
+              width="16"
+              height="16"
+            }}
+          </a>
+        {{/if}}
+      </div>
+
+      {{#if govCommittees.image}}
+        <div class="section-gov-committees__media">
+          {{picture
+            govCommittees.image
+            alt=govCommittees.imageAlt
+            class="section-gov-committees__image"
+            width="560"
+            height="570"
+          }}
+        </div>
+      {{/if}}
+    </div>
+  </div>
+</section>

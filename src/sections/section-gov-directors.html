@@ -1,0 +1,93 @@
+<section
+  class="
+    section-gov-directors
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if govDirectors.id}}
+    id="{{ govDirectors.id }}"
+  {{/if}}
+  {{#if govDirectors.title}}
+    aria-labelledby="{{#if govDirectors.id}}{{ govDirectors.id }}{{else}}section-gov-directors{{/if}}-title"
+  {{else}}
+    aria-label="Board of Directors"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-gov-directors__layout">
+      <div class="section-gov-directors__copy">
+        <span class="section-gov-directors__rule" aria-hidden="true"></span>
+        {{#if govDirectors.title}}
+          <h2
+            id="{{#if govDirectors.id}}{{ govDirectors.id }}{{else}}section-gov-directors{{/if}}-title"
+            class="section-gov-directors__title"
+          >
+            {{{ govDirectors.title }}}
+          </h2>
+        {{/if}}
+        {{#if govDirectors.lead}}
+          <p class="section-gov-directors__lead">{{{ govDirectors.lead }}}</p>
+        {{/if}}
+        {{#if govDirectors.body.length}}
+          {{#each govDirectors.body}}
+            <p class="section-gov-directors__body">{{{ this }}}</p>
+          {{/each}}
+        {{/if}}
+        {{#if govDirectors.button}}
+          <a
+            class="section-gov-directors__button site-button {{ govDirectors.button.variant }}"
+            href="{{ govDirectors.button.href }}"
+          >
+            <span>{{ govDirectors.button.label }}</span>
+            {{> icon
+              name="arrow-right"
+              width="16"
+              height="16"
+            }}
+          </a>
+        {{/if}}
+      </div>
+
+      {{#if govDirectors.panel}}
+        <aside class="section-gov-directors__panel" aria-label="{{ govDirectors.panel.title }}">
+          <div class="section-gov-directors__panel-title">
+            {{#if govDirectors.panel.icon}}
+              <span class="section-gov-directors__panel-icon" aria-hidden="true">
+                <img
+                  src="{{ govDirectors.panel.icon }}"
+                  alt=""
+                  width="30"
+                  height="30"
+                  decoding="async"
+                />
+              </span>
+            {{/if}}
+            {{#if govDirectors.panel.title}}
+              <h3 class="section-gov-directors__panel-heading">
+                {{ govDirectors.panel.title }}
+              </h3>
+            {{/if}}
+          </div>
+          {{#if govDirectors.panel.items.length}}
+            <ul class="section-gov-directors__list">
+              {{#each govDirectors.panel.items}}
+                <li class="section-gov-directors__item">
+                  <img
+                    class="section-gov-directors__check"
+                    src="/icons/governance/icon-check-circle.svg"
+                    alt=""
+                    width="24"
+                    height="24"
+                    decoding="async"
+                  />
+                  <span>{{ this }}</span>
+                </li>
+              {{/each}}
+            </ul>
+          {{/if}}
+        </aside>
+      {{/if}}
+    </div>
+  </div>
+</section>
