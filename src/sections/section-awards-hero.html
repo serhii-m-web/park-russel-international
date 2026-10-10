@@ -1,0 +1,111 @@
+<section
+  class="
+    section-awards-hero
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if awHero.id}}
+    id="{{ awHero.id }}"
+  {{/if}}
+  {{#if awHero.title}}
+    aria-labelledby="{{#if awHero.id}}{{ awHero.id }}{{else}}section-awards-hero{{/if}}-title"
+  {{else}}
+    aria-label="{{#if awHero.ariaLabel}}{{ awHero.ariaLabel }}{{else}}Awards and recognition{{/if}}"
+  {{/if}}
+>
+  <div class="container">
+    {{#if awHero.breadcrumb.length}}
+      <nav class="section-awards-hero__breadcrumb" aria-label="Breadcrumb">
+        <ol class="section-awards-hero__breadcrumb-list">
+          {{#each awHero.breadcrumb}}
+            <li class="section-awards-hero__breadcrumb-item">
+              {{#if href}}
+                <a class="section-awards-hero__breadcrumb-link" href="{{ href }}">
+                  {{ label }}
+                </a>
+              {{else}}
+                <span class="section-awards-hero__breadcrumb-current" aria-current="page">
+                  {{ label }}
+                </span>
+              {{/if}}
+            </li>
+          {{/each}}
+        </ol>
+      </nav>
+    {{/if}}
+
+    <div class="section-awards-hero__card">
+      {{#if awHero.imageBg}}
+        <div class="section-awards-hero__bg" aria-hidden="true">
+          {{picture
+            awHero.imageBg
+            alt=""
+            class="section-awards-hero__bg-image"
+            loading=awHero.imageLoading
+            width="1920"
+            height="800"
+          }}
+        </div>
+      {{/if}}
+
+      <div class="section-awards-hero__inner">
+        {{#if awHero.label}}
+          <span class="section-awards-hero__label">{{ awHero.label }}</span>
+        {{/if}}
+
+        {{#if awHero.title}}
+          <h1
+            id="{{#if awHero.id}}{{ awHero.id }}{{else}}section-awards-hero{{/if}}-title"
+            class="section-awards-hero__title"
+          >
+            {{{ awHero.title }}}
+          </h1>
+        {{/if}}
+
+        {{#if awHero.description}}
+          <p class="section-awards-hero__description">
+            {{{ awHero.description }}}
+          </p>
+        {{/if}}
+
+        {{#if awHero.buttons.length}}
+          <div class="section-awards-hero__buttons">
+            {{#each awHero.buttons}}
+              <a
+                class="section-awards-hero__button site-button {{ variant }}"
+                href="{{ href }}"
+              >
+                <span>{{ label }}</span>
+                {{#if icon}}
+                  {{> icon
+                    name="arrow-right"
+                    width="16"
+                    height="16"
+                  }}
+                {{/if}}
+              </a>
+            {{/each}}
+          </div>
+        {{/if}}
+      </div>
+    </div>
+
+    {{#if awHero.stripCards.length}}
+      <ul class="section-awards-hero__strip">
+        {{#each awHero.stripCards}}
+          <li class="section-awards-hero__strip-card">
+            {{#if icon}}
+              <span class="section-awards-hero__strip-icon" aria-hidden="true">
+                <img src="{{ icon }}" alt="" width="28" height="28" decoding="async" />
+              </span>
+            {{/if}}
+            <p class="section-awards-hero__strip-text">
+              {{{ text }}}
+            </p>
+          </li>
+        {{/each}}
+      </ul>
+    {{/if}}
+  </div>
+</section>

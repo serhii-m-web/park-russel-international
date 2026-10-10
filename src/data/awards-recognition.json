@@ -1,0 +1,252 @@
+{
+  "meta": {
+    "title": "Awards & Recognition | Parker Russell International",
+    "description": "Explore Parker Russell International awards, annual presentations and recognition celebrating excellence across our global network of member firms."
+  },
+  "awHero": {
+    "id": "aw-hero",
+    "ariaLabel": "Awards and recognition",
+    "breadcrumb": [
+      { "label": "Home", "href": "index.html" },
+      { "label": "Awards & Recognition" }
+    ],
+    "label": "Awards & Recognition",
+    "imageBg": "/images/awards/hero-bg.jpg",
+    "imageLoading": "eager",
+    "title": "Recognising Excellence Across Our International Network",
+    "description": "Professional recognition matters when it reflects something deeper — the quality of the work, the strength of the people behind it and the standards an organisation continues to uphold.",
+    "buttons": [
+      {
+        "label": "Explore Our Awards",
+        "href": "#aw-presentations",
+        "variant": "primary",
+        "icon": true
+      }
+    ],
+    "stripCards": [
+      {
+        "icon": "/icons/awards/icon-trophy.svg",
+        "text": "Parker Russell International has been recognised within the international accountancy profession, while our own annual awards celebrate the member firms and professionals whose work strengthens the network and raises the standard of service delivered to clients."
+      },
+      {
+        "icon": "/icons/awards/icon-stars.svg",
+        "text": "Across Parker Russell, recognition is not treated as an end in itself. It reflects progress, contribution and the continued pursuit of professional excellence."
+      }
+    ]
+  },
+  "awPresentations": {
+    "id": "aw-presentations",
+    "ariaLabel": "Annual awards presentations",
+    "carouselLabel": "Previous awards presentations",
+    "eyebrow": "Annual Awards Presentations",
+    "title": "Explore Each Year’s Awards",
+    "lead": "The Parker Russell International Awards presentations provide a record of the firms, people and achievements recognised across the network each year.",
+    "body": "Explore the annual presentations to discover the award recipients, their achievements and the work shaping the continued development of Parker Russell International.",
+    "featured": {
+      "chip": "2026 Awards",
+      "awardYear": "2026",
+      "coverSubtitle": "Parker Russell International Awards 2026",
+      "title": "Parker Russell International Awards 2026",
+      "viewPresentation": {
+        "label": "View Presentation",
+        "href": "#"
+      },
+      "downloadPresentation": {
+        "label": "Download Presentation",
+        "href": "#"
+      }
+    },
+    "archive": [
+      {
+        "awardYear": "2025",
+        "chip": "2025 Awards",
+        "coverSubtitle": "Parker Russell International Awards 2025",
+        "title": "Parker Russell International Awards 2025",
+        "viewPresentation": {
+          "label": "View Presentation",
+          "href": "#"
+        },
+        "downloadPresentation": {
+          "label": "Download Presentation",
+          "href": "#"
+        }
+      },
+      {
+        "awardYear": "2024",
+        "chip": "2024 Awards",
+        "coverSubtitle": "Parker Russell International Awards 2024",
+        "title": "Parker Russell International Awards 2024",
+        "viewPresentation": {
+          "label": "View Presentation",
+          "href": "#"
+        },
+        "downloadPresentation": {
+          "label": "Download Presentation",
+          "href": "#"
+        }
+      },
+      {
+        "awardYear": "2023",
+        "chip": "2023 Awards",
+        "coverSubtitle": "Parker Russell International Awards 2023",
+        "title": "Parker Russell International Awards 2023",
+        "viewPresentation": {
+          "label": "View Presentation",
+          "href": "#"
+        },
+        "downloadPresentation": {
+          "label": "Download Presentation",
+          "href": "#"
+        }
+      }
+    ],
+    "archiveButton": {
+      "label": "View Previous Years",
+      "href": "#",
+      "icon": "/icons/awards/icon-history.svg"
+    }
+  },
+  "awRising": {
+    "id": "aw-rising",
+    "ariaLabel": "Rising Star Network Award",
+    "eyebrow": "International Recognition",
+    "title": "Rising Star Network Award",
+    "lead": "Parker Russell International has been recognised with the Rising Star Network Award by The Accountant & International Accounting Bulletin.",
+    "body": "The award recognises international accountancy networks demonstrating strong growth, entrepreneurial ambition and innovation in developing their position within the profession.",
+    "highlight": "For Parker Russell International, recognition of this kind reflects the continued development of a network built around strong independent firms, international collaboration and a clear commitment to quality.",
+    "image": "/images/awards/rising-star.jpg",
+    "imageAlt": "Professionals holding the Rising Star Network Award trophy",
+    "sealIcon": "/icons/awards/icon-trophy-seal.svg"
+  },
+  "awFirms": {
+    "id": "aw-firms",
+    "ariaLabel": "Member firms awards",
+    "eyebrow": "Parker Russell International Member Firms Awards",
+    "title": "Recognising the Firms That Move the Network Forward",
+    "lead": "Every year, the Parker Russell International Member Firms Awards recognise achievement across our global network.",
+    "body": "The awards celebrate member firms that have demonstrated outstanding performance, strengthened professional capability, contributed to the development of Parker Russell International and created greater value for their clients.",
+    "photoStatement": {
+      "image": "/images/awards/firms-statement.jpg",
+      "imageAlt": "Awards presentation stage",
+      "text": "Excellence within one firm strengthens the network as a whole."
+    },
+    "regionsCard": {
+      "icon": "/icons/about-us/icon-travel-explore.svg",
+      "text": "They also provide an opportunity to recognise the work taking place across different regions, disciplines and markets — bringing successful ideas and achievements from individual member firms to the attention of the wider network."
+    },
+    "criteria": {
+      "title": "What We Recognise",
+      "carouselLabel": "What we recognise",
+      "lead": "Our awards are designed to acknowledge more than commercial performance.",
+      "body": "They recognise the qualities that contribute to the long-term strength of Parker Russell International.",
+      "items": [
+        {
+          "icon": "/icons/about-us/icon-workspace-premium.svg",
+          "title": "Professional Excellence",
+          "description": "High standards of technical work, professional judgement and client service."
+        },
+        {
+          "icon": "/icons/awards/icon-lightbulb.svg",
+          "title": "Innovation & Development",
+          "description": "New approaches, ideas and initiatives that strengthen services, firms or the wider network."
+        },
+        {
+          "icon": "/icons/about-us/icon-handshake.svg",
+          "title": "Client Impact",
+          "description": "Work that demonstrates a meaningful contribution to clients and their businesses."
+        },
+        {
+          "icon": "/icons/about-us/icon-public.svg",
+          "title": "International Collaboration",
+          "description": "Member firms working across borders, sharing expertise and creating opportunities through the network."
+        },
+        {
+          "icon": "/icons/about-us/icon-hub.svg",
+          "title": "Network Contribution",
+          "description": "Leadership and involvement that helps strengthen the Parker Russell professional community internationally."
+        },
+        {
+          "icon": "/icons/awards/icon-trending-up.svg",
+          "title": "Growth & Progress",
+          "description": "Firms demonstrating meaningful development in their markets, capabilities and international presence."
+        }
+      ]
+    }
+  },
+  "awCelebrate": {
+    "id": "aw-celebrate",
+    "ariaLabel": "Celebrating excellence together",
+    "title": "Celebrating Excellence Together",
+    "lead": "The annual awards are an important part of the wider Parker Russell International community.",
+    "body": "Bringing together leaders and professionals from across the network provides an opportunity not only to recognise achievement, but to share the work, ideas and practices behind that success.",
+    "photo": {
+      "image": "/images/awards/leaders-together.jpg",
+      "imageAlt": "Parker Russell network leaders together"
+    },
+    "statement": "Recognition becomes more valuable when it creates momentum beyond the individual award.",
+    "callout": {
+      "icon": "/icons/awards/icon-celebration.svg",
+      "text": "A successful initiative in one market can inspire another. Strong client work can demonstrate what is possible elsewhere. Collaboration between firms can create opportunities across borders."
+    },
+    "closingBody": "The annual awards allow those achievements to become part of the collective knowledge and progress of Parker Russell International."
+  },
+  "awStandards": {
+    "id": "aw-standards",
+    "ariaLabel": "More than an award",
+    "title": "More Than an Award",
+    "lead": "Recognition within Parker Russell International is ultimately about the standards we want the network to represent.",
+    "body": "By recognising the people and firms demonstrating these qualities, we reinforce the culture we want to develop across Parker Russell International.",
+    "checklist": [
+      {
+        "icon": "/icons/awards/icon-check-circle.svg",
+        "text": "Strong independent firms."
+      },
+      {
+        "icon": "/icons/awards/icon-check-circle.svg",
+        "text": "High-quality professional work."
+      },
+      {
+        "icon": "/icons/awards/icon-check-circle.svg",
+        "text": "Closer international collaboration."
+      },
+      {
+        "icon": "/icons/awards/icon-check-circle.svg",
+        "text": "Meaningful contribution to clients."
+      },
+      {
+        "icon": "/icons/awards/icon-check-circle.svg",
+        "text": "Continued investment in the future of the profession."
+      }
+    ]
+  },
+  "awFinal": {
+    "id": "aw-final",
+    "ariaLabel": "Excellence across the network",
+    "imageBg": "/images/awards/final-cta-bg.jpg",
+    "title": "Excellence Across the Network",
+    "description": "Parker Russell International continues to grow through the quality, ambition and contribution of its member firms.",
+    "body": "Our awards provide an opportunity to recognise that work, share it across the international network and celebrate the firms helping Parker Russell move forward.",
+    "audience": [
+      {
+        "text": "<span class=\"is-emphasis\">For clients,</span> it provides another view of the standards and capabilities that exist across our network."
+      },
+      {
+        "text": "<span class=\"is-emphasis\">For current and prospective member firms,</span> it demonstrates the value we place on contribution, collaboration and professional progress."
+      }
+    ],
+    "buttons": [
+      {
+        "label": "Discover Our Member Firms",
+        "href": "#",
+        "variant": "primary",
+        "icon": true
+      },
+      {
+        "label": "Join Parker Russell International",
+        "href": "#",
+        "variant": "secondary",
+        "icon": true
+      }
+    ]
+  }
+}

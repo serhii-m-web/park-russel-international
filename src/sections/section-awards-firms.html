@@ -1,0 +1,208 @@
+<section
+  class="
+    section-awards-firms
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if awFirms.id}}
+    id="{{ awFirms.id }}"
+  {{/if}}
+  {{#if awFirms.title}}
+    aria-labelledby="{{#if awFirms.id}}{{ awFirms.id }}{{else}}section-awards-firms{{/if}}-title"
+  {{else}}
+    aria-label="{{#if awFirms.ariaLabel}}{{ awFirms.ariaLabel }}{{else}}Member firms awards{{/if}}"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-awards-firms__header">
+      <div class="section-awards-firms__title-block">
+        {{#if awFirms.eyebrow}}
+          <p class="section-awards-firms__eyebrow">
+            <span class="section-awards-firms__eyebrow-rule" aria-hidden="true"></span>
+            <span>{{ awFirms.eyebrow }}</span>
+          </p>
+        {{/if}}
+
+        {{#if awFirms.title}}
+          <h2
+            id="{{#if awFirms.id}}{{ awFirms.id }}{{else}}section-awards-firms{{/if}}-title"
+            class="section-awards-firms__title"
+          >
+            {{{ awFirms.title }}}
+          </h2>
+        {{/if}}
+      </div>
+
+      <div class="section-awards-firms__intro">
+        {{#if awFirms.lead}}
+          <p class="section-awards-firms__lead">
+            {{{ awFirms.lead }}}
+          </p>
+        {{/if}}
+
+        {{#if awFirms.body}}
+          <p class="section-awards-firms__body">
+            {{{ awFirms.body }}}
+          </p>
+        {{/if}}
+      </div>
+    </div>
+
+    <div class="section-awards-firms__cards">
+      {{#if awFirms.photoStatement}}
+        <div class="section-awards-firms__statement">
+          {{#if awFirms.photoStatement.image}}
+            <div class="section-awards-firms__statement-bg" aria-hidden="true">
+              {{picture
+                awFirms.photoStatement.image
+                alt=""
+                class="section-awards-firms__statement-image"
+                width="720"
+                height="480"
+              }}
+            </div>
+          {{/if}}
+
+          <span class="section-awards-firms__statement-rule" aria-hidden="true"></span>
+          {{#if awFirms.photoStatement.text}}
+            <p class="section-awards-firms__statement-text">
+              {{{ awFirms.photoStatement.text }}}
+            </p>
+          {{/if}}
+        </div>
+      {{/if}}
+
+      {{#if awFirms.regionsCard}}
+        <div class="section-awards-firms__regions">
+          {{#if awFirms.regionsCard.icon}}
+            <span class="section-awards-firms__regions-icon" aria-hidden="true">
+              <img
+                src="{{ awFirms.regionsCard.icon }}"
+                alt=""
+                width="32"
+                height="32"
+                decoding="async"
+              />
+            </span>
+          {{/if}}
+
+          {{#if awFirms.regionsCard.text}}
+            <p class="section-awards-firms__regions-text">
+              {{{ awFirms.regionsCard.text }}}
+            </p>
+          {{/if}}
+        </div>
+      {{/if}}
+    </div>
+
+    {{#if awFirms.criteria}}
+      <div class="section-awards-firms__criteria">
+        <div class="section-awards-firms__criteria-header">
+          <div class="section-awards-firms__criteria-title-block">
+            <span class="section-awards-firms__criteria-rule" aria-hidden="true"></span>
+            {{#if awFirms.criteria.title}}
+              <h3 class="section-awards-firms__criteria-title">
+                {{{ awFirms.criteria.title }}}
+              </h3>
+            {{/if}}
+          </div>
+
+          <div class="section-awards-firms__criteria-intro">
+            {{#if awFirms.criteria.lead}}
+              <p class="section-awards-firms__criteria-lead">
+                {{{ awFirms.criteria.lead }}}
+              </p>
+            {{/if}}
+
+            {{#if awFirms.criteria.body}}
+              <p class="section-awards-firms__criteria-body">
+                {{{ awFirms.criteria.body }}}
+              </p>
+            {{/if}}
+          </div>
+        </div>
+
+        {{#if awFirms.criteria.items.length}}
+          <div
+            class="section-awards-firms__criteria-list-wrap"
+            data-about-cards-slider
+          >
+            <div
+              class="swiper section-awards-firms__criteria-list"
+              data-about-cards-slider-el
+              data-about-cards-slider-label="{{#if awFirms.criteria.carouselLabel}}{{ awFirms.criteria.carouselLabel }}{{else}}What we recognise{{/if}}"
+            >
+              <div class="swiper-wrapper">
+                {{#each awFirms.criteria.items}}
+                  <article class="swiper-slide section-awards-firms__criteria-card">
+                    {{#if icon}}
+                      <span class="section-awards-firms__criteria-icon" aria-hidden="true">
+                        <img src="{{ icon }}" alt="" width="30" height="30" decoding="async" />
+                      </span>
+                    {{/if}}
+
+                    <div class="section-awards-firms__criteria-card-text">
+                      {{#if title}}
+                        <h4 class="section-awards-firms__criteria-card-title">
+                          {{{ title }}}
+                        </h4>
+                      {{/if}}
+
+                      {{#if description}}
+                        <p class="section-awards-firms__criteria-card-description">
+                          {{{ description }}}
+                        </p>
+                      {{/if}}
+                    </div>
+                  </article>
+                {{/each}}
+              </div>
+            </div>
+
+            <div
+              class="section-awards-firms__criteria-navigation"
+              role="group"
+              aria-label="Recognition criteria slider controls"
+              data-about-cards-slider-nav
+              inert
+            >
+              <div
+                class="swiper-scrollbar section-awards-firms__criteria-scrollbar"
+                data-about-cards-slider-scrollbar
+                tabindex="0"
+                aria-label="Slider progress"
+              ></div>
+              <div class="section-awards-firms__criteria-nav-buttons">
+                <button
+                  class="swiper-button-prev section-awards-firms__criteria-nav-btn prev"
+                  type="button"
+                  data-about-cards-slider-prev
+                  aria-label="Previous slide"
+                >
+                  {{> icon
+                    name="arrow-right"
+                    width="16"
+                    height="16"
+                  }}
+                </button>
+                <button
+                  class="swiper-button-next section-awards-firms__criteria-nav-btn next"
+                  type="button"
+                  data-about-cards-slider-next
+                  aria-label="Next slide"
+                >
+                  {{> icon
+                    name="arrow-right"
+                    width="16"
+                    height="16"
+                  }}
+                </button>
+              </div>
+            </div>
+          </div>
+        {{/if}}
+      </div>
+    {{/if}}
+  </div>
+</section>

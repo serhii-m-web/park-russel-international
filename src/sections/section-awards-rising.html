@@ -1,0 +1,85 @@
+<section
+  class="
+    section-awards-rising
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if awRising.id}}
+    id="{{ awRising.id }}"
+  {{/if}}
+  {{#if awRising.title}}
+    aria-labelledby="{{#if awRising.id}}{{ awRising.id }}{{else}}section-awards-rising{{/if}}-title"
+  {{else}}
+    aria-label="{{#if awRising.ariaLabel}}{{ awRising.ariaLabel }}{{else}}Rising Star Network Award{{/if}}"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-awards-rising__layout">
+      {{#if awRising.image}}
+        <div class="section-awards-rising__media">
+          {{picture
+            awRising.image
+            alt=awRising.imageAlt
+            class="section-awards-rising__image"
+            width="560"
+            height="600"
+          }}
+
+          <div class="section-awards-rising__seal" aria-hidden="true">
+            <span class="section-awards-rising__seal-ring"></span>
+            {{#if awRising.sealIcon}}
+              <img
+                class="section-awards-rising__seal-icon"
+                src="{{ awRising.sealIcon }}"
+                alt=""
+                width="64"
+                height="64"
+                decoding="async"
+              />
+            {{/if}}
+          </div>
+        </div>
+      {{/if}}
+
+      <div class="section-awards-rising__copy">
+        {{#if awRising.eyebrow}}
+          <p class="section-awards-rising__eyebrow">
+            <span class="section-awards-rising__eyebrow-rule" aria-hidden="true"></span>
+            <span>{{ awRising.eyebrow }}</span>
+          </p>
+        {{/if}}
+
+        {{#if awRising.title}}
+          <h2
+            id="{{#if awRising.id}}{{ awRising.id }}{{else}}section-awards-rising{{/if}}-title"
+            class="section-awards-rising__title"
+          >
+            {{{ awRising.title }}}
+          </h2>
+        {{/if}}
+
+        {{#if awRising.lead}}
+          <p class="section-awards-rising__lead">
+            {{{ awRising.lead }}}
+          </p>
+        {{/if}}
+
+        {{#if awRising.body}}
+          <p class="section-awards-rising__body">
+            {{{ awRising.body }}}
+          </p>
+        {{/if}}
+
+        {{#if awRising.highlight}}
+          <div class="section-awards-rising__highlight">
+            <span class="section-awards-rising__highlight-bar" aria-hidden="true"></span>
+            <p class="section-awards-rising__highlight-text">
+              {{{ awRising.highlight }}}
+            </p>
+          </div>
+        {{/if}}
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,127 @@
+@use '../abstracts' as *;
+
+.section-awards-standards {
+  @include adaptive-value('padding-top', 120, 56, 1);
+  @include adaptive-value('padding-bottom', 120, 56, 1);
+  background-color: $color-bg-muted;
+
+  &__layout {
+    display: flex;
+    align-items: center;
+    gap: 96px;
+
+    @include media('<widescreen') {
+      gap: 48px;
+    }
+
+    @include media('<desktop') {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 32px;
+    }
+  }
+
+  &__copy {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    gap: 28px;
+    min-width: 0;
+  }
+
+  &__title {
+    margin: 0;
+    color: $color-dark-blue;
+    font-weight: 500;
+    letter-spacing: -1.2px;
+    line-height: calc(52 / 48);
+    @include adaptive-value('font-size', 48, 32, 1);
+  }
+
+  &__lead {
+    margin: 0;
+    color: $color-dark-blue;
+    letter-spacing: -0.11px;
+    line-height: calc(32 / 22);
+    @include adaptive-value('font-size', 22, 18, 1);
+  }
+
+  &__divider {
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: $color-line;
+  }
+
+  &__body {
+    margin: 0;
+    color: $color-text-muted;
+    line-height: calc(26 / 17);
+    @include adaptive-value('font-size', 17, 16, 1);
+  }
+
+  &__checklist {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 600px;
+    width: 600px;
+    max-width: 100%;
+    margin: 0;
+    padding: 12px 40px;
+    list-style: none;
+    border-radius: 24px;
+    background-color: $color-white;
+
+    @include media('<widescreen') {
+      flex: 0 1 480px;
+      width: 480px;
+    }
+
+    @include media('<desktop') {
+      flex: none;
+      width: 100%;
+    }
+
+    @include media('<tablet') {
+      padding: 8px 24px;
+    }
+  }
+
+  &__check-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    padding: 26px 0;
+    border-bottom: 1px solid $color-line;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  &__check-icon {
+    display: inline-flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+
+    img {
+      display: block;
+      width: 28px;
+      height: 28px;
+    }
+  }
+
+  &__check-text {
+    flex: 1 1 auto;
+    min-width: 0;
+    color: $color-dark-blue;
+    font-weight: 500;
+    letter-spacing: -0.105px;
+    line-height: calc(28 / 21);
+    @include adaptive-value('font-size', 21, 17, 1);
+  }
+}

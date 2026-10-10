@@ -1,0 +1,61 @@
+<section
+  class="
+    section-awards-standards
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if awStandards.id}}
+    id="{{ awStandards.id }}"
+  {{/if}}
+  {{#if awStandards.title}}
+    aria-labelledby="{{#if awStandards.id}}{{ awStandards.id }}{{else}}section-awards-standards{{/if}}-title"
+  {{else}}
+    aria-label="{{#if awStandards.ariaLabel}}{{ awStandards.ariaLabel }}{{else}}More than an award{{/if}}"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-awards-standards__layout">
+      <div class="section-awards-standards__copy">
+        {{#if awStandards.title}}
+          <h2
+            id="{{#if awStandards.id}}{{ awStandards.id }}{{else}}section-awards-standards{{/if}}-title"
+            class="section-awards-standards__title"
+          >
+            {{{ awStandards.title }}}
+          </h2>
+        {{/if}}
+
+        {{#if awStandards.lead}}
+          <p class="section-awards-standards__lead">
+            {{{ awStandards.lead }}}
+          </p>
+        {{/if}}
+
+        {{#if awStandards.body}}
+          <span class="section-awards-standards__divider" aria-hidden="true"></span>
+          <p class="section-awards-standards__body">
+            {{{ awStandards.body }}}
+          </p>
+        {{/if}}
+      </div>
+
+      {{#if awStandards.checklist.length}}
+        <ul class="section-awards-standards__checklist">
+          {{#each awStandards.checklist}}
+            <li class="section-awards-standards__check-item">
+              {{#if icon}}
+                <span class="section-awards-standards__check-icon" aria-hidden="true">
+                  <img src="{{ icon }}" alt="" width="28" height="28" decoding="async" />
+                </span>
+              {{/if}}
+              {{#if text}}
+                <span class="section-awards-standards__check-text">{{ text }}</span>
+              {{/if}}
+            </li>
+          {{/each}}
+        </ul>
+      {{/if}}
+    </div>
+  </div>
+</section>

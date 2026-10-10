@@ -1,0 +1,184 @@
+@use '../abstracts' as *;
+
+.section-awards-celebrate {
+  @include adaptive-value('padding-top', 120, 56, 1);
+  @include adaptive-value('padding-bottom', 120, 56, 1);
+  background-color: $color-white;
+
+  &__header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 64px;
+    margin-bottom: 64px;
+
+    @include media('<desktop') {
+      flex-direction: column;
+      gap: 20px;
+      margin-bottom: 40px;
+    }
+  }
+
+  &__title {
+    margin: 0;
+    max-width: 640px;
+    color: $color-dark-blue;
+    font-weight: 500;
+    letter-spacing: -1.2px;
+    line-height: calc(52 / 48);
+    @include adaptive-value('font-size', 48, 32, 1);
+  }
+
+  &__intro {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 528px;
+    min-width: 0;
+  }
+
+  &__lead {
+    margin: 0;
+    color: $color-dark-blue;
+    letter-spacing: -0.11px;
+    line-height: calc(32 / 22);
+    @include adaptive-value('font-size', 22, 18, 1);
+  }
+
+  &__body {
+    margin: 0;
+    color: $color-text-muted;
+    line-height: calc(26 / 17);
+    @include adaptive-value('font-size', 17, 16, 1);
+  }
+
+  &__momentum {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+
+    @include media('<widescreen') {
+      gap: 48px;
+    }
+
+    @include media('<desktop') {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 32px;
+    }
+  }
+
+  &__media {
+    flex: 0 1 624px;
+    width: 624px;
+    max-width: min(624px, 100%);
+    aspect-ratio: 624 / 600;
+    overflow: hidden;
+    border-radius: 24px;
+
+    @include media('<widescreen') {
+      flex-basis: 480px;
+      width: 480px;
+    }
+
+    @include media('<desktop') {
+      flex: none;
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+
+  &__image {
+    display: block;
+    width: 100%;
+    height: 100%;
+
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    gap: 28px;
+    min-width: 0;
+    max-width: 610px;
+    width: 100%;
+
+    @include media('<desktop') {
+      max-width: 100%;
+    }
+  }
+
+  &__rule {
+    display: block;
+    width: 48px;
+    height: 3px;
+    background-color: $color-red;
+    flex-shrink: 0;
+  }
+
+  &__statement {
+    margin: 0;
+    color: $color-dark-blue;
+    font-weight: 500;
+    letter-spacing: -0.51px;
+    line-height: calc(42 / 34);
+    @include adaptive-value('font-size', 34, 24, 1);
+  }
+
+  &__callout {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    width: 100%;
+    padding: 28px;
+    border-radius: 20px;
+    background-color: $color-bg-muted;
+
+    @include media('<tablet') {
+      gap: 16px;
+      padding: 24px 20px;
+      flex-direction: column;
+    }
+  }
+
+  &__callout-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 48px;
+    height: 48px;
+    border-radius: 6px;
+    background-color: $color-red;
+
+    img {
+      display: block;
+      width: 26px;
+      height: 26px;
+    }
+  }
+
+  &__callout-text {
+    flex: 1 1 auto;
+    min-width: 0;
+    margin: 0;
+    color: $color-dark-blue;
+    letter-spacing: -0.057px;
+    line-height: calc(29 / 19);
+    @include adaptive-value('font-size', 19, 16, 1);
+  }
+
+  &__closing {
+    margin: 0;
+    color: $color-text-muted;
+    line-height: calc(26 / 17);
+    @include adaptive-value('font-size', 17, 16, 1);
+  }
+}

@@ -1,0 +1,97 @@
+<section
+  class="
+    section-awards-celebrate
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if awCelebrate.id}}
+    id="{{ awCelebrate.id }}"
+  {{/if}}
+  {{#if awCelebrate.title}}
+    aria-labelledby="{{#if awCelebrate.id}}{{ awCelebrate.id }}{{else}}section-awards-celebrate{{/if}}-title"
+  {{else}}
+    aria-label="{{#if awCelebrate.ariaLabel}}{{ awCelebrate.ariaLabel }}{{else}}Celebrating excellence together{{/if}}"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-awards-celebrate__header">
+      {{#if awCelebrate.title}}
+        <h2
+          id="{{#if awCelebrate.id}}{{ awCelebrate.id }}{{else}}section-awards-celebrate{{/if}}-title"
+          class="section-awards-celebrate__title"
+        >
+          {{{ awCelebrate.title }}}
+        </h2>
+      {{/if}}
+
+      <div class="section-awards-celebrate__intro">
+        {{#if awCelebrate.lead}}
+          <p class="section-awards-celebrate__lead">
+            {{{ awCelebrate.lead }}}
+          </p>
+        {{/if}}
+
+        {{#if awCelebrate.body}}
+          <p class="section-awards-celebrate__body">
+            {{{ awCelebrate.body }}}
+          </p>
+        {{/if}}
+      </div>
+    </div>
+
+    <div class="section-awards-celebrate__momentum">
+      {{#if awCelebrate.photo}}
+        {{#if awCelebrate.photo.image}}
+          <div class="section-awards-celebrate__media">
+            {{picture
+              awCelebrate.photo.image
+              alt=awCelebrate.photo.imageAlt
+              class="section-awards-celebrate__image"
+              width="624"
+              height="600"
+            }}
+          </div>
+        {{/if}}
+      {{/if}}
+
+      <div class="section-awards-celebrate__content">
+        <span class="section-awards-celebrate__rule" aria-hidden="true"></span>
+
+        {{#if awCelebrate.statement}}
+          <p class="section-awards-celebrate__statement">
+            {{{ awCelebrate.statement }}}
+          </p>
+        {{/if}}
+
+        {{#if awCelebrate.callout}}
+          <div class="section-awards-celebrate__callout">
+            {{#if awCelebrate.callout.icon}}
+              <span class="section-awards-celebrate__callout-icon" aria-hidden="true">
+                <img
+                  src="{{ awCelebrate.callout.icon }}"
+                  alt=""
+                  width="26"
+                  height="26"
+                  decoding="async"
+                />
+              </span>
+            {{/if}}
+
+            {{#if awCelebrate.callout.text}}
+              <p class="section-awards-celebrate__callout-text">
+                {{{ awCelebrate.callout.text }}}
+              </p>
+            {{/if}}
+          </div>
+        {{/if}}
+
+        {{#if awCelebrate.closingBody}}
+          <p class="section-awards-celebrate__closing">
+            {{{ awCelebrate.closingBody }}}
+          </p>
+        {{/if}}
+      </div>
+    </div>
+  </div>
+</section>
