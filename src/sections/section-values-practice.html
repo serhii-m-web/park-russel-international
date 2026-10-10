@@ -1,0 +1,113 @@
+<section
+  class="
+    section-values-practice
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if valuesPractice.id}}
+    id="{{ valuesPractice.id }}"
+  {{/if}}
+  data-about-cards-slider
+  {{#if valuesPractice.title}}
+    aria-labelledby="{{#if valuesPractice.id}}{{ valuesPractice.id }}{{else}}section-values-practice{{/if}}-title"
+  {{else}}
+    aria-label="What that vision means in practice"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-values-practice__header">
+      <span class="section-values-practice__rule" aria-hidden="true"></span>
+      {{#if valuesPractice.title}}
+        <h2
+          id="{{#if valuesPractice.id}}{{ valuesPractice.id }}{{else}}section-values-practice{{/if}}-title"
+          class="section-values-practice__title"
+        >
+          {{{ valuesPractice.title }}}
+        </h2>
+      {{/if}}
+    </div>
+
+    {{#if valuesPractice.items.length}}
+      <div class="section-values-practice__grid-wrap">
+        <div
+          class="swiper section-values-practice__grid"
+          data-about-cards-slider-el
+          data-about-cards-slider-label="{{#if valuesPractice.carouselLabel}}{{ valuesPractice.carouselLabel }}{{else}}Vision in practice{{/if}}"
+        >
+          <div class="swiper-wrapper">
+            {{#each valuesPractice.items}}
+              <article class="swiper-slide section-values-practice__card">
+                {{#if image}}
+                  <div class="section-values-practice__media">
+                    {{picture
+                      image
+                      alt=imageAlt
+                      class="section-values-practice__image"
+                      width="398"
+                      height="260"
+                    }}
+                  </div>
+                {{/if}}
+
+                <div class="section-values-practice__content">
+                  <span class="section-values-practice__card-rule" aria-hidden="true"></span>
+                  {{#if title}}
+                    <h3 class="section-values-practice__card-title">{{ title }}</h3>
+                  {{/if}}
+                  {{#if lead}}
+                    <p class="section-values-practice__lead">{{{ lead }}}</p>
+                  {{/if}}
+                  {{#if body}}
+                    <p class="section-values-practice__body">{{{ body }}}</p>
+                  {{/if}}
+                </div>
+              </article>
+            {{/each}}
+          </div>
+        </div>
+
+        <div
+          class="section-values-practice__navigation"
+          role="group"
+          aria-label="Vision in practice slider controls"
+          data-about-cards-slider-nav
+          inert
+        >
+          <div
+            class="swiper-scrollbar section-values-practice__scrollbar"
+            data-about-cards-slider-scrollbar
+            tabindex="0"
+            aria-label="Slider progress"
+          ></div>
+          <div class="section-values-practice__nav-buttons">
+            <button
+              class="swiper-button-prev section-values-practice__nav-btn prev"
+              type="button"
+              data-about-cards-slider-prev
+              aria-label="Previous slide"
+            >
+              {{> icon
+                name="arrow-right"
+                width="16"
+                height="16"
+              }}
+            </button>
+            <button
+              class="swiper-button-next section-values-practice__nav-btn next"
+              type="button"
+              data-about-cards-slider-next
+              aria-label="Next slide"
+            >
+              {{> icon
+                name="arrow-right"
+                width="16"
+                height="16"
+              }}
+            </button>
+          </div>
+        </div>
+      </div>
+    {{/if}}
+  </div>
+</section>

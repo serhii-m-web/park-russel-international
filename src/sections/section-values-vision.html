@@ -1,0 +1,94 @@
+<section
+  class="
+    section-values-vision
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if valuesVision.id}}
+    id="{{ valuesVision.id }}"
+  {{/if}}
+  {{#if valuesVision.title}}
+    aria-labelledby="{{#if valuesVision.id}}{{ valuesVision.id }}{{else}}section-values-vision{{/if}}-title"
+  {{else}}
+    aria-label="Our Vision"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-values-vision__statement">
+      {{#if valuesVision.imageBg}}
+        <div class="section-values-vision__statement-bg" aria-hidden="true">
+          {{picture
+            valuesVision.imageBg
+            alt=""
+            class="section-values-vision__statement-image"
+            width="1312"
+            height="576"
+          }}
+        </div>
+      {{/if}}
+
+      <div class="section-values-vision__statement-inner">
+        {{#if valuesVision.eyebrow}}
+          <p class="section-values-vision__eyebrow">
+            <span class="section-values-vision__eyebrow-rule" aria-hidden="true"></span>
+            <span>{{ valuesVision.eyebrow }}</span>
+          </p>
+        {{/if}}
+
+        {{#if valuesVision.title}}
+          <h2
+            id="{{#if valuesVision.id}}{{ valuesVision.id }}{{else}}section-values-vision{{/if}}-title"
+            class="section-values-vision__title"
+          >
+            {{{ valuesVision.title }}}
+          </h2>
+        {{/if}}
+
+        <div class="section-values-vision__intro">
+          <span class="section-values-vision__intro-rule" aria-hidden="true"></span>
+          <div class="section-values-vision__intro-text">
+            {{#if valuesVision.lead}}
+              <p class="section-values-vision__lead">{{{ valuesVision.lead }}}</p>
+            {{/if}}
+            {{#if valuesVision.body}}
+              <p class="section-values-vision__body">{{{ valuesVision.body }}}</p>
+            {{/if}}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {{#if valuesVision.items.length}}
+      <div class="section-values-vision__network">
+        {{#if valuesVision.networkLabel}}
+          <p class="section-values-vision__network-label">
+            {{{ valuesVision.networkLabel }}}
+          </p>
+        {{/if}}
+
+        <div class="section-values-vision__grid-wrap">
+          <ul class="section-values-vision__grid">
+            {{#each valuesVision.items}}
+              <li class="section-values-vision__card">
+                {{#if icon}}
+                  <span class="section-values-vision__icon" aria-hidden="true">
+                    <img src="{{ icon }}" alt="" width="30" height="30" decoding="async" />
+                  </span>
+                {{/if}}
+                <p class="section-values-vision__card-text">{{ text }}</p>
+              </li>
+            {{/each}}
+          </ul>
+        </div>
+      </div>
+    {{/if}}
+
+    {{#if valuesVision.growth}}
+      <div class="section-values-vision__growth">
+        <span class="section-values-vision__growth-rule" aria-hidden="true"></span>
+        <p class="section-values-vision__growth-text">{{{ valuesVision.growth }}}</p>
+      </div>
+    {{/if}}
+  </div>
+</section>

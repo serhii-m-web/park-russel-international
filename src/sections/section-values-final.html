@@ -1,0 +1,97 @@
+<section
+  class="
+    section-values-final
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if valuesFinal.id}}
+    id="{{ valuesFinal.id }}"
+  {{/if}}
+  {{#if valuesFinal.title}}
+    aria-labelledby="{{#if valuesFinal.id}}{{ valuesFinal.id }}{{else}}section-values-final{{/if}}-title"
+  {{else}}
+    aria-label="Independent by Structure. Connected by Purpose."
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-values-final__card">
+      {{#if valuesFinal.imageBg}}
+        <div class="section-values-final__bg" aria-hidden="true">
+          {{picture
+            valuesFinal.imageBg
+            alt=""
+            class="section-values-final__bg-image"
+            width="1920"
+            height="900"
+          }}
+        </div>
+      {{/if}}
+
+      <div class="section-values-final__inner">
+        {{#if valuesFinal.title}}
+          <h2
+            id="{{#if valuesFinal.id}}{{ valuesFinal.id }}{{else}}section-values-final{{/if}}-title"
+            class="section-values-final__title"
+          >
+            {{{ valuesFinal.title }}}
+          </h2>
+        {{/if}}
+
+        {{#if valuesFinal.description}}
+          <p class="section-values-final__description">
+            {{{ valuesFinal.description }}}
+          </p>
+        {{/if}}
+
+        {{#if valuesFinal.highlight}}
+          <p class="section-values-final__highlight">
+            <span class="section-values-final__highlight-rule" aria-hidden="true"></span>
+            <span>{{{ valuesFinal.highlight }}}</span>
+          </p>
+        {{/if}}
+
+        {{#if valuesFinal.body}}
+          <p class="section-values-final__body">{{{ valuesFinal.body }}}</p>
+        {{/if}}
+
+        {{#if valuesFinal.foundations.length}}
+          <ul class="section-values-final__foundations">
+            {{#each valuesFinal.foundations}}
+              <li class="section-values-final__foundation">
+                {{{ text }}}
+              </li>
+            {{/each}}
+          </ul>
+        {{/if}}
+
+        {{#if valuesFinal.tagline}}
+          <p class="section-values-final__tagline">
+            <span class="section-values-final__tagline-rule" aria-hidden="true"></span>
+            <span>{{{ valuesFinal.tagline }}}</span>
+          </p>
+        {{/if}}
+
+        {{#if valuesFinal.buttons.length}}
+          <div class="section-values-final__buttons">
+            {{#each valuesFinal.buttons}}
+              <a
+                class="section-values-final__button site-button {{ variant }}"
+                href="{{ href }}"
+              >
+                <span>{{ label }}</span>
+                {{#if icon}}
+                  {{> icon
+                    name="arrow-right"
+                    width="16"
+                    height="16"
+                  }}
+                {{/if}}
+              </a>
+            {{/each}}
+          </div>
+        {{/if}}
+      </div>
+    </div>
+  </div>
+</section>

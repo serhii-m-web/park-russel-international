@@ -1,0 +1,131 @@
+<section
+  class="
+    section-values-approach
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if valuesApproach.id}}
+    id="{{ valuesApproach.id }}"
+  {{/if}}
+  data-about-cards-slider
+  {{#if valuesApproach.title}}
+    aria-labelledby="{{#if valuesApproach.id}}{{ valuesApproach.id }}{{else}}section-values-approach{{/if}}-title"
+  {{else}}
+    aria-label="Our Approach"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-values-approach__header">
+      <span class="section-values-approach__rule" aria-hidden="true"></span>
+      {{#if valuesApproach.title}}
+        <h2
+          id="{{#if valuesApproach.id}}{{ valuesApproach.id }}{{else}}section-values-approach{{/if}}-title"
+          class="section-values-approach__title"
+        >
+          {{{ valuesApproach.title }}}
+        </h2>
+      {{/if}}
+    </div>
+
+    {{#if valuesApproach.image}}
+      <div class="section-values-approach__media">
+        {{picture
+          valuesApproach.image
+          alt=valuesApproach.imageAlt
+          class="section-values-approach__image"
+          width="1312"
+          height="360"
+        }}
+      </div>
+    {{/if}}
+
+    {{#if valuesApproach.items.length}}
+      <div class="section-values-approach__grid-wrap">
+        <div
+          class="swiper section-values-approach__grid"
+          data-about-cards-slider-el
+          data-about-cards-slider-label="{{#if valuesApproach.carouselLabel}}{{ valuesApproach.carouselLabel }}{{else}}Our approach principles{{/if}}"
+        >
+          <div class="swiper-wrapper">
+            {{#each valuesApproach.items}}
+              <article class="swiper-slide section-values-approach__card">
+                {{#if icon}}
+                  <span class="section-values-approach__icon" aria-hidden="true">
+                    <img src="{{ icon }}" alt="" width="30" height="30" decoding="async" />
+                  </span>
+                {{/if}}
+
+                <div class="section-values-approach__text">
+                  {{#if title}}
+                    <h3 class="section-values-approach__card-title">{{ title }}</h3>
+                  {{/if}}
+                  {{#if lead}}
+                    <p class="section-values-approach__lead">{{{ lead }}}</p>
+                  {{/if}}
+                  {{#if body.length}}
+                    {{#each body}}
+                      <p class="section-values-approach__body">{{{ this }}}</p>
+                    {{/each}}
+                  {{/if}}
+                  {{#if emphasis}}
+                    <div class="section-values-approach__emphasis">
+                      <span class="section-values-approach__emphasis-bar" aria-hidden="true"></span>
+                      <p class="section-values-approach__emphasis-text">{{{ emphasis }}}</p>
+                    </div>
+                  {{/if}}
+                  {{#if bodyAfter.length}}
+                    {{#each bodyAfter}}
+                      <p class="section-values-approach__body">{{{ this }}}</p>
+                    {{/each}}
+                  {{/if}}
+                </div>
+              </article>
+            {{/each}}
+          </div>
+        </div>
+
+        <div
+          class="section-values-approach__navigation"
+          role="group"
+          aria-label="Approach principles slider controls"
+          data-about-cards-slider-nav
+          inert
+        >
+          <div
+            class="swiper-scrollbar section-values-approach__scrollbar"
+            data-about-cards-slider-scrollbar
+            tabindex="0"
+            aria-label="Slider progress"
+          ></div>
+          <div class="section-values-approach__nav-buttons">
+            <button
+              class="swiper-button-prev section-values-approach__nav-btn prev"
+              type="button"
+              data-about-cards-slider-prev
+              aria-label="Previous slide"
+            >
+              {{> icon
+                name="arrow-right"
+                width="16"
+                height="16"
+              }}
+            </button>
+            <button
+              class="swiper-button-next section-values-approach__nav-btn next"
+              type="button"
+              data-about-cards-slider-next
+              aria-label="Next slide"
+            >
+              {{> icon
+                name="arrow-right"
+                width="16"
+                height="16"
+              }}
+            </button>
+          </div>
+        </div>
+      </div>
+    {{/if}}
+  </div>
+</section>

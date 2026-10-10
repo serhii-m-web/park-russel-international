@@ -1,0 +1,100 @@
+<section
+  class="
+    section-values-hero
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if valuesHero.id}}
+    id="{{ valuesHero.id }}"
+  {{/if}}
+  {{#if valuesHero.title}}
+    aria-labelledby="{{#if valuesHero.id}}{{ valuesHero.id }}{{else}}section-values-hero{{/if}}-title"
+  {{else}}
+    aria-label="Values, Vision & Approach"
+  {{/if}}
+>
+  <div class="container">
+    {{#if valuesHero.breadcrumb.length}}
+      <nav class="section-values-hero__breadcrumb" aria-label="Breadcrumb">
+        <ol class="section-values-hero__breadcrumb-list">
+          {{#each valuesHero.breadcrumb}}
+            <li class="section-values-hero__breadcrumb-item">
+              {{#if href}}
+                <a class="section-values-hero__breadcrumb-link" href="{{ href }}">
+                  {{ label }}
+                </a>
+              {{else}}
+                <span class="section-values-hero__breadcrumb-current" aria-current="page">
+                  {{ label }}
+                </span>
+              {{/if}}
+            </li>
+          {{/each}}
+        </ol>
+      </nav>
+    {{/if}}
+
+    <div class="section-values-hero__card">
+      {{#if valuesHero.imageBg}}
+        <div class="section-values-hero__bg" aria-hidden="true">
+          {{picture
+            valuesHero.imageBg
+            alt=""
+            class="section-values-hero__bg-image"
+            width="1376"
+            height="522"
+            loading=valuesHero.imageLoading
+          }}
+        </div>
+      {{/if}}
+
+      <div class="section-values-hero__inner">
+        {{#if valuesHero.label}}
+          <span class="section-values-hero__label">{{ valuesHero.label }}</span>
+        {{/if}}
+
+        {{#if valuesHero.title}}
+          <h1
+            id="{{#if valuesHero.id}}{{ valuesHero.id }}{{else}}section-values-hero{{/if}}-title"
+            class="section-values-hero__title"
+          >
+            {{{ valuesHero.title }}}
+          </h1>
+        {{/if}}
+
+        {{#if valuesHero.lead}}
+          <p class="section-values-hero__lead">{{{ valuesHero.lead }}}</p>
+        {{/if}}
+
+        {{#if valuesHero.body}}
+          <p class="section-values-hero__body">{{{ valuesHero.body }}}</p>
+        {{/if}}
+      </div>
+    </div>
+
+    <div class="section-values-hero__panel">
+      {{#if valuesHero.principles.length}}
+        <ul class="section-values-hero__principles">
+          {{#each valuesHero.principles}}
+            <li class="section-values-hero__principle">
+              {{#if icon}}
+                <span class="section-values-hero__principle-icon" aria-hidden="true">
+                  <img src="{{ icon }}" alt="" width="34" height="34" decoding="async" />
+                </span>
+              {{/if}}
+              <p class="section-values-hero__principle-text">{{{ text }}}</p>
+            </li>
+          {{/each}}
+        </ul>
+      {{/if}}
+
+      {{#if valuesHero.statement}}
+        <div class="section-values-hero__statement">
+          <span class="section-values-hero__statement-rule" aria-hidden="true"></span>
+          <p class="section-values-hero__statement-text">{{{ valuesHero.statement }}}</p>
+        </div>
+      {{/if}}
+    </div>
+  </div>
+</section>
