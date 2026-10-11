@@ -5,11 +5,6 @@
   },
   "iaHero": {
     "id": "insight-article-hero",
-    "breadcrumb": [
-      { "label": "Home", "href": "index.html" },
-      { "label": "Insights", "href": "insights.html" },
-      { "label": "International Financial Reporting Standards" }
-    ],
     "label": "Insights",
     "imageBg": "/images/insight-article/hero-bg.jpg",
     "imageLoading": "eager",

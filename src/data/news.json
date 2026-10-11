@@ -5,10 +5,6 @@
   },
   "insightsHero": {
     "id": "news-hero",
-    "breadcrumb": [
-      { "label": "Home", "href": "index.html" },
-      { "label": "News" }
-    ],
     "imageBg": "/images/news-page/hero-bg.jpg",
     "imageLoading": "eager",
     "title": "News"

@@ -20,11 +20,16 @@
   <div class="container">
     <div class="section-ia-body__layout">
       {{#if iaBody.nav}}
-        <aside class="section-ia-body__sidebar" aria-label="{{ iaBody.nav.title }}">
+        <aside
+          class="section-ia-body__sidebar"
+          aria-label="{{ iaBody.nav.title }}"
+        >
           <div class="section-ia-body__sidebar-header">
             <span class="section-ia-body__rule" aria-hidden="true"></span>
             {{#if iaBody.nav.title}}
-              <p class="section-ia-body__sidebar-title">{{ iaBody.nav.title }}</p>
+              <p class="section-ia-body__sidebar-title">
+                {{ iaBody.nav.title }}
+              </p>
             {{/if}}
           </div>
 
@@ -56,7 +61,12 @@
                       {{/if}}
                     >
                       <span>{{ label }}</span>
-                      {{> icon name="chevron" width="18" height="18" class="section-ia-body__nav-chevron"}}
+                      {{> icon
+                        name="chevron"
+                        width="18"
+                        height="18"
+                        class="section-ia-body__nav-chevron"
+                      }}
                     </a>
 
                     {{#if children.length}}
@@ -80,7 +90,12 @@
                               {{/if}}
                             >
                               <span>{{ label }}</span>
-                              {{> icon name="chevron" width="18" height="18" class="section-ia-body__nav-chevron"}}
+                              {{> icon
+                                name="chevron"
+                                width="18"
+                                height="18"
+                                class="section-ia-body__nav-chevron"
+                              }}
                             </a>
                           </li>
                         {{/each}}
@@ -102,7 +117,11 @@
               data-ia-publications-empty
               hidden
             >
-              {{#if emptyLabel}}{{ emptyLabel }}{{else}}No publications in this category yet.{{/if}}
+              {{#if emptyLabel}}
+                {{ emptyLabel }}
+              {{else}}
+                No publications in this category yet.
+              {{/if}}
             </p>
 
             <div
@@ -122,19 +141,36 @@
                         data-ia-publications-category="{{ category }}"
                       {{/if}}
                     >
-                      <div class="section-ia-body__pub-cover" aria-hidden="true">
+                      <div class="section-ia-body__pub-cover" aria-hidden="true"
+                      >
                         <span class="section-ia-body__pub-doc">
-                          {{> icon name="pdf" width="44" height="44"}}
+                          {{> icon
+                            name="pdf"
+                            width="44"
+                            height="44"
+                          }}
                         </span>
                       </div>
 
                       <div class="section-ia-body__pub-content">
-                        <span class="section-ia-body__pub-accent" aria-hidden="true"></span>
+                        <span
+                          class="section-ia-body__pub-accent"
+                          aria-hidden="true"
+                        ></span>
                         {{#if title}}
-                          <h2 class="section-ia-body__pub-title">{{{ title }}}</h2>
+                          <h2 class="section-ia-body__pub-title">
+                            {{{ title }}}
+                          </h2>
                         {{/if}}
-                        <a class="section-ia-body__pub-download" href="{{ href }}">
-                          {{> icon name="download" width="18" height="18"}}
+                        <a
+                          class="section-ia-body__pub-download"
+                          href="{{ href }}"
+                        >
+                          {{> icon
+                            name="download"
+                            width="18"
+                            height="18"
+                          }}
                           <span>{{ ../downloadLabel }}</span>
                         </a>
                       </div>
@@ -200,22 +236,32 @@
           {{/if}}
 
           {{#if iaBody.article.lead}}
-            <p class="section-ia-body__lead">{{{ iaBody.article.lead }}}</p>
+            <p class="section-ia-body__lead">
+              {{{ iaBody.article.lead }}}
+            </p>
           {{/if}}
 
           {{#if iaBody.article.body}}
-            <p class="section-ia-body__text">{{{ iaBody.article.body }}}</p>
+            <p class="section-ia-body__text">
+              {{{ iaBody.article.body }}}
+            </p>
           {{/if}}
 
           {{#if iaBody.article.quote}}
             <blockquote class="section-ia-body__quote">
               {{#if iaBody.article.quote.icon}}
                 <span class="section-ia-body__quote-icon" aria-hidden="true">
-                  {{> icon name="quote" width="34" height="34"}}
+                  {{> icon
+                    name="quote"
+                    width="34"
+                    height="34"
+                  }}
                 </span>
               {{/if}}
               {{#if iaBody.article.quote.text}}
-                <p class="section-ia-body__quote-text">{{{ iaBody.article.quote.text }}}</p>
+                <p class="section-ia-body__quote-text">
+                  {{{ iaBody.article.quote.text }}}
+                </p>
               {{/if}}
             </blockquote>
           {{/if}}

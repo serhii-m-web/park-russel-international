@@ -5,10 +5,6 @@
   },
   "boardHero": {
     "id": "board-hero",
-    "breadcrumb": [
-      { "label": "Home", "href": "index.html" },
-      { "label": "Board of Members" }
-    ],
     "label": "Board of Members",
     "imageBg": "/images/board/hero-bg.jpg",
     "imageLoading": "eager",

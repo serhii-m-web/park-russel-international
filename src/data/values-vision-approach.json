@@ -5,10 +5,6 @@
   },
   "valuesHero": {
     "id": "values-hero",
-    "breadcrumb": [
-      { "label": "Home", "href": "index.html" },
-      { "label": "Values, Vision & Approach" }
-    ],
     "label": "Values, Vision & Approach",
     "imageBg": "/images/values/hero-bg.jpg",
     "imageLoading": "eager",

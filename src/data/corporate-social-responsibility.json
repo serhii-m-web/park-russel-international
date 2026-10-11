@@ -5,10 +5,6 @@
   },
   "csrHero": {
     "id": "csr-hero",
-    "breadcrumb": [
-      { "label": "Home", "href": "index.html" },
-      { "label": "Corporate Social Responsibility" }
-    ],
     "label": "Corporate Social Responsibility",
     "imageBg": "/images/csr/hero-bg.jpg",
     "imageLoading": "eager",

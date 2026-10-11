@@ -8,49 +8,6 @@
     padding: 16px 0;
   }
 
-  &__breadcrumb {
-    @include adaptive-value('margin-bottom', 20, 16, 1);
-  }
-
-  &__breadcrumb-list {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 8px;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-
-  &__breadcrumb-item {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    color: $color-text-muted;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: calc(20 / 14);
-
-    &:not(:last-child)::after {
-      content: '/';
-      color: $color-text-muted;
-    }
-  }
-
-  &__breadcrumb-link {
-    color: $color-text-muted;
-    text-decoration: none;
-    transition: color 0.2s ease;
-
-    &:hover {
-      color: $color-dark-blue;
-    }
-  }
-
-  &__breadcrumb-current {
-    color: $color-dark-blue;
-  }
-
   &__card {
     position: relative;
     overflow: hidden;

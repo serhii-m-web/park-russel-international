@@ -15,26 +15,6 @@
   {{/if}}
 >
   <div class="container">
-    {{#if joinHero.breadcrumb.length}}
-      <nav class="section-join-hero__breadcrumb" aria-label="Breadcrumb">
-        <ol class="section-join-hero__breadcrumb-list">
-          {{#each joinHero.breadcrumb}}
-            <li class="section-join-hero__breadcrumb-item">
-              {{#if href}}
-                <a class="section-join-hero__breadcrumb-link" href="{{ href }}">
-                  {{ label }}
-                </a>
-              {{else}}
-                <span class="section-join-hero__breadcrumb-current" aria-current="page">
-                  {{ label }}
-                </span>
-              {{/if}}
-            </li>
-          {{/each}}
-        </ol>
-      </nav>
-    {{/if}}
-
     <div class="section-join-hero__card">
       {{#if joinHero.imageBg}}
         <div class="section-join-hero__bg" aria-hidden="true">

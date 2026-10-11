@@ -5,10 +5,6 @@
   },
   "envHero": {
     "id": "business-environment-hero",
-    "breadcrumb": [
-      { "label": "Home", "href": "index.html" },
-      { "label": "Business Environment" }
-    ],
     "label": "BUSINESS ENVIRONMENT",
     "imageBg": "/images/business-environment/hero-bg.jpg",
     "imageLoading": "eager",

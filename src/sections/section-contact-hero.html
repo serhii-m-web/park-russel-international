@@ -15,26 +15,6 @@
   {{/if}}
 >
   <div class="container">
-    {{#if contactHero.breadcrumb.length}}
-      <nav class="section-contact-hero__breadcrumb" aria-label="Breadcrumb">
-        <ol class="section-contact-hero__breadcrumb-list">
-          {{#each contactHero.breadcrumb}}
-            <li class="section-contact-hero__breadcrumb-item">
-              {{#if href}}
-                <a class="section-contact-hero__breadcrumb-link" href="{{ href }}">
-                  {{ label }}
-                </a>
-              {{else}}
-                <span class="section-contact-hero__breadcrumb-current" aria-current="page">
-                  {{ label }}
-                </span>
-              {{/if}}
-            </li>
-          {{/each}}
-        </ol>
-      </nav>
-    {{/if}}
-
     <div class="section-contact-hero__card">
       {{#if contactHero.imageBg}}
         <div class="section-contact-hero__bg" aria-hidden="true">

@@ -5,11 +5,6 @@
   },
   "iaHero": {
     "id": "publications-hero",
-    "breadcrumb": [
-      { "label": "Home", "href": "index.html" },
-      { "label": "Insights", "href": "insights.html" },
-      { "label": "Publications" }
-    ],
     "label": "Insights",
     "imageBg": "/images/publications-page/hero-bg.jpg",
     "imageLoading": "eager",

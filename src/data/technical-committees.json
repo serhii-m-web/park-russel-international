@@ -5,10 +5,6 @@
   },
   "techHero": {
     "id": "tech-hero",
-    "breadcrumb": [
-      { "label": "Home", "href": "index.html" },
-      { "label": "Technical Committees" }
-    ],
     "label": "TECHNICAL COMMITTEES",
     "imageBg": "/images/tech-committees/hero-bg.jpg",
     "imageLoading": "eager",

@@ -15,26 +15,6 @@
   {{/if}}
 >
   <div class="container">
-    {{#if iaHero.breadcrumb.length}}
-      <nav class="section-ia-hero__breadcrumb" aria-label="Breadcrumb">
-        <ol class="section-ia-hero__breadcrumb-list">
-          {{#each iaHero.breadcrumb}}
-            <li class="section-ia-hero__breadcrumb-item">
-              {{#if href}}
-                <a class="section-ia-hero__breadcrumb-link" href="{{ href }}">
-                  {{ label }}
-                </a>
-              {{else}}
-                <span class="section-ia-hero__breadcrumb-current" aria-current="page">
-                  {{ label }}
-                </span>
-              {{/if}}
-            </li>
-          {{/each}}
-        </ol>
-      </nav>
-    {{/if}}
-
     <div class="section-ia-hero__card">
       {{#if iaHero.imageBg}}
         <div class="section-ia-hero__bg" aria-hidden="true">

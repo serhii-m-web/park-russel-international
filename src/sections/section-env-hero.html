@@ -15,26 +15,6 @@
   {{/if}}
 >
   <div class="container">
-    {{#if envHero.breadcrumb.length}}
-      <nav class="section-env-hero__breadcrumb" aria-label="Breadcrumb">
-        <ol class="section-env-hero__breadcrumb-list">
-          {{#each envHero.breadcrumb}}
-            <li class="section-env-hero__breadcrumb-item">
-              {{#if href}}
-                <a class="section-env-hero__breadcrumb-link" href="{{ href }}">
-                  {{ label }}
-                </a>
-              {{else}}
-                <span class="section-env-hero__breadcrumb-current" aria-current="page">
-                  {{ label }}
-                </span>
-              {{/if}}
-            </li>
-          {{/each}}
-        </ol>
-      </nav>
-    {{/if}}
-
     <div class="section-env-hero__card">
       {{#if envHero.imageBg}}
         <div class="section-env-hero__bg" aria-hidden="true">

@@ -6,10 +6,6 @@
   "auHero": {
     "id": "au-hero",
     "ariaLabel": "About Parker Russell International",
-    "breadcrumb": [
-      { "label": "Home", "href": "index.html" },
-      { "label": "About Us" }
-    ],
     "label": "About Parker Russell International",
     "imageBg": "/images/about-us/hero-bg.jpg",
     "imageLoading": "eager",

@@ -15,26 +15,6 @@
   {{/if}}
 >
   <div class="container">
-    {{#if techHero.breadcrumb.length}}
-      <nav class="section-tech-hero__breadcrumb" aria-label="Breadcrumb">
-        <ol class="section-tech-hero__breadcrumb-list">
-          {{#each techHero.breadcrumb}}
-            <li class="section-tech-hero__breadcrumb-item">
-              {{#if href}}
-                <a class="section-tech-hero__breadcrumb-link" href="{{ href }}">
-                  {{ label }}
-                </a>
-              {{else}}
-                <span class="section-tech-hero__breadcrumb-current" aria-current="page">
-                  {{ label }}
-                </span>
-              {{/if}}
-            </li>
-          {{/each}}
-        </ol>
-      </nav>
-    {{/if}}
-
     <div class="section-tech-hero__card">
       {{#if techHero.imageBg}}
         <div class="section-tech-hero__bg" aria-hidden="true">

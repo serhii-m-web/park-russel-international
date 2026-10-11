@@ -6,50 +6,6 @@ $csr-principle-muted: #8fa0b8;
   padding: 24px 0;
   background-color: $color-white;
 
-  &__breadcrumb {
-    @include adaptive-value('margin-bottom', 24, 16, 1);
-  }
-
-  &__breadcrumb-list {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 8px;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-
-  &__breadcrumb-item {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    color: $color-text-muted;
-    font-weight: 500;
-    font-size: 13px;
-    letter-spacing: 0.02em;
-    line-height: calc(20 / 13);
-
-    &:not(:last-child)::after {
-      content: '/';
-      color: $color-line;
-    }
-  }
-
-  &__breadcrumb-link {
-    color: $color-text-muted;
-    text-decoration: none;
-    transition: color 0.2s ease;
-
-    &:hover {
-      color: $color-dark-blue;
-    }
-  }
-
-  &__breadcrumb-current {
-    color: $color-dark-blue;
-  }
-
   &__card {
     position: relative;
     overflow: hidden;

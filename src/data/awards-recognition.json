@@ -6,10 +6,6 @@
   "awHero": {
     "id": "aw-hero",
     "ariaLabel": "Awards and recognition",
-    "breadcrumb": [
-      { "label": "Home", "href": "index.html" },
-      { "label": "Awards & Recognition" }
-    ],
     "label": "Awards & Recognition",
     "imageBg": "/images/awards/hero-bg.jpg",
     "imageLoading": "eager",

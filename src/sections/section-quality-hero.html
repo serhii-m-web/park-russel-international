@@ -15,26 +15,6 @@
   {{/if}}
 >
   <div class="container">
-    {{#if qualityHero.breadcrumb.length}}
-      <nav class="section-quality-hero__breadcrumb" aria-label="Breadcrumb">
-        <ol class="section-quality-hero__breadcrumb-list">
-          {{#each qualityHero.breadcrumb}}
-            <li class="section-quality-hero__breadcrumb-item">
-              {{#if href}}
-                <a class="section-quality-hero__breadcrumb-link" href="{{ href }}">
-                  {{ label }}
-                </a>
-              {{else}}
-                <span class="section-quality-hero__breadcrumb-current" aria-current="page">
-                  {{ label }}
-                </span>
-              {{/if}}
-            </li>
-          {{/each}}
-        </ol>
-      </nav>
-    {{/if}}
-
     <div class="section-quality-hero__card">
       {{#if qualityHero.imageBg}}
         <div class="section-quality-hero__bg" aria-hidden="true">

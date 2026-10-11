@@ -5,10 +5,6 @@
   },
   "qualityHero": {
     "id": "quality-hero",
-    "breadcrumb": [
-      { "label": "Home", "href": "index.html" },
-      { "label": "Our Commitment to Quality" }
-    ],
     "label": "Our Commitment to Quality",
     "imageBg": "/images/quality/hero-bg.jpg",
     "imageLoading": "eager",

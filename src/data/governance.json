@@ -5,10 +5,6 @@
   },
   "govHero": {
     "id": "governance-hero",
-    "breadcrumb": [
-      { "label": "Home", "href": "index.html" },
-      { "label": "Governance" }
-    ],
     "label": "Governance",
     "imageBg": "/images/governance/hero-bg.jpg",
     "imageLoading": "eager",

@@ -5,10 +5,6 @@
   },
   "contactHero": {
     "id": "contact-hero",
-    "breadcrumb": [
-      { "label": "Home", "href": "index.html" },
-      { "label": "Contact us" }
-    ],
     "imageBg": "/images/contact/hero-bg.png",
     "imageLoading": "eager",
     "title": "Contact us",

@@ -5,10 +5,6 @@
   },
   "missionHero": {
     "id": "mission-hero",
-    "breadcrumb": [
-      { "label": "Home", "href": "index.html" },
-      { "label": "Our Mission" }
-    ],
     "label": "Our Mission",
     "imageBg": "/images/mission/hero-bg.png",
     "imageLoading": "eager",

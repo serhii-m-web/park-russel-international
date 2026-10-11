@@ -5,10 +5,6 @@
   },
   "insightsHero": {
     "id": "insights-hero",
-    "breadcrumb": [
-      { "label": "Home", "href": "index.html" },
-      { "label": "Insights" }
-    ],
     "imageBg": "/images/insights/hero-bg.jpg",
     "imageLoading": "eager",
     "title": "Insights"
