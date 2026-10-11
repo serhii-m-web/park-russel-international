@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "title": "Insights | Parker Russell International",
+    "description": "Explore Parker Russell International insights on the business environment, international financial reporting standards, and publications."
+  },
+  "insightsHero": {
+    "id": "insights-hero",
+    "breadcrumb": [
+      { "label": "Home", "href": "index.html" },
+      { "label": "Insights" }
+    ],
+    "imageBg": "/images/insights/hero-bg.jpg",
+    "imageLoading": "eager",
+    "title": "Insights"
+  },
+  "insightsCards": {
+    "id": "insights-topics",
+    "featured": {
+      "title": "Business Environment",
+      "href": "business-environment.html",
+      "image": "/images/insights/business-environment.jpg",
+      "imageAlt": "Modern city skyline against a cloudy sky",
+      "icon": "/icons/insights/icon-query-stats.svg",
+      "cta": "Read More »"
+    },
+    "items": [
+      {
+        "title": "International Financial Reporting Standards",
+        "href": "#",
+        "image": "/images/insights/ifrs.jpg",
+        "imageAlt": "Laptop and financial documents on a desk",
+        "icon": "/icons/insights/icon-account-balance.svg",
+        "cta": "Read More »"
+      },
+      {
+        "title": "Publications",
+        "href": "index.html#publications",
+        "image": "/images/insights/publications.jpg",
+        "imageAlt": "Stack of business strategy books",
+        "icon": "/icons/insights/icon-library-books.svg",
+        "cta": "Read More »"
+      }
+    ]
+  }
+}

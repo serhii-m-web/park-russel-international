@@ -1,0 +1,64 @@
+<section
+  class="
+    section-insights-hero
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if insightsHero.id}}
+    id="{{ insightsHero.id }}"
+  {{/if}}
+  {{#if insightsHero.title}}
+    aria-labelledby="{{#if insightsHero.id}}{{ insightsHero.id }}{{else}}section-insights-hero{{/if}}-title"
+  {{else}}
+    aria-label="Insights"
+  {{/if}}
+>
+  <div class="container">
+    {{#if insightsHero.breadcrumb.length}}
+      <nav class="section-insights-hero__breadcrumb" aria-label="Breadcrumb">
+        <ol class="section-insights-hero__breadcrumb-list">
+          {{#each insightsHero.breadcrumb}}
+            <li class="section-insights-hero__breadcrumb-item">
+              {{#if href}}
+                <a class="section-insights-hero__breadcrumb-link" href="{{ href }}">
+                  {{ label }}
+                </a>
+              {{else}}
+                <span class="section-insights-hero__breadcrumb-current" aria-current="page">
+                  {{ label }}
+                </span>
+              {{/if}}
+            </li>
+          {{/each}}
+        </ol>
+      </nav>
+    {{/if}}
+
+    <div class="section-insights-hero__card">
+      {{#if insightsHero.imageBg}}
+        <div class="section-insights-hero__bg" aria-hidden="true">
+          {{picture
+            insightsHero.imageBg
+            alt=""
+            class="section-insights-hero__bg-image"
+            width="1376"
+            height="328"
+            loading=insightsHero.imageLoading
+          }}
+        </div>
+      {{/if}}
+
+      <div class="section-insights-hero__inner">
+        {{#if insightsHero.title}}
+          <h1
+            id="{{#if insightsHero.id}}{{ insightsHero.id }}{{else}}section-insights-hero{{/if}}-title"
+            class="section-insights-hero__title"
+          >
+            {{{ insightsHero.title }}}
+          </h1>
+        {{/if}}
+      </div>
+    </div>
+  </div>
+</section>

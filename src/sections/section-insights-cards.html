@@ -1,0 +1,107 @@
+<section
+  class="
+    section-insights-cards
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if insightsCards.id}}
+    id="{{ insightsCards.id }}"
+  {{/if}}
+  aria-label="Insight topics"
+>
+  <div class="container">
+    <div class="section-insights-cards__grid">
+      {{#if insightsCards.featured}}
+        <a
+          class="section-insights-cards__card section-insights-cards__card--featured"
+          href="{{ insightsCards.featured.href }}"
+        >
+          {{#if insightsCards.featured.image}}
+            <span class="section-insights-cards__media" aria-hidden="true">
+              {{picture
+                insightsCards.featured.image
+                alt=insightsCards.featured.imageAlt
+                class="section-insights-cards__image"
+                width="760"
+                height="660"
+              }}
+            </span>
+          {{/if}}
+
+          <span class="section-insights-cards__content">
+            {{#if insightsCards.featured.icon}}
+              <span class="section-insights-cards__icon" aria-hidden="true">
+                <img
+                  src="{{ insightsCards.featured.icon }}"
+                  alt=""
+                  width="35"
+                  height="35"
+                  decoding="async"
+                />
+              </span>
+            {{/if}}
+
+            {{#if insightsCards.featured.title}}
+              <span class="section-insights-cards__title">
+                {{{ insightsCards.featured.title }}}
+              </span>
+            {{/if}}
+
+            {{#if insightsCards.featured.cta}}
+              <span class="section-insights-cards__cta">
+                {{ insightsCards.featured.cta }}
+              </span>
+            {{/if}}
+          </span>
+        </a>
+      {{/if}}
+
+      {{#if insightsCards.items.length}}
+        <div class="section-insights-cards__column">
+          {{#each insightsCards.items}}
+            <a class="section-insights-cards__card" href="{{ href }}">
+              {{#if image}}
+                <span class="section-insights-cards__media" aria-hidden="true">
+                  {{picture
+                    image
+                    alt=imageAlt
+                    class="section-insights-cards__image"
+                    width="560"
+                    height="318"
+                  }}
+                </span>
+              {{/if}}
+
+              <span class="section-insights-cards__content">
+                {{#if icon}}
+                  <span class="section-insights-cards__icon" aria-hidden="true">
+                    <img
+                      src="{{ icon }}"
+                      alt=""
+                      width="28"
+                      height="28"
+                      decoding="async"
+                    />
+                  </span>
+                {{/if}}
+
+                {{#if title}}
+                  <span class="section-insights-cards__title">
+                    {{{ title }}}
+                  </span>
+                {{/if}}
+
+                {{#if cta}}
+                  <span class="section-insights-cards__cta">
+                    {{ cta }}
+                  </span>
+                {{/if}}
+              </span>
+            </a>
+          {{/each}}
+        </div>
+      {{/if}}
+    </div>
+  </div>
+</section>
