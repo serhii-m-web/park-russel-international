@@ -1,0 +1,125 @@
+<section
+  class="
+    section-join-final
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if joinFinal.id}}
+    id="{{ joinFinal.id }}"
+  {{/if}}
+  {{#if joinFinal.title}}
+    aria-labelledby="{{#if joinFinal.id}}{{ joinFinal.id }}{{else}}section-join-final{{/if}}-title"
+  {{else}}
+    aria-label="Interested in joining PRI"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-join-final__card">
+      {{#if joinFinal.imageBg}}
+        <div class="section-join-final__bg" aria-hidden="true">
+          {{picture
+            joinFinal.imageBg
+            alt=""
+            class="section-join-final__bg-image"
+            width="1376"
+            height="900"
+          }}
+        </div>
+      {{/if}}
+
+      <div class="section-join-final__inner">
+        {{#if joinFinal.title}}
+          <h2
+            id="{{#if joinFinal.id}}{{ joinFinal.id }}{{else}}section-join-final{{/if}}-title"
+            class="section-join-final__title"
+          >
+            {{{ joinFinal.title }}}
+          </h2>
+        {{/if}}
+
+        {{#if joinFinal.lead}}
+          <p class="section-join-final__lead">{{{ joinFinal.lead }}}</p>
+        {{/if}}
+
+        {{#if joinFinal.body}}
+          <p class="section-join-final__body">{{{ joinFinal.body }}}</p>
+        {{/if}}
+
+        {{#if joinFinal.buttons.length}}
+          <div class="section-join-final__buttons">
+            {{#each joinFinal.buttons}}
+              <a
+                class="section-join-final__button site-button {{ variant }}"
+                href="{{ href }}"
+              >
+                <span>{{ label }}</span>
+                {{#if icon}}
+                  {{> icon
+                    name="arrow-right"
+                    width="16"
+                    height="16"
+                  }}
+                {{/if}}
+                {{#if downloadIcon}}
+                  {{> icon
+                    name="download"
+                    width="18"
+                    height="18"
+                  }}
+                {{/if}}
+              </a>
+            {{/each}}
+          </div>
+        {{/if}}
+
+        {{#if joinFinal.applyCard}}
+          <div class="section-join-final__apply">
+            {{#if joinFinal.applyCard.icon}}
+              <span class="section-join-final__apply-icon" aria-hidden="true">
+                <img
+                  src="{{ joinFinal.applyCard.icon }}"
+                  alt=""
+                  width="30"
+                  height="30"
+                  decoding="async"
+                />
+              </span>
+            {{/if}}
+
+            <div class="section-join-final__apply-main">
+              <div class="section-join-final__apply-copy">
+                {{#if joinFinal.applyCard.title}}
+                  <p class="section-join-final__apply-title">
+                    {{{ joinFinal.applyCard.title }}}
+                  </p>
+                {{/if}}
+                {{#if joinFinal.applyCard.body}}
+                  <p class="section-join-final__apply-body">
+                    {{{ joinFinal.applyCard.body }}}
+                  </p>
+                {{/if}}
+              </div>
+
+              {{#if joinFinal.applyCard.button}}
+                <a
+                  class="section-join-final__apply-button"
+                  href="{{ joinFinal.applyCard.button.href }}"
+                >
+                  <span>{{ joinFinal.applyCard.button.label }}</span>
+                  {{#if joinFinal.applyCard.button.icon}}
+                    {{> icon
+                      name="arrow-right"
+                      width="16"
+                      height="16"
+                    }}
+                  {{/if}}
+                </a>
+              {{/if}}
+            </div>
+          </div>
+        {{/if}}
+      </div>
+    </div>
+  </div>
+</section>

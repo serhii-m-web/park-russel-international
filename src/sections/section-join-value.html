@@ -1,0 +1,121 @@
+<section
+  class="
+    section-join-value
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if joinValue.id}}
+    id="{{ joinValue.id }}"
+  {{/if}}
+  data-about-cards-slider
+  {{#if joinValue.title}}
+    aria-labelledby="{{#if joinValue.id}}{{ joinValue.id }}{{else}}section-join-value{{/if}}-title"
+  {{else}}
+    aria-label="Practical membership value"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-join-value__header">
+      <div class="section-join-value__heading">
+        {{#if joinValue.eyebrow}}
+          <p class="section-join-value__eyebrow">
+            <span class="section-join-value__eyebrow-rule" aria-hidden="true"></span>
+            <span>{{ joinValue.eyebrow }}</span>
+          </p>
+        {{/if}}
+        {{#if joinValue.title}}
+          <h2
+            id="{{#if joinValue.id}}{{ joinValue.id }}{{else}}section-join-value{{/if}}-title"
+            class="section-join-value__title"
+          >
+            {{{ joinValue.title }}}
+          </h2>
+        {{/if}}
+      </div>
+
+      <div class="section-join-value__intro">
+        {{#if joinValue.lead}}
+          <p class="section-join-value__lead">{{{ joinValue.lead }}}</p>
+        {{/if}}
+        {{#if joinValue.body}}
+          <p class="section-join-value__body">{{{ joinValue.body }}}</p>
+        {{/if}}
+        {{#if joinValue.bodySecondary}}
+          <p class="section-join-value__body">{{{ joinValue.bodySecondary }}}</p>
+        {{/if}}
+      </div>
+    </div>
+
+    {{#if joinValue.cards.length}}
+      <div class="section-join-value__grid-wrap">
+        <div
+          class="swiper section-join-value__grid"
+          data-about-cards-slider-el
+          data-about-cards-slider-label="{{#if joinValue.carouselLabel}}{{ joinValue.carouselLabel }}{{else}}Practical membership value{{/if}}"
+        >
+          <div class="swiper-wrapper">
+            {{#each joinValue.cards}}
+              <article class="swiper-slide section-join-value__card">
+                {{#if icon}}
+                  <span class="section-join-value__icon" aria-hidden="true">
+                    <img src="{{ icon }}" alt="" width="28" height="28" decoding="async" />
+                  </span>
+                {{/if}}
+                <div class="section-join-value__card-copy">
+                  {{#if title}}
+                    <h3 class="section-join-value__card-title">{{ title }}</h3>
+                  {{/if}}
+                  {{#if text}}
+                    <p class="section-join-value__text">{{{ text }}}</p>
+                  {{/if}}
+                </div>
+              </article>
+            {{/each}}
+          </div>
+        </div>
+
+        <div
+          class="section-join-value__navigation"
+          role="group"
+          aria-label="Practical value slider controls"
+          data-about-cards-slider-nav
+          inert
+        >
+          <div
+            class="swiper-scrollbar section-join-value__scrollbar"
+            data-about-cards-slider-scrollbar
+            tabindex="0"
+            aria-label="Slider progress"
+          ></div>
+          <div class="section-join-value__nav-buttons">
+            <button
+              class="swiper-button-prev section-join-value__nav-btn prev"
+              type="button"
+              data-about-cards-slider-prev
+              aria-label="Previous slide"
+            >
+              {{> icon
+                name="arrow-right"
+                width="16"
+                height="16"
+              }}
+            </button>
+            <button
+              class="swiper-button-next section-join-value__nav-btn next"
+              type="button"
+              data-about-cards-slider-next
+              aria-label="Next slide"
+            >
+              {{> icon
+                name="arrow-right"
+                width="16"
+                height="16"
+              }}
+            </button>
+          </div>
+        </div>
+      </div>
+    {{/if}}
+  </div>
+</section>

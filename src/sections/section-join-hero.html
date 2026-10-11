@@ -1,0 +1,139 @@
+<section
+  class="
+    section-join-hero
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if joinHero.id}}
+    id="{{ joinHero.id }}"
+  {{/if}}
+  {{#if joinHero.title}}
+    aria-labelledby="{{#if joinHero.id}}{{ joinHero.id }}{{else}}section-join-hero{{/if}}-title"
+  {{else}}
+    aria-label="Join Parker Russell International"
+  {{/if}}
+>
+  <div class="container">
+    {{#if joinHero.breadcrumb.length}}
+      <nav class="section-join-hero__breadcrumb" aria-label="Breadcrumb">
+        <ol class="section-join-hero__breadcrumb-list">
+          {{#each joinHero.breadcrumb}}
+            <li class="section-join-hero__breadcrumb-item">
+              {{#if href}}
+                <a class="section-join-hero__breadcrumb-link" href="{{ href }}">
+                  {{ label }}
+                </a>
+              {{else}}
+                <span class="section-join-hero__breadcrumb-current" aria-current="page">
+                  {{ label }}
+                </span>
+              {{/if}}
+            </li>
+          {{/each}}
+        </ol>
+      </nav>
+    {{/if}}
+
+    <div class="section-join-hero__card">
+      {{#if joinHero.imageBg}}
+        <div class="section-join-hero__bg" aria-hidden="true">
+          {{picture
+            joinHero.imageBg
+            alt=""
+            class="section-join-hero__bg-image"
+            width="1376"
+            height="624"
+            loading=joinHero.imageLoading
+          }}
+        </div>
+      {{/if}}
+
+      <div class="section-join-hero__inner">
+        {{#if joinHero.label}}
+          <span class="section-join-hero__label">{{ joinHero.label }}</span>
+        {{/if}}
+
+        {{#if joinHero.title}}
+          <h1
+            id="{{#if joinHero.id}}{{ joinHero.id }}{{else}}section-join-hero{{/if}}-title"
+            class="section-join-hero__title"
+          >
+            {{{ joinHero.title }}}
+          </h1>
+        {{/if}}
+
+        {{#if joinHero.lead}}
+          <p class="section-join-hero__lead">{{{ joinHero.lead }}}</p>
+        {{/if}}
+
+        {{#if joinHero.buttons.length}}
+          <div class="section-join-hero__buttons">
+            {{#each joinHero.buttons}}
+              <a
+                class="section-join-hero__button site-button {{ variant }}"
+                href="{{ href }}"
+              >
+                <span>{{ label }}</span>
+                {{#if icon}}
+                  {{> icon
+                    name="arrow-right"
+                    width="16"
+                    height="16"
+                  }}
+                {{/if}}
+              </a>
+            {{/each}}
+          </div>
+        {{/if}}
+      </div>
+    </div>
+
+    {{#if joinHero.independence}}
+      <div class="section-join-hero__panel">
+        <div class="section-join-hero__panel-top">
+          <div class="section-join-hero__panel-heading">
+            {{#if joinHero.independence.icon}}
+              <span class="section-join-hero__panel-icon" aria-hidden="true">
+                <img
+                  src="{{ joinHero.independence.icon }}"
+                  alt=""
+                  width="39"
+                  height="39"
+                  decoding="async"
+                />
+              </span>
+            {{/if}}
+            {{#if joinHero.independence.title}}
+              <p class="section-join-hero__panel-title">
+                {{{ joinHero.independence.title }}}
+              </p>
+            {{/if}}
+          </div>
+
+          <div class="section-join-hero__panel-copy">
+            {{#if joinHero.independence.lead}}
+              <p class="section-join-hero__panel-lead">
+                {{{ joinHero.independence.lead }}}
+              </p>
+            {{/if}}
+            {{#if joinHero.independence.body}}
+              <p class="section-join-hero__panel-body">
+                {{{ joinHero.independence.body }}}
+              </p>
+            {{/if}}
+          </div>
+        </div>
+
+        {{#if joinHero.independence.statement}}
+          <div class="section-join-hero__statement">
+            <span class="section-join-hero__statement-rule" aria-hidden="true"></span>
+            <p class="section-join-hero__statement-text">
+              {{{ joinHero.independence.statement }}}
+            </p>
+          </div>
+        {{/if}}
+      </div>
+    {{/if}}
+  </div>
+</section>

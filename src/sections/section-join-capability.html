@@ -1,0 +1,78 @@
+<section
+  class="
+    section-join-capability
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if joinCapability.id}}
+    id="{{ joinCapability.id }}"
+  {{/if}}
+  {{#if joinCapability.title}}
+    aria-labelledby="{{#if joinCapability.id}}{{ joinCapability.id }}{{else}}section-join-capability{{/if}}-title"
+  {{else}}
+    aria-label="Greater international capability"
+  {{/if}}
+>
+  {{#if joinCapability.imageBg}}
+    <div class="section-join-capability__bg" aria-hidden="true">
+      {{picture
+        joinCapability.imageBg
+        alt=""
+        class="section-join-capability__bg-image"
+        width="1920"
+        height="900"
+      }}
+    </div>
+  {{/if}}
+
+  <div class="container">
+    <div class="section-join-capability__layout">
+      <div class="section-join-capability__copy">
+        <span class="section-join-capability__rule" aria-hidden="true"></span>
+        {{#if joinCapability.title}}
+          <h2
+            id="{{#if joinCapability.id}}{{ joinCapability.id }}{{else}}section-join-capability{{/if}}-title"
+            class="section-join-capability__title"
+          >
+            {{{ joinCapability.title }}}
+          </h2>
+        {{/if}}
+        {{#if joinCapability.lead}}
+          <p class="section-join-capability__lead">{{{ joinCapability.lead }}}</p>
+        {{/if}}
+        {{#if joinCapability.emphasis}}
+          <p class="section-join-capability__emphasis">{{{ joinCapability.emphasis }}}</p>
+        {{/if}}
+      </div>
+
+      {{#if joinCapability.benefits.length}}
+        <ul class="section-join-capability__benefits">
+          {{#each joinCapability.benefits}}
+            <li class="section-join-capability__benefit">
+              <span class="section-join-capability__check" aria-hidden="true">
+                <img
+                  src="/icons/join/icon-check-circle.svg"
+                  alt=""
+                  width="30"
+                  height="30"
+                  decoding="async"
+                />
+              </span>
+              <span class="section-join-capability__benefit-text">{{ this }}</span>
+            </li>
+          {{/each}}
+        </ul>
+      {{/if}}
+    </div>
+
+    {{#if joinCapability.statement}}
+      <div class="section-join-capability__statement">
+        <span class="section-join-capability__statement-rule" aria-hidden="true"></span>
+        <p class="section-join-capability__statement-text">
+          {{{ joinCapability.statement }}}
+        </p>
+      </div>
+    {{/if}}
+  </div>
+</section>

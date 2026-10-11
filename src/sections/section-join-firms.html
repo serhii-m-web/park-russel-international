@@ -1,0 +1,79 @@
+<section
+  class="
+    section-join-firms
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if joinFirms.id}}
+    id="{{ joinFirms.id }}"
+  {{/if}}
+  {{#if joinFirms.title}}
+    aria-labelledby="{{#if joinFirms.id}}{{ joinFirms.id }}{{else}}section-join-firms{{/if}}-title"
+  {{else}}
+    aria-label="Built for ambitious independent firms"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-join-firms__layout">
+      <div class="section-join-firms__intro">
+        <span class="section-join-firms__rule" aria-hidden="true"></span>
+        {{#if joinFirms.title}}
+          <h2
+            id="{{#if joinFirms.id}}{{ joinFirms.id }}{{else}}section-join-firms{{/if}}-title"
+            class="section-join-firms__title"
+          >
+            {{{ joinFirms.title }}}
+          </h2>
+        {{/if}}
+        {{#if joinFirms.lead}}
+          <p class="section-join-firms__lead">{{{ joinFirms.lead }}}</p>
+        {{/if}}
+        {{#if joinFirms.image}}
+          <div class="section-join-firms__media">
+            {{picture
+              joinFirms.image
+              alt=joinFirms.imageAlt
+              class="section-join-firms__image"
+              width="640"
+              height="480"
+            }}
+          </div>
+        {{/if}}
+      </div>
+
+      {{#if joinFirms.criteria.length}}
+        <div class="section-join-firms__criteria">
+          <div class="section-join-firms__criteria-label">
+            <span class="section-join-firms__criteria-rule" aria-hidden="true"></span>
+            {{#if joinFirms.criteriaLabel}}
+              <p class="section-join-firms__criteria-heading">
+                {{{ joinFirms.criteriaLabel }}}
+              </p>
+            {{/if}}
+          </div>
+
+          <ul class="section-join-firms__criteria-list">
+            {{#each joinFirms.criteria}}
+              <li class="section-join-firms__criterion">
+                {{#if icon}}
+                  <span class="section-join-firms__criterion-icon" aria-hidden="true">
+                    <img src="{{ icon }}" alt="" width="26" height="26" decoding="async" />
+                  </span>
+                {{/if}}
+                <div class="section-join-firms__criterion-copy">
+                  {{#if title}}
+                    <h3 class="section-join-firms__criterion-title">{{ title }}</h3>
+                  {{/if}}
+                  {{#if text}}
+                    <p class="section-join-firms__criterion-text">{{{ text }}}</p>
+                  {{/if}}
+                </div>
+              </li>
+            {{/each}}
+          </ul>
+        </div>
+      {{/if}}
+    </div>
+  </div>
+</section>

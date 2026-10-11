@@ -1,0 +1,100 @@
+<section
+  class="
+    section-join-why
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if joinWhy.id}}
+    id="{{ joinWhy.id }}"
+  {{/if}}
+  data-about-cards-slider
+  {{#if joinWhy.title}}
+    aria-labelledby="{{#if joinWhy.id}}{{ joinWhy.id }}{{else}}section-join-why{{/if}}-title"
+  {{else}}
+    aria-label="Why join Parker Russell International"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-join-why__header">
+      <span class="section-join-why__rule" aria-hidden="true"></span>
+      {{#if joinWhy.title}}
+        <h2
+          id="{{#if joinWhy.id}}{{ joinWhy.id }}{{else}}section-join-why{{/if}}-title"
+          class="section-join-why__title"
+        >
+          {{{ joinWhy.title }}}
+        </h2>
+      {{/if}}
+    </div>
+
+    {{#if joinWhy.cards.length}}
+      <div class="section-join-why__grid-wrap">
+        <div
+          class="swiper section-join-why__grid"
+          data-about-cards-slider-el
+          data-about-cards-slider-label="{{#if joinWhy.carouselLabel}}{{ joinWhy.carouselLabel }}{{else}}Why join benefits{{/if}}"
+        >
+          <div class="swiper-wrapper">
+            {{#each joinWhy.cards}}
+              <article class="swiper-slide section-join-why__card">
+                {{#if icon}}
+                  <span class="section-join-why__icon" aria-hidden="true">
+                    <img src="{{ icon }}" alt="" width="32" height="32" decoding="async" />
+                  </span>
+                {{/if}}
+                {{#if title}}
+                  <h3 class="section-join-why__card-title">{{ title }}</h3>
+                {{/if}}
+                {{#if text}}
+                  <p class="section-join-why__text">{{{ text }}}</p>
+                {{/if}}
+              </article>
+            {{/each}}
+          </div>
+        </div>
+
+        <div
+          class="section-join-why__navigation"
+          role="group"
+          aria-label="Why join slider controls"
+          data-about-cards-slider-nav
+          inert
+        >
+          <div
+            class="swiper-scrollbar section-join-why__scrollbar"
+            data-about-cards-slider-scrollbar
+            tabindex="0"
+            aria-label="Slider progress"
+          ></div>
+          <div class="section-join-why__nav-buttons">
+            <button
+              class="swiper-button-prev section-join-why__nav-btn prev"
+              type="button"
+              data-about-cards-slider-prev
+              aria-label="Previous slide"
+            >
+              {{> icon
+                name="arrow-right"
+                width="16"
+                height="16"
+              }}
+            </button>
+            <button
+              class="swiper-button-next section-join-why__nav-btn next"
+              type="button"
+              data-about-cards-slider-next
+              aria-label="Next slide"
+            >
+              {{> icon
+                name="arrow-right"
+                width="16"
+                height="16"
+              }}
+            </button>
+          </div>
+        </div>
+      </div>
+    {{/if}}
+  </div>
+</section>

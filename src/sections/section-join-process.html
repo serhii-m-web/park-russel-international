@@ -1,0 +1,83 @@
+<section
+  class="
+    section-join-process
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if joinProcess.id}}
+    id="{{ joinProcess.id }}"
+  {{/if}}
+  {{#if joinProcess.title}}
+    aria-labelledby="{{#if joinProcess.id}}{{ joinProcess.id }}{{else}}section-join-process{{/if}}-title"
+  {{else}}
+    aria-label="The membership process"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-join-process__banner">
+      {{#if joinProcess.bannerImage}}
+        <div class="section-join-process__banner-bg" aria-hidden="true">
+          {{picture
+            joinProcess.bannerImage
+            alt=""
+            class="section-join-process__banner-image"
+            width="1312"
+            height="320"
+          }}
+        </div>
+      {{/if}}
+      <div class="section-join-process__banner-inner">
+        <span class="section-join-process__rule" aria-hidden="true"></span>
+        {{#if joinProcess.title}}
+          <h2
+            id="{{#if joinProcess.id}}{{ joinProcess.id }}{{else}}section-join-process{{/if}}-title"
+            class="section-join-process__title"
+          >
+            {{{ joinProcess.title }}}
+          </h2>
+        {{/if}}
+      </div>
+    </div>
+
+    {{#if joinProcess.steps.length}}
+      <ol class="section-join-process__steps">
+        {{#each joinProcess.steps}}
+          <li class="section-join-process__step">
+            <div class="section-join-process__track">
+              {{#if icon}}
+                <span class="section-join-process__badge" aria-hidden="true">
+                  <img src="{{ icon }}" alt="" width="30" height="30" decoding="async" />
+                </span>
+              {{/if}}
+              <span
+                class="
+                  section-join-process__line
+                  {{#if trackEnd}}
+                    section-join-process__line--{{ trackEnd }}
+                  {{/if}}
+                "
+                aria-hidden="true"
+              ></span>
+            </div>
+
+            <article class="section-join-process__card">
+              <span class="section-join-process__accent" aria-hidden="true"></span>
+              {{#if title}}
+                <h3 class="section-join-process__step-title">
+                  {{#if number}}
+                    <span class="section-join-process__step-number">{{ number }} —</span>
+                  {{/if}}
+                  <span>{{ title }}</span>
+                </h3>
+              {{/if}}
+              {{#if text}}
+                <p class="section-join-process__step-text">{{{ text }}}</p>
+              {{/if}}
+            </article>
+          </li>
+        {{/each}}
+      </ol>
+    {{/if}}
+  </div>
+</section>

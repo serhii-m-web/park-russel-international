@@ -1,0 +1,257 @@
+{
+  "meta": {
+    "title": "Join Parker Russell International | Parker Russell International",
+    "description": "Join an international network built for independent professional services firms that want global capability while retaining local leadership and identity."
+  },
+  "joinHero": {
+    "id": "join-hero",
+    "breadcrumb": [
+      { "label": "Home", "href": "index.html" },
+      { "label": "Join Parker Russell International" }
+    ],
+    "label": "Join Parker Russell International",
+    "imageBg": "/images/join/hero-bg.png",
+    "imageLoading": "eager",
+    "title": "Global Reach. Local Strength. Shared Ambition.",
+    "lead": "Join an international network built for independent professional services firms that want to extend their global capabilities, strengthen their market position and create greater opportunities for their clients — while retaining their own leadership, identity and local expertise.",
+    "buttons": [
+      {
+        "label": "Become a Member Firm",
+        "href": "#join-final",
+        "variant": "primary",
+        "icon": true
+      },
+      {
+        "label": "Speak to Our Membership Team",
+        "href": "index.html",
+        "variant": "secondary",
+        "icon": true
+      }
+    ],
+    "independence": {
+      "icon": "/icons/join/icon-diversity-3.svg",
+      "title": "Independence, Strengthened by International Capability",
+      "lead": "Parker Russell International brings together independent accounting, audit, tax and advisory firms with a shared commitment to professional quality, technical excellence and international collaboration.",
+      "body": "Membership gives firms access to the knowledge, relationships and geographic reach of an international network while preserving the independence and client relationships that have built their success locally.",
+      "statement": "<span class=\"is-muted\">Local expertise. International capability. </span>One connected network."
+    }
+  },
+  "joinWhy": {
+    "id": "why-join",
+    "title": "Why Join Parker Russell International?",
+    "carouselLabel": "Why join Parker Russell International",
+    "cards": [
+      {
+        "icon": "/icons/join/icon-travel-explore.svg",
+        "title": "Extend Your International Reach",
+        "text": "Support clients as they expand, invest and operate across borders through access to trusted member firms in key international markets."
+      },
+      {
+        "icon": "/icons/join/icon-add-business.svg",
+        "title": "Create New Business Opportunities",
+        "text": "Develop relationships across the network, participate in international referrals and collaborate on opportunities that extend beyond individual jurisdictions."
+      },
+      {
+        "icon": "/icons/join/icon-science.svg",
+        "title": "Strengthen Your Technical Capability",
+        "text": "Connect with experienced professionals across audit, accounting, tax, advisory and specialist disciplines, supported by international technical collaboration and knowledge sharing."
+      },
+      {
+        "icon": "/icons/join/icon-trending-up.svg",
+        "title": "Enhance Your Market Position",
+        "text": "Associate your firm with an established international professional services network while continuing to operate as an independent business in your local market."
+      },
+      {
+        "icon": "/icons/join/icon-language.svg",
+        "title": "Support Clients Beyond Borders",
+        "text": "Provide clients with access to international expertise without losing the trusted relationship, responsiveness and local understanding they value from your firm."
+      },
+      {
+        "icon": "/icons/join/icon-diversity-community.svg",
+        "title": "Be Part of an Active Professional Community",
+        "text": "Build relationships with member firms through international forums, regional meetings, technical committees, professional initiatives and ongoing collaboration."
+      }
+    ]
+  },
+  "joinFirms": {
+    "id": "ambitious-firms",
+    "title": "Built for Ambitious Independent Firms",
+    "lead": "Parker Russell International seeks established professional firms that combine strong local market knowledge with high professional standards and an ambition to operate internationally.",
+    "image": "/images/join/ambitious-firms.png",
+    "imageAlt": "Professional team collaborating in a modern office",
+    "criteriaLabel": "We look for firms that demonstrate:",
+    "criteria": [
+      {
+        "icon": "/icons/join/icon-workspace-premium.svg",
+        "title": "Professional Quality",
+        "text": "Strong standards across client service, governance, technical delivery and professional practice."
+      },
+      {
+        "icon": "/icons/join/icon-verified.svg",
+        "title": "Market Credibility",
+        "text": "An established reputation and meaningful presence within their jurisdiction or specialist market."
+      },
+      {
+        "icon": "/icons/join/icon-memory.svg",
+        "title": "Technical Capability",
+        "text": "The expertise and resources required to serve sophisticated domestic and international clients."
+      },
+      {
+        "icon": "/icons/join/icon-handshake.svg",
+        "title": "Collaborative Leadership",
+        "text": "A willingness to contribute knowledge, opportunities and expertise across the wider network."
+      },
+      {
+        "icon": "/icons/join/icon-rocket-launch.svg",
+        "title": "Long-Term Ambition",
+        "text": "A clear commitment to sustainable growth and the continued development of the firm."
+      }
+    ]
+  },
+  "joinValue": {
+    "id": "practical-value",
+    "eyebrow": "More Than International Coverage",
+    "title": "A Network Designed to Create Practical Value",
+    "lead": "International membership should create more than a presence on a map.",
+    "body": "It should help firms serve larger clients, respond to increasingly international business needs, access specialist knowledge and build relationships that lead to meaningful professional opportunities.",
+    "bodySecondary": "Parker Russell International creates the framework for member firms to collaborate across jurisdictions while maintaining the entrepreneurial independence that makes strong local firms successful.",
+    "carouselLabel": "Practical membership value",
+    "cards": [
+      {
+        "icon": "/icons/join/icon-swap-horiz.svg",
+        "title": "International Referrals",
+        "text": "Connect clients with trusted professionals across multiple jurisdictions."
+      },
+      {
+        "icon": "/icons/join/icon-partner-exchange.svg",
+        "title": "Cross-Border Collaboration",
+        "text": "Work alongside member firms on international assignments and multi-country engagements."
+      },
+      {
+        "icon": "/icons/join/icon-forum.svg",
+        "title": "Technical Exchange",
+        "text": "Access the collective expertise and practical experience available throughout the network."
+      },
+      {
+        "icon": "/icons/join/icon-public.svg",
+        "title": "Global Brand Presence",
+        "text": "Strengthen international positioning through association with the Parker Russell network."
+      },
+      {
+        "icon": "/icons/join/icon-school.svg",
+        "title": "Professional Development",
+        "text": "Participate in forums, technical initiatives, committees and knowledge-sharing opportunities."
+      },
+      {
+        "icon": "/icons/join/icon-link.svg",
+        "title": "Strategic Relationships",
+        "text": "Build long-term relationships with firm leaders and professionals across international markets."
+      }
+    ]
+  },
+  "joinQuality": {
+    "id": "quality-objective",
+    "title": "Quality Comes Before Growth",
+    "lead": "The strength of an international network depends on the quality of the firms within it.",
+    "body": "Membership is therefore subject to a structured assessment process designed to understand the applicant firm's professional standards, capabilities, systems and compatibility with the wider Parker Russell International network.",
+    "image": "/images/join/objective.png",
+    "panelIcon": "/icons/join/icon-verified-user.svg",
+    "panelLead": "Our objective is not simply to expand geographic coverage.",
+    "panelTitle": "It is to build a stronger international network through the right firms, in the right markets, with shared professional standards."
+  },
+  "joinProcess": {
+    "id": "membership-process",
+    "bannerImage": "/images/join/process-banner.png",
+    "title": "The Membership Process",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Initial Discussion",
+        "text": "Speak with our international membership team about your firm, market, capabilities and ambitions.",
+        "icon": "/icons/join/icon-forum-outline.svg",
+        "trackEnd": "solid"
+      },
+      {
+        "number": "02",
+        "title": "Initial Application",
+        "text": "Provide key information about your organisation, leadership, services, professional standing and market presence.",
+        "icon": "/icons/join/icon-article.svg",
+        "trackEnd": "solid"
+      },
+      {
+        "number": "03",
+        "title": "Network Review",
+        "text": "The application is reviewed, including consideration of existing network representation and any potential geographical conflicts.",
+        "icon": "/icons/join/icon-travel-explore-outline.svg",
+        "trackEnd": "fade"
+      },
+      {
+        "number": "04",
+        "title": "Quality Review",
+        "text": "Eligible firms proceed through Parker Russell International's quality review process, which considers the firm's professional systems and, where relevant, audit practices.",
+        "icon": "/icons/join/icon-verified-outline.svg",
+        "trackEnd": "solid"
+      },
+      {
+        "number": "05",
+        "title": "Membership Approval",
+        "text": "Following successful completion of the review process and formal approval, the firm is invited to join Parker Russell International.",
+        "icon": "/icons/join/icon-editor-choice.svg",
+        "trackEnd": "solid"
+      },
+      {
+        "number": "06",
+        "title": "Network Integration",
+        "text": "New member firms are introduced into the network and begin developing relationships, collaboration opportunities and international connections across PRI.",
+        "icon": "/icons/join/icon-hub.svg",
+        "trackEnd": "fade"
+      }
+    ]
+  },
+  "joinCapability": {
+    "id": "international-capability",
+    "imageBg": "/images/join/capability-bg.png",
+    "title": "Your Firm. Your Market. Greater International Capability.",
+    "lead": "Joining Parker Russell International does not mean giving up the independence that has made your firm successful.",
+    "emphasis": "It means strengthening it.",
+    "benefits": [
+      "Remain close to your clients.",
+      "Retain your local expertise.",
+      "Build international relationships.",
+      "Access wider capabilities.",
+      "Compete for greater opportunities."
+    ],
+    "statement": "<span class=\"is-muted\">Independent by structure. Connected by expertise. </span>International by capability."
+  },
+  "joinFinal": {
+    "id": "join-final",
+    "imageBg": "/images/join/final-cta-bg.png",
+    "title": "Interested in Joining PRI?",
+    "lead": "If your firm is looking to strengthen its international capabilities and become part of a network of independent professional services firms, we would welcome the opportunity to start a conversation.",
+    "body": "Whether Parker Russell International already has representation in your jurisdiction or is seeking to expand into your market, each potential membership is considered individually.",
+    "buttons": [
+      {
+        "label": "Start Your Membership Enquiry",
+        "href": "index.html",
+        "variant": "primary",
+        "icon": true
+      },
+      {
+        "label": "Download Initial Application Form",
+        "href": "#",
+        "variant": "secondary",
+        "downloadIcon": true
+      }
+    ],
+    "applyCard": {
+      "icon": "/icons/join/icon-article.svg",
+      "title": "Already Ready to Apply?",
+      "body": "Complete the Initial Application Form and submit your firm's details to the Parker Russell International membership team.",
+      "button": {
+        "label": "Apply to Join PRI",
+        "href": "index.html",
+        "icon": true
+      }
+    }
+  }
+}

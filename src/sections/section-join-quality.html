@@ -1,0 +1,76 @@
+<section
+  class="
+    section-join-quality
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if joinQuality.id}}
+    id="{{ joinQuality.id }}"
+  {{/if}}
+  {{#if joinQuality.title}}
+    aria-labelledby="{{#if joinQuality.id}}{{ joinQuality.id }}{{else}}section-join-quality{{/if}}-title"
+  {{else}}
+    aria-label="Quality comes before growth"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-join-quality__layout">
+      <div class="section-join-quality__copy">
+        <span class="section-join-quality__rule" aria-hidden="true"></span>
+        {{#if joinQuality.title}}
+          <h2
+            id="{{#if joinQuality.id}}{{ joinQuality.id }}{{else}}section-join-quality{{/if}}-title"
+            class="section-join-quality__title"
+          >
+            {{{ joinQuality.title }}}
+          </h2>
+        {{/if}}
+        {{#if joinQuality.lead}}
+          <p class="section-join-quality__lead">{{{ joinQuality.lead }}}</p>
+        {{/if}}
+        {{#if joinQuality.body}}
+          <p class="section-join-quality__body">{{{ joinQuality.body }}}</p>
+        {{/if}}
+      </div>
+
+      <div class="section-join-quality__visual">
+        {{#if joinQuality.image}}
+          <div class="section-join-quality__bg" aria-hidden="true">
+            {{picture
+              joinQuality.image
+              alt=""
+              class="section-join-quality__bg-image"
+              width="600"
+              height="560"
+            }}
+          </div>
+        {{/if}}
+
+        <div class="section-join-quality__panel">
+          {{#if joinQuality.panelIcon}}
+            <span class="section-join-quality__panel-icon" aria-hidden="true">
+              <img
+                src="{{ joinQuality.panelIcon }}"
+                alt=""
+                width="28"
+                height="28"
+                decoding="async"
+              />
+            </span>
+          {{/if}}
+          {{#if joinQuality.panelLead}}
+            <p class="section-join-quality__panel-lead">
+              {{{ joinQuality.panelLead }}}
+            </p>
+          {{/if}}
+          {{#if joinQuality.panelTitle}}
+            <p class="section-join-quality__panel-title">
+              {{{ joinQuality.panelTitle }}}
+            </p>
+          {{/if}}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
