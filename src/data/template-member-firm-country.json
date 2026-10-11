@@ -61,7 +61,7 @@
       ],
       "website": {
         "label": "Visit Website",
-        "href": "https://www.kaaudit.bg",
+        "href": "#",
         "icon": "/icons/icon-external.svg"
       }
     }
