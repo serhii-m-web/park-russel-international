@@ -27,11 +27,20 @@
       "items": [
         {
           "label": "Publications",
-          "href": "#",
+          "href": "publications.html",
           "children": [
-            { "label": "Audit", "href": "#" },
-            { "label": "Taxation", "href": "#" },
-            { "label": "Other", "href": "#" }
+            {
+              "label": "Audit",
+              "href": "publications.html?category=audit"
+            },
+            {
+              "label": "Taxation",
+              "href": "publications.html?category=taxation"
+            },
+            {
+              "label": "Other",
+              "href": "publications.html?category=other"
+            }
           ]
         },
         {

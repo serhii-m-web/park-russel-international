@@ -7,6 +7,8 @@ import { initAboutCardsSlider } from './aboutCardsSlider';
 import { initCsrValuesSlider } from './csrValuesSlider';
 import { initMissionFirmsSlider } from './missionFirmsSlider';
 import { initIndustryInsightsSlider } from './industryInsightsSlider';
+import { initIaPublicationsFilter } from './iaPublicationsFilter';
+import { initIaPublicationsSlider } from './iaPublicationsSlider';
 import { initMegaMenu } from './megaMenu';
 import { initMethodologySlider } from './methodologySlider';
 import { initMobileNav } from './mobileNav';
@@ -25,6 +27,8 @@ function init(): void {
   initMobileNav();
   initSectionSlider();
   initPublicationsSlider();
+  initIaPublicationsFilter();
+  initIaPublicationsSlider();
   initCardsContentSlider();
   initRiskPerspectiveSlider();
   initMethodologySlider();

@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "title": "Publications | Parker Russell International",
+    "description": "Download Parker Russell International publications, including budget highlights, IFAC reviews and Doing Business reports."
+  },
+  "iaHero": {
+    "id": "publications-hero",
+    "breadcrumb": [
+      { "label": "Home", "href": "index.html" },
+      { "label": "Insights", "href": "insights.html" },
+      { "label": "Publications" }
+    ],
+    "label": "Insights",
+    "imageBg": "/images/publications-page/hero-bg.jpg",
+    "imageLoading": "eager",
+    "title": "Publications"
+  },
+  "iaBody": {
+    "id": "publications-list",
+    "nav": {
+      "title": "Insights",
+      "items": [
+        {
+          "label": "Publications",
+          "href": "publications.html",
+          "filter": "all",
+          "isActive": true,
+          "children": [
+            {
+              "label": "Audit",
+              "href": "publications.html?category=audit",
+              "filter": "audit"
+            },
+            {
+              "label": "Taxation",
+              "href": "publications.html?category=taxation",
+              "filter": "taxation"
+            },
+            {
+              "label": "Other",
+              "href": "publications.html?category=other",
+              "filter": "other"
+            }
+          ]
+        },
+        {
+          "label": "Factsheets",
+          "href": "#"
+        },
+        {
+          "label": "International Financial Reporting Standards",
+          "href": "insight-article.html"
+        }
+      ]
+    },
+    "publications": {
+      "carouselLabel": "Publications",
+      "downloadLabel": "Download PDF",
+      "downloadIcon": "/icons/publications-page/icon-download.svg",
+      "pdfIcon": "/icons/publications-page/icon-pdf.svg",
+      "emptyLabel": "No publications in this category yet.",
+      "items": [
+        {
+          "title": "Budget Highlights & Comments 2022-23 – PR Pakistan",
+          "href": "#",
+          "category": "taxation"
+        },
+        {
+          "title": "IFAC 2021 Integrated Annual Review",
+          "href": "#",
+          "category": "audit"
+        },
+        {
+          "title": "Doing Business 2020",
+          "href": "#",
+          "category": "other"
+        },
+        {
+          "title": "Doing Business 2017",
+          "href": "#",
+          "category": "other"
+        },
+        {
+          "title": "Doing Business 2016",
+          "href": "#",
+          "category": "other"
+        },
+        {
+          "title": "DB15 – Central America and The Dominican Republic Overview",
+          "href": "#",
+          "category": "audit"
+        }
+      ]
+    }
+  },
+  "iaCta": {
+    "id": "publications-cta",
+    "cards": [
+      {
+        "title": "Get in touch",
+        "text": "For any questions about our services, please get in touch with one of our expert advisors.",
+        "image": "/images/publications-page/cta-contact.jpg",
+        "imageAlt": "Professionals in a meeting",
+        "icon": "/icons/insight-article/icon-forum.svg",
+        "button": {
+          "label": "Contact Us",
+          "href": "contact.html",
+          "variant": "primary",
+          "icon": "/icons/insight-article/icon-arrow.svg"
+        }
+      },
+      {
+        "title": "Our Locations",
+        "text": "View the locations and contact information for <strong>184 international offices</strong>.",
+        "image": "/images/publications-page/cta-locations.jpg",
+        "imageAlt": "Globe showing international reach",
+        "icon": "/icons/insight-article/icon-public-sm.svg",
+        "button": {
+          "label": "View Locations",
+          "href": "contact.html#our-locations",
+          "variant": "ghost",
+          "icon": "/icons/insight-article/icon-arrow-white.svg"
+        }
+      }
+    ]
+  }
+}
