@@ -147,4 +147,15 @@
     line-height: calc(72 / 68);
     @include adaptive-value('font-size', 68, 36, 1);
   }
+
+  &--centered {
+    .section-insights-hero__card {
+      @include adaptive-value('min-height', 362, 220, 1);
+    }
+
+    .section-insights-hero__inner {
+      align-items: center;
+      @include adaptive-value('min-height', 362, 0, 1);
+    }
+  }
 }

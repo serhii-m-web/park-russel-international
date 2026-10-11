@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "title": "News | Parker Russell International",
+    "description": "Latest news and updates from Parker Russell International on regulation, standards, ESG and UK business."
+  },
+  "insightsHero": {
+    "id": "news-hero",
+    "breadcrumb": [
+      { "label": "Home", "href": "index.html" },
+      { "label": "News" }
+    ],
+    "imageBg": "/images/news-page/hero-bg.jpg",
+    "imageLoading": "eager",
+    "title": "News"
+  },
+  "newsList": {
+    "id": "news-list",
+    "readMoreLabel": "Read More »",
+    "calendarIcon": "/icons/news-page/icon-calendar.svg",
+    "featured": {
+      "date": "4th August 2025",
+      "title": "Companies House Crackdown: Businesses Urged to Act on ECCTA Deadlines",
+      "excerpt": "Research by Vistra shows fewer than one in three UK company directors feel ready for the upcoming Economic Crime and Corporate Transparency Act (ECCTA), with",
+      "href": "#",
+      "image": "/images/news-page/featured.jpg",
+      "imageAlt": "Office meeting discussing regulatory deadlines"
+    },
+    "items": [
+      {
+        "date": "25th June 2025",
+        "title": "David M. Sullivan Appointed to Chair Financial Accounting Standards Advisory Council",
+        "excerpt": "The Financial Accounting Foundation (FAF) Board of Trustees has appointed David M. Sullivan as Chair of the Financial Accounting Standards Advisory Council (FASAC), effective January",
+        "href": "#",
+        "image": "/images/news-page/article-1.jpg",
+        "imageAlt": "Business professionals in a meeting"
+      },
+      {
+        "date": "18th June 2025",
+        "title": "£4m Fine for Director in Client Money Breach",
+        "excerpt": "A former law firm director Nural Miah has been hit with a multi million pound penalty after a regulatory investigation uncovered extensive misuse of client",
+        "href": "#",
+        "image": "/images/news-page/article-2.jpg",
+        "imageAlt": "Gavel and scales of justice"
+      },
+      {
+        "date": "20th May 2025",
+        "title": "The Next Generation of Investors Is Powering ESG's Revival",
+        "excerpt": "ESG (Environmental, Social, and Governance) investing is experiencing renewed momentum among younger generations, despite mounting political resistance. Critics, particularly in states like Florida and Texas",
+        "href": "#",
+        "image": "/images/news-page/article-3.jpg",
+        "imageAlt": "Hands holding a small plant"
+      },
+      {
+        "date": "12th May 2025",
+        "title": "IAASB Publishes Comprehensive Implementation Guide for the ISA for LCE",
+        "excerpt": "The International Auditing and Assurance Standards Board (IAASB) has published a comprehensive first-time implementation guide for the International Standard on Auditing for Less Complex Entities",
+        "href": "#",
+        "image": "/images/news-page/article-4.jpg",
+        "imageAlt": "Team collaborating around a laptop"
+      },
+      {
+        "date": "2nd May 2025",
+        "title": "Chancellor Outlines Strategy to Ensure Fair Competition for UK Businesses",
+        "excerpt": "The government has announced prompt action by the Trade Remedies Authority, the organisation responsible for protecting the United Kingdom from unfair practices in international trade.",
+        "href": "#",
+        "image": "/images/news-page/article-5.jpg",
+        "imageAlt": "UK Parliament building"
+      }
+    ],
+    "sidebar": {
+      "contact": {
+        "title": "Get in touch",
+        "text": "For any questions about our services, please get in touch with one of our expert advisors.",
+        "icon": "/icons/insight-article/icon-forum.svg",
+        "button": {
+          "label": "Contact Us",
+          "href": "contact.html",
+          "icon": "/icons/insight-article/icon-arrow.svg"
+        }
+      },
+      "locations": {
+        "title": "Our Locations",
+        "text": "View the locations and contact information for <strong>184 international offices</strong>.",
+        "image": "/images/news-page/cta-locations.jpg",
+        "imageAlt": "Globe showing international reach",
+        "icon": "/icons/insight-article/icon-public.svg",
+        "button": {
+          "label": "View Locations",
+          "href": "contact.html#our-locations",
+          "icon": "/icons/insight-article/icon-arrow-white.svg"
+        }
+      },
+      "follow": {
+        "title": "Follow us",
+        "links": [
+          { "label": "Twitter", "href": "#" },
+          { "label": "Facebook", "href": "#" },
+          { "label": "Linkedin", "href": "#" },
+          { "label": "Instagram", "href": "#" }
+        ]
+      },
+      "newsletter": {
+        "title": "Newsletter",
+        "text": "Stay informed about all our latest updates and services, and sign up to our email newsletter.",
+        "icon": "/icons/news-page/icon-mail.svg",
+        "action": "#",
+        "fields": {
+          "firstName": "First Name",
+          "lastName": "Last name",
+          "email": "Email"
+        },
+        "consent": "I'm happy to receive relevant marketing emails from Parker Russell.",
+        "button": {
+          "label": "Subscribe",
+          "icon": "/icons/insight-article/icon-arrow.svg"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,331 @@
+<section
+  class="
+    section-news-list
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if newsList.id}}
+    id="{{ newsList.id }}"
+  {{/if}}
+  aria-label="News articles"
+>
+  <div class="container">
+    <div class="section-news-list__layout">
+      <div class="section-news-list__articles">
+        {{#with newsList}}
+          {{#if featured}}
+            {{#with featured}}
+              <article class="section-news-list__featured">
+                {{#if image}}
+                  <span class="section-news-list__featured-media" aria-hidden="true">
+                    {{picture
+                      image
+                      alt=""
+                      class="section-news-list__featured-image"
+                      width="880"
+                      height="520"
+                    }}
+                  </span>
+                {{/if}}
+
+                <div class="section-news-list__featured-content">
+                  {{#if date}}
+                    <span class="section-news-list__date section-news-list__date--pill">
+                      <img
+                        src="{{ ../calendarIcon }}"
+                        alt=""
+                        width="16"
+                        height="16"
+                        decoding="async"
+                      />
+                      <span>{{ date }}</span>
+                    </span>
+                  {{/if}}
+
+                  {{#if title}}
+                    <h2 class="section-news-list__featured-title">{{{ title }}}</h2>
+                  {{/if}}
+
+                  {{#if excerpt}}
+                    <p class="section-news-list__featured-excerpt">{{{ excerpt }}}</p>
+                  {{/if}}
+
+                  {{#if href}}
+                    <a class="section-news-list__featured-link" href="{{ href }}">
+                      {{ ../readMoreLabel }}
+                    </a>
+                  {{/if}}
+                </div>
+              </article>
+            {{/with}}
+          {{/if}}
+
+          {{#if items.length}}
+            <ul class="section-news-list__list">
+              {{#each items}}
+                <li class="section-news-list__item">
+                  <article class="section-news-list__card">
+                    {{#if image}}
+                      <a
+                        class="section-news-list__card-media"
+                        href="{{ href }}"
+                        tabindex="-1"
+                        aria-hidden="true"
+                      >
+                        {{picture
+                          image
+                          alt=imageAlt
+                          class="section-news-list__card-image"
+                          width="300"
+                          height="220"
+                        }}
+                      </a>
+                    {{/if}}
+
+                    <div class="section-news-list__card-body">
+                      {{#if date}}
+                        <span class="section-news-list__date">
+                          <img
+                            src="{{ ../calendarIcon }}"
+                            alt=""
+                            width="16"
+                            height="16"
+                            decoding="async"
+                          />
+                          <span>{{ date }}</span>
+                        </span>
+                      {{/if}}
+
+                      {{#if title}}
+                        <h2 class="section-news-list__card-title">
+                          <a href="{{ href }}">{{{ title }}}</a>
+                        </h2>
+                      {{/if}}
+
+                      {{#if excerpt}}
+                        <p class="section-news-list__card-excerpt">{{{ excerpt }}}</p>
+                      {{/if}}
+
+                      {{#if href}}
+                        <a class="section-news-list__card-link" href="{{ href }}">
+                          {{ ../readMoreLabel }}
+                        </a>
+                      {{/if}}
+                    </div>
+                  </article>
+                </li>
+              {{/each}}
+            </ul>
+          {{/if}}
+        {{/with}}
+      </div>
+
+      {{#if newsList.sidebar}}
+        {{#with newsList.sidebar}}
+          <aside class="section-news-list__sidebar" aria-label="News sidebar">
+            {{#if contact}}
+              {{#with contact}}
+                <div class="section-news-list__widget section-news-list__widget--contact">
+                  {{#if icon}}
+                    <span class="section-news-list__widget-icon" aria-hidden="true">
+                      <img
+                        src="{{ icon }}"
+                        alt=""
+                        width="28"
+                        height="28"
+                        decoding="async"
+                      />
+                    </span>
+                  {{/if}}
+                  {{#if title}}
+                    <h2 class="section-news-list__widget-title">{{{ title }}}</h2>
+                  {{/if}}
+                  {{#if text}}
+                    <p class="section-news-list__widget-text">{{{ text }}}</p>
+                  {{/if}}
+                  {{#if button}}
+                    <a class="section-news-list__widget-button" href="{{ button.href }}">
+                      <span>{{ button.label }}</span>
+                      {{#if button.icon}}
+                        <img
+                          src="{{ button.icon }}"
+                          alt=""
+                          width="16"
+                          height="16"
+                          decoding="async"
+                        />
+                      {{/if}}
+                    </a>
+                  {{/if}}
+                </div>
+              {{/with}}
+            {{/if}}
+
+            {{#if locations}}
+              {{#with locations}}
+                <div class="section-news-list__widget section-news-list__widget--locations">
+                  {{#if image}}
+                    <span class="section-news-list__widget-media" aria-hidden="true">
+                      {{picture
+                        image
+                        alt=""
+                        class="section-news-list__widget-image"
+                        width="392"
+                        height="322"
+                      }}
+                    </span>
+                  {{/if}}
+                  {{#if icon}}
+                    <span class="section-news-list__widget-icon" aria-hidden="true">
+                      <img
+                        src="{{ icon }}"
+                        alt=""
+                        width="28"
+                        height="28"
+                        decoding="async"
+                      />
+                    </span>
+                  {{/if}}
+                  {{#if title}}
+                    <h2 class="section-news-list__widget-title">{{{ title }}}</h2>
+                  {{/if}}
+                  {{#if text}}
+                    <p class="section-news-list__widget-text">{{{ text }}}</p>
+                  {{/if}}
+                  {{#if button}}
+                    <a
+                      class="section-news-list__widget-button section-news-list__widget-button--ghost"
+                      href="{{ button.href }}"
+                    >
+                      <span>{{ button.label }}</span>
+                      {{#if button.icon}}
+                        <img
+                          src="{{ button.icon }}"
+                          alt=""
+                          width="16"
+                          height="16"
+                          decoding="async"
+                        />
+                      {{/if}}
+                    </a>
+                  {{/if}}
+                </div>
+              {{/with}}
+            {{/if}}
+
+            {{#if follow}}
+              {{#with follow}}
+                <div class="section-news-list__widget section-news-list__widget--follow">
+                  {{#if title}}
+                    <h2 class="section-news-list__widget-title section-news-list__widget-title--dark">
+                      {{{ title }}}
+                    </h2>
+                  {{/if}}
+                  {{#if links.length}}
+                    <ul class="section-news-list__social">
+                      {{#each links}}
+                        <li>
+                          <a class="section-news-list__social-link" href="{{ href }}">
+                            {{ label }}
+                          </a>
+                        </li>
+                      {{/each}}
+                    </ul>
+                  {{/if}}
+                </div>
+              {{/with}}
+            {{/if}}
+
+            {{#if newsletter}}
+              {{#with newsletter}}
+                <div class="section-news-list__widget section-news-list__widget--newsletter">
+                  {{#if icon}}
+                    <span
+                      class="section-news-list__widget-icon section-news-list__widget-icon--dark"
+                      aria-hidden="true"
+                    >
+                      <img
+                        src="{{ icon }}"
+                        alt=""
+                        width="26"
+                        height="26"
+                        decoding="async"
+                      />
+                    </span>
+                  {{/if}}
+                  {{#if title}}
+                    <h2 class="section-news-list__widget-title section-news-list__widget-title--dark">
+                      {{{ title }}}
+                    </h2>
+                  {{/if}}
+                  {{#if text}}
+                    <p class="section-news-list__widget-text section-news-list__widget-text--muted">
+                      {{{ text }}}
+                    </p>
+                  {{/if}}
+
+                  <form
+                    class="section-news-list__form"
+                    action="{{ action }}"
+                    method="post"
+                  >
+                    <label class="section-news-list__field">
+                      <span class="section-news-list__field-label">{{ fields.firstName }}</span>
+                      <input
+                        class="section-news-list__input"
+                        type="text"
+                        name="first_name"
+                        autocomplete="given-name"
+                      />
+                    </label>
+                    <label class="section-news-list__field">
+                      <span class="section-news-list__field-label">{{ fields.lastName }}</span>
+                      <input
+                        class="section-news-list__input"
+                        type="text"
+                        name="last_name"
+                        autocomplete="family-name"
+                      />
+                    </label>
+                    <label class="section-news-list__field">
+                      <span class="section-news-list__field-label">{{ fields.email }}</span>
+                      <input
+                        class="section-news-list__input"
+                        type="email"
+                        name="email"
+                        autocomplete="email"
+                        required
+                      />
+                    </label>
+                    <label class="section-news-list__consent">
+                      <input
+                        class="section-news-list__checkbox"
+                        type="checkbox"
+                        name="marketing_consent"
+                        value="1"
+                      />
+                      <span>{{ consent }}</span>
+                    </label>
+                    <button class="section-news-list__widget-button" type="submit">
+                      <span>{{ button.label }}</span>
+                      {{#if button.icon}}
+                        <img
+                          src="{{ button.icon }}"
+                          alt=""
+                          width="16"
+                          height="16"
+                          decoding="async"
+                        />
+                      {{/if}}
+                    </button>
+                  </form>
+                </div>
+              {{/with}}
+            {{/if}}
+          </aside>
+        {{/with}}
+      {{/if}}
+    </div>
+  </div>
+</section>
