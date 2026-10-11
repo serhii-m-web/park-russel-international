@@ -1,0 +1,71 @@
+<section
+  class="
+    section-env-disciplines
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if envDisciplines.id}}
+    id="{{ envDisciplines.id }}"
+  {{/if}}
+  {{#if envDisciplines.title}}
+    aria-labelledby="{{#if envDisciplines.id}}{{ envDisciplines.id }}{{else}}section-env-disciplines{{/if}}-title"
+  {{else}}
+    aria-label="Expertise Behind the Perspective"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-env-disciplines__layout">
+      <div class="section-env-disciplines__copy">
+        {{#if envDisciplines.eyebrow}}
+          <p class="section-env-disciplines__eyebrow">
+            <span class="section-env-disciplines__eyebrow-rule" aria-hidden="true"></span>
+            <span>{{ envDisciplines.eyebrow }}</span>
+          </p>
+        {{/if}}
+        {{#if envDisciplines.title}}
+          <h2
+            id="{{#if envDisciplines.id}}{{ envDisciplines.id }}{{else}}section-env-disciplines{{/if}}-title"
+            class="section-env-disciplines__title"
+          >
+            {{{ envDisciplines.title }}}
+          </h2>
+        {{/if}}
+        {{#if envDisciplines.lead}}
+          <p class="section-env-disciplines__lead">{{{ envDisciplines.lead }}}</p>
+        {{/if}}
+        {{#if envDisciplines.body}}
+          <p class="section-env-disciplines__body">{{{ envDisciplines.body }}}</p>
+        {{/if}}
+      </div>
+
+      {{#if envDisciplines.links.length}}
+        <ul class="section-env-disciplines__links">
+          {{#each envDisciplines.links}}
+            <li class="section-env-disciplines__links-item">
+              <a class="section-env-disciplines__link" href="{{ href }}">
+                {{#if icon}}
+                  <span class="section-env-disciplines__link-icon" aria-hidden="true">
+                    <img src="{{ icon }}" alt="" width="28" height="28" decoding="async" />
+                  </span>
+                {{/if}}
+                {{#if label}}
+                  <span class="section-env-disciplines__link-label">{{ label }}</span>
+                {{/if}}
+                <span class="section-env-disciplines__link-arrow" aria-hidden="true">
+                  <img
+                    src="/icons/business-environment/icon-north-east.svg"
+                    alt=""
+                    width="20"
+                    height="20"
+                    decoding="async"
+                  />
+                </span>
+              </a>
+            </li>
+          {{/each}}
+        </ul>
+      {{/if}}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,187 @@
+@use '../abstracts' as *;
+
+.section-env-disciplines {
+  position: relative;
+  overflow: hidden;
+  @include adaptive-value('padding-top', 120, 56, 1);
+  @include adaptive-value('padding-bottom', 120, 56, 1);
+  background-color: #141c2e;
+
+  &::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+    background: radial-gradient(
+      45% 55% at 0% 50%,
+      rgba($color-red, 0.18) 0%,
+      rgba($color-red, 0) 100%
+    );
+  }
+
+  .container {
+    position: relative;
+    z-index: 1;
+  }
+
+  &__layout {
+    display: flex;
+    align-items: center;
+    gap: 96px;
+
+    @include media('<widescreen') {
+      gap: 64px;
+    }
+
+    @include media('<desktop') {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 40px;
+    }
+  }
+
+  &__copy {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    min-width: 0;
+  }
+
+  &__eyebrow {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 0;
+    color: $color-white;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.14px;
+    line-height: calc(20 / 14);
+  }
+
+  &__eyebrow-rule {
+    display: block;
+    flex-shrink: 0;
+    width: 20px;
+    height: 2px;
+    background-color: $color-red;
+  }
+
+  &__title {
+    margin: 0;
+    color: $color-white;
+    font-weight: 500;
+    letter-spacing: -1.2px;
+    line-height: calc(52 / 48);
+    @include adaptive-value('font-size', 48, 32, 1);
+  }
+
+  &__lead {
+    margin: 0;
+    color: $color-white;
+    font-weight: 500;
+    letter-spacing: -0.11px;
+    line-height: calc(32 / 22);
+    @include adaptive-value('font-size', 22, 18, 1);
+  }
+
+  &__body {
+    margin: 0;
+    color: #c7dde6;
+    font-weight: 400;
+    line-height: calc(28 / 18);
+    @include adaptive-value('font-size', 18, 16, 1);
+  }
+
+  &__links {
+    display: flex;
+    flex: 0 0 600px;
+    flex-direction: column;
+    gap: 12px;
+    width: 600px;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    @include media('<desktop') {
+      flex: none;
+      width: 100%;
+    }
+  }
+
+  &__link {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 24px;
+    border: 1px solid rgba($color-white, 0.08);
+    border-radius: 20px;
+    background-color: $color-dark-blue;
+    text-decoration: none;
+    transition:
+      border-color 0.2s ease,
+      background-color 0.2s ease;
+
+    &:hover {
+      border-color: rgba($color-white, 0.2);
+      background-color: #253247;
+
+      .section-env-disciplines__link-arrow {
+        border-color: rgba($color-white, 0.5);
+        background-color: rgba($color-white, 0.08);
+        transform: translate(2px, -2px);
+      }
+    }
+  }
+
+  &__link-icon {
+    display: inline-flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    width: 52px;
+    height: 52px;
+    border-radius: 10px;
+    background-color: $color-red;
+
+    img {
+      display: block;
+      width: 28px;
+      height: 28px;
+    }
+  }
+
+  &__link-label {
+    flex: 1 1 auto;
+    color: $color-white;
+    font-weight: 500;
+    letter-spacing: -0.24px;
+    line-height: calc(30 / 24);
+    @include adaptive-value('font-size', 24, 18, 1);
+  }
+
+  &__link-arrow {
+    display: inline-flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border: 1px solid rgba($color-white, 0.24);
+    border-radius: 50%;
+    transition:
+      border-color 0.2s ease,
+      background-color 0.2s ease,
+      transform 0.2s ease;
+
+    img {
+      display: block;
+      width: 20px;
+      height: 20px;
+    }
+  }
+}

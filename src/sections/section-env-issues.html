@@ -1,0 +1,106 @@
+<section
+  class="
+    section-env-issues
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if envIssues.id}}
+    id="{{ envIssues.id }}"
+  {{/if}}
+  {{#if envIssues.title}}
+    aria-labelledby="{{#if envIssues.id}}{{ envIssues.id }}{{else}}section-env-issues{{/if}}-title"
+  {{else}}
+    aria-label="Explore the Issues Shaping Business"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-env-issues__header">
+      <span class="section-env-issues__rule" aria-hidden="true"></span>
+      {{#if envIssues.title}}
+        <h2
+          id="{{#if envIssues.id}}{{ envIssues.id }}{{else}}section-env-issues{{/if}}-title"
+          class="section-env-issues__title"
+        >
+          {{{ envIssues.title }}}
+        </h2>
+      {{/if}}
+    </div>
+
+    <div class="section-env-issues__layout">
+      {{#if envIssues.featured}}
+        <a
+          class="section-env-issues__featured"
+          href="{{ envIssues.featured.href }}"
+        >
+          {{#if envIssues.featured.image}}
+            <div class="section-env-issues__featured-media" aria-hidden="true">
+              {{picture
+                envIssues.featured.image
+                alt=""
+                class="section-env-issues__featured-image"
+                width="420"
+                height="488"
+              }}
+            </div>
+          {{/if}}
+          <div class="section-env-issues__featured-top">
+            {{#if envIssues.featured.icon}}
+              <span class="section-env-issues__featured-icon" aria-hidden="true">
+                <img
+                  src="{{ envIssues.featured.icon }}"
+                  alt=""
+                  width="28"
+                  height="28"
+                  decoding="async"
+                />
+              </span>
+            {{/if}}
+            <span class="section-env-issues__featured-arrow" aria-hidden="true">
+              <img
+                src="/icons/business-environment/icon-arrow-outward-dark.svg"
+                alt=""
+                width="20"
+                height="20"
+                decoding="async"
+              />
+            </span>
+          </div>
+          {{#if envIssues.featured.title}}
+            <h3 class="section-env-issues__featured-title">{{ envIssues.featured.title }}</h3>
+          {{/if}}
+        </a>
+      {{/if}}
+
+      {{#if envIssues.items.length}}
+        <ul class="section-env-issues__list">
+          {{#each envIssues.items}}
+            <li class="section-env-issues__item">
+              <a class="section-env-issues__link" href="{{ href }}">
+                <span class="section-env-issues__link-top">
+                  {{#if icon}}
+                    <span class="section-env-issues__link-icon" aria-hidden="true">
+                      <img src="{{ icon }}" alt="" width="28" height="28" decoding="async" />
+                    </span>
+                  {{/if}}
+                  <span class="section-env-issues__link-arrow" aria-hidden="true">
+                    <img
+                      src="/icons/business-environment/icon-north-east-red.svg"
+                      alt=""
+                      width="20"
+                      height="20"
+                      decoding="async"
+                    />
+                  </span>
+                </span>
+                {{#if title}}
+                  <span class="section-env-issues__link-title">{{ title }}</span>
+                {{/if}}
+              </a>
+            </li>
+          {{/each}}
+        </ul>
+      {{/if}}
+    </div>
+  </div>
+</section>

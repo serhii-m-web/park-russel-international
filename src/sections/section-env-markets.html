@@ -1,0 +1,80 @@
+<section
+  class="
+    section-env-markets
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if envMarkets.id}}
+    id="{{ envMarkets.id }}"
+  {{/if}}
+  {{#if envMarkets.title}}
+    aria-labelledby="{{#if envMarkets.id}}{{ envMarkets.id }}{{else}}section-env-markets{{/if}}-title"
+  {{else}}
+    aria-label="Global Developments. Local Consequences."
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-env-markets__layout">
+      <div class="section-env-markets__copy">
+        {{#if envMarkets.eyebrow}}
+          <p class="section-env-markets__eyebrow">
+            <span class="section-env-markets__eyebrow-rule" aria-hidden="true"></span>
+            <span>{{ envMarkets.eyebrow }}</span>
+          </p>
+        {{/if}}
+        {{#if envMarkets.title}}
+          <h2
+            id="{{#if envMarkets.id}}{{ envMarkets.id }}{{else}}section-env-markets{{/if}}-title"
+            class="section-env-markets__title"
+          >
+            {{{ envMarkets.title }}}
+          </h2>
+        {{/if}}
+        {{#if envMarkets.lead}}
+          <p class="section-env-markets__lead">{{{ envMarkets.lead }}}</p>
+        {{/if}}
+        {{#if envMarkets.body}}
+          <p class="section-env-markets__body">{{{ envMarkets.body }}}</p>
+        {{/if}}
+        {{#if envMarkets.emphasis}}
+          <div class="section-env-markets__emphasis">
+            <span class="section-env-markets__emphasis-bar" aria-hidden="true"></span>
+            <p class="section-env-markets__emphasis-text">{{{ envMarkets.emphasis }}}</p>
+          </div>
+        {{/if}}
+      </div>
+
+      {{#if envMarkets.image}}
+        <div class="section-env-markets__media">
+          {{picture
+            envMarkets.image
+            alt=envMarkets.imageAlt
+            class="section-env-markets__image"
+            width="560"
+            height="570"
+          }}
+        </div>
+      {{/if}}
+    </div>
+
+    {{#if envMarkets.banner}}
+      <div class="section-env-markets__banner">
+        {{#if envMarkets.banner.icon}}
+          <span class="section-env-markets__banner-icon" aria-hidden="true">
+            <img
+              src="{{ envMarkets.banner.icon }}"
+              alt=""
+              width="39"
+              height="39"
+              decoding="async"
+            />
+          </span>
+        {{/if}}
+        {{#if envMarkets.banner.text}}
+          <p class="section-env-markets__banner-text">{{{ envMarkets.banner.text }}}</p>
+        {{/if}}
+      </div>
+    {{/if}}
+  </div>
+</section>

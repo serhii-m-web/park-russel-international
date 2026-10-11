@@ -1,0 +1,113 @@
+<section
+  class="
+    section-env-forces
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if envForces.id}}
+    id="{{ envForces.id }}"
+  {{/if}}
+  data-about-cards-slider
+  {{#if envForces.title}}
+    aria-labelledby="{{#if envForces.id}}{{ envForces.id }}{{else}}section-env-forces{{/if}}-title"
+  {{else}}
+    aria-label="What Is Changing Around Business?"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-env-forces__header">
+      <span class="section-env-forces__rule" aria-hidden="true"></span>
+      {{#if envForces.title}}
+        <h2
+          id="{{#if envForces.id}}{{ envForces.id }}{{else}}section-env-forces{{/if}}-title"
+          class="section-env-forces__title"
+        >
+          {{{ envForces.title }}}
+        </h2>
+      {{/if}}
+    </div>
+
+    {{#if envForces.cards.length}}
+      <div class="section-env-forces__grid-wrap">
+        <div
+          class="swiper section-env-forces__grid"
+          data-about-cards-slider-el
+          data-about-cards-slider-label="{{#if envForces.carouselLabel}}{{ envForces.carouselLabel }}{{else}}Forces shaping business{{/if}}"
+        >
+          <div class="swiper-wrapper">
+            {{#each envForces.cards}}
+              <article class="swiper-slide section-env-forces__card">
+                {{#if image}}
+                  <div class="section-env-forces__media">
+                    {{picture
+                      image
+                      alt=""
+                      class="section-env-forces__image"
+                      width="422"
+                      height="210"
+                    }}
+                  </div>
+                {{/if}}
+                <div class="section-env-forces__content">
+                  {{#if icon}}
+                    <span class="section-env-forces__icon" aria-hidden="true">
+                      <img src="{{ icon }}" alt="" width="28" height="28" decoding="async" />
+                    </span>
+                  {{/if}}
+                  {{#if title}}
+                    <h3 class="section-env-forces__card-title">{{ title }}</h3>
+                  {{/if}}
+                  {{#if text}}
+                    <p class="section-env-forces__text">{{{ text }}}</p>
+                  {{/if}}
+                </div>
+              </article>
+            {{/each}}
+          </div>
+        </div>
+
+        <div
+          class="section-env-forces__navigation"
+          role="group"
+          aria-label="Forces slider controls"
+          data-about-cards-slider-nav
+          inert
+        >
+          <div
+            class="swiper-scrollbar section-env-forces__scrollbar"
+            data-about-cards-slider-scrollbar
+            tabindex="0"
+            aria-label="Slider progress"
+          ></div>
+          <div class="section-env-forces__nav-buttons">
+            <button
+              class="swiper-button-prev section-env-forces__nav-btn prev"
+              type="button"
+              data-about-cards-slider-prev
+              aria-label="Previous slide"
+            >
+              {{> icon
+                name="arrow-right"
+                width="16"
+                height="16"
+              }}
+            </button>
+            <button
+              class="swiper-button-next section-env-forces__nav-btn next"
+              type="button"
+              data-about-cards-slider-next
+              aria-label="Next slide"
+            >
+              {{> icon
+                name="arrow-right"
+                width="16"
+                height="16"
+              }}
+            </button>
+          </div>
+        </div>
+      </div>
+    {{/if}}
+  </div>
+</section>

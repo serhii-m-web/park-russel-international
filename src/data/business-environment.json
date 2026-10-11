@@ -1,0 +1,326 @@
+{
+  "meta": {
+    "title": "Business Environment | Parker Russell International",
+    "description": "Understanding the forces shaping business — economic conditions, regulation, technology, capital markets and geopolitical change across international markets."
+  },
+  "envHero": {
+    "id": "business-environment-hero",
+    "breadcrumb": [
+      { "label": "Home", "href": "index.html" },
+      { "label": "Business Environment" }
+    ],
+    "label": "BUSINESS ENVIRONMENT",
+    "imageBg": "/images/business-environment/hero-bg.jpg",
+    "imageLoading": "eager",
+    "title": "Understanding the Forces Shaping Business.",
+    "lead": "Economic conditions, regulation, technology, capital markets and geopolitical developments can change the environment in which organisations operate — sometimes gradually, sometimes almost overnight.",
+    "body": "For businesses operating internationally, those changes rarely stop at one market. A development in one jurisdiction can affect investment decisions, supply chains, financing, taxation or growth plans elsewhere.",
+    "panel": {
+      "icon": "/icons/business-environment/icon-travel-explore.svg",
+      "text": "<span class=\"is-accent\">Business Environment</span> brings together Parker Russell perspectives on <span class=\"is-emphasis\">the wider forces influencing organisations, markets and decision-making</span> across the global economy.",
+      "button": {
+        "label": "Explore Latest Insights",
+        "href": "#insights",
+        "variant": "primary",
+        "icon": true
+      }
+    }
+  },
+  "envForces": {
+    "id": "forces-shaping-business",
+    "title": "What Is Changing Around Business?",
+    "carouselLabel": "Forces shaping the business environment",
+    "cards": [
+      {
+        "image": "/images/business-environment/force-economic.jpg",
+        "icon": "/icons/business-environment/icon-trending-up.svg",
+        "title": "Economic Conditions",
+        "text": "Growth, inflation, interest rates and changing demand can influence investment, financing, costs and business confidence."
+      },
+      {
+        "image": "/images/business-environment/force-regulation.jpg",
+        "icon": "/icons/business-environment/icon-gavel.svg",
+        "title": "Regulation",
+        "text": "New rules can change reporting requirements, operating models and the responsibilities placed on organisations and their leadership."
+      },
+      {
+        "image": "/images/business-environment/force-capital.jpg",
+        "icon": "/icons/business-environment/icon-account-balance.svg",
+        "title": "Capital & Investment",
+        "text": "Changing financial conditions can affect access to capital, valuations, investment decisions and transaction activity."
+      },
+      {
+        "image": "/images/business-environment/force-technology.jpg",
+        "icon": "/icons/business-environment/icon-memory.svg",
+        "title": "Technology",
+        "text": "Digital transformation, automation and emerging technologies continue to reshape how organisations operate, compete and manage information."
+      },
+      {
+        "image": "/images/business-environment/force-trade.jpg",
+        "icon": "/icons/business-environment/icon-boat.svg",
+        "title": "International Trade",
+        "text": "Changing trade relationships, supply chains and cross-border requirements can alter the economics of international business."
+      },
+      {
+        "image": "/images/business-environment/force-geopolitical.jpg",
+        "icon": "/icons/business-environment/icon-public.svg",
+        "title": "Geopolitical Change",
+        "text": "Political and geopolitical developments can create new risks, restrictions and strategic considerations across markets."
+      }
+    ]
+  },
+  "envConnected": {
+    "id": "connected-business-environment",
+    "imageBg": "/images/business-environment/connected-bg.jpg",
+    "title": "Change in One Area Rarely Stays There.",
+    "lead": "The Business Environment Is Connected.",
+    "carouselLabel": "Connected business environment effects",
+    "effects": [
+      {
+        "icon": "/icons/business-environment/icon-percent.svg",
+        "text": "<span class=\"is-emphasis\">A change in interest rates</span> can affect financing, investment and valuations."
+      },
+      {
+        "icon": "/icons/business-environment/icon-gavel-2.svg",
+        "text": "<span class=\"is-emphasis\">A regulatory development</span> can influence reporting, governance and operating costs."
+      },
+      {
+        "icon": "/icons/business-environment/icon-boat-2.svg",
+        "text": "<span class=\"is-emphasis\">A shift in trade policy</span> can change supply chains, customs obligations and margins."
+      },
+      {
+        "icon": "/icons/business-environment/icon-memory-2.svg",
+        "text": "<span class=\"is-emphasis\">New technology</span> can alter productivity while creating new questions around investment, controls and risk."
+      }
+    ],
+    "challengeLead": "For leadership teams, the challenge is therefore not simply knowing what has changed.",
+    "challengeText": "It is understanding what else could change because of it."
+  },
+  "envImpact": {
+    "id": "development-to-impact",
+    "title": "From Development to Business Impact.",
+    "carouselLabel": "From development to business impact",
+    "cards": [
+      {
+        "variant": "light",
+        "watermark": "/images/business-environment/watermark-1.svg",
+        "icon": "/icons/business-environment/icon-change-circle.svg",
+        "label": "WHAT CHANGED?",
+        "text": "The development, regulation or market movement."
+      },
+      {
+        "variant": "light",
+        "watermark": "/images/business-environment/watermark-2.svg",
+        "icon": "/icons/business-environment/icon-priority.svg",
+        "label": "WHY DOES IT MATTER?",
+        "text": "Its wider commercial or financial significance."
+      },
+      {
+        "variant": "light",
+        "watermark": "/images/business-environment/watermark-3.svg",
+        "icon": "/icons/business-environment/icon-groups.svg",
+        "label": "WHO COULD BE AFFECTED?",
+        "text": "Businesses, sectors, markets or stakeholders."
+      },
+      {
+        "variant": "dark",
+        "watermark": "/images/business-environment/watermark-4.svg",
+        "icon": "/icons/business-environment/icon-explore.svg",
+        "label": "WHAT COMES NEXT?",
+        "text": "The questions organisations should now be considering."
+      }
+    ]
+  },
+  "envMarkets": {
+    "id": "perspective-across-markets",
+    "eyebrow": "Perspective Across Markets.",
+    "title": "Global Developments. Local Consequences.",
+    "lead": "International organisations operate across markets that can respond very differently to the same global development.",
+    "body": "Economic conditions, regulation, taxation and commercial environments vary between jurisdictions. Understanding those differences can be particularly important when businesses are deciding where to invest, how to structure operations or how to respond to changing conditions.",
+    "emphasis": "Parker Russell International connects perspectives from independent member firms across markets, bringing local understanding into a wider international context.",
+    "image": "/images/business-environment/markets.jpg",
+    "imageAlt": "World map with markers across international markets",
+    "banner": {
+      "icon": "/icons/business-environment/icon-public-2.svg",
+      "text": "<span class=\"is-muted\">See what is changing globally. </span>Understand what it means locally."
+    }
+  },
+  "envIssues": {
+    "id": "issues-shaping-business",
+    "title": "Explore the Issues Shaping Business",
+    "featured": {
+      "title": "Economy & Markets",
+      "image": "/images/business-environment/issue-economy.jpg",
+      "icon": "/icons/business-environment/icon-candlestick.svg",
+      "href": "#"
+    },
+    "items": [
+      {
+        "title": "Regulation & Governance",
+        "icon": "/icons/business-environment/icon-gavel.svg",
+        "href": "#"
+      },
+      {
+        "title": "Tax & Policy",
+        "icon": "/icons/business-environment/icon-receipt.svg",
+        "href": "#"
+      },
+      {
+        "title": "Technology & Transformation",
+        "icon": "/icons/business-environment/icon-memory.svg",
+        "href": "#"
+      },
+      {
+        "title": "International Trade",
+        "icon": "/icons/business-environment/icon-boat.svg",
+        "href": "#"
+      },
+      {
+        "title": "Capital & Investment",
+        "icon": "/icons/business-environment/icon-account-balance.svg",
+        "href": "#"
+      },
+      {
+        "title": "Risk & Resilience",
+        "icon": "/icons/business-environment/icon-shield.svg",
+        "href": "#"
+      }
+    ]
+  },
+  "envInsights": {
+    "id": "insights",
+    "title": "Latest Business Environment Insights",
+    "carouselLabel": "Latest business environment insights",
+    "items": [
+      {
+        "image": "/images/business-environment/insight-1.jpg",
+        "category": "Economic Conditions",
+        "date": "Date",
+        "region": "Country or Region",
+        "title": "Headline",
+        "description": "Short description",
+        "author": "Author or Member Firm",
+        "href": "#",
+        "linkLabel": "Read Insight"
+      },
+      {
+        "image": "/images/business-environment/insight-2.jpg",
+        "category": "Regulation",
+        "date": "Date",
+        "region": "Country or Region",
+        "title": "Headline",
+        "description": "Short description",
+        "author": "Author or Member Firm",
+        "href": "#",
+        "linkLabel": "Read Insight"
+      },
+      {
+        "image": "/images/business-environment/insight-3.jpg",
+        "category": "Capital & Investment",
+        "date": "Date",
+        "region": "Country or Region",
+        "title": "Headline",
+        "description": "Short description",
+        "author": "Author or Member Firm",
+        "href": "#",
+        "linkLabel": "Read Insight"
+      },
+      {
+        "image": "/images/business-environment/insight-4.jpg",
+        "category": "Technology",
+        "date": "Date",
+        "region": "Country or Region",
+        "title": "Headline",
+        "description": "Short description",
+        "author": "Author or Member Firm",
+        "href": "#",
+        "linkLabel": "Read Insight"
+      },
+      {
+        "image": "/images/business-environment/insight-5.jpg",
+        "category": "International Trade",
+        "date": "Date",
+        "region": "Country or Region",
+        "title": "Headline",
+        "description": "Short description",
+        "author": "Author or Member Firm",
+        "href": "#",
+        "linkLabel": "Read Insight"
+      },
+      {
+        "image": "/images/business-environment/insight-6.jpg",
+        "category": "Geopolitical Change",
+        "date": "Date",
+        "region": "Country or Region",
+        "title": "Headline",
+        "description": "Short description",
+        "author": "Author or Member Firm",
+        "href": "#",
+        "linkLabel": "Read Insight"
+      }
+    ]
+  },
+  "envDisciplines": {
+    "id": "expertise-behind-perspective",
+    "eyebrow": "Expertise Behind the Perspective.",
+    "title": "Business Change Creates Questions Across Disciplines.",
+    "lead": "Developments in the wider business environment can have implications across audit, taxation, financial reporting, transactions and strategic financial decisions.",
+    "body": "Parker Russell perspectives draw on expertise from across the network to examine those connections and provide a broader understanding of what changing conditions can mean for organisations.",
+    "links": [
+      {
+        "label": "Assurance",
+        "href": "assurance.html",
+        "icon": "/icons/business-environment/icon-verified.svg"
+      },
+      {
+        "label": "Tax & Legal",
+        "href": "tax-legal.html",
+        "icon": "/icons/business-environment/icon-gavel.svg"
+      },
+      {
+        "label": "Corporate Services",
+        "href": "corporate-services.html",
+        "icon": "/icons/business-environment/icon-domain.svg"
+      },
+      {
+        "label": "Financial Advisory",
+        "href": "financial-advisory.html",
+        "icon": "/icons/business-environment/icon-monitoring.svg"
+      },
+      {
+        "label": "Transfer Pricing",
+        "href": "transfer-pricing.html",
+        "icon": "/icons/business-environment/icon-swap.svg"
+      }
+    ]
+  },
+  "envFinal": {
+    "id": "stay-ahead",
+    "imageBg": "/images/business-environment/final-cta-bg.jpg",
+    "title": "Stay Ahead of What Changes Next.",
+    "subtitle": "Insight Is Most Valuable Before the Decision Is Made.",
+    "body": "Developments in the wider business environment can influence strategy, investment, financing and operational decisions — often before their full impact becomes visible.",
+    "foundations": [
+      {
+        "text": "Parker Russell Business Environment perspectives are designed to help leadership teams see those connections earlier — connecting global developments with the questions that matter locally."
+      },
+      {
+        "text": "Whether you are responding to a specific development or building a broader view of what could change next, timely insight supports clearer, more confident decision-making."
+      }
+    ],
+    "buttons": [
+      {
+        "label": "Explore Latest Insights",
+        "href": "#insights",
+        "variant": "primary",
+        "icon": true
+      },
+      {
+        "label": "Subscribe to Insights",
+        "href": "#",
+        "variant": "secondary",
+        "icon": true
+      }
+    ]
+  }
+}

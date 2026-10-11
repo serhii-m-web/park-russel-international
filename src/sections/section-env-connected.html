@@ -1,0 +1,126 @@
+<section
+  class="
+    section-env-connected
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if envConnected.id}}
+    id="{{ envConnected.id }}"
+  {{/if}}
+  data-about-cards-slider
+  {{#if envConnected.title}}
+    aria-labelledby="{{#if envConnected.id}}{{ envConnected.id }}{{else}}section-env-connected{{/if}}-title"
+  {{else}}
+    aria-label="The Business Environment Is Connected"
+  {{/if}}
+>
+  {{#if envConnected.imageBg}}
+    <div class="section-env-connected__bg" aria-hidden="true">
+      {{picture
+        envConnected.imageBg
+        alt=""
+        class="section-env-connected__bg-image"
+        width="1920"
+        height="900"
+      }}
+    </div>
+  {{/if}}
+
+  <div class="container">
+    <div class="section-env-connected__header">
+      <div class="section-env-connected__heading">
+        <span class="section-env-connected__rule" aria-hidden="true"></span>
+        {{#if envConnected.title}}
+          <h2
+            id="{{#if envConnected.id}}{{ envConnected.id }}{{else}}section-env-connected{{/if}}-title"
+            class="section-env-connected__title"
+          >
+            {{{ envConnected.title }}}
+          </h2>
+        {{/if}}
+      </div>
+      {{#if envConnected.lead}}
+        <p class="section-env-connected__lead">{{{ envConnected.lead }}}</p>
+      {{/if}}
+    </div>
+
+    {{#if envConnected.effects.length}}
+      <div class="section-env-connected__effects-wrap">
+        <div
+          class="swiper section-env-connected__effects"
+          data-about-cards-slider-el
+          data-about-cards-slider-label="{{#if envConnected.carouselLabel}}{{ envConnected.carouselLabel }}{{else}}Connected business environment effects{{/if}}"
+        >
+          <div class="swiper-wrapper">
+            {{#each envConnected.effects}}
+              <div class="swiper-slide section-env-connected__effect">
+                {{#if icon}}
+                  <span class="section-env-connected__effect-icon" aria-hidden="true">
+                    <img src="{{ icon }}" alt="" width="32" height="32" decoding="async" />
+                  </span>
+                {{/if}}
+                {{#if text}}
+                  <p class="section-env-connected__effect-text">{{{ text }}}</p>
+                {{/if}}
+              </div>
+            {{/each}}
+          </div>
+        </div>
+
+        <div
+          class="section-env-connected__navigation"
+          role="group"
+          aria-label="Connected effects slider controls"
+          data-about-cards-slider-nav
+          inert
+        >
+          <div
+            class="swiper-scrollbar section-env-connected__scrollbar"
+            data-about-cards-slider-scrollbar
+            tabindex="0"
+            aria-label="Slider progress"
+          ></div>
+          <div class="section-env-connected__nav-buttons">
+            <button
+              class="swiper-button-prev section-env-connected__nav-btn prev"
+              type="button"
+              data-about-cards-slider-prev
+              aria-label="Previous slide"
+            >
+              {{> icon
+                name="arrow-right"
+                width="16"
+                height="16"
+              }}
+            </button>
+            <button
+              class="swiper-button-next section-env-connected__nav-btn next"
+              type="button"
+              data-about-cards-slider-next
+              aria-label="Next slide"
+            >
+              {{> icon
+                name="arrow-right"
+                width="16"
+                height="16"
+              }}
+            </button>
+          </div>
+        </div>
+      </div>
+    {{/if}}
+
+    {{#if envConnected.challengeLead}}
+      <div class="section-env-connected__challenge">
+        <span class="section-env-connected__challenge-rule" aria-hidden="true"></span>
+        <div class="section-env-connected__challenge-copy">
+          <p class="section-env-connected__challenge-lead">{{{ envConnected.challengeLead }}}</p>
+          {{#if envConnected.challengeText}}
+            <p class="section-env-connected__challenge-text">{{{ envConnected.challengeText }}}</p>
+          {{/if}}
+        </div>
+      </div>
+    {{/if}}
+  </div>
+</section>

@@ -1,0 +1,113 @@
+<section
+  class="
+    section-env-hero
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if envHero.id}}
+    id="{{ envHero.id }}"
+  {{/if}}
+  {{#if envHero.title}}
+    aria-labelledby="{{#if envHero.id}}{{ envHero.id }}{{else}}section-env-hero{{/if}}-title"
+  {{else}}
+    aria-label="Business Environment"
+  {{/if}}
+>
+  <div class="container">
+    {{#if envHero.breadcrumb.length}}
+      <nav class="section-env-hero__breadcrumb" aria-label="Breadcrumb">
+        <ol class="section-env-hero__breadcrumb-list">
+          {{#each envHero.breadcrumb}}
+            <li class="section-env-hero__breadcrumb-item">
+              {{#if href}}
+                <a class="section-env-hero__breadcrumb-link" href="{{ href }}">
+                  {{ label }}
+                </a>
+              {{else}}
+                <span class="section-env-hero__breadcrumb-current" aria-current="page">
+                  {{ label }}
+                </span>
+              {{/if}}
+            </li>
+          {{/each}}
+        </ol>
+      </nav>
+    {{/if}}
+
+    <div class="section-env-hero__card">
+      {{#if envHero.imageBg}}
+        <div class="section-env-hero__bg" aria-hidden="true">
+          {{picture
+            envHero.imageBg
+            alt=""
+            class="section-env-hero__bg-image"
+            width="1376"
+            height="554"
+            loading=envHero.imageLoading
+          }}
+        </div>
+      {{/if}}
+
+      <div class="section-env-hero__inner">
+        {{#if envHero.label}}
+          <span class="section-env-hero__label">{{ envHero.label }}</span>
+        {{/if}}
+
+        {{#if envHero.title}}
+          <h1
+            id="{{#if envHero.id}}{{ envHero.id }}{{else}}section-env-hero{{/if}}-title"
+            class="section-env-hero__title"
+          >
+            {{{ envHero.title }}}
+          </h1>
+        {{/if}}
+
+        {{#if envHero.lead}}
+          <p class="section-env-hero__lead">{{{ envHero.lead }}}</p>
+        {{/if}}
+
+        {{#if envHero.body}}
+          <p class="section-env-hero__body">{{{ envHero.body }}}</p>
+        {{/if}}
+      </div>
+    </div>
+
+    {{#if envHero.panel}}
+      <div class="section-env-hero__panel">
+        <div class="section-env-hero__panel-main">
+          {{#if envHero.panel.icon}}
+            <span class="section-env-hero__panel-icon" aria-hidden="true">
+              <img
+                src="{{ envHero.panel.icon }}"
+                alt=""
+                width="39"
+                height="39"
+                decoding="async"
+              />
+            </span>
+          {{/if}}
+          {{#if envHero.panel.text}}
+            <p class="section-env-hero__panel-text">{{{ envHero.panel.text }}}</p>
+          {{/if}}
+        </div>
+
+        {{#if envHero.panel.button}}
+          <a
+            class="section-env-hero__button site-button {{ envHero.panel.button.variant }}"
+            href="{{ envHero.panel.button.href }}"
+          >
+            <span>{{ envHero.panel.button.label }}</span>
+            {{#if envHero.panel.button.icon}}
+              {{> icon
+                name="arrow-right"
+                width="16"
+                height="16"
+              }}
+            {{/if}}
+          </a>
+        {{/if}}
+      </div>
+    {{/if}}
+  </div>
+</section>

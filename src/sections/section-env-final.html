@@ -1,0 +1,81 @@
+<section
+  class="
+    section-env-final
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if envFinal.id}}
+    id="{{ envFinal.id }}"
+  {{/if}}
+  {{#if envFinal.title}}
+    aria-labelledby="{{#if envFinal.id}}{{ envFinal.id }}{{else}}section-env-final{{/if}}-title"
+  {{else}}
+    aria-label="Stay Ahead of What Changes Next"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-env-final__card">
+      {{#if envFinal.imageBg}}
+        <div class="section-env-final__bg" aria-hidden="true">
+          {{picture
+            envFinal.imageBg
+            alt=""
+            class="section-env-final__bg-image"
+            width="1920"
+            height="900"
+          }}
+        </div>
+      {{/if}}
+
+      <div class="section-env-final__inner">
+        {{#if envFinal.title}}
+          <h2
+            id="{{#if envFinal.id}}{{ envFinal.id }}{{else}}section-env-final{{/if}}-title"
+            class="section-env-final__title"
+          >
+            {{{ envFinal.title }}}
+          </h2>
+        {{/if}}
+
+        {{#if envFinal.subtitle}}
+          <p class="section-env-final__subtitle">{{{ envFinal.subtitle }}}</p>
+        {{/if}}
+
+        {{#if envFinal.body}}
+          <p class="section-env-final__body">{{{ envFinal.body }}}</p>
+        {{/if}}
+
+        {{#if envFinal.foundations.length}}
+          <ul class="section-env-final__foundations">
+            {{#each envFinal.foundations}}
+              <li class="section-env-final__foundation">
+                {{{ text }}}
+              </li>
+            {{/each}}
+          </ul>
+        {{/if}}
+
+        {{#if envFinal.buttons.length}}
+          <div class="section-env-final__buttons">
+            {{#each envFinal.buttons}}
+              <a
+                class="section-env-final__button site-button {{ variant }}"
+                href="{{ href }}"
+              >
+                <span>{{ label }}</span>
+                {{#if icon}}
+                  {{> icon
+                    name="arrow-right"
+                    width="16"
+                    height="16"
+                  }}
+                {{/if}}
+              </a>
+            {{/each}}
+          </div>
+        {{/if}}
+      </div>
+    </div>
+  </div>
+</section>

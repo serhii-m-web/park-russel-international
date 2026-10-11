@@ -1,0 +1,124 @@
+<section
+  class="
+    section-env-impact
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if envImpact.id}}
+    id="{{ envImpact.id }}"
+  {{/if}}
+  data-about-cards-slider
+  {{#if envImpact.title}}
+    aria-labelledby="{{#if envImpact.id}}{{ envImpact.id }}{{else}}section-env-impact{{/if}}-title"
+  {{else}}
+    aria-label="From Development to Business Impact"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-env-impact__header">
+      <span class="section-env-impact__rule" aria-hidden="true"></span>
+      {{#if envImpact.title}}
+        <h2
+          id="{{#if envImpact.id}}{{ envImpact.id }}{{else}}section-env-impact{{/if}}-title"
+          class="section-env-impact__title"
+        >
+          {{{ envImpact.title }}}
+        </h2>
+      {{/if}}
+    </div>
+
+    {{#if envImpact.cards.length}}
+      <div class="section-env-impact__grid-wrap">
+        <div
+          class="swiper section-env-impact__grid"
+          data-about-cards-slider-el
+          data-about-cards-slider-label="{{#if envImpact.carouselLabel}}{{ envImpact.carouselLabel }}{{else}}Business impact questions{{/if}}"
+        >
+          <div class="swiper-wrapper">
+            {{#each envImpact.cards}}
+              <article
+                class="
+                  swiper-slide
+                  section-env-impact__card
+                  {{#if variant}}
+                    is-{{ variant }}
+                  {{/if}}
+                "
+              >
+                {{#if watermark}}
+                  <img
+                    class="section-env-impact__watermark"
+                    src="{{ watermark }}"
+                    alt=""
+                    width="210"
+                    height="210"
+                    decoding="async"
+                    aria-hidden="true"
+                  />
+                {{/if}}
+                <div class="section-env-impact__card-inner">
+                  {{#if icon}}
+                    <span class="section-env-impact__icon" aria-hidden="true">
+                      <img src="{{ icon }}" alt="" width="30" height="30" decoding="async" />
+                    </span>
+                  {{/if}}
+                  <div class="section-env-impact__content">
+                    <span class="section-env-impact__card-rule" aria-hidden="true"></span>
+                    {{#if label}}
+                      <p class="section-env-impact__label">{{ label }}</p>
+                    {{/if}}
+                    {{#if text}}
+                      <p class="section-env-impact__text">{{{ text }}}</p>
+                    {{/if}}
+                  </div>
+                </div>
+              </article>
+            {{/each}}
+          </div>
+        </div>
+
+        <div
+          class="section-env-impact__navigation"
+          role="group"
+          aria-label="Impact cards slider controls"
+          data-about-cards-slider-nav
+          inert
+        >
+          <div
+            class="swiper-scrollbar section-env-impact__scrollbar"
+            data-about-cards-slider-scrollbar
+            tabindex="0"
+            aria-label="Slider progress"
+          ></div>
+          <div class="section-env-impact__nav-buttons">
+            <button
+              class="swiper-button-prev section-env-impact__nav-btn prev"
+              type="button"
+              data-about-cards-slider-prev
+              aria-label="Previous slide"
+            >
+              {{> icon
+                name="arrow-right"
+                width="16"
+                height="16"
+              }}
+            </button>
+            <button
+              class="swiper-button-next section-env-impact__nav-btn next"
+              type="button"
+              data-about-cards-slider-next
+              aria-label="Next slide"
+            >
+              {{> icon
+                name="arrow-right"
+                width="16"
+                height="16"
+              }}
+            </button>
+          </div>
+        </div>
+      </div>
+    {{/if}}
+  </div>
+</section>
