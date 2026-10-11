@@ -1,0 +1,154 @@
+<section
+  class="
+    section-mf-office
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if mfOffice.id}}
+    id="{{ mfOffice.id }}"
+  {{/if}}
+  {{#if mfOffice.title}}
+    aria-labelledby="{{#if mfOffice.id}}{{ mfOffice.id }}{{else}}section-mf-office{{/if}}-title"
+  {{else}}
+    aria-label="Our office"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-mf-office__header">
+      <span class="section-mf-office__rule" aria-hidden="true"></span>
+      {{#if mfOffice.title}}
+        <h2
+          id="{{#if mfOffice.id}}{{ mfOffice.id }}{{else}}section-mf-office{{/if}}-title"
+          class="section-mf-office__title"
+        >
+          {{{ mfOffice.title }}}
+        </h2>
+      {{/if}}
+    </div>
+
+    <div class="section-mf-office__grid">
+      <div class="section-mf-office__media">
+        {{#if mfOffice.image}}
+          {{picture
+            mfOffice.image
+            alt=mfOffice.imageAlt
+            class="section-mf-office__image"
+            width="680"
+            height="620"
+          }}
+        {{/if}}
+
+        <div class="section-mf-office__overlay">
+          {{#if mfOffice.locationIcon}}
+            <span class="section-mf-office__overlay-icon" aria-hidden="true">
+              <img
+                src="{{ mfOffice.locationIcon }}"
+                alt=""
+                width="30"
+                height="30"
+                decoding="async"
+              />
+            </span>
+          {{/if}}
+
+          <div class="section-mf-office__overlay-text">
+            {{#if mfOffice.firmName}}
+              <p class="section-mf-office__overlay-firm">{{ mfOffice.firmName }}</p>
+            {{/if}}
+            {{#if mfOffice.addressLines.length}}
+              <p class="section-mf-office__overlay-address">
+                {{#each mfOffice.addressLines}}
+                  {{ this }}
+                  {{#unless @last}}<br />{{/unless}}
+                {{/each}}
+              </p>
+            {{/if}}
+          </div>
+        </div>
+      </div>
+
+      {{#if mfOffice.contact}}
+        <div class="section-mf-office__contact">
+          <div class="section-mf-office__contact-head">
+            {{#if mfOffice.contact.avatarIcon}}
+              <span class="section-mf-office__avatar" aria-hidden="true">
+                <img
+                  src="{{ mfOffice.contact.avatarIcon }}"
+                  alt=""
+                  width="36"
+                  height="36"
+                  decoding="async"
+                />
+              </span>
+            {{/if}}
+
+            <div class="section-mf-office__contact-heading">
+              {{#if mfOffice.contact.eyebrow}}
+                <p class="section-mf-office__contact-eyebrow">
+                  {{ mfOffice.contact.eyebrow }}
+                </p>
+              {{/if}}
+              {{#if mfOffice.contact.name}}
+                <p class="section-mf-office__contact-name">{{ mfOffice.contact.name }}</p>
+              {{/if}}
+            </div>
+          </div>
+
+          {{#if mfOffice.contact.details.length}}
+            <ul class="section-mf-office__details">
+              {{#each mfOffice.contact.details}}
+                <li class="section-mf-office__detail">
+                  {{#if icon}}
+                    <span class="section-mf-office__detail-icon" aria-hidden="true">
+                      <img
+                        src="{{ icon }}"
+                        alt=""
+                        width="20"
+                        height="20"
+                        decoding="async"
+                      />
+                    </span>
+                  {{/if}}
+
+                  <span class="section-mf-office__detail-copy">
+                    {{#if label}}
+                      <span class="section-mf-office__detail-label">{{ label }}: </span>
+                    {{/if}}
+                    {{#if href}}
+                      <a class="section-mf-office__detail-value section-mf-office__detail-value--link" href="{{ href }}">
+                        {{ value }}
+                      </a>
+                    {{else}}
+                      <span class="section-mf-office__detail-value">{{ value }}</span>
+                    {{/if}}
+                  </span>
+                </li>
+              {{/each}}
+            </ul>
+          {{/if}}
+
+          {{#if mfOffice.contact.website}}
+            <a
+              class="section-mf-office__website"
+              href="{{ mfOffice.contact.website.href }}"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span>{{ mfOffice.contact.website.label }}</span>
+              {{#if mfOffice.contact.website.icon}}
+                <img
+                  src="{{ mfOffice.contact.website.icon }}"
+                  alt=""
+                  width="18"
+                  height="18"
+                  decoding="async"
+                />
+              {{/if}}
+            </a>
+          {{/if}}
+        </div>
+      {{/if}}
+    </div>
+  </div>
+</section>

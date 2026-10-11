@@ -1,0 +1,107 @@
+<section
+  class="
+    section-mf-hero
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if mfHero.id}}
+    id="{{ mfHero.id }}"
+  {{/if}}
+  {{#if mfHero.title}}
+    aria-labelledby="{{#if mfHero.id}}{{ mfHero.id }}{{else}}section-mf-hero{{/if}}-title"
+  {{else}}
+    aria-label="Member firm"
+  {{/if}}
+>
+  <div class="container">
+    {{#if mfHero.breadcrumb.length}}
+      <nav class="section-mf-hero__breadcrumb" aria-label="Breadcrumb">
+        <ol class="section-mf-hero__breadcrumb-list">
+          {{#each mfHero.breadcrumb}}
+            <li class="section-mf-hero__breadcrumb-item">
+              {{#if href}}
+                <a class="section-mf-hero__breadcrumb-link" href="{{ href }}">
+                  {{ label }}
+                </a>
+              {{else}}
+                <span class="section-mf-hero__breadcrumb-current" aria-current="page">
+                  {{ label }}
+                </span>
+              {{/if}}
+            </li>
+          {{/each}}
+        </ol>
+      </nav>
+    {{/if}}
+
+    <div class="section-mf-hero__card">
+      {{#if mfHero.imageBg}}
+        <div class="section-mf-hero__bg" aria-hidden="true">
+          {{picture
+            mfHero.imageBg
+            alt=""
+            class="section-mf-hero__bg-image"
+            width="1376"
+            height="520"
+            loading=mfHero.imageLoading
+          }}
+        </div>
+      {{/if}}
+
+      <div class="section-mf-hero__inner">
+        {{#if mfHero.tag}}
+          <span class="section-mf-hero__tag">{{ mfHero.tag }}</span>
+        {{/if}}
+
+        {{#if mfHero.title}}
+          <h1
+            id="{{#if mfHero.id}}{{ mfHero.id }}{{else}}section-mf-hero{{/if}}-title"
+            class="section-mf-hero__title"
+          >
+            {{{ mfHero.title }}}
+          </h1>
+        {{/if}}
+
+        {{#if mfHero.firmName}}
+          <p class="section-mf-hero__firm">{{ mfHero.firmName }}</p>
+        {{/if}}
+
+        {{#if mfHero.lead}}
+          <p class="section-mf-hero__lead">{{{ mfHero.lead }}}</p>
+        {{/if}}
+      </div>
+    </div>
+
+    {{#if mfHero.about}}
+      <div class="section-mf-hero__about">
+        <div class="section-mf-hero__about-head">
+          {{#if mfHero.about.icon}}
+            <span class="section-mf-hero__about-icon" aria-hidden="true">
+              <img
+                src="{{ mfHero.about.icon }}"
+                alt=""
+                width="35"
+                height="35"
+                decoding="async"
+              />
+            </span>
+          {{/if}}
+
+          {{#if mfHero.about.title}}
+            <h2 class="section-mf-hero__about-title">{{ mfHero.about.title }}</h2>
+          {{/if}}
+        </div>
+
+        <div class="section-mf-hero__about-copy">
+          {{#if mfHero.about.lead}}
+            <p class="section-mf-hero__about-lead">{{{ mfHero.about.lead }}}</p>
+          {{/if}}
+          {{#if mfHero.about.body}}
+            <p class="section-mf-hero__about-body">{{{ mfHero.about.body }}}</p>
+          {{/if}}
+        </div>
+      </div>
+    {{/if}}
+  </div>
+</section>

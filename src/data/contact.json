@@ -50,7 +50,7 @@
       {
         "name": "Europe",
         "countries": [
-          { "label": "Bulgaria", "href": "#" },
+          { "label": "Bulgaria", "href": "member-firm.html" },
           { "label": "Cyprus", "href": "#" },
           { "label": "Georgia", "href": "#" },
           { "label": "France", "href": "#" },

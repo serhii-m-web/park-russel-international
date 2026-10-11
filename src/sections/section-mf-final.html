@@ -1,0 +1,63 @@
+<section
+  class="
+    section-mf-final
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if mfFinal.id}}
+    id="{{ mfFinal.id }}"
+  {{/if}}
+  {{#if mfFinal.title}}
+    aria-labelledby="{{#if mfFinal.id}}{{ mfFinal.id }}{{else}}section-mf-final{{/if}}-title"
+  {{else}}
+    aria-label="Contact our member firm"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-mf-final__card">
+      {{#if mfFinal.imageBg}}
+        <div class="section-mf-final__bg" aria-hidden="true">
+          {{picture
+            mfFinal.imageBg
+            alt=""
+            class="section-mf-final__bg-image"
+            width="1376"
+            height="560"
+          }}
+        </div>
+      {{/if}}
+
+      <div class="section-mf-final__inner">
+        {{#if mfFinal.title}}
+          <h2
+            id="{{#if mfFinal.id}}{{ mfFinal.id }}{{else}}section-mf-final{{/if}}-title"
+            class="section-mf-final__title"
+          >
+            {{{ mfFinal.title }}}
+          </h2>
+        {{/if}}
+
+        {{#if mfFinal.lead}}
+          <p class="section-mf-final__lead">{{{ mfFinal.lead }}}</p>
+        {{/if}}
+
+        {{#if mfFinal.button}}
+          <a
+            class="section-mf-final__button site-button primary"
+            href="{{ mfFinal.button.href }}"
+          >
+            <span>{{ mfFinal.button.label }}</span>
+            {{#if mfFinal.button.icon}}
+              {{> icon
+                name="arrow-right"
+                width="16"
+                height="16"
+              }}
+            {{/if}}
+          </a>
+        {{/if}}
+      </div>
+    </div>
+  </div>
+</section>

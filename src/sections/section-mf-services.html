@@ -1,0 +1,72 @@
+<section
+  class="
+    section-mf-services
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if mfServices.id}}
+    id="{{ mfServices.id }}"
+  {{/if}}
+  aria-label="Services and industries"
+>
+  <div class="container">
+    <div class="section-mf-services__grid">
+      {{#if mfServices.services}}
+        <div class="section-mf-services__card section-mf-services__card--dark">
+          <div class="section-mf-services__card-head">
+            <span class="section-mf-services__rule" aria-hidden="true"></span>
+            {{#if mfServices.services.title}}
+              <h2 class="section-mf-services__card-title">
+                {{ mfServices.services.title }}
+              </h2>
+            {{/if}}
+          </div>
+
+          {{#if mfServices.services.items.length}}
+            <ul class="section-mf-services__list">
+              {{#each mfServices.services.items}}
+                <li class="section-mf-services__item">
+                  {{#if icon}}
+                    <span class="section-mf-services__item-icon" aria-hidden="true">
+                      <img src="{{ icon }}" alt="" width="24" height="24" decoding="async" />
+                    </span>
+                  {{/if}}
+                  <span class="section-mf-services__item-label">{{ label }}</span>
+                </li>
+              {{/each}}
+            </ul>
+          {{/if}}
+        </div>
+      {{/if}}
+
+      {{#if mfServices.industries}}
+        <div class="section-mf-services__card section-mf-services__card--light">
+          <div class="section-mf-services__card-head">
+            <span class="section-mf-services__rule" aria-hidden="true"></span>
+            {{#if mfServices.industries.title}}
+              <h2 class="section-mf-services__card-title">
+                {{ mfServices.industries.title }}
+              </h2>
+            {{/if}}
+          </div>
+
+          {{#if mfServices.industries.items.length}}
+            <ul class="section-mf-services__list section-mf-services__list--grid">
+              {{#each mfServices.industries.items}}
+                <li class="section-mf-services__item">
+                  {{#if icon}}
+                    <span class="section-mf-services__item-icon" aria-hidden="true">
+                      <img src="{{ icon }}" alt="" width="24" height="24" decoding="async" />
+                    </span>
+                  {{/if}}
+                  <span class="section-mf-services__item-label">{{ label }}</span>
+                </li>
+              {{/each}}
+            </ul>
+          {{/if}}
+        </div>
+      {{/if}}
+    </div>
+  </div>
+</section>
