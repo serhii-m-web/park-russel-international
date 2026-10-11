@@ -1,0 +1,204 @@
+@use '../abstracts' as *;
+
+.section-ia-body {
+  @include adaptive-value('padding-top', 120, 56, 1);
+  @include adaptive-value('padding-bottom', 120, 56, 1);
+  background-color: $color-white;
+
+  &__layout {
+    display: grid;
+    grid-template-columns: minmax(0, 320px) minmax(0, 1fr);
+    gap: 72px;
+    align-items: start;
+
+    @include media('<desktop') {
+      grid-template-columns: 1fr;
+      gap: 40px;
+    }
+  }
+
+  &__sidebar {
+    display: flex;
+    flex-direction: column;
+    padding: 32px 24px 24px;
+    border-radius: 24px;
+    background-color: $color-bg-muted;
+  }
+
+  &__sidebar-header {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding: 0 0 20px 8px;
+  }
+
+  &__rule {
+    display: block;
+    width: 48px;
+    height: 3px;
+    background-color: $color-red;
+  }
+
+  &__sidebar-title {
+    margin: 0;
+    color: $color-dark-blue;
+    font-weight: 500;
+    font-size: 26px;
+    letter-spacing: -0.26px;
+    line-height: calc(32 / 26);
+  }
+
+  &__nav-list,
+  &__nav-children {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  &__nav-item {
+    border-top: 1px solid rgba($color-dark-blue, 0.08);
+  }
+
+  &__nav-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    width: 100%;
+    padding: 14px 8px;
+    color: $color-dark-blue;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    text-decoration: none;
+    transition:
+      color 0.2s ease,
+      background-color 0.2s ease,
+      box-shadow 0.2s ease;
+
+    &:hover {
+      color: $color-red;
+    }
+
+    &.is-active {
+      padding-left: 16px;
+      border-radius: 12px;
+      background-color: $color-white;
+      color: $color-red;
+      box-shadow: 0 6px 16px rgba(20, 28, 46, 0.06);
+    }
+  }
+
+  &__nav-link--child {
+    padding-left: 28px;
+    color: $color-text-muted;
+    font-weight: 400;
+    font-size: 15px;
+
+    &.is-active {
+      padding-left: 16px;
+      font-weight: 500;
+      font-size: 16px;
+    }
+  }
+
+  &__nav-chevron {
+    display: block;
+    flex-shrink: 0;
+    width: 18px;
+    height: 18px;
+  }
+
+  &__nav-child {
+    border-top: 1px solid rgba($color-dark-blue, 0.08);
+    padding-top: 14px;
+
+    .section-ia-body__nav-link.is-active {
+      border-top: 0;
+    }
+  }
+
+  &__article {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    min-width: 0;
+  }
+
+  &__title {
+    margin: 0;
+    color: $color-dark-blue;
+    font-weight: 500;
+    letter-spacing: -1.2px;
+    line-height: calc(52 / 48);
+    @include adaptive-value('font-size', 48, 32, 1);
+  }
+
+  &__lead {
+    margin: 0;
+    color: $color-dark-blue;
+    letter-spacing: -0.088px;
+    line-height: calc(34 / 22);
+    @include adaptive-value('font-size', 22, 18, 1);
+  }
+
+  &__text {
+    margin: 0;
+    color: $color-text-muted;
+    font-size: 18px;
+    line-height: calc(30 / 18);
+  }
+
+  &__quote {
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+    width: 100%;
+    margin: 16px 0 0;
+    @include adaptive-value('padding-top', 48, 28, 1);
+    @include adaptive-value('padding-bottom', 48, 28, 1);
+    @include adaptive-value('padding-left', 48, 24, 1);
+    @include adaptive-value('padding-right', 56, 24, 1);
+    border-radius: 28px;
+    background:
+      radial-gradient(
+        80% 70% at 10% 50%,
+        rgba($color-red, 0.24) 0%,
+        rgba($color-red, 0) 60%
+      ),
+      $color-dark-blue;
+
+    @include media('<tablet') {
+      flex-direction: column;
+      gap: 20px;
+      border-radius: 24px;
+    }
+  }
+
+  &__quote-icon {
+    display: inline-flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+    border-radius: 32px;
+    background-color: $color-red;
+
+    img {
+      display: block;
+      width: 34px;
+      height: 34px;
+    }
+  }
+
+  &__quote-text {
+    margin: 0;
+    color: $color-white;
+    font-weight: 500;
+    letter-spacing: -0.208px;
+    line-height: calc(38 / 26);
+    @include adaptive-value('font-size', 26, 18, 1);
+  }
+}

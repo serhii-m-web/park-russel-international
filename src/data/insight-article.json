@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "title": "International Financial Reporting Standards | Parker Russell International",
+    "description": "Parker Russell insights on the IFRS Foundation and IASB goal of developing a single set of high-quality, globally accepted financial reporting standards."
+  },
+  "iaHero": {
+    "id": "insight-article-hero",
+    "breadcrumb": [
+      { "label": "Home", "href": "index.html" },
+      { "label": "Insights", "href": "insights.html" },
+      { "label": "International Financial Reporting Standards" }
+    ],
+    "label": "Insights",
+    "imageBg": "/images/insight-article/hero-bg.jpg",
+    "imageLoading": "eager",
+    "title": "International Financial Reporting Standards",
+    "intro": {
+      "icon": "/icons/insight-article/icon-public.svg",
+      "title": "The move towards global standards",
+      "text": "The goal of the IFRS Foundation and the IASB is to develop, in the public interest, a single set of high-quality, understandable, enforceable and globally accepted financial reporting standards based upon clearly articulated principles."
+    }
+  },
+  "iaBody": {
+    "id": "insight-article-body",
+    "nav": {
+      "title": "Insights",
+      "items": [
+        {
+          "label": "Publications",
+          "href": "#",
+          "children": [
+            { "label": "Audit", "href": "#" },
+            { "label": "Taxation", "href": "#" },
+            { "label": "Other", "href": "#" }
+          ]
+        },
+        {
+          "label": "Factsheets",
+          "href": "#",
+          "children": [
+            {
+              "label": "International Financial Reporting Standards",
+              "href": "insight-article.html",
+              "isActive": true
+            }
+          ]
+        }
+      ]
+    },
+    "article": {
+      "title": "IFRS Goals",
+      "lead": "In pursuit of this goal, the IASB works in close cooperation with stakeholders around the world, including investors, national standard-setters, regulators, auditors, academics, and others who have an interest in the development of high-quality global standards.",
+      "body": "Progress toward this goal has been steady. All major economies have established time lines to converge with or adopt IFRSs in the near future. The international convergence efforts of the organisation are also supported by the Group of 20 Leaders (G20) who, at their September 2009 meeting in Pittsburgh, US, called on international accounting bodies to redouble their efforts to achieve this objective within the context of their independent standard-setting process. In particular, they asked the IASB and the US FASB to complete their convergence project.",
+      "quote": {
+        "icon": "/icons/insight-article/icon-quote.svg",
+        "text": "Our mission is to develop IFRS® Standards that bring transparency, accountability and efficiency to financial markets around the world. Our work serves the public interest by fostering trust, growth and long-term financial stability in the global economy."
+      }
+    }
+  },
+  "iaCta": {
+    "id": "insight-article-cta",
+    "cards": [
+      {
+        "title": "Get in touch",
+        "text": "For any questions about our services, please get in touch with one of our expert advisors.",
+        "image": "/images/insight-article/cta-contact.jpg",
+        "imageAlt": "Office telephone handset",
+        "icon": "/icons/insight-article/icon-forum.svg",
+        "button": {
+          "label": "Contact Us",
+          "href": "contact.html",
+          "variant": "primary",
+          "icon": "/icons/insight-article/icon-arrow.svg"
+        }
+      },
+      {
+        "title": "Our Locations",
+        "text": "View the locations and contact information for <strong>184 international offices</strong>.",
+        "image": "/images/insight-article/cta-locations.jpg",
+        "imageAlt": "World map with international locations",
+        "icon": "/icons/insight-article/icon-public-sm.svg",
+        "button": {
+          "label": "View Locations",
+          "href": "contact.html#our-locations",
+          "variant": "ghost",
+          "icon": "/icons/insight-article/icon-arrow-white.svg"
+        }
+      }
+    ]
+  }
+}

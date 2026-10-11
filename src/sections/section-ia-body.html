@@ -1,0 +1,138 @@
+<section
+  class="
+    section-ia-body
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if iaBody.id}}
+    id="{{ iaBody.id }}"
+  {{/if}}
+  {{#if iaBody.article.title}}
+    aria-labelledby="{{#if iaBody.id}}{{ iaBody.id }}{{else}}section-ia-body{{/if}}-title"
+  {{else}}
+    aria-label="Insight article content"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-ia-body__layout">
+      {{#if iaBody.nav}}
+        <aside class="section-ia-body__sidebar" aria-label="{{ iaBody.nav.title }}">
+          <div class="section-ia-body__sidebar-header">
+            <span class="section-ia-body__rule" aria-hidden="true"></span>
+            {{#if iaBody.nav.title}}
+              <p class="section-ia-body__sidebar-title">{{ iaBody.nav.title }}</p>
+            {{/if}}
+          </div>
+
+          {{#if iaBody.nav.items.length}}
+            <nav class="section-ia-body__nav">
+              <ul class="section-ia-body__nav-list">
+                {{#each iaBody.nav.items}}
+                  <li class="section-ia-body__nav-item">
+                    <a
+                      class="
+                        section-ia-body__nav-link
+                        {{#if isActive}}
+                          is-active
+                        {{/if}}
+                      "
+                      href="{{ href }}"
+                      {{#if isActive}}
+                        aria-current="page"
+                      {{/if}}
+                    >
+                      <span>{{ label }}</span>
+                      <img
+                        class="section-ia-body__nav-chevron"
+                        src="{{#if isActive}}/icons/insight-article/icon-chevron-active.svg{{else}}/icons/insight-article/icon-chevron.svg{{/if}}"
+                        alt=""
+                        width="18"
+                        height="18"
+                        decoding="async"
+                      />
+                    </a>
+
+                    {{#if children.length}}
+                      <ul class="section-ia-body__nav-children">
+                        {{#each children}}
+                          <li class="section-ia-body__nav-child">
+                            <a
+                              class="
+                                section-ia-body__nav-link
+                                section-ia-body__nav-link--child
+                                {{#if isActive}}
+                                  is-active
+                                {{/if}}
+                              "
+                              href="{{ href }}"
+                              {{#if isActive}}
+                                aria-current="page"
+                              {{/if}}
+                            >
+                              <span>{{ label }}</span>
+                              <img
+                                class="section-ia-body__nav-chevron"
+                                src="{{#if isActive}}/icons/insight-article/icon-chevron-active.svg{{else}}/icons/insight-article/icon-chevron.svg{{/if}}"
+                                alt=""
+                                width="18"
+                                height="18"
+                                decoding="async"
+                              />
+                            </a>
+                          </li>
+                        {{/each}}
+                      </ul>
+                    {{/if}}
+                  </li>
+                {{/each}}
+              </ul>
+            </nav>
+          {{/if}}
+        </aside>
+      {{/if}}
+
+      {{#if iaBody.article}}
+        <article class="section-ia-body__article">
+          <span class="section-ia-body__rule" aria-hidden="true"></span>
+
+          {{#if iaBody.article.title}}
+            <h2
+              id="{{#if iaBody.id}}{{ iaBody.id }}{{else}}section-ia-body{{/if}}-title"
+              class="section-ia-body__title"
+            >
+              {{{ iaBody.article.title }}}
+            </h2>
+          {{/if}}
+
+          {{#if iaBody.article.lead}}
+            <p class="section-ia-body__lead">{{{ iaBody.article.lead }}}</p>
+          {{/if}}
+
+          {{#if iaBody.article.body}}
+            <p class="section-ia-body__text">{{{ iaBody.article.body }}}</p>
+          {{/if}}
+
+          {{#if iaBody.article.quote}}
+            <blockquote class="section-ia-body__quote">
+              {{#if iaBody.article.quote.icon}}
+                <span class="section-ia-body__quote-icon" aria-hidden="true">
+                  <img
+                    src="{{ iaBody.article.quote.icon }}"
+                    alt=""
+                    width="34"
+                    height="34"
+                    decoding="async"
+                  />
+                </span>
+              {{/if}}
+              {{#if iaBody.article.quote.text}}
+                <p class="section-ia-body__quote-text">{{{ iaBody.article.quote.text }}}</p>
+              {{/if}}
+            </blockquote>
+          {{/if}}
+        </article>
+      {{/if}}
+    </div>
+  </div>
+</section>

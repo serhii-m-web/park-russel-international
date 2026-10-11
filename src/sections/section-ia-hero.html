@@ -1,0 +1,95 @@
+<section
+  class="
+    section-ia-hero
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if iaHero.id}}
+    id="{{ iaHero.id }}"
+  {{/if}}
+  {{#if iaHero.title}}
+    aria-labelledby="{{#if iaHero.id}}{{ iaHero.id }}{{else}}section-ia-hero{{/if}}-title"
+  {{else}}
+    aria-label="Insight article"
+  {{/if}}
+>
+  <div class="container">
+    {{#if iaHero.breadcrumb.length}}
+      <nav class="section-ia-hero__breadcrumb" aria-label="Breadcrumb">
+        <ol class="section-ia-hero__breadcrumb-list">
+          {{#each iaHero.breadcrumb}}
+            <li class="section-ia-hero__breadcrumb-item">
+              {{#if href}}
+                <a class="section-ia-hero__breadcrumb-link" href="{{ href }}">
+                  {{ label }}
+                </a>
+              {{else}}
+                <span class="section-ia-hero__breadcrumb-current" aria-current="page">
+                  {{ label }}
+                </span>
+              {{/if}}
+            </li>
+          {{/each}}
+        </ol>
+      </nav>
+    {{/if}}
+
+    <div class="section-ia-hero__card">
+      {{#if iaHero.imageBg}}
+        <div class="section-ia-hero__bg" aria-hidden="true">
+          {{picture
+            iaHero.imageBg
+            alt=""
+            class="section-ia-hero__bg-image"
+            width="1376"
+            height="376"
+            loading=iaHero.imageLoading
+          }}
+        </div>
+      {{/if}}
+
+      <div class="section-ia-hero__inner">
+        {{#if iaHero.label}}
+          <span class="section-ia-hero__label">{{ iaHero.label }}</span>
+        {{/if}}
+
+        {{#if iaHero.title}}
+          <h1
+            id="{{#if iaHero.id}}{{ iaHero.id }}{{else}}section-ia-hero{{/if}}-title"
+            class="section-ia-hero__title"
+          >
+            {{{ iaHero.title }}}
+          </h1>
+        {{/if}}
+      </div>
+    </div>
+
+    {{#if iaHero.intro}}
+      <div class="section-ia-hero__intro">
+        <div class="section-ia-hero__intro-title">
+          {{#if iaHero.intro.icon}}
+            <span class="section-ia-hero__intro-icon" aria-hidden="true">
+              <img
+                src="{{ iaHero.intro.icon }}"
+                alt=""
+                width="39"
+                height="39"
+                decoding="async"
+              />
+            </span>
+          {{/if}}
+          {{#if iaHero.intro.title}}
+            <p class="section-ia-hero__intro-heading">{{{ iaHero.intro.title }}}</p>
+          {{/if}}
+        </div>
+
+        {{#if iaHero.intro.text}}
+          <div class="section-ia-hero__intro-text">
+            <p>{{{ iaHero.intro.text }}}</p>
+          </div>
+        {{/if}}
+      </div>
+    {{/if}}
+  </div>
+</section>

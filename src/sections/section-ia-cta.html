@@ -1,0 +1,86 @@
+<section
+  class="
+    section-ia-cta
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if iaCta.id}}
+    id="{{ iaCta.id }}"
+  {{/if}}
+  aria-label="Contact and locations"
+>
+  <div class="container">
+    {{#if iaCta.cards.length}}
+      <div class="section-ia-cta__grid">
+        {{#each iaCta.cards}}
+          <div
+            class="
+              section-ia-cta__card
+              {{#if button.variant}}
+                section-ia-cta__card--{{ button.variant }}
+              {{/if}}
+            "
+          >
+            {{#if image}}
+              <span class="section-ia-cta__media" aria-hidden="true">
+                {{picture
+                  image
+                  alt=imageAlt
+                  class="section-ia-cta__image"
+                  width="676"
+                  height="440"
+                }}
+              </span>
+            {{/if}}
+
+            <div class="section-ia-cta__content">
+              {{#if icon}}
+                <span class="section-ia-cta__icon" aria-hidden="true">
+                  <img
+                    src="{{ icon }}"
+                    alt=""
+                    width="30"
+                    height="30"
+                    decoding="async"
+                  />
+                </span>
+              {{/if}}
+
+              {{#if title}}
+                <h2 class="section-ia-cta__title">{{{ title }}}</h2>
+              {{/if}}
+
+              {{#if text}}
+                <p class="section-ia-cta__text">{{{ text }}}</p>
+              {{/if}}
+
+              {{#if button}}
+                <a
+                  class="
+                    section-ia-cta__button
+                    {{#if button.variant}}
+                      section-ia-cta__button--{{ button.variant }}
+                    {{/if}}
+                  "
+                  href="{{ button.href }}"
+                >
+                  <span>{{ button.label }}</span>
+                  {{#if button.icon}}
+                    <img
+                      src="{{ button.icon }}"
+                      alt=""
+                      width="16"
+                      height="16"
+                      decoding="async"
+                    />
+                  {{/if}}
+                </a>
+              {{/if}}
+            </div>
+          </div>
+        {{/each}}
+      </div>
+    {{/if}}
+  </div>
+</section>
