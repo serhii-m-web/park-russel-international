@@ -129,43 +129,6 @@
     gap: 12px;
   }
 
-  &__action {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    text-decoration: none;
-
-    &--outline {
-      height: 48px;
-      padding: 0 24px;
-      border: 1px solid rgba($color-dark-blue, 0.24);
-      border-radius: 1000px;
-      color: $color-dark-blue;
-      font-weight: 500;
-      font-size: 16px;
-      letter-spacing: 0.08px;
-      line-height: 20px;
-      transition:
-        border-color 0.2s ease,
-        color 0.2s ease;
-
-      &:hover {
-        border-color: $color-red;
-        color: $color-red;
-      }
-
-      .icon {
-        color: inherit;
-      }
-
-      img {
-        display: block;
-        width: 18px;
-        height: 18px;
-      }
-    }
-  }
-
   &__cover {
     position: relative;
     display: flex;
@@ -485,36 +448,6 @@
     }
   }
 
-  &__nav-btn {
-    position: static !important;
-    width: 40px !important;
-    height: 40px !important;
-    margin: 0 !important;
-    flex-shrink: 0;
-    border: 1px solid transparent;
-    border-radius: 50%;
-    background-color: $color-red;
-    color: $color-white !important;
-
-    &::after {
-      display: none !important;
-    }
-
-    &.prev {
-      transform: rotate(180deg);
-    }
-
-    &.swiper-button-disabled {
-      border-color: $color-dark-blue;
-      background-color: transparent;
-      color: $color-dark-blue !important;
-    }
-
-    svg {
-      width: 16px !important;
-      height: 16px !important;
-    }
-  }
 
   &__archive-content {
     display: flex;

@@ -58,10 +58,9 @@
               {{#if button}}
                 <a
                   class="
+                    site-button
+                    {{#if button.variant}}{{ button.variant }}{{else}}primary{{/if}}
                     section-ia-cta__button
-                    {{#if button.variant}}
-                      section-ia-cta__button--{{ button.variant }}
-                    {{/if}}
                   "
                   href="{{ button.href }}"
                 >

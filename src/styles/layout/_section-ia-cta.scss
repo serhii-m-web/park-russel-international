@@ -115,45 +115,6 @@
   }
 
   &__button {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-    height: 48px;
     margin-top: 4px;
-    padding: 0 24px;
-    border-radius: 1000px;
-    font-weight: 500;
-    font-size: 16px;
-    letter-spacing: 0.08px;
-    line-height: 20px;
-    text-decoration: none;
-    transition: $animation-speed;
-
-    img {
-      display: block;
-      width: 16px;
-      height: 16px;
-    }
-  }
-
-  &__button--primary {
-    background-color: $color-red;
-    color: $color-white;
-
-    &:hover {
-      background-color: $color-dark-blue;
-    }
-  }
-
-  &__button--ghost {
-    border: 1px solid $color-white;
-    background-color: transparent;
-    color: $color-white;
-
-    &:hover {
-      background-color: $color-white;
-      color: $color-dark-blue;
-    }
   }
 }

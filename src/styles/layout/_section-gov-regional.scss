@@ -135,37 +135,6 @@
   }
 
   &__button {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-    height: 48px;
     margin-top: 4px;
-    padding: 0 24px;
-    border-radius: 1000px;
-    font-weight: 500;
-    font-size: 16px;
-    letter-spacing: 0.08px;
-    line-height: 20px;
-    text-decoration: none;
-    transition:
-      color 0.2s ease,
-      border-color 0.2s ease,
-      background-color 0.2s ease;
-
-    &--outline {
-      border: 1px solid rgba($color-dark-blue, 0.24);
-      color: $color-dark-blue;
-
-      svg {
-        color: $color-red;
-      }
-
-      &:hover {
-        border-color: $color-red;
-        background-color: rgba($color-red, 0.04);
-        color: $color-red;
-      }
-    }
   }
 }

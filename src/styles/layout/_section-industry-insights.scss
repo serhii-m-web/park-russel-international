@@ -234,34 +234,4 @@
     }
   }
 
-  &__nav-btn {
-    position: static !important;
-    width: 40px !important;
-    height: 40px !important;
-    margin: 0 !important;
-    flex-shrink: 0;
-    border: 1px solid transparent;
-    border-radius: 50%;
-    background-color: $color-red;
-    color: $color-white !important;
-
-    &::after {
-      display: none !important;
-    }
-
-    &.prev {
-      transform: rotate(180deg);
-    }
-
-    &.swiper-button-disabled {
-      border-color: $color-dark-blue;
-      background-color: transparent;
-      color: $color-dark-blue !important;
-    }
-
-    svg {
-      width: 16px !important;
-      height: 16px !important;
-    }
-  }
 }

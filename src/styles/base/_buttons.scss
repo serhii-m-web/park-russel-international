@@ -1,20 +1,37 @@
 @use '../abstracts' as *;
 
+/// Shared pill button — use `.site-button` + variant class in HTML.
+/// Section SCSS should only add layout (width, margin), not redeclare the button.
 .site-button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   gap: 8px;
-  padding: 12px 24px;
-  border-radius: 100px;
-  font-size: 15px;
-  font-weight: 500;
-  letter-spacing: 0.5%;
+  box-sizing: border-box;
+  min-height: 48px;
+  padding: 0 24px;
   border: 1px solid transparent;
+  border-radius: 1000px;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.08px;
+  line-height: 20px;
+  text-decoration: none;
+  cursor: pointer;
   transition: $animation-speed;
 
+  .icon,
+  svg,
+  img {
+    display: block;
+    flex-shrink: 0;
+    width: 16px;
+    height: 16px;
+  }
+
   @include media('<tablet') {
-    padding: 12px 16px;
+    padding: 0 16px;
   }
 
   &.primary {
@@ -24,32 +41,77 @@
     &:hover {
       background-color: $color-white;
       color: $color-red;
-      border: 1px solid $color-red;
+      border-color: $color-red;
     }
   }
 
-  &.secondary {
+  &.secondary,
+  &.ghost {
     background-color: transparent;
     color: $color-white;
-    border: 1px solid $color-white;
+    border-color: $color-white;
 
     &:hover {
-      background-color: $color-gray;
-      color: $color-white;
-      border: 1px solid $color-gray;
+      background-color: $color-white;
+      color: $color-dark-blue;
     }
   }
 
   &.secondary-red {
     background-color: transparent;
     color: $color-red;
-    border: 1px solid $color-red;
+    border-color: $color-red;
 
     &:hover {
-      background-color: $color-gray;
+      background-color: $color-red;
       color: $color-white;
-      border: 1px solid $color-gray;
     }
+  }
+
+  &.outline {
+    background-color: transparent;
+    color: $color-dark-blue;
+    border-color: rgba($color-dark-blue, 0.24);
+
+    .icon,
+    svg {
+      color: $color-red;
+    }
+
+    &:hover {
+      border-color: $color-red;
+      background-color: rgba($color-red, 0.04);
+      color: $color-red;
+
+      .icon,
+      svg {
+        color: $color-red;
+      }
+    }
+  }
+
+  &.white {
+    background-color: $color-white;
+    color: $color-dark-blue;
+
+    .icon,
+    svg {
+      color: $color-red;
+    }
+
+    &:hover {
+      background-color: $color-red;
+      color: $color-white;
+
+      .icon,
+      svg {
+        color: $color-white;
+      }
+    }
+  }
+
+  &.block {
+    width: 100%;
   }
 }
 
@@ -97,5 +159,37 @@
         border-color: $color-red;
       }
     }
+  }
+}
+
+/// Shared Swiper prev/next control — add class `site-nav-btn` in HTML.
+.site-nav-btn {
+  position: static !important;
+  width: 40px !important;
+  height: 40px !important;
+  margin: 0 !important;
+  flex-shrink: 0;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  background-color: $color-red;
+  color: $color-white !important;
+
+  &::after {
+    display: none !important;
+  }
+
+  &.prev {
+    transform: rotate(180deg);
+  }
+
+  &.swiper-button-disabled {
+    border-color: rgba($color-dark-blue, 0.2);
+    background-color: transparent;
+    color: $color-dark-blue !important;
+  }
+
+  svg {
+    width: 16px !important;
+    height: 16px !important;
   }
 }

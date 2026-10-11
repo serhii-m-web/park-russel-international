@@ -133,7 +133,7 @@
                     <p class="section-news-list__widget-text">{{{ text }}}</p>
                   {{/if}}
                   {{#if button}}
-                    <a class="section-news-list__widget-button" href="{{ button.href }}">
+                    <a class="site-button primary section-news-list__widget-button" href="{{ button.href }}">
                       <span>{{ button.label }}</span>
                       {{#if button.icon}}
                         {{> icon name="arrow-right" width="16" height="16"}}
@@ -177,7 +177,7 @@
                   {{/if}}
                   {{#if button}}
                     <a
-                      class="section-news-list__widget-button section-news-list__widget-button--ghost"
+                      class="site-button ghost section-news-list__widget-button"
                       href="{{ button.href }}"
                     >
                       <span>{{ button.label }}</span>
@@ -277,7 +277,7 @@
                       />
                       <span>{{ consent }}</span>
                     </label>
-                    <button class="section-news-list__widget-button" type="submit">
+                    <button class="site-button primary section-news-list__widget-button" type="submit">
                       <span>{{ button.label }}</span>
                       {{#if button.icon}}
                         {{> icon name="arrow-right" width="16" height="16"}}
