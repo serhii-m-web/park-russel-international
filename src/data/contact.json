@@ -40,7 +40,7 @@
     ]
   },
   "contactLocations": {
-    "id": "our-locations",
+    "id": "contact-locations",
     "eyebrow": "Parker Russell Member Firms",
     "title": "Our Locations",
     "leadHtml": "View the locations and contact information for <span class=\"is-accent\">184 international offices</span>.",
@@ -50,7 +50,7 @@
       {
         "name": "Europe",
         "countries": [
-          { "label": "Bulgaria", "href": "member-firm.html" },
+          { "label": "Bulgaria", "href": "template-member-firm-country.html" },
           { "label": "Cyprus", "href": "#" },
           { "label": "Georgia", "href": "#" },
           { "label": "France", "href": "#" },

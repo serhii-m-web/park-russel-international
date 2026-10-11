@@ -90,7 +90,7 @@
         "icon": "/icons/icon-public.svg",
         "button": {
           "label": "View Locations",
-          "href": "contact.html#our-locations",
+          "href": "contact.html#contact-locations",
           "variant": "ghost",
           "icon": true
         }

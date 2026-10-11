@@ -7,7 +7,7 @@
     "id": "member-firm-hero",
     "breadcrumb": [
       { "label": "Home", "href": "index.html" },
-      { "label": "Member Firms", "href": "contact.html#our-locations" },
+      { "label": "Member Firms", "href": "contact.html#contact-locations" },
       { "label": "Bulgaria" }
     ],
     "imageBg": "/images/member-firm/hero-bg.png",
