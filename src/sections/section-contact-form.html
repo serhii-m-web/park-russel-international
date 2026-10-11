@@ -1,0 +1,217 @@
+<section
+  class="
+    section-contact-form
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if contactForm.id}}
+    id="{{ contactForm.id }}"
+  {{/if}}
+  {{#if contactForm.title}}
+    aria-labelledby="{{#if contactForm.id}}{{ contactForm.id }}{{else}}section-contact-form{{/if}}-title"
+  {{else}}
+    aria-label="Get in touch"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-contact-form__layout">
+      <div class="section-contact-form__intro">
+        <span class="section-contact-form__rule" aria-hidden="true"></span>
+
+        {{#if contactForm.title}}
+          <h2
+            id="{{#if contactForm.id}}{{ contactForm.id }}{{else}}section-contact-form{{/if}}-title"
+            class="section-contact-form__title"
+          >
+            {{{ contactForm.title }}}
+          </h2>
+        {{/if}}
+
+        {{#if contactForm.lead}}
+          <p class="section-contact-form__lead">{{{ contactForm.lead }}}</p>
+        {{/if}}
+
+        {{#if contactForm.image}}
+          <div class="section-contact-form__media">
+            {{picture
+              contactForm.image
+              alt=contactForm.imageAlt
+              class="section-contact-form__image"
+              width="520"
+              height="559"
+            }}
+          </div>
+        {{/if}}
+      </div>
+
+      <div class="section-contact-form__panel">
+        <form
+          class="section-contact-form__form"
+          action="#"
+          method="post"
+          novalidate
+        >
+          <div class="section-contact-form__row">
+            <div class="section-contact-form__field">
+              <label class="section-contact-form__label" for="contact-first-name">
+                First name
+              </label>
+              <input
+                class="section-contact-form__input"
+                type="text"
+                id="contact-first-name"
+                name="first-name"
+                autocomplete="given-name"
+                required
+              />
+            </div>
+
+            <div class="section-contact-form__field">
+              <label class="section-contact-form__label" for="contact-surname">
+                Surname
+              </label>
+              <input
+                class="section-contact-form__input"
+                type="text"
+                id="contact-surname"
+                name="surname"
+                autocomplete="family-name"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="section-contact-form__row">
+            <div class="section-contact-form__field">
+              <label class="section-contact-form__label" for="contact-email">
+                Email
+              </label>
+              <input
+                class="section-contact-form__input"
+                type="email"
+                id="contact-email"
+                name="email"
+                autocomplete="email"
+                required
+              />
+            </div>
+
+            <div class="section-contact-form__field">
+              <label class="section-contact-form__label" for="contact-phone">
+                Phone
+              </label>
+              <input
+                class="section-contact-form__input"
+                type="tel"
+                id="contact-phone"
+                name="phone"
+                autocomplete="tel"
+              />
+            </div>
+          </div>
+
+          <div class="section-contact-form__row">
+            <div class="section-contact-form__field">
+              <label class="section-contact-form__label" for="contact-city">
+                Town/City
+              </label>
+              <input
+                class="section-contact-form__input"
+                type="text"
+                id="contact-city"
+                name="city"
+                autocomplete="address-level2"
+              />
+            </div>
+
+            {{#if contactForm.enquiryOptions.length}}
+              <div class="section-contact-form__field">
+                <label class="section-contact-form__label" for="contact-enquiry">
+                  What is the enquiry about?
+                </label>
+                <div class="section-contact-form__select">
+                  <select
+                    class="section-contact-form__select-input"
+                    id="contact-enquiry"
+                    name="enquiry"
+                    required
+                  >
+                    {{#each contactForm.enquiryOptions}}
+                      <option
+                        value="{{ value }}"
+                        {{#if disabled}}disabled{{/if}}
+                        {{#if selected}}selected{{/if}}
+                      >
+                        {{ label }}
+                      </option>
+                    {{/each}}
+                  </select>
+                  {{> icon
+                    name="chevron-down"
+                    width="22"
+                    height="22"
+                    class="section-contact-form__select-icon"
+                  }}
+                </div>
+              </div>
+            {{/if}}
+          </div>
+
+          {{#if contactForm.contactMethods.length}}
+            <fieldset class="section-contact-form__field section-contact-form__fieldset">
+              <legend class="section-contact-form__label">
+                How would you like us to contact you?
+              </legend>
+              <div class="section-contact-form__radio-group">
+                {{#each contactForm.contactMethods}}
+                  <label class="section-contact-form__radio">
+                    <input
+                      type="radio"
+                      name="contact-method"
+                      value="{{ value }}"
+                      {{#if checked}}checked{{/if}}
+                    />
+                    <span>{{ label }}</span>
+                  </label>
+                {{/each}}
+              </div>
+            </fieldset>
+          {{/if}}
+
+          <div class="section-contact-form__field">
+            <label class="section-contact-form__label" for="contact-message">
+              Message
+            </label>
+            <textarea
+              class="section-contact-form__textarea"
+              id="contact-message"
+              name="message"
+              rows="5"
+              required
+            ></textarea>
+          </div>
+
+          {{#if contactForm.consent}}
+            <label class="section-contact-form__checkbox">
+              <input type="checkbox" name="marketing" value="1" />
+              <span>{{ contactForm.consent }}</span>
+            </label>
+          {{/if}}
+
+          <button
+            class="section-contact-form__submit site-button primary"
+            type="submit"
+          >
+            <span>{{#if contactForm.submitLabel}}{{ contactForm.submitLabel }}{{else}}Send message{{/if}}</span>
+            {{> icon
+              name="arrow-right"
+              width="16"
+              height="16"
+            }}
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>

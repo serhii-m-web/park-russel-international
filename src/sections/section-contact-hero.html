@@ -1,0 +1,130 @@
+<section
+  class="
+    section-contact-hero
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if contactHero.id}}
+    id="{{ contactHero.id }}"
+  {{/if}}
+  {{#if contactHero.title}}
+    aria-labelledby="{{#if contactHero.id}}{{ contactHero.id }}{{else}}section-contact-hero{{/if}}-title"
+  {{else}}
+    aria-label="Contact us"
+  {{/if}}
+>
+  <div class="container">
+    {{#if contactHero.breadcrumb.length}}
+      <nav class="section-contact-hero__breadcrumb" aria-label="Breadcrumb">
+        <ol class="section-contact-hero__breadcrumb-list">
+          {{#each contactHero.breadcrumb}}
+            <li class="section-contact-hero__breadcrumb-item">
+              {{#if href}}
+                <a class="section-contact-hero__breadcrumb-link" href="{{ href }}">
+                  {{ label }}
+                </a>
+              {{else}}
+                <span class="section-contact-hero__breadcrumb-current" aria-current="page">
+                  {{ label }}
+                </span>
+              {{/if}}
+            </li>
+          {{/each}}
+        </ol>
+      </nav>
+    {{/if}}
+
+    <div class="section-contact-hero__card">
+      {{#if contactHero.imageBg}}
+        <div class="section-contact-hero__bg" aria-hidden="true">
+          {{picture
+            contactHero.imageBg
+            alt=""
+            class="section-contact-hero__bg-image"
+            width="1376"
+            height="452"
+            loading=contactHero.imageLoading
+          }}
+        </div>
+      {{/if}}
+
+      <div class="section-contact-hero__inner">
+        {{#if contactHero.title}}
+          <h1
+            id="{{#if contactHero.id}}{{ contactHero.id }}{{else}}section-contact-hero{{/if}}-title"
+            class="section-contact-hero__title"
+          >
+            {{{ contactHero.title }}}
+          </h1>
+        {{/if}}
+
+        {{#if contactHero.lead}}
+          <p class="section-contact-hero__lead">{{{ contactHero.lead }}}</p>
+        {{/if}}
+      </div>
+    </div>
+
+    <div class="section-contact-hero__office">
+      {{#if contactHero.officeIntro}}
+        <div class="section-contact-hero__office-intro">
+          {{#if contactHero.officeIntro.icon}}
+            <span class="section-contact-hero__office-icon" aria-hidden="true">
+              <img
+                src="{{ contactHero.officeIntro.icon }}"
+                alt=""
+                width="28"
+                height="28"
+                decoding="async"
+              />
+            </span>
+          {{/if}}
+          {{#if contactHero.officeIntro.text}}
+            <p class="section-contact-hero__office-text">
+              {{{ contactHero.officeIntro.text }}}
+            </p>
+          {{/if}}
+        </div>
+      {{/if}}
+
+      {{#if contactHero.details.length}}
+        <ul class="section-contact-hero__details">
+          {{#each contactHero.details}}
+            <li class="section-contact-hero__detail">
+              {{#if icon}}
+                <span class="section-contact-hero__detail-icon" aria-hidden="true">
+                  <img
+                    src="{{ icon }}"
+                    alt=""
+                    width="22"
+                    height="22"
+                    decoding="async"
+                  />
+                </span>
+              {{/if}}
+              {{#if lines.length}}
+                <div class="section-contact-hero__detail-text">
+                  {{#if title}}
+                    <p class="section-contact-hero__detail-title">{{ title }}</p>
+                  {{/if}}
+                  <p class="section-contact-hero__detail-lines">
+                    {{#each lines}}
+                      {{ this }}
+                      {{#unless @last}}<br />{{/unless}}
+                    {{/each}}
+                  </p>
+                </div>
+              {{else if href}}
+                <a class="section-contact-hero__detail-link" href="{{ href }}">
+                  {{ text }}
+                </a>
+              {{else}}
+                <p class="section-contact-hero__detail-text">{{ text }}</p>
+              {{/if}}
+            </li>
+          {{/each}}
+        </ul>
+      {{/if}}
+    </div>
+  </div>
+</section>

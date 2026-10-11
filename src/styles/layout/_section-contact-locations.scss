@@ -1,0 +1,197 @@
+@use '../abstracts' as *;
+
+.section-contact-locations {
+  @include adaptive-value('padding-top', 120, 56, 1);
+  @include adaptive-value('padding-bottom', 120, 56, 1);
+  background-color: $color-white;
+
+  &__header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 96px;
+    @include adaptive-value('margin-bottom', 56, 32, 1);
+
+    @include media('<desktop') {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 24px;
+    }
+  }
+
+  &__heading {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    gap: 24px;
+    min-width: 0;
+  }
+
+  &__eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    margin: 0;
+    color: $color-red;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.14px;
+    line-height: 20px;
+  }
+
+  &__eyebrow-rule {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: $color-red;
+  }
+
+  &__title {
+    margin: 0;
+    max-width: 480px;
+    color: $color-dark-blue;
+    font-weight: 500;
+    letter-spacing: -1.2px;
+    line-height: calc(52 / 48);
+    @include adaptive-value('font-size', 48, 32, 1);
+  }
+
+  &__intro {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 600px;
+    gap: 14px;
+    max-width: 100%;
+    min-width: 0;
+
+    @include media('<desktop') {
+      flex: 1 1 auto;
+    }
+  }
+
+  &__lead {
+    margin: 0;
+    color: $color-dark-blue;
+    letter-spacing: -0.11px;
+    line-height: calc(32 / 22);
+    @include adaptive-value('font-size', 22, 18, 1);
+
+    .is-accent {
+      color: $color-red;
+      font-weight: 500;
+    }
+  }
+
+  &__body {
+    margin: 0;
+    color: $color-text-muted;
+    line-height: calc(26 / 17);
+    @include adaptive-value('font-size', 17, 16, 1);
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 24px;
+
+    @include media('<desktop') {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    @include media('<tablet') {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &__card {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 32px;
+    border-radius: 24px;
+    background-color: $color-bg-muted;
+
+    @include media('<tablet') {
+      padding: 24px 20px;
+    }
+  }
+
+  &__card-head {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba($color-dark-blue, 0.1);
+  }
+
+  &__card-icon {
+    display: inline-flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 10px;
+    background-color: $color-dark-blue;
+
+    img {
+      display: block;
+      width: 26px;
+      height: 26px;
+    }
+  }
+
+  &__card-title {
+    margin: 0;
+    color: $color-dark-blue;
+    font-weight: 500;
+    letter-spacing: -0.26px;
+    line-height: calc(32 / 26);
+    font-size: 26px;
+  }
+
+  &__pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  &__pill-item {
+    display: flex;
+  }
+
+  &__pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 9px 10px 9px 14px;
+    border: 1px solid #dfe2ea;
+    border-radius: 1000px;
+    background-color: $color-white;
+    color: $color-dark-blue;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: calc(20 / 15);
+    text-decoration: none;
+    transition: $animation-speed;
+
+    svg {
+      color: $color-text-muted;
+      transition: $animation-speed;
+    }
+
+    &:hover,
+    &:focus-visible {
+      border-color: $color-red;
+      background-color: $color-red;
+      color: $color-white;
+
+      svg {
+        color: $color-white;
+      }
+    }
+  }
+}

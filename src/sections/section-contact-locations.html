@@ -1,0 +1,94 @@
+<section
+  class="
+    section-contact-locations
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if contactLocations.id}}
+    id="{{ contactLocations.id }}"
+  {{/if}}
+  {{#if contactLocations.title}}
+    aria-labelledby="{{#if contactLocations.id}}{{ contactLocations.id }}{{else}}section-contact-locations{{/if}}-title"
+  {{else}}
+    aria-label="Our locations"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-contact-locations__header">
+      <div class="section-contact-locations__heading">
+        {{#if contactLocations.eyebrow}}
+          <p class="section-contact-locations__eyebrow">
+            <span class="section-contact-locations__eyebrow-rule" aria-hidden="true"></span>
+            <span>{{ contactLocations.eyebrow }}</span>
+          </p>
+        {{/if}}
+
+        {{#if contactLocations.title}}
+          <h2
+            id="{{#if contactLocations.id}}{{ contactLocations.id }}{{else}}section-contact-locations{{/if}}-title"
+            class="section-contact-locations__title"
+          >
+            {{{ contactLocations.title }}}
+          </h2>
+        {{/if}}
+      </div>
+
+      <div class="section-contact-locations__intro">
+        {{#if contactLocations.leadHtml}}
+          <p class="section-contact-locations__lead">
+            {{{ contactLocations.leadHtml }}}
+          </p>
+        {{/if}}
+        {{#if contactLocations.body}}
+          <p class="section-contact-locations__body">
+            {{{ contactLocations.body }}}
+          </p>
+        {{/if}}
+      </div>
+    </div>
+
+    {{#if contactLocations.regions.length}}
+      <div class="section-contact-locations__grid">
+        {{#each contactLocations.regions}}
+          <div class="section-contact-locations__card">
+            <div class="section-contact-locations__card-head">
+              {{#if ../contactLocations.regionIcon}}
+                <span class="section-contact-locations__card-icon" aria-hidden="true">
+                  <img
+                    src="{{ ../contactLocations.regionIcon }}"
+                    alt=""
+                    width="20"
+                    height="20"
+                    decoding="async"
+                  />
+                </span>
+              {{/if}}
+              {{#if name}}
+                <h3 class="section-contact-locations__card-title">{{ name }}</h3>
+              {{/if}}
+            </div>
+
+            {{#if countries.length}}
+              <ul class="section-contact-locations__pills">
+                {{#each countries}}
+                  <li class="section-contact-locations__pill-item">
+                    <a class="section-contact-locations__pill" href="{{ href }}">
+                      <span>{{ label }}</span>
+                      {{> icon
+                        name="chevron-right"
+                        width="16"
+                        height="16"
+                        class="section-contact-locations__pill-icon"
+                      }}
+                    </a>
+                  </li>
+                {{/each}}
+              </ul>
+            {{/if}}
+          </div>
+        {{/each}}
+      </div>
+    {{/if}}
+  </div>
+</section>

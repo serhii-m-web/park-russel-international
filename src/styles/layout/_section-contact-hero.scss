@@ -1,0 +1,342 @@
+@use '../abstracts' as *;
+
+.section-contact-hero {
+  padding: 24px 0;
+  background-color: $color-white;
+
+  @include media('<tablet') {
+    padding: 16px 0;
+  }
+
+  &__breadcrumb {
+    @include adaptive-value('margin-bottom', 24, 16, 1);
+  }
+
+  &__breadcrumb-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  &__breadcrumb-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: $color-text-muted;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(20 / 14);
+
+    &:not(:last-child)::after {
+      content: '/';
+      color: $color-text-muted;
+    }
+  }
+
+  &__breadcrumb-link {
+    color: $color-text-muted;
+    text-decoration: none;
+    transition: color 0.2s ease;
+
+    &:hover {
+      color: $color-dark-blue;
+    }
+  }
+
+  &__breadcrumb-current {
+    color: $color-dark-blue;
+  }
+
+  // Hero media card.
+  &__card {
+    position: relative;
+    overflow: hidden;
+    @include adaptive-value('min-height', 452, 260, 1);
+    @include adaptive-value('border-radius', 32, 24, 1);
+    margin-bottom: 20px;
+    background-color: $color-navy;
+
+    &::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      z-index: 1;
+      pointer-events: none;
+      background:
+        linear-gradient(0deg, rgba(12, 18, 27, 0.2), rgba(12, 18, 27, 0.2)),
+        linear-gradient(
+          105.67deg,
+          rgba(12, 18, 27, 0.9) 40.63%,
+          rgba(12, 18, 27, 0) 87.03%
+        ),
+        linear-gradient(
+          180deg,
+          rgba(12, 18, 27, 0) 45%,
+          rgba(12, 18, 27, 0.85) 100%
+        );
+
+      @include media('<tablet') {
+        display: none;
+      }
+    }
+  }
+
+  &__bg {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+
+    @include media('<tablet') {
+      position: relative;
+      min-height: 220px;
+
+      &::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        z-index: 1;
+        pointer-events: none;
+        background: linear-gradient(
+          180deg,
+          rgba($color-navy, 0.05) 0%,
+          rgba($color-navy, 0.25) 55%,
+          $color-navy 100%
+        );
+      }
+    }
+  }
+
+  &__bg-image {
+    display: block;
+    width: 100%;
+    height: 100%;
+
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__inner {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    @include adaptive-value('min-height', 452, 260, 1);
+    padding: 96px 64px 56px 64px;
+
+    @include media('<tablet') {
+      padding: 32px 20px;
+    }
+  }
+
+  &__title {
+    margin: 0 0 28px;
+    max-width: 860px;
+    color: $color-white;
+    font-weight: 500;
+    letter-spacing: -2.04px;
+    line-height: calc(72 / 68);
+    @include adaptive-value('font-size', 68, 34, 1);
+
+    @include media('<tablet') {
+      margin-bottom: 16px;
+      letter-spacing: -1.02px;
+      line-height: calc(38 / 34);
+    }
+  }
+
+  &__lead {
+    margin: 0;
+    max-width: 760px;
+    color: $color-white;
+    letter-spacing: -0.11px;
+    line-height: calc(32 / 22);
+    @include adaptive-value('font-size', 22, 16, 1);
+
+    @include media('<tablet') {
+      letter-spacing: -0.09px;
+      line-height: calc(26 / 16);
+    }
+  }
+
+  // Office / contact details card.
+  &__office {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    gap: 56px;
+    padding: 48px 56px;
+    @include adaptive-value('border-radius', 32, 24, 1);
+    background:
+      radial-gradient(
+        80% 80% at 0% 80%,
+        rgba($color-red, 0.28) 0%,
+        rgba($color-red, 0) 70%
+      ),
+      $color-navy;
+
+    @include media('<desktop') {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 32px;
+      padding: 32px 24px;
+    }
+  }
+
+  &__office-intro {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    gap: 24px;
+    width: 380px;
+    max-width: 100%;
+
+    @include media('<desktop') {
+      width: 100%;
+    }
+  }
+
+  &__office-icon {
+    display: inline-flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+    border-radius: 14px;
+    background-color: $color-red;
+    box-shadow: 0 12px 28px rgba($color-red, 0.35);
+
+    img {
+      display: block;
+      width: 35px;
+      height: 35px;
+    }
+  }
+
+  &__office-text {
+    margin: 0;
+    color: $color-white;
+    font-weight: 500;
+    letter-spacing: -0.24px;
+    line-height: calc(32 / 24);
+    font-size: 24px;
+
+    @include media('<tablet') {
+      font-size: 20px;
+      line-height: calc(28 / 20);
+    }
+  }
+
+  &__details {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    flex: 1 1 auto;
+    align-items: flex-start;
+    min-width: 0;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border-left: 1px solid rgba($color-white, 0.14);
+
+    @include media('<desktop') {
+      flex-direction: column;
+      width: 100%;
+      border-left: none;
+      border-top: 1px solid rgba($color-white, 0.14);
+      padding-top: 28px;
+      gap: 12px;
+    }
+  }
+
+  &__detail {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    min-width: 0;
+    padding-left: 40px;
+
+    &:first-child {
+      width: 100%;
+    }
+
+    @include media('<desktop') {
+      flex-direction: row;
+      align-items: flex-start;
+      padding-left: 0;
+      padding-top: 20px;
+
+      &:first-child {
+        padding-top: 0;
+      }
+
+      &:nth-child(2),
+      &:nth-child(3) {
+        align-items: center;
+      }
+    }
+  }
+
+  &__detail-icon {
+    display: inline-flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 10px;
+    background-color: $color-dark-blue;
+    border: 1px solid rgba($color-white, 0.16);
+
+    img {
+      display: block;
+      width: 26px;
+      height: 26px;
+    }
+  }
+
+  &__detail-text {
+    margin: 0;
+    min-width: 0;
+  }
+
+  &__detail-title {
+    margin: 0;
+    color: $color-white;
+    font-weight: 500;
+    line-height: calc(28 / 18);
+    font-size: 18px;
+  }
+
+  &__detail-lines {
+    margin: 0;
+    color: $color-ice;
+    line-height: calc(28 / 18);
+    font-size: 18px;
+  }
+
+  &__detail-link {
+    color: $color-white;
+    font-weight: 500;
+    line-height: calc(28 / 18);
+    font-size: 18px;
+    text-decoration: none;
+    transition: color 0.2s ease;
+
+    &:hover {
+      color: $color-red-soft;
+    }
+  }
+}

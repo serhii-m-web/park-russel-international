@@ -1,0 +1,161 @@
+{
+  "meta": {
+    "title": "Contact us | Parker Russell International",
+    "description": "Get in touch with Parker Russell International. Find our London office details or reach out to one of our expert advisors through our contact form."
+  },
+  "contactHero": {
+    "id": "contact-hero",
+    "breadcrumb": [
+      { "label": "Home", "href": "index.html" },
+      { "label": "Contact us" }
+    ],
+    "imageBg": "/images/contact/hero-bg.png",
+    "imageLoading": "eager",
+    "title": "Contact us",
+    "lead": "If you have a question, would like some advice regarding your business or personal affairs, get in touch with us today, we'd love to hear from you. We know not everyone wants to complete a form, and at the same time not everyone wishes to pick up the telephone, therefore, we've made it as easy as possible for you to contact us.",
+    "officeIntro": {
+      "icon": "/icons/contact/icon-forum.svg",
+      "text": "For any questions about our services, please get in touch with one of our expert advisors."
+    },
+    "details": [
+      {
+        "icon": "/icons/contact/icon-location.svg",
+        "title": "Parker Russell",
+        "lines": [
+          "Level 30, The Leadenhall Building,",
+          "122 Leadenhall Street, City of London,",
+          "London EC3V 4AB , United Kingdom"
+        ]
+      },
+      {
+        "icon": "/icons/contact/icon-call.svg",
+        "text": "T: +44 (0) 20 7378 7500",
+        "href": "tel:+442073787500"
+      },
+      {
+        "icon": "/icons/contact/icon-mail.svg",
+        "text": "E: info@parkerrussell.co.uk",
+        "href": "mailto:info@parkerrussell.co.uk"
+      }
+    ]
+  },
+  "contactLocations": {
+    "id": "our-locations",
+    "eyebrow": "Parker Russell Member Firms",
+    "title": "Our Locations",
+    "leadHtml": "View the locations and contact information for <span class=\"is-accent\">184 international offices</span>.",
+    "body": "Our independent member firms offer audit, accountancy and other related services in 86 countries by more than 180 offices and over 2000 qualified auditors, accountants and advisors.",
+    "regionIcon": "/icons/contact/icon-public.svg",
+    "regions": [
+      {
+        "name": "Europe",
+        "countries": [
+          { "label": "Bulgaria", "href": "#" },
+          { "label": "Cyprus", "href": "#" },
+          { "label": "Georgia", "href": "#" },
+          { "label": "France", "href": "#" },
+          { "label": "Greece", "href": "#" },
+          { "label": "Italy", "href": "#" },
+          { "label": "Malta", "href": "#" },
+          { "label": "Netherlands", "href": "#" },
+          { "label": "Portugal", "href": "#" },
+          { "label": "Romania", "href": "#" },
+          { "label": "Serbia", "href": "#" },
+          { "label": "Turkey", "href": "#" },
+          { "label": "Ukraine", "href": "#" },
+          { "label": "United Kingdom", "href": "#" }
+        ]
+      },
+      {
+        "name": "Middle East",
+        "countries": [
+          { "label": "Bahrain", "href": "#" },
+          { "label": "Egypt", "href": "#" },
+          { "label": "Jordan", "href": "#" },
+          { "label": "Kingdom of SA", "href": "#" },
+          { "label": "Kuwait", "href": "#" },
+          { "label": "Lebanon", "href": "#" },
+          { "label": "Morocco", "href": "#" },
+          { "label": "Qatar", "href": "#" },
+          { "label": "UAE", "href": "#" }
+        ]
+      },
+      {
+        "name": "South America",
+        "countries": [
+          { "label": "Argentina", "href": "#" },
+          { "label": "Bolivia", "href": "#" },
+          { "label": "Brazil", "href": "#" },
+          { "label": "British Virgin Islands", "href": "#" },
+          { "label": "Colombia", "href": "#" },
+          { "label": "Ecuador", "href": "#" },
+          { "label": "Paraguay", "href": "#" },
+          { "label": "Peru", "href": "#" },
+          { "label": "Uruguay", "href": "#" },
+          { "label": "Venezuela", "href": "#" }
+        ]
+      },
+      {
+        "name": "North America",
+        "countries": [
+          { "label": "Canada", "href": "#" },
+          { "label": "Costa Rica", "href": "#" },
+          { "label": "El Salvador", "href": "#" },
+          { "label": "Guatemala", "href": "#" },
+          { "label": "Mexico", "href": "#" },
+          { "label": "Nicaragua", "href": "#" },
+          { "label": "Panama", "href": "#" },
+          { "label": "USA", "href": "#" }
+        ]
+      },
+      {
+        "name": "Africa",
+        "countries": [
+          { "label": "Africa", "href": "#" },
+          { "label": "Mauritius", "href": "#" },
+          { "label": "Nigeria", "href": "#" },
+          { "label": "Somalia", "href": "#" },
+          { "label": "Sudan", "href": "#" },
+          { "label": "Tunisia", "href": "#" },
+          { "label": "Zimbabwe", "href": "#" }
+        ]
+      },
+      {
+        "name": "Asia / Pacific",
+        "countries": [
+          { "label": "Azerbaijan", "href": "#" },
+          { "label": "Bangladesh", "href": "#" },
+          { "label": "India", "href": "#" },
+          { "label": "Indonesia", "href": "#" },
+          { "label": "Kazakhstan", "href": "#" },
+          { "label": "Malaysia", "href": "#" },
+          { "label": "Pakistan", "href": "#" },
+          { "label": "Singapore", "href": "#" },
+          { "label": "Uzbekistan", "href": "#" },
+          { "label": "Vietnam", "href": "#" }
+        ]
+      }
+    ]
+  },
+  "contactForm": {
+    "id": "get-in-touch",
+    "title": "Get in touch",
+    "lead": "Please fill out your details below and select the most relevant inquiry type from the drop-down menus. A member of our team will get in touch.",
+    "image": "/images/contact/get-in-touch.png",
+    "imageAlt": "",
+    "enquiryOptions": [
+      { "label": "Please select", "value": "", "disabled": true, "selected": true },
+      { "label": "General enquiry", "value": "general" },
+      { "label": "Join the network", "value": "join" },
+      { "label": "Media", "value": "media" },
+      { "label": "Careers", "value": "careers" },
+      { "label": "Other", "value": "other" }
+    ],
+    "contactMethods": [
+      { "label": "Phone", "value": "phone", "checked": true },
+      { "label": "Email", "value": "email" }
+    ],
+    "consent": "I'm happy to receive relevant marketing emails from Parker Russell.",
+    "submitLabel": "Send message"
+  }
+}
