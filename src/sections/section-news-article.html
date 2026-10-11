@@ -1,0 +1,373 @@
+<section
+  class="section-news-article"
+  id="news-article"
+  aria-labelledby="news-article-title"
+>
+  <div class="section-news-article__hero">
+    <div class="container">
+      <nav class="section-news-article__breadcrumb" aria-label="Breadcrumb">
+        <ol class="section-news-article__breadcrumb-list">
+          <li class="section-news-article__breadcrumb-item">
+            <a class="section-news-article__breadcrumb-link" href="index.html">
+              Home
+            </a>
+          </li>
+          <li class="section-news-article__breadcrumb-item">
+            <a class="section-news-article__breadcrumb-link" href="news.html">
+              News
+            </a>
+          </li>
+        </ol>
+      </nav>
+
+      <div class="section-news-article__hero-card">
+        <div class="section-news-article__hero-bg" aria-hidden="true">
+          {{picture
+            "/images/news-article/hero-bg.jpg"
+            alt=""
+            class="section-news-article__hero-image"
+            width="1376"
+            height="526"
+            loading="eager"
+          }}
+        </div>
+
+        <div class="section-news-article__hero-inner">
+          <span class="section-news-article__tag">News</span>
+          <h1 id="news-article-title" class="section-news-article__hero-title">
+            Companies House Crackdown: Businesses Urged to Act on ECCTA Deadlines
+          </h1>
+          <p class="section-news-article__hero-date">
+            <img
+              src="/icons/news-article/icon-calendar.svg"
+              alt=""
+              width="18"
+              height="18"
+              decoding="async"
+            />
+            <span class="section-news-article__hero-date-label">Date</span>
+            <time datetime="2025-08-04">04.08.25</time>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-news-article__main">
+    <div class="container">
+      <article class="section-news-article__body">
+        <span class="section-news-article__rule" aria-hidden="true"></span>
+
+        {{!--
+          Rich-text showcase for WordPress / CMS content.
+          Styles target tags inside .section-news-article__content.
+        --}}
+        <div class="section-news-article__content">
+          <p class="lead">
+            Research by Vistra shows fewer than one in three UK company directors feel ready
+            for the upcoming Economic Crime and Corporate Transparency Act (ECCTA), with
+            smaller firms being the least prepared.
+          </p>
+
+          <h2>Heading level 2</h2>
+          <p>
+            The ECCTA represents the biggest Companies House reform since 1844, introducing
+            mandatory ID verification for directors and a new offence for failing to prevent
+            fraud. ID verification began in April and will roll out gradually over 12 months
+            from autumn 2025 to ease the transition.
+          </p>
+
+          <h3>Heading level 3</h3>
+          <p>
+            Despite the threat of unlimited fines and director disqualification, uptake has
+            been slow. Of the
+            <strong class="is-accent">6–7 million</strong>
+            people required to verify their ID, only
+            <strong class="is-accent">250,000</strong>
+            have done so voluntarily. Vistra's survey of 100 directors found
+            <strong class="is-accent">39%</strong>
+            are unaware of ECCTA deadlines.
+          </p>
+
+          <h4>Heading level 4</h4>
+          <p>
+            Larger firms are better prepared, with
+            <strong class="is-accent">37%</strong>
+            fully ready and
+            <strong class="is-accent">49%</strong>
+            confident in their compliance procedures. However,
+            <strong class="is-accent">58%</strong>
+            of businesses consider the ECCTA burdensome, while only
+            <strong class="is-accent">23%</strong>
+            disagree.
+          </p>
+
+          <h5>Heading level 5</h5>
+          <h6>Heading level 6</h6>
+
+          <p>
+            Inline styles:
+            <strong>strong</strong>,
+            <b>bold</b>,
+            <em>emphasis</em>,
+            <i>italic</i>,
+            <u>underline</u>,
+            <s>strikethrough</s>,
+            <mark>highlighted</mark>,
+            <small>small text</small>,
+            H<sub>2</sub>O,
+            E=mc<sup>2</sup>,
+            and an
+            <a href="news.html">inline link</a>.
+          </p>
+
+          <blockquote>
+            <span class="section-news-article__quote-icon" aria-hidden="true">
+              <img
+                src="/icons/news-article/icon-quote.svg"
+                alt=""
+                width="30"
+                height="30"
+                decoding="async"
+              />
+            </span>
+            <p>
+              “With reforms of this scale, it's no surprise companies are seeking specialist
+              support to manage compliance efficiently,” Ogunsola said.
+            </p>
+          </blockquote>
+
+          <p>
+            Meg Ogunsola, Vistra's Global Director, warns that many businesses underestimate
+            the Act's scale and urgency.
+            <cite>— Meg Ogunsola, Vistra</cite>
+          </p>
+
+          <ul>
+            <li>Unordered list item one</li>
+            <li>
+              Unordered list item two with a nested list
+              <ul>
+                <li>Nested unordered item</li>
+                <li>Another nested item</li>
+              </ul>
+            </li>
+            <li>Unordered list item three</li>
+          </ul>
+
+          <ol>
+            <li>Ordered list item one</li>
+            <li>
+              Ordered list item two
+              <ol>
+                <li>Nested ordered item</li>
+                <li>Another nested item</li>
+              </ol>
+            </li>
+            <li>Ordered list item three</li>
+          </ol>
+
+          <dl>
+            <dt>Definition term</dt>
+            <dd>Definition description for glossary-style content from the CMS.</dd>
+            <dt>ECCTA</dt>
+            <dd>Economic Crime and Corporate Transparency Act.</dd>
+          </dl>
+
+          <figure>
+            {{picture
+              "/images/news-article/more-1.jpg"
+              alt="Example article figure"
+              class="section-news-article__figure-image"
+              width="820"
+              height="420"
+            }}
+            <figcaption>
+              Figure caption example for images embedded in the article body.
+            </figcaption>
+          </figure>
+
+          <hr />
+
+          <pre><code>// Code block example
+function verifyDirector(id) {
+  return id ? 'verified' : 'pending';
+}</code></pre>
+
+          <p>
+            Inline code example:
+            <code>verifyDirector()</code>
+            and a keyboard shortcut
+            <kbd>Ctrl</kbd>
+            +
+            <kbd>S</kbd>.
+          </p>
+
+          <div class="table-wrap">
+            <table>
+              <caption>Example comparison table</caption>
+              <thead>
+                <tr>
+                  <th scope="col">Segment</th>
+                  <th scope="col">Ready</th>
+                  <th scope="col">Aware</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Large firms</td>
+                  <td>37%</td>
+                  <td>61%</td>
+                </tr>
+                <tr>
+                  <td>SME directors</td>
+                  <td>19%</td>
+                  <td>41%</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <p class="section-news-article__source">
+            Full info obtained
+            <a href="https://www.parkerrussell.co.uk" target="_blank" rel="noopener noreferrer">
+              here
+            </a>
+          </p>
+        </div>
+      </article>
+
+      <nav class="section-news-article__pager" aria-label="Article navigation">
+        <a class="section-news-article__pager-link section-news-article__pager-link--prev" href="#">
+          <span class="section-news-article__pager-icon" aria-hidden="true">
+            {{> icon
+              name="arrow-right"
+              width="22"
+              height="22"
+            }}
+          </span>
+          <span class="section-news-article__pager-text">
+            <span class="section-news-article__pager-label">Previous</span>
+            <span class="section-news-article__pager-title">
+              New FRC Guidance Supports Responsible AI Adoption in Audit
+            </span>
+          </span>
+        </a>
+
+        <a class="section-news-article__pager-link section-news-article__pager-link--next" href="#">
+          <span class="section-news-article__pager-text">
+            <span class="section-news-article__pager-label">Next</span>
+            <span class="section-news-article__pager-title">
+              IAASB Issues Major Overhaul of Fraud Auditing Standard
+            </span>
+          </span>
+          <span class="section-news-article__pager-icon" aria-hidden="true">
+            {{> icon
+              name="arrow-right"
+              width="22"
+              height="22"
+            }}
+          </span>
+        </a>
+      </nav>
+    </div>
+  </div>
+
+  <div class="section-news-article__more" aria-labelledby="news-article-more-title">
+    <div class="container">
+      <div class="section-news-article__more-header">
+        <span class="section-news-article__rule" aria-hidden="true"></span>
+        <h2 id="news-article-more-title" class="section-news-article__more-title">
+          More <span>articles</span>
+        </h2>
+      </div>
+
+      <ul class="section-news-article__more-list">
+        <li>
+          <a class="section-news-article__more-card" href="#">
+            <span class="section-news-article__more-media" aria-hidden="true">
+              {{picture
+                "/images/news-article/more-1.jpg"
+                alt=""
+                class="section-news-article__more-image"
+                width="421"
+                height="240"
+              }}
+            </span>
+            <span class="section-news-article__more-body">
+              <span class="section-news-article__more-date">
+                <img
+                  src="/icons/news-article/icon-calendar-red.svg"
+                  alt=""
+                  width="16"
+                  height="16"
+                  decoding="async"
+                />
+                <span>17th August 2026</span>
+              </span>
+              <span class="section-news-article__more-card-title">
+                PRI European Annual Regional Forum 2026
+              </span>
+            </span>
+          </a>
+        </li>
+        <li>
+          <a class="section-news-article__more-card" href="#">
+            <span class="section-news-article__more-media" aria-hidden="true">
+              {{picture
+                "/images/news-article/more-2.jpg"
+                alt=""
+                class="section-news-article__more-image"
+                width="421"
+                height="240"
+              }}
+            </span>
+            <span class="section-news-article__more-body">
+              <span class="section-news-article__more-date">
+                <img
+                  src="/icons/news-article/icon-calendar-red.svg"
+                  alt=""
+                  width="16"
+                  height="16"
+                  decoding="async"
+                />
+                <span>17th August 2026</span>
+              </span>
+              <span class="section-news-article__more-card-title">
+                Featured Member Firm: Parker Russell Portugal
+              </span>
+            </span>
+          </a>
+        </li>
+        <li>
+          <a class="section-news-article__more-card" href="#">
+            <span class="section-news-article__more-media" aria-hidden="true">
+              {{picture
+                "/images/news-article/more-3.jpg"
+                alt=""
+                class="section-news-article__more-image"
+                width="421"
+                height="240"
+              }}
+            </span>
+            <span class="section-news-article__more-body">
+              <span class="section-news-article__more-date">
+                <img
+                  src="/icons/news-article/icon-calendar-red.svg"
+                  alt=""
+                  width="16"
+                  height="16"
+                  decoding="async"
+                />
+                <span>14th August 2026</span>
+              </span>
+              <span class="section-news-article__more-card-title">
+                Parker Russell Angola has joined Parker Russell, Strengthening Our Presence Across Africa
+              </span>
+            </span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
