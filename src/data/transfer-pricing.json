@@ -83,32 +83,32 @@
     "lead": "Transfer pricing becomes increasingly important as the number, scale and complexity of transactions within an international group grow.",
     "cards": [
       {
-        "icon": "/icons/transfer-pricing/critical-public.svg",
+        "icon": "/icons/icon-public.svg",
         "title": "Entering New Markets",
         "description": "Establishing entities or operations in another jurisdiction can introduce new intercompany relationships and transfer pricing requirements."
       },
       {
-        "icon": "/icons/transfer-pricing/critical-tree.svg",
+        "icon": "/icons/icon-account-tree.svg",
         "title": "Changing the Group Structure",
         "description": "Acquisitions, reorganisations and changes in operating models can alter where functions are performed, assets are used and risks are managed."
       },
       {
-        "icon": "/icons/transfer-pricing/critical-swap.svg",
+        "icon": "/icons/icon-swap-horiz.svg",
         "title": "Increasing Intercompany Transactions",
         "description": "Growing volumes of goods, services, financing, intellectual property or other related-party transactions can increase both complexity and exposure."
       },
       {
-        "icon": "/icons/transfer-pricing/critical-bulb.svg",
+        "icon": "/icons/icon-lightbulb.svg",
         "title": "Developing Intellectual Property",
         "description": "Where intellectual property is developed, owned or used across jurisdictions, understanding the underlying functions and economic relationships becomes particularly important."
       },
       {
-        "icon": "/icons/transfer-pricing/critical-bank.svg",
+        "icon": "/icons/icon-account-balance.svg",
         "title": "Financing Across the Group",
         "description": "Intercompany loans and other financial arrangements can create transfer pricing considerations around pricing, terms and the commercial basis of the arrangement."
       },
       {
-        "icon": "/icons/transfer-pricing/critical-verified.svg",
+        "icon": "/icons/icon-verified-user.svg",
         "title": "Facing Greater Tax Scrutiny",
         "description": "When tax authorities examine related-party transactions, businesses need a position that is supported by appropriate analysis and documentation."
       }
@@ -123,7 +123,7 @@
     "image": "/images/transfer-pricing/earth-sphere.svg",
     "stages": [
       {
-        "icon": "/icons/transfer-pricing/ddd-draw.svg",
+        "icon": "/icons/icon-ddd-draw.svg",
         "label": "01 — DESIGN",
         "title": "Build the Position Around the Business.",
         "lead": "Transfer pricing begins with understanding how the group actually operates.",
@@ -140,7 +140,7 @@
         "emphasis": "A transfer pricing policy that does not reflect commercial reality may become difficult to support regardless of how extensive the documentation is."
       },
       {
-        "icon": "/icons/transfer-pricing/ddd-doc.svg",
+        "icon": "/icons/icon-ddd-doc.svg",
         "label": "02 — DOCUMENT",
         "title": "Make the Rationale Clear and Supportable.",
         "lead": "Documentation should explain more than the result.",
@@ -151,7 +151,7 @@
         "emphasis": "The objective is a transfer pricing position that can be understood, evidenced and consistently applied."
       },
       {
-        "icon": "/icons/transfer-pricing/ddd-shield.svg",
+        "icon": "/icons/icon-ddd-shield.svg",
         "label": "03 — DEFEND",
         "title": "Be Ready to Explain the Position Under Scrutiny.",
         "lead": "Transfer pricing positions may be examined by tax authorities long after the underlying transactions have taken place.",
@@ -245,36 +245,36 @@
       "To understand an international group's transfer pricing position, it is necessary to look beneath the organisational chart."
     ],
     "structureLabel": "The structure tells you where the entities are.",
-    "analysisIcon": "/icons/transfer-pricing/value-arrow.svg",
+    "analysisIcon": "/icons/icon-value-arrow.svg",
     "analysisLabel": "The analysis explains what they actually do.",
     "dimensions": [
       {
-        "icon": "/icons/transfer-pricing/value-engineering.svg",
+        "icon": "/icons/icon-value-engineering.svg",
         "label": "FUNCTIONS",
         "text": "What activities does each entity actually perform?"
       },
       {
-        "icon": "/icons/transfer-pricing/value-inventory.svg",
+        "icon": "/icons/icon-value-inventory.svg",
         "label": "ASSETS",
         "text": "Which tangible and intangible assets are used to create value?"
       },
       {
-        "icon": "/icons/transfer-pricing/value-shield.svg",
+        "icon": "/icons/icon-shield.svg",
         "label": "RISKS",
         "text": "Which entities assume and manage economically significant risks?"
       },
       {
-        "icon": "/icons/transfer-pricing/value-groups.svg",
+        "icon": "/icons/icon-groups.svg",
         "label": "PEOPLE",
         "text": "Where are important activities and decisions actually carried out?"
       },
       {
-        "icon": "/icons/transfer-pricing/value-swap.svg",
+        "icon": "/icons/icon-value-swap.svg",
         "label": "TRANSACTIONS",
         "text": "What is being transferred between related entities — and why?"
       },
       {
-        "icon": "/icons/transfer-pricing/value-diamond.svg",
+        "icon": "/icons/icon-value-diamond.svg",
         "label": "VALUE",
         "text": "How do those contributions connect to the economic outcome?",
         "accent": true
@@ -290,11 +290,11 @@
     "lead": "Transfer pricing is inherently international.",
     "principles": [
       {
-        "icon": "/icons/transfer-pricing/challenge-hub.svg",
+        "icon": "/icons/icon-hub.svg",
         "text": "A transaction between two related companies connects at least two entities — and potentially two different tax systems with different documentation requirements, administrative practices and areas of scrutiny.<br><br><span class=\"is-emphasis\">For larger international structures, the number of interconnected relationships can grow quickly.</span>"
       },
       {
-        "icon": "/icons/transfer-pricing/critical-public.svg",
+        "icon": "/icons/icon-public.svg",
         "text": "The challenge is therefore not simply to establish an appropriate position within one jurisdiction.<br><br><span class=\"is-emphasis\">It is to understand how that position fits within the group as a whole.</span>"
       }
     ],
@@ -321,35 +321,35 @@
     "lead": "International businesses change continuously.",
     "items": [
       {
-        "icon": "/icons/transfer-pricing/change-handshake.svg",
+        "icon": "/icons/icon-handshake.svg",
         "title": "They acquire companies."
       },
       {
-        "icon": "/icons/transfer-pricing/change-public.svg",
+        "icon": "/icons/icon-change-public.svg",
         "title": "Enter new markets."
       },
       {
-        "icon": "/icons/transfer-pricing/change-moving.svg",
+        "icon": "/icons/icon-change-moving.svg",
         "title": "Move functions."
       },
       {
-        "icon": "/icons/transfer-pricing/change-bulb.svg",
+        "icon": "/icons/icon-change-bulb.svg",
         "title": "Develop intellectual property."
       },
       {
-        "icon": "/icons/transfer-pricing/change-shipping.svg",
+        "icon": "/icons/icon-change-shipping.svg",
         "title": "Change supply chains."
       },
       {
-        "icon": "/icons/transfer-pricing/change-hub.svg",
+        "icon": "/icons/icon-change-hub.svg",
         "title": "Centralise services."
       },
       {
-        "icon": "/icons/transfer-pricing/change-bank.svg",
+        "icon": "/icons/icon-change-bank.svg",
         "title": "Introduce new financing arrangements."
       },
       {
-        "icon": "/icons/transfer-pricing/change-tree.svg",
+        "icon": "/icons/icon-change-tree.svg",
         "title": "Restructure operations."
       }
     ],
@@ -486,7 +486,7 @@
     "ariaLabel": "What a strong transfer pricing position requires",
     "eyebrow": "11 — WHAT A STRONG TRANSFER PRICING POSITION REQUIRES",
     "title": "Technical Analysis Is Only One Part of the Position.",
-    "iconAccent": "/icons/pillar-corner.svg",
+    "iconAccent": "/icons/index-corner.svg",
     "pillars": [
       {
         "number": "01",

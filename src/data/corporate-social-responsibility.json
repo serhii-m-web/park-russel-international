@@ -16,15 +16,15 @@
     "description": "Professional responsibility extends beyond the work we deliver.",
     "principles": [
       {
-        "icon": "/icons/csr/icon-public.svg",
+        "icon": "/icons/icon-public.svg",
         "text": "As an international network, Parker Russell International recognises that the decisions made by our firms, our people and the businesses we advise <span class=\"is-emphasis\">can have a wider impact on clients, communities, economies and the environment.</span>"
       },
       {
-        "icon": "/icons/csr/icon-balance.svg",
+        "icon": "/icons/icon-balance.svg",
         "text": "Our approach to corporate responsibility is grounded in the same principles that guide our professional work: <span class=\"is-emphasis\">integrity, accountability, respect and long-term thinking.</span>"
       },
       {
-        "icon": "/icons/csr/icon-eco.svg",
+        "icon": "/icons/icon-eco.svg",
         "text": "Across our network, we encourage member firms to consider not only what creates value today, but what contributes to <span class=\"is-emphasis\">stronger businesses, stronger communities and a more sustainable future.</span>"
       }
     ]
@@ -48,7 +48,7 @@
         "layout": "media-left",
         "image": "/images/csr/people.png",
         "imageAlt": "Professionals collaborating around a table",
-        "icon": "/icons/csr/icon-groups.svg",
+        "icon": "/icons/icon-groups.svg",
         "title": "People",
         "lead": "The strength of Parker Russell International comes from the people within our member firms.",
         "body": [
@@ -68,7 +68,7 @@
         "layout": "media-right",
         "image": "/images/csr/communities.png",
         "imageAlt": "Community support and volunteering",
-        "icon": "/icons/csr/icon-volunteer.svg",
+        "icon": "/icons/icon-volunteer.svg",
         "title": "Communities",
         "lead": "Our member firms are independent organisations with deep roots in their local markets.",
         "body": [
@@ -82,7 +82,7 @@
         "layout": "media-left",
         "image": "/images/csr/environment.jpg",
         "imageAlt": "Natural landscape representing environmental responsibility",
-        "icon": "/icons/csr/icon-eco.svg",
+        "icon": "/icons/icon-eco.svg",
         "title": "Environment",
         "lead": "We recognise the responsibility businesses have to understand and reduce their environmental impact where reasonably possible.",
         "body": [
@@ -94,7 +94,7 @@
         "layout": "media-right",
         "image": "/images/csr/governance.jpg",
         "imageAlt": "Boardroom meeting on governance",
-        "icon": "/icons/csr/icon-governance.svg",
+        "icon": "/icons/icon-governance.svg",
         "title": "Responsible Business & Governance",
         "lead": "Strong organisations are built on more than financial performance.",
         "body": [
@@ -112,7 +112,7 @@
     "body": "Businesses are facing greater expectations from investors, regulators, employees, customers and other stakeholders around how they manage environmental, social and governance matters.",
     "image": "/images/csr/clients.jpg",
     "imageAlt": "Advisers discussing client strategy",
-    "icon": "/icons/csr/icon-monitoring.svg",
+    "icon": "/icons/icon-monitoring.svg",
     "cardBody": "Parker Russell member firms can bring together relevant audit, tax, financial and advisory expertise to help clients understand these issues within the context of their own organisations.",
     "cardStatement": "<span class=\"is-muted\">The objective is not to apply a single model to every business.</span><br />It is to help organisations understand what is relevant, what is required and what responsible progress means in their particular market."
   },
@@ -134,11 +134,11 @@
     "highlight": "This enables good ideas to move beyond one firm or jurisdiction.",
     "examples": [
       {
-        "icon": "/icons/csr/icon-lightbulb.svg",
+        "icon": "/icons/icon-lightbulb.svg",
         "text": "A successful initiative locally can become useful knowledge internationally."
       },
       {
-        "icon": "/icons/csr/icon-forum.svg",
+        "icon": "/icons/icon-forum.svg",
         "text": "A challenge identified in one market can inform conversations elsewhere."
       }
     ],
@@ -151,32 +151,32 @@
     "title": "What Responsibility Means to Parker Russell",
     "items": [
       {
-        "icon": "/icons/csr/icon-verified.svg",
+        "icon": "/icons/icon-verified.svg",
         "title": "Integrity",
         "description": "Doing what is right, maintaining professional standards and protecting the trust placed in us."
       },
       {
-        "icon": "/icons/csr/icon-respect.svg",
+        "icon": "/icons/icon-clients.svg",
         "title": "Respect",
         "description": "Creating professional relationships built on fairness, inclusion and respect for different perspectives."
       },
       {
-        "icon": "/icons/csr/icon-groups.svg",
+        "icon": "/icons/icon-groups.svg",
         "title": "People",
         "description": "Investing in the professionals who build our firms and shape the future of the network."
       },
       {
-        "icon": "/icons/csr/icon-volunteer.svg",
+        "icon": "/icons/icon-volunteer.svg",
         "title": "Communities",
         "description": "Recognising the role our member firms play within the economies and communities they serve."
       },
       {
-        "icon": "/icons/csr/icon-eco.svg",
+        "icon": "/icons/icon-eco.svg",
         "title": "Sustainability",
         "description": "Considering environmental impact and supporting practical progress towards more responsible business practices."
       },
       {
-        "icon": "/icons/csr/icon-longterm.svg",
+        "icon": "/icons/icon-longterm.svg",
         "title": "Long-Term Thinking",
         "description": "Looking beyond immediate outcomes and considering the wider consequences of decisions."
       }
@@ -196,7 +196,7 @@
   },
   "csrCommitment": {
     "id": "csr-commitment",
-    "icon": "/icons/csr/icon-public.svg",
+    "icon": "/icons/icon-public.svg",
     "title": "Our Wider Commitment",
     "lead": "Parker Russell International has expressed its commitment to continuously improving the sustainability and inclusivity of its operations and to making a positive contribution to clients, people, markets and communities, with reference to the United Nations Sustainable Development Goals.",
     "cardTitle": "We recognise that responsible business is not a fixed destination.",

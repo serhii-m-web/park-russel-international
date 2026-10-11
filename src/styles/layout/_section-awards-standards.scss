@@ -107,12 +107,7 @@
     justify-content: center;
     width: 28px;
     height: 28px;
-
-    img {
-      display: block;
-      width: 28px;
-      height: 28px;
-    }
+    color: $color-red;
   }
 
   &__check-text {

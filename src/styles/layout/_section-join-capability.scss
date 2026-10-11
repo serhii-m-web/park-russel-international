@@ -130,12 +130,7 @@
     justify-content: center;
     width: 30px;
     height: 30px;
-
-    img {
-      display: block;
-      width: 30px;
-      height: 30px;
-    }
+    color: $color-red-soft;
   }
 
   &__benefit-text {

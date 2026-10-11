@@ -45,7 +45,7 @@
     "banner": {
       "imageBg": "/images/corporate-services/statement-bg.jpg",
       "leftColumn": {
-        "icon": "/icons/petals.svg",
+        "icon": "/icons/financial-assurance.svg",
         "text": "The question is rarely simply whether a transaction can be done."
       },
       "rightColumn": {
@@ -253,11 +253,11 @@
     },
     "items": [
       {
-        "icon": "/icons/change-circle.svg",
+        "icon": "/icons/risk-change.svg",
         "text": "The source, cost, structure and terms of financing can affect cash flow, ownership, flexibility and the economics of a transaction long after the capital has been raised."
       },
       {
-        "icon": "/icons/verified-user.svg",
+        "icon": "/icons/risk-controls.svg",
         "text": "Independent corporate finance advice allows financing alternatives to be considered against the commercial objectives of the business rather than the interests of a particular provider."
       }
     ]
@@ -304,7 +304,7 @@
     "lead": "The value of corporate finance advice depends on the ability to assess alternatives objectively.",
     "principles": [
       {
-        "icon": "/icons/verified-user.svg",
+        "icon": "/icons/risk-controls.svg",
         "text": "Parker Russell's existing corporate finance proposition emphasises <span class=\"is-emphasis\">advice independent from financing sources</span> — allowing alternatives to be considered without being tied to a particular product, bank or funding route."
       },
       {
@@ -314,7 +314,7 @@
     ],
     "imageSecondary": "/images/corporate-services/independent-thinking.jpg",
     "imageSecondaryAlt": "Independent professional working at night",
-    "photoMark": "/icons/assurance-mark.svg",
+    "photoMark": "/icons/financial-assurance.svg",
     "photoStatement": "Independent thinking creates room for <span class=\"is-muted\">better decisions.</span>"
   },
   "corporateStakeholders": {
@@ -363,7 +363,7 @@
     "slides": [
       {
         "image": "/images/industries/financial-services.png",
-        "icon": "/icons/industry-finance.svg",
+        "icon": "/icons/icon-account-balance.svg",
         "title": "Financial Services",
         "link": { "label": "Read More", "href": "#" }
       },
@@ -393,7 +393,7 @@
       },
       {
         "image": "/images/card-content-img-2.png",
-        "icon": "/icons/industry-finance.svg",
+        "icon": "/icons/icon-account-balance.svg",
         "title": "Tourism & Hospitality",
         "link": { "label": "Read More", "href": "#" }
       },
@@ -405,7 +405,7 @@
       },
       {
         "image": "/images/sliders/slide-img-1.png",
-        "icon": "/icons/industry-finance.svg",
+        "icon": "/icons/icon-account-balance.svg",
         "title": "Government & Public",
         "link": { "label": "Read More", "href": "#" }
       },

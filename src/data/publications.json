@@ -56,8 +56,6 @@
     "publications": {
       "carouselLabel": "Publications",
       "downloadLabel": "Download PDF",
-      "downloadIcon": "/icons/publications-page/icon-download.svg",
-      "pdfIcon": "/icons/publications-page/icon-pdf.svg",
       "emptyLabel": "No publications in this category yet.",
       "items": [
         {
@@ -101,12 +99,12 @@
         "text": "For any questions about our services, please get in touch with one of our expert advisors.",
         "image": "/images/publications-page/cta-contact.jpg",
         "imageAlt": "Professionals in a meeting",
-        "icon": "/icons/insight-article/icon-forum.svg",
+        "icon": "/icons/icon-forum.svg",
         "button": {
           "label": "Contact Us",
           "href": "contact.html",
           "variant": "primary",
-          "icon": "/icons/insight-article/icon-arrow.svg"
+          "icon": true
         }
       },
       {
@@ -114,12 +112,12 @@
         "text": "View the locations and contact information for <strong>184 international offices</strong>.",
         "image": "/images/publications-page/cta-locations.jpg",
         "imageAlt": "Globe showing international reach",
-        "icon": "/icons/insight-article/icon-public-sm.svg",
+        "icon": "/icons/icon-public.svg",
         "button": {
           "label": "View Locations",
           "href": "contact.html#our-locations",
           "variant": "ghost",
-          "icon": "/icons/insight-article/icon-arrow-white.svg"
+          "icon": true
         }
       }
     ]

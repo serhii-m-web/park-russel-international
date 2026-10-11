@@ -1,6 +1,4 @@
 const ALL_CATEGORY = 'all';
-const CHEVRON_SRC = '/icons/insight-article/icon-chevron.svg';
-const CHEVRON_ACTIVE_SRC = '/icons/insight-article/icon-chevron-active.svg';
 
 function normalizeCategory(value: string | null | undefined): string {
   const slug = value?.trim().toLowerCase();
@@ -31,13 +29,6 @@ function setLinkActive(link: HTMLAnchorElement, active: boolean): void {
     link.setAttribute('aria-current', 'page');
   } else {
     link.removeAttribute('aria-current');
-  }
-
-  const chevron = link.querySelector<HTMLImageElement>(
-    '.section-ia-body__nav-chevron',
-  );
-  if (chevron) {
-    chevron.src = active ? CHEVRON_ACTIVE_SRC : CHEVRON_SRC;
   }
 }
 
@@ -76,7 +67,8 @@ export function initIaPublicationsFilter(root: ParentNode = document): void {
         let visibleCount = 0;
 
         cards.forEach((card) => {
-          const cardCategory = card.dataset.iaPublicationsCategory?.trim().toLowerCase() || '';
+          const cardCategory =
+            card.dataset.iaPublicationsCategory?.trim().toLowerCase() || '';
           // Cards without a category slug appear only in "all" (WP posts without term).
           const isVisible =
             nextCategory === ALL_CATEGORY ||
@@ -126,10 +118,7 @@ export function initIaPublicationsFilter(root: ParentNode = document): void {
       filterLinks.forEach((link) => {
         link.addEventListener('click', (event) => {
           event.preventDefault();
-          apply(
-            normalizeCategory(link.dataset.iaPublicationsFilter),
-            true,
-          );
+          apply(normalizeCategory(link.dataset.iaPublicationsFilter), true);
         });
       });
 

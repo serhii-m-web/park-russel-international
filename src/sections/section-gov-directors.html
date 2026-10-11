@@ -73,14 +73,9 @@
             <ul class="section-gov-directors__list">
               {{#each govDirectors.panel.items}}
                 <li class="section-gov-directors__item">
-                  <img
-                    class="section-gov-directors__check"
-                    src="/icons/governance/icon-check-circle.svg"
-                    alt=""
-                    width="24"
-                    height="24"
-                    decoding="async"
-                  />
+                  <span class="section-gov-directors__check" aria-hidden="true">
+                    {{> icon name="check-circle" width="24" height="24"}}
+                  </span>
                   <span>{{ this }}</span>
                 </li>
               {{/each}}

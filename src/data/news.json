@@ -16,7 +16,6 @@
   "newsList": {
     "id": "news-list",
     "readMoreLabel": "Read More »",
-    "calendarIcon": "/icons/news-page/icon-calendar.svg",
     "featured": {
       "date": "4th August 2025",
       "title": "Companies House Crackdown: Businesses Urged to Act on ECCTA Deadlines",
@@ -71,11 +70,11 @@
       "contact": {
         "title": "Get in touch",
         "text": "For any questions about our services, please get in touch with one of our expert advisors.",
-        "icon": "/icons/insight-article/icon-forum.svg",
+        "icon": "/icons/icon-forum.svg",
         "button": {
           "label": "Contact Us",
           "href": "contact.html",
-          "icon": "/icons/insight-article/icon-arrow.svg"
+          "icon": true
         }
       },
       "locations": {
@@ -83,11 +82,11 @@
         "text": "View the locations and contact information for <strong>184 international offices</strong>.",
         "image": "/images/news-page/cta-locations.jpg",
         "imageAlt": "Globe showing international reach",
-        "icon": "/icons/insight-article/icon-public.svg",
+        "icon": "/icons/icon-public.svg",
         "button": {
           "label": "View Locations",
           "href": "contact.html#our-locations",
-          "icon": "/icons/insight-article/icon-arrow-white.svg"
+          "icon": true
         }
       },
       "follow": {
@@ -102,7 +101,7 @@
       "newsletter": {
         "title": "Newsletter",
         "text": "Stay informed about all our latest updates and services, and sign up to our email newsletter.",
-        "icon": "/icons/news-page/icon-mail.svg",
+        "icon": true,
         "action": "#",
         "fields": {
           "firstName": "First Name",
@@ -112,7 +111,7 @@
         "consent": "I'm happy to receive relevant marketing emails from Parker Russell.",
         "button": {
           "label": "Subscribe",
-          "icon": "/icons/insight-article/icon-arrow.svg"
+          "icon": true
         }
       }
     }

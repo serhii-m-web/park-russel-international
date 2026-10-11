@@ -57,13 +57,7 @@
               <li class="section-mission-clients__item">
                 {{#if ../missionClients.checkIcon}}
                   <span class="section-mission-clients__check" aria-hidden="true">
-                    <img
-                      src="{{ ../missionClients.checkIcon }}"
-                      alt=""
-                      width="26"
-                      height="26"
-                      decoding="async"
-                    />
+                    {{> icon name="check-circle" width="26" height="26"}}
                   </span>
                 {{/if}}
                 <span class="section-mission-clients__item-text">{{ this }}</span>

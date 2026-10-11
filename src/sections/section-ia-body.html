@@ -56,14 +56,7 @@
                       {{/if}}
                     >
                       <span>{{ label }}</span>
-                      <img
-                        class="section-ia-body__nav-chevron"
-                        src="{{#if isActive}}/icons/insight-article/icon-chevron-active.svg{{else}}/icons/insight-article/icon-chevron.svg{{/if}}"
-                        alt=""
-                        width="18"
-                        height="18"
-                        decoding="async"
-                      />
+                      {{> icon name="chevron" width="18" height="18" class="section-ia-body__nav-chevron"}}
                     </a>
 
                     {{#if children.length}}
@@ -87,14 +80,7 @@
                               {{/if}}
                             >
                               <span>{{ label }}</span>
-                              <img
-                                class="section-ia-body__nav-chevron"
-                                src="{{#if isActive}}/icons/insight-article/icon-chevron-active.svg{{else}}/icons/insight-article/icon-chevron.svg{{/if}}"
-                                alt=""
-                                width="18"
-                                height="18"
-                                decoding="async"
-                              />
+                              {{> icon name="chevron" width="18" height="18" class="section-ia-body__nav-chevron"}}
                             </a>
                           </li>
                         {{/each}}
@@ -138,13 +124,7 @@
                     >
                       <div class="section-ia-body__pub-cover" aria-hidden="true">
                         <span class="section-ia-body__pub-doc">
-                          <img
-                            src="{{ ../pdfIcon }}"
-                            alt=""
-                            width="44"
-                            height="44"
-                            decoding="async"
-                          />
+                          {{> icon name="pdf" width="44" height="44"}}
                         </span>
                       </div>
 
@@ -154,13 +134,7 @@
                           <h2 class="section-ia-body__pub-title">{{{ title }}}</h2>
                         {{/if}}
                         <a class="section-ia-body__pub-download" href="{{ href }}">
-                          <img
-                            src="{{ ../downloadIcon }}"
-                            alt=""
-                            width="18"
-                            height="18"
-                            decoding="async"
-                          />
+                          {{> icon name="download" width="18" height="18"}}
                           <span>{{ ../downloadLabel }}</span>
                         </a>
                       </div>
@@ -237,13 +211,7 @@
             <blockquote class="section-ia-body__quote">
               {{#if iaBody.article.quote.icon}}
                 <span class="section-ia-body__quote-icon" aria-hidden="true">
-                  <img
-                    src="{{ iaBody.article.quote.icon }}"
-                    alt=""
-                    width="34"
-                    height="34"
-                    decoding="async"
-                  />
+                  {{> icon name="quote" width="34" height="34"}}
                 </span>
               {{/if}}
               {{#if iaBody.article.quote.text}}

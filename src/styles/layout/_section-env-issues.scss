@@ -78,11 +78,8 @@
 
       .section-env-issues__featured-arrow {
         background-color: $color-red;
+        color: $color-white;
         transform: translate(2px, -2px);
-
-        img {
-          filter: brightness(0) invert(1);
-        }
       }
 
       &::after {
@@ -150,15 +147,11 @@
     height: 40px;
     border-radius: 50%;
     background-color: $color-white;
+    color: $color-red;
     transition:
       background-color 0.3s ease,
+      color 0.3s ease,
       transform 0.3s ease;
-
-    img {
-      width: 24px;
-      height: 24px;
-      transition: filter 0.3s ease;
-    }
   }
 
   &__featured-title {
@@ -221,10 +214,7 @@
 
       .section-env-issues__link-arrow {
         background-color: $color-red;
-
-        img {
-          filter: brightness(0) invert(1);
-        }
+        color: $color-white;
       }
     }
   }
@@ -264,8 +254,10 @@
     height: 40px;
     border-radius: 50%;
     background-color: $color-white;
+    color: $color-red;
     transition:
       background-color 0.3s ease,
+      color 0.3s ease,
       transform 0.3s ease;
 
     img {

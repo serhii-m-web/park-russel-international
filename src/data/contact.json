@@ -14,12 +14,12 @@
     "title": "Contact us",
     "lead": "If you have a question, would like some advice regarding your business or personal affairs, get in touch with us today, we'd love to hear from you. We know not everyone wants to complete a form, and at the same time not everyone wishes to pick up the telephone, therefore, we've made it as easy as possible for you to contact us.",
     "officeIntro": {
-      "icon": "/icons/contact/icon-forum.svg",
+      "icon": "/icons/icon-forum.svg",
       "text": "For any questions about our services, please get in touch with one of our expert advisors."
     },
     "details": [
       {
-        "icon": "/icons/contact/icon-location.svg",
+        "icon": "/icons/icon-location.svg",
         "title": "Parker Russell",
         "lines": [
           "Level 30, The Leadenhall Building,",
@@ -28,12 +28,12 @@
         ]
       },
       {
-        "icon": "/icons/contact/icon-call.svg",
+        "icon": "/icons/icon-call.svg",
         "text": "T: +44 (0) 20 7378 7500",
         "href": "tel:+442073787500"
       },
       {
-        "icon": "/icons/contact/icon-mail.svg",
+        "icon": "/icons/icon-mail.svg",
         "text": "E: info@parkerrussell.co.uk",
         "href": "mailto:info@parkerrussell.co.uk"
       }
@@ -45,7 +45,7 @@
     "title": "Our Locations",
     "leadHtml": "View the locations and contact information for <span class=\"is-accent\">184 international offices</span>.",
     "body": "Our independent member firms offer audit, accountancy and other related services in 86 countries by more than 180 offices and over 2000 qualified auditors, accountants and advisors.",
-    "regionIcon": "/icons/contact/icon-public.svg",
+    "regionIcon": "/icons/icon-public.svg",
     "regions": [
       {
         "name": "Europe",

@@ -145,6 +145,11 @@
     }
   }
 
+  &__date-icon,
+  &__region-icon {
+    color: $color-red;
+  }
+
   &__card-title {
     margin: 0;
     color: $color-dark-blue;

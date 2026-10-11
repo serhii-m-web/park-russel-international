@@ -58,7 +58,7 @@
         >
           <img
             class="section-awards-presentations__cover-glow"
-            src="/icons/awards/cover-glow.svg"
+            src="/icons/cover-glow.svg"
             alt=""
             width="480"
             height="480"
@@ -66,7 +66,7 @@
           />
           <img
             class="section-awards-presentations__cover-watermark"
-            src="/icons/awards/cover-watermark.svg"
+            src="/icons/cover-watermark.svg"
             alt=""
             width="320"
             height="320"
@@ -74,7 +74,7 @@
           />
           <span class="section-awards-presentations__cover-badge">
             <img
-              src="/icons/awards/icon-trophy-cover.svg"
+              src="/icons/icon-trophy-cover.svg"
               alt=""
               width="24"
               height="24"
@@ -125,13 +125,7 @@
                 class="section-awards-presentations__action section-awards-presentations__action--outline"
                 href="{{ awPresentations.featured.downloadPresentation.href }}"
               >
-                <img
-                  src="/icons/awards/icon-download-btn.svg"
-                  alt=""
-                  width="18"
-                  height="18"
-                  decoding="async"
-                />
+                {{> icon name="download" width="18" height="18"}}
                 <span>{{ awPresentations.featured.downloadPresentation.label }}</span>
               </a>
             {{/if}}
@@ -158,7 +152,7 @@
                 >
                   <img
                     class="section-awards-presentations__cover-glow"
-                    src="/icons/awards/cover-glow.svg"
+                    src="/icons/cover-glow.svg"
                     alt=""
                     width="360"
                     height="360"
@@ -166,7 +160,7 @@
                   />
                   <img
                     class="section-awards-presentations__cover-watermark"
-                    src="/icons/awards/cover-watermark.svg"
+                    src="/icons/cover-watermark.svg"
                     alt=""
                     width="240"
                     height="240"
@@ -174,7 +168,7 @@
                   />
                   <span class="section-awards-presentations__cover-badge">
                     <img
-                      src="/icons/awards/icon-trophy-cover.svg"
+                      src="/icons/icon-trophy-cover.svg"
                       alt=""
                       width="20"
                       height="20"
@@ -227,13 +221,7 @@
                       href="{{ downloadPresentation.href }}"
                     >
                       <span>{{ downloadPresentation.label }}</span>
-                      <img
-                        src="/icons/awards/icon-download.svg"
-                        alt=""
-                        width="18"
-                        height="18"
-                        decoding="async"
-                      />
+                      {{> icon name="download" width="18" height="18"}}
                     </a>
                   {{/if}}
                 </div>

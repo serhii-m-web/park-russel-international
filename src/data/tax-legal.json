@@ -254,17 +254,17 @@
         "description": "What are the tax implications of transactions and investments?"
       },
       {
-        "icon": "/icons/verified-user.svg",
+        "icon": "/icons/risk-controls.svg",
         "label": "OPERATE",
         "description": "What ongoing tax and reporting obligations arise?"
       },
       {
-        "icon": "/icons/financial-advisory/factor-globe.svg",
+        "icon": "/icons/icon-factor-globe.svg",
         "label": "MOVE",
         "description": "What happens when people, goods or capital cross borders?"
       },
       {
-        "icon": "/icons/change-circle.svg",
+        "icon": "/icons/risk-change.svg",
         "label": "CHANGE",
         "description": "What are the consequences of acquisitions, disposals or restructuring?"
       }
@@ -289,23 +289,23 @@
     },
     "items": [
       {
-        "icon": "/icons/financial-advisory/factor-globe.svg",
+        "icon": "/icons/icon-factor-globe.svg",
         "title": "A company expands internationally."
       },
       {
-        "icon": "/icons/financial-advisory/factor-trend.svg",
+        "icon": "/icons/icon-factor-trend.svg",
         "title": "A supply chain changes."
       },
       {
-        "icon": "/icons/verified-user.svg",
+        "icon": "/icons/risk-controls.svg",
         "title": "An employee begins working in another country."
       },
       {
-        "icon": "/icons/financial-advisory/factor-bank.svg",
+        "icon": "/icons/icon-factor-bank.svg",
         "title": "A group introduces new intercompany arrangements."
       },
       {
-        "icon": "/icons/change-circle.svg",
+        "icon": "/icons/risk-change.svg",
         "title": "An acquisition changes the corporate structure."
       },
       {
@@ -327,7 +327,7 @@
         "text": "Businesses operate within national legislation, local administrative requirements and different regulatory environments, while international treaties and cross-border principles can influence how those systems interact. Parker Russell's existing proposition explicitly identifies national and international tax laws, policies, accounting and commercial principles and international tax treaties as part of the knowledge required for its tax work."
       },
       {
-        "icon": "/icons/financial-advisory/factor-globe.svg",
+        "icon": "/icons/icon-factor-globe.svg",
         "text": "<span class=\"is-emphasis\">That makes local expertise essential.</span> <br> But when the business operates internationally, local answers must also be understood within the context of the wider organisation."
       }
     ],
@@ -388,11 +388,11 @@
     "title": "Tax and Legal Questions Often Meet at the Same Decision.",
     "principles": [
       {
-        "icon": "/icons/financial-advisory/borders-bank.svg",
+        "icon": "/icons/icon-factor-bank.svg",
         "text": "International business decisions rarely fall neatly into one professional category. Corporate structures, transactions, ownership, contracts and market entry can involve legal considerations alongside taxation."
       },
       {
-        "icon": "/icons/financial-advisory/borders-globe.svg",
+        "icon": "/icons/icon-factor-globe.svg",
         "text": "Where relevant capabilities are available within the network, Parker Russell member firms can bring appropriate tax and legal perspectives to matters requiring more than one discipline."
       }
     ],
@@ -436,7 +436,7 @@
     "className": "section-confidence--grid-6",
     "ariaLabel": "Context makes it useful",
     "title": "Technical Knowledge Is the Starting Point. Context Makes It Useful.",
-    "iconAccent": "/icons/pillar-corner.svg",
+    "iconAccent": "/icons/index-corner.svg",
     "pillars": [
       {
         "number": "01",
@@ -497,7 +497,7 @@
     "slides": [
       {
         "image": "/images/industries/financial-services.png",
-        "icon": "/icons/industry-finance.svg",
+        "icon": "/icons/icon-account-balance.svg",
         "title": "Financial Services",
         "link": {
           "label": "Read More",

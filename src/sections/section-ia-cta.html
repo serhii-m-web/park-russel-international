@@ -67,13 +67,7 @@
                 >
                   <span>{{ button.label }}</span>
                   {{#if button.icon}}
-                    <img
-                      src="{{ button.icon }}"
-                      alt=""
-                      width="16"
-                      height="16"
-                      decoding="async"
-                    />
+                    {{> icon name="arrow-right" width="16" height="16"}}
                   {{/if}}
                 </a>
               {{/if}}

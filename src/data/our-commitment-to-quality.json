@@ -16,7 +16,7 @@
     "lead": "Trust in professional services depends on the quality of the work behind every opinion, report and recommendation.",
     "body": "Across Parker Russell International, quality is supported through professional standards, shared methodologies, ethical requirements, review processes and the individual responsibility of our member firms.",
     "objective": {
-      "icon": "/icons/quality/icon-verified.svg",
+      "icon": "/icons/icon-verified.svg",
       "text": "<span class=\"is-accent\">Our objective is clear:</span> to strengthen consistency across an international network while ensuring that every engagement remains grounded in the professional and regulatory requirements of the jurisdiction in which it is delivered."
     },
     "statement": "<span class=\"is-muted\">Shared standards. </span>Local responsibility. International confidence."
@@ -28,12 +28,12 @@
     "levels": [
       {
         "variant": "light",
-        "icon": "/icons/quality/icon-domain.svg",
+        "icon": "/icons/icon-domain.svg",
         "text": "Each member firm is responsible for meeting the professional standards applicable within its own jurisdiction."
       },
       {
         "variant": "dark",
-        "icon": "/icons/quality/icon-hub.svg",
+        "icon": "/icons/icon-hub.svg",
         "lead": "At network level, Parker Russell provides a framework designed to support quality, consistency and professional collaboration across international engagements.",
         "body": "This includes common methodologies, quality expectations, technical resources and monitoring processes intended to strengthen the standard of work delivered across the network."
       }
@@ -48,7 +48,7 @@
       "Membership carries specific obligations in relation to transnational audits, including maintaining appropriate quality management standards, supporting internationally recognised auditing practices, maintaining ethical policies and participating in globally coordinated quality assurance processes."
     ],
     "card": {
-      "icon": "/icons/quality/icon-premium.svg",
+      "icon": "/icons/icon-premium.svg",
       "text": "For Parker Russell International, membership represents an important part of our wider commitment to audit quality and professional standards across borders."
     }
   },
@@ -57,13 +57,13 @@
     "title": "How We Support Quality",
     "pillars": [
       {
-        "icon": "/icons/quality/icon-public.svg",
+        "icon": "/icons/icon-public.svg",
         "title": "International Standards",
         "lead": "For transnational audit work, member firms operate within a framework that reflects the International Standards on Auditing issued by the IAASB, alongside relevant national requirements.",
         "body": "The Forum of Firms also requires appropriate systems of quality management in accordance with the International Standards on Quality Management issued by the IAASB."
       },
       {
-        "icon": "/icons/quality/icon-balance.svg",
+        "icon": "/icons/icon-balance.svg",
         "title": "Ethics & Professional Judgement",
         "lead": "Technical capability must be supported by professional integrity.",
         "body": "Policies and methodologies for relevant international audit work are expected to reflect the principles of the International Code of Ethics for Professional Accountants issued by the IESBA, together with applicable national ethical requirements.",

@@ -32,13 +32,7 @@
                 <div class="section-news-list__featured-content">
                   {{#if date}}
                     <span class="section-news-list__date section-news-list__date--pill">
-                      <img
-                        src="{{ ../calendarIcon }}"
-                        alt=""
-                        width="16"
-                        height="16"
-                        decoding="async"
-                      />
+                      {{> icon name="calendar" width="16" height="16" class="section-news-list__date-icon"}}
                       <span>{{ date }}</span>
                     </span>
                   {{/if}}
@@ -86,13 +80,7 @@
                     <div class="section-news-list__card-body">
                       {{#if date}}
                         <span class="section-news-list__date">
-                          <img
-                            src="{{ ../calendarIcon }}"
-                            alt=""
-                            width="16"
-                            height="16"
-                            decoding="async"
-                          />
+                          {{> icon name="calendar" width="16" height="16" class="section-news-list__date-icon"}}
                           <span>{{ date }}</span>
                         </span>
                       {{/if}}
@@ -148,13 +136,7 @@
                     <a class="section-news-list__widget-button" href="{{ button.href }}">
                       <span>{{ button.label }}</span>
                       {{#if button.icon}}
-                        <img
-                          src="{{ button.icon }}"
-                          alt=""
-                          width="16"
-                          height="16"
-                          decoding="async"
-                        />
+                        {{> icon name="arrow-right" width="16" height="16"}}
                       {{/if}}
                     </a>
                   {{/if}}
@@ -200,13 +182,7 @@
                     >
                       <span>{{ button.label }}</span>
                       {{#if button.icon}}
-                        <img
-                          src="{{ button.icon }}"
-                          alt=""
-                          width="16"
-                          height="16"
-                          decoding="async"
-                        />
+                        {{> icon name="arrow-right" width="16" height="16"}}
                       {{/if}}
                     </a>
                   {{/if}}
@@ -245,13 +221,7 @@
                       class="section-news-list__widget-icon section-news-list__widget-icon--dark"
                       aria-hidden="true"
                     >
-                      <img
-                        src="{{ icon }}"
-                        alt=""
-                        width="26"
-                        height="26"
-                        decoding="async"
-                      />
+                      {{> icon name="mail" width="26" height="26"}}
                     </span>
                   {{/if}}
                   {{#if title}}
@@ -310,13 +280,7 @@
                     <button class="section-news-list__widget-button" type="submit">
                       <span>{{ button.label }}</span>
                       {{#if button.icon}}
-                        <img
-                          src="{{ button.icon }}"
-                          alt=""
-                          width="16"
-                          height="16"
-                          decoding="async"
-                        />
+                        {{> icon name="arrow-right" width="16" height="16"}}
                       {{/if}}
                     </button>
                   </form>

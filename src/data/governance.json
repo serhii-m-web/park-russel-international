@@ -17,11 +17,11 @@
     "body": "They require clear leadership, defined responsibilities and a governance structure capable of supporting collaboration while protecting the independence and professional responsibility of individual member firms.",
     "audiences": [
       {
-        "icon": "/icons/governance/icon-account-tree.svg",
+        "icon": "/icons/icon-account-tree.svg",
         "text": "<span class=\"is-muted\">Parker Russell International is governed through a structured framework </span><span class=\"is-emphasis\">led by the Board of Directors, supported by the Board of Members and relevant committees across the network.</span>"
       },
       {
-        "icon": "/icons/governance/icon-balance.svg",
+        "icon": "/icons/icon-balance.svg",
         "text": "<span class=\"is-muted\">This structure provides oversight of the network’s strategic development, membership, policies and international coordination </span><span class=\"is-emphasis\">while preserving the legal independence of each member firm.</span>"
       }
     ]
@@ -48,7 +48,7 @@
       "variant": "primary"
     },
     "panel": {
-      "icon": "/icons/governance/icon-account-tree-panel.svg",
+      "icon": "/icons/icon-account-tree.svg",
       "title": "Key Areas of Oversight",
       "items": [
         "network strategy and development;",
@@ -89,27 +89,27 @@
     "listLabel": "This allows the organisation to:",
     "items": [
       {
-        "icon": "/icons/governance/icon-travel-explore.svg",
+        "icon": "/icons/icon-travel-explore.svg",
         "text": "understand developments across different regions;"
       },
       {
-        "icon": "/icons/governance/icon-forum.svg",
+        "icon": "/icons/icon-forum.svg",
         "text": "strengthen communication between member firms;"
       },
       {
-        "icon": "/icons/governance/icon-account-tree-sm.svg",
+        "icon": "/icons/icon-account-tree.svg",
         "text": "coordinate network-wide priorities;"
       },
       {
-        "icon": "/icons/governance/icon-handshake.svg",
+        "icon": "/icons/icon-handshake.svg",
         "text": "identify opportunities for international collaboration;"
       },
       {
-        "icon": "/icons/governance/icon-verified.svg",
+        "icon": "/icons/icon-verified.svg",
         "text": "support consistent professional expectations;"
       },
       {
-        "icon": "/icons/governance/icon-update.svg",
+        "icon": "/icons/icon-update.svg",
         "text": "respond to the changing needs of the network."
       }
     ],
@@ -138,7 +138,7 @@
       "Member firms can access network methodologies, resources and the capabilities of other members, while also being expected to maintain the standards and common policies established by Parker Russell International."
     ],
     "aim": {
-      "icon": "/icons/governance/icon-domain.svg",
+      "icon": "/icons/icon-domain.svg",
       "text": "<span class=\"is-muted\">The aim is not simply to expand geographic coverage.</span><br /><span class=\"is-emphasis\">It is to build a network whose members can represent Parker Russell with credibility in their own markets and collaborate effectively internationally.</span>"
     }
   },
@@ -155,7 +155,7 @@
       "The role of the international organisation is to provide coordination, shared infrastructure and common direction where appropriate — not to replace the professional responsibility of individual firms."
     ],
     "panel": {
-      "icon": "/icons/governance/icon-account-balance.svg",
+      "icon": "/icons/icon-account-balance.svg",
       "title": "Parker Russell International Limited",
       "lead": "Parker Russell International Limited (PRIL) is the coordinating entity of the Parker Russell network.",
       "body": [

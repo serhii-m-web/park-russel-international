@@ -198,9 +198,11 @@
     font-size: 14px;
     line-height: calc(20 / 14);
 
+    .icon,
     img {
       display: block;
       flex-shrink: 0;
+      color: #858d9f;
       width: 16px;
       height: 16px;
       object-fit: contain;
@@ -242,7 +244,9 @@
     height: 28px;
     border-radius: 14px;
     background-color: rgba($color-red, 0.08);
+    color: $color-red;
 
+    .icon,
     img {
       display: block;
       width: 15px;

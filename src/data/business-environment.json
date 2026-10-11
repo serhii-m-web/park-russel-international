@@ -16,7 +16,7 @@
     "lead": "Economic conditions, regulation, technology, capital markets and geopolitical developments can change the environment in which organisations operate — sometimes gradually, sometimes almost overnight.",
     "body": "For businesses operating internationally, those changes rarely stop at one market. A development in one jurisdiction can affect investment decisions, supply chains, financing, taxation or growth plans elsewhere.",
     "panel": {
-      "icon": "/icons/business-environment/icon-travel-explore.svg",
+      "icon": "/icons/icon-travel-explore.svg",
       "text": "<span class=\"is-accent\">Business Environment</span> brings together Parker Russell perspectives on <span class=\"is-emphasis\">the wider forces influencing organisations, markets and decision-making</span> across the global economy.",
       "button": {
         "label": "Explore Latest Insights",
@@ -33,37 +33,37 @@
     "cards": [
       {
         "image": "/images/business-environment/force-economic.jpg",
-        "icon": "/icons/business-environment/icon-trending-up.svg",
+        "icon": "/icons/icon-trending-up.svg",
         "title": "Economic Conditions",
         "text": "Growth, inflation, interest rates and changing demand can influence investment, financing, costs and business confidence."
       },
       {
         "image": "/images/business-environment/force-regulation.jpg",
-        "icon": "/icons/business-environment/icon-gavel.svg",
+        "icon": "/icons/icon-gavel.svg",
         "title": "Regulation",
         "text": "New rules can change reporting requirements, operating models and the responsibilities placed on organisations and their leadership."
       },
       {
         "image": "/images/business-environment/force-capital.jpg",
-        "icon": "/icons/business-environment/icon-account-balance.svg",
+        "icon": "/icons/icon-account-balance.svg",
         "title": "Capital & Investment",
         "text": "Changing financial conditions can affect access to capital, valuations, investment decisions and transaction activity."
       },
       {
         "image": "/images/business-environment/force-technology.jpg",
-        "icon": "/icons/business-environment/icon-memory.svg",
+        "icon": "/icons/icon-memory.svg",
         "title": "Technology",
         "text": "Digital transformation, automation and emerging technologies continue to reshape how organisations operate, compete and manage information."
       },
       {
         "image": "/images/business-environment/force-trade.jpg",
-        "icon": "/icons/business-environment/icon-boat.svg",
+        "icon": "/icons/icon-boat.svg",
         "title": "International Trade",
         "text": "Changing trade relationships, supply chains and cross-border requirements can alter the economics of international business."
       },
       {
         "image": "/images/business-environment/force-geopolitical.jpg",
-        "icon": "/icons/business-environment/icon-public.svg",
+        "icon": "/icons/icon-public.svg",
         "title": "Geopolitical Change",
         "text": "Political and geopolitical developments can create new risks, restrictions and strategic considerations across markets."
       }
@@ -77,19 +77,19 @@
     "carouselLabel": "Connected business environment effects",
     "effects": [
       {
-        "icon": "/icons/business-environment/icon-percent.svg",
+        "icon": "/icons/icon-percent.svg",
         "text": "<span class=\"is-emphasis\">A change in interest rates</span> can affect financing, investment and valuations."
       },
       {
-        "icon": "/icons/business-environment/icon-gavel-2.svg",
+        "icon": "/icons/icon-gavel.svg",
         "text": "<span class=\"is-emphasis\">A regulatory development</span> can influence reporting, governance and operating costs."
       },
       {
-        "icon": "/icons/business-environment/icon-boat-2.svg",
+        "icon": "/icons/icon-boat.svg",
         "text": "<span class=\"is-emphasis\">A shift in trade policy</span> can change supply chains, customs obligations and margins."
       },
       {
-        "icon": "/icons/business-environment/icon-memory-2.svg",
+        "icon": "/icons/icon-memory.svg",
         "text": "<span class=\"is-emphasis\">New technology</span> can alter productivity while creating new questions around investment, controls and risk."
       }
     ],
@@ -104,28 +104,28 @@
       {
         "variant": "light",
         "watermark": "/images/business-environment/watermark-1.svg",
-        "icon": "/icons/business-environment/icon-change-circle.svg",
+        "icon": "/icons/icon-change-circle.svg",
         "label": "WHAT CHANGED?",
         "text": "The development, regulation or market movement."
       },
       {
         "variant": "light",
         "watermark": "/images/business-environment/watermark-2.svg",
-        "icon": "/icons/business-environment/icon-priority.svg",
+        "icon": "/icons/icon-priority.svg",
         "label": "WHY DOES IT MATTER?",
         "text": "Its wider commercial or financial significance."
       },
       {
         "variant": "light",
         "watermark": "/images/business-environment/watermark-3.svg",
-        "icon": "/icons/business-environment/icon-groups.svg",
+        "icon": "/icons/icon-groups.svg",
         "label": "WHO COULD BE AFFECTED?",
         "text": "Businesses, sectors, markets or stakeholders."
       },
       {
         "variant": "dark",
         "watermark": "/images/business-environment/watermark-4.svg",
-        "icon": "/icons/business-environment/icon-explore.svg",
+        "icon": "/icons/icon-explore.svg",
         "label": "WHAT COMES NEXT?",
         "text": "The questions organisations should now be considering."
       }
@@ -141,7 +141,7 @@
     "image": "/images/business-environment/markets.jpg",
     "imageAlt": "World map with markers across international markets",
     "banner": {
-      "icon": "/icons/business-environment/icon-public-2.svg",
+      "icon": "/icons/icon-public.svg",
       "text": "<span class=\"is-muted\">See what is changing globally. </span>Understand what it means locally."
     }
   },
@@ -151,38 +151,38 @@
     "featured": {
       "title": "Economy & Markets",
       "image": "/images/business-environment/issue-economy.jpg",
-      "icon": "/icons/business-environment/icon-candlestick.svg",
+      "icon": "/icons/icon-candlestick.svg",
       "href": "#"
     },
     "items": [
       {
         "title": "Regulation & Governance",
-        "icon": "/icons/business-environment/icon-gavel.svg",
+        "icon": "/icons/icon-gavel.svg",
         "href": "#"
       },
       {
         "title": "Tax & Policy",
-        "icon": "/icons/business-environment/icon-receipt.svg",
+        "icon": "/icons/icon-receipt.svg",
         "href": "#"
       },
       {
         "title": "Technology & Transformation",
-        "icon": "/icons/business-environment/icon-memory.svg",
+        "icon": "/icons/icon-memory.svg",
         "href": "#"
       },
       {
         "title": "International Trade",
-        "icon": "/icons/business-environment/icon-boat.svg",
+        "icon": "/icons/icon-boat.svg",
         "href": "#"
       },
       {
         "title": "Capital & Investment",
-        "icon": "/icons/business-environment/icon-account-balance.svg",
+        "icon": "/icons/icon-account-balance.svg",
         "href": "#"
       },
       {
         "title": "Risk & Resilience",
-        "icon": "/icons/business-environment/icon-shield.svg",
+        "icon": "/icons/icon-shield.svg",
         "href": "#"
       }
     ]
@@ -270,27 +270,27 @@
       {
         "label": "Assurance",
         "href": "assurance.html",
-        "icon": "/icons/business-environment/icon-verified.svg"
+        "icon": "/icons/icon-verified.svg"
       },
       {
         "label": "Tax & Legal",
         "href": "tax-legal.html",
-        "icon": "/icons/business-environment/icon-gavel.svg"
+        "icon": "/icons/icon-gavel.svg"
       },
       {
         "label": "Corporate Services",
         "href": "corporate-services.html",
-        "icon": "/icons/business-environment/icon-domain.svg"
+        "icon": "/icons/icon-domain.svg"
       },
       {
         "label": "Financial Advisory",
         "href": "financial-advisory.html",
-        "icon": "/icons/business-environment/icon-monitoring.svg"
+        "icon": "/icons/icon-monitoring.svg"
       },
       {
         "label": "Transfer Pricing",
         "href": "transfer-pricing.html",
-        "icon": "/icons/business-environment/icon-swap.svg"
+        "icon": "/icons/icon-swap-horiz.svg"
       }
     ]
   },

@@ -173,15 +173,10 @@
     height: 44px;
     border: 1px solid rgba($color-white, 0.24);
     border-radius: 50%;
+    color: $color-white;
     transition:
       border-color 0.2s ease,
       background-color 0.2s ease,
       transform 0.2s ease;
-
-    img {
-      display: block;
-      width: 20px;
-      height: 20px;
-    }
   }
 }

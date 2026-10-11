@@ -129,15 +129,13 @@
   }
 
   &__check {
+    display: inline-flex;
     flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
     width: 26px;
     height: 26px;
-
-    img {
-      display: block;
-      width: 26px;
-      height: 26px;
-    }
+    color: $color-red;
   }
 
   &__item-text {

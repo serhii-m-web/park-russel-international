@@ -37,7 +37,7 @@
     "banner": {
       "imageBg": "/images/banner-bg-1.jpg",
       "leftColumn": {
-        "icon": "/icons/petals.svg",
+        "icon": "/icons/financial-assurance.svg",
         "text": "That becomes increasingly important as organisations grow, raise capital, complete transactions, enter new markets or operate through more complex structures."
       },
       "rightColumn": {
@@ -231,7 +231,7 @@
   "assuranceConfidence": {
     "id": "assurance-confidence",
     "ariaLabel": "What confidence is built on",
-    "iconAccent": "/icons/pillar-corner.svg",
+    "iconAccent": "/icons/index-corner.svg",
     "title": "Rigour Cannot Be Added at the End.",
     "lead": "The quality of assurance depends on what happens throughout the engagement: the questions asked, risks identified, evidence obtained, judgements made and matters communicated.",
     "pillars": [
@@ -278,7 +278,7 @@
     "slides": [
       {
         "image": "/images/industries/financial-services.png",
-        "icon": "/icons/industry-finance.svg",
+        "icon": "/icons/icon-account-balance.svg",
         "title": "Financial Services",
         "link": { "label": "Read More", "href": "#" }
       },
@@ -308,7 +308,7 @@
       },
       {
         "image": "/images/card-content-img-2.png",
-        "icon": "/icons/industry-finance.svg",
+        "icon": "/icons/icon-account-balance.svg",
         "title": "Tourism & Hospitality",
         "link": { "label": "Read More", "href": "#" }
       },
@@ -320,7 +320,7 @@
       },
       {
         "image": "/images/sliders/slide-img-1.png",
-        "icon": "/icons/industry-finance.svg",
+        "icon": "/icons/icon-account-balance.svg",
         "title": "Government & Public",
         "link": { "label": "Read More", "href": "#" }
       },
@@ -455,7 +455,7 @@
       {
         "id": "information-risk",
         "label": "Information Risk",
-        "icon": "/icons/petals.svg",
+        "icon": "/icons/financial-assurance.svg",
         "title": "Information Risk",
         "description": "Assurance over the systems, processes and controls that produce the information organisations rely on to report and decide.",
         "text": "Financial and operational decisions depend on data that is complete, accurate and well controlled. Information risk work examines how that data is generated, protected and used.<br><br>This helps organisations reduce exposure where reporting, technology or process weaknesses could undermine the reliability of key information."

@@ -195,12 +195,7 @@
     display: inline-flex;
     flex-shrink: 0;
     margin-top: 2px;
-
-    img {
-      display: block;
-      width: 20px;
-      height: 20px;
-    }
+    color: $color-red;
   }
 
   &__pillar-highlight {

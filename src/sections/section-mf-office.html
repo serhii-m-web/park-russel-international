@@ -99,7 +99,11 @@
             <ul class="section-mf-office__details">
               {{#each mfOffice.contact.details}}
                 <li class="section-mf-office__detail">
-                  {{#if icon}}
+                  {{#if iconName}}
+                    <span class="section-mf-office__detail-icon" aria-hidden="true">
+                      {{> icon name=iconName width="20" height="20"}}
+                    </span>
+                  {{else if icon}}
                     <span class="section-mf-office__detail-icon" aria-hidden="true">
                       <img
                         src="{{ icon }}"

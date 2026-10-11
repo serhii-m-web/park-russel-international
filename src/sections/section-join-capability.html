@@ -51,13 +51,7 @@
           {{#each joinCapability.benefits}}
             <li class="section-join-capability__benefit">
               <span class="section-join-capability__check" aria-hidden="true">
-                <img
-                  src="/icons/join/icon-check-circle.svg"
-                  alt=""
-                  width="30"
-                  height="30"
-                  decoding="async"
-                />
+                {{> icon name="check-circle" width="30" height="30"}}
               </span>
               <span class="section-join-capability__benefit-text">{{ this }}</span>
             </li>

@@ -53,27 +53,13 @@
                   <div class="section-env-insights__meta">
                     {{#if date}}
                       <span class="section-env-insights__date">
-                        <img
-                          src="/icons/business-environment/icon-calendar.svg"
-                          alt=""
-                          width="16"
-                          height="16"
-                          decoding="async"
-                          aria-hidden="true"
-                        />
+                        {{> icon name="calendar" width="16" height="16" class="section-env-insights__date-icon"}}
                         <time>{{ date }}</time>
                       </span>
                     {{/if}}
                     {{#if region}}
                       <span class="section-env-insights__region">
-                        <img
-                          src="/icons/business-environment/icon-location.svg"
-                          alt=""
-                          width="16"
-                          height="16"
-                          decoding="async"
-                          aria-hidden="true"
-                        />
+                        {{> icon name="location" width="16" height="16" class="section-env-insights__region-icon"}}
                         <span>{{ region }}</span>
                       </span>
                     {{/if}}
@@ -89,7 +75,7 @@
                       <div class="section-env-insights__author">
                         <span class="section-env-insights__author-avatar" aria-hidden="true">
                           <img
-                            src="/icons/business-environment/icon-person.svg"
+                            src="/icons/icon-person.svg"
                             alt=""
                             width="18"
                             height="18"

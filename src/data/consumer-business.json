@@ -56,7 +56,7 @@
     "banner": {
       "imageBg": "/images/consumer-business/statement-bg.jpg",
       "leftColumn": {
-        "icon": "/icons/consumer-business/statement-icon.svg"
+        "icon": "/icons/financial-assurance.svg"
       },
       "rightColumn": {
         "text": "<span class=\"is-muted\">For management, the challenge is not simply responding to change.</span><span> It is understanding what that change means for performance, cash, risk and future growth.</span>"
@@ -72,32 +72,32 @@
     "title": "What Happens in the Market Quickly Reaches the Numbers.",
     "cards": [
       {
-        "icon": "/icons/consumer-business/pressure-cart.svg",
+        "icon": "/icons/icon-channel-cart.svg",
         "title": "Changing Demand",
         "description": "Consumer behaviour can move quickly, affecting product performance, pricing decisions and investment priorities."
       },
       {
-        "icon": "/icons/consumer-business/pressure-percent.svg",
+        "icon": "/icons/icon-pressure-percent.svg",
         "title": "Margin Pressure",
         "description": "Rising product, labour, logistics and fulfilment costs can weaken profitability even when headline sales remain strong."
       },
       {
-        "icon": "/icons/consumer-business/pressure-inventory.svg",
+        "icon": "/icons/icon-pressure-inventory.svg",
         "title": "Inventory & Working Capital",
         "description": "Stock supports sales, but it also absorbs capital. Managing the balance between availability, demand and cash becomes increasingly important as businesses scale."
       },
       {
-        "icon": "/icons/consumer-business/pressure-storefront.svg",
+        "icon": "/icons/icon-channel-storefront.svg",
         "title": "Channel Economics",
         "description": "Retail, wholesale, marketplaces and direct-to-consumer channels can produce very different margins and cost structures."
       },
       {
-        "icon": "/icons/consumer-business/pressure-shipping.svg",
+        "icon": "/icons/icon-pressure-shipping.svg",
         "title": "Supply Chain Complexity",
         "description": "International sourcing creates dependencies across suppliers, logistics, customs, taxation and working capital."
       },
       {
-        "icon": "/icons/consumer-business/pressure-public.svg",
+        "icon": "/icons/icon-public.svg",
         "title": "International Growth",
         "description": "New markets bring new customers — alongside different tax regimes, reporting requirements and operating environments."
       }
@@ -155,22 +155,22 @@
     "leadStrong": "The business may see very different economics.",
     "cards": [
       {
-        "icon": "/icons/consumer-business/channel-storefront.svg",
+        "icon": "/icons/icon-channel-storefront.svg",
         "title": "Retail",
         "description": "Different margins and operating costs."
       },
       {
-        "icon": "/icons/consumer-business/channel-warehouse.svg",
+        "icon": "/icons/icon-channel-warehouse.svg",
         "title": "Wholesale",
         "description": "Different pricing and payment structures."
       },
       {
-        "icon": "/icons/consumer-business/channel-cart.svg",
+        "icon": "/icons/icon-channel-cart.svg",
         "title": "Marketplaces",
         "description": "Different commissions, fulfilment and customer relationships."
       },
       {
-        "icon": "/icons/consumer-business/channel-devices.svg",
+        "icon": "/icons/icon-channel-devices.svg",
         "title": "Direct-to-Consumer",
         "description": "Different acquisition costs, data, margins and infrastructure requirements."
       }
@@ -219,31 +219,31 @@
     "imageAlt": "Advisory team meeting with a consumer business client",
     "items": [
       {
-        "icon": "/icons/consumer-business/service-verified.svg",
+        "icon": "/icons/icon-verified-user.svg",
         "title": "Audit & Assurance",
         "description": "Confidence in financial reporting as operations, systems and group structures become more complex.",
         "link": { "label": "Explore Assurance", "href": "assurance.html" }
       },
       {
-        "icon": "/icons/consumer-business/service-gavel.svg",
+        "icon": "/icons/icon-gavel.svg",
         "title": "Tax & Legal",
         "description": "Tax expertise around domestic and international operations, transactions, indirect taxation and cross-border activity.",
         "link": { "label": "Explore Tax & Legal", "href": "tax-legal.html" }
       },
       {
-        "icon": "/icons/consumer-business/service-monitoring.svg",
+        "icon": "/icons/icon-monitoring.svg",
         "title": "Financial Advisory",
         "description": "Greater clarity around performance, value, capital, financial exposure and significant business decisions.",
         "link": { "label": "Explore Financial Advisory", "href": "financial-advisory.html" }
       },
       {
-        "icon": "/icons/consumer-business/service-handshake.svg",
+        "icon": "/icons/icon-handshake.svg",
         "title": "Corporate Services",
         "description": "Corporate finance expertise around acquisitions, disposals, financing and other strategic transactions.",
         "link": { "label": "Explore Corporate Services", "href": "corporate-services.html" }
       },
       {
-        "icon": "/icons/consumer-business/service-swap.svg",
+        "icon": "/icons/icon-swap-horiz.svg",
         "title": "Transfer Pricing",
         "description": "Expertise around transactions and arrangements between associated businesses operating across jurisdictions.",
         "link": { "label": "Explore Transfer Pricing", "href": "transfer-pricing.html" }
@@ -258,23 +258,23 @@
     "title": "Growth Changes the Business.<br><span class=\"is-muted\">And It Changes the Questions.</span>",
     "cards": [
       {
-        "icon": "/icons/consumer-business/moment-public.svg",
+        "icon": "/icons/icon-public.svg",
         "description": "<strong>Entering a new market</strong> brings questions of tax, structure, reporting and capital."
       },
       {
-        "icon": "/icons/consumer-business/moment-sell.svg",
+        "icon": "/icons/icon-moment-sell.svg",
         "description": "<strong>Launching a new channel</strong> changes margins, costs, payment flows and financial controls."
       },
       {
-        "icon": "/icons/consumer-business/moment-rocket.svg",
+        "icon": "/icons/icon-moment-rocket.svg",
         "description": "<strong>Scaling rapidly</strong> increases pressure on inventory, cash, systems and working capital."
       },
       {
-        "icon": "/icons/consumer-business/moment-handshake.svg",
+        "icon": "/icons/icon-handshake.svg",
         "description": "<strong>Making an acquisition</strong> brings value, financing, tax and financial information into the same decision."
       },
       {
-        "icon": "/icons/consumer-business/moment-trending.svg",
+        "icon": "/icons/icon-trending-up.svg",
         "description": "<strong>Preparing for investment or sale</strong> places greater attention on performance, cash generation, controls and the drivers of value."
       }
     ],
@@ -315,27 +315,27 @@
     "lead": "Consumer business covers organisations with very different commercial and financial models.",
     "cards": [
       {
-        "icon": "/icons/consumer-business/segment-bag.svg",
+        "icon": "/icons/icon-segment-bag.svg",
         "title": "Consumer Products",
         "description": "Product economics, demand, inventory and international distribution."
       },
       {
-        "icon": "/icons/consumer-business/segment-storefront.svg",
+        "icon": "/icons/icon-channel-storefront.svg",
         "title": "Retail",
         "description": "Margins, locations, working capital and changing customer behaviour."
       },
       {
-        "icon": "/icons/consumer-business/segment-devices.svg",
+        "icon": "/icons/icon-channel-devices.svg",
         "title": "Direct-to-Consumer",
         "description": "Customer acquisition, fulfilment, digital channels and growth economics."
       },
       {
-        "icon": "/icons/consumer-business/segment-warehouse.svg",
+        "icon": "/icons/icon-channel-warehouse.svg",
         "title": "Wholesale & Distribution",
         "description": "Pricing, inventory, supply chains and cash cycles."
       },
       {
-        "icon": "/icons/consumer-business/segment-hub.svg",
+        "icon": "/icons/icon-hub.svg",
         "title": "Multi-Channel Businesses",
         "description": "Understanding performance across increasingly connected routes to market."
       }

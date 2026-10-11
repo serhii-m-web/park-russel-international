@@ -95,19 +95,16 @@
     font-size: 14px;
     line-height: calc(20 / 14);
 
-    img {
-      display: block;
-      width: 16px;
-      height: 16px;
-      flex-shrink: 0;
-    }
-
     &--pill {
       padding: 8px 16px 8px 14px;
       border-radius: 100px;
       background-color: $color-white;
       color: $color-dark-blue;
     }
+  }
+
+  &__date-icon {
+    color: $color-red;
   }
 
   &__featured-title {
@@ -357,6 +354,7 @@
     height: 52px;
     border-radius: 12px;
     background-color: $color-red;
+    color: $color-white;
 
     img {
       display: block;

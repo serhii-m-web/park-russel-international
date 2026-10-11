@@ -58,27 +58,27 @@
     ],
     "cards": [
       {
-        "icon": "/icons/financial-advisory/moment-value.svg",
+        "icon": "/icons/perspective-local.svg",
         "title": "Understanding Value",
         "description": "When a business, asset or opportunity needs to be assessed beyond its headline financial figures."
       },
       {
-        "icon": "/icons/financial-advisory/moment-performance.svg",
+        "icon": "/icons/perspective-intl.svg",
         "title": "Assessing Performance",
         "description": "When changes in revenue, margins, cash generation or costs require a deeper understanding of what is driving the business."
       },
       {
-        "icon": "/icons/financial-advisory/moment-capital.svg",
+        "icon": "/icons/quadrants-black.svg",
         "title": "Capital at Stake",
         "description": "When an investment, financing or strategic decision could materially affect financial flexibility and future returns."
       },
       {
-        "icon": "/icons/financial-advisory/moment-change.svg",
+        "icon": "/icons/layers-black.svg",
         "title": "Business Change",
         "description": "When growth, restructuring, ownership changes or strategic decisions alter the organisation's financial position."
       },
       {
-        "icon": "/icons/financial-advisory/moment-stakeholder.svg",
+        "icon": "/icons/petals-black.svg",
         "title": "Stakeholder Complexity",
         "description": "When shareholders, management, creditors, investors or other stakeholders have different financial interests in the outcome."
       }
@@ -216,7 +216,7 @@
     ],
     "banner": {
       "imageBg": "/images/financial-advisory/assumptions-bg.jpg",
-      "icon": "/icons/financial-advisory/assumptions-mark.svg",
+      "icon": "/icons/financial-assurance.svg",
       "title": "Do not only ask what the numbers say.<br><span class=\"is-muted\">Ask what must be true for them to remain true.</span>"
     }
   },
@@ -237,32 +237,32 @@
     },
     "items": [
       {
-        "icon": "/icons/financial-advisory/factor-bar.svg",
+        "icon": "/icons/icon-factor-bar.svg",
         "title": "Performance",
         "text": "How effectively does the business generate earnings?"
       },
       {
-        "icon": "/icons/financial-advisory/factor-cash.svg",
+        "icon": "/icons/icon-factor-cash.svg",
         "title": "Cash Generation",
         "text": "How effectively do those earnings translate into cash?"
       },
       {
-        "icon": "/icons/financial-advisory/factor-trend.svg",
+        "icon": "/icons/icon-factor-trend.svg",
         "title": "Growth",
         "text": "What assumptions and investment are required to achieve future expectations?"
       },
       {
-        "icon": "/icons/financial-advisory/factor-warning.svg",
+        "icon": "/icons/risk-reporting.svg",
         "title": "Risk",
         "text": "What could materially affect performance or future value?"
       },
       {
-        "icon": "/icons/financial-advisory/factor-bank.svg",
+        "icon": "/icons/icon-factor-bank.svg",
         "title": "Capital",
         "text": "What financial resources are required to maintain and develop the business?"
       },
       {
-        "icon": "/icons/financial-advisory/factor-globe.svg",
+        "icon": "/icons/icon-factor-globe.svg",
         "title": "Market",
         "text": "How do sector and economic conditions affect expectations?"
       }
@@ -349,17 +349,17 @@
     "lead": "International businesses may operate through multiple entities, currencies and markets while important financial decisions need to consider the organisation as a whole.",
     "principles": [
       {
-        "icon": "/icons/financial-advisory/borders-bank.svg",
+        "icon": "/icons/icon-factor-bank.svg",
         "text": "An investment in one jurisdiction can affect capital allocation elsewhere. Different markets can carry different assumptions and risks. Local financial conditions can influence the economics of a wider international decision."
       },
       {
-        "icon": "/icons/financial-advisory/borders-globe.svg",
+        "icon": "/icons/icon-factor-globe.svg",
         "text": "Through Parker Russell International, independent member firms can collaborate where financial matters extend across jurisdictions, bringing relevant local knowledge into a broader assessment."
       }
     ],
     "imageSecondary": "/images/financial-advisory/borders.jpg",
     "imageSecondaryAlt": "Local and international financial advisory",
-    "photoMark": "/icons/financial-advisory/borders-mark.svg",
+    "photoMark": "/icons/financial-assurance.svg",
     "photoStatement": "Understand the market locally. <span class=\"is-muted\">See the decision in its wider context.</span>",
     "button": {
       "label": "Explore Our Global Network",

@@ -17,11 +17,11 @@
     "body": "Our mission is to create an international network where member firms can retain their independence while gaining the reach, knowledge and professional relationships required to serve increasingly international businesses.",
     "audiences": [
       {
-        "icon": "/icons/mission/icon-groups.svg",
+        "icon": "/icons/icon-groups.svg",
         "text": "<span class=\"is-accent\">For clients,</span> this means trusted local expertise supported by wider international capability."
       },
       {
-        "icon": "/icons/mission/icon-domain.svg",
+        "icon": "/icons/icon-domain.svg",
         "text": "<span class=\"is-accent\">For member firms,</span> it means the opportunity to grow beyond the limits of a single market without losing the independence that defines their business."
       }
     ],
@@ -44,7 +44,7 @@
     "title": "What We Aim to Achieve",
     "items": [
       {
-        "icon": "/icons/mission/icon-hub.svg",
+        "icon": "/icons/icon-hub.svg",
         "title": "Better Connected Expertise",
         "lead": "No single firm needs to hold every capability in every market.",
         "body": [
@@ -53,7 +53,7 @@
         ]
       },
       {
-        "icon": "/icons/mission/icon-domain.svg",
+        "icon": "/icons/icon-domain.svg",
         "title": "Stronger Independent Firms",
         "lead": "Independence is fundamental to our model.",
         "body": [
@@ -61,7 +61,7 @@
         ]
       },
       {
-        "icon": "/icons/mission/icon-handshake.svg",
+        "icon": "/icons/icon-handshake.svg",
         "title": "Greater Value for Clients",
         "lead": "International businesses need more than a collection of unrelated advisers.",
         "body": [
@@ -70,7 +70,7 @@
         ]
       },
       {
-        "icon": "/icons/mission/icon-premium.svg",
+        "icon": "/icons/icon-premium.svg",
         "title": "Higher Professional Standards",
         "lead": "The reputation of Parker Russell International depends on the quality of the firms within it.",
         "body": [
@@ -86,7 +86,7 @@
       {
         "image": "/images/mission/local-strength.png",
         "imageAlt": "Local market business storefront",
-        "icon": "/icons/mission/icon-location.svg",
+        "icon": "/icons/icon-location.svg",
         "title": "Every market is different.",
         "body": [
           "Taxation, regulation, reporting requirements, commercial practice and business culture remain fundamentally local.",
@@ -96,14 +96,14 @@
       {
         "image": "/images/mission/international.png",
         "imageAlt": "Globe representing international perspective",
-        "icon": "/icons/mission/icon-public.svg",
+        "icon": "/icons/icon-public.svg",
         "title": "But modern business rarely stops at national borders.",
         "body": [
           "When clients expand, invest, acquire, restructure or operate internationally, those local capabilities need to connect."
         ]
       }
     ],
-    "connectionIcon": "/icons/mission/icon-link.svg",
+    "connectionIcon": "/icons/icon-link-red.svg",
     "conclusionTitle": "Our mission is to make that connection work.",
     "conclusionLead": "Not by replacing local relationships, but by extending what those relationships can achieve."
   },
@@ -122,7 +122,7 @@
       "a broader perspective on international decisions;",
       "relationships built around long-term business needs."
     ],
-    "checkIcon": "/icons/mission/icon-check.svg"
+    "checkIcon": true
   },
   "missionFirms": {
     "id": "mission-firms",
@@ -131,35 +131,35 @@
     "platformLabel": "Parker Russell International provides a platform through which independent firms can:",
     "items": [
       {
-        "icon": "/icons/mission/icon-trending.svg",
+        "icon": "/icons/icon-trending.svg",
         "text": "extend their international capabilities;"
       },
       {
-        "icon": "/icons/mission/icon-add-business.svg",
+        "icon": "/icons/icon-add-business.svg",
         "text": "support clients entering new markets;"
       },
       {
-        "icon": "/icons/mission/icon-swap.svg",
+        "icon": "/icons/icon-swap.svg",
         "text": "collaborate on cross-border assignments;"
       },
       {
-        "icon": "/icons/mission/icon-forum.svg",
+        "icon": "/icons/icon-forum.svg",
         "text": "exchange technical knowledge and experience;"
       },
       {
-        "icon": "/icons/mission/icon-groups.svg",
+        "icon": "/icons/icon-groups.svg",
         "text": "build professional relationships with colleagues around the world;"
       },
       {
-        "icon": "/icons/mission/icon-tree.svg",
+        "icon": "/icons/icon-tree.svg",
         "text": "access broader sector and service expertise;"
       },
       {
-        "icon": "/icons/mission/icon-explore.svg",
+        "icon": "/icons/icon-explore.svg",
         "text": "strengthen their international market position;"
       },
       {
-        "icon": "/icons/mission/icon-volunteer.svg",
+        "icon": "/icons/icon-volunteer.svg",
         "text": "contribute to the continued development of the network."
       }
     ],
@@ -183,23 +183,23 @@
     "lead": "Our purpose is to combine the reach of an international organisation with the qualities that make strong independent firms particularly valuable:",
     "qualities": [
       {
-        "icon": "/icons/mission/icon-location.svg",
+        "icon": "/icons/icon-location.svg",
         "text": "deep knowledge of their markets;"
       },
       {
-        "icon": "/icons/mission/icon-partner.svg",
+        "icon": "/icons/icon-partner.svg",
         "text": "close client relationships;"
       },
       {
-        "icon": "/icons/mission/icon-balance.svg",
+        "icon": "/icons/icon-balance.svg",
         "text": "professional judgement;"
       },
       {
-        "icon": "/icons/mission/icon-verified.svg",
+        "icon": "/icons/icon-verified.svg",
         "text": "personal accountability;"
       },
       {
-        "icon": "/icons/mission/icon-rocket.svg",
+        "icon": "/icons/icon-rocket.svg",
         "text": "entrepreneurial leadership."
       }
     ],

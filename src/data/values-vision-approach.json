@@ -17,15 +17,15 @@
     "body": "The strength of our network depends on the quality of the firms within it, the relationships between them and the professional standards they bring to clients every day.",
     "principles": [
       {
-        "icon": "/icons/values/icon-diamond.svg",
+        "icon": "/icons/icon-diamond.svg",
         "text": "<span class=\"is-accent\">Our values</span> shape how we work."
       },
       {
-        "icon": "/icons/values/icon-flag.svg",
+        "icon": "/icons/icon-flag.svg",
         "text": "<span class=\"is-accent\">Our vision</span> defines where we are going."
       },
       {
-        "icon": "/icons/values/icon-route.svg",
+        "icon": "/icons/icon-route.svg",
         "text": "<span class=\"is-accent\">Our approach</span> determines how we get there."
       }
     ],
@@ -37,42 +37,42 @@
     "carouselLabel": "Our values",
     "items": [
       {
-        "icon": "/icons/mission/icon-verified.svg",
+        "icon": "/icons/icon-verified.svg",
         "title": "Integrity",
         "lead": "Trust begins with how we conduct ourselves.",
         "body": "We expect openness, honesty and sound professional judgement in the way our firms work with clients, colleagues and one another.",
         "emphasis": "Doing the right thing is not a statement of intent. It is a standard that should be reflected in everyday decisions."
       },
       {
-        "icon": "/icons/values/icon-diversity.svg",
+        "icon": "/icons/icon-clients.svg",
         "title": "Respect",
         "lead": "Parker Russell brings together firms, professionals and cultures from across the world.",
         "body": "We value different perspectives, professional backgrounds and local market knowledge.",
         "emphasis": "Respect allows independent firms to collaborate effectively while maintaining the individuality that makes each of them strong."
       },
       {
-        "icon": "/icons/mission/icon-handshake.svg",
+        "icon": "/icons/icon-handshake.svg",
         "title": "Collaboration",
         "lead": "The value of an international network lies in what its members can achieve together.",
         "body": "We encourage firms to share knowledge, introduce expertise, collaborate across jurisdictions and support one another when client needs extend beyond a single market.",
         "emphasis": "Collaboration turns international presence into practical capability."
       },
       {
-        "icon": "/icons/mission/icon-premium.svg",
+        "icon": "/icons/icon-premium.svg",
         "title": "Excellence",
         "lead": "Our reputation depends on the quality of the work delivered across the network.",
         "body": "We encourage high professional standards, continued development and a commitment to strengthening both technical capability and client service.",
         "emphasis": "Excellence is not a fixed destination. It requires constant attention, learning and improvement."
       },
       {
-        "icon": "/icons/mission/icon-domain.svg",
+        "icon": "/icons/icon-domain.svg",
         "title": "Independence",
         "lead": "Our member firms are independent by design.",
         "body": "They retain their leadership, culture, local relationships and understanding of their markets while benefiting from the broader capabilities of an international organisation.",
         "emphasis": "We believe independence and international collaboration can strengthen one another."
       },
       {
-        "icon": "/icons/mission/icon-balance.svg",
+        "icon": "/icons/icon-balance.svg",
         "title": "Responsibility",
         "lead": "Professional work carries responsibility.",
         "chips": [
@@ -96,27 +96,27 @@
     "networkLabel": "We want Parker Russell International to be a network where:",
     "items": [
       {
-        "icon": "/icons/mission/icon-domain.svg",
+        "icon": "/icons/icon-domain.svg",
         "text": "strong independent firms choose to belong;"
       },
       {
-        "icon": "/icons/mission/icon-public.svg",
+        "icon": "/icons/icon-public.svg",
         "text": "clients can access trusted expertise across borders;"
       },
       {
-        "icon": "/icons/mission/icon-forum.svg",
+        "icon": "/icons/icon-forum.svg",
         "text": "professionals share knowledge rather than operate in isolation;"
       },
       {
-        "icon": "/icons/mission/icon-handshake.svg",
+        "icon": "/icons/icon-handshake.svg",
         "text": "international opportunities are created through collaboration;"
       },
       {
-        "icon": "/icons/mission/icon-premium.svg",
+        "icon": "/icons/icon-premium.svg",
         "text": "quality and professional standards remain central to growth;"
       },
       {
-        "icon": "/icons/mission/icon-location.svg",
+        "icon": "/icons/icon-location.svg",
         "text": "local leadership is strengthened by international reach."
       }
     ],
@@ -157,7 +157,7 @@
     "carouselLabel": "Our approach principles",
     "items": [
       {
-        "icon": "/icons/mission/icon-location.svg",
+        "icon": "/icons/icon-location.svg",
         "title": "Local Knowledge First",
         "lead": "Every assignment begins with understanding the market in which the client is operating.",
         "body": [
@@ -166,7 +166,7 @@
         ]
       },
       {
-        "icon": "/icons/mission/icon-hub.svg",
+        "icon": "/icons/icon-hub.svg",
         "title": "Connect Expertise When It Adds Value",
         "lead": "Not every engagement needs an international team.",
         "body": [
@@ -175,7 +175,7 @@
         "emphasis": "The objective is not complexity for its own sake.<br />It is access to the right capability at the right time."
       },
       {
-        "icon": "/icons/values/icon-person.svg",
+        "icon": "/icons/icon-person.svg",
         "title": "Keep Relationships Personal",
         "lead": "Scale should not create distance.",
         "body": [
@@ -184,7 +184,7 @@
         "emphasis": "International capability should strengthen that relationship, not replace it."
       },
       {
-        "icon": "/icons/values/icon-lightbulb.svg",
+        "icon": "/icons/icon-lightbulb.svg",
         "title": "Think Beyond the Immediate Assignment",
         "lead": "A technical answer may solve today’s question.",
         "body": [
@@ -193,7 +193,7 @@
         ]
       },
       {
-        "icon": "/icons/mission/icon-forum.svg",
+        "icon": "/icons/icon-forum.svg",
         "title": "Share Knowledge Across the Network",
         "lead": "The experience developed in one market can create value elsewhere.",
         "body": [
@@ -202,7 +202,7 @@
         "emphasis": "That shared expertise is one of the most important advantages of international membership."
       },
       {
-        "icon": "/icons/mission/icon-premium.svg",
+        "icon": "/icons/icon-premium.svg",
         "title": "Grow Without Compromising Quality",
         "lead": "The long-term strength of Parker Russell International depends on the quality of the firms associated with the network.",
         "emphasis": "Growth should therefore reinforce professional standards, not dilute them.",
