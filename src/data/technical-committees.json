@@ -1,0 +1,228 @@
+{
+  "meta": {
+    "title": "Technical Committees | Parker Russell International",
+    "description": "Expertise becomes stronger when it is shared. How Parker Russell International technical committees connect knowledge across the network."
+  },
+  "techHero": {
+    "id": "tech-hero",
+    "breadcrumb": [
+      { "label": "Home", "href": "index.html" },
+      { "label": "Technical Committees" }
+    ],
+    "label": "TECHNICAL COMMITTEES",
+    "imageBg": "/images/tech-committees/hero-bg.jpg",
+    "imageLoading": "eager",
+    "title": "Expertise Becomes Stronger When It Is Shared.",
+    "lead": "Across an international professional network, technical knowledge cannot exist in isolation.",
+    "body": "Standards evolve. Regulation changes. New technical questions emerge across markets and jurisdictions. What begins as a local issue can quickly become relevant to firms and clients elsewhere in the network.",
+    "objective": {
+      "icon": "/icons/tech-committees/icon-hub.svg",
+      "text": "Parker Russell International provides a framework through which member firms can <span class=\"is-emphasis\">exchange technical knowledge, draw on wider network resources and contribute to a more connected approach to professional practice.</span>"
+    },
+    "statement": "<span class=\"is-muted\">Local expertise. </span>Shared knowledge. Stronger international capability."
+  },
+  "techMarkets": {
+    "id": "technical-knowledge",
+    "eyebrow": "Technical Knowledge Across an International Network",
+    "title": "Different Markets. Connected Professional Challenges.",
+    "lead": "Parker Russell member firms operate independently within their respective jurisdictions, each bringing its own technical knowledge, professional experience and understanding of local requirements.",
+    "statement": {
+      "icon": "/icons/tech-committees/icon-public.svg",
+      "text": "But increasingly, professional questions extend beyond one market."
+    },
+    "detailLead": "International groups operate across different reporting environments. Tax and regulatory developments can affect cross-border structures. Audit and assurance requirements continue to evolve. New business models create new technical considerations.",
+    "detailBody": "The ability to exchange knowledge across the network therefore strengthens the perspective available to member firms when addressing increasingly complex professional matters."
+  },
+  "techForum": {
+    "id": "forum-for-technical-exchange",
+    "eyebrow": "A Forum for Technical Exchange",
+    "title": "Bringing Knowledge Into the Network — and Making It Useful.",
+    "lead": "Technical committees should not exist simply to discuss technical developments.",
+    "body": "Their value lies in turning knowledge into something that can be understood, shared and applied across the network.",
+    "areas": [
+      {
+        "icon": "/icons/tech-committees/icon-science.svg",
+        "label": "TECHNICAL DEVELOPMENTS",
+        "text": "Identifying developments relevant to professional practice and considering their wider implications."
+      },
+      {
+        "icon": "/icons/tech-committees/icon-forum.svg",
+        "label": "KNOWLEDGE EXCHANGE",
+        "text": "Creating opportunities for specialists across member firms to share experience and technical perspectives."
+      },
+      {
+        "icon": "/icons/tech-committees/icon-menu-book.svg",
+        "label": "PROFESSIONAL RESOURCES",
+        "text": "Supporting the development and exchange of technical materials, guidance and network resources."
+      },
+      {
+        "icon": "/icons/tech-committees/icon-public-2.svg",
+        "label": "INTERNATIONAL PERSPECTIVE",
+        "text": "Bringing together viewpoints from different markets where technical matters have cross-border relevance."
+      },
+      {
+        "icon": "/icons/tech-committees/icon-trending-up.svg",
+        "label": "PRACTICE DEVELOPMENT",
+        "text": "Supporting member firms as professional standards, regulatory expectations and market requirements continue to evolve."
+      }
+    ]
+  },
+  "techLocal": {
+    "id": "local-expertise",
+    "title": "Local Expertise Should Not Remain Local.",
+    "scenarios": [
+      {
+        "image": "/images/tech-committees/scenario-1.jpg",
+        "icon": "/icons/tech-committees/icon-location.svg",
+        "text": "A professional working in one market may encounter an issue that firms elsewhere are beginning to face."
+      },
+      {
+        "image": "/images/tech-committees/scenario-2.jpg",
+        "icon": "/icons/tech-committees/icon-gavel.svg",
+        "text": "A regulatory development in one jurisdiction may provide useful insight for another."
+      },
+      {
+        "image": "/images/tech-committees/scenario-3.jpg",
+        "icon": "/icons/tech-committees/icon-groups.svg",
+        "text": "A complex international engagement may require expertise from professionals across several member firms."
+      }
+    ],
+    "panel": {
+      "statement": "<span class=\"is-muted\">The strength of an international network lies not only in where its expertise exists — </span>but in how effectively that expertise is connected.",
+      "icon": "/icons/tech-committees/icon-hub-2.svg",
+      "body": "Parker Russell's network structure enables member firms to exchange technical advice and assistance and, where appropriate, draw upon resources and professional capabilities elsewhere within the network."
+    }
+  },
+  "techPractice": {
+    "id": "technical-change",
+    "eyebrow": "From Technical Change to Professional Practice",
+    "title": "Understanding What Has Changed Is Only the Beginning.",
+    "lead": "New standards, regulation and professional requirements need to be interpreted in the context of real engagements and real organisations.",
+    "image": "/images/tech-committees/practice.jpg",
+    "panelTitle": "The important questions are practical:",
+    "questions": [
+      "What has changed?",
+      "Who could be affected?",
+      "What does it mean for professional practice?",
+      "Where could further technical guidance be required?",
+      "What should member firms be considering now?"
+    ],
+    "questionIcon": "/icons/tech-committees/icon-help.svg",
+    "emphasis": "Technical collaboration creates a stronger environment for those questions to be examined collectively rather than in isolation."
+  },
+  "techConsistency": {
+    "id": "local-perspective",
+    "eyebrow": "Supporting Consistency Without Losing Local Perspective",
+    "title": "International Coordination. Local Professional Responsibility.",
+    "lead": "Parker Russell International is a network of separate and independent member firms. PRIL acts as a coordinating entity and develops network policies and initiatives in areas including risk and quality, while individual member firms remain responsible for their own professional services and obligations.",
+    "media": {
+      "image": "/images/tech-committees/distinction.jpg",
+      "icon": "/icons/tech-committees/icon-balance.svg",
+      "text": "That distinction matters."
+    },
+    "body": "International technical collaboration should strengthen local professional capability without replacing the judgement, regulatory responsibilities or jurisdiction-specific knowledge of individual member firms.",
+    "statement": "<span class=\"is-muted\">Shared knowledge strengthens the network. </span>Local expertise keeps it relevant."
+  },
+  "techServices": {
+    "id": "technical-expertise",
+    "eyebrow": "Technical Expertise Behind Our Services",
+    "title": "Knowledge That Connects Across Disciplines.",
+    "lead": "Technical questions rarely remain confined to a single area of professional practice.",
+    "services": [
+      {
+        "image": "/images/tech-committees/service-audit.jpg",
+        "icon": "/icons/tech-committees/icon-verified.svg",
+        "title": "Audit & Assurance",
+        "text": "Developments in financial reporting, assurance requirements, methodology and professional standards can directly influence how engagements are approached."
+      },
+      {
+        "image": "/images/tech-committees/service-tax.jpg",
+        "icon": "/icons/tech-committees/icon-receipt.svg",
+        "title": "Tax",
+        "text": "Changing national and international tax environments require professionals to consider both jurisdiction-specific requirements and wider cross-border implications."
+      },
+      {
+        "image": "/images/tech-committees/service-advisory.jpg",
+        "icon": "/icons/tech-committees/icon-monitoring.svg",
+        "title": "Financial & Corporate Advisory",
+        "text": "Complex transactions and financial decisions can bring together accounting, valuation, tax and other technical considerations."
+      },
+      {
+        "image": "/images/tech-committees/service-intl.jpg",
+        "icon": "/icons/tech-committees/icon-public-3.svg",
+        "title": "International Business",
+        "text": "Businesses operating across jurisdictions can require several areas of expertise to work together around the same commercial issue."
+      }
+    ],
+    "banner": {
+      "icon": "/icons/tech-committees/icon-account-tree.svg",
+      "text": "The network provides an environment in which relevant expertise can be connected when professional matters extend beyond one discipline or jurisdiction."
+    }
+  },
+  "techMoves": {
+    "id": "knowledge-that-moves",
+    "imageBg": "/images/tech-committees/moves-bg.jpg",
+    "title": "Knowledge That Moves With the Network",
+    "lead": "The value of technical expertise increases when professionals can access more than their own experience.",
+    "body": "Through collaboration, shared resources and technical exchange, Parker Russell member firms can draw upon perspectives from across the network while maintaining the local knowledge essential to professional work.",
+    "card": {
+      "icon": "/icons/tech-committees/icon-public-4.svg",
+      "lead": "This creates something larger than a collection of individual capabilities.",
+      "text": "A network in which knowledge can travel as effectively as business does."
+    }
+  },
+  "techStandards": {
+    "id": "quality-standards",
+    "title": "Quality Requires More Than Standards on Paper",
+    "lead": "Professional standards provide the foundation. Their value depends on how effectively they are understood and applied.",
+    "framework": {
+      "icon": "/icons/tech-committees/icon-verified-user.svg",
+      "text": "Parker Russell International's wider network framework includes common policies, methodologies and initiatives relating to risk and quality, while member firms are required to maintain network standards. The current site also states that membership requirements continue beyond admission and are subject to periodic inspections."
+    },
+    "culture": {
+      "text": "Technical collaboration forms part of that wider culture — connecting professional knowledge with the practical realities faced by firms across the network.",
+      "buttons": [
+        {
+          "label": "Explore Our Commitment to Quality",
+          "href": "our-commitment-to-quality.html",
+          "variant": "primary"
+        },
+        {
+          "label": "Explore Our Methodology",
+          "href": "#",
+          "variant": "secondary"
+        }
+      ]
+    }
+  },
+  "techFinal": {
+    "id": "expertise-never-stand-still",
+    "imageBg": "/images/tech-committees/final-cta-bg.jpg",
+    "title": "Expertise Should Never Stand Still",
+    "subtitle": "Neither Should the Network Behind It.",
+    "body": "Professional standards will continue to evolve. Regulation will change. Markets will create new questions. Businesses will become more international and increasingly complex.",
+    "foundations": [
+      {
+        "text": "A strong professional network needs the structures to learn, exchange knowledge and respond alongside that change."
+      },
+      {
+        "text": "Parker Russell International brings independent member firms together around shared professional resources, technical knowledge and international collaboration — strengthening the expertise available across the network."
+      }
+    ],
+    "tagline": "Knowledge shared across the network. Expertise applied where it matters.",
+    "buttons": [
+      {
+        "label": "Explore Our Member Firms",
+        "href": "#",
+        "variant": "primary",
+        "icon": true
+      },
+      {
+        "label": "Contact Parker Russell International",
+        "href": "#",
+        "variant": "secondary",
+        "icon": true
+      }
+    ]
+  }
+}

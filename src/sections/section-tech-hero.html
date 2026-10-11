@@ -1,0 +1,102 @@
+<section
+  class="
+    section-tech-hero
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if techHero.id}}
+    id="{{ techHero.id }}"
+  {{/if}}
+  {{#if techHero.title}}
+    aria-labelledby="{{#if techHero.id}}{{ techHero.id }}{{else}}section-tech-hero{{/if}}-title"
+  {{else}}
+    aria-label="Technical Committees"
+  {{/if}}
+>
+  <div class="container">
+    {{#if techHero.breadcrumb.length}}
+      <nav class="section-tech-hero__breadcrumb" aria-label="Breadcrumb">
+        <ol class="section-tech-hero__breadcrumb-list">
+          {{#each techHero.breadcrumb}}
+            <li class="section-tech-hero__breadcrumb-item">
+              {{#if href}}
+                <a class="section-tech-hero__breadcrumb-link" href="{{ href }}">
+                  {{ label }}
+                </a>
+              {{else}}
+                <span class="section-tech-hero__breadcrumb-current" aria-current="page">
+                  {{ label }}
+                </span>
+              {{/if}}
+            </li>
+          {{/each}}
+        </ol>
+      </nav>
+    {{/if}}
+
+    <div class="section-tech-hero__card">
+      {{#if techHero.imageBg}}
+        <div class="section-tech-hero__bg" aria-hidden="true">
+          {{picture
+            techHero.imageBg
+            alt=""
+            class="section-tech-hero__bg-image"
+            width="1376"
+            height="554"
+            loading=techHero.imageLoading
+          }}
+        </div>
+      {{/if}}
+
+      <div class="section-tech-hero__inner">
+        {{#if techHero.label}}
+          <span class="section-tech-hero__label">{{ techHero.label }}</span>
+        {{/if}}
+
+        {{#if techHero.title}}
+          <h1
+            id="{{#if techHero.id}}{{ techHero.id }}{{else}}section-tech-hero{{/if}}-title"
+            class="section-tech-hero__title"
+          >
+            {{{ techHero.title }}}
+          </h1>
+        {{/if}}
+
+        {{#if techHero.lead}}
+          <p class="section-tech-hero__lead">{{{ techHero.lead }}}</p>
+        {{/if}}
+
+        {{#if techHero.body}}
+          <p class="section-tech-hero__body">{{{ techHero.body }}}</p>
+        {{/if}}
+      </div>
+    </div>
+
+    <div class="section-tech-hero__panel">
+      {{#if techHero.objective}}
+        <div class="section-tech-hero__objective">
+          {{#if techHero.objective.icon}}
+            <span class="section-tech-hero__objective-icon" aria-hidden="true">
+              <img
+                src="{{ techHero.objective.icon }}"
+                alt=""
+                width="39"
+                height="39"
+                decoding="async"
+              />
+            </span>
+          {{/if}}
+          <p class="section-tech-hero__objective-text">{{{ techHero.objective.text }}}</p>
+        </div>
+      {{/if}}
+
+      {{#if techHero.statement}}
+        <div class="section-tech-hero__statement">
+          <span class="section-tech-hero__statement-rule" aria-hidden="true"></span>
+          <p class="section-tech-hero__statement-text">{{{ techHero.statement }}}</p>
+        </div>
+      {{/if}}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,74 @@
+<section
+  class="
+    section-tech-moves
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if techMoves.id}}
+    id="{{ techMoves.id }}"
+  {{/if}}
+  {{#if techMoves.title}}
+    aria-labelledby="{{#if techMoves.id}}{{ techMoves.id }}{{else}}section-tech-moves{{/if}}-title"
+  {{else}}
+    aria-label="Knowledge That Moves With the Network"
+  {{/if}}
+>
+  {{#if techMoves.imageBg}}
+    <div class="section-tech-moves__bg" aria-hidden="true">
+      {{picture
+        techMoves.imageBg
+        alt=""
+        class="section-tech-moves__bg-image"
+        width="1920"
+        height="900"
+      }}
+    </div>
+  {{/if}}
+
+  <div class="container">
+    <div class="section-tech-moves__header">
+      <div class="section-tech-moves__heading">
+        <span class="section-tech-moves__rule" aria-hidden="true"></span>
+        {{#if techMoves.title}}
+          <h2
+            id="{{#if techMoves.id}}{{ techMoves.id }}{{else}}section-tech-moves{{/if}}-title"
+            class="section-tech-moves__title"
+          >
+            {{{ techMoves.title }}}
+          </h2>
+        {{/if}}
+        {{#if techMoves.lead}}
+          <p class="section-tech-moves__lead">{{{ techMoves.lead }}}</p>
+        {{/if}}
+      </div>
+      {{#if techMoves.body}}
+        <p class="section-tech-moves__body">{{{ techMoves.body }}}</p>
+      {{/if}}
+    </div>
+
+    {{#if techMoves.card}}
+      <aside class="section-tech-moves__card">
+        {{#if techMoves.card.icon}}
+          <span class="section-tech-moves__card-icon" aria-hidden="true">
+            <img
+              src="{{ techMoves.card.icon }}"
+              alt=""
+              width="39"
+              height="39"
+              decoding="async"
+            />
+          </span>
+        {{/if}}
+        <div class="section-tech-moves__card-copy">
+          {{#if techMoves.card.lead}}
+            <p class="section-tech-moves__card-lead">{{{ techMoves.card.lead }}}</p>
+          {{/if}}
+          {{#if techMoves.card.text}}
+            <p class="section-tech-moves__card-text">{{{ techMoves.card.text }}}</p>
+          {{/if}}
+        </div>
+      </aside>
+    {{/if}}
+  </div>
+</section>

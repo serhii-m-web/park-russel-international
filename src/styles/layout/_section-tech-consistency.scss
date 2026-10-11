@@ -1,0 +1,223 @@
+@use '../abstracts' as *;
+
+.section-tech-consistency {
+  @include adaptive-value('padding-top', 120, 56, 1);
+  @include adaptive-value('padding-bottom', 120, 56, 1);
+  background-color: $color-white;
+
+  &__header {
+    display: flex;
+    align-items: flex-start;
+    gap: 64px;
+    @include adaptive-value('margin-bottom', 56, 32, 1);
+
+    @include media('<desktop') {
+      flex-direction: column;
+      gap: 24px;
+    }
+  }
+
+  &__heading {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    min-width: 0;
+  }
+
+  &__eyebrow {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 0;
+    color: $color-red;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.14px;
+    line-height: calc(20 / 14);
+  }
+
+  &__eyebrow-rule {
+    display: block;
+    flex-shrink: 0;
+    width: 20px;
+    height: 2px;
+    background-color: $color-red;
+  }
+
+  &__title {
+    margin: 0;
+    color: $color-dark-blue;
+    font-weight: 500;
+    letter-spacing: -1.2px;
+    line-height: calc(52 / 48);
+    @include adaptive-value('font-size', 48, 32, 1);
+  }
+
+  &__lead {
+    flex: 0 0 560px;
+    width: 560px;
+    max-width: 100%;
+    margin: 0;
+    padding-top: 40px;
+    color: $color-text-muted;
+    line-height: calc(30 / 19);
+    @include adaptive-value('font-size', 19, 16, 1);
+
+    @include media('<desktop') {
+      flex: none;
+      width: 100%;
+      padding-top: 0;
+    }
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: minmax(0, 560px) minmax(0, 1fr);
+    gap: 24px;
+    align-items: stretch;
+
+    @include media('<desktop') {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &__media {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 24px;
+    box-sizing: border-box;
+    min-height: 500px;
+    padding: 48px;
+    overflow: hidden;
+    border-radius: 28px;
+
+    @include media('<tablet') {
+      min-height: 360px;
+      padding: 28px 24px;
+    }
+  }
+
+  &__media-bg {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+
+    &::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        180deg,
+        rgba(20, 28, 46, 0) 0%,
+        rgba(20, 28, 46, 0.35) 45%,
+        rgba(20, 28, 46, 0.94) 100%
+      );
+    }
+  }
+
+  &__media-image {
+    display: block;
+    width: 100%;
+    height: 100%;
+
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__media-content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+  }
+
+  &__media-icon {
+    display: inline-flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 12px;
+    background-color: $color-red;
+
+    img {
+      display: block;
+      width: 32px;
+      height: 32px;
+    }
+  }
+
+  &__media-text {
+    margin: 0;
+    color: $color-white;
+    font-weight: 500;
+    letter-spacing: -0.8px;
+    line-height: calc(46 / 40);
+    @include adaptive-value('font-size', 40, 28, 1);
+  }
+
+  &__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 48px;
+    box-sizing: border-box;
+    padding: 56px;
+    border-radius: 28px;
+    background-color: $color-bg-muted;
+
+    @include media('<tablet') {
+      gap: 32px;
+      padding: 28px 24px;
+    }
+  }
+
+  &__body {
+    margin: 0;
+    color: $color-dark-blue;
+    font-weight: 500;
+    letter-spacing: -0.336px;
+    line-height: calc(38 / 28);
+    @include adaptive-value('font-size', 28, 20, 1);
+  }
+
+  &__statement {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    padding-top: 36px;
+    border-top: 1px solid rgba($color-dark-blue, 0.12);
+  }
+
+  &__statement-rule {
+    display: block;
+    width: 48px;
+    height: 3px;
+    background-color: $color-red;
+  }
+
+  &__statement-text {
+    margin: 0;
+    color: $color-dark-blue;
+    font-weight: 500;
+    letter-spacing: -0.612px;
+    line-height: calc(42 / 34);
+    @include adaptive-value('font-size', 34, 24, 1);
+
+    .is-muted {
+      color: #858d9f;
+    }
+  }
+}

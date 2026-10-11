@@ -1,0 +1,84 @@
+<section
+  class="
+    section-tech-standards
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if techStandards.id}}
+    id="{{ techStandards.id }}"
+  {{/if}}
+  {{#if techStandards.title}}
+    aria-labelledby="{{#if techStandards.id}}{{ techStandards.id }}{{else}}section-tech-standards{{/if}}-title"
+  {{else}}
+    aria-label="Quality Requires More Than Standards on Paper"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-tech-standards__header">
+      <div class="section-tech-standards__heading">
+        <span class="section-tech-standards__rule" aria-hidden="true"></span>
+        {{#if techStandards.title}}
+          <h2
+            id="{{#if techStandards.id}}{{ techStandards.id }}{{else}}section-tech-standards{{/if}}-title"
+            class="section-tech-standards__title"
+          >
+            {{{ techStandards.title }}}
+          </h2>
+        {{/if}}
+      </div>
+      {{#if techStandards.lead}}
+        <p class="section-tech-standards__lead">{{{ techStandards.lead }}}</p>
+      {{/if}}
+    </div>
+
+    <div class="section-tech-standards__grid">
+      {{#if techStandards.framework}}
+        <article class="section-tech-standards__framework">
+          {{#if techStandards.framework.icon}}
+            <span class="section-tech-standards__framework-icon" aria-hidden="true">
+              <img
+                src="{{ techStandards.framework.icon }}"
+                alt=""
+                width="35"
+                height="35"
+                decoding="async"
+              />
+            </span>
+          {{/if}}
+          {{#if techStandards.framework.text}}
+            <p class="section-tech-standards__framework-text">{{{ techStandards.framework.text }}}</p>
+          {{/if}}
+        </article>
+      {{/if}}
+
+      {{#if techStandards.culture}}
+        <article class="section-tech-standards__culture">
+          <div class="section-tech-standards__culture-copy">
+            <span class="section-tech-standards__culture-rule" aria-hidden="true"></span>
+            {{#if techStandards.culture.text}}
+              <p class="section-tech-standards__culture-text">{{{ techStandards.culture.text }}}</p>
+            {{/if}}
+          </div>
+          {{#if techStandards.culture.buttons.length}}
+            <div class="section-tech-standards__buttons">
+              {{#each techStandards.culture.buttons}}
+                <a
+                  class="section-tech-standards__button site-button {{ variant }}"
+                  href="{{ href }}"
+                >
+                  <span>{{ label }}</span>
+                  {{> icon
+                    name="arrow-right"
+                    width="16"
+                    height="16"
+                  }}
+                </a>
+              {{/each}}
+            </div>
+          {{/if}}
+        </article>
+      {{/if}}
+    </div>
+  </div>
+</section>

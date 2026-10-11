@@ -1,0 +1,206 @@
+@use '../abstracts' as *;
+
+.section-tech-practice {
+  @include adaptive-value('padding-top', 120, 56, 1);
+  @include adaptive-value('padding-bottom', 120, 56, 1);
+  background-color: $color-bg-muted;
+
+  &__layout {
+    display: flex;
+    align-items: stretch;
+    gap: 64px;
+
+    @include media('<widescreen') {
+      gap: 40px;
+    }
+
+    @include media('<desktop') {
+      flex-direction: column;
+      gap: 32px;
+    }
+  }
+
+  &__copy {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    min-width: 0;
+  }
+
+  &__eyebrow {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 0;
+    color: $color-red;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.14px;
+    line-height: calc(20 / 14);
+  }
+
+  &__eyebrow-rule {
+    display: block;
+    flex-shrink: 0;
+    width: 20px;
+    height: 2px;
+    background-color: $color-red;
+  }
+
+  &__title {
+    margin: 0;
+    color: $color-dark-blue;
+    font-weight: 500;
+    letter-spacing: -1.2px;
+    line-height: calc(52 / 48);
+    @include adaptive-value('font-size', 48, 32, 1);
+  }
+
+  &__lead {
+    margin: 0;
+    color: $color-text-muted;
+    letter-spacing: -0.11px;
+    line-height: calc(32 / 22);
+    @include adaptive-value('font-size', 22, 18, 1);
+  }
+
+  &__media {
+    flex: 1 1 auto;
+    width: 100%;
+    min-height: 280px;
+    margin-top: 8px;
+    overflow: hidden;
+    border-radius: 24px;
+  }
+
+  &__image {
+    display: block;
+    width: 100%;
+    height: 100%;
+
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__panel {
+    display: flex;
+    flex: 0 0 640px;
+    flex-direction: column;
+    width: 640px;
+    max-width: 100%;
+    padding: 56px;
+    border-radius: 28px;
+    background:
+      radial-gradient(
+        40% 35% at 10% 50%,
+        rgba($color-red, 0.22) 0%,
+        rgba($color-red, 0) 100%
+      ),
+      #141c2e;
+
+    @include media('<widescreen') {
+      flex-basis: 520px;
+      width: 520px;
+      padding: 40px 32px;
+    }
+
+    @include media('<desktop') {
+      flex: none;
+      width: 100%;
+    }
+
+    @include media('<tablet') {
+      padding: 28px 24px;
+    }
+  }
+
+  &__panel-label {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 32px;
+  }
+
+  &__panel-rule {
+    flex-shrink: 0;
+    width: 32px;
+    height: 3px;
+    background-color: $color-red;
+  }
+
+  &__panel-title {
+    margin: 0;
+    color: $color-white;
+    font-weight: 500;
+    letter-spacing: -0.26px;
+    line-height: calc(34 / 26);
+    @include adaptive-value('font-size', 26, 20, 1);
+  }
+
+  &__questions {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  &__question {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 22px 0;
+    border-top: 1px solid rgba($color-white, 0.12);
+  }
+
+  &__question-icon {
+    display: inline-flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 22px;
+    background-color: $color-red;
+
+    img {
+      display: block;
+      width: 24px;
+      height: 24px;
+    }
+  }
+
+  &__question-text {
+    margin: 0;
+    color: $color-white;
+    font-weight: 500;
+    letter-spacing: -0.105px;
+    line-height: calc(30 / 21);
+    @include adaptive-value('font-size', 21, 17, 1);
+  }
+
+  &__emphasis {
+    display: flex;
+    align-items: stretch;
+    gap: 20px;
+    padding-top: 32px;
+    border-top: 1px solid rgba($color-white, 0.12);
+  }
+
+  &__emphasis-bar {
+    flex-shrink: 0;
+    width: 3px;
+    background-color: $color-red;
+  }
+
+  &__emphasis-text {
+    margin: 0;
+    color: $color-ice;
+    line-height: calc(28 / 18);
+    @include adaptive-value('font-size', 18, 16, 1);
+  }
+}

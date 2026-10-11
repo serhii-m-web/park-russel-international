@@ -1,0 +1,142 @@
+<section
+  class="
+    section-tech-services
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if techServices.id}}
+    id="{{ techServices.id }}"
+  {{/if}}
+  data-about-cards-slider
+  {{#if techServices.title}}
+    aria-labelledby="{{#if techServices.id}}{{ techServices.id }}{{else}}section-tech-services{{/if}}-title"
+  {{else}}
+    aria-label="Knowledge That Connects Across Disciplines"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-tech-services__header">
+      <div class="section-tech-services__heading">
+        {{#if techServices.eyebrow}}
+          <p class="section-tech-services__eyebrow">
+            <span class="section-tech-services__eyebrow-rule" aria-hidden="true"></span>
+            <span>{{ techServices.eyebrow }}</span>
+          </p>
+        {{/if}}
+        {{#if techServices.title}}
+          <h2
+            id="{{#if techServices.id}}{{ techServices.id }}{{else}}section-tech-services{{/if}}-title"
+            class="section-tech-services__title"
+          >
+            {{{ techServices.title }}}
+          </h2>
+        {{/if}}
+      </div>
+      {{#if techServices.lead}}
+        <p class="section-tech-services__lead">{{{ techServices.lead }}}</p>
+      {{/if}}
+    </div>
+
+    {{#if techServices.services.length}}
+      <div class="section-tech-services__grid-wrap">
+        <div
+          class="swiper section-tech-services__grid"
+          data-about-cards-slider-el
+          data-about-cards-slider-label="{{#if techServices.carouselLabel}}{{ techServices.carouselLabel }}{{else}}Technical expertise services{{/if}}"
+        >
+          <div class="swiper-wrapper">
+            {{#each techServices.services}}
+              <article class="swiper-slide section-tech-services__card">
+                {{#if image}}
+                  <div class="section-tech-services__media">
+                    {{picture
+                      image
+                      alt=""
+                      class="section-tech-services__image"
+                      width="310"
+                      height="210"
+                    }}
+                  </div>
+                {{/if}}
+                <div class="section-tech-services__content">
+                  {{#if icon}}
+                    <span class="section-tech-services__icon" aria-hidden="true">
+                      <img src="{{ icon }}" alt="" width="26" height="26" decoding="async" />
+                    </span>
+                  {{/if}}
+                  {{#if title}}
+                    <h3 class="section-tech-services__card-title">{{ title }}</h3>
+                  {{/if}}
+                  {{#if text}}
+                    <p class="section-tech-services__text">{{{ text }}}</p>
+                  {{/if}}
+                </div>
+              </article>
+            {{/each}}
+          </div>
+        </div>
+
+        <div
+          class="section-tech-services__navigation"
+          role="group"
+          aria-label="Services slider controls"
+          data-about-cards-slider-nav
+          inert
+        >
+          <div
+            class="swiper-scrollbar section-tech-services__scrollbar"
+            data-about-cards-slider-scrollbar
+            tabindex="0"
+            aria-label="Slider progress"
+          ></div>
+          <div class="section-tech-services__nav-buttons">
+            <button
+              class="swiper-button-prev section-tech-services__nav-btn prev"
+              type="button"
+              data-about-cards-slider-prev
+              aria-label="Previous slide"
+            >
+              {{> icon
+                name="arrow-right"
+                width="16"
+                height="16"
+              }}
+            </button>
+            <button
+              class="swiper-button-next section-tech-services__nav-btn next"
+              type="button"
+              data-about-cards-slider-next
+              aria-label="Next slide"
+            >
+              {{> icon
+                name="arrow-right"
+                width="16"
+                height="16"
+              }}
+            </button>
+          </div>
+        </div>
+      </div>
+    {{/if}}
+
+    {{#if techServices.banner}}
+      <div class="section-tech-services__banner">
+        {{#if techServices.banner.icon}}
+          <span class="section-tech-services__banner-icon" aria-hidden="true">
+            <img
+              src="{{ techServices.banner.icon }}"
+              alt=""
+              width="35"
+              height="35"
+              decoding="async"
+            />
+          </span>
+        {{/if}}
+        {{#if techServices.banner.text}}
+          <p class="section-tech-services__banner-text">{{{ techServices.banner.text }}}</p>
+        {{/if}}
+      </div>
+    {{/if}}
+  </div>
+</section>

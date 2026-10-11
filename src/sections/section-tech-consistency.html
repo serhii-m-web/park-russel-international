@@ -1,0 +1,86 @@
+<section
+  class="
+    section-tech-consistency
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if techConsistency.id}}
+    id="{{ techConsistency.id }}"
+  {{/if}}
+  {{#if techConsistency.title}}
+    aria-labelledby="{{#if techConsistency.id}}{{ techConsistency.id }}{{else}}section-tech-consistency{{/if}}-title"
+  {{else}}
+    aria-label="International Coordination. Local Professional Responsibility."
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-tech-consistency__header">
+      <div class="section-tech-consistency__heading">
+        {{#if techConsistency.eyebrow}}
+          <p class="section-tech-consistency__eyebrow">
+            <span class="section-tech-consistency__eyebrow-rule" aria-hidden="true"></span>
+            <span>{{ techConsistency.eyebrow }}</span>
+          </p>
+        {{/if}}
+        {{#if techConsistency.title}}
+          <h2
+            id="{{#if techConsistency.id}}{{ techConsistency.id }}{{else}}section-tech-consistency{{/if}}-title"
+            class="section-tech-consistency__title"
+          >
+            {{{ techConsistency.title }}}
+          </h2>
+        {{/if}}
+      </div>
+      {{#if techConsistency.lead}}
+        <p class="section-tech-consistency__lead">{{{ techConsistency.lead }}}</p>
+      {{/if}}
+    </div>
+
+    <div class="section-tech-consistency__grid">
+      {{#if techConsistency.media}}
+        <article class="section-tech-consistency__media">
+          {{#if techConsistency.media.image}}
+            <div class="section-tech-consistency__media-bg" aria-hidden="true">
+              {{picture
+                techConsistency.media.image
+                alt=""
+                class="section-tech-consistency__media-image"
+                width="560"
+                height="500"
+              }}
+            </div>
+          {{/if}}
+          <div class="section-tech-consistency__media-content">
+            {{#if techConsistency.media.icon}}
+              <span class="section-tech-consistency__media-icon" aria-hidden="true">
+                <img
+                  src="{{ techConsistency.media.icon }}"
+                  alt=""
+                  width="32"
+                  height="32"
+                  decoding="async"
+                />
+              </span>
+            {{/if}}
+            {{#if techConsistency.media.text}}
+              <p class="section-tech-consistency__media-text">{{{ techConsistency.media.text }}}</p>
+            {{/if}}
+          </div>
+        </article>
+      {{/if}}
+
+      <article class="section-tech-consistency__card">
+        {{#if techConsistency.body}}
+          <p class="section-tech-consistency__body">{{{ techConsistency.body }}}</p>
+        {{/if}}
+        {{#if techConsistency.statement}}
+          <div class="section-tech-consistency__statement">
+            <span class="section-tech-consistency__statement-rule" aria-hidden="true"></span>
+            <p class="section-tech-consistency__statement-text">{{{ techConsistency.statement }}}</p>
+          </div>
+        {{/if}}
+      </article>
+    </div>
+  </div>
+</section>

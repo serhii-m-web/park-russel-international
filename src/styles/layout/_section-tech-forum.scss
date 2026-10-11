@@ -1,0 +1,290 @@
+@use '../abstracts' as *;
+
+.section-tech-forum {
+  @include adaptive-value('padding-top', 120, 56, 1);
+  @include adaptive-value('padding-bottom', 120, 56, 1);
+  background-color: $color-navy;
+
+  &__header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 48px;
+    @include adaptive-value('margin-bottom', 56, 32, 1);
+
+    @include media('<desktop') {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 24px;
+    }
+  }
+
+  &__heading {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    min-width: 0;
+    max-width: 700px;
+  }
+
+  &__eyebrow {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 0;
+    color: $color-white;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.14px;
+    line-height: calc(20 / 14);
+  }
+
+  &__eyebrow-rule {
+    display: block;
+    flex-shrink: 0;
+    width: 20px;
+    height: 2px;
+    background-color: $color-red;
+  }
+
+  &__title {
+    margin: 0;
+    color: $color-white;
+    font-weight: 500;
+    letter-spacing: -1.2px;
+    line-height: calc(52 / 48);
+    @include adaptive-value('font-size', 48, 32, 1);
+  }
+
+  &__intro {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    max-width: 500px;
+  }
+
+  &__lead {
+    margin: 0;
+    color: $color-white;
+    font-weight: 500;
+    letter-spacing: -0.11px;
+    line-height: calc(32 / 22);
+    @include adaptive-value('font-size', 22, 18, 1);
+  }
+
+  &__body {
+    margin: 0;
+    color: $color-ice;
+    line-height: calc(28 / 18);
+    @include adaptive-value('font-size', 18, 16, 1);
+  }
+
+  &__areas-wrap {
+    width: 100%;
+    min-width: 0;
+  }
+
+  &__areas {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    margin: 0;
+    padding: 0;
+    overflow: visible !important;
+
+    @include media('>=tablet') {
+      overflow: visible;
+
+      .swiper-wrapper {
+        display: grid;
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+        gap: 16px;
+        transform: none !important;
+      }
+
+      .swiper-slide {
+        width: auto !important;
+        margin: 0 !important;
+        height: auto;
+      }
+    }
+
+    @include media('<widescreen') {
+      @include media('>=tablet') {
+        .swiper-wrapper {
+          grid-template-columns: repeat(3, minmax(0, 1fr));
+        }
+      }
+    }
+
+    @include media('<desktop') {
+      @include media('>=tablet') {
+        .swiper-wrapper {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+      }
+    }
+
+    @include media('<tablet') {
+      overflow: hidden;
+
+      .swiper-wrapper {
+        align-items: stretch;
+      }
+    }
+  }
+
+  .swiper-slide {
+    @include media('<tablet') {
+      height: auto !important;
+      min-height: 0 !important;
+    }
+  }
+
+  &__card {
+    display: flex !important;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    box-sizing: border-box;
+    height: 100%;
+    padding: 28px 24px 32px;
+    border: 1px solid rgba($color-white, 0.08);
+    border-radius: 20px;
+    background-color: $color-dark-blue;
+
+    @include media('<tablet') {
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 16px;
+      min-height: 0;
+      padding: 16px;
+    }
+  }
+
+  &__icon {
+    display: inline-flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    width: 52px;
+    height: 52px;
+    border-radius: 10px;
+    background-color: $color-red;
+
+    @include media('<tablet') {
+      width: 44px;
+      height: 44px;
+    }
+
+    img {
+      display: block;
+      width: 28px;
+      height: 28px;
+
+      @include media('<tablet') {
+        width: 24px;
+        height: 24px;
+      }
+    }
+  }
+
+  &__label {
+    margin: 0;
+    margin-top: 8px;
+    color: #ff5a6e;
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 0.52px;
+    line-height: calc(18 / 13);
+
+    @include media('<tablet') {
+      flex: 1 1 auto;
+      margin-top: 0;
+      align-self: center;
+    }
+  }
+
+  &__text {
+    margin: 0;
+    color: $color-white;
+    font-weight: 500;
+    letter-spacing: -0.051px;
+    line-height: calc(26 / 17);
+    @include adaptive-value('font-size', 17, 16, 1);
+
+    @include media('<tablet') {
+      flex: 1 1 100%;
+    }
+  }
+
+  &__navigation {
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+    width: 100%;
+    @include adaptive-value('margin-top', 32, 24, 1);
+
+    @include media('<tablet') {
+      display: flex;
+    }
+  }
+
+  &__nav-buttons {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  &__scrollbar {
+    position: static !important;
+    left: auto !important;
+    right: auto !important;
+    top: auto !important;
+    bottom: auto !important;
+    flex: 1 1 auto;
+    width: auto !important;
+    max-width: 210px;
+    min-width: 0;
+    height: 6px !important;
+    background: rgba($color-white, 0.16) !important;
+
+    .swiper-scrollbar-drag {
+      background: $color-red !important;
+    }
+  }
+
+  &__nav-btn {
+    position: static !important;
+    width: 40px !important;
+    height: 40px !important;
+    margin: 0 !important;
+    flex-shrink: 0;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    background-color: $color-red;
+    color: $color-white !important;
+
+    &::after {
+      display: none !important;
+    }
+
+    &.prev {
+      transform: rotate(180deg);
+    }
+
+    &.swiper-button-disabled {
+      border-color: rgba($color-white, 0.4);
+      background-color: transparent;
+      color: $color-white !important;
+    }
+
+    svg {
+      width: 16px !important;
+      height: 16px !important;
+    }
+  }
+}

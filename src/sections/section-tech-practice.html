@@ -1,0 +1,88 @@
+<section
+  class="
+    section-tech-practice
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if techPractice.id}}
+    id="{{ techPractice.id }}"
+  {{/if}}
+  {{#if techPractice.title}}
+    aria-labelledby="{{#if techPractice.id}}{{ techPractice.id }}{{else}}section-tech-practice{{/if}}-title"
+  {{else}}
+    aria-label="From Technical Change to Professional Practice"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-tech-practice__layout">
+      <div class="section-tech-practice__copy">
+        {{#if techPractice.eyebrow}}
+          <p class="section-tech-practice__eyebrow">
+            <span class="section-tech-practice__eyebrow-rule" aria-hidden="true"></span>
+            <span>{{ techPractice.eyebrow }}</span>
+          </p>
+        {{/if}}
+        {{#if techPractice.title}}
+          <h2
+            id="{{#if techPractice.id}}{{ techPractice.id }}{{else}}section-tech-practice{{/if}}-title"
+            class="section-tech-practice__title"
+          >
+            {{{ techPractice.title }}}
+          </h2>
+        {{/if}}
+        {{#if techPractice.lead}}
+          <p class="section-tech-practice__lead">{{{ techPractice.lead }}}</p>
+        {{/if}}
+        {{#if techPractice.image}}
+          <div class="section-tech-practice__media">
+            {{picture
+              techPractice.image
+              alt=""
+              class="section-tech-practice__image"
+              width="640"
+              height="420"
+            }}
+          </div>
+        {{/if}}
+      </div>
+
+      <aside class="section-tech-practice__panel">
+        {{#if techPractice.panelTitle}}
+          <div class="section-tech-practice__panel-label">
+            <span class="section-tech-practice__panel-rule" aria-hidden="true"></span>
+            <p class="section-tech-practice__panel-title">{{{ techPractice.panelTitle }}}</p>
+          </div>
+        {{/if}}
+
+        {{#if techPractice.questions.length}}
+          <ul class="section-tech-practice__questions">
+            {{#each techPractice.questions}}
+              <li class="section-tech-practice__question">
+                {{#if ../techPractice.questionIcon}}
+                  <span class="section-tech-practice__question-icon" aria-hidden="true">
+                    <img
+                      src="{{ ../techPractice.questionIcon }}"
+                      alt=""
+                      width="24"
+                      height="24"
+                      decoding="async"
+                    />
+                  </span>
+                {{/if}}
+                <p class="section-tech-practice__question-text">{{{ this }}}</p>
+              </li>
+            {{/each}}
+          </ul>
+        {{/if}}
+
+        {{#if techPractice.emphasis}}
+          <div class="section-tech-practice__emphasis">
+            <span class="section-tech-practice__emphasis-bar" aria-hidden="true"></span>
+            <p class="section-tech-practice__emphasis-text">{{{ techPractice.emphasis }}}</p>
+          </div>
+        {{/if}}
+      </aside>
+    </div>
+  </div>
+</section>

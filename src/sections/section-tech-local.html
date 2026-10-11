@@ -1,0 +1,135 @@
+<section
+  class="
+    section-tech-local
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if techLocal.id}}
+    id="{{ techLocal.id }}"
+  {{/if}}
+  data-about-cards-slider
+  {{#if techLocal.title}}
+    aria-labelledby="{{#if techLocal.id}}{{ techLocal.id }}{{else}}section-tech-local{{/if}}-title"
+  {{else}}
+    aria-label="Local Expertise Should Not Remain Local"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-tech-local__header">
+      <span class="section-tech-local__rule" aria-hidden="true"></span>
+      {{#if techLocal.title}}
+        <h2
+          id="{{#if techLocal.id}}{{ techLocal.id }}{{else}}section-tech-local{{/if}}-title"
+          class="section-tech-local__title"
+        >
+          {{{ techLocal.title }}}
+        </h2>
+      {{/if}}
+    </div>
+
+    {{#if techLocal.scenarios.length}}
+      <div class="section-tech-local__scenarios-wrap">
+        <div
+          class="swiper section-tech-local__scenarios"
+          data-about-cards-slider-el
+          data-about-cards-slider-label="{{#if techLocal.carouselLabel}}{{ techLocal.carouselLabel }}{{else}}Local expertise scenarios{{/if}}"
+        >
+          <div class="swiper-wrapper">
+            {{#each techLocal.scenarios}}
+              <article class="swiper-slide section-tech-local__card">
+                {{#if image}}
+                  <div class="section-tech-local__media">
+                    {{picture
+                      image
+                      alt=""
+                      class="section-tech-local__image"
+                      width="422"
+                      height="232"
+                    }}
+                  </div>
+                {{/if}}
+                <div class="section-tech-local__content">
+                  {{#if icon}}
+                    <span class="section-tech-local__icon" aria-hidden="true">
+                      <img src="{{ icon }}" alt="" width="28" height="28" decoding="async" />
+                    </span>
+                  {{/if}}
+                  {{#if text}}
+                    <p class="section-tech-local__text">{{{ text }}}</p>
+                  {{/if}}
+                </div>
+              </article>
+            {{/each}}
+          </div>
+        </div>
+
+        <div
+          class="section-tech-local__navigation"
+          role="group"
+          aria-label="Scenarios slider controls"
+          data-about-cards-slider-nav
+          inert
+        >
+          <div
+            class="swiper-scrollbar section-tech-local__scrollbar"
+            data-about-cards-slider-scrollbar
+            tabindex="0"
+            aria-label="Slider progress"
+          ></div>
+          <div class="section-tech-local__nav-buttons">
+            <button
+              class="swiper-button-prev section-tech-local__nav-btn prev"
+              type="button"
+              data-about-cards-slider-prev
+              aria-label="Previous slide"
+            >
+              {{> icon
+                name="arrow-right"
+                width="16"
+                height="16"
+              }}
+            </button>
+            <button
+              class="swiper-button-next section-tech-local__nav-btn next"
+              type="button"
+              data-about-cards-slider-next
+              aria-label="Next slide"
+            >
+              {{> icon
+                name="arrow-right"
+                width="16"
+                height="16"
+              }}
+            </button>
+          </div>
+        </div>
+      </div>
+    {{/if}}
+
+    {{#if techLocal.panel}}
+      <div class="section-tech-local__panel">
+        <div class="section-tech-local__panel-statement">
+          <span class="section-tech-local__panel-rule" aria-hidden="true"></span>
+          <p class="section-tech-local__panel-text">{{{ techLocal.panel.statement }}}</p>
+        </div>
+        <div class="section-tech-local__panel-aside">
+          {{#if techLocal.panel.icon}}
+            <span class="section-tech-local__panel-icon" aria-hidden="true">
+              <img
+                src="{{ techLocal.panel.icon }}"
+                alt=""
+                width="32"
+                height="32"
+                decoding="async"
+              />
+            </span>
+          {{/if}}
+          {{#if techLocal.panel.body}}
+            <p class="section-tech-local__panel-body">{{{ techLocal.panel.body }}}</p>
+          {{/if}}
+        </div>
+      </div>
+    {{/if}}
+  </div>
+</section>

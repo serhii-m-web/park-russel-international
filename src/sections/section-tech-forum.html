@@ -1,0 +1,115 @@
+<section
+  class="
+    section-tech-forum
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if techForum.id}}
+    id="{{ techForum.id }}"
+  {{/if}}
+  data-about-cards-slider
+  {{#if techForum.title}}
+    aria-labelledby="{{#if techForum.id}}{{ techForum.id }}{{else}}section-tech-forum{{/if}}-title"
+  {{else}}
+    aria-label="A Forum for Technical Exchange"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-tech-forum__header">
+      <div class="section-tech-forum__heading">
+        {{#if techForum.eyebrow}}
+          <p class="section-tech-forum__eyebrow">
+            <span class="section-tech-forum__eyebrow-rule" aria-hidden="true"></span>
+            <span>{{ techForum.eyebrow }}</span>
+          </p>
+        {{/if}}
+        {{#if techForum.title}}
+          <h2
+            id="{{#if techForum.id}}{{ techForum.id }}{{else}}section-tech-forum{{/if}}-title"
+            class="section-tech-forum__title"
+          >
+            {{{ techForum.title }}}
+          </h2>
+        {{/if}}
+      </div>
+      <div class="section-tech-forum__intro">
+        {{#if techForum.lead}}
+          <p class="section-tech-forum__lead">{{{ techForum.lead }}}</p>
+        {{/if}}
+        {{#if techForum.body}}
+          <p class="section-tech-forum__body">{{{ techForum.body }}}</p>
+        {{/if}}
+      </div>
+    </div>
+
+    {{#if techForum.areas.length}}
+      <div class="section-tech-forum__areas-wrap">
+        <div
+          class="swiper section-tech-forum__areas"
+          data-about-cards-slider-el
+          data-about-cards-slider-label="{{#if techForum.carouselLabel}}{{ techForum.carouselLabel }}{{else}}Technical exchange focus areas{{/if}}"
+        >
+          <div class="swiper-wrapper">
+            {{#each techForum.areas}}
+              <article class="swiper-slide section-tech-forum__card">
+                {{#if icon}}
+                  <span class="section-tech-forum__icon" aria-hidden="true">
+                    <img src="{{ icon }}" alt="" width="28" height="28" decoding="async" />
+                  </span>
+                {{/if}}
+                {{#if label}}
+                  <p class="section-tech-forum__label">{{ label }}</p>
+                {{/if}}
+                {{#if text}}
+                  <p class="section-tech-forum__text">{{{ text }}}</p>
+                {{/if}}
+              </article>
+            {{/each}}
+          </div>
+        </div>
+
+        <div
+          class="section-tech-forum__navigation"
+          role="group"
+          aria-label="Focus areas slider controls"
+          data-about-cards-slider-nav
+          inert
+        >
+          <div
+            class="swiper-scrollbar section-tech-forum__scrollbar"
+            data-about-cards-slider-scrollbar
+            tabindex="0"
+            aria-label="Slider progress"
+          ></div>
+          <div class="section-tech-forum__nav-buttons">
+            <button
+              class="swiper-button-prev section-tech-forum__nav-btn prev"
+              type="button"
+              data-about-cards-slider-prev
+              aria-label="Previous slide"
+            >
+              {{> icon
+                name="arrow-right"
+                width="16"
+                height="16"
+              }}
+            </button>
+            <button
+              class="swiper-button-next section-tech-forum__nav-btn next"
+              type="button"
+              data-about-cards-slider-next
+              aria-label="Next slide"
+            >
+              {{> icon
+                name="arrow-right"
+                width="16"
+                height="16"
+              }}
+            </button>
+          </div>
+        </div>
+      </div>
+    {{/if}}
+  </div>
+</section>
