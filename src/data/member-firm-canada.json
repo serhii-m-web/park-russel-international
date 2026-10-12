@@ -1,0 +1,210 @@
+{
+  "meta": {
+    "title": "Parker Russell International Member Firm in Canada | Parker Russell IPG / Abu-Farah Professional Corporation",
+    "description": "Parker Russell IPG / Abu-Farah Professional Corporation is the Parker Russell International member firm in Canada, delivering professional services connected to the international Parker Russell network."
+  },
+  "mfHero": {
+    "id": "member-firm-hero",
+    "imageBg": "/images/member-firm/canada/hero-bg.jpg",
+    "imageLoading": "eager",
+    "tag": "Canada",
+    "title": "Parker Russell International Member Firm in Canada",
+    "firmName": "Parker Russell IPG / Abu-Farah Professional Corporation",
+    "lead": "Accounting, tax, assurance and business advisory expertise in Canada, connected to the international capabilities of the Parker Russell network.",
+    "about": {
+      "icon": "/icons/icon-domain.svg",
+      "title": "About Parker Russell IPG",
+      "lead": "Parker Russell IPG is a Canadian accounting and advisory practice supporting businesses, entrepreneurs and organisations across financial reporting, taxation, assurance, governance and strategic business matters.",
+      "body": "With more than 30 years of professional experience across Canada and international markets, the team combines local expertise with cross-border capabilities, supporting clients with financial management, regulatory requirements, business growth and complex commercial decisions."
+    }
+  },
+  "mfOffice": {
+    "id": "member-firm-office",
+    "title": "Our Offices in Canada",
+    "locationIcon": "/icons/icon-location.svg",
+    "offices": [
+      {
+        "city": "Oakville, Ontario",
+        "image": "/images/member-firm/canada/office-oakville.jpg",
+        "imageAlt": "Parker Russell IPG office in Oakville",
+        "firmName": "Parker Russell IPG",
+        "addressLines": [
+          "1660 North Service Road East",
+          "Suite 115",
+          "Oakville, ON L6H 7G3, Canada"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contact",
+          "name": "Fathi Abu-Farah — Founder & President",
+          "details": [
+            {
+              "label": "Telephone",
+              "value": "+1 437 800 1587",
+              "iconName": "call",
+              "href": "tel:+14378001587"
+            },
+            {
+              "label": "Mobile",
+              "value": "+1 647 829 9685",
+              "icon": "/icons/icon-mobile.svg",
+              "href": "tel:+16478299685"
+            },
+            {
+              "label": "Email",
+              "value": "info@ipg-parkerrussell.ca",
+              "iconName": "mail",
+              "href": "mailto:info@ipg-parkerrussell.ca"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      },
+      {
+        "city": "Winnipeg, Manitoba",
+        "image": "/images/member-firm/canada/office-winnipeg.jpg",
+        "imageAlt": "Parker Russell IPG office in Winnipeg",
+        "firmName": "Parker Russell IPG",
+        "addressLines": [
+          "35 Bramblewood Court",
+          "Winnipeg, MB R3Y 0T1",
+          "Canada"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contact",
+          "name": "Fathi Abu-Farah — Founder & President",
+          "details": [
+            {
+              "label": "Telephone",
+              "value": "+1 437 800 1587",
+              "iconName": "call",
+              "href": "tel:+14378001587"
+            },
+            {
+              "label": "Mobile",
+              "value": "+1 647 829 9685",
+              "icon": "/icons/icon-mobile.svg",
+              "href": "tel:+16478299685"
+            },
+            {
+              "label": "Email",
+              "value": "info@ipg-parkerrussell.ca",
+              "iconName": "mail",
+              "href": "mailto:info@ipg-parkerrussell.ca"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      }
+    ]
+  },
+  "mfServices": {
+    "id": "member-firm-services",
+    "services": {
+      "title": "Services",
+      "items": [
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Accounting & Financial Reporting"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Tax Advisory & Compliance"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Transfer Pricing"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Business Advisory"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Fractional CFO & Financial Management"
+        },
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Governance, Risk & Compliance"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Outsourced Accounting & Back Office Support"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Assurance Services"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Due Diligence & Business Valuation"
+        },
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Anti-Money Laundering Advisory"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Forensic Accounting & Investigations"
+        },
+        {
+          "icon": "/icons/icon-person.svg",
+          "label": "Management & HR Consulting"
+        },
+        {
+          "icon": "/icons/icon-eco.svg",
+          "label": "ESG Advisory"
+        }
+      ]
+    },
+    "industries": {
+      "title": "Industries",
+      "items": [
+        {
+          "icon": "/icons/icon-construction.svg",
+          "label": "Manufacturing & Industrial"
+        },
+        {
+          "icon": "/icons/icon-local-shipping.svg",
+          "label": "Transport, Logistics & Automotive"
+        },
+        {
+          "icon": "/icons/icon-beach-access.svg",
+          "label": "Tourism & Hospitality"
+        },
+        {
+          "icon": "/icons/icon-computer.svg",
+          "label": "Technology & Telecommunications"
+        },
+        {
+          "icon": "/icons/icon-restaurant.svg",
+          "label": "Agriculture & Food"
+        },
+        {
+          "icon": "/icons/icon-bolt.svg",
+          "label": "Mining & Chemicals"
+        }
+      ]
+    }
+  },
+  "mfFinal": {
+    "id": "member-firm-final",
+    "imageBg": "/images/member-firm/canada/final-cta-bg.jpg",
+    "title": "Local Expertise. International Connections.",
+    "lead": "Through Parker Russell International, Parker Russell IPG combines Canadian accounting and advisory expertise with access to international knowledge, professional relationships and cross-border capabilities across the wider network.",
+    "button": {
+      "label": "Contact Our Canada Member Firm",
+      "href": "contact.html",
+      "icon": true
+    }
+  }
+}

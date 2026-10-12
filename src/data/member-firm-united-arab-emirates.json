@@ -1,0 +1,233 @@
+{
+  "meta": {
+    "title": "Parker Russell International Member Firm in United Arab Emirates | Parker Russell UAE",
+    "description": "Parker Russell UAE is the Parker Russell International member firm in the UAE, delivering professional services connected to the international Parker Russell network."
+  },
+  "mfHero": {
+    "id": "member-firm-hero",
+    "imageBg": "/images/member-firm/united-arab-emirates/hero-bg.jpg",
+    "imageLoading": "eager",
+    "tag": "United Arab Emirates",
+    "title": "Parker Russell International Member Firm in the UAE",
+    "firmName": "Parker Russell UAE",
+    "lead": "Audit, accounting, tax and business advisory expertise across the United Arab Emirates, connected to the international capabilities of the Parker Russell network.",
+    "about": {
+      "icon": "/icons/icon-domain.svg",
+      "title": "About Parker Russell UAE",
+      "lead": "Established in 1998, Parker Russell UAE is an independent audit, accounting and advisory firm supporting businesses across the United Arab Emirates.",
+      "body": "With offices in Dubai, Abu Dhabi and Al Ain, the firm combines established local market knowledge with multidisciplinary expertise across audit, financial reporting, taxation, compliance, management consulting and business establishment."
+    }
+  },
+  "mfOffice": {
+    "id": "member-firm-office",
+    "title": "Our Offices in the UAE",
+    "locationIcon": "/icons/icon-location.svg",
+    "offices": [
+      {
+        "city": "Dubai",
+        "image": "/images/member-firm/united-arab-emirates/office-dubai.jpg",
+        "imageAlt": "Parker Russell UAE office in Dubai",
+        "firmName": "Parker Russell UAE",
+        "addressLines": [
+          "Office No. 504, Al Wahda Building",
+          "Al Ittihad Street, Port Saeed",
+          "P.O. Box 31367, Dubai, United Arab Emirates"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contact",
+          "name": "Mansour Sokrab",
+          "details": [
+            {
+              "label": "Telephone",
+              "value": "+971 4 295 9958",
+              "iconName": "call",
+              "href": "tel:+97142959958"
+            },
+            {
+              "label": "Email",
+              "value": "infodubai@pr-uae.com",
+              "iconName": "mail",
+              "href": "mailto:infodubai@pr-uae.com"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      },
+      {
+        "city": "Abu Dhabi",
+        "image": "/images/member-firm/united-arab-emirates/office-abu-dhabi.jpg",
+        "imageAlt": "Parker Russell UAE office in Abu Dhabi",
+        "firmName": "Parker Russell UAE",
+        "addressLines": [
+          "Office No. M03, Building No. 13",
+          "Tourist Club Area",
+          "P.O. Box 48517, Abu Dhabi, United Arab Emirates"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contact",
+          "details": [
+            {
+              "label": "Telephone",
+              "value": "+971 2 645 2666 / +971 2 645 9446",
+              "iconName": "call",
+              "href": "tel:+97126452666+97126459446"
+            },
+            {
+              "label": "Email",
+              "value": "infoabudhabi@pr-uae.com",
+              "iconName": "mail",
+              "href": "mailto:infoabudhabi@pr-uae.com"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      },
+      {
+        "city": "Al Ain",
+        "image": "/images/member-firm/united-arab-emirates/office-al-ain.jpg",
+        "imageAlt": "Parker Russell UAE office in Al Ain",
+        "firmName": "Parker Russell UAE",
+        "addressLines": [
+          "Office No. 204, Building No. 137",
+          "Hessa Bint Mohamed Street, Al Jahili Area",
+          "P.O. Box 48517, Al Ain, United Arab Emirates"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contact",
+          "details": [
+            {
+              "label": "Telephone",
+              "value": "+971 2 645 2666",
+              "iconName": "call",
+              "href": "tel:+97126452666"
+            },
+            {
+              "label": "Mobile",
+              "value": "+971 55 268 8577",
+              "icon": "/icons/icon-mobile.svg",
+              "href": "tel:+971552688577"
+            },
+            {
+              "label": "Email",
+              "value": "infoalain@pr-uae.com",
+              "iconName": "mail",
+              "href": "mailto:infoalain@pr-uae.com"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      }
+    ]
+  },
+  "mfServices": {
+    "id": "member-firm-services",
+    "services": {
+      "title": "Services",
+      "items": [
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Audit & Assurance"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Internal Audit"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Accounting & Financial Reporting"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Bookkeeping & Outsourcing"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Corporate Tax & VAT Advisory"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Tax Compliance"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Management Consulting"
+        },
+        {
+          "icon": "/icons/icon-domain.svg",
+          "label": "Business Setup & Corporate Services"
+        },
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Compliance & AML Advisory"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Financial Due Diligence"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Business Continuity Advisory"
+        },
+        {
+          "icon": "/icons/icon-computer.svg",
+          "label": "ERP & Information Technology Solutions"
+        }
+      ]
+    },
+    "industries": {
+      "title": "Industries",
+      "items": [
+        {
+          "icon": "/icons/icon-construction.svg",
+          "label": "Real Estate & Construction"
+        },
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Banking & Financial Services"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Healthcare & Pharmaceuticals"
+        },
+        {
+          "icon": "/icons/icon-computer.svg",
+          "label": "Retail & E-commerce"
+        },
+        {
+          "icon": "/icons/icon-local-shipping.svg",
+          "label": "Manufacturing & Logistics"
+        },
+        {
+          "icon": "/icons/icon-beach-access.svg",
+          "label": "Tourism & Hospitality"
+        }
+      ]
+    }
+  },
+  "mfFinal": {
+    "id": "member-firm-final",
+    "imageBg": "/images/member-firm/united-arab-emirates/final-cta-bg.jpg",
+    "title": "Local Expertise. International Connections.",
+    "lead": "Through Parker Russell International, Parker Russell UAE combines established expertise across the UAE with access to international knowledge, professional relationships and cross-border capabilities across the wider network.",
+    "button": {
+      "label": "Contact Our UAE Member Firm",
+      "href": "contact.html",
+      "icon": true
+    }
+  }
+}

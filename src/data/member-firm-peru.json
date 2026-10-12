@@ -1,0 +1,168 @@
+{
+  "meta": {
+    "title": "Parker Russell International Member Firm in Peru | Parker Russell Peru Navarro & Asociados Contadores Públicos",
+    "description": "Parker Russell Peru Navarro & Asociados Contadores Públicos is the Parker Russell International member firm in Peru, delivering professional services connected to the international Parker Russell network."
+  },
+  "mfHero": {
+    "id": "member-firm-hero",
+    "imageBg": "/images/member-firm/peru/hero-bg.jpg",
+    "imageLoading": "eager",
+    "tag": "Peru",
+    "title": "Parker Russell International Member Firm in Peru",
+    "firmName": "Parker Russell Peru Navarro & Asociados Contadores Públicos",
+    "lead": "Audit, accounting and business advisory expertise in Peru, connected to the international capabilities of the Parker Russell network.",
+    "about": {
+      "icon": "/icons/icon-domain.svg",
+      "title": "About Parker Russell Peru",
+      "lead": "Parker Russell Peru is an independent audit and professional services firm based in Lima, supporting Peruvian and international organisations across audit, accounting, financial and business advisory matters.",
+      "body": "Led by experienced professionals with extensive expertise across financial audit, taxation, corporate finance and international business matters, the firm combines established knowledge of the Peruvian market with access to the wider capabilities of Parker Russell International."
+    }
+  },
+  "mfOffice": {
+    "id": "member-firm-office",
+    "title": "Our Office in Peru",
+    "locationIcon": "/icons/icon-location.svg",
+    "offices": [
+      {
+        "city": "Lima — Miraflores",
+        "image": "/images/member-firm/peru/office.jpg",
+        "imageAlt": "Parker Russell Peru office in Lima",
+        "firmName": "Parker Russell Peru Navarro & Asociados Contadores Públicos",
+        "addressLines": [
+          "Av. José Pardo 223",
+          "Miraflores",
+          "Lima, Peru"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contact",
+          "name": "Prof. Augusto M. Navarro, CPA — Managing Partner",
+          "details": [
+            {
+              "label": "Telephone",
+              "value": "+51 1 255 7296",
+              "iconName": "call",
+              "href": "tel:+5112557296"
+            },
+            {
+              "label": "Email",
+              "value": "anavarro@parkerrussell.com.pe",
+              "iconName": "mail",
+              "href": "mailto:anavarro@parkerrussell.com.pe"
+            },
+            {
+              "label": "Opening Hours",
+              "value": "08:00–17:30",
+              "icon": "/icons/icon-schedule.svg"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      }
+    ]
+  },
+  "mfServices": {
+    "id": "member-firm-services",
+    "services": {
+      "title": "Services",
+      "items": [
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Audit & Assurance"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Accounting & Financial Reporting"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Business & Management Consulting"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Corporate Finance"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "International Tax Planning"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Transfer Pricing"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Mergers & Acquisitions Advisory"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Accounting & Administrative Outsourcing"
+        },
+        {
+          "icon": "/icons/icon-person.svg",
+          "label": "Human Resources Solutions"
+        },
+        {
+          "icon": "/icons/icon-school.svg",
+          "label": "Training & Professional Development"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Business Establishment & LATAM Market Entry"
+        },
+        {
+          "icon": "/icons/icon-domain.svg",
+          "label": "Trademark & Corporate Support"
+        }
+      ]
+    },
+    "industries": {
+      "title": "Industries",
+      "items": [
+        {
+          "icon": "/icons/icon-domain.svg",
+          "label": "Financial Services"
+        },
+        {
+          "icon": "/icons/icon-construction.svg",
+          "label": "Manufacturing & Industrial"
+        },
+        {
+          "icon": "/icons/icon-computer.svg",
+          "label": "Commercial & Consumer Business"
+        },
+        {
+          "icon": "/icons/icon-bolt.svg",
+          "label": "Mining & Natural Resources"
+        },
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Government & Public Sector"
+        },
+        {
+          "icon": "/icons/icon-school.svg",
+          "label": "Education"
+        },
+        {
+          "icon": "/icons/icon-school.svg",
+          "label": "Cultural & Non-Profit Organisations"
+        }
+      ]
+    }
+  },
+  "mfFinal": {
+    "id": "member-firm-final",
+    "imageBg": "/images/member-firm/peru/final-cta-bg.jpg",
+    "title": "Local Expertise. International Connections.",
+    "lead": "Through Parker Russell International, Parker Russell Peru combines established expertise in the Peruvian market with access to international professional knowledge, relationships and cross-border capabilities across the wider network.",
+    "button": {
+      "label": "Contact Our Peru Member Firm",
+      "href": "contact.html",
+      "icon": true
+    }
+  }
+}

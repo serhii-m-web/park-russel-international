@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "title": "Parker Russell International Member Firm in British Virgin Islands | Parker Russell (BVI) Ltd",
+    "description": "Parker Russell (BVI) Ltd is the Parker Russell International member firm in the British Virgin Islands, delivering professional services connected to the international Parker Russell network."
+  },
+  "mfHero": {
+    "id": "member-firm-hero",
+    "imageBg": "/images/member-firm/british-virgin-islands/hero-bg.jpg",
+    "imageLoading": "eager",
+    "tag": "British Virgin Islands",
+    "title": "Parker Russell International Member Firm in the British Virgin Islands",
+    "firmName": "Parker Russell (BVI) Ltd",
+    "lead": "Corporate, accounting and advisory expertise in the British Virgin Islands, connected to the international capabilities of the Parker Russell network.",
+    "about": {
+      "icon": "/icons/icon-domain.svg",
+      "title": "About Parker Russell (BVI) Ltd",
+      "lead": "Parker Russell (BVI) Ltd provides corporate, accounting, consultancy and advisory services to international businesses and private clients operating through or connected with the British Virgin Islands.",
+      "body": "The firm supports clients with corporate and financial matters while providing access to wider international professional capabilities through Parker Russell International. Audit and assurance requirements are supported on a referral basis."
+    }
+  },
+  "mfOffice": {
+    "id": "member-firm-office",
+    "title": "Our Office in the British Virgin Islands",
+    "locationIcon": "/icons/icon-location.svg",
+    "offices": [
+      {
+        "city": "Road Town, Tortola",
+        "image": "/images/member-firm/british-virgin-islands/office.jpg",
+        "imageAlt": "Parker Russell (BVI) Ltd office in Road Town, Tortola",
+        "firmName": "Parker Russell (BVI) Ltd",
+        "addressLines": [
+          "PO Box 3085",
+          "Suite 6, Mill Mall, Wickhams Cay 1",
+          "Road Town, Tortola, British Virgin Islands"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contact",
+          "name": "Alan Cole",
+          "details": [
+            {
+              "label": "Telephone",
+              "value": "+1 242 322 5448",
+              "iconName": "call",
+              "href": "tel:+12423225448"
+            },
+            {
+              "label": "Email",
+              "value": "acole@sterling-bahamas.com",
+              "iconName": "mail",
+              "href": "mailto:acole@sterling-bahamas.com"
+            },
+            {
+              "label": "Opening Hours",
+              "value": "09:00–17:00",
+              "icon": "/icons/icon-schedule.svg"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      }
+    ]
+  },
+  "mfServices": {
+    "id": "member-firm-services",
+    "services": {
+      "title": "Services",
+      "items": [
+        {
+          "icon": "/icons/icon-domain.svg",
+          "label": "Corporate Services"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Accounting"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Business Consultancy"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Financial & Business Advisory"
+        },
+        {
+          "icon": "/icons/icon-domain.svg",
+          "label": "Cross-Border Corporate Support"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Audit & Assurance — Referral Services"
+        }
+      ]
+    },
+    "industries": {
+      "title": "Industries",
+      "items": [
+        {
+          "icon": "/icons/icon-domain.svg",
+          "label": "Financial Services"
+        }
+      ]
+    }
+  },
+  "mfFinal": {
+    "id": "member-firm-final",
+    "imageBg": "/images/member-firm/british-virgin-islands/final-cta-bg.jpg",
+    "title": "Local Expertise. International Connections.",
+    "lead": "Through Parker Russell International, Parker Russell (BVI) Ltd combines local corporate and financial services expertise with access to international professional knowledge, relationships and cross-border capabilities across the wider network.",
+    "button": {
+      "label": "Contact Our British Virgin Islands Member Firm",
+      "href": "contact.html",
+      "icon": true
+    }
+  }
+}

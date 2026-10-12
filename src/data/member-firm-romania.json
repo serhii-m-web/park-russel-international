@@ -1,0 +1,180 @@
+{
+  "meta": {
+    "title": "Parker Russell International Member Firm in Romania | Nowium Tax & Finance SRL",
+    "description": "Nowium Tax & Finance SRL is the Parker Russell International member firm in Romania, delivering professional services connected to the international Parker Russell network."
+  },
+  "mfHero": {
+    "id": "member-firm-hero",
+    "imageBg": "/images/member-firm/romania/hero-bg.jpg",
+    "imageLoading": "eager",
+    "tag": "Romania",
+    "title": "Parker Russell International Member Firm in Romania",
+    "firmName": "Nowium Tax & Finance SRL",
+    "lead": "Accounting, tax, audit, legal and business advisory expertise in Romania, connected to the international capabilities of the Parker Russell network.",
+    "about": {
+      "icon": "/icons/icon-domain.svg",
+      "title": "About Nowium Tax & Finance",
+      "lead": "Nowium Tax & Finance is a multidisciplinary professional services firm based in Bucharest, supporting Romanian and international businesses across accounting, taxation, audit, legal, payroll and business advisory matters.",
+      "body": "Built on more than 20 years of professional experience, the firm combines specialist expertise across financial, tax and regulatory disciplines to support clients with both day-to-day compliance and more complex business, reporting and transaction requirements."
+    }
+  },
+  "mfOffice": {
+    "id": "member-firm-office",
+    "title": "Our Office in Romania",
+    "locationIcon": "/icons/icon-location.svg",
+    "offices": [
+      {
+        "city": "Bucharest",
+        "image": "/images/member-firm/romania/office.jpg",
+        "imageAlt": "Nowium Tax & Finance SRL office in Bucharest",
+        "firmName": "Nowium Tax & Finance SRL",
+        "addressLines": [
+          "11 Uruguay Street",
+          "District 1 011443",
+          "Bucharest, Romania"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contacts",
+          "name": "Oana Nicorescu, Raluca Mihaila",
+          "details": [
+            {
+              "label": "Telephone",
+              "value": "+40 374 926 000",
+              "iconName": "call",
+              "href": "tel:+40374926000"
+            },
+            {
+              "label": "Email",
+              "value": "office@nowium.com",
+              "iconName": "mail",
+              "href": "mailto:office@nowium.com"
+            },
+            {
+              "label": "Opening Hours",
+              "value": "09:00–17:00",
+              "icon": "/icons/icon-schedule.svg"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      }
+    ]
+  },
+  "mfServices": {
+    "id": "member-firm-services",
+    "services": {
+      "title": "Services",
+      "items": [
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Accounting & Financial Reporting"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Tax Advisory & Compliance"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Audit & Assurance"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Transfer Pricing"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Legal Advisory & Tax Litigation"
+        },
+        {
+          "icon": "/icons/icon-person.svg",
+          "label": "Payroll & HR Administration"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Management & Group Reporting"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "IFRS, US GAAP & Local GAAP Reporting"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Due Diligence"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Business Consulting"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Internal Audit"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "European Funds Audit"
+        }
+      ]
+    },
+    "industries": {
+      "title": "Industries",
+      "items": [
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Financial Services & Insurance"
+        },
+        {
+          "icon": "/icons/icon-computer.svg",
+          "label": "Technology, Media & Telecommunications"
+        },
+        {
+          "icon": "/icons/icon-construction.svg",
+          "label": "Real Estate & Construction"
+        },
+        {
+          "icon": "/icons/icon-bolt.svg",
+          "label": "Energy & Engineering"
+        },
+        {
+          "icon": "/icons/icon-construction.svg",
+          "label": "Manufacturing & Industrial"
+        },
+        {
+          "icon": "/icons/icon-directions-car.svg",
+          "label": "Automotive"
+        },
+        {
+          "icon": "/icons/icon-computer.svg",
+          "label": "Retail & Consumer Business"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Pharmaceuticals & Healthcare"
+        },
+        {
+          "icon": "/icons/icon-local-shipping.svg",
+          "label": "Transport & Logistics"
+        },
+        {
+          "icon": "/icons/icon-beach-access.svg",
+          "label": "Tourism & Hospitality"
+        }
+      ]
+    }
+  },
+  "mfFinal": {
+    "id": "member-firm-final",
+    "imageBg": "/images/member-firm/romania/final-cta-bg.jpg",
+    "title": "Local Expertise. International Connections.",
+    "lead": "Through Parker Russell International, Nowium Tax & Finance combines established Romanian market expertise with access to international knowledge, professional relationships and cross-border capabilities across the wider network.",
+    "button": {
+      "label": "Contact Our Romania Member Firm",
+      "href": "contact.html",
+      "icon": true
+    }
+  }
+}

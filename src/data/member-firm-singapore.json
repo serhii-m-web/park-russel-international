@@ -1,0 +1,182 @@
+{
+  "meta": {
+    "title": "Parker Russell International Member Firm in Singapore | Parker Russell Singapore",
+    "description": "Parker Russell Singapore is the Parker Russell International member firm in Singapore, delivering professional services connected to the international Parker Russell network."
+  },
+  "mfHero": {
+    "id": "member-firm-hero",
+    "imageBg": "/images/member-firm/singapore/hero-bg.jpg",
+    "imageLoading": "eager",
+    "tag": "Singapore",
+    "title": "Parker Russell International Member Firm in Singapore",
+    "firmName": "Parker Russell Singapore",
+    "lead": "Accounting, audit, tax and corporate advisory expertise in Singapore, connected to the international capabilities of the Parker Russell network.",
+    "about": {
+      "icon": "/icons/icon-domain.svg",
+      "title": "About Parker Russell Singapore",
+      "lead": "Parker Russell Singapore is a multidisciplinary corporate services and advisory practice supporting local and international businesses across accounting, taxation, audit, corporate compliance and business establishment.",
+      "body": "Based in Singapore’s central business district, the firm combines strong local regulatory knowledge with specialist expertise across financial reporting, tax, corporate secretarial services, due diligence and business valuation."
+    }
+  },
+  "mfOffice": {
+    "id": "member-firm-office",
+    "title": "Our Office in Singapore",
+    "locationIcon": "/icons/icon-location.svg",
+    "offices": [
+      {
+        "city": "Singapore",
+        "image": "/images/member-firm/singapore/office.jpg",
+        "imageAlt": "Parker Russell Singapore office",
+        "firmName": "Parker Russell Singapore",
+        "addressLines": [
+          "36 Robinson Road",
+          "#14-03 City House",
+          "Singapore 068877"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contact",
+          "name": "Tia Poh Koon / Chris Loh — Tax / Clara Lee — Tax",
+          "details": [
+            {
+              "label": "Telephone",
+              "value": "+65 6266 1134",
+              "iconName": "call",
+              "href": "tel:+6562661134"
+            },
+            {
+              "label": "Additional Line",
+              "value": "+65 6338 0279",
+              "iconName": "call",
+              "href": "tel:+6563380279"
+            },
+            {
+              "label": "Email",
+              "value": "info@parkerrussell.sg",
+              "iconName": "mail",
+              "href": "mailto:info@parkerrussell.sg"
+            },
+            {
+              "label": "Opening Hours",
+              "value": "Monday–Friday, 09:00–18:00",
+              "icon": "/icons/icon-schedule.svg"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      }
+    ]
+  },
+  "mfServices": {
+    "id": "member-firm-services",
+    "services": {
+      "title": "Services",
+      "items": [
+        {
+          "icon": "/icons/icon-domain.svg",
+          "label": "Corporate Secretarial Services"
+        },
+        {
+          "icon": "/icons/icon-domain.svg",
+          "label": "Business Registration & Company Formation"
+        },
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Registered Office & Corporate Compliance"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Accounting & Financial Reporting"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Bookkeeping"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Financial Consolidation & Management Reporting"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Audit & Assurance"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Financial Due Diligence"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Tax Advisory & Compliance"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Corporate & Individual Tax Filing"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "GST Advisory & Compliance"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Transfer Pricing"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Tax Controversy & Dispute Management"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Business Valuation"
+        }
+      ]
+    },
+    "industries": {
+      "title": "Industries",
+      "items": [
+        {
+          "icon": "/icons/icon-computer.svg",
+          "label": "Consumer Business"
+        },
+        {
+          "icon": "/icons/icon-computer.svg",
+          "label": "E-commerce"
+        },
+        {
+          "icon": "/icons/icon-domain.svg",
+          "label": "Financial Services"
+        },
+        {
+          "icon": "/icons/icon-construction.svg",
+          "label": "Manufacturing & Industrial"
+        },
+        {
+          "icon": "/icons/icon-apartment.svg",
+          "label": "Real Estate & Property"
+        },
+        {
+          "icon": "/icons/icon-computer.svg",
+          "label": "Technology & Media"
+        },
+        {
+          "icon": "/icons/icon-beach-access.svg",
+          "label": "Tourism, Hospitality & Leisure"
+        }
+      ]
+    }
+  },
+  "mfFinal": {
+    "id": "member-firm-final",
+    "imageBg": "/images/member-firm/singapore/final-cta-bg.jpg",
+    "title": "Local Expertise. International Connections.",
+    "lead": "Through Parker Russell International, Parker Russell Singapore combines in-depth knowledge of Singapore’s corporate and regulatory environment with access to international professional expertise, relationships and cross-border capabilities across the wider network.",
+    "button": {
+      "label": "Contact Our Singapore Member Firm",
+      "href": "contact.html",
+      "icon": true
+    }
+  }
+}

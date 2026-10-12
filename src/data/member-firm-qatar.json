@@ -1,0 +1,178 @@
+{
+  "meta": {
+    "title": "Parker Russell International Member Firm in Qatar | Said Heidar & Partner",
+    "description": "Said Heidar & Partner is the Parker Russell International member firm in Qatar, delivering professional services connected to the international Parker Russell network."
+  },
+  "mfHero": {
+    "id": "member-firm-hero",
+    "imageBg": "/images/member-firm/qatar/hero-bg.jpg",
+    "imageLoading": "eager",
+    "tag": "Qatar",
+    "title": "Parker Russell International Member Firm in Qatar",
+    "firmName": "Said Heidar & Partner",
+    "lead": "Audit, accounting, tax and advisory expertise in Qatar, connected to the international capabilities of the Parker Russell network.",
+    "about": {
+      "icon": "/icons/icon-domain.svg",
+      "title": "About Said Heidar & Partner",
+      "lead": "Established in Doha in 2016, Said Heidar & Partner is an independent accounting, audit and consulting firm supporting organisations across Qatar’s public and private sectors.",
+      "body": "The firm combines local market knowledge with specialist expertise across audit, financial reporting, taxation, advisory and corporate services, supporting clients with compliance, financial management, business development and complex financial matters."
+    }
+  },
+  "mfOffice": {
+    "id": "member-firm-office",
+    "title": "Our Office in Qatar",
+    "locationIcon": "/icons/icon-location.svg",
+    "offices": [
+      {
+        "city": "Doha",
+        "image": "/images/member-firm/qatar/office.jpg",
+        "imageAlt": "Said Heidar & Partner office in Doha",
+        "firmName": "Said Heidar & Partner",
+        "addressLines": [
+          "44 Ritaj Building, Second Floor, Office 202",
+          "Al Dhafaa Street 893, Next to Asmakh Mall",
+          "Al Sadd 38, Doha, Qatar"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contact",
+          "name": "Dr Said Heidar",
+          "details": [
+            {
+              "label": "Telephone",
+              "value": "+974 5006 6033",
+              "iconName": "call",
+              "href": "tel:+97450066033"
+            },
+            {
+              "label": "Mobile",
+              "value": "+974 7779 9035",
+              "icon": "/icons/icon-mobile.svg",
+              "href": "tel:+97477799035"
+            },
+            {
+              "label": "Email",
+              "value": "info@charteredaudit.com",
+              "iconName": "mail",
+              "href": "mailto:info@charteredaudit.com"
+            },
+            {
+              "label": "Opening Hours",
+              "value": "09:00–17:00",
+              "icon": "/icons/icon-schedule.svg"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      }
+    ]
+  },
+  "mfServices": {
+    "id": "member-firm-services",
+    "services": {
+      "title": "Services",
+      "items": [
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Audit & Assurance"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Accounting & Financial Reporting"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Tax Advisory & Compliance"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Financial Advisory"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Government Sector Advisory"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Forensic Accounting"
+        },
+        {
+          "icon": "/icons/icon-gavel.svg",
+          "label": "Arbitration & Expert Services"
+        },
+        {
+          "icon": "/icons/icon-domain.svg",
+          "label": "Company Formation"
+        },
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Corporate Governance"
+        },
+        {
+          "icon": "/icons/icon-domain.svg",
+          "label": "Company Liquidation"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Feasibility Studies"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Family Business Advisory"
+        },
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Islamic Finance"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Industrial Costing"
+        }
+      ]
+    },
+    "industries": {
+      "title": "Industries",
+      "items": [
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Government & Public Sector"
+        },
+        {
+          "icon": "/icons/icon-construction.svg",
+          "label": "Construction & Real Estate"
+        },
+        {
+          "icon": "/icons/icon-computer.svg",
+          "label": "Education & Media"
+        },
+        {
+          "icon": "/icons/icon-beach-access.svg",
+          "label": "Tourism & Hospitality"
+        },
+        {
+          "icon": "/icons/icon-construction.svg",
+          "label": "Trading & Manufacturing"
+        },
+        {
+          "icon": "/icons/icon-person.svg",
+          "label": "Family Enterprises"
+        }
+      ]
+    }
+  },
+  "mfFinal": {
+    "id": "member-firm-final",
+    "imageBg": "/images/member-firm/qatar/final-cta-bg.jpg",
+    "title": "Local Expertise. International Connections.",
+    "lead": "Through Parker Russell International, Said Heidar & Partner combines established expertise in the Qatari market with access to international knowledge, professional relationships and cross-border capabilities across the wider network.",
+    "button": {
+      "label": "Contact Our Qatar Member Firm",
+      "href": "contact.html",
+      "icon": true
+    }
+  }
+}

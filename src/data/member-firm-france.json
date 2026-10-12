@@ -1,0 +1,119 @@
+{
+  "meta": {
+    "title": "Parker Russell International Member Firm in France | Parker Russell France (WEC)",
+    "description": "Parker Russell France (WEC) is the Parker Russell International member firm in France, delivering professional services connected to the international Parker Russell network."
+  },
+  "mfHero": {
+    "id": "member-firm-hero",
+    "imageBg": "/images/member-firm/france/hero-bg.jpg",
+    "imageLoading": "eager",
+    "tag": "France",
+    "title": "Parker Russell International Member Firm in France",
+    "firmName": "Parker Russell France (WEC)",
+    "lead": "Audit, accounting, tax and advisory expertise in France, connected to the international capabilities of the Parker Russell network.",
+    "about": {
+      "icon": "/icons/icon-domain.svg",
+      "title": "About Parker Russell France",
+      "lead": "Based in Bordeaux, Parker Russell France (WEC) provides audit, accounting, tax, legal and business advisory services to companies operating in France and internationally.",
+      "body": "The firm's multilingual team supports businesses throughout key stages of their development, with particular experience in international expansion, business acquisitions and disposals, fundraising, due diligence, shareholder arrangements and corporate restructuring."
+    }
+  },
+  "mfOffice": {
+    "id": "member-firm-office",
+    "title": "Our Office in France",
+    "locationIcon": "/icons/icon-location.svg",
+    "offices": [
+      {
+        "city": "Bordeaux",
+        "image": "/images/member-firm/france/office.jpg",
+        "imageAlt": "Parker Russell France (WEC) office in Bordeaux",
+        "firmName": "Parker Russell France (WEC)",
+        "addressLines": [
+          "21 rue Esprit-des-Lois",
+          "33000 Bordeaux",
+          "France"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contacts",
+          "name": "William Bigot, Yann Chibalie",
+          "details": [
+            {
+              "label": "Telephone",
+              "value": "+33 7 82 87 33 98",
+              "iconName": "call",
+              "href": "tel:+33782873398"
+            },
+            {
+              "label": "Email",
+              "value": "contact@cabinetwec.fr",
+              "iconName": "mail",
+              "href": "mailto:contact@cabinetwec.fr"
+            },
+            {
+              "label": "Opening Hours",
+              "value": "09:00–17:00",
+              "icon": "/icons/icon-schedule.svg"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      }
+    ]
+  },
+  "mfServices": {
+    "id": "member-firm-services",
+    "services": {
+      "title": "Services",
+      "items": [
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Statutory & Contractual Audit"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Accounting & Financial Management"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Tax & Legal Advisory"
+        },
+        {
+          "icon": "/icons/icon-domain.svg",
+          "label": "Corporate & Contract Law"
+        },
+        {
+          "icon": "/icons/icon-public.svg",
+          "label": "International Expansion"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Business & Management Advisory"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Due Diligence"
+        },
+        {
+          "icon": "/icons/icon-domain.svg",
+          "label": "Corporate Restructuring"
+        }
+      ]
+    }
+  },
+  "mfFinal": {
+    "id": "member-firm-final",
+    "imageBg": "/images/member-firm/france/final-cta-bg.jpg",
+    "title": "Local Expertise. International Connections.",
+    "lead": "Through Parker Russell International, Parker Russell France combines local professional expertise with access to international knowledge, relationships and capabilities across the wider network.",
+    "button": {
+      "label": "Contact Our France Member Firm",
+      "href": "contact.html",
+      "icon": true
+    }
+  }
+}

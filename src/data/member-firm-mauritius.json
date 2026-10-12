@@ -1,0 +1,200 @@
+{
+  "meta": {
+    "title": "Parker Russell International Member Firm in Mauritius | Parker Russell Mauritius",
+    "description": "Parker Russell Mauritius is the Parker Russell International member firm in Mauritius, delivering professional services connected to the international Parker Russell network."
+  },
+  "mfHero": {
+    "id": "member-firm-hero",
+    "imageBg": "/images/member-firm/mauritius/hero-bg.jpg",
+    "imageLoading": "eager",
+    "tag": "Mauritius",
+    "title": "Parker Russell International Member Firm in Mauritius",
+    "firmName": "Parker Russell Mauritius",
+    "lead": "Audit, accounting, tax and business advisory expertise in Mauritius, connected to the international capabilities of the Parker Russell network.",
+    "about": {
+      "icon": "/icons/icon-domain.svg",
+      "title": "About Parker Russell Mauritius",
+      "lead": "Established in 2006, Parker Russell Mauritius is an independent multidisciplinary professional services firm based in Port Louis, supporting entrepreneurs, SMEs, established businesses, international investors, public-sector institutions and non-profit organisations.",
+      "body": "The firm combines local market knowledge with expertise across audit, accounting, taxation, corporate services, financial advisory, payroll, technology and business consulting, supporting clients from business establishment and regulatory compliance through to financial management, restructuring and international expansion."
+    }
+  },
+  "mfOffice": {
+    "id": "member-firm-office",
+    "title": "Our Office in Mauritius",
+    "locationIcon": "/icons/icon-location.svg",
+    "offices": [
+      {
+        "city": "Port Louis",
+        "image": "/images/member-firm/mauritius/office.jpg",
+        "imageAlt": "Parker Russell Mauritius office in Port Louis",
+        "firmName": "Parker Russell Mauritius",
+        "addressLines": [
+          "6th–7th Floors, Shehnaz Tower",
+          "30 Louis Pasteur Street",
+          "Port Louis, Republic of Mauritius"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contacts",
+          "name": "Erranah (Dev) Dhaliah — Founder & Chairman / Shervin Christopher Narrainen — CEO / Reshmee Dhaliah-Narrainen — Managing Director",
+          "details": [
+            {
+              "label": "Telephone",
+              "value": "+230 405 7777",
+              "iconName": "call",
+              "href": "tel:+2304057777"
+            },
+            {
+              "label": "Email",
+              "value": "info@parkerrussellmu.com",
+              "iconName": "mail",
+              "href": "mailto:info@parkerrussellmu.com"
+            },
+            {
+              "label": "Opening Hours",
+              "value": "08:00–17:30",
+              "icon": "/icons/icon-schedule.svg"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      }
+    ]
+  },
+  "mfServices": {
+    "id": "member-firm-services",
+    "services": {
+      "title": "Services",
+      "items": [
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Audit & Assurance"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Internal Audit"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Accounting & Financial Reporting"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Tax Advisory & Compliance"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "International Tax Planning"
+        },
+        {
+          "icon": "/icons/icon-domain.svg",
+          "label": "Corporate & Secretarial Services"
+        },
+        {
+          "icon": "/icons/icon-domain.svg",
+          "label": "Company Formation"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Business & Financial Advisory"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Corporate Finance"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Mergers & Acquisitions Advisory"
+        },
+        {
+          "icon": "/icons/icon-change-circle.svg",
+          "label": "Business Restructuring"
+        },
+        {
+          "icon": "/icons/icon-person.svg",
+          "label": "HR & Payroll Services"
+        },
+        {
+          "icon": "/icons/icon-computer.svg",
+          "label": "Technology, ERP & CRM Consulting"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Investment & Market Entry Support"
+        },
+        {
+          "icon": "/icons/icon-school.svg",
+          "label": "Professional Training & Development"
+        }
+      ]
+    },
+    "industries": {
+      "title": "Industries",
+      "items": [
+        {
+          "icon": "/icons/icon-computer.svg",
+          "label": "Retail & Wholesale"
+        },
+        {
+          "icon": "/icons/icon-construction.svg",
+          "label": "Manufacturing & Industrial"
+        },
+        {
+          "icon": "/icons/icon-construction.svg",
+          "label": "Real Estate & Construction"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Healthcare & Pharmaceuticals"
+        },
+        {
+          "icon": "/icons/icon-school.svg",
+          "label": "Education"
+        },
+        {
+          "icon": "/icons/icon-restaurant.svg",
+          "label": "Hospitality & Food Service"
+        },
+        {
+          "icon": "/icons/icon-local-shipping.svg",
+          "label": "Import & Export"
+        },
+        {
+          "icon": "/icons/icon-bolt.svg",
+          "label": "Energy & Fuel Distribution"
+        },
+        {
+          "icon": "/icons/icon-person.svg",
+          "label": "Professional Practices"
+        },
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Government & State-Owned Enterprises"
+        },
+        {
+          "icon": "/icons/icon-local-shipping.svg",
+          "label": "Freeport & International Trade"
+        },
+        {
+          "icon": "/icons/icon-person.svg",
+          "label": "Charities & Non-Profit Organisations"
+        }
+      ]
+    }
+  },
+  "mfFinal": {
+    "id": "member-firm-final",
+    "imageBg": "/images/member-firm/mauritius/final-cta-bg.jpg",
+    "title": "Local Expertise. International Connections.",
+    "lead": "Through Parker Russell International, Parker Russell Mauritius combines established expertise in the Mauritian market with access to international professional knowledge, relationships and cross-border capabilities across the wider network.",
+    "button": {
+      "label": "Contact Our Mauritius Member Firm",
+      "href": "contact.html",
+      "icon": true
+    }
+  }
+}

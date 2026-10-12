@@ -1,0 +1,188 @@
+{
+  "meta": {
+    "title": "Parker Russell International Member Firm in Kingdom of Saudi Arabia | Emad Alharbi CPA",
+    "description": "Emad Alharbi CPA is the Parker Russell International member firm in Saudi Arabia, delivering professional services connected to the international Parker Russell network."
+  },
+  "mfHero": {
+    "id": "member-firm-hero",
+    "imageBg": "/images/member-firm/saudi-arabia/hero-bg.jpg",
+    "imageLoading": "eager",
+    "tag": "Kingdom of Saudi Arabia",
+    "title": "Parker Russell International Member Firm in Saudi Arabia",
+    "firmName": "Emad Alharbi CPA",
+    "lead": "Audit, accounting, tax and business advisory expertise in Saudi Arabia, connected to the international capabilities of the Parker Russell network.",
+    "about": {
+      "icon": "/icons/icon-domain.svg",
+      "title": "About Emad Alharbi CPA",
+      "lead": "Emad Alharbi CPA is an independent professional services firm supporting businesses across audit, accounting, taxation, financial advisory and management consulting in Saudi Arabia.",
+      "body": "With offices in Jeddah, Riyadh and Al Khobar, the firm combines local market knowledge with experienced professional expertise, supporting organisations with financial reporting, compliance, business continuity and wider financial and administrative requirements."
+    }
+  },
+  "mfOffice": {
+    "id": "member-firm-office",
+    "title": "Our Offices in Saudi Arabia",
+    "locationIcon": "/icons/icon-location.svg",
+    "offices": [
+      {
+        "city": "Jeddah",
+        "image": "/images/member-firm/saudi-arabia/office-jeddah.jpg",
+        "imageAlt": "Emad Alharbi CPA office in Jeddah",
+        "firmName": "Emad Alharbi CPA",
+        "addressLines": [
+          "Al-Madina Road",
+          "Crown Al-Andalus Tower",
+          "Jeddah, Saudi Arabia"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contact",
+          "name": "Ibrahim Enayeh",
+          "details": [
+            {
+              "label": "Telephone",
+              "value": "+966 12 663 1433",
+              "iconName": "call",
+              "href": "tel:+966126631433"
+            },
+            {
+              "label": "Mobile",
+              "value": "+966 56 096 0888",
+              "icon": "/icons/icon-mobile.svg",
+              "href": "tel:+966560960888"
+            },
+            {
+              "label": "Email",
+              "value": "info@parkerrussell-ksa.com",
+              "iconName": "mail",
+              "href": "mailto:info@parkerrussell-ksa.com"
+            },
+            {
+              "label": "Opening Hours",
+              "value": "08:00–17:30",
+              "icon": "/icons/icon-schedule.svg"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      },
+      {
+        "city": "Riyadh",
+        "image": "/images/member-firm/saudi-arabia/office-riyadh.jpg",
+        "imageAlt": "Emad Alharbi CPA office in Riyadh",
+        "firmName": "Emad Alharbi CPA",
+        "addressLines": [
+          "Al-Olaya Street",
+          "Sima Building",
+          "Riyadh, Saudi Arabia"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contact",
+          "name": "Ibrahim Enayeh",
+          "details": [
+            {
+              "label": "Email",
+              "value": "info@parkerrussell-ksa.com",
+              "iconName": "mail",
+              "href": "mailto:info@parkerrussell-ksa.com"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      },
+      {
+        "city": "Al Khobar",
+        "image": "/images/member-firm/saudi-arabia/office-al-khobar.jpg",
+        "imageAlt": "Emad Alharbi CPA office in Al Khobar",
+        "firmName": "Emad Alharbi CPA",
+        "addressLines": [
+          "7929 King Saud Road",
+          "Olaya",
+          "Al Khobar 34447, Saudi Arabia"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contact",
+          "name": "Ibrahim Enayeh",
+          "details": [
+            {
+              "label": "Email",
+              "value": "info@parkerrussell-ksa.com",
+              "iconName": "mail",
+              "href": "mailto:info@parkerrussell-ksa.com"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      }
+    ]
+  },
+  "mfServices": {
+    "id": "member-firm-services",
+    "services": {
+      "title": "Services",
+      "items": [
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Audit & Assurance"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Accounting & Financial Reporting"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Tax Advisory & Compliance"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Financial Advisory"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Management Consulting"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Business Continuity Advisory"
+        }
+      ]
+    },
+    "industries": {
+      "title": "Industries",
+      "items": [
+        {
+          "icon": "/icons/icon-apartment.svg",
+          "label": "Real Estate & Property"
+        },
+        {
+          "icon": "/icons/icon-beach-access.svg",
+          "label": "Tourism & Hospitality"
+        }
+      ]
+    }
+  },
+  "mfFinal": {
+    "id": "member-firm-final",
+    "imageBg": "/images/member-firm/saudi-arabia/final-cta-bg.jpg",
+    "title": "Local Expertise. International Connections.",
+    "lead": "Through Parker Russell International, Emad Alharbi CPA combines professional expertise in the Saudi Arabian market with access to international knowledge, relationships and cross-border capabilities across the wider network.",
+    "button": {
+      "label": "Contact Our Saudi Arabia Member Firm",
+      "href": "contact.html",
+      "icon": true
+    }
+  }
+}

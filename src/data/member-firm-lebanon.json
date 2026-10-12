@@ -1,0 +1,171 @@
+{
+  "meta": {
+    "title": "Parker Russell International Member Firm in Lebanon | Parker Russell Lebanon",
+    "description": "Parker Russell Lebanon is the Parker Russell International member firm in Lebanon, delivering professional services connected to the international Parker Russell network."
+  },
+  "mfHero": {
+    "id": "member-firm-hero",
+    "imageBg": "/images/member-firm/lebanon/hero-bg.jpg",
+    "imageLoading": "eager",
+    "tag": "Lebanon",
+    "title": "Parker Russell International Member Firm in Lebanon",
+    "firmName": "Parker Russell Lebanon",
+    "lead": "Audit, accounting, tax and financial advisory expertise in Lebanon, connected to the international capabilities of the Parker Russell network.",
+    "about": {
+      "icon": "/icons/icon-domain.svg",
+      "title": "About Parker Russell Lebanon",
+      "lead": "Parker Russell Lebanon is an independent audit and professional services firm supporting businesses, entrepreneurs and organisations across audit, accounting, taxation and financial advisory matters.",
+      "body": "With more than 20 years of experience in the Lebanese market, the firm combines established local knowledge with international professional standards, supporting clients with financial reporting, compliance, business establishment and wider financial and commercial requirements."
+    }
+  },
+  "mfOffice": {
+    "id": "member-firm-office",
+    "title": "Our Office in Lebanon",
+    "locationIcon": "/icons/icon-location.svg",
+    "offices": [
+      {
+        "city": "Beirut / Sin El Fil",
+        "image": "/images/member-firm/lebanon/office.jpg",
+        "imageAlt": "Parker Russell Lebanon office in Beirut",
+        "firmName": "Parker Russell Lebanon",
+        "addressLines": [
+          "Sin El Fil",
+          "Beirut, Lebanon"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contacts",
+          "name": "Pierre Antoun, Salwa Charabati",
+          "details": [
+            {
+              "label": "Telephone",
+              "value": "+961 3 956 252",
+              "iconName": "call",
+              "href": "tel:+9613956252"
+            },
+            {
+              "label": "Email",
+              "value": "info@parkerrussell-lb.com",
+              "iconName": "mail",
+              "href": "mailto:info@parkerrussell-lb.com"
+            },
+            {
+              "label": "Opening Hours",
+              "value": "09:00–18:00",
+              "icon": "/icons/icon-schedule.svg"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      }
+    ]
+  },
+  "mfServices": {
+    "id": "member-firm-services",
+    "services": {
+      "title": "Services",
+      "items": [
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Audit & Assurance"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Accounting & Financial Reporting"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Tax Advisory & Compliance"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Financial Advisory"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Business Consulting"
+        },
+        {
+          "icon": "/icons/icon-domain.svg",
+          "label": "Company Registration & Corporate Services"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Business Studies"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Entrepreneurs Advisory"
+        }
+      ]
+    },
+    "industries": {
+      "title": "Industries",
+      "items": [
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Banking, Investment & Financial Services"
+        },
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Insurance"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Healthcare & Pharmaceuticals"
+        },
+        {
+          "icon": "/icons/icon-construction.svg",
+          "label": "Real Estate & Construction"
+        },
+        {
+          "icon": "/icons/icon-directions-car.svg",
+          "label": "Automotive"
+        },
+        {
+          "icon": "/icons/icon-computer.svg",
+          "label": "Retail & Consumer Business"
+        },
+        {
+          "icon": "/icons/icon-restaurant.svg",
+          "label": "Food & Beverage"
+        },
+        {
+          "icon": "/icons/icon-beach-access.svg",
+          "label": "Tourism & Hospitality"
+        },
+        {
+          "icon": "/icons/icon-construction.svg",
+          "label": "Manufacturing & Industrial"
+        },
+        {
+          "icon": "/icons/icon-bolt.svg",
+          "label": "Oil, Gas & Energy"
+        },
+        {
+          "icon": "/icons/icon-computer.svg",
+          "label": "Technology & Communications"
+        },
+        {
+          "icon": "/icons/icon-person.svg",
+          "label": "NGOs & Non-Profit Organisations"
+        }
+      ]
+    }
+  },
+  "mfFinal": {
+    "id": "member-firm-final",
+    "imageBg": "/images/member-firm/lebanon/final-cta-bg.jpg",
+    "title": "Local Expertise. International Connections.",
+    "lead": "Through Parker Russell International, Parker Russell Lebanon combines established knowledge of the Lebanese business environment with access to international expertise, professional relationships and cross-border capabilities across the wider network.",
+    "button": {
+      "label": "Contact Our Lebanon Member Firm",
+      "href": "contact.html",
+      "icon": true
+    }
+  }
+}

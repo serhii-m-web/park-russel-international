@@ -1,0 +1,164 @@
+{
+  "meta": {
+    "title": "Parker Russell International Member Firm in Turkey | Karma Bağımsız Denetim A.Ş.",
+    "description": "Karma Bağımsız Denetim A.Ş. is the Parker Russell International member firm in Turkey, delivering professional services connected to the international Parker Russell network."
+  },
+  "mfHero": {
+    "id": "member-firm-hero",
+    "imageBg": "/images/member-firm/turkey/hero-bg.jpg",
+    "imageLoading": "eager",
+    "tag": "Turkey",
+    "title": "Parker Russell International Member Firm in Turkey",
+    "firmName": "Karma Bağımsız Denetim A.Ş.",
+    "lead": "Audit, accounting, tax and financial advisory expertise in Turkey, connected to the international capabilities of the Parker Russell network.",
+    "about": {
+      "icon": "/icons/icon-domain.svg",
+      "title": "About Karma Bağımsız Denetim",
+      "lead": "Karma Bağımsız Denetim A.Ş. is an independent audit and professional services firm based in Istanbul, supporting Turkish and international businesses across audit, accounting, taxation and financial advisory matters.",
+      "body": "The firm combines established local expertise with international capabilities, supporting organisations with financial reporting, regulatory requirements, tax matters, cross-border operations and wider business needs."
+    }
+  },
+  "mfOffice": {
+    "id": "member-firm-office",
+    "title": "Our Office in Turkey",
+    "locationIcon": "/icons/icon-location.svg",
+    "offices": [
+      {
+        "city": "Istanbul",
+        "image": "/images/member-firm/turkey/office.jpg",
+        "imageAlt": "Karma Bağımsız Denetim A.Ş. office in Istanbul",
+        "firmName": "Karma Bağımsız Denetim A.Ş.",
+        "addressLines": [
+          "Mecidiyeköy, Kuştepe Mah. Leylak Sok.",
+          "Nursanlar İş Merkezi Kat 7, No. 24",
+          "Şişli, Istanbul, Turkey"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contact",
+          "name": "Şenol Civan",
+          "details": [
+            {
+              "label": "Telephone",
+              "value": "+90 212 320 58 58",
+              "iconName": "call",
+              "href": "tel:+902123205858"
+            },
+            {
+              "label": "Email",
+              "value": "civan@karmadenetim.com.tr",
+              "iconName": "mail",
+              "href": "mailto:civan@karmadenetim.com.tr"
+            },
+            {
+              "label": "Opening Hours",
+              "value": "08:30–17:30",
+              "icon": "/icons/icon-schedule.svg"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      }
+    ]
+  },
+  "mfServices": {
+    "id": "member-firm-services",
+    "services": {
+      "title": "Services",
+      "items": [
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Audit & Assurance"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Accounting & Financial Reporting"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Tax Advisory & Compliance"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "International Tax Planning"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Financial Advisory"
+        },
+        {
+          "icon": "/icons/icon-domain.svg",
+          "label": "Corporate Finance"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "VAT & Customs Advisory"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Financial Function Outsourcing"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Legal Advisory"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Cross-Border Business Support"
+        }
+      ]
+    },
+    "industries": {
+      "title": "Industries",
+      "items": [
+        {
+          "icon": "/icons/icon-construction.svg",
+          "label": "Construction & Infrastructure"
+        },
+        {
+          "icon": "/icons/icon-bolt.svg",
+          "label": "Energy & Utilities"
+        },
+        {
+          "icon": "/icons/icon-construction.svg",
+          "label": "Manufacturing"
+        },
+        {
+          "icon": "/icons/icon-construction.svg",
+          "label": "Real Estate & Property"
+        },
+        {
+          "icon": "/icons/icon-computer.svg",
+          "label": "Technology, Media & Telecommunications"
+        },
+        {
+          "icon": "/icons/icon-beach-access.svg",
+          "label": "Tourism & Hospitality"
+        },
+        {
+          "icon": "/icons/icon-computer.svg",
+          "label": "Information & Communications"
+        },
+        {
+          "icon": "/icons/icon-person.svg",
+          "label": "Professional & Business Services"
+        }
+      ]
+    }
+  },
+  "mfFinal": {
+    "id": "member-firm-final",
+    "imageBg": "/images/member-firm/turkey/final-cta-bg.jpg",
+    "title": "Local Expertise. International Connections.",
+    "lead": "Through Parker Russell International, Karma Bağımsız Denetim combines established expertise in the Turkish market with access to international knowledge, professional relationships and cross-border capabilities across the wider network.",
+    "button": {
+      "label": "Contact Our Turkey Member Firm",
+      "href": "contact.html",
+      "icon": true
+    }
+  }
+}

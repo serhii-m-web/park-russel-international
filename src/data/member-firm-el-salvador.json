@@ -1,0 +1,190 @@
+{
+  "meta": {
+    "title": "Parker Russell International Member Firm in El Salvador | Vásquez Viera & Asociados Contadores Públicos",
+    "description": "Vásquez Viera & Asociados Contadores Públicos is the Parker Russell International member firm in El Salvador, delivering professional services connected to the international Parker Russell network."
+  },
+  "mfHero": {
+    "id": "member-firm-hero",
+    "imageBg": "/images/member-firm/el-salvador/hero-bg.jpg",
+    "imageLoading": "eager",
+    "tag": "El Salvador",
+    "title": "Parker Russell International Member Firm in El Salvador",
+    "firmName": "Vásquez Viera & Asociados Contadores Públicos",
+    "lead": "Audit, tax, accounting and business advisory expertise in El Salvador, connected to the international capabilities of the Parker Russell network.",
+    "about": {
+      "icon": "/icons/icon-domain.svg",
+      "title": "About Vásquez Viera & Asociados",
+      "lead": "Established in 1985, Vásquez Viera & Asociados is an independent firm of public accountants, auditors and business advisers serving organisations across El Salvador.",
+      "body": "With offices in San Salvador and San Miguel, the firm combines extensive local experience with multidisciplinary expertise across audit, taxation, accounting, outsourcing and business consulting, supporting clients with financial reporting, regulatory compliance and wider operational and strategic requirements."
+    }
+  },
+  "mfOffice": {
+    "id": "member-firm-office",
+    "title": "Our Offices in El Salvador",
+    "locationIcon": "/icons/icon-location.svg",
+    "offices": [
+      {
+        "city": "San Salvador",
+        "image": "/images/member-firm/el-salvador/office-san-salvador.jpg",
+        "imageAlt": "Vásquez Viera & Asociados office in San Salvador",
+        "firmName": "Vásquez Viera & Asociados Contadores Públicos",
+        "addressLines": [
+          "Colonia San Benito",
+          "Avenida La Revolución, Calle Las Palmas No. 184",
+          "San Salvador, El Salvador"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contact",
+          "name": "Marlon Antonio Vásquez Ticas",
+          "details": [
+            {
+              "label": "General Enquiries",
+              "value": "+503 2645 8500 / +503 2223 5298",
+              "iconName": "call",
+              "href": "tel:+50326458500"
+            },
+            {
+              "label": "Email",
+              "value": "info@vva.com.sv",
+              "iconName": "mail",
+              "href": "mailto:info@vva.com.sv"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      },
+      {
+        "city": "San Miguel",
+        "image": "/images/member-firm/el-salvador/office-san-miguel.jpg",
+        "imageAlt": "Vásquez Viera & Asociados office in San Miguel",
+        "firmName": "Vásquez Viera & Asociados Contadores Públicos",
+        "addressLines": [
+          "7ª Avenida Sur",
+          "Urbanización San José 1, Calle Las Violetas No. 4",
+          "San Miguel, El Salvador"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contact",
+          "name": "Marlon Antonio Vásquez Ticas",
+          "details": [
+            {
+              "label": "General Enquiries",
+              "value": "+503 2645 8500 / +503 2223 5298",
+              "iconName": "call",
+              "href": "tel:+50326458500"
+            },
+            {
+              "label": "Email",
+              "value": "info@vva.com.sv",
+              "iconName": "mail",
+              "href": "mailto:info@vva.com.sv"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      }
+    ]
+  },
+  "mfServices": {
+    "id": "member-firm-services",
+    "services": {
+      "title": "Services",
+      "items": [
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Audit & Assurance"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Accounting & Financial Reporting"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Tax Advisory & Compliance"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Accounting & Business Process Outsourcing"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Business Consulting"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Corporate Finance"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Business Restructuring"
+        },
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Risk Advisory"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Business Process Improvement"
+        },
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Compliance Advisory"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Board & Strategic Advisory"
+        },
+        {
+          "icon": "/icons/icon-school.svg",
+          "label": "Professional Training"
+        }
+      ]
+    },
+    "industries": {
+      "title": "Industries",
+      "items": [
+        {
+          "icon": "/icons/icon-construction.svg",
+          "label": "Manufacturing & Industrial"
+        },
+        {
+          "icon": "/icons/icon-computer.svg",
+          "label": "Commercial & Consumer Business"
+        },
+        {
+          "icon": "/icons/icon-person.svg",
+          "label": "Professional & Business Services"
+        },
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Government & Public Sector"
+        },
+        {
+          "icon": "/icons/icon-person.svg",
+          "label": "Charities & Non-Profit Organisations"
+        }
+      ]
+    }
+  },
+  "mfFinal": {
+    "id": "member-firm-final",
+    "imageBg": "/images/member-firm/el-salvador/final-cta-bg.jpg",
+    "title": "Local Expertise. International Connections.",
+    "lead": "Through Parker Russell International, Vásquez Viera & Asociados combines established expertise in the Salvadoran market with access to international professional knowledge, relationships and cross-border capabilities across the wider network.",
+    "button": {
+      "label": "Contact Our El Salvador Member Firm",
+      "href": "contact.html",
+      "icon": true
+    }
+  }
+}

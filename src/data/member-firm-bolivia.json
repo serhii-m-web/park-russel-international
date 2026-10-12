@@ -1,0 +1,271 @@
+{
+  "meta": {
+    "title": "Parker Russell International Member Firms in Bolivia | Gutiérrez & Thompson Asociados / Praxity Ltda",
+    "description": "Gutiérrez & Thompson Asociados / Praxity Ltda is the Parker Russell International member firm in Bolivia, delivering professional services connected to the international Parker Russell network."
+  },
+  "mfHero": {
+    "id": "member-firm-hero",
+    "imageBg": "/images/member-firm/bolivia/hero-bg.jpg",
+    "imageLoading": "eager",
+    "tag": "Bolivia",
+    "title": "Parker Russell International Member Firms in Bolivia",
+    "firmName": "Gutiérrez & Thompson Asociados / Praxity Ltda",
+    "lead": "Audit, accounting, tax, legal and business advisory expertise in Bolivia, connected to the international capabilities of the Parker Russell network.",
+    "about": {
+      "icon": "/icons/icon-domain.svg",
+      "title": "About Our Bolivia Member Firms",
+      "lead": "Gutiérrez & Thompson Asociados S.R.L. is an independent audit and professional services firm based in La Paz, supporting businesses and organisations across audit, accounting, taxation, financial advisory and corporate matters.",
+      "body": "Praxity Ltda is a multidisciplinary professional services firm supporting businesses in Bolivia across tax, legal, outsourcing and business advisory matters, with operations in La Paz and Santa Cruz."
+    }
+  },
+  "mfOffice": {
+    "id": "member-firm-office",
+    "title": "Our Offices in Bolivia",
+    "locationIcon": "/icons/icon-location.svg",
+    "offices": [
+      {
+        "city": "La Paz Office",
+        "image": "/images/member-firm/bolivia/office-la-paz-gutierrez.jpg",
+        "imageAlt": "Gutiérrez & Thompson Asociados office in La Paz",
+        "firmName": "Gutiérrez & Thompson Asociados S.R.L.",
+        "addressLines": [
+          "Av. Mariscal Santa Cruz No. 2150",
+          "Edificio Esperanza, 8th Floor, Office 2",
+          "La Paz, Bolivia"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contact",
+          "name": "Dieter Gutiérrez",
+          "details": [
+            {
+              "label": "Telephone",
+              "value": "+591 2 231 8272",
+              "iconName": "call",
+              "href": "tel:+59122318272"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      },
+      {
+        "city": "Santa Cruz",
+        "image": "/images/member-firm/bolivia/office-santa-cruz.jpg",
+        "imageAlt": "Praxity Ltda office in Santa Cruz",
+        "firmName": "Praxity Ltda",
+        "addressLines": [
+          "Cuarto Anillo No. 4200",
+          "Torre Dúo, 4th Floor, Office 4 C2",
+          "Santa Cruz, Bolivia"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contacts",
+          "name": "Ignacio Del Solar / Raul Aguirre",
+          "details": [
+            {
+              "label": "Telephone",
+              "value": "+591 3 370 8885 / 8886",
+              "iconName": "call",
+              "href": "tel:+591337088858886"
+            },
+            {
+              "label": "Email",
+              "value": "info@pr.com.bo",
+              "iconName": "mail",
+              "href": "mailto:info@pr.com.bo"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      },
+      {
+        "city": "La Paz",
+        "image": "/images/member-firm/bolivia/office-la-paz-praxity.jpg",
+        "imageAlt": "Praxity Ltda office in La Paz",
+        "firmName": "Praxity Ltda",
+        "addressLines": [
+          "Calle Mercado No. 78",
+          "Edificio Torre Centro, 2nd Floor, Office 208",
+          "La Paz, Bolivia"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contact",
+          "name": "Ignacio Del Solar / Raul Aguirre",
+          "details": [
+            {
+              "label": "Telephone",
+              "value": "+591 788 98111 / +591 755 57999",
+              "iconName": "call",
+              "href": "tel:+59178898111"
+            },
+            {
+              "label": "Email",
+              "value": "info@pr.com.bo",
+              "iconName": "mail",
+              "href": "mailto:info@pr.com.bo"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      }
+    ]
+  },
+  "mfServices": {
+    "id": "member-firm-services",
+    "services": {
+      "title": "Services",
+      "items": [
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Audit & Assurance"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Accounting & Outsourcing"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Tax & Legal Advisory"
+        },
+        {
+          "icon": "/icons/icon-domain.svg",
+          "label": "Corporate Services"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Financial & Corporate Advisory"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Corporate Finance"
+        },
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Risk Advisory"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Tax Advisory & Compliance"
+        },
+        {
+          "icon": "/icons/icon-gavel.svg",
+          "label": "Legal Advisory"
+        },
+        {
+          "icon": "/icons/icon-computer.svg",
+          "label": "Outsourcing"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Business Advisory"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Inventory Verification"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Asset Protection"
+        },
+        {
+          "icon": "/icons/icon-person.svg",
+          "label": "Human Resources & Talent Management"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Organisational Development"
+        },
+        {
+          "icon": "/icons/icon-computer.svg",
+          "label": "Information Technology Advisory"
+        },
+        {
+          "icon": "/icons/icon-school.svg",
+          "label": "Professional Training"
+        }
+      ]
+    },
+    "industries": {
+      "title": "Industries",
+      "items": [
+        {
+          "icon": "/icons/icon-domain.svg",
+          "label": "Financial Services"
+        },
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Government & Public Sector"
+        },
+        {
+          "icon": "/icons/icon-construction.svg",
+          "label": "Energy & Infrastructure"
+        },
+        {
+          "icon": "/icons/icon-construction.svg",
+          "label": "Manufacturing"
+        },
+        {
+          "icon": "/icons/icon-apartment.svg",
+          "label": "Real Estate & Property"
+        },
+        {
+          "icon": "/icons/icon-beach-access.svg",
+          "label": "Tourism & Hospitality"
+        },
+        {
+          "icon": "/icons/icon-computer.svg",
+          "label": "E-commerce"
+        },
+        {
+          "icon": "/icons/icon-domain.svg",
+          "label": "Communications"
+        },
+        {
+          "icon": "/icons/icon-local-shipping.svg",
+          "label": "Transport & Logistics"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Pharmaceuticals & Healthcare"
+        },
+        {
+          "icon": "/icons/icon-construction.svg",
+          "label": "Construction & Infrastructure"
+        },
+        {
+          "icon": "/icons/icon-eco.svg",
+          "label": "Agriculture"
+        },
+        {
+          "icon": "/icons/icon-person.svg",
+          "label": "Professional & Business Services"
+        }
+      ]
+    }
+  },
+  "mfFinal": {
+    "id": "member-firm-final",
+    "imageBg": "/images/member-firm/bolivia/final-cta-bg.jpg",
+    "title": "Local Expertise. International Connections.",
+    "lead": "Through its member firms in Bolivia, Parker Russell International brings together established local expertise with access to international knowledge, professional relationships and cross-border capabilities across the wider network.",
+    "button": {
+      "label": "Contact Our Bolivia Member Firms",
+      "href": "contact.html",
+      "icon": true
+    }
+  }
+}

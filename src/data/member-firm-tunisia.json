@@ -1,0 +1,129 @@
+{
+  "meta": {
+    "title": "Parker Russell International Member Firm in Tunisia | Maghreb Conseil & Audit – MCA",
+    "description": "Maghreb Conseil & Audit – MCA is the Parker Russell International member firm in Tunisia, delivering professional services connected to the international Parker Russell network."
+  },
+  "mfHero": {
+    "id": "member-firm-hero",
+    "imageBg": "/images/member-firm/tunisia/hero-bg.jpg",
+    "imageLoading": "eager",
+    "tag": "Tunisia",
+    "title": "Parker Russell International Member Firm in Tunisia",
+    "firmName": "Maghreb Conseil & Audit – MCA",
+    "lead": "Audit, accounting and business advisory expertise in Tunisia, connected to the international capabilities of the Parker Russell network.",
+    "about": {
+      "icon": "/icons/icon-domain.svg",
+      "title": "About Maghreb Conseil & Audit",
+      "lead": "Maghreb Conseil & Audit (MCA) is an independent accounting, audit and advisory firm based in Tunis, supporting businesses and organisations across financial reporting, assurance, accounting and wider business matters.",
+      "body": "The firm combines established local professional expertise with international methodologies and standards, supporting clients with audit, outsourcing, business continuity, technology and professional development requirements."
+    }
+  },
+  "mfOffice": {
+    "id": "member-firm-office",
+    "title": "Our Office in Tunisia",
+    "locationIcon": "/icons/icon-location.svg",
+    "offices": [
+      {
+        "city": "Tunis",
+        "image": "/images/member-firm/tunisia/office.jpg",
+        "imageAlt": "Maghreb Conseil & Audit office in Tunis",
+        "firmName": "Maghreb Conseil & Audit – MCA",
+        "addressLines": [
+          "Cleopatra Centre Building",
+          "Office A-6-4, Centre Urbain Nord",
+          "1082 Tunis, Tunisia"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contact",
+          "name": "Walid Mlik — Chartered Accountant & Statutory Auditor",
+          "details": [
+            {
+              "label": "Telephone",
+              "value": "+216 71 947 048",
+              "iconName": "call",
+              "href": "tel:+21671947048"
+            },
+            {
+              "label": "Additional Line",
+              "value": "+216 71 947 058",
+              "iconName": "call",
+              "href": "tel:+21671947058"
+            },
+            {
+              "label": "Mobile",
+              "value": "+216 23 400 784",
+              "icon": "/icons/icon-mobile.svg",
+              "href": "tel:+21623400784"
+            },
+            {
+              "label": "Email",
+              "value": "walid.mlik@mca.com.tn",
+              "iconName": "mail",
+              "href": "mailto:walid.mlik@mca.com.tn"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      }
+    ]
+  },
+  "mfServices": {
+    "id": "member-firm-services",
+    "services": {
+      "title": "Services",
+      "items": [
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Audit & Assurance"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Accounting & Financial Reporting"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Accounting & Outsourcing"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Business Advisory"
+        },
+        {
+          "icon": "/icons/icon-change-circle.svg",
+          "label": "Business Continuity Advisory"
+        },
+        {
+          "icon": "/icons/icon-computer.svg",
+          "label": "IT & Technology Services"
+        },
+        {
+          "icon": "/icons/icon-school.svg",
+          "label": "Training & Professional Development"
+        }
+      ]
+    },
+    "industries": {
+      "title": "Industries",
+      "note": {
+        "title": "To be confirmed with Maghreb Conseil & Audit",
+        "body": "The current member-firm information does not provide an approved industry list. Industry sectors should therefore be added only after confirmation from the Tunisian member firm."
+      }
+    }
+  },
+  "mfFinal": {
+    "id": "member-firm-final",
+    "imageBg": "/images/member-firm/tunisia/final-cta-bg.jpg",
+    "title": "Local Expertise. International Connections.",
+    "lead": "Through Parker Russell International, Maghreb Conseil & Audit combines established expertise in the Tunisian market with access to international professional knowledge, relationships and cross-border capabilities across the wider network.",
+    "button": {
+      "label": "Contact Our Tunisia Member Firm",
+      "href": "contact.html",
+      "icon": true
+    }
+  }
+}

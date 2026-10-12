@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "title": "Parker Russell International Member Firm in Argentina | Parker Russell Argentina FI Argentina Group",
+    "description": "Parker Russell Argentina FI Argentina Group is the Parker Russell International member firm in Argentina, delivering professional services connected to the international Parker Russell network."
+  },
+  "mfHero": {
+    "id": "member-firm-hero",
+    "imageBg": "/images/member-firm/argentina/hero-bg.jpg",
+    "imageLoading": "eager",
+    "tag": "Argentina",
+    "title": "Parker Russell International Member Firm in Argentina",
+    "firmName": "Parker Russell Argentina FI Argentina Group",
+    "lead": "Tax, audit, accounting and legal advisory expertise in Argentina, connected to the international capabilities of the Parker Russell network.",
+    "about": {
+      "icon": "/icons/icon-domain.svg",
+      "title": "About Parker Russell Argentina",
+      "lead": "Parker Russell Argentina, part of FI Argentina Group, is an independent professional services firm supporting Argentine and international businesses across tax, audit, accounting, legal and corporate matters.",
+      "body": "With more than two decades of local experience, the firm combines multidisciplinary expertise with an international perspective, supporting clients with regulatory compliance, cross-border taxation, transactions, corporate structuring and wider business requirements."
+    }
+  },
+  "mfOffice": {
+    "id": "member-firm-office",
+    "title": "Our Office in Argentina",
+    "locationIcon": "/icons/icon-location.svg",
+    "offices": [
+      {
+        "city": "Buenos Aires",
+        "image": "/images/member-firm/argentina/office.jpg",
+        "imageAlt": "Parker Russell Argentina office in Buenos Aires",
+        "firmName": "Parker Russell Argentina FI Argentina Group",
+        "addressLines": [
+          "Cerrito 1186",
+          "C1010AAX Ciudad Autónoma de Buenos Aires",
+          "Argentina"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contact",
+          "name": "Ariel Martin Cusato",
+          "details": [
+            {
+              "label": "Telephone",
+              "value": "+54 11 5236 8042",
+              "iconName": "call",
+              "href": "tel:+541152368042"
+            },
+            {
+              "label": "Email",
+              "value": "acusato@fiargentina.com.ar",
+              "iconName": "mail",
+              "href": "mailto:acusato@fiargentina.com.ar"
+            },
+            {
+              "label": "Opening Hours",
+              "value": "08:30–17:30",
+              "icon": "/icons/icon-schedule.svg"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      }
+    ]
+  },
+  "mfServices": {
+    "id": "member-firm-services",
+    "services": {
+      "title": "Services",
+      "items": [
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Tax Advisory & Compliance"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "International Tax Planning"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Audit & Assurance"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Accounting & Outsourcing"
+        },
+        {
+          "icon": "/icons/icon-gavel.svg",
+          "label": "Legal Advisory"
+        },
+        {
+          "icon": "/icons/icon-domain.svg",
+          "label": "Corporate Services"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Transfer Pricing"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Due Diligence"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Tax Litigation & Defence"
+        },
+        {
+          "icon": "/icons/icon-domain.svg",
+          "label": "Corporate Restructuring"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Mergers & Acquisitions Support"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Private Client & Family Advisory"
+        }
+      ]
+    }
+  },
+  "mfFinal": {
+    "id": "member-firm-final",
+    "imageBg": "/images/member-firm/argentina/final-cta-bg.jpg",
+    "title": "Local Expertise. International Connections.",
+    "lead": "Through Parker Russell International, Parker Russell Argentina combines established local expertise with access to international knowledge, professional relationships and cross-border capabilities across the wider network.",
+    "button": {
+      "label": "Contact Our Argentina Member Firm",
+      "href": "contact.html",
+      "icon": true
+    }
+  }
+}

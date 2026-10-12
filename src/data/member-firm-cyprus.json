@@ -1,0 +1,184 @@
+{
+  "meta": {
+    "title": "Parker Russell International Member Firm in Cyprus | Parker Russell Cyprus",
+    "description": "Parker Russell Cyprus is the Parker Russell International member firm in Cyprus, delivering professional services connected to the international Parker Russell network."
+  },
+  "mfHero": {
+    "id": "member-firm-hero",
+    "imageBg": "/images/member-firm/cyprus/hero-bg.jpg",
+    "imageLoading": "eager",
+    "tag": "Cyprus",
+    "title": "Parker Russell International Member Firm in Cyprus",
+    "firmName": "Parker Russell Cyprus",
+    "lead": "Independent audit, tax and advisory expertise in Cyprus, connected to the international capabilities of the Parker Russell network.",
+    "about": {
+      "icon": "/icons/icon-domain.svg",
+      "title": "About Parker Russell Cyprus",
+      "lead": "Parker Russell Cyprus provides audit, accounting, tax and business advisory services to businesses operating across a range of sectors.",
+      "body": "With offices in Nicosia and Larnaca, the firm combines local professional knowledge with access to the international expertise and relationships of Parker Russell International, supporting clients with both domestic requirements and cross-border business matters."
+    }
+  },
+  "mfOffice": {
+    "id": "member-firm-office",
+    "title": "Our Offices in Cyprus",
+    "locationIcon": "/icons/icon-location.svg",
+    "offices": [
+      {
+        "city": "Nicosia",
+        "image": "/images/member-firm/cyprus/office-nicosia.jpg",
+        "imageAlt": "Parker Russell Cyprus office in Nicosia",
+        "firmName": "Parker Russell Cyprus",
+        "addressLines": [
+          "17 Laodikias Street",
+          "Strovolos 2028",
+          "Nicosia, Cyprus"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contact",
+          "name": "Mr Christos Evagorou",
+          "details": [
+            {
+              "iconName": "call",
+              "label": "Telephone",
+              "value": "+357 22 253530",
+              "href": "tel:+35722253530"
+            },
+            {
+              "iconName": "mail",
+              "label": "Email",
+              "value": "info@pri.com.cy",
+              "href": "mailto:info@pri.com.cy"
+            },
+            {
+              "icon": "/icons/icon-schedule.svg",
+              "label": "Opening Hours",
+              "value": "09:00–17:30"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      },
+      {
+        "city": "Larnaca",
+        "image": "/images/member-firm/cyprus/office-larnaca.jpg",
+        "imageAlt": "Parker Russell Cyprus office in Larnaca",
+        "firmName": "Parker Russell Cyprus",
+        "addressLines": [
+          "2 Pentadaktylou Street",
+          "Suite 102, 1st Floor",
+          "6060 Larnaca, Cyprus"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contact",
+          "name": "Mr Christos Evagorou",
+          "details": [
+            {
+              "iconName": "call",
+              "label": "Telephone",
+              "value": "+357 24 368401",
+              "href": "tel:+35724368401"
+            },
+            {
+              "iconName": "mail",
+              "label": "Email",
+              "value": "info.lca@pri.com.cy",
+              "href": "mailto:info.lca@pri.com.cy"
+            },
+            {
+              "icon": "/icons/icon-schedule.svg",
+              "label": "Opening Hours",
+              "value": "08:00–17:30"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      }
+    ]
+  },
+  "mfServices": {
+    "id": "member-firm-services",
+    "services": {
+      "title": "Services",
+      "items": [
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Assurance"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Taxation"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Business Advisory"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Accountancy"
+        },
+        {
+          "icon": "/icons/icon-domain.svg",
+          "label": "Corporate Support"
+        }
+      ]
+    },
+    "industries": {
+      "title": "Industries",
+      "items": [
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Financial Services"
+        },
+        {
+          "icon": "/icons/icon-restaurant.svg",
+          "label": "Agriculture"
+        },
+        {
+          "icon": "/icons/icon-construction.svg",
+          "label": "Construction & Infrastructure"
+        },
+        {
+          "icon": "/icons/icon-bolt.svg",
+          "label": "Energy"
+        },
+        {
+          "icon": "/icons/icon-computer.svg",
+          "label": "Information & Communications"
+        },
+        {
+          "icon": "/icons/icon-construction.svg",
+          "label": "Manufacturing"
+        },
+        {
+          "icon": "/icons/icon-construction.svg",
+          "label": "Real Estate & Property"
+        },
+        {
+          "icon": "/icons/icon-computer.svg",
+          "label": "Technology & Telecommunications"
+        }
+      ]
+    }
+  },
+  "mfFinal": {
+    "id": "member-firm-final",
+    "imageBg": "/images/member-firm/cyprus/final-cta-bg.jpg",
+    "title": "Local Expertise. International Connections.",
+    "lead": "Through Parker Russell International, our member firm in Cyprus combines local professional expertise with access to international knowledge, resources and relationships across the wider network.",
+    "button": {
+      "label": "Contact Our Cyprus Member Firm",
+      "href": "contact.html",
+      "icon": true
+    }
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "meta": {
+    "title": "Parker Russell International Member Firm in Eastern Africa | Parker Russell Eastern Africa",
+    "description": "Parker Russell Eastern Africa is the Parker Russell International member firm in Eastern Africa, delivering professional services connected to the international Parker Russell network."
+  },
+  "mfHero": {
+    "id": "member-firm-hero",
+    "imageBg": "/images/member-firm/eastern-africa/hero-bg.jpg",
+    "imageLoading": "eager",
+    "tag": "Eastern Africa",
+    "title": "Parker Russell International Member Firm in Eastern Africa",
+    "firmName": "Parker Russell Eastern Africa",
+    "lead": "Audit, tax, accounting and advisory expertise across Eastern Africa, connected to the international capabilities of the Parker Russell network.",
+    "about": {
+      "icon": "/icons/icon-domain.svg",
+      "title": "About Parker Russell Eastern Africa",
+      "lead": "Parker Russell Eastern Africa is an independent audit, tax and advisory firm headquartered in Nairobi, supporting businesses, public sector organisations, international institutions and non-profit organisations across the region.",
+      "body": "The firm combines deep regional knowledge with multidisciplinary expertise across assurance, taxation, accounting, risk, transactions and management advisory. Current branch locations include Kenya (Nairobi & Malindi), Uganda (Kampala), Rwanda (Kigali) and Somalia (Mogadishu), with assignments also supported across Tanzania, Burundi, South Sudan, Ethiopia, DR Congo, Zambia, Djibouti, Eritrea and other African markets."
+    }
+  },
+  "mfOffice": {
+    "id": "member-firm-office",
+    "title": "Our Principal Office",
+    "locationIcon": "/icons/icon-location.svg",
+    "offices": [
+      {
+        "city": "Nairobi, Kenya",
+        "image": "/images/member-firm/eastern-africa/office.jpg",
+        "imageAlt": "Parker Russell Eastern Africa office in Nairobi",
+        "firmName": "Parker Russell Eastern Africa",
+        "addressLines": [
+          "Karengata Park",
+          "Marula Road, Karen",
+          "P.O. Box 25426-00100, Nairobi, Kenya"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contact",
+          "name": "Coutts Otolo — CEO & Managing Partner, Vice President – Africa, Parker Russell International",
+          "details": [
+            {
+              "label": "Telephone",
+              "value": "+254 20 239 9149",
+              "iconName": "call",
+              "href": "tel:+254202399149"
+            },
+            {
+              "label": "Mobile",
+              "value": "+254 771 007 125",
+              "icon": "/icons/icon-mobile.svg",
+              "href": "tel:+254771007125"
+            },
+            {
+              "label": "Email",
+              "value": "info@parkerrussell-ea.com",
+              "iconName": "mail",
+              "href": "mailto:info@parkerrussell-ea.com"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      }
+    ]
+  },
+  "mfServices": {
+    "id": "member-firm-services",
+    "services": {
+      "title": "Services",
+      "items": [
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Audit & Assurance"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Financial Statement Audit"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Forensic & Investigative Audit"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Project Audit"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Accounting & Financial Reporting"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Tax Advisory & Compliance"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Direct & Indirect Tax"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Transfer Pricing"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Management Consulting"
+        },
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Risk Advisory"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Transaction Advisory"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Business Performance Improvement"
+        }
+      ]
+    },
+    "industries": {
+      "title": "Industries",
+      "items": [
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Financial Services & Insurance"
+        },
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Government & Public Sector"
+        },
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "NGOs & Development Organisations"
+        },
+        {
+          "icon": "/icons/icon-apartment.svg",
+          "label": "Real Estate & Property"
+        },
+        {
+          "icon": "/icons/icon-eco.svg",
+          "label": "Agriculture & Agribusiness"
+        },
+        {
+          "icon": "/icons/icon-construction.svg",
+          "label": "Manufacturing & Industrial"
+        },
+        {
+          "icon": "/icons/icon-computer.svg",
+          "label": "Technology & Telecommunications"
+        },
+        {
+          "icon": "/icons/icon-beach-access.svg",
+          "label": "Tourism & Hospitality"
+        }
+      ]
+    }
+  },
+  "mfFinal": {
+    "id": "member-firm-final",
+    "imageBg": "/images/member-firm/eastern-africa/final-cta-bg.jpg",
+    "title": "Regional Expertise. International Connections.",
+    "lead": "Through Parker Russell International, Parker Russell Eastern Africa combines established regional expertise with access to international professional knowledge, relationships and cross-border capabilities across the wider network.",
+    "button": {
+      "label": "Contact Parker Russell Eastern Africa",
+      "href": "contact.html",
+      "icon": true
+    }
+  }
+}

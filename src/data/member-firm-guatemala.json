@@ -1,0 +1,214 @@
+{
+  "meta": {
+    "title": "Parker Russell International Member Firm in Guatemala | Parker Russell Guatemala",
+    "description": "Parker Russell Guatemala is the Parker Russell International member firm in Guatemala, delivering professional services connected to the international Parker Russell network."
+  },
+  "mfHero": {
+    "id": "member-firm-hero",
+    "imageBg": "/images/member-firm/guatemala/hero-bg.jpg",
+    "imageLoading": "eager",
+    "tag": "Guatemala",
+    "title": "Parker Russell International Member Firm in Guatemala",
+    "firmName": "Parker Russell Guatemala",
+    "lead": "Audit, accounting, tax and business advisory expertise in Guatemala, connected to the international capabilities of the Parker Russell network.",
+    "about": {
+      "icon": "/icons/icon-domain.svg",
+      "title": "About Parker Russell Guatemala",
+      "lead": "Established in 2008, Parker Russell Guatemala is an independent audit and consulting practice supporting businesses and organisations across audit, financial reporting, taxation, technology, risk and business advisory matters.",
+      "body": "Operating through two locations in Guatemala City, the firm brings together auditors, accountants, tax specialists, financial consultants and technology professionals to support local and international clients with financial reporting, regulatory compliance, internal controls, outsourcing and wider business requirements."
+    }
+  },
+  "mfOffice": {
+    "id": "member-firm-office",
+    "title": "Our Offices in Guatemala",
+    "locationIcon": "/icons/icon-location.svg",
+    "offices": [
+      {
+        "city": "Guatemala City — Zona 14",
+        "image": "/images/member-firm/guatemala/office-zona-14.jpg",
+        "imageAlt": "Parker Randall Guatemala office in Zona 14",
+        "firmName": "Parker Randall Guatemala, S.A.",
+        "addressLines": [
+          "5ª Avenida 5-55, Zona 14",
+          "Europlaza World Business Center, Tower 3, Level 9, Office 903",
+          "Guatemala City 01014, Guatemala"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contact",
+          "name": "Erick Leony — Partner & Co-Founder",
+          "details": [
+            {
+              "label": "Telephone",
+              "value": "+502 2333 4802 / +502 2368 2566",
+              "iconName": "call",
+              "href": "tel:+50223334802"
+            },
+            {
+              "label": "Email",
+              "value": "informacion@parkerrussell.net",
+              "iconName": "mail",
+              "href": "mailto:informacion@parkerrussell.net"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      },
+      {
+        "city": "Guatemala City — Zona 15",
+        "image": "/images/member-firm/guatemala/office-zona-15.jpg",
+        "imageAlt": "Leony, Fuxet & Asociados office in Zona 15",
+        "firmName": "Leony, Fuxet & Asociados, S.C.",
+        "addressLines": [
+          "15ª Avenida 15-50, Zona 15 VHIII",
+          "Spazio Centro de Negocios, Level 5, Office 503",
+          "Guatemala City 01015, Guatemala"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contact",
+          "name": "Juan Miguel Fuxet — Partner & Co-Founder",
+          "details": [
+            {
+              "label": "Telephone",
+              "value": "+502 2362 3318 / +502 2295 9058",
+              "iconName": "call",
+              "href": "tel:+50223623318"
+            },
+            {
+              "label": "Email",
+              "value": "guatemala@parkerrussell.net",
+              "iconName": "mail",
+              "href": "mailto:guatemala@parkerrussell.net"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      }
+    ]
+  },
+  "mfServices": {
+    "id": "member-firm-services",
+    "services": {
+      "title": "Services",
+      "items": [
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Audit & Assurance"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Accounting & Financial Reporting"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "IFRS & IFRS for SMEs Advisory"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "US GAAP Reporting Advisory"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Tax Advisory & Compliance"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Tax Planning"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Financial Advisory"
+        },
+        {
+          "icon": "/icons/icon-computer.svg",
+          "label": "Technology & Risk Management"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Internal Control & Process Advisory"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Accounting Outsourcing"
+        },
+        {
+          "icon": "/icons/icon-computer.svg",
+          "label": "Payroll & Tax Outsourcing"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Business Consulting"
+        }
+      ]
+    },
+    "industries": {
+      "title": "Industries",
+      "items": [
+        {
+          "icon": "/icons/icon-domain.svg",
+          "label": "Financial Services"
+        },
+        {
+          "icon": "/icons/icon-construction.svg",
+          "label": "Manufacturing & Industrial"
+        },
+        {
+          "icon": "/icons/icon-computer.svg",
+          "label": "Consumer & Commercial Business"
+        },
+        {
+          "icon": "/icons/icon-restaurant.svg",
+          "label": "Agriculture & Food"
+        },
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Government & Public Sector"
+        },
+        {
+          "icon": "/icons/icon-computer.svg",
+          "label": "Technology & Telecommunications"
+        },
+        {
+          "icon": "/icons/icon-computer.svg",
+          "label": "Media & Communications"
+        },
+        {
+          "icon": "/icons/icon-school.svg",
+          "label": "Education"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Healthcare & Pharmaceuticals"
+        },
+        {
+          "icon": "/icons/icon-construction.svg",
+          "label": "Construction"
+        },
+        {
+          "icon": "/icons/icon-person.svg",
+          "label": "Charities & Non-Profit Organisations"
+        }
+      ]
+    }
+  },
+  "mfFinal": {
+    "id": "member-firm-final",
+    "imageBg": "/images/member-firm/guatemala/final-cta-bg.jpg",
+    "title": "Local Expertise. International Connections.",
+    "lead": "Through Parker Russell International, Parker Russell Guatemala combines established local expertise with access to international professional knowledge, relationships and cross-border capabilities across the wider network.",
+    "button": {
+      "label": "Contact Our Guatemala Member Firm",
+      "href": "contact.html",
+      "icon": true
+    }
+  }
+}

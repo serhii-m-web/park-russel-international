@@ -1,0 +1,192 @@
+{
+  "meta": {
+    "title": "Parker Russell International Member Firm in Kazakhstan | Parker Russell Kazakhstan",
+    "description": "Parker Russell Kazakhstan is the Parker Russell International member firm in Kazakhstan, delivering professional services connected to the international Parker Russell network."
+  },
+  "mfHero": {
+    "id": "member-firm-hero",
+    "imageBg": "/images/member-firm/kazakhstan/hero-bg.jpg",
+    "imageLoading": "eager",
+    "tag": "Kazakhstan",
+    "title": "Parker Russell International Member Firm in Kazakhstan",
+    "firmName": "Parker Russell Kazakhstan",
+    "lead": "Audit, accounting, tax and valuation expertise in Kazakhstan, connected to the international capabilities of the Parker Russell network.",
+    "about": {
+      "icon": "/icons/icon-domain.svg",
+      "title": "About Parker Russell Kazakhstan",
+      "lead": "Parker Russell Kazakhstan is an independent audit, accounting, tax and advisory firm based in Almaty, supporting local and international organisations across financial, regulatory and business matters.",
+      "body": "The firm combines extensive knowledge of the Kazakh market with specialist expertise across audit, taxation, financial reporting and valuation, with significant experience supporting organisations operating in complex and highly regulated industries."
+    }
+  },
+  "mfOffice": {
+    "id": "member-firm-office",
+    "title": "Our Office in Kazakhstan",
+    "locationIcon": "/icons/icon-location.svg",
+    "offices": [
+      {
+        "city": "Almaty",
+        "image": "/images/member-firm/kazakhstan/office.jpg",
+        "imageAlt": "Parker Russell Kazakhstan office in Almaty",
+        "firmName": "Parker Russell Kazakhstan",
+        "addressLines": [
+          "202 Al-Farabi Avenue",
+          "Office 107",
+          "Almaty, Republic of Kazakhstan"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contact",
+          "name": "Arman Rakhmatulla — General Director",
+          "details": [
+            {
+              "label": "Mobile",
+              "value": "+7 701 210 8885",
+              "icon": "/icons/icon-mobile.svg",
+              "href": "tel:+77012108885"
+            },
+            {
+              "label": "Email",
+              "value": "arman@parkerrussell.kz",
+              "iconName": "mail",
+              "href": "mailto:arman@parkerrussell.kz"
+            },
+            {
+              "label": "Opening Hours",
+              "value": "09:00–17:00",
+              "icon": "/icons/icon-schedule.svg"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      }
+    ]
+  },
+  "mfServices": {
+    "id": "member-firm-services",
+    "services": {
+      "title": "Services",
+      "items": [
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Audit & Assurance"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Statutory & Voluntary Audit"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Internal & Special-Purpose Audit"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Accounting & Financial Reporting"
+        },
+        {
+          "icon": "/icons/icon-domain.svg",
+          "label": "IFRS Reporting & Transformation"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Accounting Outsourcing"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Tax Advisory & Compliance"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "International Tax"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Tax Audit"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Transfer Pricing"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Subsoil User Taxation"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Due Diligence"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Business & Asset Valuation"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Purchase Price Allocation"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Financial Modelling"
+        }
+      ]
+    },
+    "industries": {
+      "title": "Industries",
+      "items": [
+        {
+          "icon": "/icons/icon-bolt.svg",
+          "label": "Oil & Gas"
+        },
+        {
+          "icon": "/icons/icon-bolt.svg",
+          "label": "Mining & Natural Resources"
+        },
+        {
+          "icon": "/icons/icon-bolt.svg",
+          "label": "Uranium & Nuclear Resources"
+        },
+        {
+          "icon": "/icons/icon-construction.svg",
+          "label": "Energy & Infrastructure"
+        },
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Banking & Financial Services"
+        },
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Investment & Capital Markets"
+        },
+        {
+          "icon": "/icons/icon-local-shipping.svg",
+          "label": "Transport & Logistics"
+        },
+        {
+          "icon": "/icons/icon-construction.svg",
+          "label": "Manufacturing & Industrial"
+        },
+        {
+          "icon": "/icons/icon-construction.svg",
+          "label": "Real Estate & Construction"
+        },
+        {
+          "icon": "/icons/icon-beach-access.svg",
+          "label": "Tourism & Hospitality"
+        }
+      ]
+    }
+  },
+  "mfFinal": {
+    "id": "member-firm-final",
+    "imageBg": "/images/member-firm/kazakhstan/final-cta-bg.jpg",
+    "title": "Local Expertise. International Connections.",
+    "lead": "Through Parker Russell International, Parker Russell Kazakhstan combines established expertise in the Kazakh market with access to international professional knowledge, relationships and cross-border capabilities across the wider network.",
+    "button": {
+      "label": "Contact Our Kazakhstan Member Firm",
+      "href": "contact.html",
+      "icon": true
+    }
+  }
+}

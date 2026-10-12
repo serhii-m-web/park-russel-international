@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "title": "Parker Russell International Member Firm in Mexico | Parker Russell Mexico",
+    "description": "Parker Russell Mexico is the Parker Russell International member firm in Mexico, delivering professional services connected to the international Parker Russell network."
+  },
+  "mfHero": {
+    "id": "member-firm-hero",
+    "imageBg": "/images/member-firm/mexico/hero-bg.jpg",
+    "imageLoading": "eager",
+    "tag": "Mexico",
+    "title": "Parker Russell International Member Firm in Mexico",
+    "firmName": "Parker Russell Mexico",
+    "lead": "Professional services expertise in Mexico, connected to the international capabilities of the Parker Russell network.",
+    "about": {
+      "icon": "/icons/icon-domain.svg",
+      "title": "About Our Mexico Member Firm",
+      "lead": "Member firm details for Mexico are being confirmed with the local firm and will be published once approved.",
+      "body": "Until confirmed information is available, this page provides a holding profile for the Parker Russell International member firm in Mexico."
+    }
+  },
+  "mfOffice": {
+    "id": "member-firm-office",
+    "title": "Our Office in Mexico",
+    "locationIcon": "/icons/icon-location.svg",
+    "offices": []
+  },
+  "mfServices": {
+    "id": "member-firm-services",
+    "industries": {
+      "title": "Industries",
+      "note": {
+        "title": "To be confirmed with Parker Russell Mexico",
+        "body": "The current member-firm information does not provide an approved sector-specific industry list. Industries should therefore be added only after confirmation from the local member firm."
+      }
+    }
+  },
+  "mfFinal": {
+    "id": "member-firm-final",
+    "imageBg": "/images/member-firm/mexico/final-cta-bg.jpg",
+    "title": "Local Expertise. International Connections.",
+    "lead": "Through Parker Russell International, the Mexico member firm will combine local professional expertise with access to international knowledge, professional relationships and cross-border capabilities across the wider network.",
+    "button": {
+      "label": "Contact Our Mexico Member Firm",
+      "href": "contact.html",
+      "icon": true
+    }
+  }
+}

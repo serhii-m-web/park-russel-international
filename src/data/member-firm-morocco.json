@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "title": "Parker Russell International Member Firm in Morocco | Parker Russell Morocco",
+    "description": "Parker Russell Morocco is the Parker Russell International member firm in Morocco, delivering professional services connected to the international Parker Russell network."
+  },
+  "mfHero": {
+    "id": "member-firm-hero",
+    "imageBg": "/images/member-firm/morocco/hero-bg.jpg",
+    "imageLoading": "eager",
+    "tag": "Morocco",
+    "title": "Parker Russell International Member Firm in Morocco",
+    "firmName": "Parker Russell Morocco",
+    "lead": "Audit, accounting, tax and business advisory expertise in Morocco, connected to the international capabilities of the Parker Russell network.",
+    "about": {
+      "icon": "/icons/icon-domain.svg",
+      "title": "About Parker Russell Morocco",
+      "lead": "Parker Russell Morocco is an independent professional services firm based in Casablanca, supporting Moroccan and international businesses across audit, accounting, taxation and advisory matters.",
+      "body": "The firm combines local market knowledge with multidisciplinary professional expertise, supporting clients with financial reporting, compliance, taxation, business development and wider financial and commercial requirements."
+    }
+  },
+  "mfOffice": {
+    "id": "member-firm-office",
+    "title": "Our Office in Morocco",
+    "locationIcon": "/icons/icon-location.svg",
+    "offices": [
+      {
+        "city": "Casablanca",
+        "image": "/images/member-firm/morocco/office.jpg",
+        "imageAlt": "Parker Russell Morocco office in Casablanca",
+        "firmName": "Parker Russell Morocco",
+        "addressLines": [
+          "127 Avenue Mers Sultan",
+          "Casablanca",
+          "Morocco"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contact",
+          "name": "Youssef Lahrabli",
+          "details": [
+            {
+              "label": "Telephone",
+              "value": "+212 520 859420",
+              "iconName": "call",
+              "href": "tel:+212520859420"
+            },
+            {
+              "label": "Mobile",
+              "value": "+212 661 189051",
+              "icon": "/icons/icon-mobile.svg",
+              "href": "tel:+212661189051"
+            },
+            {
+              "label": "Email",
+              "value": "contact@parkerrussell-maroc.com",
+              "iconName": "mail",
+              "href": "mailto:contact@parkerrussell-maroc.com"
+            },
+            {
+              "label": "Opening Hours",
+              "value": "09:00–18:00",
+              "icon": "/icons/icon-schedule.svg"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      }
+    ]
+  },
+  "mfServices": {
+    "id": "member-firm-services",
+    "services": {
+      "title": "Services",
+      "items": [
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Audit & Assurance"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Accounting & Financial Reporting"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Tax Advisory & Compliance"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Business Advisory"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Financial Advisory"
+        },
+        {
+          "icon": "/icons/icon-gavel.svg",
+          "label": "Legal & Corporate Support"
+        },
+        {
+          "icon": "/icons/icon-school.svg",
+          "label": "Professional Training"
+        }
+      ]
+    },
+    "industries": {
+      "title": "Industries",
+      "items": [
+        {
+          "icon": "/icons/icon-construction.svg",
+          "label": "Manufacturing & Industrial"
+        },
+        {
+          "icon": "/icons/icon-directions-car.svg",
+          "label": "Transport, Logistics & Automotive"
+        },
+        {
+          "icon": "/icons/icon-beach-access.svg",
+          "label": "Tourism & Hospitality"
+        },
+        {
+          "icon": "/icons/icon-computer.svg",
+          "label": "Technology & Telecommunications"
+        },
+        {
+          "icon": "/icons/icon-restaurant.svg",
+          "label": "Agriculture & Food"
+        },
+        {
+          "icon": "/icons/icon-bolt.svg",
+          "label": "Mining & Chemicals"
+        }
+      ]
+    }
+  },
+  "mfFinal": {
+    "id": "member-firm-final",
+    "imageBg": "/images/member-firm/morocco/final-cta-bg.jpg",
+    "title": "Local Expertise. International Connections.",
+    "lead": "Through Parker Russell International, Parker Russell Morocco combines local professional expertise with access to international knowledge, relationships and cross-border capabilities across the wider network.",
+    "button": {
+      "label": "Contact Our Morocco Member Firm",
+      "href": "contact.html",
+      "icon": true
+    }
+  }
+}

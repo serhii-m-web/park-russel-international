@@ -1,0 +1,220 @@
+{
+  "meta": {
+    "title": "Parker Russell International Member Firm in Panama | McKenzie & McKenzie – Parker Russell Panama",
+    "description": "McKenzie & McKenzie – Parker Russell Panama is the Parker Russell International member firm in Panama, delivering professional services connected to the international Parker Russell network."
+  },
+  "mfHero": {
+    "id": "member-firm-hero",
+    "imageBg": "/images/member-firm/panama/hero-bg.jpg",
+    "imageLoading": "eager",
+    "tag": "Panama",
+    "title": "Parker Russell International Member Firm in Panama",
+    "firmName": "McKenzie & McKenzie – Parker Russell Panama",
+    "lead": "Audit, accounting, tax and financial advisory expertise in Panama, connected to the international capabilities of the Parker Russell network.",
+    "about": {
+      "icon": "/icons/icon-domain.svg",
+      "title": "About McKenzie & McKenzie",
+      "lead": "Established in 1991, McKenzie & McKenzie is an independent Panamanian accounting, audit and consulting firm supporting local and international businesses across financial, tax, regulatory and corporate matters.",
+      "body": "The firm combines more than three decades of local market experience with multidisciplinary expertise across audit, accounting, taxation, internal control, compliance, financial consulting and international business matters. McKenzie & McKenzie has been a member of Parker Russell International since 2015."
+    }
+  },
+  "mfOffice": {
+    "id": "member-firm-office",
+    "title": "Our Office in Panama",
+    "locationIcon": "/icons/icon-location.svg",
+    "offices": [
+      {
+        "city": "Panama City",
+        "image": "/images/member-firm/panama/office.jpg",
+        "imageAlt": "McKenzie & McKenzie office in Panama City",
+        "firmName": "McKenzie & McKenzie – Parker Russell Panama",
+        "addressLines": [
+          "P.H. Centrum Tower, Suite 10",
+          "Ave. Manuel Espinosa Batista",
+          "Panama City, Republic of Panama"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contacts",
+          "name": "José McKenzie / Daniel McKenzie",
+          "details": [
+            {
+              "label": "General Enquiries",
+              "value": "+507 265 4118 / +507 265 4123",
+              "iconName": "call",
+              "href": "tel:+5072654118"
+            },
+            {
+              "label": "José McKenzie",
+              "value": "+507 6675 5231",
+              "icon": "/icons/icon-mobile.svg",
+              "href": "tel:+50766755231"
+            },
+            {
+              "label": "Daniel McKenzie",
+              "value": "+507 6675 8854",
+              "icon": "/icons/icon-mobile.svg",
+              "href": "tel:+50766758854"
+            },
+            {
+              "label": "General Email",
+              "value": "mmckenziecpa@mmckenziecpa.com",
+              "iconName": "mail",
+              "href": "mailto:mmckenziecpa@mmckenziecpa.com"
+            },
+            {
+              "label": "José McKenzie",
+              "value": "jose.mckenzie@mmckenziecpa.com",
+              "iconName": "mail",
+              "href": "mailto:jose.mckenzie@mmckenziecpa.com"
+            },
+            {
+              "label": "Daniel McKenzie",
+              "value": "daniel.mckenzie@mmckenziecpa.com",
+              "iconName": "mail",
+              "href": "mailto:daniel.mckenzie@mmckenziecpa.com"
+            },
+            {
+              "label": "Opening Hours",
+              "value": "08:30–17:30",
+              "icon": "/icons/icon-schedule.svg"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      }
+    ]
+  },
+  "mfServices": {
+    "id": "member-firm-services",
+    "services": {
+      "title": "Services",
+      "items": [
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Audit & Assurance"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Accounting & Financial Reporting"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Tax Advisory & Compliance"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Internal Audit"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Business & Financial Consulting"
+        },
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Compliance & Risk Advisory"
+        },
+        {
+          "icon": "/icons/icon-gavel.svg",
+          "label": "Corporate & Legal Advisory"
+        },
+        {
+          "icon": "/icons/icon-domain.svg",
+          "label": "Company Formation"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Corporate Finance"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Transfer Pricing"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "IFRS & US GAAP Reporting"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Expert Reports & Forensic Support"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Cross-Border Business Advisory"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "International Tax & Structuring"
+        }
+      ]
+    },
+    "industries": {
+      "title": "Industries",
+      "items": [
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Banking & Financial Services"
+        },
+        {
+          "icon": "/icons/icon-construction.svg",
+          "label": "Construction & Real Estate"
+        },
+        {
+          "icon": "/icons/icon-construction.svg",
+          "label": "Manufacturing & Industrial"
+        },
+        {
+          "icon": "/icons/icon-local-shipping.svg",
+          "label": "National & International Trade"
+        },
+        {
+          "icon": "/icons/icon-beach-access.svg",
+          "label": "Hospitality & Tourism"
+        },
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Digital Assets & Technology"
+        },
+        {
+          "icon": "/icons/icon-school.svg",
+          "label": "Education"
+        },
+        {
+          "icon": "/icons/icon-bolt.svg",
+          "label": "Mining & Natural Resources"
+        },
+        {
+          "icon": "/icons/icon-local-shipping.svg",
+          "label": "Transport & Logistics"
+        },
+        {
+          "icon": "/icons/icon-local-shipping.svg",
+          "label": "Free Zone Businesses"
+        },
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Government & Public Sector"
+        },
+        {
+          "icon": "/icons/icon-person.svg",
+          "label": "NGOs & Non-Profit Organisations"
+        }
+      ]
+    }
+  },
+  "mfFinal": {
+    "id": "member-firm-final",
+    "imageBg": "/images/member-firm/panama/final-cta-bg.jpg",
+    "title": "Local Expertise. International Connections.",
+    "lead": "Through Parker Russell International, McKenzie & McKenzie combines more than three decades of experience in the Panamanian market with access to international expertise, professional relationships and cross-border capabilities across the wider network.",
+    "button": {
+      "label": "Contact Our Panama Member Firm",
+      "href": "contact.html",
+      "icon": true
+    }
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "meta": {
+    "title": "Parker Russell International Member Firm in Ecuador | Parker Russell Ecuador Audit & Co. Latam ACLSA Auditores S.A.",
+    "description": "Parker Russell Ecuador Audit & Co. Latam ACLSA Auditores S.A. is the Parker Russell International member firm in Ecuador, delivering professional services connected to the international Parker Russell network."
+  },
+  "mfHero": {
+    "id": "member-firm-hero",
+    "imageBg": "/images/member-firm/ecuador/hero-bg.jpg",
+    "imageLoading": "eager",
+    "tag": "Ecuador",
+    "title": "Parker Russell International Member Firm in Ecuador",
+    "firmName": "Parker Russell Ecuador Audit & Co. Latam ACLSA Auditores S.A.",
+    "lead": "Audit, accounting, tax and business advisory expertise in Ecuador, connected to the international capabilities of the Parker Russell network.",
+    "about": {
+      "icon": "/icons/icon-domain.svg",
+      "title": "About Parker Russell Ecuador",
+      "lead": "Parker Russell Ecuador is an independent audit and professional services firm based in Quito, supporting Ecuadorian and international businesses across audit, accounting, taxation and corporate advisory matters.",
+      "body": "The firm combines local market knowledge with multidisciplinary expertise, supporting organisations with financial reporting, regulatory compliance, tax planning, corporate matters, risk management and international business requirements."
+    }
+  },
+  "mfOffice": {
+    "id": "member-firm-office",
+    "title": "Our Office in Ecuador",
+    "locationIcon": "/icons/icon-location.svg",
+    "offices": [
+      {
+        "city": "Quito",
+        "image": "/images/member-firm/ecuador/office.jpg",
+        "imageAlt": "Parker Russell Ecuador office in Quito",
+        "firmName": "Parker Russell Ecuador Audit & Co. Latam ACLSA Auditores S.A.",
+        "addressLines": [
+          "Av. República y Rumipamba",
+          "Edificio Signature, 6th Floor, Office 607",
+          "Quito, Ecuador"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contact",
+          "name": "Wilmer Morales — Principal Partner",
+          "details": [
+            {
+              "label": "Office",
+              "value": "+593 2 292 0796",
+              "iconName": "call",
+              "href": "tel:+59322920796"
+            },
+            {
+              "label": "Mobile",
+              "value": "+593 99 813 2859",
+              "icon": "/icons/icon-mobile.svg",
+              "href": "tel:+593998132859"
+            },
+            {
+              "label": "Email",
+              "value": "wilmer.morales@parkerrussell.com.ec",
+              "iconName": "mail",
+              "href": "mailto:wilmer.morales@parkerrussell.com.ec"
+            },
+            {
+              "label": "Opening Hours",
+              "value": "Monday–Friday, 08:00–18:00",
+              "icon": "/icons/icon-schedule.svg"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      }
+    ]
+  },
+  "mfServices": {
+    "id": "member-firm-services",
+    "services": {
+      "title": "Services",
+      "items": [
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Audit & Assurance"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Accounting & Financial Reporting"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Accounting & Financial Outsourcing"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Tax Advisory & Compliance"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "International Tax Planning"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Business Consulting"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Financial Advisory"
+        },
+        {
+          "icon": "/icons/icon-domain.svg",
+          "label": "Company Formation & Corporate Services"
+        },
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Regulatory Compliance"
+        },
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Corporate Governance"
+        },
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Risk Management"
+        },
+        {
+          "icon": "/icons/icon-domain.svg",
+          "label": "International Expansion & Market Entry"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Foreign Investment Advisory"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Corporate Finance"
+        }
+      ]
+    },
+    "industries": {
+      "title": "Industries",
+      "note": {
+        "title": "To be confirmed with Parker Russell Ecuador",
+        "body": "The firm confirms experience across public, private and multinational organisations, but its current materials do not provide a defined official list of industry sectors. This section should therefore only include industries specifically confirmed by the Ecuador member firm."
+      }
+    }
+  },
+  "mfFinal": {
+    "id": "member-firm-final",
+    "imageBg": "/images/member-firm/ecuador/final-cta-bg.jpg",
+    "title": "Local Expertise. International Connections.",
+    "lead": "Through Parker Russell International, Parker Russell Ecuador combines established knowledge of the Ecuadorian business environment with access to international expertise, professional relationships and cross-border capabilities across the wider network.",
+    "button": {
+      "label": "Contact Our Ecuador Member Firm",
+      "href": "contact.html",
+      "icon": true
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "title": "Parker Russell International Member Firm in Sudan | Parker Russell Sudan",
+    "description": "Parker Russell Sudan is the Parker Russell International member firm in Sudan, delivering professional services connected to the international Parker Russell network."
+  },
+  "mfHero": {
+    "id": "member-firm-hero",
+    "imageBg": "/images/member-firm/sudan/hero-bg.jpg",
+    "imageLoading": "eager",
+    "tag": "Sudan",
+    "title": "Parker Russell International Member Firm in Sudan",
+    "firmName": "Parker Russell Sudan",
+    "lead": "Professional accounting and advisory expertise in Sudan, connected to the international capabilities of the Parker Russell network.",
+    "about": {
+      "icon": "/icons/icon-domain.svg",
+      "title": "About Parker Russell Sudan",
+      "lead": "Parker Russell Sudan is the Sudanese member firm of Parker Russell International, supporting organisations operating within the local business environment.",
+      "body": "Based in Khartoum, the firm combines local professional knowledge with access to the wider expertise, methodologies and international relationships available across the Parker Russell network."
+    }
+  },
+  "mfOffice": {
+    "id": "member-firm-office",
+    "title": "Our Office in Sudan",
+    "locationIcon": "/icons/icon-location.svg",
+    "offices": [
+      {
+        "city": "Khartoum",
+        "image": "/images/member-firm/sudan/office.jpg",
+        "imageAlt": "Parker Russell Sudan office in Khartoum",
+        "firmName": "Parker Russell Sudan",
+        "addressLines": [
+          "Awlad Eid Building",
+          "Elsayed Abdulrahman Road",
+          "Khartoum, Sudan"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contact",
+          "name": "Ayman Izzeldin",
+          "details": [
+            {
+              "label": "Telephone",
+              "value": "To be confirmed",
+              "iconName": "call"
+            },
+            {
+              "label": "Email",
+              "value": "To be confirmed",
+              "iconName": "mail"
+            },
+            {
+              "label": "Opening Hours",
+              "value": "08:00–17:30 — Current operating details to be confirmed before publication.",
+              "icon": "/icons/icon-schedule.svg"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      }
+    ]
+  },
+  "mfServices": {
+    "id": "member-firm-services",
+    "services": {
+      "title": "Services",
+      "note": {
+        "title": "To be confirmed with Parker Russell Sudan",
+        "body": "The current member-firm profile does not provide an approved service list. Services should be added after confirmation from the local firm to ensure that the page accurately reflects its current professional capabilities."
+      }
+    },
+    "industries": {
+      "title": "Industries",
+      "note": {
+        "title": "To be confirmed with Parker Russell Sudan",
+        "body": "Industry sectors should be added following confirmation from the member firm rather than applying general Parker Russell International categories automatically."
+      }
+    }
+  },
+  "mfFinal": {
+    "id": "member-firm-final",
+    "imageBg": "/images/member-firm/sudan/final-cta-bg.jpg",
+    "title": "Local Expertise. International Connections.",
+    "lead": "Through Parker Russell International, Parker Russell Sudan combines knowledge of the local business environment with access to international professional expertise, relationships and cross-border capabilities across the wider network.",
+    "button": {
+      "label": "Contact Our Sudan Member Firm",
+      "href": "contact.html",
+      "icon": true
+    }
+  }
+}

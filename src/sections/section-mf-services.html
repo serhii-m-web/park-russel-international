@@ -37,6 +37,21 @@
               {{/each}}
             </ul>
           {{/if}}
+
+          {{#if mfServices.services.note}}
+            <div class="section-mf-services__note">
+              {{#if mfServices.services.note.title}}
+                <p class="section-mf-services__note-title">
+                  {{{ mfServices.services.note.title }}}
+                </p>
+              {{/if}}
+              {{#if mfServices.services.note.body}}
+                <p class="section-mf-services__note-body">
+                  {{{ mfServices.services.note.body }}}
+                </p>
+              {{/if}}
+            </div>
+          {{/if}}
         </div>
       {{/if}}
 
@@ -52,7 +67,7 @@
           </div>
 
           {{#if mfServices.industries.items.length}}
-            <ul class="section-mf-services__list section-mf-services__list--grid">
+            <ul class="section-mf-services__list">
               {{#each mfServices.industries.items}}
                 <li class="section-mf-services__item">
                   {{#if icon}}
@@ -64,6 +79,21 @@
                 </li>
               {{/each}}
             </ul>
+          {{/if}}
+
+          {{#if mfServices.industries.note}}
+            <div class="section-mf-services__note">
+              {{#if mfServices.industries.note.title}}
+                <p class="section-mf-services__note-title">
+                  {{{ mfServices.industries.note.title }}}
+                </p>
+              {{/if}}
+              {{#if mfServices.industries.note.body}}
+                <p class="section-mf-services__note-body">
+                  {{{ mfServices.industries.note.body }}}
+                </p>
+              {{/if}}
+            </div>
           {{/if}}
         </div>
       {{/if}}

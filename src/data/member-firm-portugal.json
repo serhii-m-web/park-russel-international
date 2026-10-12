@@ -1,0 +1,202 @@
+{
+  "meta": {
+    "title": "Parker Russell International Member Firm in Portugal | Parker Russell Portugal (BMS-Audit)",
+    "description": "Parker Russell Portugal (BMS-Audit) is the Parker Russell International member firm in Portugal, delivering professional services connected to the international Parker Russell network."
+  },
+  "mfHero": {
+    "id": "member-firm-hero",
+    "imageBg": "/images/member-firm/portugal/hero-bg.jpg",
+    "imageLoading": "eager",
+    "tag": "Portugal",
+    "title": "Parker Russell International Member Firm in Portugal",
+    "firmName": "Parker Russell Portugal (BMS-Audit)",
+    "lead": "Audit, tax and advisory expertise in Portugal, connected to the international capabilities of the Parker Russell network.",
+    "about": {
+      "icon": "/icons/icon-domain.svg",
+      "title": "About Parker Russell Portugal",
+      "lead": "Founded in 2018, Parker Russell Portugal (BMS-Audit) is an independent audit and advisory firm serving national and international businesses across Portugal.",
+      "body": "Operating through offices in Lisbon and Porto, the firm brings together experienced professionals across audit, taxation, financial consulting and specialist advisory disciplines. Its multidisciplinary approach supports organisations with financial reporting, risk, internal controls, transactions and wider business requirements."
+    }
+  },
+  "mfOffice": {
+    "id": "member-firm-office",
+    "title": "Our Offices in Portugal",
+    "locationIcon": "/icons/icon-location.svg",
+    "offices": [
+      {
+        "city": "Lisbon",
+        "image": "/images/member-firm/portugal/office-lisbon.jpg",
+        "imageAlt": "Parker Russell Portugal office in Lisbon",
+        "firmName": "Parker Russell Portugal (BMS-Audit)",
+        "addressLines": [
+          "Avenida D. João II, 98 A Sala 6",
+          "1990-100 Lisbon",
+          "Portugal"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contact",
+          "name": "Rui Silva",
+          "details": [
+            {
+              "iconName": "call",
+              "label": "Telephone",
+              "value": "+351 220 926 074",
+              "href": "tel:+351220926074"
+            },
+            {
+              "icon": "/icons/icon-mobile.svg",
+              "label": "Mobile",
+              "value": "+351 937 912 745",
+              "href": "tel:+351937912745"
+            },
+            {
+              "iconName": "mail",
+              "label": "Email",
+              "value": "rui.silva@bms-audit.pt",
+              "href": "mailto:rui.silva@bms-audit.pt"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      },
+      {
+        "city": "Porto",
+        "image": "/images/member-firm/portugal/office-porto.jpg",
+        "imageAlt": "Parker Russell Portugal office in Porto",
+        "firmName": "Parker Russell Portugal (BMS-Audit)",
+        "addressLines": [
+          "Praça D. Nuno Álvares Pereira, 20/10",
+          "4th Floor, Sala EI",
+          "Matosinhos, Porto, Portugal"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contact",
+          "name": "Rui Silva",
+          "details": [
+            {
+              "iconName": "mail",
+              "label": "Email",
+              "value": "geral@bms-audit.pt",
+              "href": "mailto:geral@bms-audit.pt"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      }
+    ]
+  },
+  "mfServices": {
+    "id": "member-firm-services",
+    "services": {
+      "title": "Services",
+      "items": [
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Audit & Assurance"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Accounting & Financial Reporting"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Tax Advisory & Compliance"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Financial & Management Consulting"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "IFRS & Accounting Advisory"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Internal Controls & Process Improvement"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Due Diligence"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Business Valuation"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Risk & Governance Advisory"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Financial Restructuring"
+        }
+      ]
+    },
+    "industries": {
+      "title": "Industries",
+      "items": [
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Financial Services"
+        },
+        {
+          "icon": "/icons/icon-construction.svg",
+          "label": "Manufacturing"
+        },
+        {
+          "icon": "/icons/icon-bolt.svg",
+          "label": "Energy"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Healthcare"
+        },
+        {
+          "icon": "/icons/icon-computer.svg",
+          "label": "Technology"
+        },
+        {
+          "icon": "/icons/icon-construction.svg",
+          "label": "Real Estate & Construction"
+        },
+        {
+          "icon": "/icons/icon-computer.svg",
+          "label": "Retail & Consumer Business"
+        },
+        {
+          "icon": "/icons/icon-directions-car.svg",
+          "label": "Automotive"
+        },
+        {
+          "icon": "/icons/icon-beach-access.svg",
+          "label": "Tourism & Hospitality"
+        },
+        {
+          "icon": "/icons/icon-person.svg",
+          "label": "Not-for-Profit Organisations"
+        }
+      ]
+    }
+  },
+  "mfFinal": {
+    "id": "member-firm-final",
+    "imageBg": "/images/member-firm/portugal/final-cta-bg.jpg",
+    "title": "Local Expertise. International Connections.",
+    "lead": "Through Parker Russell International, Parker Russell Portugal combines established local expertise with access to international knowledge, professional relationships and cross-border capabilities across the wider network.",
+    "button": {
+      "label": "Contact Our Portugal Member Firm",
+      "href": "contact.html",
+      "icon": true
+    }
+  }
+}

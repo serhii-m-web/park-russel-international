@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "title": "Parker Russell International Member Firm in Egypt | Parker Russell Egypt",
+    "description": "Parker Russell Egypt is the Parker Russell International member firm in Egypt, delivering professional services connected to the international Parker Russell network."
+  },
+  "mfHero": {
+    "id": "member-firm-hero",
+    "imageBg": "/images/member-firm/egypt/hero-bg.jpg",
+    "imageLoading": "eager",
+    "tag": "Egypt",
+    "title": "Parker Russell International Member Firm in Egypt",
+    "firmName": "Parker Russell Egypt",
+    "lead": "Audit, accounting, tax and business advisory expertise in Egypt, connected to the international capabilities of the Parker Russell network.",
+    "about": {
+      "icon": "/icons/icon-domain.svg",
+      "title": "About Parker Russell Egypt",
+      "lead": "Parker Russell Egypt is the trade name of KAM Financial Consultancy, an independent professional services firm supporting Egyptian and international businesses across audit, accounting, taxation and business advisory matters.",
+      "body": "The firm combines extensive local market experience with multidisciplinary expertise, supporting organisations with financial reporting, internal audit, taxation, business establishment, financial consultancy and wider corporate requirements."
+    }
+  },
+  "mfOffice": {
+    "id": "member-firm-office",
+    "title": "Our Locations in Egypt",
+    "locationIcon": "/icons/icon-location.svg",
+    "offices": [
+      {
+        "city": "Sheikh Zayed City",
+        "image": "/images/member-firm/egypt/office-sheikh-zayed.jpg",
+        "imageAlt": "Parker Russell Egypt office in Sheikh Zayed City",
+        "firmName": "Parker Russell Egypt",
+        "addressLines": [
+          "Beverly Hills",
+          "Sheikh Zayed City",
+          "Egypt"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contact",
+          "name": "Aly El Azhary — Managing Partner",
+          "details": [
+            {
+              "label": "Telephone",
+              "value": "+20 100 140 9600",
+              "iconName": "call",
+              "href": "tel:+201001409600"
+            },
+            {
+              "label": "Mobile",
+              "value": "+20 122 312 3662",
+              "icon": "/icons/icon-mobile.svg",
+              "href": "tel:+201223123662"
+            },
+            {
+              "label": "Email",
+              "value": "info@parkerrussell-eg.com",
+              "iconName": "mail",
+              "href": "mailto:info@parkerrussell-eg.com"
+            },
+            {
+              "label": "Opening Hours",
+              "value": "09:00–18:00",
+              "icon": "/icons/icon-schedule.svg"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      },
+      {
+        "city": "Giza",
+        "image": "/images/member-firm/egypt/office-giza.jpg",
+        "imageAlt": "Parker Russell Egypt office in Giza",
+        "firmName": "Parker Russell Egypt",
+        "addressLines": [
+          "20 El Mesahaa Street",
+          "Dokki, Giza",
+          "Egypt"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contact",
+          "name": "Aly El Azhary — Managing Partner",
+          "details": [
+            {
+              "label": "Telephone",
+              "value": "+20 100 140 9600",
+              "iconName": "call",
+              "href": "tel:+201001409600"
+            },
+            {
+              "label": "Email",
+              "value": "info@parkerrussell-eg.com",
+              "iconName": "mail",
+              "href": "mailto:info@parkerrussell-eg.com"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      }
+    ]
+  },
+  "mfServices": {
+    "id": "member-firm-services",
+    "services": {
+      "title": "Services",
+      "items": [
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Audit & Assurance"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Internal Audit"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Accounting & Financial Reporting"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Tax Advisory & Compliance"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Financial Consultancy"
+        },
+        {
+          "icon": "/icons/icon-domain.svg",
+          "label": "Company Incorporation"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Business Advisory"
+        },
+        {
+          "icon": "/icons/icon-person.svg",
+          "label": "Social Insurance Services"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Private & Individual Financial Services"
+        }
+      ]
+    },
+    "industries": {
+      "title": "Industries",
+      "items": [
+        {
+          "icon": "/icons/icon-directions-car.svg",
+          "label": "Automotive"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Healthcare"
+        },
+        {
+          "icon": "/icons/icon-local-shipping.svg",
+          "label": "Maritime & Shipping"
+        },
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Government & Public Sector"
+        },
+        {
+          "icon": "/icons/icon-school.svg",
+          "label": "Education"
+        },
+        {
+          "icon": "/icons/icon-beach-access.svg",
+          "label": "Tourism & Hospitality"
+        },
+        {
+          "icon": "/icons/icon-construction.svg",
+          "label": "Manufacturing"
+        },
+        {
+          "icon": "/icons/icon-computer.svg",
+          "label": "E-commerce"
+        },
+        {
+          "icon": "/icons/icon-construction.svg",
+          "label": "Construction & Infrastructure"
+        },
+        {
+          "icon": "/icons/icon-computer.svg",
+          "label": "Consumer Business"
+        },
+        {
+          "icon": "/icons/icon-bolt.svg",
+          "label": "Oil & Energy Services"
+        }
+      ]
+    }
+  },
+  "mfFinal": {
+    "id": "member-firm-final",
+    "imageBg": "/images/member-firm/egypt/final-cta-bg.jpg",
+    "title": "Local Expertise. International Connections.",
+    "lead": "Through Parker Russell International, Parker Russell Egypt combines established knowledge of the Egyptian market with access to international expertise, professional relationships and cross-border capabilities across the wider network.",
+    "button": {
+      "label": "Contact Our Egypt Member Firm",
+      "href": "contact.html",
+      "icon": true
+    }
+  }
+}

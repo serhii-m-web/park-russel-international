@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "title": "Parker Russell International Member Firm in Bulgaria | KA Audit Ltd",
+    "description": "KA Audit Ltd is the Parker Russell International member firm in Bulgaria, delivering audit, accounting, tax, financial advisory and consulting services from its office in Sofia."
+  },
+  "mfHero": {
+    "id": "member-firm-hero",
+    "imageBg": "/images/member-firm/bulgaria/hero-bg.jpg",
+    "imageLoading": "eager",
+    "tag": "Bulgaria",
+    "title": "Parker Russell International Member Firm in Bulgaria",
+    "firmName": "KA Audit Ltd",
+    "lead": "Independent professional expertise in Bulgaria, connected to the international capabilities of the Parker Russell network.",
+    "about": {
+      "icon": "/icons/icon-domain.svg",
+      "title": "About KA Audit Ltd",
+      "lead": "KA Audit Ltd provides independent audit and professional advisory services to businesses operating across a range of sectors in Bulgaria. The firm's capabilities include audit and assurance, accounting, tax, financial advisory and consulting, combining local market knowledge with experienced professional expertise.",
+      "body": "As a member firm of Parker Russell International, KA Audit Ltd can support clients with both domestic requirements and matters involving international business and cross-border activity."
+    }
+  },
+  "mfOffice": {
+    "id": "member-firm-office",
+    "title": "Our Office in Bulgaria",
+    "locationIcon": "/icons/icon-location.svg",
+    "offices": [
+      {
+        "city": "Sofia",
+        "image": "/images/member-firm/bulgaria/office.jpg",
+        "imageAlt": "KA Audit Ltd office in Sofia, Bulgaria",
+        "firmName": "KA Audit Ltd",
+        "addressLines": [
+          "54 Knyaz Al. Dondukov Blvd",
+          "Sofia 1000",
+          "Bulgaria"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contact",
+          "name": "Mr Kalin Apostolov",
+          "details": [
+            {
+              "iconName": "call",
+              "label": "Telephone",
+              "value": "+359 2 483 2444",
+              "href": "tel:+35924832444"
+            },
+            {
+              "icon": "/icons/icon-mobile.svg",
+              "label": "Mobile",
+              "value": "+359 888 552 443",
+              "href": "tel:+359888552443"
+            },
+            {
+              "iconName": "mail",
+              "label": "Email",
+              "value": "k.apostolov@kaaudit.bg",
+              "href": "mailto:k.apostolov@kaaudit.bg"
+            },
+            {
+              "icon": "/icons/icon-schedule.svg",
+              "label": "Opening Hours",
+              "value": "09:00–17:00"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      }
+    ]
+  },
+  "mfServices": {
+    "id": "member-firm-services",
+    "services": {
+      "title": "Services",
+      "items": [
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Audit & Assurance"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Accounting"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Tax"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Financial Advisory"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Consulting"
+        }
+      ]
+    },
+    "industries": {
+      "title": "Industries",
+      "items": [
+        {
+          "icon": "/icons/icon-directions-car.svg",
+          "label": "Automotive"
+        },
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Banking & Finance"
+        },
+        {
+          "icon": "/icons/icon-construction.svg",
+          "label": "Construction & Infrastructure"
+        },
+        {
+          "icon": "/icons/icon-bolt.svg",
+          "label": "Energy & Resources"
+        },
+        {
+          "icon": "/icons/icon-restaurant.svg",
+          "label": "Food & Beverage"
+        },
+        {
+          "icon": "/icons/icon-computer.svg",
+          "label": "Information Technology"
+        },
+        {
+          "icon": "/icons/icon-beach-access.svg",
+          "label": "Tourism"
+        },
+        {
+          "icon": "/icons/icon-local-shipping.svg",
+          "label": "Transport & Logistics"
+        }
+      ]
+    }
+  },
+  "mfFinal": {
+    "id": "member-firm-final",
+    "imageBg": "/images/member-firm/bulgaria/final-cta-bg.jpg",
+    "title": "Local Expertise. International Connections.",
+    "lead": "Through Parker Russell International, our member firm in Bulgaria combines local professional knowledge with access to international expertise and relationships across the wider network.",
+    "button": {
+      "label": "Contact Our Bulgaria Member Firm",
+      "href": "contact.html",
+      "icon": true
+    }
+  }
+}

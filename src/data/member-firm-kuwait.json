@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "title": "Parker Russell International Member Firm in Kuwait | Abdullatif Al-Majid & Partners",
+    "description": "Abdullatif Al-Majid & Partners is the Parker Russell International member firm in Kuwait, delivering professional services connected to the international Parker Russell network."
+  },
+  "mfHero": {
+    "id": "member-firm-hero",
+    "imageBg": "/images/member-firm/kuwait/hero-bg.jpg",
+    "imageLoading": "eager",
+    "tag": "Kuwait",
+    "title": "Parker Russell International Member Firm in Kuwait",
+    "firmName": "Abdullatif Al-Majid & Partners",
+    "lead": "Audit, corporate advisory and business consulting expertise in Kuwait, connected to the international capabilities of the Parker Russell network.",
+    "about": {
+      "icon": "/icons/icon-domain.svg",
+      "title": "About Abdullatif Al-Majid & Partners",
+      "lead": "Established in Kuwait in 1988, Abdullatif Al-Majid & Partners is an independent professional services firm providing audit, assurance, corporate advisory, management consulting and business establishment services.",
+      "body": "The firm combines long-standing experience in the Kuwaiti market with professional expertise supporting businesses across financial reporting, corporate requirements and wider commercial matters."
+    }
+  },
+  "mfOffice": {
+    "id": "member-firm-office",
+    "title": "Our Office in Kuwait",
+    "locationIcon": "/icons/icon-location.svg",
+    "offices": [
+      {
+        "city": "Kuwait City",
+        "image": "/images/member-firm/kuwait/office.jpg",
+        "imageAlt": "Abdullatif Al-Majid & Partners office in Kuwait City",
+        "firmName": "Abdullatif Al-Majid & Partners",
+        "addressLines": [
+          "Darwaza Building, 11th Floor, Offices 32–33",
+          "Block 3, Street 65",
+          "Bneid Al Qar, Kuwait"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contact",
+          "name": "Mohamed Fathy Hassan",
+          "details": [
+            {
+              "label": "Telephone",
+              "value": "+965 2243 2082 / 83 / 84",
+              "iconName": "call",
+              "href": "tel:+965224320828384"
+            },
+            {
+              "label": "Mobile",
+              "value": "+965 6044 4416",
+              "icon": "/icons/icon-mobile.svg",
+              "href": "tel:+96560444416"
+            },
+            {
+              "label": "Email",
+              "value": "info@parkerrussell-kw.com",
+              "iconName": "mail",
+              "href": "mailto:info@parkerrussell-kw.com"
+            },
+            {
+              "label": "Opening Hours",
+              "value": "09:00–17:00",
+              "icon": "/icons/icon-schedule.svg"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      }
+    ]
+  },
+  "mfServices": {
+    "id": "member-firm-services",
+    "services": {
+      "title": "Services",
+      "items": [
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Audit & Assurance"
+        },
+        {
+          "icon": "/icons/icon-domain.svg",
+          "label": "Corporate Advisory"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Management Consulting"
+        },
+        {
+          "icon": "/icons/icon-domain.svg",
+          "label": "Business Set-Up & Company Formation"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Business Advisory"
+        }
+      ]
+    },
+    "industries": {
+      "title": "Industries",
+      "items": [
+        {
+          "icon": "/icons/icon-restaurant.svg",
+          "label": "Agriculture & Food"
+        },
+        {
+          "icon": "/icons/icon-construction.svg",
+          "label": "Manufacturing"
+        },
+        {
+          "icon": "/icons/icon-bolt.svg",
+          "label": "Energy & Utilities"
+        },
+        {
+          "icon": "/icons/icon-construction.svg",
+          "label": "Construction & Infrastructure"
+        },
+        {
+          "icon": "/icons/icon-computer.svg",
+          "label": "Technology, Media & Telecommunications"
+        },
+        {
+          "icon": "/icons/icon-apartment.svg",
+          "label": "Real Estate & Property"
+        },
+        {
+          "icon": "/icons/icon-beach-access.svg",
+          "label": "Tourism & Hospitality"
+        },
+        {
+          "icon": "/icons/icon-person.svg",
+          "label": "Professional & Business Services"
+        }
+      ]
+    }
+  },
+  "mfFinal": {
+    "id": "member-firm-final",
+    "imageBg": "/images/member-firm/kuwait/final-cta-bg.jpg",
+    "title": "Local Expertise. International Connections.",
+    "lead": "Through Parker Russell International, Abdullatif Al-Majid & Partners combines established expertise in the Kuwaiti market with access to international knowledge, professional relationships and cross-border capabilities across the wider network.",
+    "button": {
+      "label": "Contact Our Kuwait Member Firm",
+      "href": "contact.html",
+      "icon": true
+    }
+  }
+}

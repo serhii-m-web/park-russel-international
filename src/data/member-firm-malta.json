@@ -1,0 +1,196 @@
+{
+  "meta": {
+    "title": "Parker Russell International Member Firm in Malta | Parker Russell Turner",
+    "description": "Parker Russell Turner is the Parker Russell International member firm in Malta, delivering professional services connected to the international Parker Russell network."
+  },
+  "mfHero": {
+    "id": "member-firm-hero",
+    "imageBg": "/images/member-firm/malta/hero-bg.jpg",
+    "imageLoading": "eager",
+    "tag": "Malta",
+    "title": "Parker Russell International Member Firm in Malta",
+    "firmName": "Parker Russell Turner",
+    "lead": "Audit, accounting, tax and business advisory expertise in Malta, connected to the international capabilities of the Parker Russell network.",
+    "about": {
+      "icon": "/icons/icon-domain.svg",
+      "title": "About Parker Russell Turner",
+      "lead": "Established in 1997, Parker Russell Turner provides professional services to businesses, private clients, investors and internationally active organisations in Malta.",
+      "body": "Operating through offices in Birzebbugia and Gozo, the firm combines local market knowledge with multidisciplinary expertise across audit, accounting, taxation, corporate services and business advisory, while supporting both domestic and international client requirements."
+    }
+  },
+  "mfOffice": {
+    "id": "member-firm-office",
+    "title": "Our Offices in Malta",
+    "locationIcon": "/icons/icon-location.svg",
+    "offices": [
+      {
+        "city": "Birzebbugia",
+        "image": "/images/member-firm/malta/office-birzebbugia.jpg",
+        "imageAlt": "Parker Russell Turner office in Birzebbugia",
+        "firmName": "Parker Russell Turner",
+        "addressLines": [
+          "13 Curate Fenech Street",
+          "Birzebbugia BBG 2032",
+          "Malta"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contact",
+          "name": "Arthur Douglas Turner",
+          "details": [
+            {
+              "iconName": "call",
+              "label": "Telephone",
+              "value": "+356 2165 4567",
+              "href": "tel:+35621654567"
+            },
+            {
+              "iconName": "mail",
+              "label": "Email",
+              "value": "info@prturner.com.mt",
+              "href": "mailto:info@prturner.com.mt"
+            },
+            {
+              "icon": "/icons/icon-schedule.svg",
+              "label": "Opening Hours",
+              "value": "09:00–18:00"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      },
+      {
+        "city": "Gozo",
+        "image": "/images/member-firm/malta/office-gozo.jpg",
+        "imageAlt": "Parker Russell Turner office in Gozo",
+        "firmName": "Parker Russell Turner",
+        "addressLines": [
+          "B, 1 Triq Karlu Galea",
+          "Ir-Rabat, Għawdex",
+          "Malta"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contact",
+          "name": "Arthur Douglas Turner",
+          "details": [
+            {
+              "iconName": "call",
+              "label": "Telephone",
+              "value": "+356 2165 4567",
+              "href": "tel:+35621654567"
+            },
+            {
+              "iconName": "mail",
+              "label": "Email",
+              "value": "info@prturner.com.mt",
+              "href": "mailto:info@prturner.com.mt"
+            },
+            {
+              "icon": "/icons/icon-schedule.svg",
+              "label": "Opening Hours",
+              "value": "09:00–18:00"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      }
+    ]
+  },
+  "mfServices": {
+    "id": "member-firm-services",
+    "services": {
+      "title": "Services",
+      "items": [
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Audit & Assurance"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Accounting & Financial Reporting"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Tax"
+        },
+        {
+          "icon": "/icons/icon-domain.svg",
+          "label": "Corporate & Compliance"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Business Advisory"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Specialist Services"
+        }
+      ]
+    },
+    "industries": {
+      "title": "Industries",
+      "items": [
+        {
+          "icon": "/icons/icon-restaurant.svg",
+          "label": "Agriculture & Food"
+        },
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Banking & Financial Services"
+        },
+        {
+          "icon": "/icons/icon-construction.svg",
+          "label": "Construction"
+        },
+        {
+          "icon": "/icons/icon-bolt.svg",
+          "label": "Energy"
+        },
+        {
+          "icon": "/icons/icon-computer.svg",
+          "label": "Fashion & Consumer Business"
+        },
+        {
+          "icon": "/icons/icon-construction.svg",
+          "label": "Manufacturing"
+        },
+        {
+          "icon": "/icons/icon-construction.svg",
+          "label": "Real Estate & Property"
+        },
+        {
+          "icon": "/icons/icon-computer.svg",
+          "label": "Technology & Communications"
+        },
+        {
+          "icon": "/icons/icon-beach-access.svg",
+          "label": "Tourism & Hospitality"
+        },
+        {
+          "icon": "/icons/icon-local-shipping.svg",
+          "label": "Maritime"
+        }
+      ]
+    }
+  },
+  "mfFinal": {
+    "id": "member-firm-final",
+    "imageBg": "/images/member-firm/malta/final-cta-bg.jpg",
+    "title": "Local Expertise. International Connections.",
+    "lead": "Through Parker Russell International, Parker Russell Turner combines established expertise in the Maltese market with access to international knowledge, professional relationships and cross-border capabilities across the wider network.",
+    "button": {
+      "label": "Contact Our Malta Member Firm",
+      "href": "contact.html",
+      "icon": true
+    }
+  }
+}

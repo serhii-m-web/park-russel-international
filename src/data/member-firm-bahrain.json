@@ -1,0 +1,161 @@
+{
+  "meta": {
+    "title": "Parker Russell International Member Firm in Bahrain | Parker Russell Bahrain (MMA Global Auditing Bahrain)",
+    "description": "Parker Russell Bahrain (MMA Global Auditing Bahrain) is the Parker Russell International member firm in Bahrain, delivering professional services connected to the international Parker Russell network."
+  },
+  "mfHero": {
+    "id": "member-firm-hero",
+    "imageBg": "/images/member-firm/bahrain/hero-bg.jpg",
+    "imageLoading": "eager",
+    "tag": "Bahrain",
+    "title": "Parker Russell International Member Firm in Bahrain",
+    "firmName": "Parker Russell Bahrain (MMA Global Auditing Bahrain)",
+    "lead": "Audit, assurance and business advisory expertise in Bahrain, connected to the international capabilities of the Parker Russell network.",
+    "about": {
+      "icon": "/icons/icon-domain.svg",
+      "title": "About Parker Russell Bahrain",
+      "lead": "Parker Russell Bahrain is an independent audit and professional services firm supporting businesses across audit, assurance, financial management and consultancy matters.",
+      "body": "The firm combines knowledge of the Bahraini business environment with professional expertise across financial reporting, internal controls, corporate governance, due diligence and wider business advisory requirements."
+    }
+  },
+  "mfOffice": {
+    "id": "member-firm-office",
+    "title": "Our Office in Bahrain",
+    "locationIcon": "/icons/icon-location.svg",
+    "offices": [
+      {
+        "city": "Manama",
+        "image": "/images/member-firm/bahrain/office.jpg",
+        "imageAlt": "Parker Russell Bahrain office in Manama",
+        "firmName": "Parker Russell Bahrain (MMA Global Auditing Bahrain)",
+        "addressLines": [
+          "Office No. 14, Building No. 962",
+          "Road 838, Block 408",
+          "Sanabis, Kingdom of Bahrain"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contact",
+          "name": "Ajaya Ghosh",
+          "details": [
+            {
+              "label": "Telephone",
+              "value": "+973 7799 9262",
+              "iconName": "call",
+              "href": "tel:+97377999262"
+            },
+            {
+              "label": "Mobile",
+              "value": "+973 3368 6484",
+              "icon": "/icons/icon-mobile.svg",
+              "href": "tel:+97333686484"
+            },
+            {
+              "label": "Email",
+              "value": "info@mmaglobalaudit.com",
+              "iconName": "mail",
+              "href": "mailto:info@mmaglobalaudit.com"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      }
+    ]
+  },
+  "mfServices": {
+    "id": "member-firm-services",
+    "services": {
+      "title": "Services",
+      "items": [
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Statutory Audit"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "External Audit & Assurance"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Internal Audit"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Tax Audit"
+        },
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Corporate Governance"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Operational Audit"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Investigation Audit"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Due Diligence"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Accounting & Financial Management"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Business & Management Consulting"
+        }
+      ]
+    },
+    "industries": {
+      "title": "Industries",
+      "items": [
+        {
+          "icon": "/icons/icon-construction.svg",
+          "label": "Construction & Infrastructure"
+        },
+        {
+          "icon": "/icons/icon-construction.svg",
+          "label": "Manufacturing"
+        },
+        {
+          "icon": "/icons/icon-local-shipping.svg",
+          "label": "Trading & Distribution"
+        },
+        {
+          "icon": "/icons/icon-computer.svg",
+          "label": "Retail & Consumer Business"
+        },
+        {
+          "icon": "/icons/icon-beach-access.svg",
+          "label": "Hospitality"
+        },
+        {
+          "icon": "/icons/icon-local-shipping.svg",
+          "label": "Transport & Logistics"
+        },
+        {
+          "icon": "/icons/icon-school.svg",
+          "label": "Education"
+        }
+      ]
+    }
+  },
+  "mfFinal": {
+    "id": "member-firm-final",
+    "imageBg": "/images/member-firm/bahrain/final-cta-bg.jpg",
+    "title": "Local Expertise. International Connections.",
+    "lead": "Through Parker Russell International, Parker Russell Bahrain combines local professional expertise with access to international knowledge, relationships and cross-border capabilities across the wider network.",
+    "button": {
+      "label": "Contact Our Bahrain Member Firm",
+      "href": "contact.html",
+      "icon": true
+    }
+  }
+}

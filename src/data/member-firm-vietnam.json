@@ -1,0 +1,259 @@
+{
+  "meta": {
+    "title": "Parker Russell International Member Firm in Vietnam | Parker Russell Vietnam",
+    "description": "Parker Russell Vietnam is the Parker Russell International member firm in Vietnam, delivering professional services connected to the international Parker Russell network."
+  },
+  "mfHero": {
+    "id": "member-firm-hero",
+    "imageBg": "/images/member-firm/vietnam/hero-bg.jpg",
+    "imageLoading": "eager",
+    "tag": "Vietnam",
+    "title": "Parker Russell International Member Firm in Vietnam",
+    "firmName": "Parker Russell Vietnam",
+    "lead": "Audit, accounting, tax and business advisory expertise across Vietnam, connected to the international capabilities of the Parker Russell network.",
+    "about": {
+      "icon": "/icons/icon-domain.svg",
+      "title": "About Parker Russell Vietnam",
+      "lead": "Parker Russell Vietnam is an independent audit, tax and advisory firm supporting Vietnamese and international businesses across financial, regulatory and strategic matters.",
+      "body": "With a presence in Ho Chi Minh City and Hanoi, the firm combines extensive local market knowledge with multidisciplinary expertise across audit and assurance, accounting, taxation, corporate finance, transfer pricing, internal controls and business advisory."
+    }
+  },
+  "mfOffice": {
+    "id": "member-firm-office",
+    "title": "Our Locations in Vietnam",
+    "locationIcon": "/icons/icon-location.svg",
+    "offices": [
+      {
+        "city": "Ho Chi Minh City — Head Office",
+        "image": "/images/member-firm/vietnam/office-hcmc.jpg",
+        "imageAlt": "Parker Russell Vietnam head office in Ho Chi Minh City",
+        "firmName": "Parker Russell Vietnam",
+        "addressLines": [
+          "Room 6A, Level 6, SaigonBank Building",
+          "79–81–83 Hoang Van Thai Street, Tan My Ward",
+          "Ho Chi Minh City 700000, Vietnam"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contact",
+          "name": "Nguyen Song Toan — Managing Director / Partner",
+          "details": [
+            {
+              "label": "Telephone",
+              "value": "+84 28 5411 0768",
+              "iconName": "call",
+              "href": "tel:+842854110768"
+            },
+            {
+              "label": "Email",
+              "value": "info@prv.com.vn",
+              "iconName": "mail",
+              "href": "mailto:info@prv.com.vn"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      },
+      {
+        "city": "Hanoi Branch",
+        "image": "/images/member-firm/vietnam/office-hanoi.jpg",
+        "imageAlt": "Parker Russell Vietnam branch in Hanoi",
+        "firmName": "Parker Russell Vietnam",
+        "addressLines": [
+          "Song Da Building, Level 24, Block A",
+          "Pham Hung Street, My Dinh 1 Ward, Nam Tu Liem District",
+          "Hanoi, Vietnam"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Branch Director",
+          "name": "Nguyen Van Thanh",
+          "details": [
+            {
+              "label": "Telephone",
+              "value": "+84 24 7107 8282",
+              "iconName": "call",
+              "href": "tel:+842471078282"
+            },
+            {
+              "label": "Email",
+              "value": "info@prv.com.vn",
+              "iconName": "mail",
+              "href": "mailto:info@prv.com.vn"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      },
+      {
+        "city": "Ho Chi Minh City Branch",
+        "image": "/images/member-firm/vietnam/office-hcmc-branch.jpg",
+        "imageAlt": "Parker Russell Vietnam branch in Ho Chi Minh City",
+        "firmName": "Parker Russell Vietnam",
+        "addressLines": [
+          "Rooms 8.15 & 8.16, 8th Floor, Charmington La Pointe",
+          "181 Cao Thang Extended Street, Hoa Hung Ward",
+          "Ho Chi Minh City, Vietnam"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Registered Representative",
+          "name": "Van Duc Thiem Phu",
+          "details": [
+            {
+              "label": "Telephone",
+              "value": "+84 938 753 116",
+              "iconName": "call",
+              "href": "tel:+84938753116"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      }
+    ]
+  },
+  "mfServices": {
+    "id": "member-firm-services",
+    "services": {
+      "title": "Services",
+      "items": [
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Audit & Assurance"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "External & Statutory Audit"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Internal Audit"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Forensic & Special-Purpose Audit"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Accounting & Financial Reporting"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Accounting Outsourcing"
+        },
+        {
+          "icon": "/icons/icon-person.svg",
+          "label": "HR & Payroll Services"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Outsourced Chief Accountant & Financial Controller Services"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Tax Advisory & Compliance"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Transfer Pricing"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Customs & International Trade Advisory"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Internal Control Advisory"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Corporate Finance"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Mergers & Acquisitions Advisory"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Valuation & Due Diligence"
+        },
+        {
+          "icon": "/icons/icon-domain.svg",
+          "label": "Corporate Secretarial Services"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Business & Management Consulting"
+        }
+      ]
+    },
+    "industries": {
+      "title": "Industries",
+      "items": [
+        {
+          "icon": "/icons/icon-domain.svg",
+          "label": "Financial Services"
+        },
+        {
+          "icon": "/icons/icon-construction.svg",
+          "label": "Manufacturing & Industrial"
+        },
+        {
+          "icon": "/icons/icon-computer.svg",
+          "label": "Retail & Consumer Business"
+        },
+        {
+          "icon": "/icons/icon-local-shipping.svg",
+          "label": "Trading & Distribution"
+        },
+        {
+          "icon": "/icons/icon-local-shipping.svg",
+          "label": "Transport & Logistics"
+        },
+        {
+          "icon": "/icons/icon-bolt.svg",
+          "label": "Oil, Gas & Energy"
+        },
+        {
+          "icon": "/icons/icon-construction.svg",
+          "label": "Real Estate & Construction"
+        },
+        {
+          "icon": "/icons/icon-computer.svg",
+          "label": "Technology, Media & Telecommunications"
+        },
+        {
+          "icon": "/icons/icon-beach-access.svg",
+          "label": "Tourism, Hospitality & Leisure"
+        },
+        {
+          "icon": "/icons/icon-person.svg",
+          "label": "Professional & Business Services"
+        }
+      ]
+    }
+  },
+  "mfFinal": {
+    "id": "member-firm-final",
+    "imageBg": "/images/member-firm/vietnam/final-cta-bg.jpg",
+    "title": "Local Expertise. International Connections.",
+    "lead": "Through Parker Russell International, Parker Russell Vietnam combines established expertise in the Vietnamese market with access to international professional knowledge, relationships and cross-border capabilities across the wider network.",
+    "button": {
+      "label": "Contact Our Vietnam Member Firm",
+      "href": "contact.html",
+      "icon": true
+    }
+  }
+}

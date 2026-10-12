@@ -1,0 +1,208 @@
+{
+  "meta": {
+    "title": "Parker Russell International Member Firm in United Kingdom | Parker Russell UK",
+    "description": "Parker Russell UK is the Parker Russell International member firm in the United Kingdom, delivering professional services connected to the international Parker Russell network."
+  },
+  "mfHero": {
+    "id": "member-firm-hero",
+    "imageBg": "/images/member-firm/united-kingdom/hero-bg.jpg",
+    "imageLoading": "eager",
+    "tag": "United Kingdom",
+    "title": "Parker Russell International Member Firm in the United Kingdom",
+    "firmName": "Parker Russell UK",
+    "lead": "Professional expertise across audit, assurance, tax, advisory and specialist corporate services, connected to the international capabilities of the Parker Russell network.",
+    "about": {
+      "icon": "/icons/icon-domain.svg",
+      "title": "About Parker Russell UK",
+      "lead": "Parker Russell UK is a City of London firm of chartered accountants, auditors and business advisers serving UK and international businesses, investors, institutions and private clients.",
+      "body": "The firm combines technical expertise across audit, assurance, taxation and advisory with extensive experience supporting businesses through regulatory complexity, transactions, international expansion and long-term growth."
+    }
+  },
+  "mfOffice": {
+    "id": "member-firm-office",
+    "title": "Our Office in the United Kingdom",
+    "locationIcon": "/icons/icon-location.svg",
+    "offices": [
+      {
+        "city": "London Office",
+        "image": "/images/member-firm/united-kingdom/office-london.jpg",
+        "imageAlt": "Parker Russell UK office in London",
+        "firmName": "Parker Russell UK",
+        "addressLines": [
+          "Level 30, The Leadenhall Building",
+          "122 Leadenhall Street",
+          "London EC3V 4AB",
+          "United Kingdom"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contact",
+          "name": "Jason Parker — UK CEO & Managing Partner",
+          "details": [
+            {
+              "iconName": "call",
+              "label": "Telephone",
+              "value": "+44 (0)20 7378 7500",
+              "href": "tel:+442073787500"
+            },
+            {
+              "iconName": "mail",
+              "label": "Email",
+              "value": "info@parkerrussell.co.uk",
+              "href": "mailto:info@parkerrussell.co.uk"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      },
+      {
+        "city": "London Office",
+        "image": "/images/member-firm/united-kingdom/office-sovereign.jpg",
+        "imageAlt": "Sovereign UK office in London",
+        "firmName": "Sovereign (UK) Limited",
+        "addressLines": [
+          "Office 3, Lower Ground Floor",
+          "88 Cambridge Street",
+          "London SW1V 4QG",
+          "United Kingdom"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contact",
+          "name": "Simon Denton — Managing Director, United Kingdom",
+          "details": [
+            {
+              "iconName": "call",
+              "label": "Telephone",
+              "value": "+44 (0)20 7389 0555",
+              "href": "tel:+442073890555"
+            },
+            {
+              "iconName": "mail",
+              "label": "Email",
+              "value": "uk@SovereignGroup.com",
+              "href": "mailto:uk@SovereignGroup.com"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      }
+    ]
+  },
+  "mfServices": {
+    "id": "member-firm-services",
+    "services": {
+      "title": "Services",
+      "items": [
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Audit & Assurance"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Accountancy & Financial Reporting"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Corporate & Private Client Tax"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "International Tax"
+        },
+        {
+          "icon": "/icons/icon-domain.svg",
+          "label": "Corporate Finance"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Capital Markets & IPO Advisory"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Transaction Services & Due Diligence"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Regulatory & Compliance Advisory"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Business Advisory"
+        },
+        {
+          "icon": "/icons/icon-computer.svg",
+          "label": "Outsourcing"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Forensic Accounting"
+        },
+        {
+          "icon": "/icons/icon-domain.svg",
+          "label": "ESG & Corporate Reporting"
+        }
+      ]
+    },
+    "industries": {
+      "title": "Industries",
+      "items": [
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Financial Services"
+        },
+        {
+          "icon": "/icons/icon-person.svg",
+          "label": "Professional Practices"
+        },
+        {
+          "icon": "/icons/icon-construction.svg",
+          "label": "Property & Construction"
+        },
+        {
+          "icon": "/icons/icon-construction.svg",
+          "label": "Manufacturing & Retail"
+        },
+        {
+          "icon": "/icons/icon-domain.svg",
+          "label": "Business Services"
+        },
+        {
+          "icon": "/icons/icon-computer.svg",
+          "label": "Technology, Media & Telecommunications"
+        },
+        {
+          "icon": "/icons/icon-computer.svg",
+          "label": "E-commerce"
+        },
+        {
+          "icon": "/icons/icon-bolt.svg",
+          "label": "Renewable Energy"
+        },
+        {
+          "icon": "/icons/icon-beach-access.svg",
+          "label": "Travel, Leisure & Tourism"
+        }
+      ]
+    }
+  },
+  "mfFinal": {
+    "id": "member-firm-final",
+    "imageBg": "/images/member-firm/united-kingdom/final-cta-bg.jpg",
+    "title": "Local Expertise. International Connections.",
+    "lead": "Through Parker Russell International, Parker Russell UK combines City of London expertise with access to international knowledge, professional relationships and cross-border capabilities across the wider network.",
+    "button": {
+      "label": "Contact Our United Kingdom Member Firm",
+      "href": "contact.html",
+      "icon": true
+    }
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "meta": {
+    "title": "Parker Russell International Member Firm in Paraguay | Parker Russell Paraguay Daniel Elicetche & Asociados",
+    "description": "Parker Russell Paraguay Daniel Elicetche & Asociados is the Parker Russell International member firm in Paraguay, delivering professional services connected to the international Parker Russell network."
+  },
+  "mfHero": {
+    "id": "member-firm-hero",
+    "imageBg": "/images/member-firm/paraguay/hero-bg.jpg",
+    "imageLoading": "eager",
+    "tag": "Paraguay",
+    "title": "Parker Russell International Member Firm in Paraguay",
+    "firmName": "Parker Russell Paraguay Daniel Elicetche & Asociados",
+    "lead": "Audit, accounting, tax and business advisory expertise in Paraguay, connected to the international capabilities of the Parker Russell network.",
+    "about": {
+      "icon": "/icons/icon-domain.svg",
+      "title": "About Parker Russell Paraguay",
+      "lead": "Established in 2008, Daniel Elicetche & Asociados is an independent audit and professional services firm based in Asunción, serving Paraguayan and international businesses across audit, accounting, taxation and consulting.",
+      "body": "The firm combines extensive local market experience with multidisciplinary capabilities across financial reporting, internal control, compliance, outsourcing, organisational development and international business matters."
+    }
+  },
+  "mfOffice": {
+    "id": "member-firm-office",
+    "title": "Our Office in Paraguay",
+    "locationIcon": "/icons/icon-location.svg",
+    "offices": [
+      {
+        "city": "Asunción",
+        "image": "/images/member-firm/paraguay/office.jpg",
+        "imageAlt": "Parker Russell Paraguay office in Asunción",
+        "firmName": "Parker Russell Paraguay Daniel Elicetche & Asociados",
+        "addressLines": [
+          "Quesada 4926",
+          "Atlas Center Building, 5th Floor",
+          "Asunción, Paraguay"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contact",
+          "name": "Dr Daniel Elicetche — Partner",
+          "details": [
+            {
+              "label": "Telephone",
+              "value": "+595 21 601 695",
+              "iconName": "call",
+              "href": "tel:+59521601695"
+            },
+            {
+              "label": "Additional Lines",
+              "value": "+595 21 329 1818 / +595 21 329 1859",
+              "iconName": "call",
+              "href": "tel:+595213291818"
+            },
+            {
+              "label": "Email",
+              "value": "info@dea.com.py",
+              "iconName": "mail",
+              "href": "mailto:info@dea.com.py"
+            },
+            {
+              "label": "Opening Hours",
+              "value": "08:00–17:30",
+              "icon": "/icons/icon-schedule.svg"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      }
+    ]
+  },
+  "mfServices": {
+    "id": "member-firm-services",
+    "services": {
+      "title": "Services",
+      "items": [
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Audit & Assurance"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Financial Statement Audit"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Internal Audit"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Accounting & Financial Reporting"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Tax Advisory & Compliance"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "International Tax Planning"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Accounting & Administrative Outsourcing"
+        },
+        {
+          "icon": "/icons/icon-person.svg",
+          "label": "Payroll Solutions"
+        },
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Compliance & Internal Controls"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Process & Organisational Consulting"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Corporate Finance"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Cross-Border Business Advisory"
+        },
+        {
+          "icon": "/icons/icon-computer.svg",
+          "label": "Information Technology Advisory"
+        },
+        {
+          "icon": "/icons/icon-school.svg",
+          "label": "Professional Training"
+        }
+      ]
+    },
+    "industries": {
+      "title": "Industries",
+      "items": [
+        {
+          "icon": "/icons/icon-domain.svg",
+          "label": "Financial Services"
+        },
+        {
+          "icon": "/icons/icon-construction.svg",
+          "label": "Construction & Real Estate"
+        },
+        {
+          "icon": "/icons/icon-computer.svg",
+          "label": "Technology & Telecommunications"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Healthcare & Pharmaceuticals"
+        },
+        {
+          "icon": "/icons/icon-beach-access.svg",
+          "label": "Tourism & Hospitality"
+        },
+        {
+          "icon": "/icons/icon-local-shipping.svg",
+          "label": "Transport & Logistics"
+        },
+        {
+          "icon": "/icons/icon-restaurant.svg",
+          "label": "Agriculture & Food Processing"
+        },
+        {
+          "icon": "/icons/icon-local-shipping.svg",
+          "label": "Import, Export & International Trade"
+        },
+        {
+          "icon": "/icons/icon-local-shipping.svg",
+          "label": "Maritime & Shipping"
+        },
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Government & Public Sector"
+        },
+        {
+          "icon": "/icons/icon-person.svg",
+          "label": "NGOs & Non-Profit Organisations"
+        }
+      ]
+    }
+  },
+  "mfFinal": {
+    "id": "member-firm-final",
+    "imageBg": "/images/member-firm/paraguay/final-cta-bg.jpg",
+    "title": "Local Expertise. International Connections.",
+    "lead": "Through Parker Russell International, Parker Russell Paraguay combines established knowledge of the Paraguayan business environment with access to international expertise, professional relationships and cross-border capabilities across the wider network.",
+    "button": {
+      "label": "Contact Our Paraguay Member Firm",
+      "href": "contact.html",
+      "icon": true
+    }
+  }
+}

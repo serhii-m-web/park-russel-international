@@ -1,0 +1,207 @@
+{
+  "meta": {
+    "title": "Parker Russell International Member Firm in Jordan | Parker Russell Jordan",
+    "description": "Parker Russell Jordan is the Parker Russell International member firm in Jordan, delivering professional services connected to the international Parker Russell network."
+  },
+  "mfHero": {
+    "id": "member-firm-hero",
+    "imageBg": "/images/member-firm/jordan/hero-bg.jpg",
+    "imageLoading": "eager",
+    "tag": "Jordan",
+    "title": "Parker Russell International Member Firm in Jordan",
+    "firmName": "Parker Russell Jordan",
+    "lead": "Audit, accounting, tax and business advisory expertise in Jordan, connected to the international capabilities of the Parker Russell network.",
+    "about": {
+      "icon": "/icons/icon-domain.svg",
+      "title": "About Parker Russell Jordan",
+      "lead": "Parker Russell Jordan is an independent audit and professional services firm supporting businesses and organisations across accounting, taxation, assurance and business advisory matters.",
+      "body": "The firm's partners have provided accounting and tax services in Jordan since 1986, with audit and business advisory capabilities added in 2020. Today, Parker Russell Jordan operates across Amman and Aqaba, combining established local market knowledge with international professional capabilities."
+    }
+  },
+  "mfOffice": {
+    "id": "member-firm-office",
+    "title": "Our Offices in Jordan",
+    "locationIcon": "/icons/icon-location.svg",
+    "offices": [
+      {
+        "city": "Amman",
+        "image": "/images/member-firm/jordan/office-amman.jpg",
+        "imageAlt": "Parker Russell Jordan office in Amman",
+        "firmName": "Parker Russell Jordan",
+        "addressLines": [
+          "Mecca Street, Harranah Complex, Building 150",
+          "Office 502",
+          "Amman, Jordan"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contact",
+          "name": "Ramzi Bukhari, CPA, JCPA — Vice President, Middle East / Engagement Partner, Jordan",
+          "details": [
+            {
+              "label": "Telephone",
+              "value": "+962 6 586 2155",
+              "iconName": "call",
+              "href": "tel:+96265862155"
+            },
+            {
+              "label": "Mobile",
+              "value": "+962 77 800 7600",
+              "icon": "/icons/icon-mobile.svg",
+              "href": "tel:+962778007600"
+            },
+            {
+              "label": "Email",
+              "value": "info@parkerrussell-jordan.com",
+              "iconName": "mail",
+              "href": "mailto:info@parkerrussell-jordan.com"
+            },
+            {
+              "label": "Opening Hours",
+              "value": "08:30–17:30",
+              "icon": "/icons/icon-schedule.svg"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      },
+      {
+        "city": "Aqaba",
+        "image": "/images/member-firm/jordan/office-aqaba.jpg",
+        "imageAlt": "Parker Russell Jordan office in Aqaba",
+        "firmName": "Parker Russell Jordan",
+        "addressLines": [
+          "Al Shweiki Commercial Complex",
+          "Al Abdaliyah Area",
+          "Aqaba, Jordan"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contact",
+          "name": "Maher Abd Al Haq — Partner, Tax & Accounting, Aqaba",
+          "details": [
+            {
+              "label": "Email",
+              "value": "info@parkerrussell-jordan.com",
+              "iconName": "mail",
+              "href": "mailto:info@parkerrussell-jordan.com"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      }
+    ]
+  },
+  "mfServices": {
+    "id": "member-firm-services",
+    "services": {
+      "title": "Services",
+      "items": [
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Audit & Assurance"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Internal Audit"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Accounting & Financial Reporting"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Tax Advisory & Compliance"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Business Advisory"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Business Valuation"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Feasibility Studies"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Cash Flow & Financial Management"
+        },
+        {
+          "icon": "/icons/icon-computer.svg",
+          "label": "ERP Implementation Advisory"
+        },
+        {
+          "icon": "/icons/icon-gavel.svg",
+          "label": "Arbitration & Expert Services"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Business Liquidation"
+        },
+        {
+          "icon": "/icons/icon-school.svg",
+          "label": "Professional Training"
+        }
+      ]
+    },
+    "industries": {
+      "title": "Industries",
+      "items": [
+        {
+          "icon": "/icons/icon-construction.svg",
+          "label": "Manufacturing & Industrial"
+        },
+        {
+          "icon": "/icons/icon-computer.svg",
+          "label": "Consumer & FMCG"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Healthcare"
+        },
+        {
+          "icon": "/icons/icon-local-shipping.svg",
+          "label": "Aviation"
+        },
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Financial Services & Investment"
+        },
+        {
+          "icon": "/icons/icon-eco.svg",
+          "label": "Agriculture"
+        },
+        {
+          "icon": "/icons/icon-school.svg",
+          "label": "Education"
+        },
+        {
+          "icon": "/icons/icon-person.svg",
+          "label": "Professional & Business Services"
+        }
+      ]
+    }
+  },
+  "mfFinal": {
+    "id": "member-firm-final",
+    "imageBg": "/images/member-firm/jordan/final-cta-bg.jpg",
+    "title": "Local Expertise. International Connections.",
+    "lead": "Through Parker Russell International, Parker Russell Jordan combines established local expertise with access to international knowledge, professional relationships and cross-border capabilities across the wider network.",
+    "button": {
+      "label": "Contact Our Jordan Member Firm",
+      "href": "contact.html",
+      "icon": true
+    }
+  }
+}

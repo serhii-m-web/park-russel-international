@@ -1,0 +1,316 @@
+{
+  "meta": {
+    "title": "Parker Russell International Member Firm in Pakistan | Parker Russell AJS / Parker Russell A.J.S. Chartered Accountants",
+    "description": "Parker Russell AJS / Parker Russell A.J.S. Chartered Accountants is the Parker Russell International member firm in Pakistan, delivering professional services connected to the international Parker Russell network."
+  },
+  "mfHero": {
+    "id": "member-firm-hero",
+    "imageBg": "/images/member-firm/pakistan/hero-bg.jpg",
+    "imageLoading": "eager",
+    "tag": "Pakistan",
+    "title": "Parker Russell International Member Firm in Pakistan",
+    "firmName": "Parker Russell AJS / Parker Russell A.J.S. Chartered Accountants",
+    "lead": "Audit, tax, accounting and business advisory expertise across Pakistan, connected to the international capabilities of the Parker Russell network.",
+    "about": {
+      "icon": "/icons/icon-domain.svg",
+      "title": "About Parker Russell AJS",
+      "lead": "Established in Pakistan in 2007, Parker Russell AJS is an independent firm of Chartered Accountants providing audit, taxation, accounting, corporate and business advisory services to local and international organisations.",
+      "body": "With offices across Pakistan’s principal commercial centres, the firm combines extensive local market experience with multidisciplinary expertise across assurance, taxation, financial reporting, risk, corporate advisory, technology and business consulting."
+    }
+  },
+  "mfOffice": {
+    "id": "member-firm-office",
+    "title": "Our Offices in Pakistan",
+    "locationIcon": "/icons/icon-location.svg",
+    "offices": [
+      {
+        "city": "Faisalabad — Head Office",
+        "image": "/images/member-firm/pakistan/office-faisalabad.jpg",
+        "imageAlt": "Parker Russell AJS office in Faisalabad",
+        "firmName": "Parker Russell AJS",
+        "addressLines": [
+          "Office No. 1, 6th Floor, Legacy Tower",
+          "Koh-e-Noor City",
+          "Faisalabad, Pakistan"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contact",
+          "name": "Junaid Subhani — Country Managing Partner – Pakistan",
+          "details": [
+            {
+              "label": "Telephone",
+              "value": "+92 41 850 2082–83",
+              "iconName": "call",
+              "href": "tel:+9241850208283"
+            },
+            {
+              "label": "Additional Line",
+              "value": "+92 41 850 2084",
+              "iconName": "call",
+              "href": "tel:+92418502084"
+            },
+            {
+              "label": "Email",
+              "value": "info.fsd@parkerrussell.pk",
+              "iconName": "mail",
+              "href": "mailto:info.fsd@parkerrussell.pk"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      },
+      {
+        "city": "Lahore",
+        "image": "/images/member-firm/pakistan/office-lahore.jpg",
+        "imageAlt": "Parker Russell AJS office in Lahore",
+        "firmName": "Parker Russell AJS",
+        "addressLines": [
+          "33-A/1 Queen's Road",
+          "Behind Queens Centre",
+          "Lahore 54000, Pakistan"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contact",
+          "name": "Faisal Iqbal Khawaja — Senior Partner – Tax, Assurance & Advisory",
+          "details": [
+            {
+              "label": "Telephone",
+              "value": "+92 42 3630 7841 / +92 42 3629 9246",
+              "iconName": "call",
+              "href": "tel:+924236307841"
+            },
+            {
+              "label": "Mobile",
+              "value": "+92 321 841 3497",
+              "icon": "/icons/icon-mobile.svg",
+              "href": "tel:+923218413497"
+            },
+            {
+              "label": "Email",
+              "value": "info@parkerrussellajs.com",
+              "iconName": "mail",
+              "href": "mailto:info@parkerrussellajs.com"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      },
+      {
+        "city": "Islamabad",
+        "image": "/images/member-firm/pakistan/office-islamabad.jpg",
+        "imageAlt": "Parker Russell AJS office in Islamabad",
+        "firmName": "Parker Russell AJS",
+        "addressLines": [
+          "Office No. 2, Second Floor, Ace-Uptown 2, Plot 22-B",
+          "Near Islamabad International Hospital, E-11/2",
+          "Islamabad 46000, Pakistan"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contact",
+          "name": "Muhammad Masood Shahid — Partner Incharge – Islamabad",
+          "details": [
+            {
+              "label": "Email",
+              "value": "info@parkerrussellajs.com",
+              "iconName": "mail",
+              "href": "mailto:info@parkerrussellajs.com"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      },
+      {
+        "city": "Karachi",
+        "image": "/images/member-firm/pakistan/office-karachi.jpg",
+        "imageAlt": "Parker Russell AJS office in Karachi",
+        "firmName": "Parker Russell AJS",
+        "addressLines": [
+          "901, Q.M. House",
+          "Ellender Road",
+          "Karachi, Pakistan"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contact",
+          "name": "Muhammad Shabbir Kasbati — Partner Incharge – Karachi",
+          "details": [
+            {
+              "label": "Telephone",
+              "value": "+92 21 3262 1703–04",
+              "iconName": "call",
+              "href": "tel:+92213262170304"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      }
+    ]
+  },
+  "mfServices": {
+    "id": "member-firm-services",
+    "services": {
+      "title": "Services",
+      "items": [
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Audit & Assurance"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Accounting & Financial Reporting"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Tax Advisory & Compliance"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "International Tax & Transfer Pricing"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Business & Financial Advisory"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Corporate Finance"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Due Diligence & Valuation"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Forensic & Investigation Services"
+        },
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Risk & Internal Control Advisory"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "IT & System Audits"
+        },
+        {
+          "icon": "/icons/icon-computer.svg",
+          "label": "Cybersecurity & Technology Risk"
+        },
+        {
+          "icon": "/icons/icon-domain.svg",
+          "label": "Corporate Secretarial Services"
+        },
+        {
+          "icon": "/icons/icon-computer.svg",
+          "label": "Business Process Outsourcing"
+        },
+        {
+          "icon": "/icons/icon-computer.svg",
+          "label": "Virtual CFO & Finance Outsourcing"
+        },
+        {
+          "icon": "/icons/icon-change-circle.svg",
+          "label": "Business Restructuring & Performance Improvement"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Sustainability & Non-Financial Assurance"
+        }
+      ]
+    },
+    "industries": {
+      "title": "Industries",
+      "items": [
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Banking, Insurance & Capital Markets"
+        },
+        {
+          "icon": "/icons/icon-computer.svg",
+          "label": "Technology, Software & Digital Services"
+        },
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Investment & Diversified Groups"
+        },
+        {
+          "icon": "/icons/icon-construction.svg",
+          "label": "Real Estate, Construction & Infrastructure"
+        },
+        {
+          "icon": "/icons/icon-construction.svg",
+          "label": "Textiles, Apparel & Leather"
+        },
+        {
+          "icon": "/icons/icon-computer.svg",
+          "label": "Consumer & Retail"
+        },
+        {
+          "icon": "/icons/icon-restaurant.svg",
+          "label": "Food, Agriculture & Dairy"
+        },
+        {
+          "icon": "/icons/icon-beach-access.svg",
+          "label": "Hospitality, Restaurants & Leisure"
+        },
+        {
+          "icon": "/icons/icon-bolt.svg",
+          "label": "Energy, Oil, Gas & Power"
+        },
+        {
+          "icon": "/icons/icon-construction.svg",
+          "label": "Manufacturing, Chemicals & Metals"
+        },
+        {
+          "icon": "/icons/icon-directions-car.svg",
+          "label": "Automotive, Transport & Logistics"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Pharmaceuticals, Healthcare & Life Sciences"
+        },
+        {
+          "icon": "/icons/icon-school.svg",
+          "label": "Education & Professional Training"
+        },
+        {
+          "icon": "/icons/icon-person.svg",
+          "label": "Professional & Business Services"
+        },
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Government & Public Sector"
+        }
+      ]
+    }
+  },
+  "mfFinal": {
+    "id": "member-firm-final",
+    "imageBg": "/images/member-firm/pakistan/final-cta-bg.jpg",
+    "title": "Local Expertise. International Connections.",
+    "lead": "Through Parker Russell International, Parker Russell AJS combines established expertise across the Pakistani market with access to international professional knowledge, relationships and cross-border capabilities across the wider network.",
+    "button": {
+      "label": "Contact Our Pakistan Member Firm",
+      "href": "contact.html",
+      "icon": true
+    }
+  }
+}

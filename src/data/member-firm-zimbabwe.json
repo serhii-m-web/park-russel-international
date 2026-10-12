@@ -1,0 +1,214 @@
+{
+  "meta": {
+    "title": "Parker Russell International Member Firm in Zimbabwe | Parker Russell Zimbabwe",
+    "description": "Parker Russell Zimbabwe is the Parker Russell International member firm in Zimbabwe, delivering professional services connected to the international Parker Russell network."
+  },
+  "mfHero": {
+    "id": "member-firm-hero",
+    "imageBg": "/images/member-firm/zimbabwe/hero-bg.jpg",
+    "imageLoading": "eager",
+    "tag": "Zimbabwe",
+    "title": "Parker Russell International Member Firm in Zimbabwe",
+    "firmName": "Parker Russell Zimbabwe",
+    "lead": "Audit, accounting, tax and business advisory expertise in Zimbabwe, connected to the international capabilities of the Parker Russell network.",
+    "about": {
+      "icon": "/icons/icon-domain.svg",
+      "title": "About Parker Russell Zimbabwe",
+      "lead": "Parker Russell Zimbabwe provides audit, accounting, tax and business advisory services to businesses, institutions and organisations operating across the Zimbabwean market.",
+      "body": "The firm combines local professional expertise with international audit methodologies and specialist capabilities across financial reporting, taxation, business strategy, governance, technology and management consulting. As part of Parker Russell International, the Zimbabwe practice provides clients with access to wider international knowledge and specialist expertise while maintaining a strong understanding of the local regulatory and commercial environment."
+    }
+  },
+  "mfOffice": {
+    "id": "member-firm-office",
+    "title": "Our Office in Zimbabwe",
+    "locationIcon": "/icons/icon-location.svg",
+    "offices": [
+      {
+        "city": "Harare",
+        "image": "/images/member-firm/zimbabwe/office.jpg",
+        "imageAlt": "Parker Russell Zimbabwe office in Harare",
+        "firmName": "Parker Russell Zimbabwe",
+        "addressLines": [
+          "44 Arthur Davies",
+          "Cranborne",
+          "Harare, Zimbabwe"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "General Enquiries",
+          "name": "Parker Russell Zimbabwe",
+          "details": [
+            {
+              "label": "Telephone",
+              "value": "+263 773 406 876",
+              "iconName": "call",
+              "href": "tel:+263773406876"
+            },
+            {
+              "label": "Additional Line",
+              "value": "+263 771 366 076",
+              "iconName": "call",
+              "href": "tel:+263771366076"
+            },
+            {
+              "label": "Email",
+              "value": "info@parkerrussell.co.zw",
+              "iconName": "mail",
+              "href": "mailto:info@parkerrussell.co.zw"
+            },
+            {
+              "label": "Business Hours",
+              "value": "Monday–Friday, 08:00–17:00",
+              "icon": "/icons/icon-schedule.svg"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      }
+    ]
+  },
+  "mfServices": {
+    "id": "member-firm-services",
+    "services": {
+      "title": "Services",
+      "items": [
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Audit & Assurance"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "External Audit"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Internal Audit"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Forensic & Special-Purpose Audit"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Accounting & Financial Reporting"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Tax Advisory & Compliance"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Accounting & Management Consultancy"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Business Strategy & Review"
+        },
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Corporate Governance Advisory"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Business Turnaround & Performance Advisory"
+        },
+        {
+          "icon": "/icons/icon-computer.svg",
+          "label": "IT & Information Systems Advisory"
+        },
+        {
+          "icon": "/icons/icon-gavel.svg",
+          "label": "Legal & Judicial Support"
+        },
+        {
+          "icon": "/icons/icon-school.svg",
+          "label": "Training & Organisational Development"
+        }
+      ]
+    },
+    "industries": {
+      "title": "Industries",
+      "items": [
+        {
+          "icon": "/icons/icon-eco.svg",
+          "label": "Agriculture"
+        },
+        {
+          "icon": "/icons/icon-directions-car.svg",
+          "label": "Automotive & Transportation"
+        },
+        {
+          "icon": "/icons/icon-computer.svg",
+          "label": "Consumer Business"
+        },
+        {
+          "icon": "/icons/icon-school.svg",
+          "label": "Education"
+        },
+        {
+          "icon": "/icons/icon-domain.svg",
+          "label": "Financial Services"
+        },
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Government & Public Sector"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Healthcare"
+        },
+        {
+          "icon": "/icons/icon-construction.svg",
+          "label": "Manufacturing & Industrial"
+        },
+        {
+          "icon": "/icons/icon-computer.svg",
+          "label": "Media & Entertainment"
+        },
+        {
+          "icon": "/icons/icon-bolt.svg",
+          "label": "Mining & Metals"
+        },
+        {
+          "icon": "/icons/icon-person.svg",
+          "label": "NGOs & Non-Profit Organisations"
+        },
+        {
+          "icon": "/icons/icon-bolt.svg",
+          "label": "Oil & Gas"
+        },
+        {
+          "icon": "/icons/icon-bolt.svg",
+          "label": "Power & Utilities"
+        },
+        {
+          "icon": "/icons/icon-construction.svg",
+          "label": "Real Estate & Construction"
+        },
+        {
+          "icon": "/icons/icon-computer.svg",
+          "label": "Technology"
+        },
+        {
+          "icon": "/icons/icon-computer.svg",
+          "label": "Telecommunications"
+        }
+      ]
+    }
+  },
+  "mfFinal": {
+    "id": "member-firm-final",
+    "imageBg": "/images/member-firm/zimbabwe/final-cta-bg.jpg",
+    "title": "Local Expertise. International Connections.",
+    "lead": "Through Parker Russell International, Parker Russell Zimbabwe combines established knowledge of the Zimbabwean business environment with access to international professional expertise, methodologies, relationships and cross-border capabilities across the wider network.",
+    "button": {
+      "label": "Contact Our Zimbabwe Member Firm",
+      "href": "contact.html",
+      "icon": true
+    }
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "meta": {
+    "title": "Parker Russell International Member Firm in Nicaragua | Parker Russell NC&A Noel Cruz & Asociados",
+    "description": "Parker Russell NC&A Noel Cruz & Asociados is the Parker Russell International member firm in Nicaragua, delivering professional services connected to the international Parker Russell network."
+  },
+  "mfHero": {
+    "id": "member-firm-hero",
+    "imageBg": "/images/member-firm/nicaragua/hero-bg.jpg",
+    "imageLoading": "eager",
+    "tag": "Nicaragua",
+    "title": "Parker Russell International Member Firm in Nicaragua",
+    "firmName": "Parker Russell NC&A Noel Cruz & Asociados",
+    "lead": "Audit, tax and business advisory expertise in Nicaragua, connected to the international capabilities of the Parker Russell network.",
+    "about": {
+      "icon": "/icons/icon-domain.svg",
+      "title": "About Parker Russell NC&A",
+      "lead": "Founded in 1985, Parker Russell NC&A is an independent audit and consulting firm based in Managua, supporting private, public and international organisations across audit, taxation, accounting and business advisory matters.",
+      "body": "The firm combines extensive local market experience with professional expertise across financial audit, tax, forensic services, consulting and legal advisory, supporting clients with financial reporting, compliance and wider business requirements."
+    }
+  },
+  "mfOffice": {
+    "id": "member-firm-office",
+    "title": "Our Office in Nicaragua",
+    "locationIcon": "/icons/icon-location.svg",
+    "offices": [
+      {
+        "city": "Managua",
+        "image": "/images/member-firm/nicaragua/office.jpg",
+        "imageAlt": "Parker Russell NC&A office in Managua",
+        "firmName": "Parker Russell NC&A Noel Cruz & Asociados",
+        "addressLines": [
+          "Club Terraza de Villa Fontana",
+          "2 blocks north, 1 block east and half a block south, House No. 208",
+          "Managua, Nicaragua"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contact",
+          "name": "Francisco Noel Cruz Pineda — Managing Partner",
+          "details": [
+            {
+              "label": "Telephone",
+              "value": "+505 2227 0687",
+              "iconName": "call",
+              "href": "tel:+50522270687"
+            },
+            {
+              "label": "Mobile",
+              "value": "+505 8296 1845",
+              "icon": "/icons/icon-mobile.svg",
+              "href": "tel:+50582961845"
+            },
+            {
+              "label": "Email",
+              "value": "fncruzp@ibw.com.ni",
+              "iconName": "mail",
+              "href": "mailto:fncruzp@ibw.com.ni"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      }
+    ]
+  },
+  "mfServices": {
+    "id": "member-firm-services",
+    "services": {
+      "title": "Services",
+      "items": [
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Financial Audit & Assurance"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Compliance Audits"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Forensic Audit"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Tax Audit & Advisory"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Special-Purpose Audits"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Accounting Services"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Accounting & Business Outsourcing"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Business Consulting"
+        },
+        {
+          "icon": "/icons/icon-gavel.svg",
+          "label": "Legal Advisory"
+        }
+      ]
+    },
+    "industries": {
+      "title": "Industries",
+      "items": [
+        {
+          "icon": "/icons/icon-construction.svg",
+          "label": "Manufacturing & Industrial"
+        },
+        {
+          "icon": "/icons/icon-local-shipping.svg",
+          "label": "Free Trade Zone Businesses"
+        },
+        {
+          "icon": "/icons/icon-domain.svg",
+          "label": "Financial Services"
+        },
+        {
+          "icon": "/icons/icon-eco.svg",
+          "label": "Agriculture"
+        },
+        {
+          "icon": "/icons/icon-person.svg",
+          "label": "Professional & Business Services"
+        },
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Government & Public Sector"
+        },
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "International Organisations"
+        },
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Diplomatic Missions"
+        },
+        {
+          "icon": "/icons/icon-person.svg",
+          "label": "NGOs & Foundations"
+        }
+      ]
+    }
+  },
+  "mfFinal": {
+    "id": "member-firm-final",
+    "imageBg": "/images/member-firm/nicaragua/final-cta-bg.jpg",
+    "title": "Local Expertise. International Connections.",
+    "lead": "Through Parker Russell International, Parker Russell NC&A combines long-standing knowledge of the Nicaraguan market with access to international expertise, professional relationships and cross-border capabilities across the wider network.",
+    "button": {
+      "label": "Contact Our Nicaragua Member Firm",
+      "href": "contact.html",
+      "icon": true
+    }
+  }
+}

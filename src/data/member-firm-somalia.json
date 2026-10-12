@@ -1,0 +1,185 @@
+{
+  "meta": {
+    "title": "Parker Russell International Member Firm in Somalia & the Horn of Africa | Parker Russell Horn of Africa",
+    "description": "Parker Russell Horn of Africa is the Parker Russell International member firm in Somalia, delivering professional services connected to the international Parker Russell network."
+  },
+  "mfHero": {
+    "id": "member-firm-hero",
+    "imageBg": "/images/member-firm/somalia/hero-bg.jpg",
+    "imageLoading": "eager",
+    "tag": "Somalia",
+    "title": "Parker Russell International Member Firm in Somalia & the Horn of Africa",
+    "firmName": "Parker Russell Horn of Africa",
+    "lead": "Audit, accounting, tax and business advisory expertise across Somalia and the wider Horn of Africa, connected to the international capabilities of the Parker Russell network.",
+    "about": {
+      "icon": "/icons/icon-domain.svg",
+      "title": "About Parker Russell Horn of Africa",
+      "lead": "Parker Russell Horn of Africa is an independent professional services firm supporting multinational corporations, SMEs, entrepreneurs and organisations across Somalia and the wider region.",
+      "body": "The firm combines local market knowledge with professional expertise across audit and assurance, accounting, taxation, financial advisory and business consulting. With a presence in Hargeisa and Mogadishu, the firm brings international professional capabilities together with a strong understanding of the regional business environment."
+    }
+  },
+  "mfOffice": {
+    "id": "member-firm-office",
+    "title": "Our Locations",
+    "locationIcon": "/icons/icon-location.svg",
+    "offices": [
+      {
+        "city": "Hargeisa",
+        "image": "/images/member-firm/somalia/office-hargeisa.jpg",
+        "imageAlt": "Parker Russell Horn of Africa office in Hargeisa",
+        "firmName": "Parker Russell Horn of Africa",
+        "addressLines": [
+          "Road No. 1",
+          "Hargeisa"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contact",
+          "name": "Hayat Ismail",
+          "details": [
+            {
+              "label": "Telephone",
+              "value": "+252 63 768 4922",
+              "iconName": "call",
+              "href": "tel:+252637684922"
+            },
+            {
+              "label": "Email",
+              "value": "hayatismail@parkerrussellsom.com",
+              "iconName": "mail",
+              "href": "mailto:hayatismail@parkerrussellsom.com"
+            },
+            {
+              "label": "Opening Hours",
+              "value": "08:30–18:00",
+              "icon": "/icons/icon-schedule.svg"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      },
+      {
+        "city": "Mogadishu",
+        "image": "/images/member-firm/somalia/office-mogadishu.jpg",
+        "imageAlt": "Parker Russell Horn of Africa office in Mogadishu",
+        "firmName": "Parker Russell Horn of Africa",
+        "addressLines": [
+          "Mogadishu, Somalia",
+          "Office Address: To be confirmed with the member firm"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contact",
+          "name": "Hayat Ismail",
+          "details": [
+            {
+              "label": "Telephone",
+              "value": "+252 63 768 4922",
+              "iconName": "call",
+              "href": "tel:+252637684922"
+            },
+            {
+              "label": "Email",
+              "value": "hayatismail@parkerrussellsom.com",
+              "iconName": "mail",
+              "href": "mailto:hayatismail@parkerrussellsom.com"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      }
+    ]
+  },
+  "mfServices": {
+    "id": "member-firm-services",
+    "services": {
+      "title": "Services",
+      "items": [
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Audit & Assurance"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Accounting & Financial Reporting"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Tax Advisory & Compliance"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Corporate Financial Advisory"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Business Advisory"
+        },
+        {
+          "icon": "/icons/icon-person.svg",
+          "label": "HR & Payroll Services"
+        },
+        {
+          "icon": "/icons/icon-domain.svg",
+          "label": "Corporate Secretarial Services"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "IT Audit"
+        },
+        {
+          "icon": "/icons/icon-computer.svg",
+          "label": "ERP & Business Systems Support"
+        }
+      ]
+    },
+    "industries": {
+      "title": "Industries",
+      "items": [
+        {
+          "icon": "/icons/icon-domain.svg",
+          "label": "Financial Services"
+        },
+        {
+          "icon": "/icons/icon-construction.svg",
+          "label": "Manufacturing & Retail"
+        },
+        {
+          "icon": "/icons/icon-construction.svg",
+          "label": "Real Estate & Construction"
+        },
+        {
+          "icon": "/icons/icon-person.svg",
+          "label": "Professional & Business Services"
+        },
+        {
+          "icon": "/icons/icon-person.svg",
+          "label": "Charities & Non-Profit Organisations"
+        },
+        {
+          "icon": "/icons/icon-beach-access.svg",
+          "label": "Travel, Tourism & Hospitality"
+        }
+      ]
+    }
+  },
+  "mfFinal": {
+    "id": "member-firm-final",
+    "imageBg": "/images/member-firm/somalia/final-cta-bg.jpg",
+    "title": "Local Knowledge. Regional Capability. International Connections.",
+    "lead": "Through Parker Russell International, Parker Russell Horn of Africa combines an understanding of the local business environment with access to international professional expertise, relationships and cross-border capabilities across the wider network.",
+    "button": {
+      "label": "Contact Parker Russell Horn of Africa",
+      "href": "contact.html",
+      "icon": true
+    }
+  }
+}

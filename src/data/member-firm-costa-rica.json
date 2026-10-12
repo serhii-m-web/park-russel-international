@@ -1,0 +1,164 @@
+{
+  "meta": {
+    "title": "Parker Russell International Member Firm in Costa Rica | Despacho Jimenez y Hernandez, Limitada",
+    "description": "Despacho Jimenez y Hernandez, Limitada is the Parker Russell International member firm in Costa Rica, delivering professional services connected to the international Parker Russell network."
+  },
+  "mfHero": {
+    "id": "member-firm-hero",
+    "imageBg": "/images/member-firm/costa-rica/hero-bg.jpg",
+    "imageLoading": "eager",
+    "tag": "Costa Rica",
+    "title": "Parker Russell International Member Firm in Costa Rica",
+    "firmName": "Despacho Jimenez y Hernandez, Limitada",
+    "lead": "Audit, accounting, tax and business advisory expertise in Costa Rica, connected to the international capabilities of the Parker Russell network.",
+    "about": {
+      "icon": "/icons/icon-domain.svg",
+      "title": "About Despacho Jimenez y Hernandez",
+      "lead": "Despacho Jimenez y Hernandez, Limitada is an independent audit and consulting firm based in Santo Domingo de Heredia, supporting businesses and organisations across audit, accounting, taxation and advisory matters.",
+      "body": "The firm combines local professional expertise with capabilities across financial reporting, internal audit, tax consulting, management advisory, outsourcing and wider business support."
+    }
+  },
+  "mfOffice": {
+    "id": "member-firm-office",
+    "title": "Our Office in Costa Rica",
+    "locationIcon": "/icons/icon-location.svg",
+    "offices": [
+      {
+        "city": "Santo Domingo de Heredia",
+        "image": "/images/member-firm/costa-rica/office.jpg",
+        "imageAlt": "Despacho Jimenez y Hernandez office in Santo Domingo de Heredia",
+        "firmName": "Despacho Jimenez y Hernandez, Limitada",
+        "addressLines": [
+          "Edificio Aleju",
+          "Second Floor",
+          "Santo Domingo de Heredia, Costa Rica"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contact",
+          "name": "Jorge Jimenez Chinchilla",
+          "details": [
+            {
+              "label": "Telephone",
+              "value": "+506 2244 5300",
+              "iconName": "call",
+              "href": "tel:+50622445300"
+            },
+            {
+              "label": "Email",
+              "value": "jj@despachojimenez.com",
+              "iconName": "mail",
+              "href": "mailto:jj@despachojimenez.com"
+            },
+            {
+              "label": "Opening Hours",
+              "value": "08:30–18:00",
+              "icon": "/icons/icon-schedule.svg"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      }
+    ]
+  },
+  "mfServices": {
+    "id": "member-firm-services",
+    "services": {
+      "title": "Services",
+      "items": [
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Audit & Assurance"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Financial Statement Audit"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Internal Audit & Outsourcing"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Accounting & Financial Reporting"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Accounting Outsourcing"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Tax Advisory & Consulting"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Financial Advisory"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Financial Planning"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Management Consulting"
+        },
+        {
+          "icon": "/icons/icon-computer.svg",
+          "label": "Payroll Outsourcing"
+        },
+        {
+          "icon": "/icons/icon-person.svg",
+          "label": "Human Resources & Recruitment"
+        },
+        {
+          "icon": "/icons/icon-school.svg",
+          "label": "Professional Training"
+        }
+      ]
+    },
+    "industries": {
+      "title": "Industries",
+      "items": [
+        {
+          "icon": "/icons/icon-computer.svg",
+          "label": "Technology, Media & Telecommunications"
+        },
+        {
+          "icon": "/icons/icon-construction.svg",
+          "label": "Manufacturing & Industrial"
+        },
+        {
+          "icon": "/icons/icon-bolt.svg",
+          "label": "Energy & Natural Resources"
+        },
+        {
+          "icon": "/icons/icon-apartment.svg",
+          "label": "Real Estate & Property"
+        },
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Government & Public Sector"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Healthcare"
+        }
+      ]
+    }
+  },
+  "mfFinal": {
+    "id": "member-firm-final",
+    "imageBg": "/images/member-firm/costa-rica/final-cta-bg.jpg",
+    "title": "Local Expertise. International Connections.",
+    "lead": "Through Parker Russell International, Despacho Jimenez y Hernandez combines established professional expertise in Costa Rica with access to international knowledge, relationships and cross-border capabilities across the wider network.",
+    "button": {
+      "label": "Contact Our Costa Rica Member Firm",
+      "href": "contact.html",
+      "icon": true
+    }
+  }
+}

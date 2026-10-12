@@ -1,0 +1,332 @@
+{
+  "meta": {
+    "title": "Parker Russell International Member Firm in Malaysia | Parker Russell Malaysia / Afrizan Tarmili Khairul Azhar PLT (AFTAAS)",
+    "description": "Parker Russell Malaysia / Afrizan Tarmili Khairul Azhar PLT (AFTAAS) is the Parker Russell International member firm in Malaysia, delivering professional services connected to the international Parker Russell network."
+  },
+  "mfHero": {
+    "id": "member-firm-hero",
+    "imageBg": "/images/member-firm/malaysia/hero-bg.jpg",
+    "imageLoading": "eager",
+    "tag": "Malaysia",
+    "title": "Parker Russell International Member Firm in Malaysia",
+    "firmName": "Parker Russell Malaysia / Afrizan Tarmili Khairul Azhar PLT (AFTAAS)",
+    "lead": "Audit, tax, accounting and business advisory expertise across Malaysia, connected to the international capabilities of the Parker Russell network.",
+    "about": {
+      "icon": "/icons/icon-domain.svg",
+      "title": "About Parker Russell Malaysia",
+      "lead": "Afrizan Tarmili Khairul Azhar PLT (AFTAAS) is an established Malaysian chartered accountancy and business advisory firm providing professional services to businesses and organisations across Malaysia.",
+      "body": "With a head office in Kuala Lumpur and a presence across key Malaysian markets, the firm combines multidisciplinary expertise across audit and assurance, taxation, accounting, corporate finance and business advisory."
+    }
+  },
+  "mfOffice": {
+    "id": "member-firm-office",
+    "title": "Our Offices in Malaysia",
+    "locationIcon": "/icons/icon-location.svg",
+    "offices": [
+      {
+        "city": "Kuala Lumpur — Head Office",
+        "image": "/images/member-firm/malaysia/office-kuala-lumpur.jpg",
+        "imageAlt": "AFTAAS office in Kuala Lumpur",
+        "firmName": "AFTAAS",
+        "addressLines": [
+          "2, Jalan Rampai Niaga 2",
+          "Rampai Business Park",
+          "53300 Kuala Lumpur, Malaysia"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contact",
+          "name": "Datuk Mohd Afrizan bin Husain — Managing Partner",
+          "details": [
+            {
+              "label": "Telephone",
+              "value": "+60 3 4143 9330",
+              "iconName": "call",
+              "href": "tel:+60341439330"
+            },
+            {
+              "label": "Email",
+              "value": "aftaas@aftaas.com",
+              "iconName": "mail",
+              "href": "mailto:aftaas@aftaas.com"
+            },
+            {
+              "label": "Opening Hours",
+              "value": "Monday–Friday, 08:30–17:30",
+              "icon": "/icons/icon-schedule.svg"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      },
+      {
+        "city": "Shah Alam",
+        "image": "/images/member-firm/malaysia/office-shah-alam.jpg",
+        "imageAlt": "AFTAAS office in Shah Alam",
+        "firmName": "AFTAAS",
+        "addressLines": [
+          "4-04-02, Presint Alami",
+          "Pusat Perniagaan Worldwide 2, Seksyen 13",
+          "40100 Shah Alam, Selangor, Malaysia"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contact",
+          "name": "AFTAAS",
+          "details": [
+            {
+              "label": "Telephone",
+              "value": "+60 3 5518 1300",
+              "iconName": "call",
+              "href": "tel:+60355181300"
+            },
+            {
+              "label": "Email",
+              "value": "aftaas.shahalam@aftaas.com",
+              "iconName": "mail",
+              "href": "mailto:aftaas.shahalam@aftaas.com"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      },
+      {
+        "city": "Ipoh",
+        "image": "/images/member-firm/malaysia/office-ipoh.jpg",
+        "imageAlt": "AFTAAS office in Ipoh",
+        "firmName": "AFTAAS",
+        "addressLines": [
+          "25A, Medan Istana 2",
+          "Bandar Ipoh Raya",
+          "30000 Ipoh, Perak, Malaysia"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contact",
+          "name": "AFTAAS",
+          "details": [
+            {
+              "label": "Telephone",
+              "value": "+60 5 242 7179",
+              "iconName": "call",
+              "href": "tel:+6052427179"
+            },
+            {
+              "label": "Email",
+              "value": "aftaas.ipoh@aftaas.com",
+              "iconName": "mail",
+              "href": "mailto:aftaas.ipoh@aftaas.com"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      },
+      {
+        "city": "Kota Bharu",
+        "image": "/images/member-firm/malaysia/office-kota-bharu.jpg",
+        "imageAlt": "AFTAAS office in Kota Bharu",
+        "firmName": "AFTAAS",
+        "addressLines": [
+          "Lot 2732A, Wisma Haminah",
+          "Jalan Tok Kenali, Kubang Kerian",
+          "16150 Kota Bharu, Kelantan, Malaysia"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contact",
+          "name": "AFTAAS",
+          "details": [
+            {
+              "label": "Telephone",
+              "value": "+60 9 766 2440",
+              "iconName": "call",
+              "href": "tel:+6097662440"
+            },
+            {
+              "label": "Email",
+              "value": "aftaas.kb@aftaas.com",
+              "iconName": "mail",
+              "href": "mailto:aftaas.kb@aftaas.com"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      },
+      {
+        "city": "Kuantan",
+        "image": "/images/member-firm/malaysia/office-kuantan.jpg",
+        "imageAlt": "AFTAAS office in Kuantan",
+        "firmName": "AFTAAS",
+        "addressLines": [
+          "B42, Lorong Tun Ismail 8",
+          "Sri Dagangan 2",
+          "25000 Kuantan, Pahang, Malaysia"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contact",
+          "name": "AFTAAS",
+          "details": [
+            {
+              "label": "Telephone",
+              "value": "+60 9 517 8388",
+              "iconName": "call",
+              "href": "tel:+6095178388"
+            },
+            {
+              "label": "Email",
+              "value": "aftaas.kuantan@aftaas.com",
+              "iconName": "mail",
+              "href": "mailto:aftaas.kuantan@aftaas.com"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      },
+      {
+        "city": "Labuan",
+        "image": "/images/member-firm/malaysia/office-labuan.jpg",
+        "imageAlt": "AFTAAS / Parker Russell office in Labuan",
+        "firmName": "AFTAAS / Parker Russell",
+        "addressLines": [
+          "Labuan, Malaysia",
+          "Office Address: To be confirmed with the member firm"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contact",
+          "name": "AFTAAS / Parker Russell",
+          "details": [
+            {
+              "label": "Email",
+              "value": "aftaas@aftaas.com",
+              "iconName": "mail",
+              "href": "mailto:aftaas@aftaas.com"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      }
+    ]
+  },
+  "mfServices": {
+    "id": "member-firm-services",
+    "services": {
+      "title": "Services",
+      "items": [
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Audit & Assurance"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Accounting & Financial Reporting"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Accounting & Outsourcing"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Tax Advisory & Compliance"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Corporate & Business Tax"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Corporate Finance"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Business Advisory"
+        },
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Shariah Advisory Services"
+        },
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Risk & Compliance Advisory"
+        },
+        {
+          "icon": "/icons/icon-school.svg",
+          "label": "Training & Professional Development"
+        }
+      ]
+    },
+    "industries": {
+      "title": "Industries",
+      "items": [
+        {
+          "icon": "/icons/icon-restaurant.svg",
+          "label": "Agriculture & Food"
+        },
+        {
+          "icon": "/icons/icon-construction.svg",
+          "label": "Construction & Infrastructure"
+        },
+        {
+          "icon": "/icons/icon-bolt.svg",
+          "label": "Energy & Utilities"
+        },
+        {
+          "icon": "/icons/icon-construction.svg",
+          "label": "Manufacturing & Industrial"
+        },
+        {
+          "icon": "/icons/icon-apartment.svg",
+          "label": "Real Estate & Property"
+        },
+        {
+          "icon": "/icons/icon-computer.svg",
+          "label": "Technology & Telecommunications"
+        },
+        {
+          "icon": "/icons/icon-beach-access.svg",
+          "label": "Tourism & Hospitality"
+        },
+        {
+          "icon": "/icons/icon-person.svg",
+          "label": "Professional & Business Services"
+        }
+      ]
+    }
+  },
+  "mfFinal": {
+    "id": "member-firm-final",
+    "imageBg": "/images/member-firm/malaysia/final-cta-bg.jpg",
+    "title": "Local Expertise. International Connections.",
+    "lead": "Through Parker Russell International, AFTAAS combines established expertise across the Malaysian market with access to international professional knowledge, relationships and cross-border capabilities across the wider network.",
+    "button": {
+      "label": "Contact Our Malaysia Member Firm",
+      "href": "contact.html",
+      "icon": true
+    }
+  }
+}

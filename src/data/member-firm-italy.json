@@ -1,0 +1,152 @@
+{
+  "meta": {
+    "title": "Parker Russell International Member Firm in Italy | Parker Russell Italia",
+    "description": "Parker Russell Italia is the Parker Russell International member firm in Italy, delivering professional services connected to the international Parker Russell network."
+  },
+  "mfHero": {
+    "id": "member-firm-hero",
+    "imageBg": "/images/member-firm/italy/hero-bg.jpg",
+    "imageLoading": "eager",
+    "tag": "Italy",
+    "title": "Parker Russell International Member Firm in Italy",
+    "firmName": "Parker Russell Italia",
+    "lead": "Integrated tax, audit, legal and business advisory expertise in Italy, connected to the international capabilities of the Parker Russell network.",
+    "about": {
+      "icon": "/icons/icon-domain.svg",
+      "title": "About Parker Russell Italia",
+      "lead": "Parker Russell Italia provides integrated professional services to Italian and international businesses through specialist tax, audit and legal practices.",
+      "body": "With offices in Milan and Rome, the firm combines local market expertise with multidisciplinary capabilities across taxation, audit, corporate and legal advisory, transfer pricing, global mobility and international business matters. The practice has established roots in Milan dating back to 2000 and became part of Parker Russell International in 2023."
+    }
+  },
+  "mfOffice": {
+    "id": "member-firm-office",
+    "title": "Our Offices in Italy",
+    "locationIcon": "/icons/icon-location.svg",
+    "offices": [
+      {
+        "city": "Milan",
+        "image": "/images/member-firm/italy/office-milan.jpg",
+        "imageAlt": "Parker Russell Italia office in Milan",
+        "firmName": "Parker Russell Italia",
+        "addressLines": [
+          "Via Giuseppe Mercalli, 14",
+          "20122 Milano MI",
+          "Italy"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contacts",
+          "name": "Fabio Cosmai, Stefano Cosmai",
+          "details": [
+            {
+              "iconName": "call",
+              "label": "Telephone",
+              "value": "+39 02 89070252",
+              "href": "tel:+390289070252"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      },
+      {
+        "city": "Rome",
+        "image": "/images/member-firm/italy/office-rome.jpg",
+        "imageAlt": "Parker Russell Italia office in Rome",
+        "firmName": "Parker Russell Italia",
+        "addressLines": [
+          "Via Crescenzio 43",
+          "00193 Rome",
+          "Italy"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contacts",
+          "details": [
+            {
+              "iconName": "call",
+              "label": "Telephone",
+              "value": "+39 06 45786160",
+              "href": "tel:+390645786160"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      }
+    ]
+  },
+  "mfServices": {
+    "id": "member-firm-services",
+    "services": {
+      "title": "Services",
+      "items": [
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Accounting & Financial Reporting"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Corporate & International Tax"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Audit & Assurance"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Legal Advisory"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Transfer Pricing"
+        },
+        {
+          "icon": "/icons/icon-person.svg",
+          "label": "Global Mobility"
+        },
+        {
+          "icon": "/icons/icon-domain.svg",
+          "label": "Corporate Finance"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Management Control"
+        },
+        {
+          "icon": "/icons/icon-person.svg",
+          "label": "Payroll & Employment Support"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Business Advisory"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Risk & Internal Control"
+        },
+        {
+          "icon": "/icons/icon-public.svg",
+          "label": "International Business Services"
+        }
+      ]
+    }
+  },
+  "mfFinal": {
+    "id": "member-firm-final",
+    "imageBg": "/images/member-firm/italy/final-cta-bg.jpg",
+    "title": "Local Expertise. International Connections.",
+    "lead": "Through Parker Russell International, Parker Russell Italia combines multidisciplinary expertise in the Italian market with access to international knowledge, professional relationships and cross-border capabilities across the wider network.",
+    "button": {
+      "label": "Contact Our Italy Member Firm",
+      "href": "contact.html",
+      "icon": true
+    }
+  }
+}

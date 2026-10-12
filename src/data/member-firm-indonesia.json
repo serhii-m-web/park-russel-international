@@ -1,0 +1,276 @@
+{
+  "meta": {
+    "title": "Parker Russell International Member Firm in Indonesia | Parker Russell Indonesia / KAP Heliantono & Rekan",
+    "description": "Parker Russell Indonesia / KAP Heliantono & Rekan is the Parker Russell International member firm in Indonesia, delivering professional services connected to the international Parker Russell network."
+  },
+  "mfHero": {
+    "id": "member-firm-hero",
+    "imageBg": "/images/member-firm/indonesia/hero-bg.jpg",
+    "imageLoading": "eager",
+    "tag": "Indonesia",
+    "title": "Parker Russell International Member Firm in Indonesia",
+    "firmName": "Parker Russell Indonesia / KAP Heliantono & Rekan",
+    "lead": "Audit, accounting, tax and business advisory expertise across Indonesia, connected to the international capabilities of the Parker Russell network.",
+    "about": {
+      "icon": "/icons/icon-domain.svg",
+      "title": "About Parker Russell Indonesia",
+      "lead": "Established in 1996, KAP Heliantono & Rekan is an independent public accounting and advisory firm supporting Indonesian and international organisations across audit, accounting, taxation and business consulting.",
+      "body": "Headquartered in Jakarta with offices across key Indonesian markets, the firm combines extensive local experience with multidisciplinary expertise in assurance, financial reporting, taxation, internal audit, financial management and business advisory."
+    }
+  },
+  "mfOffice": {
+    "id": "member-firm-office",
+    "title": "Our Offices in Indonesia",
+    "locationIcon": "/icons/icon-location.svg",
+    "offices": [
+      {
+        "city": "Jakarta — Head Office",
+        "image": "/images/member-firm/indonesia/office-jakarta.jpg",
+        "imageAlt": "KAP Heliantono & Rekan office in Jakarta",
+        "firmName": "KAP Heliantono & Rekan",
+        "addressLines": [
+          "Aminta Plaza, 7th Floor, Suite 704",
+          "Jl. TB Simatupang Kav. 10",
+          "Jakarta Selatan 12310, Indonesia"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contacts",
+          "name": "Heliantono — Lead Partner / Yuni Nur Ikasari — Partner / PRI Contact",
+          "details": [
+            {
+              "label": "Telephone",
+              "value": "+62 21 766 1348–50",
+              "iconName": "call",
+              "href": "tel:+6221766134850"
+            },
+            {
+              "label": "Email",
+              "value": "info@heliantonorekan.com",
+              "iconName": "mail",
+              "href": "mailto:info@heliantonorekan.com"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      },
+      {
+        "city": "Bandung",
+        "image": "/images/member-firm/indonesia/office-bandung.jpg",
+        "imageAlt": "KAP Heliantono & Rekan office in Bandung",
+        "firmName": "KAP Heliantono & Rekan",
+        "addressLines": [
+          "Jl. Sangkuriang No. B-1",
+          "Dago, Coblong",
+          "Bandung 40135, West Java, Indonesia"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Branch Lead",
+          "name": "Elly Farida",
+          "details": [
+            {
+              "label": "Telephone",
+              "value": "+62 22 250 3217",
+              "iconName": "call",
+              "href": "tel:+62222503217"
+            },
+            {
+              "label": "Email",
+              "value": "bandung@heliantonorekan.com",
+              "iconName": "mail",
+              "href": "mailto:bandung@heliantonorekan.com"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      },
+      {
+        "city": "Semarang",
+        "image": "/images/member-firm/indonesia/office-semarang.jpg",
+        "imageAlt": "KAP Heliantono & Rekan office in Semarang",
+        "firmName": "KAP Heliantono & Rekan",
+        "addressLines": [
+          "Graha Taman Bunga Block AA/11 No. 2A",
+          "Kedungpane, Mijen",
+          "Semarang 50211, Central Java, Indonesia"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contact",
+          "name": "KAP Heliantono & Rekan",
+          "details": [
+            {
+              "label": "Telephone",
+              "value": "+62 24 7052 4666 / +62 24 850 5830",
+              "iconName": "call",
+              "href": "tel:+622470524666"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      },
+      {
+        "city": "Surabaya",
+        "image": "/images/member-firm/indonesia/office-surabaya.jpg",
+        "imageAlt": "KAP Heliantono & Rekan office in Surabaya",
+        "firmName": "KAP Heliantono & Rekan",
+        "addressLines": [
+          "Jl. Barata Jaya No. 84",
+          "Surabaya",
+          "East Java, Indonesia"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contact",
+          "name": "KAP Heliantono & Rekan",
+          "details": [
+            {
+              "label": "Telephone",
+              "value": "+62 31 501 6906",
+              "iconName": "call",
+              "href": "tel:+62315016906"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      }
+    ]
+  },
+  "mfServices": {
+    "id": "member-firm-services",
+    "services": {
+      "title": "Services",
+      "items": [
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Audit & Assurance"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Financial Statement Audit & Review"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Accounting & Financial Reporting"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Bookkeeping & Payroll"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Tax Advisory & Compliance"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Corporate & Individual Tax"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "International Tax"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Internal Audit"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Business & Management Consulting"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Due Diligence"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Compliance Reviews"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Accounting Information Systems"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Financial Technology Advisory"
+        }
+      ]
+    },
+    "industries": {
+      "title": "Industries",
+      "items": [
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Banking & Financial Services"
+        },
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Insurance"
+        },
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Capital Markets & Investment"
+        },
+        {
+          "icon": "/icons/icon-construction.svg",
+          "label": "Manufacturing & Industrial"
+        },
+        {
+          "icon": "/icons/icon-local-shipping.svg",
+          "label": "Transport & Logistics"
+        },
+        {
+          "icon": "/icons/icon-computer.svg",
+          "label": "Technology"
+        },
+        {
+          "icon": "/icons/icon-apartment.svg",
+          "label": "Real Estate & Property"
+        },
+        {
+          "icon": "/icons/icon-computer.svg",
+          "label": "Retail & Consumer Business"
+        },
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Government & Public Sector"
+        },
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Pension Funds"
+        },
+        {
+          "icon": "/icons/icon-person.svg",
+          "label": "Charities & Non-Profit Organisations"
+        }
+      ]
+    }
+  },
+  "mfFinal": {
+    "id": "member-firm-final",
+    "imageBg": "/images/member-firm/indonesia/final-cta-bg.jpg",
+    "title": "Local Expertise. International Connections.",
+    "lead": "Through Parker Russell International, KAP Heliantono & Rekan combines established expertise across the Indonesian market with access to international professional knowledge, relationships and cross-border capabilities across the wider network.",
+    "button": {
+      "label": "Contact Our Indonesia Member Firm",
+      "href": "contact.html",
+      "icon": true
+    }
+  }
+}

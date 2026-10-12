@@ -1,0 +1,168 @@
+{
+  "meta": {
+    "title": "Parker Russell International Member Firm in Uruguay | Parker Russell Uruguay Camacho & Associates",
+    "description": "Parker Russell Uruguay Camacho & Associates is the Parker Russell International member firm in Uruguay, delivering professional services connected to the international Parker Russell network."
+  },
+  "mfHero": {
+    "id": "member-firm-hero",
+    "imageBg": "/images/member-firm/uruguay/hero-bg.jpg",
+    "imageLoading": "eager",
+    "tag": "Uruguay",
+    "title": "Parker Russell International Member Firm in Uruguay",
+    "firmName": "Parker Russell Uruguay Camacho & Associates",
+    "lead": "Audit, tax, accounting and business advisory expertise in Uruguay, connected to the international capabilities of the Parker Russell network.",
+    "about": {
+      "icon": "/icons/icon-domain.svg",
+      "title": "About Parker Russell Uruguay",
+      "lead": "Parker Russell Uruguay is a multidisciplinary professional services firm based in Montevideo, supporting local and international businesses across audit, taxation, accounting and business advisory matters.",
+      "body": "The firm combines established knowledge of the Uruguayan market with international capabilities, supporting clients with financial reporting, tax planning, investment projects, corporate matters, transactions and cross-border business requirements."
+    }
+  },
+  "mfOffice": {
+    "id": "member-firm-office",
+    "title": "Our Office in Uruguay",
+    "locationIcon": "/icons/icon-location.svg",
+    "offices": [
+      {
+        "city": "Montevideo",
+        "image": "/images/member-firm/uruguay/office.jpg",
+        "imageAlt": "Parker Russell Uruguay office in Montevideo",
+        "firmName": "Parker Russell Uruguay Camacho & Associates",
+        "addressLines": [
+          "Juncal 1378",
+          "Office 1504",
+          "Montevideo, Uruguay"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contact",
+          "name": "Wilma Camacho",
+          "details": [
+            {
+              "label": "Telephone",
+              "value": "+598 2 901 9453",
+              "iconName": "call",
+              "href": "tel:+59829019453"
+            },
+            {
+              "label": "Email",
+              "value": "info@parkerrussell.com.uy",
+              "iconName": "mail",
+              "href": "mailto:info@parkerrussell.com.uy"
+            },
+            {
+              "label": "Opening Hours",
+              "value": "09:00–17:00",
+              "icon": "/icons/icon-schedule.svg"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      }
+    ]
+  },
+  "mfServices": {
+    "id": "member-firm-services",
+    "services": {
+      "title": "Services",
+      "items": [
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Audit & Assurance"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Accounting & Outsourcing"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Tax Advisory & Compliance"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "International Tax Planning"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Business & Strategic Advisory"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Investment Project Advisory"
+        },
+        {
+          "icon": "/icons/icon-domain.svg",
+          "label": "Corporate & Company Administration"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Due Diligence"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Transfer Pricing"
+        },
+        {
+          "icon": "/icons/icon-domain.svg",
+          "label": "Internationalisation & Market Entry"
+        },
+        {
+          "icon": "/icons/icon-gavel.svg",
+          "label": "Legal & Notarial Support"
+        }
+      ]
+    },
+    "industries": {
+      "title": "Industries",
+      "items": [
+        {
+          "icon": "/icons/icon-construction.svg",
+          "label": "Manufacturing & Industrial"
+        },
+        {
+          "icon": "/icons/icon-eco.svg",
+          "label": "Agribusiness"
+        },
+        {
+          "icon": "/icons/icon-domain.svg",
+          "label": "Financial Services"
+        },
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "FinTech"
+        },
+        {
+          "icon": "/icons/icon-computer.svg",
+          "label": "Retail & Distribution"
+        },
+        {
+          "icon": "/icons/icon-apartment.svg",
+          "label": "Real Estate & Property"
+        },
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Asset & Wealth Management"
+        },
+        {
+          "icon": "/icons/icon-person.svg",
+          "label": "Professional & Business Services"
+        }
+      ]
+    }
+  },
+  "mfFinal": {
+    "id": "member-firm-final",
+    "imageBg": "/images/member-firm/uruguay/final-cta-bg.jpg",
+    "title": "Local Expertise. International Connections.",
+    "lead": "Through Parker Russell International, Parker Russell Uruguay combines established expertise in the Uruguayan market with access to international knowledge, professional relationships and cross-border capabilities across the wider network.",
+    "button": {
+      "label": "Contact Our Uruguay Member Firm",
+      "href": "contact.html",
+      "icon": true
+    }
+  }
+}

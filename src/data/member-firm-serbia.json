@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "title": "Parker Russell International Member Firm in Serbia | Parker Russell d.o.o. Belgrade",
+    "description": "Parker Russell d.o.o. Belgrade is the Parker Russell International member firm in Serbia, delivering professional services connected to the international Parker Russell network."
+  },
+  "mfHero": {
+    "id": "member-firm-hero",
+    "imageBg": "/images/member-firm/serbia/hero-bg.jpg",
+    "imageLoading": "eager",
+    "tag": "Serbia",
+    "title": "Parker Russell International Member Firm in Serbia",
+    "firmName": "Parker Russell d.o.o. Belgrade",
+    "lead": "Audit, accounting, tax and business advisory expertise in Serbia, connected to the international capabilities of the Parker Russell network.",
+    "about": {
+      "icon": "/icons/icon-domain.svg",
+      "title": "About Parker Russell Serbia",
+      "lead": "Established in 2016, Parker Russell d.o.o. Belgrade is an audit and consulting firm serving domestic and international businesses in Serbia.",
+      "body": "The firm combines expertise across audit, accounting, taxation, business consulting, valuation and internal audit, supporting organisations with financial reporting, compliance, transactions, internal controls and wider business requirements."
+    }
+  },
+  "mfOffice": {
+    "id": "member-firm-office",
+    "title": "Our Office in Serbia",
+    "locationIcon": "/icons/icon-location.svg",
+    "offices": [
+      {
+        "city": "Belgrade",
+        "image": "/images/member-firm/serbia/office.jpg",
+        "imageAlt": "Parker Russell d.o.o. Belgrade office in Belgrade",
+        "firmName": "Parker Russell d.o.o. Belgrade",
+        "addressLines": [
+          "Jablanička 184A",
+          "11030 Belgrade – Čukarica",
+          "Serbia"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contacts",
+          "name": "Ivan Ilić — Founder & Partner, Dalibor Vidaković — Partner",
+          "details": [
+            {
+              "label": "Telephone",
+              "value": "+381 11 408 43 59",
+              "iconName": "call",
+              "href": "tel:+381114084359"
+            },
+            {
+              "label": "Email",
+              "value": "office@parkerrussell.rs",
+              "iconName": "mail",
+              "href": "mailto:office@parkerrussell.rs"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      }
+    ]
+  },
+  "mfServices": {
+    "id": "member-firm-services",
+    "services": {
+      "title": "Services",
+      "items": [
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Audit & Assurance"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Accounting & Financial Reporting"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Tax Advisory & Compliance"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Business Consulting"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Internal Audit"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Asset & Equity Valuation"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Financial Due Diligence"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "IFRS Advisory & Implementation"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Financial Management & Internal Controls"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Business & Financial Analysis"
+        }
+      ]
+    }
+  },
+  "mfFinal": {
+    "id": "member-firm-final",
+    "imageBg": "/images/member-firm/serbia/final-cta-bg.jpg",
+    "title": "Local Expertise. International Connections.",
+    "lead": "Through Parker Russell International, Parker Russell Serbia combines established local professional expertise with access to international knowledge, relationships and cross-border capabilities across the wider network.",
+    "button": {
+      "label": "Contact Our Serbia Member Firm",
+      "href": "contact.html",
+      "icon": true
+    }
+  }
+}

@@ -1,0 +1,262 @@
+{
+  "meta": {
+    "title": "Parker Russell International Member Firm in Bangladesh | Parker Russell Bangladesh / Adhikari Khan Roy & Co., Chartered Accountants",
+    "description": "Parker Russell Bangladesh / Adhikari Khan Roy & Co., Chartered Accountants is the Parker Russell International member firm in Bangladesh, delivering professional services connected to the international Parker Russell network."
+  },
+  "mfHero": {
+    "id": "member-firm-hero",
+    "imageBg": "/images/member-firm/bangladesh/hero-bg.jpg",
+    "imageLoading": "eager",
+    "tag": "Bangladesh",
+    "title": "Parker Russell International Member Firm in Bangladesh",
+    "firmName": "Parker Russell Bangladesh / Adhikari Khan Roy & Co., Chartered Accountants",
+    "lead": "Audit, tax, accounting and regulatory advisory expertise in Bangladesh, connected to the international capabilities of the Parker Russell network.",
+    "about": {
+      "icon": "/icons/icon-domain.svg",
+      "title": "About Adhikari Khan Roy & Co.",
+      "lead": "Adhikari Khan Roy & Co. is an independent Chartered Accountancy firm based in Dhaka, supporting local and international businesses across audit, taxation, accounting and regulatory matters.",
+      "body": "The firm brings together experienced professionals across audit, tax, financial reporting and compliance. It also maintains professional representation outside Bangladesh in Mumbai, India and London, United Kingdom to support international and cross-border requirements."
+    }
+  },
+  "mfOffice": {
+    "id": "member-firm-office",
+    "title": "Our Locations in Bangladesh",
+    "locationIcon": "/icons/icon-location.svg",
+    "offices": [
+      {
+        "city": "Dhaka — Registered Office",
+        "image": "/images/member-firm/bangladesh/office-gulshan.jpg",
+        "imageAlt": "Adhikari Khan Roy & Co. office in Gulshan, Dhaka",
+        "firmName": "Adhikari Khan Roy & Co., Chartered Accountants",
+        "addressLines": [
+          "House 07, Level 5",
+          "Road 137/141, Gulshan 1",
+          "Dhaka 1212, Bangladesh"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "PRI Contact",
+          "name": "Enam H. Khan, FCA (ICAEW), FCA (ICAB), FCCA, FRSA — Audit Partner / Mohan Adhikari, FCA — Audit Partner / K D Roy, FCA (ICAB), ACA (ICAEW) — Tax Partner",
+          "details": [
+            {
+              "label": "Telephone",
+              "value": "+880 2 5504 5267 / 5268",
+              "iconName": "call",
+              "href": "tel:+8802550452675268"
+            },
+            {
+              "label": "Mobile",
+              "value": "+880 1717 386384",
+              "icon": "/icons/icon-mobile.svg",
+              "href": "tel:+8801717386384"
+            },
+            {
+              "label": "Email",
+              "value": "info@akrcbd.com",
+              "iconName": "mail",
+              "href": "mailto:info@akrcbd.com"
+            },
+            {
+              "label": "Opening Hours",
+              "value": "09:00–17:00",
+              "icon": "/icons/icon-schedule.svg"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      },
+      {
+        "city": "Dhaka — Regulatory Liaison Office",
+        "image": "/images/member-firm/bangladesh/office-agargaon.jpg",
+        "imageAlt": "Adhikari Khan Roy & Co. regulatory liaison office in Dhaka",
+        "firmName": "Adhikari Khan Roy & Co.",
+        "addressLines": [
+          "232/232(2) West Agargaon",
+          "A K Khan Tower, Level 7C, Sher-e-Bangla Nagar",
+          "Dhaka 1207, Bangladesh"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contact",
+          "name": "Adhikari Khan Roy & Co.",
+          "details": [
+            {
+              "label": "Telephone",
+              "value": "+880 1717 435794",
+              "icon": "/icons/icon-mobile.svg",
+              "href": "tel:+8801717435794"
+            },
+            {
+              "label": "Additional Line",
+              "value": "+880 2 2233 80202",
+              "iconName": "call",
+              "href": "tel:+8802223380202"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      },
+      {
+        "city": "Dhaka — Tax Liaison Office",
+        "image": "/images/member-firm/bangladesh/office-paltan.jpg",
+        "imageAlt": "Adhikari Khan Roy & Co. tax liaison office in Dhaka",
+        "firmName": "Adhikari Khan Roy & Co.",
+        "addressLines": [
+          "48A-B Purana Paltan",
+          "Baitul Khair Building, Level 8, Suite 806",
+          "Dhaka 1100, Bangladesh"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contact",
+          "name": "Adhikari Khan Roy & Co.",
+          "details": [
+            {
+              "label": "Email",
+              "value": "info@akrcbd.com",
+              "iconName": "mail",
+              "href": "mailto:info@akrcbd.com"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      }
+    ]
+  },
+  "mfServices": {
+    "id": "member-firm-services",
+    "services": {
+      "title": "Services",
+      "items": [
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Audit & Assurance"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Statutory Audit"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Internal Audit"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Government & NGO Audit"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Accounting & Financial Reporting"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Bookkeeping & Payroll"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Accounting Outsourcing & BPO"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Income Tax Advisory & Compliance"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Corporate VAT"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Customs Duties"
+        },
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Regulatory & Corporate Compliance"
+        },
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "FDI Reporting"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Financial Due Diligence"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Valuation Services"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Internal Controls & Financial Management"
+        }
+      ]
+    },
+    "industries": {
+      "title": "Industries",
+      "items": [
+        {
+          "icon": "/icons/icon-construction.svg",
+          "label": "Manufacturing & Industrial"
+        },
+        {
+          "icon": "/icons/icon-construction.svg",
+          "label": "Garments, Textiles & Apparel"
+        },
+        {
+          "icon": "/icons/icon-computer.svg",
+          "label": "Consumer Products & Footwear"
+        },
+        {
+          "icon": "/icons/icon-construction.svg",
+          "label": "Construction & Real Estate"
+        },
+        {
+          "icon": "/icons/icon-eco.svg",
+          "label": "Agriculture & Agribusiness"
+        },
+        {
+          "icon": "/icons/icon-computer.svg",
+          "label": "Technology, Media & Advertising"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Healthcare"
+        },
+        {
+          "icon": "/icons/icon-school.svg",
+          "label": "Education"
+        },
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Government & Public Sector"
+        },
+        {
+          "icon": "/icons/icon-person.svg",
+          "label": "NGOs, Charities & Non-Profit Organisations"
+        }
+      ]
+    }
+  },
+  "mfFinal": {
+    "id": "member-firm-final",
+    "imageBg": "/images/member-firm/bangladesh/final-cta-bg.jpg",
+    "title": "Local Expertise. International Connections.",
+    "lead": "Through Parker Russell International, Parker Russell Bangladesh combines established professional expertise in the Bangladeshi market with access to international knowledge, relationships and cross-border capabilities across the wider network.",
+    "button": {
+      "label": "Contact Our Bangladesh Member Firm",
+      "href": "contact.html",
+      "icon": true
+    }
+  }
+}

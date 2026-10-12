@@ -1,0 +1,214 @@
+{
+  "meta": {
+    "title": "Parker Russell International Member Firm in Azerbaijan | Parker Russell Azerbaijan LLC",
+    "description": "Parker Russell Azerbaijan LLC is the Parker Russell International member firm in Azerbaijan, delivering professional services connected to the international Parker Russell network."
+  },
+  "mfHero": {
+    "id": "member-firm-hero",
+    "imageBg": "/images/member-firm/azerbaijan/hero-bg.jpg",
+    "imageLoading": "eager",
+    "tag": "Azerbaijan",
+    "title": "Parker Russell International Member Firm in Azerbaijan",
+    "firmName": "Parker Russell Azerbaijan LLC",
+    "lead": "Audit, accounting, tax and advisory expertise in Azerbaijan, connected to the international capabilities of the Parker Russell network.",
+    "about": {
+      "icon": "/icons/icon-domain.svg",
+      "title": "About Parker Russell Azerbaijan",
+      "lead": "Established in Baku in 1999, Parker Russell Azerbaijan is an independent audit, accounting, tax and advisory firm serving local and international businesses across the Azerbaijani market.",
+      "body": "The firm combines more than two decades of local experience with specialist capabilities across financial reporting, taxation, assurance, transactions and business advisory. Parker Russell Azerbaijan joined Parker Russell International in 2025, extending its capabilities through access to international expertise and cross-border professional relationships."
+    }
+  },
+  "mfOffice": {
+    "id": "member-firm-office",
+    "title": "Our Office in Azerbaijan",
+    "locationIcon": "/icons/icon-location.svg",
+    "offices": [
+      {
+        "city": "Baku",
+        "image": "/images/member-firm/azerbaijan/office.jpg",
+        "imageAlt": "Parker Russell Azerbaijan office in Baku",
+        "firmName": "Parker Russell Azerbaijan LLC",
+        "addressLines": [
+          "HYATT Tower I, 3rd Floor",
+          "Abbasqulu Agha Bakikhanov Street",
+          "Baku AZ1065, Azerbaijan"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contact",
+          "name": "Elmar Abasov — Managing Partner / Nurlan Guliyev — Founder Partner / Elnura Abdinova — Chief Executive Officer",
+          "details": [
+            {
+              "label": "Telephone",
+              "value": "+994 12 505 58 47 / 48",
+              "iconName": "call",
+              "href": "tel:+99412505584748"
+            },
+            {
+              "label": "Mobile",
+              "value": "+994 50 225 79 15",
+              "icon": "/icons/icon-mobile.svg",
+              "href": "tel:+994502257915"
+            },
+            {
+              "label": "Email",
+              "value": "office@parkerrussell.az",
+              "iconName": "mail",
+              "href": "mailto:office@parkerrussell.az"
+            },
+            {
+              "label": "Opening Hours",
+              "value": "09:00–17:00",
+              "icon": "/icons/icon-schedule.svg"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      }
+    ]
+  },
+  "mfServices": {
+    "id": "member-firm-services",
+    "services": {
+      "title": "Services",
+      "items": [
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Audit & Assurance"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Statutory & Special-Purpose Audit"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Internal Audit"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Accounting & Financial Reporting"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "IFRS & IFRS for SMEs Reporting"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Tax Advisory & Compliance"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Transfer Pricing"
+        },
+        {
+          "icon": "/icons/icon-person.svg",
+          "label": "VAT & Payroll Tax Advisory"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Financial & Commercial Due Diligence"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Business & Asset Valuation"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Corporate Finance & Financial Advisory"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Business Plans & Feasibility Studies"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Strategy & Management Consulting"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Market Research"
+        },
+        {
+          "icon": "/icons/icon-person.svg",
+          "label": "HR Consulting"
+        },
+        {
+          "icon": "/icons/icon-domain.svg",
+          "label": "Business Establishment & Corporate Support"
+        },
+        {
+          "icon": "/icons/icon-gavel.svg",
+          "label": "Legal Advisory"
+        }
+      ]
+    },
+    "industries": {
+      "title": "Industries",
+      "items": [
+        {
+          "icon": "/icons/icon-bolt.svg",
+          "label": "Oil, Gas & Energy"
+        },
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Banking & Financial Services"
+        },
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Investment & Insurance"
+        },
+        {
+          "icon": "/icons/icon-local-shipping.svg",
+          "label": "Aviation & Air Cargo"
+        },
+        {
+          "icon": "/icons/icon-local-shipping.svg",
+          "label": "Maritime, Transport & Logistics"
+        },
+        {
+          "icon": "/icons/icon-construction.svg",
+          "label": "Manufacturing & Industrial"
+        },
+        {
+          "icon": "/icons/icon-construction.svg",
+          "label": "Construction & Infrastructure"
+        },
+        {
+          "icon": "/icons/icon-directions-car.svg",
+          "label": "Automotive"
+        },
+        {
+          "icon": "/icons/icon-restaurant.svg",
+          "label": "Agriculture & Food"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Healthcare"
+        },
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Technology & Payment Services"
+        },
+        {
+          "icon": "/icons/icon-beach-access.svg",
+          "label": "Tourism, Hospitality & Entertainment"
+        }
+      ]
+    }
+  },
+  "mfFinal": {
+    "id": "member-firm-final",
+    "imageBg": "/images/member-firm/azerbaijan/final-cta-bg.jpg",
+    "title": "Local Expertise. International Connections.",
+    "lead": "Through Parker Russell International, Parker Russell Azerbaijan combines established expertise in the Azerbaijani market with access to international professional knowledge, relationships and cross-border capabilities across the wider network.",
+    "button": {
+      "label": "Contact Our Azerbaijan Member Firm",
+      "href": "contact.html",
+      "icon": true
+    }
+  }
+}

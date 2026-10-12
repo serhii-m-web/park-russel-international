@@ -30,6 +30,16 @@
     @include adaptive-value('font-size', 48, 32, 1);
   }
 
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    @include media('<tablet') {
+      gap: 24px;
+    }
+  }
+
   &__grid {
     display: grid;
     grid-template-columns: minmax(0, 1fr) minmax(0, 600px);
@@ -90,6 +100,32 @@
     }
   }
 
+  &__city {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    z-index: 2;
+    display: inline-flex;
+    align-items: center;
+    height: 36px;
+    padding: 0 14px;
+    border-radius: 1000px;
+    background-color: $color-navy;
+    color: $color-white;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: -0.12px;
+    line-height: 1;
+
+    @include media('<tablet') {
+      top: 20px;
+      left: 20px;
+      height: 32px;
+      padding: 0 12px;
+      font-size: 13px;
+    }
+  }
+
   &__overlay {
     position: relative;
     z-index: 1;
@@ -101,7 +137,7 @@
     border: 1px solid rgba($color-white, 0.14);
     border-radius: 20px;
     background: rgba(20, 28, 46, 0.74);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(20px);
 
     @include media('<tablet') {
       gap: 16px;

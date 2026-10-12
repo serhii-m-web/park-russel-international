@@ -1,0 +1,178 @@
+{
+  "meta": {
+    "title": "Parker Russell International Member Firm in Ukraine | Parker Russell Ukraine",
+    "description": "Parker Russell Ukraine is the Parker Russell International member firm in Ukraine, delivering professional services connected to the international Parker Russell network."
+  },
+  "mfHero": {
+    "id": "member-firm-hero",
+    "imageBg": "/images/member-firm/ukraine/hero-bg.jpg",
+    "imageLoading": "eager",
+    "tag": "Ukraine",
+    "title": "Parker Russell International Member Firm in Ukraine",
+    "firmName": "Parker Russell Ukraine",
+    "lead": "Audit, tax, legal and business advisory expertise in Ukraine, connected to the international capabilities of the Parker Russell network.",
+    "about": {
+      "icon": "/icons/icon-domain.svg",
+      "title": "About Parker Russell Ukraine",
+      "lead": "Parker Russell Ukraine is an independent audit, tax, consulting and legal firm based in Kyiv, supporting Ukrainian and international businesses across financial, regulatory and strategic matters.",
+      "body": "The firm combines local market knowledge with international professional standards, helping organisations address audit and reporting requirements, taxation, corporate and legal matters, transactions, restructuring, investment and wider business transformation."
+    }
+  },
+  "mfOffice": {
+    "id": "member-firm-office",
+    "title": "Our Office in Ukraine",
+    "locationIcon": "/icons/icon-location.svg",
+    "offices": [
+      {
+        "city": "Kyiv",
+        "image": "/images/member-firm/ukraine/office.jpg",
+        "imageAlt": "Parker Russell Ukraine office in Kyiv",
+        "firmName": "Parker Russell Ukraine",
+        "addressLines": [
+          "8th Floor, IQ Business Center",
+          "13–15 Bolsunovska Street",
+          "Kyiv 01014, Ukraine"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contact",
+          "name": "Elena Lynnyk",
+          "details": [
+            {
+              "label": "Telephone",
+              "value": "+380 67 403 49 66",
+              "iconName": "call",
+              "href": "tel:+380674034966"
+            },
+            {
+              "label": "Mobile",
+              "value": "+380 67 323 75 99",
+              "icon": "/icons/icon-mobile.svg",
+              "href": "tel:+380673237599"
+            },
+            {
+              "label": "Email",
+              "value": "office@parkerrussell.com.ua",
+              "iconName": "mail",
+              "href": "mailto:office@parkerrussell.com.ua"
+            },
+            {
+              "label": "Opening Hours",
+              "value": "09:00–17:00",
+              "icon": "/icons/icon-schedule.svg"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      }
+    ]
+  },
+  "mfServices": {
+    "id": "member-firm-services",
+    "services": {
+      "title": "Services",
+      "items": [
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Audit & Assurance"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Accounting & Financial Reporting"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Tax Advisory & Compliance"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Legal Advisory"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Financial Advisory"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "M&A Advisory"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Investment Advisory"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Capital Raising"
+        },
+        {
+          "icon": "/icons/icon-domain.svg",
+          "label": "Corporate & Business Restructuring"
+        },
+        {
+          "icon": "/icons/icon-domain.svg",
+          "label": "International Corporate Structuring"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Financial Analysis & Business Planning"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Professional Training & Development"
+        }
+      ]
+    },
+    "industries": {
+      "title": "Industries",
+      "items": [
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Banking & Financial Services"
+        },
+        {
+          "icon": "/icons/icon-computer.svg",
+          "label": "Technology & IT"
+        },
+        {
+          "icon": "/icons/icon-construction.svg",
+          "label": "Construction & Real Estate"
+        },
+        {
+          "icon": "/icons/icon-restaurant.svg",
+          "label": "Agriculture"
+        },
+        {
+          "icon": "/icons/icon-restaurant.svg",
+          "label": "Food & HoReCa"
+        },
+        {
+          "icon": "/icons/icon-local-shipping.svg",
+          "label": "Trade & E-commerce"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Defence & Aerospace"
+        },
+        {
+          "icon": "/icons/icon-construction.svg",
+          "label": "Infrastructure, Transport & Logistics"
+        }
+      ]
+    }
+  },
+  "mfFinal": {
+    "id": "member-firm-final",
+    "imageBg": "/images/member-firm/ukraine/final-cta-bg.jpg",
+    "title": "Local Expertise. International Connections.",
+    "lead": "Through Parker Russell International, Parker Russell Ukraine combines deep understanding of the Ukrainian business environment with access to international expertise, professional relationships and cross-border capabilities across the wider network.",
+    "button": {
+      "label": "Contact Our Ukraine Member Firm",
+      "href": "contact.html",
+      "icon": true
+    }
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "meta": {
+    "title": "Parker Russell International Member Firm in Nigeria | Parker Russell Offor / Parker Randall Offor, Chartered Accountants",
+    "description": "Parker Russell Offor / Parker Randall Offor, Chartered Accountants is the Parker Russell International member firm in Nigeria, delivering professional services connected to the international Parker Russell network."
+  },
+  "mfHero": {
+    "id": "member-firm-hero",
+    "imageBg": "/images/member-firm/nigeria/hero-bg.jpg",
+    "imageLoading": "eager",
+    "tag": "Nigeria",
+    "title": "Parker Russell International Member Firm in Nigeria",
+    "firmName": "Parker Russell Offor / Parker Randall Offor, Chartered Accountants",
+    "lead": "Audit, tax and business advisory expertise in Nigeria, connected to the international capabilities of the Parker Russell network.",
+    "about": {
+      "icon": "/icons/icon-domain.svg",
+      "title": "About Parker Russell Offor",
+      "lead": "Established in 1976, Parker Russell Offor is an independent accounting, audit and advisory practice serving Nigerian and international businesses, public-sector organisations and institutions.",
+      "body": "Headquartered in Lagos with a presence in Abuja, the firm combines extensive local market experience with expertise across audit and assurance, taxation, financial reporting, IFRS, risk and business advisory. The firm supports organisations ranging from emerging businesses to established corporations, government institutions and internationally funded projects."
+    }
+  },
+  "mfOffice": {
+    "id": "member-firm-office",
+    "title": "Our Offices in Nigeria",
+    "locationIcon": "/icons/icon-location.svg",
+    "offices": [
+      {
+        "city": "Lagos — Head Office",
+        "image": "/images/member-firm/nigeria/office-lagos.jpg",
+        "imageAlt": "Parker Russell Offor office in Lagos",
+        "firmName": "Parker Russell Offor / Parker Randall Offor, Chartered Accountants",
+        "addressLines": [
+          "137A Alake Onile-Ere Crescent",
+          "Gbagada Phase 2",
+          "Lagos 100001, Nigeria"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contact",
+          "name": "Chidi Onwukwe — Senior Partner",
+          "details": [
+            {
+              "label": "Telephone",
+              "value": "+234 802 321 0334",
+              "iconName": "call",
+              "href": "tel:+2348023210334"
+            },
+            {
+              "label": "Email",
+              "value": "info@parkerrandalloffor.com",
+              "iconName": "mail",
+              "href": "mailto:info@parkerrandalloffor.com"
+            },
+            {
+              "label": "Opening Hours",
+              "value": "Monday–Friday, 08:30–16:30",
+              "icon": "/icons/icon-schedule.svg"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      },
+      {
+        "city": "Abuja — Satellite Office",
+        "image": "/images/member-firm/nigeria/office-abuja.jpg",
+        "imageAlt": "Parker Russell Offor office in Abuja",
+        "firmName": "Parker Russell Offor / Parker Randall Offor, Chartered Accountants",
+        "addressLines": [
+          "Abuja, Federal Capital Territory",
+          "Nigeria",
+          "Office Address: To be confirmed with the member firm"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contact",
+          "name": "Chidi Onwukwe — Senior Partner",
+          "details": [
+            {
+              "label": "Telephone",
+              "value": "+234 802 321 0334",
+              "iconName": "call",
+              "href": "tel:+2348023210334"
+            },
+            {
+              "label": "Email",
+              "value": "info@parkerrandalloffor.com",
+              "iconName": "mail",
+              "href": "mailto:info@parkerrandalloffor.com"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      }
+    ]
+  },
+  "mfServices": {
+    "id": "member-firm-services",
+    "services": {
+      "title": "Services",
+      "items": [
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Audit & Assurance"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Financial Statement Audit"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Accounting & Financial Reporting"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Tax Advisory & Compliance"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Tax Planning"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "IFRS Advisory & Implementation"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Capital Markets Advisory"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Valuation Services"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Business & Management Consulting"
+        },
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Risk Advisory"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Business Performance & Strategic Growth"
+        },
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Corporate Compliance"
+        },
+        {
+          "icon": "/icons/icon-person.svg",
+          "label": "Payroll & PAYE Advisory"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Financial Analysis & Business Review"
+        },
+        {
+          "icon": "/icons/icon-change-circle.svg",
+          "label": "Business Transformation Advisory"
+        }
+      ]
+    },
+    "industries": {
+      "title": "Industries",
+      "items": [
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Government & Public Sector"
+        },
+        {
+          "icon": "/icons/icon-domain.svg",
+          "label": "Financial Services"
+        },
+        {
+          "icon": "/icons/icon-bolt.svg",
+          "label": "Oil, Gas & Energy"
+        },
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "International Development & Donor-Funded Projects"
+        },
+        {
+          "icon": "/icons/icon-person.svg",
+          "label": "Emerging & Growth Businesses"
+        },
+        {
+          "icon": "/icons/icon-computer.svg",
+          "label": "Corporate & Commercial Organisations"
+        }
+      ]
+    }
+  },
+  "mfFinal": {
+    "id": "member-firm-final",
+    "imageBg": "/images/member-firm/nigeria/final-cta-bg.jpg",
+    "title": "Local Expertise. International Connections.",
+    "lead": "Through Parker Russell International, Parker Russell Offor combines long-standing expertise in the Nigerian market with access to international professional knowledge, relationships and cross-border capabilities across the wider network.",
+    "button": {
+      "label": "Contact Our Nigeria Member Firm",
+      "href": "contact.html",
+      "icon": true
+    }
+  }
+}

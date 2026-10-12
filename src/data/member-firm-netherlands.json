@@ -1,0 +1,153 @@
+{
+  "meta": {
+    "title": "Parker Russell International Member Firm in Netherlands | Parker Russell NL",
+    "description": "Parker Russell NL is the Parker Russell International member firm in the Netherlands, delivering professional services connected to the international Parker Russell network."
+  },
+  "mfHero": {
+    "id": "member-firm-hero",
+    "imageBg": "/images/member-firm/netherlands/hero-bg.jpg",
+    "imageLoading": "eager",
+    "tag": "Netherlands",
+    "title": "Parker Russell International Member Firm in the Netherlands",
+    "firmName": "Parker Russell NL",
+    "lead": "Dutch legal expertise for international businesses, investors and private clients, connected to the international capabilities of the Parker Russell network.",
+    "about": {
+      "icon": "/icons/icon-domain.svg",
+      "title": "About Parker Russell NL",
+      "lead": "Parker Russell NL is a boutique Dutch legal practice supporting international businesses, family enterprises, investors and private clients with legal matters in the Netherlands.",
+      "body": "The firm combines expertise in Dutch corporate, commercial, property and contract law with a strong international perspective, advising clients on market entry, transactions, investments, governance and other cross-border matters. Parker Russell NL operates as part of PPublic Law Firm and combines specialist Dutch legal knowledge with access to the wider Parker Russell International network."
+    }
+  },
+  "mfOffice": {
+    "id": "member-firm-office",
+    "title": "Our Office in the Netherlands",
+    "locationIcon": "/icons/icon-location.svg",
+    "offices": [
+      {
+        "city": "Vught",
+        "image": "/images/member-firm/netherlands/office.jpg",
+        "imageAlt": "Parker Russell NL office in Vught",
+        "firmName": "Parker Russell NL",
+        "addressLines": [
+          "Parker Russell NL — Part of PPublic Law Firm",
+          "Groensteeg 4",
+          "5261 LD Vught",
+          "Netherlands"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contact",
+          "name": "Laurens Peeters",
+          "details": [
+            {
+              "label": "Telephone",
+              "value": "+31 85 060 1015",
+              "iconName": "call",
+              "href": "tel:+31850601015"
+            },
+            {
+              "label": "Email",
+              "value": "l.peeters@parkerrussell.nl",
+              "iconName": "mail",
+              "href": "mailto:l.peeters@parkerrussell.nl"
+            },
+            {
+              "label": "Opening Hours",
+              "value": "09:00–17:00",
+              "icon": "/icons/icon-schedule.svg"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      }
+    ]
+  },
+  "mfServices": {
+    "id": "member-firm-services",
+    "services": {
+      "title": "Services",
+      "items": [
+        {
+          "icon": "/icons/icon-domain.svg",
+          "label": "Corporate Structuring & Market Entry"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Mergers & Acquisitions"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Dutch Investments"
+        },
+        {
+          "icon": "/icons/icon-domain.svg",
+          "label": "Commercial Contracting"
+        },
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Property & Real Estate Law"
+        },
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Governance & Compliance"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Private Wealth & Estate Planning"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Cross-Border Legal Advisory"
+        },
+        {
+          "icon": "/icons/icon-person.svg",
+          "label": "Employment Law"
+        },
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Dispute Resolution"
+        }
+      ]
+    },
+    "industries": {
+      "title": "Industries",
+      "items": [
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Education"
+        },
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Government & Public Sector"
+        },
+        {
+          "icon": "/icons/icon-construction.svg",
+          "label": "Real Estate & Property"
+        },
+        {
+          "icon": "/icons/icon-public.svg",
+          "label": "International Business"
+        },
+        {
+          "icon": "/icons/icon-person.svg",
+          "label": "Family Enterprises & Private Wealth"
+        }
+      ]
+    }
+  },
+  "mfFinal": {
+    "id": "member-firm-final",
+    "imageBg": "/images/member-firm/netherlands/final-cta-bg.jpg",
+    "title": "Local Expertise. International Connections.",
+    "lead": "Through Parker Russell International, Parker Russell NL combines specialist Dutch legal expertise with access to international professional relationships and cross-border capabilities across the wider network.",
+    "button": {
+      "label": "Contact Our Netherlands Member Firm",
+      "href": "contact.html",
+      "icon": true
+    }
+  }
+}

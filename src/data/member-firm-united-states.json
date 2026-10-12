@@ -1,0 +1,290 @@
+{
+  "meta": {
+    "title": "Parker Russell International Member Firms in the USA | YSL & Associates / Parker Russell Florida",
+    "description": "YSL & Associates / Parker Russell Florida is the Parker Russell International member firm in the USA, delivering professional services connected to the international Parker Russell network."
+  },
+  "mfHero": {
+    "id": "member-firm-hero",
+    "imageBg": "/images/member-firm/united-states/hero-bg.jpg",
+    "imageLoading": "eager",
+    "tag": "United States of America",
+    "title": "Parker Russell International Member Firms in the USA",
+    "firmName": "YSL & Associates / Parker Russell Florida",
+    "lead": "Audit, accounting, tax and business advisory expertise across the United States, connected to the international capabilities of the Parker Russell network.",
+    "about": {
+      "icon": "/icons/icon-domain.svg",
+      "title": "About Our USA Member Firms",
+      "lead": "YSL & Associates is a New York-based certified public accounting and advisory practice serving US and international businesses, investors, financial institutions and private clients.",
+      "body": "Parker Russell Florida is a professional accounting and advisory practice based in Coral Gables, supporting entrepreneurs, businesses and international investors operating or investing in the United States."
+    }
+  },
+  "mfOffice": {
+    "id": "member-firm-office",
+    "title": "Our Offices in the USA",
+    "locationIcon": "/icons/icon-location.svg",
+    "offices": [
+      {
+        "city": "New York Office",
+        "image": "/images/member-firm/united-states/office-new-york.jpg",
+        "imageAlt": "YSL & Associates office in New York",
+        "firmName": "YSL & Associates",
+        "addressLines": [
+          "11 Broadway",
+          "Suite 700",
+          "New York, NY 10004, United States"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contacts",
+          "name": "Charles Yi, CPA, MBA — Managing Director / Susan Li, CPA, MBA — Director / Audit Partner",
+          "details": [
+            {
+              "label": "Telephone",
+              "value": "+1 212 232 0122",
+              "iconName": "call",
+              "href": "tel:+12122320122"
+            },
+            {
+              "label": "Email",
+              "value": "charlesyi@yslcpa.com",
+              "iconName": "mail",
+              "href": "mailto:charlesyi@yslcpa.com"
+            },
+            {
+              "label": "Email",
+              "value": "susanli@yslcpa.com",
+              "iconName": "mail",
+              "href": "mailto:susanli@yslcpa.com"
+            },
+            {
+              "label": "Opening Hours",
+              "value": "08:30–17:30",
+              "icon": "/icons/icon-schedule.svg"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      },
+      {
+        "city": "Florida Office",
+        "image": "/images/member-firm/united-states/office-florida.jpg",
+        "imageAlt": "Parker Russell Florida office in Coral Gables",
+        "firmName": "Parker Russell Florida",
+        "addressLines": [
+          "1600 Ponce de Leon Blvd",
+          "Suite 901",
+          "Coral Gables, FL 33134, United States"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contact",
+          "name": "Jaime Reyes",
+          "details": [
+            {
+              "label": "Telephone / WhatsApp",
+              "value": "+1 786 303 1578",
+              "icon": "/icons/icon-mobile.svg",
+              "href": "tel:+17863031578"
+            },
+            {
+              "label": "Email",
+              "value": "info@parkerrussellfl.com",
+              "iconName": "mail",
+              "href": "mailto:info@parkerrussellfl.com"
+            },
+            {
+              "label": "Opening Hours",
+              "value": "08:30–17:30",
+              "icon": "/icons/icon-schedule.svg"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      }
+    ]
+  },
+  "mfServices": {
+    "id": "member-firm-services",
+    "services": {
+      "title": "Services",
+      "items": [
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Audit & Assurance"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Reviews & Compilations"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Accounting & Financial Reporting"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Bookkeeping & Payroll"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "US Tax Advisory & Compliance"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "International Tax Planning"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Cross-Border Tax & Structuring"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "IRS, State & Local Representation"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Financial & Business Advisory"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Internal Control Consulting"
+        },
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Regulatory Reporting Support"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Forensic Accounting"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Estate, Gift & Trust Tax"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Outsourced CFO & Financial Management"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Federal & State Tax Compliance"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Tax Planning & Advisory"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "US Business Establishment"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "International Business Services"
+        },
+        {
+          "icon": "/icons/icon-domain.svg",
+          "label": "Corporate Administration"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Investment Advisory"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Real Estate Investment Advisory"
+        },
+        {
+          "icon": "/icons/icon-computer.svg",
+          "label": "Virtual Office & Business Support"
+        }
+      ]
+    },
+    "industries": {
+      "title": "Industries",
+      "items": [
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Banking, Investment & Financial Services"
+        },
+        {
+          "icon": "/icons/icon-account-balance.svg",
+          "label": "Broker-Dealers"
+        },
+        {
+          "icon": "/icons/icon-apartment.svg",
+          "label": "Real Estate"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Healthcare & Medical Practices"
+        },
+        {
+          "icon": "/icons/icon-local-shipping.svg",
+          "label": "Retail, Wholesale & International Trade"
+        },
+        {
+          "icon": "/icons/icon-computer.svg",
+          "label": "Technology"
+        },
+        {
+          "icon": "/icons/icon-construction.svg",
+          "label": "Manufacturing"
+        },
+        {
+          "icon": "/icons/icon-eco.svg",
+          "label": "Agriculture"
+        },
+        {
+          "icon": "/icons/icon-school.svg",
+          "label": "Education"
+        },
+        {
+          "icon": "/icons/icon-person.svg",
+          "label": "Professional Services"
+        },
+        {
+          "icon": "/icons/icon-person.svg",
+          "label": "NGOs & Non-Profit Organisations"
+        },
+        {
+          "icon": "/icons/icon-person.svg",
+          "label": "Entrepreneurs & SMEs"
+        },
+        {
+          "icon": "/icons/icon-domain.svg",
+          "label": "International Businesses"
+        },
+        {
+          "icon": "/icons/icon-domain.svg",
+          "label": "International Investors"
+        },
+        {
+          "icon": "/icons/icon-apartment.svg",
+          "label": "Real Estate Investors"
+        },
+        {
+          "icon": "/icons/icon-person.svg",
+          "label": "Private Clients"
+        }
+      ]
+    }
+  },
+  "mfFinal": {
+    "id": "member-firm-final",
+    "imageBg": "/images/member-firm/united-states/final-cta-bg.jpg",
+    "title": "US Expertise. International Connections.",
+    "lead": "Through its member firms in New York and Florida, Parker Russell International combines specialist US accounting, audit, tax and advisory capabilities with access to international professional knowledge, relationships and cross-border expertise across the wider network.",
+    "button": {
+      "label": "Contact Our US Member Firms",
+      "href": "contact.html",
+      "icon": true
+    }
+  }
+}

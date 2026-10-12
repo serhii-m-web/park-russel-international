@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "title": "Parker Russell International Member Firm in Venezuela | Barreto, Araque & Asociados, S.C.",
+    "description": "Barreto, Araque & Asociados, S.C. is the Parker Russell International member firm in Venezuela, delivering professional services connected to the international Parker Russell network."
+  },
+  "mfHero": {
+    "id": "member-firm-hero",
+    "imageBg": "/images/member-firm/venezuela/hero-bg.jpg",
+    "imageLoading": "eager",
+    "tag": "Venezuela",
+    "title": "Parker Russell International Member Firm in Venezuela",
+    "firmName": "Barreto, Araque & Asociados, S.C.",
+    "lead": "Audit, accounting, tax and business advisory expertise in Venezuela, connected to the international capabilities of the Parker Russell network.",
+    "about": {
+      "icon": "/icons/icon-domain.svg",
+      "title": "About Barreto, Araque & Asociados",
+      "lead": "Barreto, Araque & Asociados, S.C. is an independent public accounting and professional services firm based in Caracas, supporting businesses across audit, accounting, taxation, financial and administrative advisory matters.",
+      "body": "Established in 2007, the firm combines local professional knowledge with expertise across financial reporting, internal controls, taxation and business administration, supporting organisations in meeting regulatory requirements and strengthening their financial and operational processes."
+    }
+  },
+  "mfOffice": {
+    "id": "member-firm-office",
+    "title": "Our Office in Venezuela",
+    "locationIcon": "/icons/icon-location.svg",
+    "offices": [
+      {
+        "city": "Caracas",
+        "image": "/images/member-firm/venezuela/office.jpg",
+        "imageAlt": "Barreto, Araque & Asociados office in Caracas",
+        "firmName": "Barreto, Araque & Asociados, S.C.",
+        "addressLines": [
+          "Av. Francisco de Miranda",
+          "Centro Plaza Shopping Centre, Tower B, 11th Floor, Office E",
+          "Los Palos Grandes, Chacao, Miranda, Venezuela"
+        ],
+        "contact": {
+          "avatarIcon": "/icons/icon-person.svg",
+          "eyebrow": "Lead Contact",
+          "name": "Jonel Monsalve",
+          "details": [
+            {
+              "label": "Telephone",
+              "value": "+58 212 283 9773",
+              "iconName": "call",
+              "href": "tel:+582122839773"
+            },
+            {
+              "label": "Additional Line",
+              "value": "+58 212 283 6736",
+              "iconName": "call",
+              "href": "tel:+582122836736"
+            },
+            {
+              "label": "Email",
+              "value": "contacto@barretoyasociados.com.ve",
+              "iconName": "mail",
+              "href": "mailto:contacto@barretoyasociados.com.ve"
+            },
+            {
+              "label": "Direct Email",
+              "value": "jmonsalve@barretoyasociados.com.ve",
+              "iconName": "mail",
+              "href": "mailto:jmonsalve@barretoyasociados.com.ve"
+            },
+            {
+              "label": "Opening Hours",
+              "value": "08:00–17:30",
+              "icon": "/icons/icon-schedule.svg"
+            }
+          ],
+          "website": {
+            "label": "Visit Website",
+            "href": "#",
+            "icon": "/icons/icon-external.svg"
+          }
+        }
+      }
+    ]
+  },
+  "mfServices": {
+    "id": "member-firm-services",
+    "services": {
+      "title": "Services",
+      "items": [
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Audit & Assurance"
+        },
+        {
+          "icon": "/icons/icon-calculate.svg",
+          "label": "Accounting & Financial Reporting"
+        },
+        {
+          "icon": "/icons/icon-percent.svg",
+          "label": "Tax Advisory & Compliance"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Financial Advisory"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Administrative & Business Advisory"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Internal Control Advisory"
+        },
+        {
+          "icon": "/icons/icon-verified.svg",
+          "label": "Special-Purpose Audits"
+        },
+        {
+          "icon": "/icons/icon-person.svg",
+          "label": "Payroll & Labour Calculations"
+        },
+        {
+          "icon": "/icons/icon-lightbulb.svg",
+          "label": "Organisational Advisory"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Financial Planning & Budgeting"
+        },
+        {
+          "icon": "/icons/icon-monitoring.svg",
+          "label": "Inflation-Adjusted Financial Reporting"
+        }
+      ]
+    },
+    "industries": {
+      "title": "Industries",
+      "note": {
+        "title": "To be confirmed with Parker Russell Venezuela",
+        "body": "The current member-firm information does not provide a defined official industry list. This section should therefore only include sectors specifically confirmed by the Venezuelan member firm."
+      }
+    }
+  },
+  "mfFinal": {
+    "id": "member-firm-final",
+    "imageBg": "/images/member-firm/venezuela/final-cta-bg.jpg",
+    "title": "Local Expertise. International Connections.",
+    "lead": "Through Parker Russell International, Barreto, Araque & Asociados combines established knowledge of the Venezuelan business environment with access to international expertise, professional relationships and cross-border capabilities across the wider network.",
+    "button": {
+      "label": "Contact Our Venezuela Member Firm",
+      "href": "contact.html",
+      "icon": true
+    }
+  }
+}
