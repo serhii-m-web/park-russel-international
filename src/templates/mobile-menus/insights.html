@@ -1,0 +1,70 @@
+<!-- Mobile submenu panel: Insights -->
+<section
+  id="mobile-panel-insights"
+  class="mobile-nav__panel"
+  data-mobile-panel="insights"
+  inert
+>
+  <div class="mobile-nav__panel-head">
+    <button
+      class="mobile-nav__back"
+      type="button"
+      data-mobile-back
+      aria-label="Back to main menu"
+    >
+      {{> icon
+        name="chevron-right"
+        width="20"
+        height="20"
+        class="mobile-nav__back-icon"
+      }}
+    </button>
+    <p class="mobile-nav__panel-title">Insights</p>
+  </div>
+
+  <p class="mobile-nav__panel-text">
+    Perspectives on markets, reporting standards and the issues shaping international business.
+  </p>
+
+  <ul class="mobile-nav__acc-list">
+    <li>
+      <a class="mobile-nav__acc-link" href="insights.html">
+        <span>Insights</span>
+        {{> icon
+          name="arrow"
+          width="16"
+          height="16"
+        }}
+      </a>
+    </li>
+    <li>
+      <a class="mobile-nav__acc-link" href="publications.html">
+        <span>Publications</span>
+        {{> icon
+          name="arrow"
+          width="16"
+          height="16"
+        }}
+      </a>
+    </li>
+    <li>
+      <a class="mobile-nav__acc-link" href="business-environment.html">
+        <span>Business Environment</span>
+        {{> icon
+          name="arrow"
+          width="16"
+          height="16"
+        }}
+      </a>
+    </li>
+  </ul>
+
+  <a class="mobile-nav__panel-cta" href="insights.html">
+    <span>View all</span>
+    {{> icon
+      name="arrow"
+      width="16"
+      height="16"
+    }}
+  </a>
+</section>

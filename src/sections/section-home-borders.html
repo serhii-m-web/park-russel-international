@@ -1,0 +1,67 @@
+<section
+  class="
+    section-home-borders
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if homeBorders.id}}
+    id="{{ homeBorders.id }}"
+  {{/if}}
+  {{#if homeBorders.title}}
+    aria-labelledby="{{#if homeBorders.id}}{{ homeBorders.id }}{{else}}section-home-borders{{/if}}-title"
+  {{else}}
+    aria-label="Your business knows no borders"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-home-borders__card">
+      {{#if homeBorders.imageBg}}
+        {{picture
+          homeBorders.imageBg
+          alt=homeBorders.imageAlt
+          class="section-home-borders__bg"
+          width="1376"
+          height="760"
+        }}
+      {{/if}}
+
+      <div class="section-home-borders__inner">
+        <span class="section-home-borders__rule" aria-hidden="true"></span>
+
+        {{#if homeBorders.title}}
+          <h2
+            id="{{#if homeBorders.id}}{{ homeBorders.id }}{{else}}section-home-borders{{/if}}-title"
+            class="section-home-borders__title"
+          >
+            {{{ homeBorders.title }}}
+          </h2>
+        {{/if}}
+
+        {{#if homeBorders.lead}}
+          <p class="section-home-borders__lead">{{{ homeBorders.lead }}}</p>
+        {{/if}}
+
+        {{#if homeBorders.body}}
+          <p class="section-home-borders__body">{{{ homeBorders.body }}}</p>
+        {{/if}}
+
+        {{#if homeBorders.button}}
+          <a
+            class="section-home-borders__button site-button primary"
+            href="{{ homeBorders.button.href }}"
+          >
+            {{ homeBorders.button.label }}
+            {{#if homeBorders.button.icon}}
+              {{> icon
+                name="arrow-right"
+                width="16"
+                height="16"
+              }}
+            {{/if}}
+          </a>
+        {{/if}}
+      </div>
+    </div>
+  </div>
+</section>

@@ -23,47 +23,215 @@
             alt=""
             class="section-join-hero__bg-image"
             width="1376"
-            height="624"
+            height="792"
             loading=joinHero.imageLoading
           }}
         </div>
       {{/if}}
 
-      <div class="section-join-hero__inner">
-        {{#if joinHero.label}}
-          <span class="section-join-hero__label">{{ joinHero.label }}</span>
-        {{/if}}
+      <div class="section-join-hero__layout">
+        <div class="section-join-hero__inner">
+          {{#if joinHero.label}}
+            <span class="section-join-hero__label">{{ joinHero.label }}</span>
+          {{/if}}
 
-        {{#if joinHero.title}}
-          <h1
-            id="{{#if joinHero.id}}{{ joinHero.id }}{{else}}section-join-hero{{/if}}-title"
-            class="section-join-hero__title"
+          {{#if joinHero.title}}
+            <h1
+              id="{{#if joinHero.id}}{{ joinHero.id }}{{else}}section-join-hero{{/if}}-title"
+              class="section-join-hero__title"
+            >
+              {{{ joinHero.title }}}
+            </h1>
+          {{/if}}
+
+          {{#if joinHero.lead}}
+            <p class="section-join-hero__lead">{{{ joinHero.lead }}}</p>
+          {{/if}}
+
+          {{#if joinHero.buttons.length}}
+            <div class="section-join-hero__buttons">
+              {{#each joinHero.buttons}}
+                <a
+                  class="section-join-hero__button site-button {{ variant }}"
+                  href="{{ href }}"
+                >
+                  <span>{{ label }}</span>
+                  {{#if icon}}
+                    {{> icon
+                      name="arrow-right"
+                      width="16"
+                      height="16"
+                    }}
+                  {{/if}}
+                </a>
+              {{/each}}
+            </div>
+          {{/if}}
+        </div>
+
+        {{#if joinHero.form}}
+          <div
+            class="section-join-hero__form-card"
+            id="{{#if joinHero.form.id}}{{ joinHero.form.id }}{{else}}join-enquiry{{/if}}"
           >
-            {{{ joinHero.title }}}
-          </h1>
-        {{/if}}
+            <div class="section-join-hero__form-header">
+              {{#if joinHero.form.title}}
+                <p class="section-join-hero__form-title">
+                  {{{ joinHero.form.title }}}
+                </p>
+              {{/if}}
+              {{#if joinHero.form.lead}}
+                <p class="section-join-hero__form-lead">
+                  {{{ joinHero.form.lead }}}
+                </p>
+              {{/if}}
+            </div>
 
-        {{#if joinHero.lead}}
-          <p class="section-join-hero__lead">{{{ joinHero.lead }}}</p>
-        {{/if}}
+            <form
+              class="section-join-hero__form"
+              action="#"
+              method="post"
+              novalidate
+            >
+              <div class="section-join-hero__form-row">
+                <div class="section-join-hero__field">
+                  <label class="section-join-hero__field-label" for="join-first-name">
+                    First name
+                  </label>
+                  <input
+                    class="section-join-hero__input"
+                    type="text"
+                    id="join-first-name"
+                    name="first-name"
+                    autocomplete="given-name"
+                    required
+                  />
+                </div>
+                <div class="section-join-hero__field">
+                  <label class="section-join-hero__field-label" for="join-surname">
+                    Surname
+                  </label>
+                  <input
+                    class="section-join-hero__input"
+                    type="text"
+                    id="join-surname"
+                    name="surname"
+                    autocomplete="family-name"
+                    required
+                  />
+                </div>
+              </div>
 
-        {{#if joinHero.buttons.length}}
-          <div class="section-join-hero__buttons">
-            {{#each joinHero.buttons}}
-              <a
-                class="section-join-hero__button site-button {{ variant }}"
-                href="{{ href }}"
+              <div class="section-join-hero__form-row">
+                <div class="section-join-hero__field">
+                  <label class="section-join-hero__field-label" for="join-firm-name">
+                    Firm name
+                  </label>
+                  <input
+                    class="section-join-hero__input"
+                    type="text"
+                    id="join-firm-name"
+                    name="firm-name"
+                    autocomplete="organization"
+                    required
+                  />
+                </div>
+                <div class="section-join-hero__field">
+                  <label class="section-join-hero__field-label" for="join-country">
+                    Country
+                  </label>
+                  <div class="section-join-hero__select">
+                    <select
+                      class="section-join-hero__select-input"
+                      id="join-country"
+                      name="country"
+                      required
+                    >
+                      {{#each joinHero.form.countryOptions}}
+                        <option
+                          value="{{ value }}"
+                          {{#if disabled}}disabled{{/if}}
+                          {{#if selected}}selected{{/if}}
+                        >
+                          {{ label }}
+                        </option>
+                      {{/each}}
+                    </select>
+                    {{> icon
+                      name="chevron-down"
+                      width="22"
+                      height="22"
+                      class="section-join-hero__select-icon"
+                    }}
+                  </div>
+                </div>
+              </div>
+
+              <div class="section-join-hero__form-row">
+                <div class="section-join-hero__field">
+                  <label class="section-join-hero__field-label" for="join-email">
+                    Email
+                  </label>
+                  <input
+                    class="section-join-hero__input"
+                    type="email"
+                    id="join-email"
+                    name="email"
+                    autocomplete="email"
+                    required
+                  />
+                </div>
+                <div class="section-join-hero__field">
+                  <label class="section-join-hero__field-label" for="join-phone">
+                    Phone
+                  </label>
+                  <input
+                    class="section-join-hero__input"
+                    type="tel"
+                    id="join-phone"
+                    name="phone"
+                    autocomplete="tel"
+                  />
+                </div>
+              </div>
+
+              <div class="section-join-hero__field">
+                <label class="section-join-hero__field-label" for="join-message">
+                  Message
+                </label>
+                <textarea
+                  class="section-join-hero__textarea"
+                  id="join-message"
+                  name="message"
+                  rows="4"
+                ></textarea>
+              </div>
+
+              {{#if joinHero.form.consent}}
+                <label class="section-join-hero__checkbox">
+                  <input type="checkbox" name="marketing" value="1" />
+                  <span>{{ joinHero.form.consent }}</span>
+                </label>
+              {{/if}}
+
+              <button
+                class="section-join-hero__submit site-button primary"
+                type="submit"
               >
-                <span>{{ label }}</span>
-                {{#if icon}}
-                  {{> icon
-                    name="arrow-right"
-                    width="16"
-                    height="16"
-                  }}
-                {{/if}}
-              </a>
-            {{/each}}
+                <span>
+                  {{#if joinHero.form.submitLabel}}
+                    {{ joinHero.form.submitLabel }}
+                  {{else}}
+                    Send Enquiry
+                  {{/if}}
+                </span>
+                {{> icon
+                  name="arrow-right"
+                  width="16"
+                  height="16"
+                }}
+              </button>
+            </form>
           </div>
         {{/if}}
       </div>

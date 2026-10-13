@@ -1,0 +1,154 @@
+@use '../abstracts' as *;
+
+.section-home-borders {
+  padding-top: 0;
+  @include adaptive-value('padding-bottom', 120, 56, 1);
+  background-color: $color-white;
+
+  > .container {
+    max-width: none;
+    padding-inline: 32px;
+
+    @include media('<tablet') {
+      padding-inline: 16px;
+    }
+  }
+
+  &__card {
+    position: relative;
+    overflow: hidden;
+    @include adaptive-value('border-radius', 32, 24, 1);
+    background-color: $color-navy;
+
+    &::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      z-index: 1;
+      pointer-events: none;
+      background: linear-gradient(
+        90deg,
+        rgba(12, 18, 27, 0.94) 0%,
+        rgba(12, 18, 27, 0.78) 42%,
+        rgba(12, 18, 27, 0.25) 75%,
+        rgba(12, 18, 27, 0.05) 100%
+      );
+
+      @include media('<tablet') {
+        background: linear-gradient(
+          180deg,
+          rgba(12, 18, 27, 0.35) 0%,
+          rgba(12, 18, 27, 0.92) 55%,
+          rgba(12, 18, 27, 0.96) 100%
+        );
+      }
+    }
+  }
+
+  &__bg {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    @include media('<tablet') {
+      position: relative;
+      height: 220px;
+
+      &::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        z-index: 1;
+        pointer-events: none;
+        background: linear-gradient(
+          180deg,
+          rgba(12, 18, 27, 0.05) 0%,
+          rgba(12, 18, 27, 0.35) 100%
+        );
+      }
+    }
+  }
+
+  &__inner {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    @include adaptive-value('padding-top', 104, 32, 1);
+    @include adaptive-value('padding-bottom', 104, 32, 1);
+    @include adaptive-value('padding-left', 80, 20, 1);
+    @include adaptive-value('padding-right', 80, 20, 1);
+  }
+
+  &__rule {
+    display: block;
+    width: 48px;
+    height: 3px;
+    margin-bottom: 28px;
+    background-color: $color-red;
+  }
+
+  &__title {
+    margin: 0 0 28px;
+    max-width: 760px;
+    color: $color-white;
+    font-weight: 500;
+    letter-spacing: -1.12px;
+    line-height: calc(64 / 56);
+    @include adaptive-value('font-size', 56, 32, 1);
+
+    @include media('<tablet') {
+      margin-bottom: 20px;
+      letter-spacing: -0.96px;
+      line-height: calc(38 / 32);
+    }
+  }
+
+  &__lead {
+    margin: 0 0 20px;
+    max-width: 640px;
+    color: $color-white;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: calc(31 / 20);
+
+    @include media('<tablet') {
+      font-size: 17px;
+      line-height: calc(26 / 17);
+    }
+  }
+
+  &__body {
+    margin: 0 0 40px;
+    max-width: 640px;
+    color: $color-ice;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: calc(28 / 18);
+
+    @include media('<tablet') {
+      margin-bottom: 28px;
+      font-size: 16px;
+      line-height: calc(24 / 16);
+    }
+  }
+
+  &__button {
+    min-height: 48px;
+    padding: 0 24px;
+    font-size: 16px;
+    letter-spacing: 0.08px;
+
+    @include media('<tablet') {
+      width: 100%;
+    }
+  }
+}

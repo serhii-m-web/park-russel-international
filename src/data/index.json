@@ -1,17 +1,26 @@
 {
   "hero": {
+    "indicator": {
+      "counter": "01 / 04",
+      "segments": [
+        { "active": true },
+        { "active": false },
+        { "active": false },
+        { "active": false }
+      ]
+    },
     "titleLines": ["Business Across Borders.", "Expertise Across Markets."],
     "description": "Parker Russell International brings together independent audit, tax, accounting and advisory firms across the world — connecting businesses with the expertise they need in the markets where they operate and grow.",
     "buttons": [
       {
         "label": "Find a Member Firm",
-        "href": "#",
+        "href": "contact.html#locations",
         "variant": "primary",
         "icon": true
       },
       {
         "label": "Explore Our Expertise",
-        "href": "#",
+        "href": "#expertise-slider",
         "variant": "secondary",
         "icon": false
       }
@@ -33,32 +42,99 @@
       }
     ]
   },
+  "homeWhy": {
+    "id": "why-parker-russell",
+    "eyebrow": "Why Parker Russell International",
+    "title": "The Strength Behind Every Professional Relationship.",
+    "button": {
+      "label": "Explore What Sets Us Apart",
+      "href": "about-us.html",
+      "icon": true
+    },
+    "cards": [
+      {
+        "icon": "/icons/icon-workspace-premium.svg",
+        "title": "Internationally Recognised Standards",
+        "description": "Membership of the Forum of Firms reflects our commitment to high-quality audit practices, professional ethics and international standards."
+      },
+      {
+        "icon": "/icons/icon-verified.svg",
+        "title": "Quality Without Compromise",
+        "description": "Member firms are subject to professional requirements, quality assurance processes and a commitment to maintaining high standards across the network."
+      },
+      {
+        "icon": "/icons/icon-groups.svg",
+        "title": "Experienced Professionals",
+        "description": "Access to qualified auditors, accountants and advisers with specialist expertise across industries, regulatory environments and business disciplines."
+      },
+      {
+        "icon": "/icons/icon-badge.svg",
+        "title": "Senior-Level Involvement",
+        "description": "A relationship-led approach built on direct professional engagement, individual attention and experienced oversight."
+      },
+      {
+        "icon": "/icons/icon-verified-user.svg",
+        "title": "Rigorous Member Selection",
+        "description": "Membership requirements consider professional reputation, practice quality, technical capabilities and the suitability of prospective firms."
+      },
+      {
+        "icon": "/icons/icon-trending-up.svg",
+        "title": "Long-Term Business Perspective",
+        "description": "Advice that considers wider business objectives, financial implications and sustainable value beyond immediate compliance requirements."
+      }
+    ]
+  },
+  "homeBorders": {
+    "id": "business-knows-no-borders",
+    "imageBg": "/images/home/borders-cta-bg.jpg",
+    "imageAlt": "Traveller looking out over an airport tarmac at night",
+    "title": "Your Business Knows No Borders. Neither Should Your Expertise.",
+    "lead": "International expansion brings new opportunities alongside complex financial, tax and regulatory challenges. Success requires more than local knowledge — it demands experienced professionals who understand how businesses operate across jurisdictions.",
+    "body": "Parker Russell International connects independent expertise across markets, helping businesses navigate complexity, make informed decisions and pursue international growth with confidence.",
+    "button": {
+      "label": "Explore Our Global Capabilities",
+      "href": "about-us.html",
+      "icon": true
+    }
+  },
   "expertiseSlider": {
     "id": "expertise-slider",
     "className": "",
     "carouselLabel": "Expertise areas",
     "titleLines": ["Expertise for Business", "at Every Stage"],
-    "description": "Parker Russell International brings together specialist expertise across core service areas, helping businesses address financial, regulatory and strategic matters with the perspective of professionals who understand both local markets and international business.",
-    "button": { "label": "Explore Our Expertise", "href": "#" },
+    "description": "Parker Russell International brings together specialist expertise across five core areas, helping businesses address financial, regulatory and strategic matters with the perspective of professionals who understand both local markets and international business.",
+    "button": { "label": "Explore Our Services", "href": "assurance.html" },
     "counter": false,
     "slides": [
       {
         "image": "/images/sliders/slide-img-1.png",
         "title": "Assurance",
         "description": "Independent assurance provides confidence where reliable information matters most. Parker Russell member firms deliver audit and assurance services across a wide range of businesses and industries, combining technical rigour with an understanding of financial reporting, regulatory requirements, risk and the commercial environment in which clients operate.",
-        "link": { "label": "Read More", "href": "#" }
+        "link": { "label": "Read More", "href": "assurance.html" }
       },
       {
         "image": "/images/sliders/slide-img-2.png",
         "title": "Tax & Legal",
         "description": "Tax and legal matters become increasingly complex when business crosses borders. Our member firms advise companies, investors and individuals on domestic and international taxation, legal requirements, corporate structures, transactions and compliance — bringing together relevant expertise when matters extend across more than one jurisdiction.",
-        "link": { "label": "Read More", "href": "#" }
+        "link": { "label": "Read More", "href": "tax-legal.html" }
       },
       {
         "image": "/images/sliders/slide-img-3.png",
         "title": "Corporate Services",
         "description": "From establishing a business in a new market to managing an international corporate structure, our member firms provide practical support across company formation, governance, compliance and ongoing corporate requirements. Local knowledge is combined with international coordination where businesses operate through multiple entities or jurisdictions.",
-        "link": { "label": "Read More", "href": "#" }
+        "link": { "label": "Read More", "href": "corporate-services.html" }
+      },
+      {
+        "image": "/images/sliders/slide-img-1.png",
+        "title": "Transfer Pricing",
+        "description": "International groups face growing scrutiny over how value, profits and transactions are allocated across jurisdictions. Parker Russell member firms provide specialist transfer pricing advice covering policy development, documentation, benchmarking, risk assessment and cross-border arrangements, aligned with both regulatory requirements and the commercial substance of the business.",
+        "link": { "label": "Read More", "href": "transfer-pricing.html" }
+      },
+      {
+        "image": "/images/sliders/slide-img-2.png",
+        "title": "Financial Advisory",
+        "description": "Major business decisions require more than financial data — they require informed judgement. Our member firms provide independent financial advisory expertise across transactions, valuations, restructuring, due diligence and other strategic matters, helping businesses and stakeholders assess opportunities, understand risk and make decisions with greater clarity.",
+        "link": { "label": "Read More", "href": "financial-advisory.html" }
       }
     ]
   },
@@ -69,14 +145,14 @@
     "carouselLabel": "Industry areas",
     "titleLines": ["Expertise Built Around", "Your Industry"],
     "description": "Every industry faces its own combination of regulation, financial pressure, technological change and international complexity. Parker Russell member firms combine sector knowledge with audit, tax and advisory expertise to address the issues that matter within each market.",
-    "button": { "label": "Explore Our Services", "href": "#" },
+    "button": { "label": "Explore All Industries", "href": "consumer-business.html" },
     "counter": true,
     "slides": [
       {
         "image": "/images/sliders/slide-img-4.png",
         "title": "Consumer Business",
         "description": "Consumer businesses operate in markets shaped by changing demand, margin pressure, evolving sales channels and increasingly complex supply chains.",
-        "link": { "label": "Read More", "href": "#" }
+        "link": { "label": "Read More", "href": "consumer-business.html" }
       },
       {
         "image": "/images/sliders/slide-img-5.png",
@@ -137,7 +213,7 @@
     "title": "Publications",
     "button": {
       "label": "See all publications",
-      "href": "#"
+      "href": "publications.html"
     },
     "items": [
       {
@@ -194,7 +270,7 @@
     "title": "Latest News",
     "button": {
       "label": "View All News",
-      "href": "#"
+      "href": "news.html"
     },
     "featured": {
       "status": "Latest",
@@ -205,7 +281,7 @@
       "description": "Research by Vistra shows fewer than one in three UK company directors feel ready for the upcoming Economic Crime and Corporate Transparency Act (ECCTA)…",
       "link": {
         "label": "Read article",
-        "href": "#"
+        "href": "news-article.html"
       }
     },
     "list": [
@@ -214,21 +290,21 @@
         "datetime": "2025-06-25",
         "category": "Accounting Standards",
         "title": "David M. Sullivan Appointed to Chair Financial Accounting Standards Advisory Council",
-        "href": "#"
+        "href": "news-article.html"
       },
       {
         "date": "18 June 2025",
         "datetime": "2025-06-18",
         "category": "Regulation",
         "title": "£4m Fine for Director in Client Money Breach",
-        "href": "#"
+        "href": "news-article.html"
       },
       {
         "date": "20 May 2025",
         "datetime": "2025-05-20",
         "category": "ESG",
         "title": "The Next Generation of Investors Is Powering ESG's Revival",
-        "href": "#"
+        "href": "news-article.html"
       }
     ]
   }

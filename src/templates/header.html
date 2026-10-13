@@ -53,8 +53,39 @@
         <nav class="site-header__utility-nav" aria-label="Utility">
           <ul class="site-header__utility-nav-list">
             <li class="site-header__utility-nav-item">
+              <a
+                class="site-header__utility-nav-link site-header__utility-nav-link--members"
+                href="#"
+              >
+                {{> icon
+                  name="person"
+                  width="18"
+                  height="18"
+                  class="site-header__utility-nav-icon"
+                }}
+                <span>Members Area</span>
+              </a>
+            </li>
+            <li class="site-header__utility-nav-item">
+              <a
+                class="site-header__utility-nav-link"
+                href="contact.html#contact-locations"
+              >
+                <span>Member Firms</span>
+                {{> icon
+                  name="chevron-down"
+                  width="18"
+                  height="18"
+                  class="site-header__utility-nav-chevron"
+                }}
+              </a>
+            </li>
+            <li class="site-header__utility-nav-item">
+              <a class="site-header__utility-nav-link" href="news.html">News</a>
+            </li>
+            <li class="site-header__utility-nav-item">
               <a class="site-header__utility-nav-link" href="news.html">
-                News and Events
+                Events
               </a>
             </li>
           </ul>
@@ -69,25 +100,21 @@
         <a class="site-header__logo" href="index.html">
           <img
             class="site-header__logo-name"
-            src="/images/header-logo.png"
-            alt="Parker Russell International"
-            width="170"
-            height="40"
+            src="/images/header-logo-img.svg"
+            alt="Parker Russell International Logo"
+            width="60"
+            height="60"
+          />
+          <img
+            class="site-header__logo-text"
+            src="/images/header-logo-text.svg"
+            alt="Parker Russell International Logo Text"
+            width="280"
+            height="50"
           />
         </a>
 
         <div class="site-header__mobile-actions">
-          <button
-            class="site-header__mobile-action site-header__mobile-action--search"
-            type="button"
-            aria-label="Search"
-          >
-            {{> icon
-              name="search"
-              width="20"
-              height="20"
-            }}
-          </button>
           <button
             class="site-header__burger"
             type="button"
@@ -106,23 +133,10 @@
 
         <nav id="site-header-nav" class="site-header__nav" aria-label="Primary">
           <ul class="site-header__menu">
-            <li class="site-header__menu-item site-header__menu-item--has-mega">
-              <button
-                class="site-header__menu-link"
-                type="button"
-                aria-expanded="false"
-                aria-controls="mega-about-us"
-                data-mega-trigger
-              >
-                About Us
-                {{> icon
-                  name="chevron-down"
-                  width="16"
-                  height="16"
-                  class="site-header__menu-link-icon"
-                }}
-              </button>
-              {{> mega-menus/about-us}}
+            <li class="site-header__menu-item">
+              <a class="site-header__menu-link" href="index.html" data-nav-home>
+                Home
+              </a>
             </li>
 
             <li class="site-header__menu-item site-header__menu-item--has-mega">
@@ -136,8 +150,8 @@
                 Services
                 {{> icon
                   name="chevron-down"
-                  width="16"
-                  height="16"
+                  width="18"
+                  height="18"
                   class="site-header__menu-link-icon"
                 }}
               </button>
@@ -155,17 +169,66 @@
                 Industries
                 {{> icon
                   name="chevron-down"
-                  width="16"
-                  height="16"
+                  width="18"
+                  height="18"
                   class="site-header__menu-link-icon"
                 }}
               </button>
               {{> mega-menus/industries}}
             </li>
-          </ul>
-        </nav>
 
-        <a class="site-header__cta site-button primary" href="contact.html">Contact us</a>
+            <li class="site-header__menu-item site-header__menu-item--has-mega">
+              <button
+                class="site-header__menu-link"
+                type="button"
+                aria-expanded="false"
+                aria-controls="mega-about-us"
+                data-mega-trigger
+              >
+                About Us
+                {{> icon
+                  name="chevron-down"
+                  width="18"
+                  height="18"
+                  class="site-header__menu-link-icon"
+                }}
+              </button>
+              {{> mega-menus/about-us}}
+            </li>
+
+            <li class="site-header__menu-item site-header__menu-item--has-mega">
+              <button
+                class="site-header__menu-link"
+                type="button"
+                aria-expanded="false"
+                aria-controls="mega-insights"
+                data-mega-trigger
+              >
+                Insights
+                {{> icon
+                  name="chevron-down"
+                  width="18"
+                  height="18"
+                  class="site-header__menu-link-icon"
+                }}
+              </button>
+              {{> mega-menus/insights}}
+            </li>
+
+            <li class="site-header__menu-item">
+              <a class="site-header__menu-link" href="join.html">Join PRI</a>
+            </li>
+          </ul>
+
+          <a class="site-header__cta site-button primary" href="contact.html">
+            Contact Us
+            {{> icon
+              name="arrow-right"
+              width="18"
+              height="18"
+            }}
+          </a>
+        </nav>
       </div>
     </div>
   </div>

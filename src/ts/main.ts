@@ -12,6 +12,7 @@ import { initIaPublicationsSlider } from './iaPublicationsSlider';
 import { initMegaMenu } from './megaMenu';
 import { initMethodologySlider } from './methodologySlider';
 import { initMobileNav } from './mobileNav';
+import { initNavActive } from './navActive';
 import { initProcessRampSlider } from './processRampSlider';
 import { initPublicationsSlider } from './publicationsSlider';
 import { initRiskPerspectiveSlider } from './riskPerspectiveSlider';
@@ -25,6 +26,7 @@ function init(): void {
   document.documentElement.classList.add('js');
   initMegaMenu();
   initMobileNav();
+  initNavActive();
   initSectionSlider();
   initPublicationsSlider();
   initIaPublicationsFilter();

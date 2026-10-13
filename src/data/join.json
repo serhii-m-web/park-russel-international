@@ -6,24 +6,44 @@
   "joinHero": {
     "id": "join-hero",
     "label": "Join Parker Russell International",
-    "imageBg": "/images/join/hero-bg.png",
+    "imageBg": "/images/join/hero-bg.webp",
     "imageLoading": "eager",
     "title": "Global Reach. Local Strength. Shared Ambition.",
     "lead": "Join an international network built for independent professional services firms that want to extend their global capabilities, strengthen their market position and create greater opportunities for their clients — while retaining their own leadership, identity and local expertise.",
     "buttons": [
       {
         "label": "Become a Member Firm",
-        "href": "#join-final",
+        "href": "#join-enquiry",
         "variant": "primary",
         "icon": true
       },
       {
         "label": "Speak to Our Membership Team",
-        "href": "index.html",
+        "href": "contact.html",
         "variant": "secondary",
         "icon": true
       }
     ],
+    "form": {
+      "id": "join-enquiry",
+      "title": "Become a Member Firm",
+      "lead": "Tell us about your firm and our membership team will be in touch.",
+      "consent": "I'm happy to receive relevant marketing emails from Parker Russell.",
+      "submitLabel": "Send Enquiry",
+      "countryOptions": [
+        {
+          "value": "",
+          "label": "Select country",
+          "disabled": true,
+          "selected": true
+        },
+        { "value": "united-kingdom", "label": "United Kingdom" },
+        { "value": "united-states", "label": "United States" },
+        { "value": "canada", "label": "Canada" },
+        { "value": "australia", "label": "Australia" },
+        { "value": "other", "label": "Other" }
+      ]
+    },
     "independence": {
       "icon": "/icons/icon-diversity.svg",
       "title": "Independence, Strengthened by International Capability",
@@ -73,7 +93,7 @@
     "id": "ambitious-firms",
     "title": "Built for Ambitious Independent Firms",
     "lead": "Parker Russell International seeks established professional firms that combine strong local market knowledge with high professional standards and an ambition to operate internationally.",
-    "image": "/images/join/ambitious-firms.png",
+    "image": "/images/join/ambitious-firms.webp",
     "imageAlt": "Professional team collaborating in a modern office",
     "criteriaLabel": "We look for firms that demonstrate:",
     "criteria": [
@@ -150,14 +170,14 @@
     "title": "Quality Comes Before Growth",
     "lead": "The strength of an international network depends on the quality of the firms within it.",
     "body": "Membership is therefore subject to a structured assessment process designed to understand the applicant firm's professional standards, capabilities, systems and compatibility with the wider Parker Russell International network.",
-    "image": "/images/join/objective.png",
+    "image": "/images/join/objective.webp",
     "panelIcon": "/icons/icon-verified.svg",
     "panelLead": "Our objective is not simply to expand geographic coverage.",
     "panelTitle": "It is to build a stronger international network through the right firms, in the right markets, with shared professional standards."
   },
   "joinProcess": {
     "id": "membership-process",
-    "bannerImage": "/images/join/process-banner.png",
+    "bannerImage": "/images/join/process-banner.webp",
     "title": "The Membership Process",
     "steps": [
       {
@@ -206,7 +226,7 @@
   },
   "joinCapability": {
     "id": "international-capability",
-    "imageBg": "/images/join/capability-bg.png",
+    "imageBg": "/images/join/capability-bg.webp",
     "title": "Your Firm. Your Market. Greater International Capability.",
     "lead": "Joining Parker Russell International does not mean giving up the independence that has made your firm successful.",
     "emphasis": "It means strengthening it.",
@@ -221,14 +241,14 @@
   },
   "joinFinal": {
     "id": "join-final",
-    "imageBg": "/images/join/final-cta-bg.png",
+    "imageBg": "/images/join/final-cta-bg.webp",
     "title": "Interested in Joining PRI?",
     "lead": "If your firm is looking to strengthen its international capabilities and become part of a network of independent professional services firms, we would welcome the opportunity to start a conversation.",
     "body": "Whether Parker Russell International already has representation in your jurisdiction or is seeking to expand into your market, each potential membership is considered individually.",
     "buttons": [
       {
         "label": "Start Your Membership Enquiry",
-        "href": "index.html",
+        "href": "#join-enquiry",
         "variant": "primary",
         "icon": true
       },
@@ -245,7 +265,7 @@
       "body": "Complete the Initial Application Form and submit your firm's details to the Parker Russell International membership team.",
       "button": {
         "label": "Apply to Join PRI",
-        "href": "index.html",
+        "href": "#join-enquiry",
         "icon": true
       }
     }

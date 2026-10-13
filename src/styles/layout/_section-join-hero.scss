@@ -73,18 +73,44 @@
     }
   }
 
-  &__inner {
+  &__layout {
     position: relative;
     z-index: 2;
-    @include adaptive-value('padding-top', 72, 40, 1);
-    @include adaptive-value('padding-bottom', 72, 40, 1);
-    @include adaptive-value('padding-left', 32, 20, 1);
-    @include adaptive-value('padding-right', 32, 20, 1);
-    @include adaptive-value('min-height', 624, 0, 1);
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(280px, 520px);
+    gap: 32px;
+    align-items: start;
+    @include adaptive-value('min-height', 792, 0, 1);
+    padding: 32px;
+
+    @include media('<desktop') {
+      grid-template-columns: 1fr;
+      gap: 32px;
+      align-items: stretch;
+      min-height: 0;
+      padding: 32px 24px;
+    }
+
+    @include media('<tablet') {
+      gap: 24px;
+      padding: 0 20px 20px;
+    }
+  }
+
+  &__inner {
+    min-width: 0;
+    // Match Figma: label sits ~102px below card top (134 - 32 padding).
+    padding-top: 102px;
+    padding-bottom: 40px;
+
+    @include media('<desktop') {
+      padding-top: 24px;
+      padding-bottom: 8px;
+    }
 
     @include media('<tablet') {
       padding-top: 10px;
-      min-height: 0;
+      padding-bottom: 0;
     }
   }
 
@@ -106,7 +132,7 @@
 
   &__title {
     margin: 0;
-    max-width: 860px;
+    max-width: 760px;
     color: $color-white;
     font-weight: 500;
     letter-spacing: -2.04px;
@@ -117,7 +143,7 @@
 
   &__lead {
     margin: 0;
-    max-width: 700px;
+    max-width: 680px;
     color: $color-white;
     letter-spacing: -0.11px;
     line-height: calc(32 / 22);
@@ -141,6 +167,179 @@
     @include media('<tablet') {
       width: 100%;
     }
+  }
+
+  // Membership enquiry form card (right column in Figma).
+  &__form-card {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+    max-width: 520px;
+    margin-left: auto;
+    padding: 36px;
+    border-radius: 24px;
+    background-color: $color-white;
+    box-shadow: 0 24px 56px rgba(5, 10, 23, 0.28);
+    scroll-margin-top: 120px;
+
+    @include media('<desktop') {
+      max-width: none;
+      margin-left: 0;
+    }
+
+    @include media('<tablet') {
+      padding: 24px 20px;
+    }
+  }
+
+  &__form-header {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  &__form-title {
+    margin: 0;
+    color: $color-dark-blue;
+    font-weight: 500;
+    line-height: calc(34 / 28);
+    font-size: 28px;
+
+    @include media('<tablet') {
+      font-size: 24px;
+      line-height: calc(30 / 24);
+    }
+  }
+
+  &__form-lead {
+    margin: 0;
+    color: $color-text-muted;
+    line-height: calc(24 / 16);
+    font-size: 16px;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  &__form-row {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+
+    @include media('<tablet') {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &__field {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    min-width: 0;
+  }
+
+  &__field-label {
+    margin: 0;
+    padding: 0;
+    color: $color-dark-blue;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  input#{&}__input,
+  select#{&}__select-input,
+  textarea#{&}__textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 18px;
+    border: 1px solid $color-line;
+    border-radius: 12px;
+    background-color: #f7f8fa;
+    color: $color-dark-blue;
+    font-family: $base-font-sans-serif;
+    font-size: 16px;
+    transition:
+      border-color 0.2s ease,
+      background-color 0.2s ease;
+
+    @include placeholder {
+      color: $color-text-muted;
+    }
+
+    &:hover {
+      border-color: rgba($color-dark-blue, 0.32);
+    }
+
+    &:focus {
+      border-color: $color-red;
+      background-color: $color-white;
+    }
+  }
+
+  &__input,
+  &__select-input {
+    height: 54px;
+  }
+
+  &__textarea {
+    height: 100px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    resize: none;
+  }
+
+  &__select {
+    position: relative;
+  }
+
+  &__select-input {
+    appearance: none;
+    padding-right: 44px;
+    cursor: pointer;
+  }
+
+  &__select-icon {
+    position: absolute;
+    top: 50%;
+    right: 16px;
+    color: $color-text-muted;
+    transform: translateY(-50%);
+    pointer-events: none;
+  }
+
+  &__checkbox {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    color: $color-text-muted;
+    line-height: calc(22 / 15);
+    font-size: 15px;
+    cursor: pointer;
+
+    input[type='checkbox'] {
+      flex-shrink: 0;
+      width: 22px;
+      height: 22px;
+      margin: 0;
+      border-radius: 6px;
+      accent-color: $color-red;
+    }
+  }
+
+  &__submit {
+    align-self: stretch;
+    width: 100%;
+    min-height: 52px;
+    padding: 0 24px;
+    font-size: 16px;
+    letter-spacing: 0.08px;
   }
 
   &__panel {

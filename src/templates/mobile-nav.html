@@ -16,13 +16,6 @@
 
     <div class="mobile-nav__actions">
       <button
-        class="mobile-nav__action mobile-nav__action--search"
-        type="button"
-        aria-label="Search"
-      >
-        {{> icon name="search" width="20" height="20"}}
-      </button>
-      <button
         class="mobile-nav__action mobile-nav__action--close"
         type="button"
         aria-label="Close menu"
@@ -38,16 +31,9 @@
       <div class="mobile-nav__main">
         <ul class="mobile-nav__list">
           <li>
-            <button
-              class="mobile-nav__item"
-              type="button"
-              data-mobile-open="about-us"
-            >
-              <span>About Us</span>
-              <span class="mobile-nav__item-icon">
-                {{> icon name="chevron-right" width="20" height="20"}}
-              </span>
-            </button>
+            <a class="mobile-nav__item" href="index.html" data-nav-home>
+              <span>Home</span>
+            </a>
           </li>
           <li>
             <button
@@ -73,12 +59,59 @@
               </span>
             </button>
           </li>
+          <li>
+            <button
+              class="mobile-nav__item"
+              type="button"
+              data-mobile-open="about-us"
+            >
+              <span>About Us</span>
+              <span class="mobile-nav__item-icon">
+                {{> icon name="chevron-right" width="20" height="20"}}
+              </span>
+            </button>
+          </li>
+          <li>
+            <button
+              class="mobile-nav__item"
+              type="button"
+              data-mobile-open="insights"
+            >
+              <span>Insights</span>
+              <span class="mobile-nav__item-icon">
+                {{> icon name="chevron-right" width="20" height="20"}}
+              </span>
+            </button>
+          </li>
+          <li>
+            <a class="mobile-nav__item" href="join.html">
+              <span>Join PRI</span>
+            </a>
+          </li>
         </ul>
 
         <ul class="mobile-nav__utility">
           <li>
+            <a class="mobile-nav__utility-link" href="#">
+              <span>Members Area</span>
+              {{> icon name="arrow" width="16" height="16"}}
+            </a>
+          </li>
+          <li>
+            <a class="mobile-nav__utility-link" href="contact.html#contact-locations">
+              <span>Member Firms</span>
+              {{> icon name="arrow" width="16" height="16"}}
+            </a>
+          </li>
+          <li>
             <a class="mobile-nav__utility-link" href="news.html">
-              <span>News and Events</span>
+              <span>News</span>
+              {{> icon name="arrow" width="16" height="16"}}
+            </a>
+          </li>
+          <li>
+            <a class="mobile-nav__utility-link" href="news.html">
+              <span>Events</span>
               {{> icon name="arrow" width="16" height="16"}}
             </a>
           </li>
@@ -87,7 +120,7 @@
 
       <div class="mobile-nav__bottom">
         <a class="mobile-nav__cta site-button primary" href="contact.html">
-          <span>Contact us</span>
+          <span>Contact Us</span>
           {{> icon name="arrow" width="16" height="16"}}
         </a>
 
@@ -139,8 +172,9 @@
       </div>
     </div>
 
-    {{> mobile-menus/about-us}}
     {{> mobile-menus/services}}
     {{> mobile-menus/industries}}
+    {{> mobile-menus/about-us}}
+    {{> mobile-menus/insights}}
   </div>
 </div>

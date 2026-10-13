@@ -1,6 +1,29 @@
 <section class="section-main-hero" aria-labelledby="main-hero-title">
   <div class="container">
     <div class="section-main-hero__inner">
+      {{#if hero.indicator}}
+        <div class="section-main-hero__indicator" aria-hidden="true">
+          {{#if hero.indicator.counter}}
+            <span class="section-main-hero__indicator-counter">
+              {{ hero.indicator.counter }}
+            </span>
+          {{/if}}
+          {{#if hero.indicator.segments}}
+            <div class="section-main-hero__indicator-segments">
+              {{#each hero.indicator.segments}}
+                <span
+                  class="
+                    section-main-hero__indicator-segment
+                    {{#if active}}
+                      is-active
+                    {{/if}}
+                  "
+                ></span>
+              {{/each}}
+            </div>
+          {{/if}}
+        </div>
+      {{/if}}
       <h1 class="section-main-hero__title" id="main-hero-title">
         {{#each hero.titleLines}}
           {{#unless @first}}

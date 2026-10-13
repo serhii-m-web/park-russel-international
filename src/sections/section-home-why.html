@@ -1,0 +1,134 @@
+<section
+  class="
+    section-home-why
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if homeWhy.id}}
+    id="{{ homeWhy.id }}"
+  {{/if}}
+  data-about-cards-slider
+  {{#if homeWhy.title}}
+    aria-labelledby="{{#if homeWhy.id}}{{ homeWhy.id }}{{else}}section-home-why{{/if}}-title"
+  {{else}}
+    aria-label="Why Parker Russell International"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-home-why__header">
+      <div class="section-home-why__heading">
+        {{#if homeWhy.eyebrow}}
+          <p class="section-home-why__eyebrow">
+            <span class="section-home-why__eyebrow-rule" aria-hidden="true"></span>
+            <span>{{ homeWhy.eyebrow }}</span>
+          </p>
+        {{/if}}
+
+        {{#if homeWhy.title}}
+          <h2
+            id="{{#if homeWhy.id}}{{ homeWhy.id }}{{else}}section-home-why{{/if}}-title"
+            class="section-home-why__title"
+          >
+            {{{ homeWhy.title }}}
+          </h2>
+        {{/if}}
+      </div>
+
+      {{#if homeWhy.button}}
+        <a
+          class="section-home-why__button site-button primary"
+          href="{{ homeWhy.button.href }}"
+        >
+          {{ homeWhy.button.label }}
+          {{#if homeWhy.button.icon}}
+            {{> icon
+              name="arrow-right"
+              width="16"
+              height="16"
+            }}
+          {{/if}}
+        </a>
+      {{/if}}
+    </div>
+
+    {{#if homeWhy.cards.length}}
+      <div class="section-home-why__grid-wrap">
+        <div
+          class="swiper section-home-why__grid"
+          data-about-cards-slider-el
+          data-about-cards-slider-label="{{#if homeWhy.carouselLabel}}{{ homeWhy.carouselLabel }}{{else}}Why Parker Russell International{{/if}}"
+        >
+          <div class="swiper-wrapper">
+            {{#each homeWhy.cards}}
+              <article class="swiper-slide section-home-why__card">
+                {{#if icon}}
+                  <span class="section-home-why__icon" aria-hidden="true">
+                    <img
+                      src="{{ icon }}"
+                      alt=""
+                      width="32"
+                      height="32"
+                      decoding="async"
+                    />
+                  </span>
+                {{/if}}
+
+                {{#if title}}
+                  <h3 class="section-home-why__card-title">{{{ title }}}</h3>
+                {{/if}}
+
+                {{#if description}}
+                  <p class="section-home-why__card-description">
+                    {{{ description }}}
+                  </p>
+                {{/if}}
+              </article>
+            {{/each}}
+          </div>
+        </div>
+
+        <div
+          class="section-home-why__navigation"
+          role="group"
+          aria-label="Why Parker Russell slider controls"
+          data-about-cards-slider-nav
+          inert
+        >
+          <div
+            class="swiper-scrollbar section-home-why__scrollbar"
+            data-about-cards-slider-scrollbar
+            tabindex="0"
+            aria-label="Slider progress"
+          ></div>
+          <div class="section-home-why__nav-buttons">
+            <button
+              class="site-nav-btn swiper-button-prev section-home-why__nav-btn prev"
+              type="button"
+              data-about-cards-slider-prev
+              aria-label="Previous slide"
+            >
+              {{> icon
+                name="arrow-right"
+                width="16"
+                height="16"
+              }}
+            </button>
+            <button
+              class="site-nav-btn swiper-button-next section-home-why__nav-btn next"
+              type="button"
+              data-about-cards-slider-next
+              aria-label="Next slide"
+            >
+              {{> icon
+                name="arrow-right"
+                width="16"
+                height="16"
+              }}
+            </button>
+          </div>
+        </div>
+      </div>
+    {{/if}}
+  </div>
+</section>
