@@ -68,3 +68,7 @@
     background-color: $color-red;
   }
 }
+
+.swiper-slide {
+  box-sizing: border-box !important;
+}

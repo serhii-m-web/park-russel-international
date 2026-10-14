@@ -6,14 +6,12 @@
   background-color: $color-bg-muted;
 
   &__layout {
-    display: grid;
-    grid-template-columns: minmax(0, 560px) minmax(0, 1fr);
-    gap: 64px;
-    align-items: start;
+    display: flex;
+    @include adaptive-value('gap', 64, 32, 1);
+    align-items: stretch;
 
-    @include media('<desktop') {
-      grid-template-columns: 1fr;
-      gap: 40px;
+    @include media('<1200px') {
+      flex-direction: column;
     }
   }
 
@@ -22,7 +20,11 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 24px;
-    min-width: 0;
+    width: 50%;
+
+    @include media('<1200px') {
+      width: 100%;
+    }
   }
 
   &__eyebrow {
@@ -80,16 +82,52 @@
     }
   }
 
+  &__cards-wrap {
+    width: 50%;
+
+    @include media('<1200px') {
+      width: 100%;
+    }
+  }
+
   &__cards {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 24px;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
     margin: 0;
     padding: 0;
-    list-style: none;
+    overflow: visible !important;
+
+    @include media('>=tablet') {
+      overflow: visible;
+
+      .swiper-wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 24px;
+        transform: none !important;
+      }
+
+      .swiper-slide {
+        width: auto !important;
+        margin: 0 !important;
+        height: auto;
+      }
+    }
 
     @include media('<tablet') {
-      grid-template-columns: 1fr;
+      overflow: hidden;
+
+      .swiper-wrapper {
+        align-items: stretch;
+      }
+    }
+  }
+
+  .swiper-slide {
+    @include media('<tablet') {
+      height: auto !important;
+      min-height: 0 !important;
     }
   }
 
@@ -99,11 +137,16 @@
     align-items: flex-start;
     gap: 28px;
     min-height: 0;
+    height: 100%;
     padding: 36px 36px 40px;
     border-radius: 24px;
     background-color: $color-white;
 
     @include media('<tablet') {
+      flex: none;
+      flex-grow: 0;
+      flex-shrink: 0;
+      min-height: 0;
       padding: 28px 24px 32px;
       gap: 20px;
     }
@@ -118,6 +161,7 @@
     height: 60px;
     border-radius: 12px;
     background-color: $color-red;
+    @include adaptive-value('margin-bottom', 48, 40, 1);
 
     img {
       display: block;
@@ -140,5 +184,42 @@
     color: $color-text-muted;
     line-height: calc(26 / 17);
     font-size: 17px;
+  }
+
+  &__navigation {
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+    width: 100%;
+    @include adaptive-value('margin-top', 32, 24, 1);
+
+    @include media('<tablet') {
+      display: flex;
+    }
+  }
+
+  &__nav-buttons {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  &__scrollbar {
+    position: static !important;
+    left: auto !important;
+    right: auto !important;
+    top: auto !important;
+    bottom: auto !important;
+    flex: 1 1 auto;
+    width: auto !important;
+    max-width: 210px;
+    min-width: 0;
+    height: 6px !important;
+    background: $color-line !important;
+
+    .swiper-scrollbar-drag {
+      background: $color-red !important;
+    }
   }
 }

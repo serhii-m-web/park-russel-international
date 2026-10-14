@@ -8,6 +8,7 @@
   {{#if contactWhy.id}}
     id="{{ contactWhy.id }}"
   {{/if}}
+  data-about-cards-slider
   {{#if contactWhy.title}}
     aria-labelledby="{{#if contactWhy.id}}{{ contactWhy.id }}{{else}}section-contact-why{{/if}}-title"
   {{else}}
@@ -51,29 +52,78 @@
       </div>
 
       {{#if contactWhy.cards.length}}
-        <ul class="section-contact-why__cards">
-          {{#each contactWhy.cards}}
-            <li class="section-contact-why__card">
-              {{#if icon}}
-                <span class="section-contact-why__card-icon" aria-hidden="true">
-                  <img
-                    src="{{ icon }}"
-                    alt=""
-                    width="32"
-                    height="32"
-                    decoding="async"
-                  />
-                </span>
-              {{/if}}
-              {{#if title}}
-                <h3 class="section-contact-why__card-title">{{ title }}</h3>
-              {{/if}}
-              {{#if text}}
-                <p class="section-contact-why__card-text">{{ text }}</p>
-              {{/if}}
-            </li>
-          {{/each}}
-        </ul>
+        <div class="section-contact-why__cards-wrap">
+          <div
+            class="swiper section-contact-why__cards"
+            data-about-cards-slider-el
+            data-about-cards-slider-label="{{#if contactWhy.carouselLabel}}{{ contactWhy.carouselLabel }}{{else}}Why connect with us{{/if}}"
+          >
+            <div class="swiper-wrapper">
+              {{#each contactWhy.cards}}
+                <article class="swiper-slide section-contact-why__card">
+                  {{#if icon}}
+                    <span class="section-contact-why__card-icon" aria-hidden="true">
+                      <img
+                        src="{{ icon }}"
+                        alt=""
+                        width="32"
+                        height="32"
+                        decoding="async"
+                      />
+                    </span>
+                  {{/if}}
+                  {{#if title}}
+                    <h3 class="section-contact-why__card-title">{{ title }}</h3>
+                  {{/if}}
+                  {{#if text}}
+                    <p class="section-contact-why__card-text">{{ text }}</p>
+                  {{/if}}
+                </article>
+              {{/each}}
+            </div>
+          </div>
+
+          <div
+            class="section-contact-why__navigation"
+            role="group"
+            aria-label="Why connect with us slider controls"
+            data-about-cards-slider-nav
+            inert
+          >
+            <div
+              class="swiper-scrollbar section-contact-why__scrollbar"
+              data-about-cards-slider-scrollbar
+              tabindex="0"
+              aria-label="Slider progress"
+            ></div>
+            <div class="section-contact-why__nav-buttons">
+              <button
+                class="site-nav-btn swiper-button-prev section-contact-why__nav-btn prev"
+                type="button"
+                data-about-cards-slider-prev
+                aria-label="Previous slide"
+              >
+                {{> icon
+                  name="arrow-right"
+                  width="16"
+                  height="16"
+                }}
+              </button>
+              <button
+                class="site-nav-btn swiper-button-next section-contact-why__nav-btn next"
+                type="button"
+                data-about-cards-slider-next
+                aria-label="Next slide"
+              >
+                {{> icon
+                  name="arrow-right"
+                  width="16"
+                  height="16"
+                }}
+              </button>
+            </div>
+          </div>
+        </div>
       {{/if}}
     </div>
   </div>

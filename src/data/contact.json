@@ -56,6 +56,7 @@
     "lead": "Every business challenge demands a clear understanding of its circumstances, commercial implications and regulatory environment. Through our international network, we help organisations identify relevant expertise and establish professional relationships suited to their needs.",
     "image": "/images/contact/why-connect.png",
     "imageAlt": "Professionals meeting in a modern office lounge",
+    "carouselLabel": "Why connect with us",
     "cards": [
       {
         "icon": "/icons/icon-public.svg",
