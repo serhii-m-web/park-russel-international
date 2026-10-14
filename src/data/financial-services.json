@@ -2,5 +2,241 @@
   "meta": {
     "title": "Financial Services | Parker Russell International",
     "description": ""
+  },
+  "fsHero": {
+    "id": "fs-page-hero",
+    "className": "",
+    "label": "",
+    "labelPill": false,
+    "imageBg": "",
+    "imageLoading": "",
+    "title": "",
+    "description": "",
+    "note": "",
+    "aside": "",
+    "buttons": [
+      {
+        "label": "",
+        "href": "",
+        "variant": "",
+        "icon": false
+      }
+    ]
+  },
+  "fsSwitcher": {
+    "id": "fs-switcher",
+    "ariaLabel": "",
+    "items": [
+      {
+        "label": "",
+        "href": "",
+        "active": false
+      }
+    ]
+  },
+  "fsOverview": {
+    "id": "fs-overview",
+    "className": "",
+    "ariaLabel": "",
+    "image": "",
+    "imageAlt": "",
+    "text": "",
+    "body": "",
+    "banner": {
+      "imageBg": "",
+      "leftColumn": {
+        "icon": ""
+      },
+      "rightColumn": {
+        "text": ""
+      }
+    }
+  },
+  "fsPressures": {
+    "id": "fs-pressures",
+    "className": "",
+    "ariaLabel": "",
+    "carouselLabel": "",
+    "eyebrow": "",
+    "title": "",
+    "cards": [
+      {
+        "icon": "",
+        "title": "",
+        "description": ""
+      }
+    ]
+  },
+  "fsRevenue": {
+    "id": "fs-revenue",
+    "ariaLabel": "",
+    "title": "",
+    "conclusion": "",
+    "items": [
+      {
+        "number": "",
+        "text": ""
+      }
+    ]
+  },
+  "fsInventory": {
+    "id": "fs-inventory",
+    "ariaLabel": "",
+    "title": "",
+    "lead": "",
+    "cards": [
+      {
+        "text": ""
+      }
+    ],
+    "body": "",
+    "image": "",
+    "imageAlt": "",
+    "statement": ""
+  },
+  "fsChannels": {
+    "id": "fs-channels",
+    "className": "",
+    "ariaLabel": "",
+    "carouselLabel": "",
+    "title": "",
+    "lead": "",
+    "leadStrong": "",
+    "cards": [
+      {
+        "icon": "",
+        "title": "",
+        "description": ""
+      }
+    ],
+    "conclusion": ""
+  },
+  "fsQuestions": {
+    "id": "fs-questions",
+    "ariaLabel": "",
+    "image": "",
+    "title": "",
+    "items": [
+      {
+        "number": "",
+        "question": "",
+        "answer": ""
+      }
+    ]
+  },
+  "fsServices": {
+    "id": "fs-services",
+    "ariaLabel": "",
+    "title": "",
+    "subtitle": "",
+    "image": "",
+    "imageAlt": "",
+    "items": [
+      {
+        "icon": "",
+        "title": "",
+        "description": "",
+        "link": {
+          "label": "",
+          "href": ""
+        }
+      }
+    ]
+  },
+  "fsMoments": {
+    "id": "fs-moments",
+    "className": "",
+    "ariaLabel": "",
+    "carouselLabel": "",
+    "title": "",
+    "cards": [
+      {
+        "icon": "",
+        "description": ""
+      }
+    ],
+    "conclusion": ""
+  },
+  "fsInternational": {
+    "id": "fs-international",
+    "ariaLabel": "",
+    "eyebrow": "",
+    "title": "",
+    "lead": "",
+    "bullets": [],
+    "networkText": "",
+    "button": {
+      "label": "",
+      "href": ""
+    },
+    "image": "",
+    "imageAlt": "",
+    "overlayText": "",
+    "stats": [
+      {
+        "number": "",
+        "label": ""
+      }
+    ]
+  },
+  "fsSegments": {
+    "id": "fs-segments",
+    "className": "",
+    "ariaLabel": "",
+    "carouselLabel": "",
+    "title": "",
+    "lead": "",
+    "cards": [
+      {
+        "icon": "",
+        "title": "",
+        "description": ""
+      }
+    ]
+  },
+  "fsInsights": {
+    "id": "fs-insights",
+    "ariaLabel": "",
+    "carouselLabel": "",
+    "title": "",
+    "lead": "",
+    "body": "",
+    "button": {
+      "label": "",
+      "href": ""
+    },
+    "items": [
+      {
+        "image": "",
+        "topic": "",
+        "date": "",
+        "datetime": "",
+        "title": "",
+        "link": {
+          "label": "",
+          "href": ""
+        }
+      }
+    ]
+  },
+  "fsFinal": {
+    "id": "fs-final",
+    "ariaLabel": "",
+    "isSection": false,
+    "className": "",
+    "imageBg": "",
+    "imageLoading": "",
+    "title": "",
+    "description": "",
+    "note": "",
+    "tagline": "",
+    "buttons": [
+      {
+        "label": "",
+        "href": "",
+        "variant": "",
+        "icon": false
+      }
+    ]
   }
 }

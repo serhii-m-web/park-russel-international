@@ -2,5 +2,241 @@
   "meta": {
     "title": "Renewable Energy | Parker Russell International",
     "description": ""
+  },
+  "renHero": {
+    "id": "ren-page-hero",
+    "className": "",
+    "label": "",
+    "labelPill": false,
+    "imageBg": "",
+    "imageLoading": "",
+    "title": "",
+    "description": "",
+    "note": "",
+    "aside": "",
+    "buttons": [
+      {
+        "label": "",
+        "href": "",
+        "variant": "",
+        "icon": false
+      }
+    ]
+  },
+  "renSwitcher": {
+    "id": "ren-switcher",
+    "ariaLabel": "",
+    "items": [
+      {
+        "label": "",
+        "href": "",
+        "active": false
+      }
+    ]
+  },
+  "renOverview": {
+    "id": "ren-overview",
+    "className": "",
+    "ariaLabel": "",
+    "image": "",
+    "imageAlt": "",
+    "text": "",
+    "body": "",
+    "banner": {
+      "imageBg": "",
+      "leftColumn": {
+        "icon": ""
+      },
+      "rightColumn": {
+        "text": ""
+      }
+    }
+  },
+  "renPressures": {
+    "id": "ren-pressures",
+    "className": "",
+    "ariaLabel": "",
+    "carouselLabel": "",
+    "eyebrow": "",
+    "title": "",
+    "cards": [
+      {
+        "icon": "",
+        "title": "",
+        "description": ""
+      }
+    ]
+  },
+  "renRevenue": {
+    "id": "ren-revenue",
+    "ariaLabel": "",
+    "title": "",
+    "conclusion": "",
+    "items": [
+      {
+        "number": "",
+        "text": ""
+      }
+    ]
+  },
+  "renInventory": {
+    "id": "ren-inventory",
+    "ariaLabel": "",
+    "title": "",
+    "lead": "",
+    "cards": [
+      {
+        "text": ""
+      }
+    ],
+    "body": "",
+    "image": "",
+    "imageAlt": "",
+    "statement": ""
+  },
+  "renChannels": {
+    "id": "ren-channels",
+    "className": "",
+    "ariaLabel": "",
+    "carouselLabel": "",
+    "title": "",
+    "lead": "",
+    "leadStrong": "",
+    "cards": [
+      {
+        "icon": "",
+        "title": "",
+        "description": ""
+      }
+    ],
+    "conclusion": ""
+  },
+  "renQuestions": {
+    "id": "ren-questions",
+    "ariaLabel": "",
+    "image": "",
+    "title": "",
+    "items": [
+      {
+        "number": "",
+        "question": "",
+        "answer": ""
+      }
+    ]
+  },
+  "renServices": {
+    "id": "ren-services",
+    "ariaLabel": "",
+    "title": "",
+    "subtitle": "",
+    "image": "",
+    "imageAlt": "",
+    "items": [
+      {
+        "icon": "",
+        "title": "",
+        "description": "",
+        "link": {
+          "label": "",
+          "href": ""
+        }
+      }
+    ]
+  },
+  "renMoments": {
+    "id": "ren-moments",
+    "className": "",
+    "ariaLabel": "",
+    "carouselLabel": "",
+    "title": "",
+    "cards": [
+      {
+        "icon": "",
+        "description": ""
+      }
+    ],
+    "conclusion": ""
+  },
+  "renInternational": {
+    "id": "ren-international",
+    "ariaLabel": "",
+    "eyebrow": "",
+    "title": "",
+    "lead": "",
+    "bullets": [],
+    "networkText": "",
+    "button": {
+      "label": "",
+      "href": ""
+    },
+    "image": "",
+    "imageAlt": "",
+    "overlayText": "",
+    "stats": [
+      {
+        "number": "",
+        "label": ""
+      }
+    ]
+  },
+  "renSegments": {
+    "id": "ren-segments",
+    "className": "",
+    "ariaLabel": "",
+    "carouselLabel": "",
+    "title": "",
+    "lead": "",
+    "cards": [
+      {
+        "icon": "",
+        "title": "",
+        "description": ""
+      }
+    ]
+  },
+  "renInsights": {
+    "id": "ren-insights",
+    "ariaLabel": "",
+    "carouselLabel": "",
+    "title": "",
+    "lead": "",
+    "body": "",
+    "button": {
+      "label": "",
+      "href": ""
+    },
+    "items": [
+      {
+        "image": "",
+        "topic": "",
+        "date": "",
+        "datetime": "",
+        "title": "",
+        "link": {
+          "label": "",
+          "href": ""
+        }
+      }
+    ]
+  },
+  "renFinal": {
+    "id": "ren-final",
+    "ariaLabel": "",
+    "isSection": false,
+    "className": "",
+    "imageBg": "",
+    "imageLoading": "",
+    "title": "",
+    "description": "",
+    "note": "",
+    "tagline": "",
+    "buttons": [
+      {
+        "label": "",
+        "href": "",
+        "variant": "",
+        "icon": false
+      }
+    ]
   }
 }

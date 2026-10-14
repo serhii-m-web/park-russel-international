@@ -2,5 +2,241 @@
   "meta": {
     "title": "Real Estate | Parker Russell International",
     "description": ""
+  },
+  "reHero": {
+    "id": "re-page-hero",
+    "className": "",
+    "label": "",
+    "labelPill": false,
+    "imageBg": "",
+    "imageLoading": "",
+    "title": "",
+    "description": "",
+    "note": "",
+    "aside": "",
+    "buttons": [
+      {
+        "label": "",
+        "href": "",
+        "variant": "",
+        "icon": false
+      }
+    ]
+  },
+  "reSwitcher": {
+    "id": "re-switcher",
+    "ariaLabel": "",
+    "items": [
+      {
+        "label": "",
+        "href": "",
+        "active": false
+      }
+    ]
+  },
+  "reOverview": {
+    "id": "re-overview",
+    "className": "",
+    "ariaLabel": "",
+    "image": "",
+    "imageAlt": "",
+    "text": "",
+    "body": "",
+    "banner": {
+      "imageBg": "",
+      "leftColumn": {
+        "icon": ""
+      },
+      "rightColumn": {
+        "text": ""
+      }
+    }
+  },
+  "rePressures": {
+    "id": "re-pressures",
+    "className": "",
+    "ariaLabel": "",
+    "carouselLabel": "",
+    "eyebrow": "",
+    "title": "",
+    "cards": [
+      {
+        "icon": "",
+        "title": "",
+        "description": ""
+      }
+    ]
+  },
+  "reRevenue": {
+    "id": "re-revenue",
+    "ariaLabel": "",
+    "title": "",
+    "conclusion": "",
+    "items": [
+      {
+        "number": "",
+        "text": ""
+      }
+    ]
+  },
+  "reInventory": {
+    "id": "re-inventory",
+    "ariaLabel": "",
+    "title": "",
+    "lead": "",
+    "cards": [
+      {
+        "text": ""
+      }
+    ],
+    "body": "",
+    "image": "",
+    "imageAlt": "",
+    "statement": ""
+  },
+  "reChannels": {
+    "id": "re-channels",
+    "className": "",
+    "ariaLabel": "",
+    "carouselLabel": "",
+    "title": "",
+    "lead": "",
+    "leadStrong": "",
+    "cards": [
+      {
+        "icon": "",
+        "title": "",
+        "description": ""
+      }
+    ],
+    "conclusion": ""
+  },
+  "reQuestions": {
+    "id": "re-questions",
+    "ariaLabel": "",
+    "image": "",
+    "title": "",
+    "items": [
+      {
+        "number": "",
+        "question": "",
+        "answer": ""
+      }
+    ]
+  },
+  "reServices": {
+    "id": "re-services",
+    "ariaLabel": "",
+    "title": "",
+    "subtitle": "",
+    "image": "",
+    "imageAlt": "",
+    "items": [
+      {
+        "icon": "",
+        "title": "",
+        "description": "",
+        "link": {
+          "label": "",
+          "href": ""
+        }
+      }
+    ]
+  },
+  "reMoments": {
+    "id": "re-moments",
+    "className": "",
+    "ariaLabel": "",
+    "carouselLabel": "",
+    "title": "",
+    "cards": [
+      {
+        "icon": "",
+        "description": ""
+      }
+    ],
+    "conclusion": ""
+  },
+  "reInternational": {
+    "id": "re-international",
+    "ariaLabel": "",
+    "eyebrow": "",
+    "title": "",
+    "lead": "",
+    "bullets": [],
+    "networkText": "",
+    "button": {
+      "label": "",
+      "href": ""
+    },
+    "image": "",
+    "imageAlt": "",
+    "overlayText": "",
+    "stats": [
+      {
+        "number": "",
+        "label": ""
+      }
+    ]
+  },
+  "reSegments": {
+    "id": "re-segments",
+    "className": "",
+    "ariaLabel": "",
+    "carouselLabel": "",
+    "title": "",
+    "lead": "",
+    "cards": [
+      {
+        "icon": "",
+        "title": "",
+        "description": ""
+      }
+    ]
+  },
+  "reInsights": {
+    "id": "re-insights",
+    "ariaLabel": "",
+    "carouselLabel": "",
+    "title": "",
+    "lead": "",
+    "body": "",
+    "button": {
+      "label": "",
+      "href": ""
+    },
+    "items": [
+      {
+        "image": "",
+        "topic": "",
+        "date": "",
+        "datetime": "",
+        "title": "",
+        "link": {
+          "label": "",
+          "href": ""
+        }
+      }
+    ]
+  },
+  "reFinal": {
+    "id": "re-final",
+    "ariaLabel": "",
+    "isSection": false,
+    "className": "",
+    "imageBg": "",
+    "imageLoading": "",
+    "title": "",
+    "description": "",
+    "note": "",
+    "tagline": "",
+    "buttons": [
+      {
+        "label": "",
+        "href": "",
+        "variant": "",
+        "icon": false
+      }
+    ]
   }
 }

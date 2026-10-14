@@ -2,5 +2,241 @@
   "meta": {
     "title": "Manufacturing | Parker Russell International",
     "description": ""
+  },
+  "mfgHero": {
+    "id": "mfg-page-hero",
+    "className": "",
+    "label": "",
+    "labelPill": false,
+    "imageBg": "",
+    "imageLoading": "",
+    "title": "",
+    "description": "",
+    "note": "",
+    "aside": "",
+    "buttons": [
+      {
+        "label": "",
+        "href": "",
+        "variant": "",
+        "icon": false
+      }
+    ]
+  },
+  "mfgSwitcher": {
+    "id": "mfg-switcher",
+    "ariaLabel": "",
+    "items": [
+      {
+        "label": "",
+        "href": "",
+        "active": false
+      }
+    ]
+  },
+  "mfgOverview": {
+    "id": "mfg-overview",
+    "className": "",
+    "ariaLabel": "",
+    "image": "",
+    "imageAlt": "",
+    "text": "",
+    "body": "",
+    "banner": {
+      "imageBg": "",
+      "leftColumn": {
+        "icon": ""
+      },
+      "rightColumn": {
+        "text": ""
+      }
+    }
+  },
+  "mfgPressures": {
+    "id": "mfg-pressures",
+    "className": "",
+    "ariaLabel": "",
+    "carouselLabel": "",
+    "eyebrow": "",
+    "title": "",
+    "cards": [
+      {
+        "icon": "",
+        "title": "",
+        "description": ""
+      }
+    ]
+  },
+  "mfgRevenue": {
+    "id": "mfg-revenue",
+    "ariaLabel": "",
+    "title": "",
+    "conclusion": "",
+    "items": [
+      {
+        "number": "",
+        "text": ""
+      }
+    ]
+  },
+  "mfgInventory": {
+    "id": "mfg-inventory",
+    "ariaLabel": "",
+    "title": "",
+    "lead": "",
+    "cards": [
+      {
+        "text": ""
+      }
+    ],
+    "body": "",
+    "image": "",
+    "imageAlt": "",
+    "statement": ""
+  },
+  "mfgChannels": {
+    "id": "mfg-channels",
+    "className": "",
+    "ariaLabel": "",
+    "carouselLabel": "",
+    "title": "",
+    "lead": "",
+    "leadStrong": "",
+    "cards": [
+      {
+        "icon": "",
+        "title": "",
+        "description": ""
+      }
+    ],
+    "conclusion": ""
+  },
+  "mfgQuestions": {
+    "id": "mfg-questions",
+    "ariaLabel": "",
+    "image": "",
+    "title": "",
+    "items": [
+      {
+        "number": "",
+        "question": "",
+        "answer": ""
+      }
+    ]
+  },
+  "mfgServices": {
+    "id": "mfg-services",
+    "ariaLabel": "",
+    "title": "",
+    "subtitle": "",
+    "image": "",
+    "imageAlt": "",
+    "items": [
+      {
+        "icon": "",
+        "title": "",
+        "description": "",
+        "link": {
+          "label": "",
+          "href": ""
+        }
+      }
+    ]
+  },
+  "mfgMoments": {
+    "id": "mfg-moments",
+    "className": "",
+    "ariaLabel": "",
+    "carouselLabel": "",
+    "title": "",
+    "cards": [
+      {
+        "icon": "",
+        "description": ""
+      }
+    ],
+    "conclusion": ""
+  },
+  "mfgInternational": {
+    "id": "mfg-international",
+    "ariaLabel": "",
+    "eyebrow": "",
+    "title": "",
+    "lead": "",
+    "bullets": [],
+    "networkText": "",
+    "button": {
+      "label": "",
+      "href": ""
+    },
+    "image": "",
+    "imageAlt": "",
+    "overlayText": "",
+    "stats": [
+      {
+        "number": "",
+        "label": ""
+      }
+    ]
+  },
+  "mfgSegments": {
+    "id": "mfg-segments",
+    "className": "",
+    "ariaLabel": "",
+    "carouselLabel": "",
+    "title": "",
+    "lead": "",
+    "cards": [
+      {
+        "icon": "",
+        "title": "",
+        "description": ""
+      }
+    ]
+  },
+  "mfgInsights": {
+    "id": "mfg-insights",
+    "ariaLabel": "",
+    "carouselLabel": "",
+    "title": "",
+    "lead": "",
+    "body": "",
+    "button": {
+      "label": "",
+      "href": ""
+    },
+    "items": [
+      {
+        "image": "",
+        "topic": "",
+        "date": "",
+        "datetime": "",
+        "title": "",
+        "link": {
+          "label": "",
+          "href": ""
+        }
+      }
+    ]
+  },
+  "mfgFinal": {
+    "id": "mfg-final",
+    "ariaLabel": "",
+    "isSection": false,
+    "className": "",
+    "imageBg": "",
+    "imageLoading": "",
+    "title": "",
+    "description": "",
+    "note": "",
+    "tagline": "",
+    "buttons": [
+      {
+        "label": "",
+        "href": "",
+        "variant": "",
+        "icon": false
+      }
+    ]
   }
 }

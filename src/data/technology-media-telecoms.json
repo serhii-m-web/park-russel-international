@@ -2,5 +2,241 @@
   "meta": {
     "title": "Technology, Media & Telecoms | Parker Russell International",
     "description": ""
+  },
+  "tmtHero": {
+    "id": "tmt-page-hero",
+    "className": "",
+    "label": "",
+    "labelPill": false,
+    "imageBg": "",
+    "imageLoading": "",
+    "title": "",
+    "description": "",
+    "note": "",
+    "aside": "",
+    "buttons": [
+      {
+        "label": "",
+        "href": "",
+        "variant": "",
+        "icon": false
+      }
+    ]
+  },
+  "tmtSwitcher": {
+    "id": "tmt-switcher",
+    "ariaLabel": "",
+    "items": [
+      {
+        "label": "",
+        "href": "",
+        "active": false
+      }
+    ]
+  },
+  "tmtOverview": {
+    "id": "tmt-overview",
+    "className": "",
+    "ariaLabel": "",
+    "image": "",
+    "imageAlt": "",
+    "text": "",
+    "body": "",
+    "banner": {
+      "imageBg": "",
+      "leftColumn": {
+        "icon": ""
+      },
+      "rightColumn": {
+        "text": ""
+      }
+    }
+  },
+  "tmtPressures": {
+    "id": "tmt-pressures",
+    "className": "",
+    "ariaLabel": "",
+    "carouselLabel": "",
+    "eyebrow": "",
+    "title": "",
+    "cards": [
+      {
+        "icon": "",
+        "title": "",
+        "description": ""
+      }
+    ]
+  },
+  "tmtRevenue": {
+    "id": "tmt-revenue",
+    "ariaLabel": "",
+    "title": "",
+    "conclusion": "",
+    "items": [
+      {
+        "number": "",
+        "text": ""
+      }
+    ]
+  },
+  "tmtInventory": {
+    "id": "tmt-inventory",
+    "ariaLabel": "",
+    "title": "",
+    "lead": "",
+    "cards": [
+      {
+        "text": ""
+      }
+    ],
+    "body": "",
+    "image": "",
+    "imageAlt": "",
+    "statement": ""
+  },
+  "tmtChannels": {
+    "id": "tmt-channels",
+    "className": "",
+    "ariaLabel": "",
+    "carouselLabel": "",
+    "title": "",
+    "lead": "",
+    "leadStrong": "",
+    "cards": [
+      {
+        "icon": "",
+        "title": "",
+        "description": ""
+      }
+    ],
+    "conclusion": ""
+  },
+  "tmtQuestions": {
+    "id": "tmt-questions",
+    "ariaLabel": "",
+    "image": "",
+    "title": "",
+    "items": [
+      {
+        "number": "",
+        "question": "",
+        "answer": ""
+      }
+    ]
+  },
+  "tmtServices": {
+    "id": "tmt-services",
+    "ariaLabel": "",
+    "title": "",
+    "subtitle": "",
+    "image": "",
+    "imageAlt": "",
+    "items": [
+      {
+        "icon": "",
+        "title": "",
+        "description": "",
+        "link": {
+          "label": "",
+          "href": ""
+        }
+      }
+    ]
+  },
+  "tmtMoments": {
+    "id": "tmt-moments",
+    "className": "",
+    "ariaLabel": "",
+    "carouselLabel": "",
+    "title": "",
+    "cards": [
+      {
+        "icon": "",
+        "description": ""
+      }
+    ],
+    "conclusion": ""
+  },
+  "tmtInternational": {
+    "id": "tmt-international",
+    "ariaLabel": "",
+    "eyebrow": "",
+    "title": "",
+    "lead": "",
+    "bullets": [],
+    "networkText": "",
+    "button": {
+      "label": "",
+      "href": ""
+    },
+    "image": "",
+    "imageAlt": "",
+    "overlayText": "",
+    "stats": [
+      {
+        "number": "",
+        "label": ""
+      }
+    ]
+  },
+  "tmtSegments": {
+    "id": "tmt-segments",
+    "className": "",
+    "ariaLabel": "",
+    "carouselLabel": "",
+    "title": "",
+    "lead": "",
+    "cards": [
+      {
+        "icon": "",
+        "title": "",
+        "description": ""
+      }
+    ]
+  },
+  "tmtInsights": {
+    "id": "tmt-insights",
+    "ariaLabel": "",
+    "carouselLabel": "",
+    "title": "",
+    "lead": "",
+    "body": "",
+    "button": {
+      "label": "",
+      "href": ""
+    },
+    "items": [
+      {
+        "image": "",
+        "topic": "",
+        "date": "",
+        "datetime": "",
+        "title": "",
+        "link": {
+          "label": "",
+          "href": ""
+        }
+      }
+    ]
+  },
+  "tmtFinal": {
+    "id": "tmt-final",
+    "ariaLabel": "",
+    "isSection": false,
+    "className": "",
+    "imageBg": "",
+    "imageLoading": "",
+    "title": "",
+    "description": "",
+    "note": "",
+    "tagline": "",
+    "buttons": [
+      {
+        "label": "",
+        "href": "",
+        "variant": "",
+        "icon": false
+      }
+    ]
   }
 }
