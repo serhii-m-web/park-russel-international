@@ -34,15 +34,16 @@
     "ariaLabel": "Browse industries",
     "items": [
       { "label": "Consumer Business", "href": "consumer-business.html", "active": true },
-      { "label": "E-commerce Services", "href": "#" },
-      { "label": "Energy Infrastructure", "href": "#" },
-      { "label": "Financial Services", "href": "#" },
-      { "label": "Government & Public Sector", "href": "#" },
-      { "label": "Manufacturing", "href": "#" },
-      { "label": "Real Estate", "href": "#" },
-      { "label": "Renewable Energy", "href": "#" },
-      { "label": "Technology, Media and Telecoms", "href": "#" },
-      { "label": "Tourism, Hospitality & Leisure", "href": "#" }
+      { "label": "E-commerce Services", "href": "e-commerce-services.html" },
+      { "label": "Energy, Infrastructure & Utilities", "href": "energy-infrastructure-utilities.html" },
+      { "label": "Financial Services", "href": "financial-services.html" },
+      { "label": "Government & Public Sector", "href": "government-public-sector.html" },
+      { "label": "Manufacturing", "href": "manufacturing.html" },
+      { "label": "Oil, Gas & Natural Resources", "href": "oil-gas-natural-resources.html" },
+      { "label": "Real Estate", "href": "real-estate.html" },
+      { "label": "Renewable Energy", "href": "renewable-energy.html" },
+      { "label": "Technology, Media & Telecoms", "href": "technology-media-telecoms.html" },
+      { "label": "Tourism, Hospitality & Leisure", "href": "tourism-hospitality-leisure.html" }
     ]
   },
   "cbOverview": {
