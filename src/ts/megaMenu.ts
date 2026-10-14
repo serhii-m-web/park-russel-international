@@ -1,6 +1,8 @@
 export function initMegaMenu(root: ParentNode = document): void {
   const items = Array.from(
-    root.querySelectorAll<HTMLElement>('.site-header__menu-item--has-mega'),
+    root.querySelectorAll<HTMLElement>(
+      '.site-header__menu-item--has-mega, .site-header__utility-nav-item--has-dropdown',
+    ),
   );
   const canHover = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
   const closeDelayMs = 180;

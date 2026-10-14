@@ -5,6 +5,8 @@
   z-index: 100;
 
   &__utility {
+    position: relative;
+    z-index: 3;
     background-color: $color-dark-blue;
     padding: 10px 0;
   }
@@ -59,23 +61,40 @@
     margin: 0;
   }
 
+  &__utility-nav-item {
+    &--has-dropdown {
+      position: static;
+    }
+  }
+
   &__utility-nav-link {
     display: inline-flex;
     align-items: center;
     gap: 2px;
+    padding: 0;
+    border: 0;
+    background: none;
     color: $color-white;
+    font: inherit;
     font-size: 14px;
     letter-spacing: 0;
     line-height: 20px;
     font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
     transition: color 0.3s ease;
 
-    &:hover {
+    &:hover,
+    &[aria-expanded='true'] {
       color: $color-red;
     }
 
     &--members {
       gap: 8px;
+    }
+
+    &--dropdown {
+      gap: 2px;
     }
   }
 
@@ -85,10 +104,122 @@
     width: 18px;
     height: 18px;
     color: inherit;
+    transition: transform 0.28s ease;
+  }
+
+  &__utility-nav-link[aria-expanded='true'] &__utility-nav-chevron {
+    transform: rotate(180deg);
+  }
+
+  // Member Firms country dropdown (desktop utility bar only).
+  &__firms-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 120;
+    padding: 12px 0 0;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(-8px);
+    pointer-events: none;
+    transition:
+      opacity 0.28s ease,
+      transform 0.28s ease,
+      visibility 0.28s ease;
+
+    .is-open > & {
+      visibility: visible;
+      opacity: 1;
+      transform: translateY(0);
+      pointer-events: auto;
+    }
+  }
+
+  &__firms-dropdown-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 28px 32px 24px;
+    background-color: $color-white;
+    border-radius: 0 0 16px 16px;
+    box-shadow: 0 24px 56px rgba(20, 28, 46, 0.22);
+  }
+
+  &__firms-grid {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 24px 20px;
+
+    @media (max-width: 1279px) {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+
+  &__firms-col {
+    min-width: 0;
+  }
+
+  &__firms-region {
+    margin: 0 0 10px;
+    color: $color-red;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+
+  &__firms-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  &__firms-link {
+    display: block;
+    padding: 4px 0;
+    color: $color-dark-blue;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    transition: color 0.2s ease;
+
+    &:hover {
+      color: $color-red;
+    }
+  }
+
+  &__firms-all {
+    display: inline-flex;
+    align-items: center;
+    align-self: flex-start;
+    gap: 8px;
+    padding-top: 16px;
+    border-top: 1px solid $color-border;
+    width: 100%;
+    color: $color-red;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-decoration: none;
+    transition: opacity 0.2s ease;
+
+    .icon {
+      flex-shrink: 0;
+    }
+
+    &:hover {
+      opacity: 0.8;
+    }
   }
 
   &__bar {
     position: relative;
+    z-index: 2;
     padding: 22px 0;
     background-color: $color-white;
     border-bottom: 1px solid $color-border;

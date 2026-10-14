@@ -12,7 +12,7 @@
   &__card {
     position: relative;
     overflow: hidden;
-    @include adaptive-value('min-height', 452, 260, 1);
+    @include adaptive-value('min-height', 564, 280, 1);
     @include adaptive-value('border-radius', 32, 24, 1);
     margin-bottom: 20px;
     background-color: $color-navy;
@@ -86,8 +86,12 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    @include adaptive-value('min-height', 452, 260, 1);
-    padding: 96px 64px 56px 64px;
+    @include adaptive-value('min-height', 564, 280, 1);
+    padding: 88px 32px 56px;
+
+    @include media('<desktop') {
+      padding: 56px 32px 40px;
+    }
 
     @include media('<tablet') {
       padding: 32px 20px;
@@ -117,10 +121,29 @@
     letter-spacing: -0.11px;
     line-height: calc(32 / 22);
     @include adaptive-value('font-size', 22, 16, 1);
+    @include adaptive-value('margin-bottom', 48, 24, 1);
 
     @include media('<tablet') {
       letter-spacing: -0.09px;
       line-height: calc(26 / 16);
+    }
+  }
+
+  &__buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+
+    @include media('<tablet') {
+      flex-direction: column;
+    }
+  }
+
+  &__button {
+    width: max-content;
+
+    @include media('<tablet') {
+      width: 100%;
     }
   }
 
@@ -226,7 +249,7 @@
     padding-left: 40px;
 
     &:first-child {
-      width: 100%;
+      flex: 1 1 auto;
     }
 
     @include media('<desktop') {
@@ -236,6 +259,8 @@
       padding-top: 20px;
 
       &:first-child {
+        flex: none;
+        width: 100%;
         padding-top: 0;
       }
 

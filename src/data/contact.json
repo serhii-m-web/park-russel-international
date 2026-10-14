@@ -7,8 +7,22 @@
     "id": "contact-hero",
     "imageBg": "/images/contact/hero-bg.png",
     "imageLoading": "eager",
-    "title": "Contact us",
-    "lead": "If you have a question, would like some advice regarding your business or personal affairs, get in touch with us today, we'd love to hear from you. We know not everyone wants to complete a form, and at the same time not everyone wishes to pick up the telephone, therefore, we've made it as easy as possible for you to contact us.",
+    "title": "Expertise That Connects. Relationships That Matter.",
+    "lead": "Whether you are seeking specialist professional advice, navigating international business challenges or exploring opportunities within our network, Parker Russell International connects you with experienced independent professionals across global markets.",
+    "buttons": [
+      {
+        "label": "Make an Enquiry",
+        "href": "#get-in-touch",
+        "variant": "primary",
+        "icon": true
+      },
+      {
+        "label": "Explore Our Member Firms",
+        "href": "#contact-locations",
+        "variant": "secondary",
+        "icon": true
+      }
+    ],
     "officeIntro": {
       "icon": "/icons/icon-forum.svg",
       "text": "For any questions about our services, please get in touch with one of our expert advisors."
@@ -35,10 +49,40 @@
       }
     ]
   },
+  "contactWhy": {
+    "id": "why-connect",
+    "eyebrow": "Why Connect With Us",
+    "title": "The Right Expertise. The Right Connections.",
+    "lead": "Every business challenge demands a clear understanding of its circumstances, commercial implications and regulatory environment. Through our international network, we help organisations identify relevant expertise and establish professional relationships suited to their needs.",
+    "image": "/images/contact/why-connect.png",
+    "imageAlt": "Professionals meeting in a modern office lounge",
+    "cards": [
+      {
+        "icon": "/icons/icon-public.svg",
+        "title": "International Access",
+        "text": "Connect with independent professional firms across jurisdictions, supported by established local knowledge and international relationships."
+      },
+      {
+        "icon": "/icons/icon-hub.svg",
+        "title": "Multidisciplinary Expertise",
+        "text": "Access professional capabilities across audit, assurance, taxation, financial advisory and corporate services."
+      },
+      {
+        "icon": "/icons/icon-balance.svg",
+        "title": "Professional Integrity",
+        "text": "Engage with member firms operating within professional and regulatory frameworks, with an emphasis on technical competence and quality."
+      },
+      {
+        "icon": "/icons/icon-handshake.svg",
+        "title": "Meaningful Relationships",
+        "text": "Build direct relationships with professionals who understand your requirements and take a considered approach to your objectives."
+      }
+    ]
+  },
   "contactLocations": {
     "id": "contact-locations",
     "eyebrow": "Parker Russell Member Firms",
-    "title": "Our Locations",
+    "title": "Our Members",
     "leadHtml": "View the locations and contact information for <span class=\"is-accent\">184 international offices</span>.",
     "body": "Our independent member firms offer audit, accountancy and other related services in 86 countries by more than 180 offices and over 2000 qualified auditors, accountants and advisors.",
     "regionIcon": "/icons/icon-public.svg",

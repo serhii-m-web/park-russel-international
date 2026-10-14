@@ -1,0 +1,80 @@
+<section
+  class="
+    section-contact-why
+    {{#if sectionClass}}
+      {{ sectionClass }}
+    {{/if}}
+  "
+  {{#if contactWhy.id}}
+    id="{{ contactWhy.id }}"
+  {{/if}}
+  {{#if contactWhy.title}}
+    aria-labelledby="{{#if contactWhy.id}}{{ contactWhy.id }}{{else}}section-contact-why{{/if}}-title"
+  {{else}}
+    aria-label="Why connect with us"
+  {{/if}}
+>
+  <div class="container">
+    <div class="section-contact-why__layout">
+      <div class="section-contact-why__intro">
+        {{#if contactWhy.eyebrow}}
+          <p class="section-contact-why__eyebrow">
+            <span class="section-contact-why__eyebrow-rule" aria-hidden="true"></span>
+            <span>{{ contactWhy.eyebrow }}</span>
+          </p>
+        {{/if}}
+
+        {{#if contactWhy.title}}
+          <h2
+            id="{{#if contactWhy.id}}{{ contactWhy.id }}{{else}}section-contact-why{{/if}}-title"
+            class="section-contact-why__title"
+          >
+            {{{ contactWhy.title }}}
+          </h2>
+        {{/if}}
+
+        {{#if contactWhy.lead}}
+          <p class="section-contact-why__lead">{{{ contactWhy.lead }}}</p>
+        {{/if}}
+
+        {{#if contactWhy.image}}
+          <div class="section-contact-why__media">
+            {{picture
+              contactWhy.image
+              alt=contactWhy.imageAlt
+              class="section-contact-why__image"
+              width="560"
+              height="466"
+            }}
+          </div>
+        {{/if}}
+      </div>
+
+      {{#if contactWhy.cards.length}}
+        <ul class="section-contact-why__cards">
+          {{#each contactWhy.cards}}
+            <li class="section-contact-why__card">
+              {{#if icon}}
+                <span class="section-contact-why__card-icon" aria-hidden="true">
+                  <img
+                    src="{{ icon }}"
+                    alt=""
+                    width="32"
+                    height="32"
+                    decoding="async"
+                  />
+                </span>
+              {{/if}}
+              {{#if title}}
+                <h3 class="section-contact-why__card-title">{{ title }}</h3>
+              {{/if}}
+              {{#if text}}
+                <p class="section-contact-why__card-text">{{ text }}</p>
+              {{/if}}
+            </li>
+          {{/each}}
+        </ul>
+      {{/if}}
+    </div>
+  </div>
+</section>

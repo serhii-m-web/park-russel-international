@@ -86,10 +86,33 @@ export default defineConfig(({ mode }) => {
         ],
         reloadOnPartialChange: true,
         context: {
-          site: () =>
-            loadJson(resolve(__dirname, 'src/data/site.json'), {
+          site: () => {
+            const site = loadJson(resolve(__dirname, 'src/data/site.json'), {
               brand: 'Parker Russell International',
-            }),
+            }) as Record<string, unknown>;
+            const contact = loadJson(
+              resolve(__dirname, 'src/data/contact.json'),
+              {},
+            ) as {
+              contactLocations?: {
+                regions?: Array<{
+                  name: string;
+                  countries: Array<{ label: string; href: string }>;
+                }>;
+              };
+            };
+
+            return {
+              ...site,
+              memberFirms: {
+                regions: contact.contactLocations?.regions ?? [],
+                viewAll: {
+                  label: 'View all locations',
+                  href: 'contact.html#contact-locations',
+                },
+              },
+            };
+          },
           page: (pagePath: string) => {
             const pageName = basename(pagePath, '.html');
             return loadJson(

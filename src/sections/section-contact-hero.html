@@ -23,7 +23,7 @@
             alt=""
             class="section-contact-hero__bg-image"
             width="1376"
-            height="452"
+            height="564"
             loading=contactHero.imageLoading
           }}
         </div>
@@ -42,6 +42,26 @@
         {{#if contactHero.lead}}
           <p class="section-contact-hero__lead">{{{ contactHero.lead }}}</p>
         {{/if}}
+
+        {{#if contactHero.buttons.length}}
+          <div class="section-contact-hero__buttons">
+            {{#each contactHero.buttons}}
+              <a
+                class="section-contact-hero__button site-button {{ variant }}"
+                href="{{ href }}"
+              >
+                <span>{{ label }}</span>
+                {{#if icon}}
+                  {{> icon
+                    name="arrow-right"
+                    width="16"
+                    height="16"
+                  }}
+                {{/if}}
+              </a>
+            {{/each}}
+          </div>
+        {{/if}}
       </div>
     </div>
 
@@ -53,8 +73,8 @@
               <img
                 src="{{ contactHero.officeIntro.icon }}"
                 alt=""
-                width="28"
-                height="28"
+                width="35"
+                height="35"
                 decoding="async"
               />
             </span>
@@ -76,8 +96,8 @@
                   <img
                     src="{{ icon }}"
                     alt=""
-                    width="22"
-                    height="22"
+                    width="26"
+                    height="26"
                     decoding="async"
                   />
                 </span>

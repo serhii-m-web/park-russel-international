@@ -66,10 +66,15 @@
                 <span>Members Area</span>
               </a>
             </li>
-            <li class="site-header__utility-nav-item">
-              <a
-                class="site-header__utility-nav-link"
-                href="contact.html#contact-locations"
+            <li
+              class="site-header__utility-nav-item site-header__utility-nav-item--has-dropdown"
+            >
+              <button
+                class="site-header__utility-nav-link site-header__utility-nav-link--dropdown"
+                type="button"
+                aria-expanded="false"
+                aria-controls="utility-member-firms"
+                data-mega-trigger
               >
                 <span>Member Firms</span>
                 {{> icon
@@ -78,7 +83,54 @@
                   height="18"
                   class="site-header__utility-nav-chevron"
                 }}
-              </a>
+              </button>
+              <div
+                class="site-header__firms-dropdown"
+                id="utility-member-firms"
+                data-mega-panel
+                aria-hidden="true"
+              >
+                <div class="container">
+                  <div class="site-header__firms-dropdown-panel">
+                    {{#if site.memberFirms.regions.length}}
+                      <div class="site-header__firms-grid">
+                        {{#each site.memberFirms.regions}}
+                          <div class="site-header__firms-col">
+                            <p class="site-header__firms-region">{{ name }}</p>
+                            {{#if countries.length}}
+                              <ul class="site-header__firms-list">
+                                {{#each countries}}
+                                  <li class="site-header__firms-item">
+                                    <a
+                                      class="site-header__firms-link"
+                                      href="{{ href }}"
+                                    >
+                                      {{ label }}
+                                    </a>
+                                  </li>
+                                {{/each}}
+                              </ul>
+                            {{/if}}
+                          </div>
+                        {{/each}}
+                      </div>
+                    {{/if}}
+                    {{#if site.memberFirms.viewAll}}
+                      <a
+                        class="site-header__firms-all"
+                        href="{{ site.memberFirms.viewAll.href }}"
+                      >
+                        <span>{{ site.memberFirms.viewAll.label }}</span>
+                        {{> icon
+                          name="arrow-right"
+                          width="16"
+                          height="16"
+                        }}
+                      </a>
+                    {{/if}}
+                  </div>
+                </div>
+              </div>
             </li>
             <li class="site-header__utility-nav-item">
               <a class="site-header__utility-nav-link" href="news.html">News</a>
