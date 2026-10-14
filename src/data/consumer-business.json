@@ -4,7 +4,7 @@
     "description": "Sector expertise from Parker Russell member firms — helping consumer businesses understand demand, margin, inventory, channels and international growth."
   },
   "cbHero": {
-    "id": "cc-page-hero",
+    "id": "cb-page-hero",
     "className": "page-hero--rich",
     "label": "CONSUMER BUSINESS",
     "labelPill": true,
