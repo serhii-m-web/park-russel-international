@@ -186,6 +186,10 @@
     margin: 0;
     padding: 0;
     border: none;
+
+    .section-contact-form__label {
+      margin-bottom: 8px;
+    }
   }
 
   &__radio-group {

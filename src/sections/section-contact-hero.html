@@ -15,7 +15,7 @@
   {{/if}}
 >
   <div class="container">
-    <div class="section-contact-hero__card">
+    {{!-- <div class="section-contact-hero__card">
       {{#if contactHero.imageBg}}
         <div class="section-contact-hero__bg" aria-hidden="true">
           {{picture
@@ -63,7 +63,7 @@
           </div>
         {{/if}}
       </div>
-    </div>
+    </div> --}}
 
     <div class="section-contact-hero__office">
       {{#if contactHero.officeIntro}}
@@ -92,7 +92,10 @@
           {{#each contactHero.details}}
             <li class="section-contact-hero__detail">
               {{#if icon}}
-                <span class="section-contact-hero__detail-icon" aria-hidden="true">
+                <span
+                  class="section-contact-hero__detail-icon"
+                  aria-hidden="true"
+                >
                   <img
                     src="{{ icon }}"
                     alt=""
@@ -105,12 +108,16 @@
               {{#if lines.length}}
                 <div class="section-contact-hero__detail-text">
                   {{#if title}}
-                    <p class="section-contact-hero__detail-title">{{ title }}</p>
+                    <p class="section-contact-hero__detail-title">
+                      {{ title }}
+                    </p>
                   {{/if}}
                   <p class="section-contact-hero__detail-lines">
                     {{#each lines}}
                       {{ this }}
-                      {{#unless @last}}<br />{{/unless}}
+                      {{#unless @last}}
+                        <br />
+                      {{/unless}}
                     {{/each}}
                   </p>
                 </div>
@@ -119,7 +126,9 @@
                   {{ text }}
                 </a>
               {{else}}
-                <p class="section-contact-hero__detail-text">{{ text }}</p>
+                <p class="section-contact-hero__detail-text">
+                  {{ text }}
+                </p>
               {{/if}}
             </li>
           {{/each}}

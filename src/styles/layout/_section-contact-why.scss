@@ -20,7 +20,7 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 24px;
-    width: 50%;
+    width: 40%;
 
     @include media('<1200px') {
       width: 100%;
@@ -83,7 +83,7 @@
   }
 
   &__cards-wrap {
-    width: 50%;
+    width: 60%;
 
     @include media('<1200px') {
       width: 100%;
@@ -177,6 +177,7 @@
     letter-spacing: -0.312px;
     line-height: calc(32 / 26);
     @include adaptive-value('font-size', 26, 22, 1);
+    @include adaptive-value('margin-bottom', 24, 16, 1);
   }
 
   &__card-text {
