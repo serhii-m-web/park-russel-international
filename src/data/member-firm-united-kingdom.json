@@ -43,13 +43,13 @@
               "iconName": "call",
               "label": "Telephone",
               "value": "+44 (0)20 7378 7500",
-              "href": "tel:+442073787500"
+              "href": "#"
             },
             {
               "iconName": "mail",
               "label": "Email",
               "value": "info@parkerrussell.co.uk",
-              "href": "mailto:info@parkerrussell.co.uk"
+              "href": "#"
             }
           ],
           "website": {
@@ -79,13 +79,13 @@
               "iconName": "call",
               "label": "Telephone",
               "value": "+44 (0)20 7389 0555",
-              "href": "tel:+442073890555"
+              "href": "#"
             },
             {
               "iconName": "mail",
               "label": "Email",
               "value": "uk@SovereignGroup.com",
-              "href": "mailto:uk@SovereignGroup.com"
+              "href": "#"
             }
           ],
           "website": {

@@ -42,13 +42,13 @@
               "label": "Telephone",
               "value": "+234 802 321 0334",
               "iconName": "call",
-              "href": "tel:+2348023210334"
+              "href": "#"
             },
             {
               "label": "Email",
               "value": "info@parkerrandalloffor.com",
               "iconName": "mail",
-              "href": "mailto:info@parkerrandalloffor.com"
+              "href": "#"
             },
             {
               "label": "Opening Hours",
@@ -82,13 +82,13 @@
               "label": "Telephone",
               "value": "+234 802 321 0334",
               "iconName": "call",
-              "href": "tel:+2348023210334"
+              "href": "#"
             },
             {
               "label": "Email",
               "value": "info@parkerrandalloffor.com",
               "iconName": "mail",
-              "href": "mailto:info@parkerrandalloffor.com"
+              "href": "#"
             }
           ],
           "website": {

@@ -42,19 +42,19 @@
               "label": "Telephone",
               "value": "+254 20 239 9149",
               "iconName": "call",
-              "href": "tel:+254202399149"
+              "href": "#"
             },
             {
               "label": "Mobile",
               "value": "+254 771 007 125",
               "icon": "/icons/icon-mobile.svg",
-              "href": "tel:+254771007125"
+              "href": "#"
             },
             {
               "label": "Email",
               "value": "info@parkerrussell-ea.com",
               "iconName": "mail",
-              "href": "mailto:info@parkerrussell-ea.com"
+              "href": "#"
             }
           ],
           "website": {

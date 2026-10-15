@@ -17,13 +17,13 @@
     "buttons": [
       {
         "label": "Discuss Your Business",
-        "href": "#",
+        "href": "contact.html",
         "variant": "primary",
         "icon": true
       },
       {
         "label": "Find a Member Firm",
-        "href": "#",
+        "href": "contact.html#contact-locations",
         "variant": "secondary",
         "icon": true
       }
@@ -294,7 +294,7 @@
     "networkText": "Through Parker Russell International, independent member firms can collaborate across relevant jurisdictions, bringing local expertise into the context of the wider business.",
     "button": {
       "label": "Explore Our Global Network",
-      "href": "#"
+      "href": "about-us.html"
     },
     "image": "/images/consumer-business/international.jpg",
     "imageAlt": "Global consumer business network",

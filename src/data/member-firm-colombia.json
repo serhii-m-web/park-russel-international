@@ -42,19 +42,19 @@
               "label": "Telephone",
               "value": "+57 1 641 3379",
               "iconName": "call",
-              "href": "tel:+5716413379"
+              "href": "#"
             },
             {
               "label": "Mobile",
               "value": "+57 320 692 3986",
               "icon": "/icons/icon-mobile.svg",
-              "href": "tel:+573206923986"
+              "href": "#"
             },
             {
               "label": "Email",
               "value": "laura.rozo@parkerandall.co",
               "iconName": "mail",
-              "href": "mailto:laura.rozo@parkerandall.co"
+              "href": "#"
             },
             {
               "label": "Opening Hours",

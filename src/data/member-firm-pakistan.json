@@ -42,19 +42,19 @@
               "label": "Telephone",
               "value": "+92 41 850 2082–83",
               "iconName": "call",
-              "href": "tel:+9241850208283"
+              "href": "#"
             },
             {
               "label": "Additional Line",
               "value": "+92 41 850 2084",
               "iconName": "call",
-              "href": "tel:+92418502084"
+              "href": "#"
             },
             {
               "label": "Email",
               "value": "info.fsd@parkerrussell.pk",
               "iconName": "mail",
-              "href": "mailto:info.fsd@parkerrussell.pk"
+              "href": "#"
             }
           ],
           "website": {
@@ -83,19 +83,19 @@
               "label": "Telephone",
               "value": "+92 42 3630 7841 / +92 42 3629 9246",
               "iconName": "call",
-              "href": "tel:+924236307841"
+              "href": "#"
             },
             {
               "label": "Mobile",
               "value": "+92 321 841 3497",
               "icon": "/icons/icon-mobile.svg",
-              "href": "tel:+923218413497"
+              "href": "#"
             },
             {
               "label": "Email",
               "value": "info@parkerrussellajs.com",
               "iconName": "mail",
-              "href": "mailto:info@parkerrussellajs.com"
+              "href": "#"
             }
           ],
           "website": {
@@ -124,7 +124,7 @@
               "label": "Email",
               "value": "info@parkerrussellajs.com",
               "iconName": "mail",
-              "href": "mailto:info@parkerrussellajs.com"
+              "href": "#"
             }
           ],
           "website": {
@@ -153,7 +153,7 @@
               "label": "Telephone",
               "value": "+92 21 3262 1703–04",
               "iconName": "call",
-              "href": "tel:+92213262170304"
+              "href": "#"
             }
           ],
           "website": {

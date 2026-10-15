@@ -42,13 +42,13 @@
               "label": "Mobile",
               "value": "+7 701 210 8885",
               "icon": "/icons/icon-mobile.svg",
-              "href": "tel:+77012108885"
+              "href": "#"
             },
             {
               "label": "Email",
               "value": "arman@parkerrussell.kz",
               "iconName": "mail",
-              "href": "mailto:arman@parkerrussell.kz"
+              "href": "#"
             },
             {
               "label": "Opening Hours",

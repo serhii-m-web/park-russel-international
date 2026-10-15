@@ -6,20 +6,23 @@
   "assurancePageHero": {
     "id": "assurance-page-hero",
     "label": "Assurance",
-    "titleLines": ["Confidence in What Matters.", "Clarity Where It Counts."],
+    "titleLines": [
+      "Confidence in What Matters.",
+      "Clarity Where It Counts."
+    ],
     "description": "Financial information sits behind some of the most important decisions an organisation makes — from investment and financing to governance, transactions and long-term strategy.",
     "imageBg": "/images/assurance-hero-bg.jpg",
     "imageLoading": "eager",
     "buttons": [
       {
         "label": "Discuss Your Assurance Requirements",
-        "href": "#",
+        "href": "contact.html",
         "variant": "primary",
         "icon": true
       },
       {
         "label": "Find a Member Firm",
-        "href": "#",
+        "href": "contact.html#contact-locations",
         "variant": "secondary",
         "icon": true
       }
@@ -272,7 +275,7 @@
     "description": "A financial institution, property group, technology company and manufacturer do not carry the same risks. Sector understanding therefore matters because understanding the business is fundamental to understanding its financial reporting risk. Their revenue models differ. Their assets differ. Their regulatory environments differ. Their capital structures and significant accounting judgements differ.",
     "button": {
       "label": "Explore Our Industries",
-      "href": "#"
+      "href": "consumer-business.html"
     },
     "counter": true,
     "slides": [
@@ -280,61 +283,91 @@
         "image": "/images/industries/financial-services.png",
         "icon": "/icons/icon-account-balance.svg",
         "title": "Financial Services",
-        "link": { "label": "Read More", "href": "#" }
+        "link": {
+          "label": "Read More",
+          "href": "insights.html"
+        }
       },
       {
         "image": "/images/industries/real-estate.png",
         "icon": "/icons/industry-real-estate.svg",
         "title": "Real Estate",
-        "link": { "label": "Read More", "href": "#" }
+        "link": {
+          "label": "Read More",
+          "href": "insights.html"
+        }
       },
       {
         "image": "/images/industries/tech-media.png",
         "icon": "/icons/industry-telecom.svg",
         "title": "Technology, Media & Telecoms",
-        "link": { "label": "Read More", "href": "#" }
+        "link": {
+          "label": "Read More",
+          "href": "insights.html"
+        }
       },
       {
         "image": "/images/industries/manufacturing.png",
         "icon": "/icons/industry-manufacturing.svg",
         "title": "Manufacturing",
-        "link": { "label": "Read More", "href": "#" }
+        "link": {
+          "label": "Read More",
+          "href": "insights.html"
+        }
       },
       {
         "image": "/images/sliders/slide-img-4.png",
         "icon": "/icons/industry-real-estate.svg",
         "title": "Consumer Business",
-        "link": { "label": "Read More", "href": "#" }
+        "link": {
+          "label": "Read More",
+          "href": "insights.html"
+        }
       },
       {
         "image": "/images/card-content-img-2.png",
         "icon": "/icons/icon-account-balance.svg",
         "title": "Tourism & Hospitality",
-        "link": { "label": "Read More", "href": "#" }
+        "link": {
+          "label": "Read More",
+          "href": "insights.html"
+        }
       },
       {
         "image": "/images/card-content-img-1.png",
         "icon": "/icons/industry-telecom.svg",
         "title": "E-commerce Services",
-        "link": { "label": "Read More", "href": "#" }
+        "link": {
+          "label": "Read More",
+          "href": "insights.html"
+        }
       },
       {
         "image": "/images/sliders/slide-img-1.png",
         "icon": "/icons/icon-account-balance.svg",
         "title": "Government & Public",
-        "link": { "label": "Read More", "href": "#" }
+        "link": {
+          "label": "Read More",
+          "href": "insights.html"
+        }
       },
       {
         "image": "/images/card-content-img-5.png",
         "icon": "/icons/industry-manufacturing.svg",
         "title": "Renewable Energy",
-        "link": { "label": "Read More", "href": "#" }
+        "link": {
+          "label": "Read More",
+          "href": "insights.html"
+        }
       },
       {
         "image": "/images/card-content-img-6.png",
         "icon": "/icons/industry-manufacturing.svg",
         "title": "Energy Infrastructure",
-        "link": { "label": "Read More", "href": "#" }
+        "link": {
+          "label": "Read More",
+          "href": "insights.html"
+        }
       }
     ]
   },
@@ -378,13 +411,13 @@
     "buttons": [
       {
         "label": "Discuss Your Assurance Requirements",
-        "href": "#",
+        "href": "contact.html",
         "variant": "primary",
         "icon": true
       },
       {
         "label": "Find a Member Firm",
-        "href": "#",
+        "href": "contact.html#contact-locations",
         "variant": "secondary",
         "icon": true
       }

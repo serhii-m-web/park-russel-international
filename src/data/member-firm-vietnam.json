@@ -42,13 +42,13 @@
               "label": "Telephone",
               "value": "+84 28 5411 0768",
               "iconName": "call",
-              "href": "tel:+842854110768"
+              "href": "#"
             },
             {
               "label": "Email",
               "value": "info@prv.com.vn",
               "iconName": "mail",
-              "href": "mailto:info@prv.com.vn"
+              "href": "#"
             }
           ],
           "website": {
@@ -77,13 +77,13 @@
               "label": "Telephone",
               "value": "+84 24 7107 8282",
               "iconName": "call",
-              "href": "tel:+842471078282"
+              "href": "#"
             },
             {
               "label": "Email",
               "value": "info@prv.com.vn",
               "iconName": "mail",
-              "href": "mailto:info@prv.com.vn"
+              "href": "#"
             }
           ],
           "website": {
@@ -112,7 +112,7 @@
               "label": "Telephone",
               "value": "+84 938 753 116",
               "iconName": "call",
-              "href": "tel:+84938753116"
+              "href": "#"
             }
           ],
           "website": {

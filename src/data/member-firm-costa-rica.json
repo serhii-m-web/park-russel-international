@@ -42,13 +42,13 @@
               "label": "Telephone",
               "value": "+506 2244 5300",
               "iconName": "call",
-              "href": "tel:+50622445300"
+              "href": "#"
             },
             {
               "label": "Email",
               "value": "jj@despachojimenez.com",
               "iconName": "mail",
-              "href": "mailto:jj@despachojimenez.com"
+              "href": "#"
             },
             {
               "label": "Opening Hours",

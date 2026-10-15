@@ -42,7 +42,7 @@
               "iconName": "call",
               "label": "Telephone",
               "value": "+39 02 89070252",
-              "href": "tel:+390289070252"
+              "href": "#"
             }
           ],
           "website": {
@@ -70,7 +70,7 @@
               "iconName": "call",
               "label": "Telephone",
               "value": "+39 06 45786160",
-              "href": "tel:+390645786160"
+              "href": "#"
             }
           ],
           "website": {

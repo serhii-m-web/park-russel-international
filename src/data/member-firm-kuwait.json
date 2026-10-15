@@ -42,19 +42,19 @@
               "label": "Telephone",
               "value": "+965 2243 2082 / 83 / 84",
               "iconName": "call",
-              "href": "tel:+965224320828384"
+              "href": "#"
             },
             {
               "label": "Mobile",
               "value": "+965 6044 4416",
               "icon": "/icons/icon-mobile.svg",
-              "href": "tel:+96560444416"
+              "href": "#"
             },
             {
               "label": "Email",
               "value": "info@parkerrussell-kw.com",
               "iconName": "mail",
-              "href": "mailto:info@parkerrussell-kw.com"
+              "href": "#"
             },
             {
               "label": "Opening Hours",

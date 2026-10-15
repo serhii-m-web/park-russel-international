@@ -42,13 +42,13 @@
               "label": "Telephone",
               "value": "+971 4 295 9958",
               "iconName": "call",
-              "href": "tel:+97142959958"
+              "href": "#"
             },
             {
               "label": "Email",
               "value": "infodubai@pr-uae.com",
               "iconName": "mail",
-              "href": "mailto:infodubai@pr-uae.com"
+              "href": "#"
             }
           ],
           "website": {
@@ -76,13 +76,13 @@
               "label": "Telephone",
               "value": "+971 2 645 2666 / +971 2 645 9446",
               "iconName": "call",
-              "href": "tel:+97126452666+97126459446"
+              "href": "#"
             },
             {
               "label": "Email",
               "value": "infoabudhabi@pr-uae.com",
               "iconName": "mail",
-              "href": "mailto:infoabudhabi@pr-uae.com"
+              "href": "#"
             }
           ],
           "website": {
@@ -110,19 +110,19 @@
               "label": "Telephone",
               "value": "+971 2 645 2666",
               "iconName": "call",
-              "href": "tel:+97126452666"
+              "href": "#"
             },
             {
               "label": "Mobile",
               "value": "+971 55 268 8577",
               "icon": "/icons/icon-mobile.svg",
-              "href": "tel:+971552688577"
+              "href": "#"
             },
             {
               "label": "Email",
               "value": "infoalain@pr-uae.com",
               "iconName": "mail",
-              "href": "mailto:infoalain@pr-uae.com"
+              "href": "#"
             }
           ],
           "website": {

@@ -42,13 +42,13 @@
               "iconName": "call",
               "label": "Telephone",
               "value": "+356 2165 4567",
-              "href": "tel:+35621654567"
+              "href": "#"
             },
             {
               "iconName": "mail",
               "label": "Email",
               "value": "info@prturner.com.mt",
-              "href": "mailto:info@prturner.com.mt"
+              "href": "#"
             },
             {
               "icon": "/icons/icon-schedule.svg",
@@ -82,13 +82,13 @@
               "iconName": "call",
               "label": "Telephone",
               "value": "+356 2165 4567",
-              "href": "tel:+35621654567"
+              "href": "#"
             },
             {
               "iconName": "mail",
               "label": "Email",
               "value": "info@prturner.com.mt",
-              "href": "mailto:info@prturner.com.mt"
+              "href": "#"
             },
             {
               "icon": "/icons/icon-schedule.svg",

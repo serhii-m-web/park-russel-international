@@ -43,13 +43,13 @@
               "label": "Telephone",
               "value": "+31 85 060 1015",
               "iconName": "call",
-              "href": "tel:+31850601015"
+              "href": "#"
             },
             {
               "label": "Email",
               "value": "l.peeters@parkerrussell.nl",
               "iconName": "mail",
-              "href": "mailto:l.peeters@parkerrussell.nl"
+              "href": "#"
             },
             {
               "label": "Opening Hours",

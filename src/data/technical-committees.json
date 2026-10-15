@@ -185,7 +185,7 @@
         },
         {
           "label": "Explore Our Methodology",
-          "href": "#",
+          "href": "tax-legal.html",
           "variant": "secondary"
         }
       ]
@@ -209,13 +209,13 @@
     "buttons": [
       {
         "label": "Explore Our Member Firms",
-        "href": "#",
+        "href": "contact.html#contact-locations",
         "variant": "primary",
         "icon": true
       },
       {
         "label": "Contact Parker Russell International",
-        "href": "#",
+        "href": "contact.html",
         "variant": "secondary",
         "icon": true
       }

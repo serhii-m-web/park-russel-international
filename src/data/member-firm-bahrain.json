@@ -42,19 +42,19 @@
               "label": "Telephone",
               "value": "+973 7799 9262",
               "iconName": "call",
-              "href": "tel:+97377999262"
+              "href": "#"
             },
             {
               "label": "Mobile",
               "value": "+973 3368 6484",
               "icon": "/icons/icon-mobile.svg",
-              "href": "tel:+97333686484"
+              "href": "#"
             },
             {
               "label": "Email",
               "value": "info@mmaglobalaudit.com",
               "iconName": "mail",
-              "href": "mailto:info@mmaglobalaudit.com"
+              "href": "#"
             }
           ],
           "website": {

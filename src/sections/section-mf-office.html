@@ -1,32 +1,32 @@
 {{#if mfOffice.offices.length}}
-<section
-  class="
-    section-mf-office
-    {{#if sectionClass}}
-      {{ sectionClass }}
-    {{/if}}
-  "
-  {{#if mfOffice.id}}
-    id="{{ mfOffice.id }}"
-  {{/if}}
-  {{#if mfOffice.title}}
-    aria-labelledby="{{#if mfOffice.id}}{{ mfOffice.id }}{{else}}section-mf-office{{/if}}-title"
-  {{else}}
-    aria-label="Our office"
-  {{/if}}
->
-  <div class="container">
-    <div class="section-mf-office__header">
-      <span class="section-mf-office__rule" aria-hidden="true"></span>
-      {{#if mfOffice.title}}
-        <h2
-          id="{{#if mfOffice.id}}{{ mfOffice.id }}{{else}}section-mf-office{{/if}}-title"
-          class="section-mf-office__title"
-        >
-          {{{ mfOffice.title }}}
-        </h2>
+  <section
+    class="
+      section-mf-office
+      {{#if sectionClass}}
+        {{ sectionClass }}
       {{/if}}
-    </div>
+    "
+    {{#if mfOffice.id}}
+      id="{{ mfOffice.id }}"
+    {{/if}}
+    {{#if mfOffice.title}}
+      aria-labelledby="{{#if mfOffice.id}}{{ mfOffice.id }}{{else}}section-mf-office{{/if}}-title"
+    {{else}}
+      aria-label="Our office"
+    {{/if}}
+  >
+    <div class="container">
+      <div class="section-mf-office__header">
+        <span class="section-mf-office__rule" aria-hidden="true"></span>
+        {{#if mfOffice.title}}
+          <h2
+            id="{{#if mfOffice.id}}{{ mfOffice.id }}{{else}}section-mf-office{{/if}}-title"
+            class="section-mf-office__title"
+          >
+            {{{ mfOffice.title }}}
+          </h2>
+        {{/if}}
+      </div>
 
       <div class="section-mf-office__list">
         {{#each mfOffice.offices}}
@@ -43,12 +43,17 @@
               {{/if}}
 
               {{#if city}}
-                <span class="section-mf-office__city">{{ city }}</span>
+                <span class="section-mf-office__city">
+                  {{ city }}
+                </span>
               {{/if}}
 
               <div class="section-mf-office__overlay">
                 {{#if ../mfOffice.locationIcon}}
-                  <span class="section-mf-office__overlay-icon" aria-hidden="true">
+                  <span
+                    class="section-mf-office__overlay-icon"
+                    aria-hidden="true"
+                  >
                     <img
                       src="{{ ../mfOffice.locationIcon }}"
                       alt=""
@@ -58,7 +63,10 @@
                     />
                   </span>
                 {{else if locationIcon}}
-                  <span class="section-mf-office__overlay-icon" aria-hidden="true">
+                  <span
+                    class="section-mf-office__overlay-icon"
+                    aria-hidden="true"
+                  >
                     <img
                       src="{{ locationIcon }}"
                       alt=""
@@ -71,13 +79,17 @@
 
                 <div class="section-mf-office__overlay-text">
                   {{#if firmName}}
-                    <p class="section-mf-office__overlay-firm">{{ firmName }}</p>
+                    <p class="section-mf-office__overlay-firm">
+                      {{ firmName }}
+                    </p>
                   {{/if}}
                   {{#if addressLines.length}}
                     <p class="section-mf-office__overlay-address">
                       {{#each addressLines}}
                         {{ this }}
-                        {{#unless @last}}<br />{{/unless}}
+                        {{#unless @last}}
+                          <br />
+                        {{/unless}}
                       {{/each}}
                     </p>
                   {{/if}}
@@ -107,7 +119,9 @@
                       </p>
                     {{/if}}
                     {{#if contact.name}}
-                      <p class="section-mf-office__contact-name">{{ contact.name }}</p>
+                      <p class="section-mf-office__contact-name">
+                        {{ contact.name }}
+                      </p>
                     {{/if}}
                   </div>
                 </div>
@@ -117,11 +131,21 @@
                     {{#each contact.details}}
                       <li class="section-mf-office__detail">
                         {{#if iconName}}
-                          <span class="section-mf-office__detail-icon" aria-hidden="true">
-                            {{> icon name=iconName width="20" height="20"}}
+                          <span
+                            class="section-mf-office__detail-icon"
+                            aria-hidden="true"
+                          >
+                            {{> icon
+                              name=iconName
+                              width="20"
+                              height="20"
+                            }}
                           </span>
                         {{else if icon}}
-                          <span class="section-mf-office__detail-icon" aria-hidden="true">
+                          <span
+                            class="section-mf-office__detail-icon"
+                            aria-hidden="true"
+                          >
                             <img
                               src="{{ icon }}"
                               alt=""
@@ -134,14 +158,19 @@
 
                         <span class="section-mf-office__detail-copy">
                           {{#if label}}
-                            <span class="section-mf-office__detail-label">{{ label }}: </span>
+                            <span class="section-mf-office__detail-label">{{ label }}:</span>
                           {{/if}}
                           {{#if href}}
-                            <a class="section-mf-office__detail-value section-mf-office__detail-value--link" href="{{ href }}">
+                            <a
+                              class="section-mf-office__detail-value section-mf-office__detail-value--link"
+                              href="{{ href }}"
+                            >
                               {{ value }}
                             </a>
                           {{else}}
-                            <span class="section-mf-office__detail-value">{{ value }}</span>
+                            <span class="section-mf-office__detail-value">
+                              {{ value }}
+                            </span>
                           {{/if}}
                         </span>
                       </li>
@@ -173,6 +202,6 @@
           </div>
         {{/each}}
       </div>
-  </div>
-</section>
+    </div>
+  </section>
 {{/if}}

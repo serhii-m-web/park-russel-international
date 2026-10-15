@@ -42,13 +42,13 @@
               "label": "Telephone",
               "value": "+54 11 5236 8042",
               "iconName": "call",
-              "href": "tel:+541152368042"
+              "href": "#"
             },
             {
               "label": "Email",
               "value": "acusato@fiargentina.com.ar",
               "iconName": "mail",
-              "href": "mailto:acusato@fiargentina.com.ar"
+              "href": "#"
             },
             {
               "label": "Opening Hours",

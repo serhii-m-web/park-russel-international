@@ -16,13 +16,13 @@
     "buttons": [
       {
         "label": "Discuss a Tax or Legal Matter",
-        "href": "#",
+        "href": "contact.html",
         "variant": "primary",
         "icon": true
       },
       {
         "label": "Find a Member Firm",
-        "href": "#",
+        "href": "contact.html#contact-locations",
         "variant": "secondary",
         "icon": true
       }
@@ -105,7 +105,7 @@
     "title": "Expertise Across the Tax Questions International Business Creates.",
     "button": {
       "label": "Explore Our Services",
-      "href": "#"
+      "href": "assurance.html"
     },
     "cards": [
       {
@@ -116,7 +116,7 @@
         "descriptionSecondary": "Parker Russell member firms advise on international corporate tax matters, bringing local tax knowledge into the wider context of group structures, cross-border activities and commercial objectives.<br><br>The objective is not simply to address an isolated tax question, but to understand how decisions in one market may affect the wider organisation.",
         "link": {
           "label": "Read More",
-          "href": "#"
+          "href": "insights.html"
         }
       },
       {
@@ -138,7 +138,7 @@
         "descriptionSecondary": "Understanding relevant tax implications before an acquisition, disposal or restructuring can allow decision-makers to assess the transaction with a more complete view of its potential consequences.<br><br>Parker Russell member firms provide tax expertise around M&A matters in their relevant markets and can collaborate where transactions cross jurisdictions.",
         "link": {
           "label": "Read More",
-          "href": "#"
+          "href": "insights.html"
         }
       },
       {
@@ -149,7 +149,7 @@
         "descriptionSecondary": "For businesses operating internationally, different rules and reporting requirements can add considerable complexity to transactions that may appear commercially straightforward.",
         "link": {
           "label": "Read More",
-          "href": "#"
+          "href": "insights.html"
         }
       },
       {
@@ -160,7 +160,7 @@
         "descriptionSecondary": "Understanding these obligations is particularly important when businesses enter new markets, change sourcing arrangements or reorganise international supply chains.",
         "link": {
           "label": "Read More",
-          "href": "#"
+          "href": "insights.html"
         }
       },
       {
@@ -171,7 +171,7 @@
         "descriptionSecondary": "Parker Russell's existing international tax offering includes International Executive Services, providing relevant expertise where executives and other individuals work across jurisdictions.",
         "link": {
           "label": "Read More",
-          "href": "#"
+          "href": "insights.html"
         }
       },
       {
@@ -182,7 +182,7 @@
         "descriptionSecondary": "e-Tax Solutions form part of Parker Russell's established tax proposition, reflecting the increasing role of technology within tax administration and compliance.",
         "link": {
           "label": "Read More",
-          "href": "#"
+          "href": "insights.html"
         }
       },
       {
@@ -193,7 +193,7 @@
         "descriptionSecondary": "Parker Russell member firms also provide domestic business and personal tax services according to the requirements and tax regimes of their respective jurisdictions.",
         "link": {
           "label": "Read More",
-          "href": "#"
+          "href": "insights.html"
         }
       }
     ]
@@ -218,7 +218,7 @@
       "text": "Through Parker Russell International, independent member firms can collaborate where tax matters extend across borders, allowing relevant local expertise to contribute to a wider international perspective.",
       "button": {
         "label": "Explore Our Global Network",
-        "href": "#"
+        "href": "about-us.html"
       }
     }
   },
@@ -491,7 +491,7 @@
     "conclusion": "Understanding the commercial and sector context therefore matters when interpreting how tax rules apply to the business itself.",
     "button": {
       "label": "Explore Our Industries",
-      "href": "#"
+      "href": "consumer-business.html"
     },
     "counter": true,
     "slides": [
@@ -501,7 +501,7 @@
         "title": "Financial Services",
         "link": {
           "label": "Read More",
-          "href": "#"
+          "href": "insights.html"
         }
       },
       {
@@ -510,7 +510,7 @@
         "title": "Real Estate",
         "link": {
           "label": "Read More",
-          "href": "#"
+          "href": "insights.html"
         }
       },
       {
@@ -519,7 +519,7 @@
         "title": "Technology, Media & Telecoms",
         "link": {
           "label": "Read More",
-          "href": "#"
+          "href": "insights.html"
         }
       },
       {
@@ -528,7 +528,7 @@
         "title": "Manufacturing",
         "link": {
           "label": "Read More",
-          "href": "#"
+          "href": "insights.html"
         }
       }
     ]
@@ -540,7 +540,7 @@
     "description": "International tax rules, national legislation and administrative requirements continue to evolve.",
     "button": {
       "label": "Explore Tax Insights",
-      "href": "#"
+      "href": "insights.html"
     },
     "topics": [
       "International Tax",
@@ -559,7 +559,7 @@
       "description": "Research by Vistra shows fewer than one in three UK company directors feel ready for the upcoming Economic Crime and Corporate Transparency Act (ECCTA)…",
       "link": {
         "label": "Read article",
-        "href": "#"
+        "href": "insight-article.html"
       }
     },
     "list": [
@@ -568,21 +568,21 @@
         "datetime": "2025-06-25",
         "category": "Accounting Standards",
         "title": "David M. Sullivan Appointed to Chair Financial Accounting Standards Advisory Council",
-        "href": "#"
+        "href": "insights.html"
       },
       {
         "date": "18 June 2025",
         "datetime": "2025-06-18",
         "category": "Regulation",
         "title": "£4m Fine for Director in Client Money Breach",
-        "href": "#"
+        "href": "insights.html"
       },
       {
         "date": "20 May 2025",
         "datetime": "2025-05-20",
         "category": "ESG",
         "title": "The Next Generation of Investors Is Powering ESG's Revival",
-        "href": "#"
+        "href": "insights.html"
       }
     ]
   },
@@ -600,13 +600,13 @@
     "buttons": [
       {
         "label": "Discuss a Tax or Legal Matter",
-        "href": "#",
+        "href": "contact.html",
         "variant": "primary",
         "icon": true
       },
       {
         "label": "Find a Member Firm",
-        "href": "#",
+        "href": "contact.html#contact-locations",
         "variant": "secondary",
         "icon": true
       }

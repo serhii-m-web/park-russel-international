@@ -230,13 +230,13 @@
     "buttons": [
       {
         "label": "Explore Our Member Firms",
-        "href": "#",
+        "href": "contact.html#contact-locations",
         "variant": "primary",
         "icon": true
       },
       {
         "label": "Join Parker Russell International",
-        "href": "#",
+        "href": "join.html",
         "variant": "secondary",
         "icon": true
       }

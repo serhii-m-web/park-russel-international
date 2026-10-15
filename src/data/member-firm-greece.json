@@ -42,13 +42,13 @@
               "label": "Telephone",
               "value": "+30 210 933 0900",
               "iconName": "call",
-              "href": "tel:+302109330900"
+              "href": "#"
             },
             {
               "label": "Email",
               "value": "giannis@despotidis.gr",
               "iconName": "mail",
-              "href": "mailto:giannis@despotidis.gr"
+              "href": "#"
             },
             {
               "label": "Opening Hours",

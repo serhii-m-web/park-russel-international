@@ -40,7 +40,7 @@
     ],
     "button": {
       "label": "Meet Our Leadership",
-      "href": "#",
+      "href": "board-of-members.html",
       "variant": "primary"
     },
     "panel": {
@@ -121,7 +121,7 @@
     "imageAlt": "Technical committee meeting",
     "button": {
       "label": "Explore Our Technical Committees",
-      "href": "#",
+      "href": "technical-committees.html",
       "variant": "primary"
     }
   },
@@ -180,13 +180,13 @@
     "buttons": [
       {
         "label": "Meet Our Leadership",
-        "href": "#",
+        "href": "board-of-members.html",
         "variant": "primary",
         "icon": true
       },
       {
         "label": "Explore Our Member Firms",
-        "href": "#",
+        "href": "contact.html#contact-locations",
         "variant": "secondary",
         "icon": true
       }

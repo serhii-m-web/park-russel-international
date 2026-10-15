@@ -42,19 +42,19 @@
               "label": "Office",
               "value": "+593 2 292 0796",
               "iconName": "call",
-              "href": "tel:+59322920796"
+              "href": "#"
             },
             {
               "label": "Mobile",
               "value": "+593 99 813 2859",
               "icon": "/icons/icon-mobile.svg",
-              "href": "tel:+593998132859"
+              "href": "#"
             },
             {
               "label": "Email",
               "value": "wilmer.morales@parkerrussell.com.ec",
               "iconName": "mail",
-              "href": "mailto:wilmer.morales@parkerrussell.com.ec"
+              "href": "#"
             },
             {
               "label": "Opening Hours",

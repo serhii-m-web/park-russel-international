@@ -45,11 +45,11 @@
       "title": "Parker Russell International Awards 2026",
       "viewPresentation": {
         "label": "View Presentation",
-        "href": "#"
+        "href": "awards-recognition.html"
       },
       "downloadPresentation": {
         "label": "Download Presentation",
-        "href": "#"
+        "href": "awards-recognition.html"
       }
     },
     "archive": [
@@ -60,11 +60,11 @@
         "title": "Parker Russell International Awards 2025",
         "viewPresentation": {
           "label": "View Presentation",
-          "href": "#"
+          "href": "awards-recognition.html"
         },
         "downloadPresentation": {
           "label": "Download Presentation",
-          "href": "#"
+          "href": "awards-recognition.html"
         }
       },
       {
@@ -74,11 +74,11 @@
         "title": "Parker Russell International Awards 2024",
         "viewPresentation": {
           "label": "View Presentation",
-          "href": "#"
+          "href": "awards-recognition.html"
         },
         "downloadPresentation": {
           "label": "Download Presentation",
-          "href": "#"
+          "href": "awards-recognition.html"
         }
       },
       {
@@ -88,17 +88,17 @@
         "title": "Parker Russell International Awards 2023",
         "viewPresentation": {
           "label": "View Presentation",
-          "href": "#"
+          "href": "awards-recognition.html"
         },
         "downloadPresentation": {
           "label": "Download Presentation",
-          "href": "#"
+          "href": "awards-recognition.html"
         }
       }
     ],
     "archiveButton": {
       "label": "View Previous Years",
-      "href": "#",
+      "href": "awards-recognition.html",
       "icon": "/icons/icon-history.svg"
     }
   },
@@ -233,13 +233,13 @@
     "buttons": [
       {
         "label": "Discover Our Member Firms",
-        "href": "#",
+        "href": "contact.html#contact-locations",
         "variant": "primary",
         "icon": true
       },
       {
         "label": "Join Parker Russell International",
-        "href": "#",
+        "href": "join.html",
         "variant": "secondary",
         "icon": true
       }

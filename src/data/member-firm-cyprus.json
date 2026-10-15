@@ -42,13 +42,13 @@
               "iconName": "call",
               "label": "Telephone",
               "value": "+357 22 253530",
-              "href": "tel:+35722253530"
+              "href": "#"
             },
             {
               "iconName": "mail",
               "label": "Email",
               "value": "info@pri.com.cy",
-              "href": "mailto:info@pri.com.cy"
+              "href": "#"
             },
             {
               "icon": "/icons/icon-schedule.svg",
@@ -82,13 +82,13 @@
               "iconName": "call",
               "label": "Telephone",
               "value": "+357 24 368401",
-              "href": "tel:+35724368401"
+              "href": "#"
             },
             {
               "iconName": "mail",
               "label": "Email",
               "value": "info.lca@pri.com.cy",
-              "href": "mailto:info.lca@pri.com.cy"
+              "href": "#"
             },
             {
               "icon": "/icons/icon-schedule.svg",

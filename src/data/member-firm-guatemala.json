@@ -42,13 +42,13 @@
               "label": "Telephone",
               "value": "+502 2333 4802 / +502 2368 2566",
               "iconName": "call",
-              "href": "tel:+50223334802"
+              "href": "#"
             },
             {
               "label": "Email",
               "value": "informacion@parkerrussell.net",
               "iconName": "mail",
-              "href": "mailto:informacion@parkerrussell.net"
+              "href": "#"
             }
           ],
           "website": {
@@ -77,13 +77,13 @@
               "label": "Telephone",
               "value": "+502 2362 3318 / +502 2295 9058",
               "iconName": "call",
-              "href": "tel:+50223623318"
+              "href": "#"
             },
             {
               "label": "Email",
               "value": "guatemala@parkerrussell.net",
               "iconName": "mail",
-              "href": "mailto:guatemala@parkerrussell.net"
+              "href": "#"
             }
           ],
           "website": {

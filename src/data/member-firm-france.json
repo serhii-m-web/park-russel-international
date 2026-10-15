@@ -42,13 +42,13 @@
               "label": "Telephone",
               "value": "+33 7 82 87 33 98",
               "iconName": "call",
-              "href": "tel:+33782873398"
+              "href": "#"
             },
             {
               "label": "Email",
               "value": "contact@cabinetwec.fr",
               "iconName": "mail",
-              "href": "mailto:contact@cabinetwec.fr"
+              "href": "#"
             },
             {
               "label": "Opening Hours",

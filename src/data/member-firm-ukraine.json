@@ -42,19 +42,19 @@
               "label": "Telephone",
               "value": "+380 67 403 49 66",
               "iconName": "call",
-              "href": "tel:+380674034966"
+              "href": "#"
             },
             {
               "label": "Mobile",
               "value": "+380 67 323 75 99",
               "icon": "/icons/icon-mobile.svg",
-              "href": "tel:+380673237599"
+              "href": "#"
             },
             {
               "label": "Email",
               "value": "office@parkerrussell.com.ua",
               "iconName": "mail",
-              "href": "mailto:office@parkerrussell.com.ua"
+              "href": "#"
             },
             {
               "label": "Opening Hours",

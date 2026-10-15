@@ -42,19 +42,19 @@
               "label": "Telephone",
               "value": "+962 6 586 2155",
               "iconName": "call",
-              "href": "tel:+96265862155"
+              "href": "#"
             },
             {
               "label": "Mobile",
               "value": "+962 77 800 7600",
               "icon": "/icons/icon-mobile.svg",
-              "href": "tel:+962778007600"
+              "href": "#"
             },
             {
               "label": "Email",
               "value": "info@parkerrussell-jordan.com",
               "iconName": "mail",
-              "href": "mailto:info@parkerrussell-jordan.com"
+              "href": "#"
             },
             {
               "label": "Opening Hours",
@@ -88,7 +88,7 @@
               "label": "Email",
               "value": "info@parkerrussell-jordan.com",
               "iconName": "mail",
-              "href": "mailto:info@parkerrussell-jordan.com"
+              "href": "#"
             }
           ],
           "website": {

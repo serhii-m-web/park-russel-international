@@ -42,13 +42,13 @@
               "label": "Telephone",
               "value": "+60 3 4143 9330",
               "iconName": "call",
-              "href": "tel:+60341439330"
+              "href": "#"
             },
             {
               "label": "Email",
               "value": "aftaas@aftaas.com",
               "iconName": "mail",
-              "href": "mailto:aftaas@aftaas.com"
+              "href": "#"
             },
             {
               "label": "Opening Hours",
@@ -82,13 +82,13 @@
               "label": "Telephone",
               "value": "+60 3 5518 1300",
               "iconName": "call",
-              "href": "tel:+60355181300"
+              "href": "#"
             },
             {
               "label": "Email",
               "value": "aftaas.shahalam@aftaas.com",
               "iconName": "mail",
-              "href": "mailto:aftaas.shahalam@aftaas.com"
+              "href": "#"
             }
           ],
           "website": {
@@ -117,13 +117,13 @@
               "label": "Telephone",
               "value": "+60 5 242 7179",
               "iconName": "call",
-              "href": "tel:+6052427179"
+              "href": "#"
             },
             {
               "label": "Email",
               "value": "aftaas.ipoh@aftaas.com",
               "iconName": "mail",
-              "href": "mailto:aftaas.ipoh@aftaas.com"
+              "href": "#"
             }
           ],
           "website": {
@@ -152,13 +152,13 @@
               "label": "Telephone",
               "value": "+60 9 766 2440",
               "iconName": "call",
-              "href": "tel:+6097662440"
+              "href": "#"
             },
             {
               "label": "Email",
               "value": "aftaas.kb@aftaas.com",
               "iconName": "mail",
-              "href": "mailto:aftaas.kb@aftaas.com"
+              "href": "#"
             }
           ],
           "website": {
@@ -187,13 +187,13 @@
               "label": "Telephone",
               "value": "+60 9 517 8388",
               "iconName": "call",
-              "href": "tel:+6095178388"
+              "href": "#"
             },
             {
               "label": "Email",
               "value": "aftaas.kuantan@aftaas.com",
               "iconName": "mail",
-              "href": "mailto:aftaas.kuantan@aftaas.com"
+              "href": "#"
             }
           ],
           "website": {
@@ -221,7 +221,7 @@
               "label": "Email",
               "value": "aftaas@aftaas.com",
               "iconName": "mail",
-              "href": "mailto:aftaas@aftaas.com"
+              "href": "#"
             }
           ],
           "website": {

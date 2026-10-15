@@ -42,13 +42,13 @@
               "label": "Telephone",
               "value": "+381 11 408 43 59",
               "iconName": "call",
-              "href": "tel:+381114084359"
+              "href": "#"
             },
             {
               "label": "Email",
               "value": "office@parkerrussell.rs",
               "iconName": "mail",
-              "href": "mailto:office@parkerrussell.rs"
+              "href": "#"
             }
           ],
           "website": {

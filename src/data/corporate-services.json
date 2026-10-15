@@ -17,13 +17,13 @@
     "buttons": [
       {
         "label": "Discuss a Corporate Finance Matter",
-        "href": "#",
+        "href": "contact.html",
         "variant": "primary",
         "icon": true
       },
       {
         "label": "Find a Member Firm",
-        "href": "#",
+        "href": "contact.html#contact-locations",
         "variant": "secondary",
         "icon": true
       }
@@ -282,7 +282,7 @@
       "text": "Through Parker Russell International, independent member firms can collaborate across relevant jurisdictions, bringing together local market understanding and wider international capability.",
       "button": {
         "label": "Explore Our Global Network",
-        "href": "#"
+        "href": "about-us.html"
       },
       "perspectives": [
         {
@@ -351,13 +351,16 @@
     "className": "section-slider--industry section-slider--industry-corporate",
     "label": "SECTOR INTELLIGENCE",
     "carouselLabel": "Sector intelligence",
-    "titleLines": ["Transactions Make More Sense", "in Context."],
+    "titleLines": [
+      "Transactions Make More Sense",
+      "in Context."
+    ],
     "lead": "Financial analysis cannot be separated entirely from the industry in which a business operates.",
     "description": "The drivers of value in financial services differ from those in real estate. Technology businesses carry different assumptions from manufacturers. Energy and infrastructure transactions may involve different capital structures, investment horizons and risk considerations again.",
     "conclusion": "Sector understanding therefore influences how opportunities, risks and valuations are interpreted.",
     "button": {
       "label": "Explore Our Industries",
-      "href": "#"
+      "href": "consumer-business.html"
     },
     "counter": true,
     "slides": [
@@ -365,61 +368,91 @@
         "image": "/images/industries/financial-services.png",
         "icon": "/icons/icon-account-balance.svg",
         "title": "Financial Services",
-        "link": { "label": "Read More", "href": "#" }
+        "link": {
+          "label": "Read More",
+          "href": "insights.html"
+        }
       },
       {
         "image": "/images/industries/real-estate.png",
         "icon": "/icons/industry-real-estate.svg",
         "title": "Real Estate",
-        "link": { "label": "Read More", "href": "#" }
+        "link": {
+          "label": "Read More",
+          "href": "insights.html"
+        }
       },
       {
         "image": "/images/industries/tech-media.png",
         "icon": "/icons/industry-telecom.svg",
         "title": "Technology, Media & Telecoms",
-        "link": { "label": "Read More", "href": "#" }
+        "link": {
+          "label": "Read More",
+          "href": "insights.html"
+        }
       },
       {
         "image": "/images/industries/manufacturing.png",
         "icon": "/icons/industry-manufacturing.svg",
         "title": "Manufacturing",
-        "link": { "label": "Read More", "href": "#" }
+        "link": {
+          "label": "Read More",
+          "href": "insights.html"
+        }
       },
       {
         "image": "/images/sliders/slide-img-4.png",
         "icon": "/icons/industry-real-estate.svg",
         "title": "Consumer Business",
-        "link": { "label": "Read More", "href": "#" }
+        "link": {
+          "label": "Read More",
+          "href": "insights.html"
+        }
       },
       {
         "image": "/images/card-content-img-2.png",
         "icon": "/icons/icon-account-balance.svg",
         "title": "Tourism & Hospitality",
-        "link": { "label": "Read More", "href": "#" }
+        "link": {
+          "label": "Read More",
+          "href": "insights.html"
+        }
       },
       {
         "image": "/images/card-content-img-1.png",
         "icon": "/icons/industry-telecom.svg",
         "title": "E-commerce Services",
-        "link": { "label": "Read More", "href": "#" }
+        "link": {
+          "label": "Read More",
+          "href": "insights.html"
+        }
       },
       {
         "image": "/images/sliders/slide-img-1.png",
         "icon": "/icons/icon-account-balance.svg",
         "title": "Government & Public",
-        "link": { "label": "Read More", "href": "#" }
+        "link": {
+          "label": "Read More",
+          "href": "insights.html"
+        }
       },
       {
         "image": "/images/card-content-img-5.png",
         "icon": "/icons/industry-manufacturing.svg",
         "title": "Renewable Energy",
-        "link": { "label": "Read More", "href": "#" }
+        "link": {
+          "label": "Read More",
+          "href": "insights.html"
+        }
       },
       {
         "image": "/images/card-content-img-6.png",
         "icon": "/icons/industry-manufacturing.svg",
         "title": "Energy Infrastructure",
-        "link": { "label": "Read More", "href": "#" }
+        "link": {
+          "label": "Read More",
+          "href": "insights.html"
+        }
       }
     ]
   },
@@ -505,7 +538,7 @@
     "description": "Major transactions are shaped by markets, capital conditions, regulation, taxation and sector developments.",
     "button": {
       "label": "Explore Latest Insights",
-      "href": "#"
+      "href": "insights.html"
     },
     "topics": [
       "M&A",
@@ -523,7 +556,7 @@
       "description": "Research by Vistra shows fewer than one in three UK company directors feel ready for the upcoming Economic Crime and Corporate Transparency Act (ECCTA)…",
       "link": {
         "label": "Read article",
-        "href": "#"
+        "href": "insight-article.html"
       }
     },
     "list": [
@@ -532,21 +565,21 @@
         "datetime": "2025-06-25",
         "category": "Accounting Standards",
         "title": "David M. Sullivan Appointed to Chair Financial Accounting Standards Advisory Council",
-        "href": "#"
+        "href": "insights.html"
       },
       {
         "date": "18 June 2025",
         "datetime": "2025-06-18",
         "category": "Regulation",
         "title": "£4m Fine for Director in Client Money Breach",
-        "href": "#"
+        "href": "insights.html"
       },
       {
         "date": "20 May 2025",
         "datetime": "2025-05-20",
         "category": "ESG",
         "title": "The Next Generation of Investors Is Powering ESG's Revival",
-        "href": "#"
+        "href": "insights.html"
       }
     ]
   },
@@ -596,13 +629,13 @@
     "buttons": [
       {
         "label": "Discuss a Corporate Finance Matter",
-        "href": "#",
+        "href": "contact.html",
         "variant": "primary",
         "icon": true
       },
       {
         "label": "Find a Member Firm",
-        "href": "#",
+        "href": "contact.html#contact-locations",
         "variant": "secondary",
         "icon": true
       }

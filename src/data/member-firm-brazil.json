@@ -42,19 +42,19 @@
               "label": "Telephone",
               "value": "+55 11 3628 5126",
               "iconName": "call",
-              "href": "tel:+551136285126"
+              "href": "#"
             },
             {
               "label": "WhatsApp",
               "value": "+55 11 96921 7593",
               "icon": "/icons/icon-mobile.svg",
-              "href": "tel:+5511969217593"
+              "href": "#"
             },
             {
               "label": "Email",
               "value": "acocurullo@parkerrussell.com.br",
               "iconName": "mail",
-              "href": "mailto:acocurullo@parkerrussell.com.br"
+              "href": "#"
             },
             {
               "label": "Opening Hours",

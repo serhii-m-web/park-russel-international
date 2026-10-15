@@ -36,7 +36,7 @@
         "role": "President and CEO",
         "location": "London, UK",
         "phone": "+44(0) 2073787500",
-        "phoneHref": "tel:+442073787500",
+        "phoneHref": "#",
         "email": "jparker@parkerrussell.co.uk",
         "linkedinHref": "#",
         "cvHref": "#"
@@ -46,7 +46,7 @@
         "role": "Deputy President",
         "location": "Peru",
         "phone": "00511 255 72 96",
-        "phoneHref": "tel:+5112557296",
+        "phoneHref": "#",
         "email": "anavarro@parkerrussell.com.pe",
         "linkedinHref": "#",
         "cvHref": "#"
@@ -56,7 +56,7 @@
         "role": "Vice President of Middle East",
         "location": "Jordan",
         "phone": "0096265857570",
-        "phoneHref": "tel:+96265857570",
+        "phoneHref": "#",
         "email": "rbukhari@parkerrussell-jordan.com",
         "linkedinHref": "#",
         "cvHref": "#"
@@ -66,7 +66,7 @@
         "role": "Vice President of Latin America",
         "location": "Brazil",
         "phone": "00551136285126",
-        "phoneHref": "tel:+551136285126",
+        "phoneHref": "#",
         "email": "acocurullo@parkerrussell.com.br",
         "linkedinHref": "#",
         "cvHref": "#"
@@ -76,7 +76,7 @@
         "role": "Vice President of Europe",
         "location": "Italy",
         "phone": "+39 329 9439624",
-        "phoneHref": "tel:+393299439624",
+        "phoneHref": "#",
         "email": "fabio.cosmai@studiocosmai.it",
         "linkedinHref": "#",
         "cvHref": "#"
@@ -86,7 +86,7 @@
         "role": "Vice President of Africa",
         "location": "Eastern Africa",
         "phone": "+254 20 239 9149",
-        "phoneHref": "tel:+254202399149",
+        "phoneHref": "#",
         "email": "coutts.otolo@parkerrandall-ea.com",
         "linkedinHref": "#",
         "cvHref": "#"
@@ -96,7 +96,7 @@
         "role": "Vice President of South East Asia",
         "location": "Pakistan",
         "phone": "+92 (41) 8502082-83",
-        "phoneHref": "tel:+92418502082",
+        "phoneHref": "#",
         "email": "junaid@parkerrussell.pk",
         "linkedinHref": "#",
         "cvHref": "#"
@@ -106,7 +106,7 @@
         "role": "Vice President of USA",
         "location": "USA",
         "phone": "212-232-0122",
-        "phoneHref": "tel:+12122320122",
+        "phoneHref": "#",
         "email": "charlesyi@yslcpa.com",
         "linkedinHref": "#",
         "cvHref": "#"

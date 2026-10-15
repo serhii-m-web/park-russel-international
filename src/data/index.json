@@ -25,7 +25,7 @@
     "buttons": [
       {
         "label": "Find a Member Firm",
-        "href": "contact.html#locations",
+        "href": "contact.html#contact-locations",
         "variant": "primary",
         "icon": true
       },
@@ -347,11 +347,11 @@
         "description": "Spending Smarter: How Efficient and Well-Allocated Public Spending Can Boost Economic Growth.",
         "link": {
           "label": "Read more",
-          "href": "#"
+          "href": "publications.html"
         },
         "download": {
           "label": "Download",
-          "href": "#"
+          "href": "publications.html"
         }
       },
       {
@@ -363,11 +363,11 @@
         "description": "The World Bank Group's flagship report on the outlook for the global economy.",
         "link": {
           "label": "Read more",
-          "href": "#"
+          "href": "publications.html"
         },
         "download": {
           "label": "Download",
-          "href": "#"
+          "href": "publications.html"
         }
       },
       {
@@ -379,11 +379,11 @@
         "description": "Harnessing the Integrity Advantage.",
         "link": {
           "label": "Read more",
-          "href": "#"
+          "href": "publications.html"
         },
         "download": {
           "label": "Download",
-          "href": "#"
+          "href": "publications.html"
         }
       }
     ]

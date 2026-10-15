@@ -42,19 +42,19 @@
               "label": "Telephone",
               "value": "+595 21 601 695",
               "iconName": "call",
-              "href": "tel:+59521601695"
+              "href": "#"
             },
             {
               "label": "Additional Lines",
               "value": "+595 21 329 1818 / +595 21 329 1859",
               "iconName": "call",
-              "href": "tel:+595213291818"
+              "href": "#"
             },
             {
               "label": "Email",
               "value": "info@dea.com.py",
               "iconName": "mail",
-              "href": "mailto:info@dea.com.py"
+              "href": "#"
             },
             {
               "label": "Opening Hours",

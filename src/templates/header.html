@@ -67,7 +67,10 @@
               </a>
             </li>
             <li
-              class="site-header__utility-nav-item site-header__utility-nav-item--has-dropdown"
+              class="
+                site-header__utility-nav-item
+                site-header__utility-nav-item--has-dropdown
+              "
             >
               <button
                 class="site-header__utility-nav-link site-header__utility-nav-link--dropdown"
@@ -85,8 +88,8 @@
                 }}
               </button>
               <div
-                class="site-header__firms-dropdown"
                 id="utility-member-firms"
+                class="site-header__firms-dropdown"
                 data-mega-panel
                 aria-hidden="true"
               >
@@ -101,12 +104,7 @@
                               <ul class="site-header__firms-list">
                                 {{#each countries}}
                                   <li class="site-header__firms-item">
-                                    <a
-                                      class="site-header__firms-link"
-                                      href="{{ href }}"
-                                    >
-                                      {{ label }}
-                                    </a>
+                                    <a class="site-header__firms-link" href="{{ href }}">{{ label }}</a>
                                   </li>
                                 {{/each}}
                               </ul>
@@ -186,9 +184,7 @@
         <nav id="site-header-nav" class="site-header__nav" aria-label="Primary">
           <ul class="site-header__menu">
             <li class="site-header__menu-item">
-              <a class="site-header__menu-link" href="index.html" data-nav-home>
-                Home
-              </a>
+              <a class="site-header__menu-link" href="index.html">Home</a>
             </li>
 
             <li class="site-header__menu-item site-header__menu-item--has-mega">

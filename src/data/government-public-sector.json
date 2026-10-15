@@ -17,13 +17,13 @@
     "buttons": [
       {
         "label": "Speak to a Public Sector Adviser",
-        "href": "#",
+        "href": "contact.html",
         "variant": "primary",
         "icon": true
       },
       {
         "label": "Find a Member Firm",
-        "href": "#",
+        "href": "contact.html#contact-locations",
         "variant": "secondary",
         "icon": true
       }
@@ -213,8 +213,8 @@
         "title": "Audit & Assurance",
         "description": "Financial statement audits, independent assurance, financial reporting reviews and programme-related assurance.",
         "link": {
-          "label": "",
-          "href": ""
+          "label": "Explore Assurance",
+          "href": "assurance.html"
         }
       },
       {
@@ -222,8 +222,8 @@
         "title": "Financial Advisory",
         "description": "Financial modelling, project evaluation, due diligence, valuations and investment analysis.",
         "link": {
-          "label": "",
-          "href": ""
+          "label": "Explore Financial Advisory",
+          "href": "financial-advisory.html"
         }
       },
       {
@@ -231,8 +231,8 @@
         "title": "Accounting & Financial Reporting",
         "description": "Management information, budgeting, forecasting, financial statements and finance-function support.",
         "link": {
-          "label": "",
-          "href": ""
+          "label": "Explore Assurance",
+          "href": "assurance.html"
         }
       },
       {
@@ -240,8 +240,8 @@
         "title": "Governance & Financial Controls",
         "description": "Internal control reviews, governance assessments, risk management and financial oversight.",
         "link": {
-          "label": "",
-          "href": ""
+          "label": "Explore Our Services",
+          "href": "assurance.html"
         }
       },
       {
@@ -249,8 +249,8 @@
         "title": "Tax & Structuring",
         "description": "Taxation and structuring considerations for government-owned entities, commercial activities and public-private arrangements.",
         "link": {
-          "label": "",
-          "href": ""
+          "label": "Explore Tax & Legal",
+          "href": "tax-legal.html"
         }
       }
     ]
@@ -261,7 +261,7 @@
     "ariaLabel": "Public-sector programme lifecycle",
     "carouselLabel": "Programme lifecycle",
     "title": "From Strategic Planning<br><span class=\"is-muted\"> to Measurable Outcomes.</span>",
-    "description" : "Public-sector programmes and transformation initiatives require effective financial management throughout planning, implementation and ongoing review.",
+    "description": "Public-sector programmes and transformation initiatives require effective financial management throughout planning, implementation and ongoing review.",
     "cards": [
       {
         "icon": "/icons/icon-public.svg",
@@ -301,7 +301,7 @@
     "networkText": "Through Parker Russell International, independent member firms combine locally informed professional expertise with international collaboration where programmes, funding arrangements or operations extend beyond national borders.",
     "button": {
       "label": "Find a Member Firm",
-      "href": "#"
+      "href": "contact.html#contact-locations"
     },
     "image": "/images/consumer-business/international.jpg",
     "imageAlt": "Global consumer business network",

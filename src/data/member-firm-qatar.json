@@ -42,19 +42,19 @@
               "label": "Telephone",
               "value": "+974 5006 6033",
               "iconName": "call",
-              "href": "tel:+97450066033"
+              "href": "#"
             },
             {
               "label": "Mobile",
               "value": "+974 7779 9035",
               "icon": "/icons/icon-mobile.svg",
-              "href": "tel:+97477799035"
+              "href": "#"
             },
             {
               "label": "Email",
               "value": "info@charteredaudit.com",
               "iconName": "mail",
-              "href": "mailto:info@charteredaudit.com"
+              "href": "#"
             },
             {
               "label": "Opening Hours",

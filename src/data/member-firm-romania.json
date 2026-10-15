@@ -42,13 +42,13 @@
               "label": "Telephone",
               "value": "+40 374 926 000",
               "iconName": "call",
-              "href": "tel:+40374926000"
+              "href": "#"
             },
             {
               "label": "Email",
               "value": "office@nowium.com",
               "iconName": "mail",
-              "href": "mailto:office@nowium.com"
+              "href": "#"
             },
             {
               "label": "Opening Hours",

@@ -17,13 +17,13 @@
     "buttons": [
       {
         "label": "Speak to an E-commerce Adviser Secondary",
-        "href": "#",
+        "href": "contact.html",
         "variant": "primary",
         "icon": true
       },
       {
         "label": "Find a Member Firm",
-        "href": "#",
+        "href": "contact.html#contact-locations",
         "variant": "secondary",
         "icon": true
       }
@@ -212,8 +212,8 @@
         "title": "Tax & Indirect Tax",
         "description": "Corporate tax, VAT, GST, international tax structuring and cross-border compliance.",
         "link": {
-          "label": "Explore Expertise",
-          "href": "#"
+          "label": "Explore Tax & Legal",
+          "href": "tax-legal.html"
         }
       },
       {
@@ -221,8 +221,8 @@
         "title": "Audit & Assurance",
         "description": "Statutory audit, financial reporting assurance and support for stakeholder requirements.",
         "link": {
-          "label": "Explore Expertise",
-          "href": "#"
+          "label": "Explore Assurance",
+          "href": "assurance.html"
         }
       },
       {
@@ -230,8 +230,8 @@
         "title": "Accounting & Outsourced Finance",
         "description": "Management accounts, financial controls, reconciliations and cash-flow reporting.",
         "link": {
-          "label": "Explore Expertise",
-          "href": "#"
+          "label": "Explore Assurance",
+          "href": "assurance.html"
         }
       },
       {
@@ -239,8 +239,8 @@
         "title": "Corporate Finance",
         "description": "Financial due diligence, valuations, acquisitions, disposals and transaction support.",
         "link": {
-          "label": "Explore Expertise",
-          "href": "#"
+          "label": "Explore Corporate Services",
+          "href": "corporate-services.html"
         }
       },
       {
@@ -248,8 +248,8 @@
         "title": "Transfer Pricing",
         "description": "Related-party arrangements, intercompany pricing policies and documentation.",
         "link": {
-          "label": "Explore Expertise",
-          "href": "#"
+          "label": "Explore Transfer Pricing",
+          "href": "transfer-pricing.html"
         }
       }
     ]
@@ -300,7 +300,7 @@
     "networkText": "Through Parker Russell International, independent member firms can collaborate across jurisdictions to provide locally informed advice and support more coordinated international operations.",
     "button": {
       "label": "Find a Member Firm",
-      "href": "#"
+      "href": "contact.html#contact-locations"
     },
     "image": "/images/consumer-business/international.jpg",
     "imageAlt": "Global consumer business network",

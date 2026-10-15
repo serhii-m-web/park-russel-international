@@ -42,19 +42,19 @@
               "iconName": "call",
               "label": "Telephone",
               "value": "+359 2 483 2444",
-              "href": "tel:+35924832444"
+              "href": "#"
             },
             {
               "icon": "/icons/icon-mobile.svg",
               "label": "Mobile",
               "value": "+359 888 552 443",
-              "href": "tel:+359888552443"
+              "href": "#"
             },
             {
               "iconName": "mail",
               "label": "Email",
               "value": "k.apostolov@kaaudit.bg",
-              "href": "mailto:k.apostolov@kaaudit.bg"
+              "href": "#"
             },
             {
               "icon": "/icons/icon-schedule.svg",

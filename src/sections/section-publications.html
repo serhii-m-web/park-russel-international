@@ -6,14 +6,14 @@
   <div class="container">
     <div class="section-publications__header">
       <h2 id="section-publications-title" class="section-publications__title">
-        {{publications.title}}
+        {{ publications.title }}
       </h2>
       {{#if publications.button}}
         <a
           class="section-publications__button site-button secondary-red"
-          href="{{publications.button.href}}"
+          href="{{ publications.button.href }}"
         >
-          {{publications.button.label}}
+          {{ publications.button.label }}
           {{> icon
             name="arrow-right"
             class="section-publications__button-icon"
@@ -29,7 +29,7 @@
         class="swiper section-publications__list"
         data-publications-slider-el
         aria-roledescription="carousel"
-        aria-label="{{publications.title}}"
+        aria-label="{{ publications.title }}"
       >
         <div class="swiper-wrapper">
           {{#each publications.items}}
@@ -47,34 +47,34 @@
                 <div class="section-publications__item-header">
                   {{#if label}}
                     <span class="section-publications__item-label">
-                      {{label}}
+                      {{ label }}
                     </span>
                   {{/if}}
                   {{#if date}}
                     <time
                       class="section-publications__item-date"
-                      datetime="{{datetime}}"
+                      datetime="{{ datetime }}"
                     >
-                      {{date}}
+                      {{ date }}
                     </time>
                   {{/if}}
                 </div>
-                <h3 class="section-publications__item-title">{{title}}</h3>
+                <h3 class="section-publications__item-title">{{ title }}</h3>
                 {{#if description}}
                   <p class="section-publications__item-description">
-                    {{description}}
+                    {{ description }}
                   </p>
                 {{/if}}
                 <div class="section-publications__item-buttons">
                   {{#if link}}
                     <a
                       class="section-publications__item-link preview-link"
-                      href="{{link.href}}"
+                      href="{{ link.href }}"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      {{link.label}}
-                      <span class="visually-hidden"> about {{title}}</span>
+                      {{ link.label }}
+                      <span class="visually-hidden">about {{ title }}</span>
                       {{> icon
                         name="arrow-right"
                         class="section-publications__item-icon"
@@ -86,7 +86,7 @@
                   {{#if download}}
                     <a
                       class="section-publications__item-link download-link"
-                      href="{{download.href}}"
+                      href="{{ download.href }}"
                       download
                     >
                       {{> icon
@@ -95,7 +95,7 @@
                         width="16"
                         height="16"
                       }}
-                      {{download.label}}
+                      {{ download.label }}
                     </a>
                   {{/if}}
                 </div>

@@ -42,7 +42,7 @@
               "label": "Telephone",
               "value": "+591 2 231 8272",
               "iconName": "call",
-              "href": "tel:+59122318272"
+              "href": "#"
             }
           ],
           "website": {
@@ -71,13 +71,13 @@
               "label": "Telephone",
               "value": "+591 3 370 8885 / 8886",
               "iconName": "call",
-              "href": "tel:+591337088858886"
+              "href": "#"
             },
             {
               "label": "Email",
               "value": "info@pr.com.bo",
               "iconName": "mail",
-              "href": "mailto:info@pr.com.bo"
+              "href": "#"
             }
           ],
           "website": {
@@ -106,13 +106,13 @@
               "label": "Telephone",
               "value": "+591 788 98111 / +591 755 57999",
               "iconName": "call",
-              "href": "tel:+59178898111"
+              "href": "#"
             },
             {
               "label": "Email",
               "value": "info@pr.com.bo",
               "iconName": "mail",
-              "href": "mailto:info@pr.com.bo"
+              "href": "#"
             }
           ],
           "website": {

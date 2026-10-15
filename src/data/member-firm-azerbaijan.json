@@ -42,19 +42,19 @@
               "label": "Telephone",
               "value": "+994 12 505 58 47 / 48",
               "iconName": "call",
-              "href": "tel:+99412505584748"
+              "href": "#"
             },
             {
               "label": "Mobile",
               "value": "+994 50 225 79 15",
               "icon": "/icons/icon-mobile.svg",
-              "href": "tel:+994502257915"
+              "href": "#"
             },
             {
               "label": "Email",
               "value": "office@parkerrussell.az",
               "iconName": "mail",
-              "href": "mailto:office@parkerrussell.az"
+              "href": "#"
             },
             {
               "label": "Opening Hours",

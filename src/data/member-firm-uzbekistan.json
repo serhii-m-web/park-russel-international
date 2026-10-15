@@ -42,25 +42,25 @@
               "label": "Telephone",
               "value": "+998 71 237 50 36",
               "iconName": "call",
-              "href": "tel:+998712375036"
+              "href": "#"
             },
             {
               "label": "Mobile — Elena Povolotskaya",
               "value": "+998 93 555 09 98",
               "icon": "/icons/icon-mobile.svg",
-              "href": "tel:+998935550998"
+              "href": "#"
             },
             {
               "label": "Mobile — Tatyana Bogdanova",
               "value": "+998 93 555 69 01",
               "icon": "/icons/icon-mobile.svg",
-              "href": "tel:+998935556901"
+              "href": "#"
             },
             {
               "label": "Email",
               "value": "info@parkerrusselluz.com",
               "iconName": "mail",
-              "href": "mailto:info@parkerrusselluz.com"
+              "href": "#"
             },
             {
               "label": "Opening Hours",
@@ -94,19 +94,19 @@
               "label": "Telephone",
               "value": "+998 78 150 44 36",
               "iconName": "call",
-              "href": "tel:+998781504436"
+              "href": "#"
             },
             {
               "label": "Additional Line",
               "value": "+998 71 237 50 39",
               "iconName": "call",
-              "href": "tel:+998712375039"
+              "href": "#"
             },
             {
               "label": "Email",
               "value": "info@parkerrusselluz.com",
               "iconName": "mail",
-              "href": "mailto:info@parkerrusselluz.com"
+              "href": "#"
             }
           ],
           "website": {

@@ -42,25 +42,25 @@
               "label": "Telephone",
               "value": "+58 212 283 9773",
               "iconName": "call",
-              "href": "tel:+582122839773"
+              "href": "#"
             },
             {
               "label": "Additional Line",
               "value": "+58 212 283 6736",
               "iconName": "call",
-              "href": "tel:+582122836736"
+              "href": "#"
             },
             {
               "label": "Email",
               "value": "contacto@barretoyasociados.com.ve",
               "iconName": "mail",
-              "href": "mailto:contacto@barretoyasociados.com.ve"
+              "href": "#"
             },
             {
               "label": "Direct Email",
               "value": "jmonsalve@barretoyasociados.com.ve",
               "iconName": "mail",
-              "href": "mailto:jmonsalve@barretoyasociados.com.ve"
+              "href": "#"
             },
             {
               "label": "Opening Hours",

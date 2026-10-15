@@ -42,19 +42,19 @@
               "label": "Telephone",
               "value": "+20 100 140 9600",
               "iconName": "call",
-              "href": "tel:+201001409600"
+              "href": "#"
             },
             {
               "label": "Mobile",
               "value": "+20 122 312 3662",
               "icon": "/icons/icon-mobile.svg",
-              "href": "tel:+201223123662"
+              "href": "#"
             },
             {
               "label": "Email",
               "value": "info@parkerrussell-eg.com",
               "iconName": "mail",
-              "href": "mailto:info@parkerrussell-eg.com"
+              "href": "#"
             },
             {
               "label": "Opening Hours",
@@ -88,13 +88,13 @@
               "label": "Telephone",
               "value": "+20 100 140 9600",
               "iconName": "call",
-              "href": "tel:+201001409600"
+              "href": "#"
             },
             {
               "label": "Email",
               "value": "info@parkerrussell-eg.com",
               "iconName": "mail",
-              "href": "mailto:info@parkerrussell-eg.com"
+              "href": "#"
             }
           ],
           "website": {

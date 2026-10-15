@@ -17,13 +17,13 @@
     "buttons": [
       {
         "label": "Speak to a Manufacturing Adviser",
-        "href": "#",
+        "href": "contact.html",
         "variant": "primary",
         "icon": true
       },
       {
         "label": "Find a Member Firm",
-        "href": "#",
+        "href": "contact.html#contact-locations",
         "variant": "secondary",
         "icon": true
       }
@@ -213,8 +213,8 @@
         "title": "Audit & Assurance",
         "description": "Statutory audit, financial statement assurance, internal controls and group reporting requirements.",
         "link": {
-          "label": "",
-          "href": ""
+          "label": "Explore Assurance",
+          "href": "assurance.html"
         }
       },
       {
@@ -222,8 +222,8 @@
         "title": "Tax & International Tax",
         "description": "Corporate taxation, indirect tax, customs considerations and international tax structuring.",
         "link": {
-          "label": "",
-          "href": ""
+          "label": "Explore Tax & Legal",
+          "href": "tax-legal.html"
         }
       },
       {
@@ -231,8 +231,8 @@
         "title": "Accounting & Financial Reporting",
         "description": "Management accounts, cost reporting, budgeting, forecasting and cash-flow analysis.",
         "link": {
-          "label": "",
-          "href": ""
+          "label": "Explore Assurance",
+          "href": "assurance.html"
         }
       },
       {
@@ -240,8 +240,8 @@
         "title": "Corporate Finance & Advisory",
         "description": "Financial modelling, due diligence, valuations, acquisitions, restructuring and transaction support.",
         "link": {
-          "label": "",
-          "href": ""
+          "label": "Explore Corporate Services",
+          "href": "corporate-services.html"
         }
       },
       {
@@ -249,8 +249,8 @@
         "title": "Transfer Pricing",
         "description": "Intercompany transactions, related-party arrangements, pricing policies and supporting documentation.",
         "link": {
-          "label": "",
-          "href": ""
+          "label": "Explore Transfer Pricing",
+          "href": "transfer-pricing.html"
         }
       }
     ]
@@ -261,7 +261,7 @@
     "ariaLabel": "Manufacturing business lifecycle stages",
     "carouselLabel": "Business lifecycle",
     "title": "From Production Growth to International Expansion.",
-    "description" : "Financial priorities evolve as manufacturing businesses increase capacity, invest in technology and expand into new markets. Our member firms provide professional expertise aligned with each stage.",
+    "description": "Financial priorities evolve as manufacturing businesses increase capacity, invest in technology and expand into new markets. Our member firms provide professional expertise aligned with each stage.",
     "cards": [
       {
         "icon": "/icons/icon-public.svg",
@@ -301,7 +301,7 @@
     "networkText": "Through Parker Russell International, independent member firms collaborate to provide locally informed expertise and support coordinated financial management across international manufacturing operations.",
     "button": {
       "label": "Find a Member Firm",
-      "href": "#"
+      "href": "contact.html#contact-locations"
     },
     "image": "/images/consumer-business/international.jpg",
     "imageAlt": "Global consumer business network",

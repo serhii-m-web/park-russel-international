@@ -42,19 +42,19 @@
               "label": "Telephone",
               "value": "+880 2 5504 5267 / 5268",
               "iconName": "call",
-              "href": "tel:+8802550452675268"
+              "href": "#"
             },
             {
               "label": "Mobile",
               "value": "+880 1717 386384",
               "icon": "/icons/icon-mobile.svg",
-              "href": "tel:+8801717386384"
+              "href": "#"
             },
             {
               "label": "Email",
               "value": "info@akrcbd.com",
               "iconName": "mail",
-              "href": "mailto:info@akrcbd.com"
+              "href": "#"
             },
             {
               "label": "Opening Hours",
@@ -88,13 +88,13 @@
               "label": "Telephone",
               "value": "+880 1717 435794",
               "icon": "/icons/icon-mobile.svg",
-              "href": "tel:+8801717435794"
+              "href": "#"
             },
             {
               "label": "Additional Line",
               "value": "+880 2 2233 80202",
               "iconName": "call",
-              "href": "tel:+8802223380202"
+              "href": "#"
             }
           ],
           "website": {
@@ -123,7 +123,7 @@
               "label": "Email",
               "value": "info@akrcbd.com",
               "iconName": "mail",
-              "href": "mailto:info@akrcbd.com"
+              "href": "#"
             }
           ],
           "website": {

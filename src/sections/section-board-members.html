@@ -80,35 +80,65 @@
 
                 <div class="section-board-members__content">
                   {{#if name}}
-                    <h3 class="section-board-members__name">{{ name }}</h3>
+                    <h3 class="section-board-members__name">
+                      {{ name }}
+                    </h3>
                   {{/if}}
 
                   {{#if role}}
-                    <p class="section-board-members__role">{{ role }}</p>
+                    <p class="section-board-members__role">
+                      {{ role }}
+                    </p>
                   {{/if}}
 
                   {{#if location}}
                     <p class="section-board-members__location">
-                      {{> icon name="location" width="16" height="16" class="section-board-members__meta-icon"}}
+                      {{> icon
+                        name="location"
+                        width="16"
+                        height="16"
+                        class="section-board-members__meta-icon"
+                      }}
                       <span>{{ location }}</span>
                     </p>
                   {{/if}}
 
-                  <div class="section-board-members__divider" aria-hidden="true"></div>
+                  <div class="section-board-members__divider" aria-hidden="true"
+                  ></div>
 
                   {{#if phone}}
-                    <a class="section-board-members__contact" href="{{ phoneHref }}">
-                      <span class="section-board-members__contact-icon" aria-hidden="true">
-                        {{> icon name="call" width="15" height="15"}}
+                    <a
+                      class="section-board-members__contact"
+                      href="{{ phoneHref }}"
+                    >
+                      <span
+                        class="section-board-members__contact-icon"
+                        aria-hidden="true"
+                      >
+                        {{> icon
+                          name="call"
+                          width="15"
+                          height="15"
+                        }}
                       </span>
                       <span>{{ phone }}</span>
                     </a>
                   {{/if}}
 
                   {{#if email}}
-                    <a class="section-board-members__contact" href="mailto:{{ email }}">
-                      <span class="section-board-members__contact-icon" aria-hidden="true">
-                        {{> icon name="mail" width="15" height="15"}}
+                    <a
+                      class="section-board-members__contact"
+                      href="mailto:{{ email }}"
+                    >
+                      <span
+                        class="section-board-members__contact-icon"
+                        aria-hidden="true"
+                      >
+                        {{> icon
+                          name="mail"
+                          width="15"
+                          height="15"
+                        }}
                       </span>
                       <span>{{ email }}</span>
                     </a>
@@ -116,10 +146,7 @@
 
                   {{#if cvHref}}
                     <div class="section-board-members__cv-wrap">
-                      <a
-                        class="section-board-members__cv"
-                        href="{{ cvHref }}"
-                      >
+                      <a class="section-board-members__cv" href="{{ cvHref }}">
                         <span>{{ ../boardMembers.cvLabel }}</span>
                         {{> icon
                           name="arrow"

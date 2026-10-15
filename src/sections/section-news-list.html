@@ -18,7 +18,10 @@
             {{#with featured}}
               <article class="section-news-list__featured">
                 {{#if image}}
-                  <span class="section-news-list__featured-media" aria-hidden="true">
+                  <span
+                    class="section-news-list__featured-media"
+                    aria-hidden="true"
+                  >
                     {{picture
                       image
                       alt=""
@@ -31,22 +34,36 @@
 
                 <div class="section-news-list__featured-content">
                   {{#if date}}
-                    <span class="section-news-list__date section-news-list__date--pill">
-                      {{> icon name="calendar" width="16" height="16" class="section-news-list__date-icon"}}
+                    <span
+                      class="section-news-list__date section-news-list__date--pill"
+                    >
+                      {{> icon
+                        name="calendar"
+                        width="16"
+                        height="16"
+                        class="section-news-list__date-icon"
+                      }}
                       <span>{{ date }}</span>
                     </span>
                   {{/if}}
 
                   {{#if title}}
-                    <h2 class="section-news-list__featured-title">{{{ title }}}</h2>
+                    <h2 class="section-news-list__featured-title">
+                      {{{ title }}}
+                    </h2>
                   {{/if}}
 
                   {{#if excerpt}}
-                    <p class="section-news-list__featured-excerpt">{{{ excerpt }}}</p>
+                    <p class="section-news-list__featured-excerpt">
+                      {{{ excerpt }}}
+                    </p>
                   {{/if}}
 
                   {{#if href}}
-                    <a class="section-news-list__featured-link" href="{{ href }}">
+                    <a
+                      class="section-news-list__featured-link"
+                      href="{{ href }}"
+                    >
                       {{ ../readMoreLabel }}
                     </a>
                   {{/if}}
@@ -80,7 +97,12 @@
                     <div class="section-news-list__card-body">
                       {{#if date}}
                         <span class="section-news-list__date">
-                          {{> icon name="calendar" width="16" height="16" class="section-news-list__date-icon"}}
+                          {{> icon
+                            name="calendar"
+                            width="16"
+                            height="16"
+                            class="section-news-list__date-icon"
+                          }}
                           <span>{{ date }}</span>
                         </span>
                       {{/if}}
@@ -92,11 +114,16 @@
                       {{/if}}
 
                       {{#if excerpt}}
-                        <p class="section-news-list__card-excerpt">{{{ excerpt }}}</p>
+                        <p class="section-news-list__card-excerpt">
+                          {{{ excerpt }}}
+                        </p>
                       {{/if}}
 
                       {{#if href}}
-                        <a class="section-news-list__card-link" href="{{ href }}">
+                        <a
+                          class="section-news-list__card-link"
+                          href="{{ href }}"
+                        >
                           {{ ../readMoreLabel }}
                         </a>
                       {{/if}}
@@ -114,9 +141,14 @@
           <aside class="section-news-list__sidebar" aria-label="News sidebar">
             {{#if contact}}
               {{#with contact}}
-                <div class="section-news-list__widget section-news-list__widget--contact">
+                <div
+                  class="section-news-list__widget section-news-list__widget--contact"
+                >
                   {{#if icon}}
-                    <span class="section-news-list__widget-icon" aria-hidden="true">
+                    <span
+                      class="section-news-list__widget-icon"
+                      aria-hidden="true"
+                    >
                       <img
                         src="{{ icon }}"
                         alt=""
@@ -127,16 +159,27 @@
                     </span>
                   {{/if}}
                   {{#if title}}
-                    <h2 class="section-news-list__widget-title">{{{ title }}}</h2>
+                    <h2 class="section-news-list__widget-title">
+                      {{{ title }}}
+                    </h2>
                   {{/if}}
                   {{#if text}}
-                    <p class="section-news-list__widget-text">{{{ text }}}</p>
+                    <p class="section-news-list__widget-text">
+                      {{{ text }}}
+                    </p>
                   {{/if}}
                   {{#if button}}
-                    <a class="site-button primary section-news-list__widget-button" href="{{ button.href }}">
+                    <a
+                      class="site-button primary section-news-list__widget-button"
+                      href="{{ button.href }}"
+                    >
                       <span>{{ button.label }}</span>
                       {{#if button.icon}}
-                        {{> icon name="arrow-right" width="16" height="16"}}
+                        {{> icon
+                          name="arrow-right"
+                          width="16"
+                          height="16"
+                        }}
                       {{/if}}
                     </a>
                   {{/if}}
@@ -146,9 +189,14 @@
 
             {{#if locations}}
               {{#with locations}}
-                <div class="section-news-list__widget section-news-list__widget--locations">
+                <div
+                  class="section-news-list__widget section-news-list__widget--locations"
+                >
                   {{#if image}}
-                    <span class="section-news-list__widget-media" aria-hidden="true">
+                    <span
+                      class="section-news-list__widget-media"
+                      aria-hidden="true"
+                    >
                       {{picture
                         image
                         alt=""
@@ -159,7 +207,10 @@
                     </span>
                   {{/if}}
                   {{#if icon}}
-                    <span class="section-news-list__widget-icon" aria-hidden="true">
+                    <span
+                      class="section-news-list__widget-icon"
+                      aria-hidden="true"
+                    >
                       <img
                         src="{{ icon }}"
                         alt=""
@@ -170,10 +221,14 @@
                     </span>
                   {{/if}}
                   {{#if title}}
-                    <h2 class="section-news-list__widget-title">{{{ title }}}</h2>
+                    <h2 class="section-news-list__widget-title">
+                      {{{ title }}}
+                    </h2>
                   {{/if}}
                   {{#if text}}
-                    <p class="section-news-list__widget-text">{{{ text }}}</p>
+                    <p class="section-news-list__widget-text">
+                      {{{ text }}}
+                    </p>
                   {{/if}}
                   {{#if button}}
                     <a
@@ -182,7 +237,11 @@
                     >
                       <span>{{ button.label }}</span>
                       {{#if button.icon}}
-                        {{> icon name="arrow-right" width="16" height="16"}}
+                        {{> icon
+                          name="arrow-right"
+                          width="16"
+                          height="16"
+                        }}
                       {{/if}}
                     </a>
                   {{/if}}
@@ -192,9 +251,13 @@
 
             {{#if follow}}
               {{#with follow}}
-                <div class="section-news-list__widget section-news-list__widget--follow">
+                <div
+                  class="section-news-list__widget section-news-list__widget--follow"
+                >
                   {{#if title}}
-                    <h2 class="section-news-list__widget-title section-news-list__widget-title--dark">
+                    <h2
+                      class="section-news-list__widget-title section-news-list__widget-title--dark"
+                    >
                       {{{ title }}}
                     </h2>
                   {{/if}}
@@ -202,9 +265,7 @@
                     <ul class="section-news-list__social">
                       {{#each links}}
                         <li>
-                          <a class="section-news-list__social-link" href="{{ href }}">
-                            {{ label }}
-                          </a>
+                          <a class="section-news-list__social-link" href="{{ href }}">{{ label }}</a>
                         </li>
                       {{/each}}
                     </ul>
@@ -215,22 +276,32 @@
 
             {{#if newsletter}}
               {{#with newsletter}}
-                <div class="section-news-list__widget section-news-list__widget--newsletter">
+                <div
+                  class="section-news-list__widget section-news-list__widget--newsletter"
+                >
                   {{#if icon}}
                     <span
                       class="section-news-list__widget-icon section-news-list__widget-icon--dark"
                       aria-hidden="true"
                     >
-                      {{> icon name="mail" width="26" height="26"}}
+                      {{> icon
+                        name="mail"
+                        width="26"
+                        height="26"
+                      }}
                     </span>
                   {{/if}}
                   {{#if title}}
-                    <h2 class="section-news-list__widget-title section-news-list__widget-title--dark">
+                    <h2
+                      class="section-news-list__widget-title section-news-list__widget-title--dark"
+                    >
                       {{{ title }}}
                     </h2>
                   {{/if}}
                   {{#if text}}
-                    <p class="section-news-list__widget-text section-news-list__widget-text--muted">
+                    <p
+                      class="section-news-list__widget-text section-news-list__widget-text--muted"
+                    >
                       {{{ text }}}
                     </p>
                   {{/if}}
@@ -241,7 +312,9 @@
                     method="post"
                   >
                     <label class="section-news-list__field">
-                      <span class="section-news-list__field-label">{{ fields.firstName }}</span>
+                      <span class="section-news-list__field-label">
+                        {{ fields.firstName }}
+                      </span>
                       <input
                         class="section-news-list__input"
                         type="text"
@@ -250,7 +323,9 @@
                       />
                     </label>
                     <label class="section-news-list__field">
-                      <span class="section-news-list__field-label">{{ fields.lastName }}</span>
+                      <span class="section-news-list__field-label">
+                        {{ fields.lastName }}
+                      </span>
                       <input
                         class="section-news-list__input"
                         type="text"
@@ -259,7 +334,9 @@
                       />
                     </label>
                     <label class="section-news-list__field">
-                      <span class="section-news-list__field-label">{{ fields.email }}</span>
+                      <span class="section-news-list__field-label">
+                        {{ fields.email }}
+                      </span>
                       <input
                         class="section-news-list__input"
                         type="email"
@@ -277,10 +354,17 @@
                       />
                       <span>{{ consent }}</span>
                     </label>
-                    <button class="site-button primary section-news-list__widget-button" type="submit">
+                    <button
+                      class="site-button primary section-news-list__widget-button"
+                      type="submit"
+                    >
                       <span>{{ button.label }}</span>
                       {{#if button.icon}}
-                        {{> icon name="arrow-right" width="16" height="16"}}
+                        {{> icon
+                          name="arrow-right"
+                          width="16"
+                          height="16"
+                        }}
                       {{/if}}
                     </button>
                   </form>

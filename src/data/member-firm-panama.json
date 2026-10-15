@@ -42,37 +42,37 @@
               "label": "General Enquiries",
               "value": "+507 265 4118 / +507 265 4123",
               "iconName": "call",
-              "href": "tel:+5072654118"
+              "href": "#"
             },
             {
               "label": "José McKenzie",
               "value": "+507 6675 5231",
               "icon": "/icons/icon-mobile.svg",
-              "href": "tel:+50766755231"
+              "href": "#"
             },
             {
               "label": "Daniel McKenzie",
               "value": "+507 6675 8854",
               "icon": "/icons/icon-mobile.svg",
-              "href": "tel:+50766758854"
+              "href": "#"
             },
             {
               "label": "General Email",
               "value": "mmckenziecpa@mmckenziecpa.com",
               "iconName": "mail",
-              "href": "mailto:mmckenziecpa@mmckenziecpa.com"
+              "href": "#"
             },
             {
               "label": "José McKenzie",
               "value": "jose.mckenzie@mmckenziecpa.com",
               "iconName": "mail",
-              "href": "mailto:jose.mckenzie@mmckenziecpa.com"
+              "href": "#"
             },
             {
               "label": "Daniel McKenzie",
               "value": "daniel.mckenzie@mmckenziecpa.com",
               "iconName": "mail",
-              "href": "mailto:daniel.mckenzie@mmckenziecpa.com"
+              "href": "#"
             },
             {
               "label": "Opening Hours",

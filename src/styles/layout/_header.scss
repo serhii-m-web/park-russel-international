@@ -315,21 +315,8 @@
       transition: color 0.3s ease;
 
       &:hover,
-      &[aria-expanded='true'],
-      &.is-active {
+      &[aria-expanded='true'] {
         color: $color-red;
-      }
-
-      &.is-active::after {
-        content: '';
-        position: absolute;
-        left: 0;
-        bottom: -12px;
-        width: 100%;
-        max-width: 44px;
-        height: 2px;
-        border-radius: 2px;
-        background-color: $color-red;
       }
 
       &-icon {

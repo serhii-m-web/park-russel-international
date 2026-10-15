@@ -42,19 +42,19 @@
               "iconName": "call",
               "label": "Telephone",
               "value": "+351 220 926 074",
-              "href": "tel:+351220926074"
+              "href": "#"
             },
             {
               "icon": "/icons/icon-mobile.svg",
               "label": "Mobile",
               "value": "+351 937 912 745",
-              "href": "tel:+351937912745"
+              "href": "#"
             },
             {
               "iconName": "mail",
               "label": "Email",
               "value": "rui.silva@bms-audit.pt",
-              "href": "mailto:rui.silva@bms-audit.pt"
+              "href": "#"
             }
           ],
           "website": {
@@ -83,7 +83,7 @@
               "iconName": "mail",
               "label": "Email",
               "value": "geral@bms-audit.pt",
-              "href": "mailto:geral@bms-audit.pt"
+              "href": "#"
             }
           ],
           "website": {

@@ -42,13 +42,13 @@
               "label": "General Enquiries",
               "value": "+503 2645 8500 / +503 2223 5298",
               "iconName": "call",
-              "href": "tel:+50326458500"
+              "href": "#"
             },
             {
               "label": "Email",
               "value": "info@vva.com.sv",
               "iconName": "mail",
-              "href": "mailto:info@vva.com.sv"
+              "href": "#"
             }
           ],
           "website": {
@@ -77,13 +77,13 @@
               "label": "General Enquiries",
               "value": "+503 2645 8500 / +503 2223 5298",
               "iconName": "call",
-              "href": "tel:+50326458500"
+              "href": "#"
             },
             {
               "label": "Email",
               "value": "info@vva.com.sv",
               "iconName": "mail",
-              "href": "mailto:info@vva.com.sv"
+              "href": "#"
             }
           ],
           "website": {

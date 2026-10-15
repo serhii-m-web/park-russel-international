@@ -42,19 +42,19 @@
               "label": "Telephone",
               "value": "+1 437 800 1587",
               "iconName": "call",
-              "href": "tel:+14378001587"
+              "href": "#"
             },
             {
               "label": "Mobile",
               "value": "+1 647 829 9685",
               "icon": "/icons/icon-mobile.svg",
-              "href": "tel:+16478299685"
+              "href": "#"
             },
             {
               "label": "Email",
               "value": "info@ipg-parkerrussell.ca",
               "iconName": "mail",
-              "href": "mailto:info@ipg-parkerrussell.ca"
+              "href": "#"
             }
           ],
           "website": {
@@ -83,19 +83,19 @@
               "label": "Telephone",
               "value": "+1 437 800 1587",
               "iconName": "call",
-              "href": "tel:+14378001587"
+              "href": "#"
             },
             {
               "label": "Mobile",
               "value": "+1 647 829 9685",
               "icon": "/icons/icon-mobile.svg",
-              "href": "tel:+16478299685"
+              "href": "#"
             },
             {
               "label": "Email",
               "value": "info@ipg-parkerrussell.ca",
               "iconName": "mail",
-              "href": "mailto:info@ipg-parkerrussell.ca"
+              "href": "#"
             }
           ],
           "website": {

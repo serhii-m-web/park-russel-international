@@ -42,19 +42,19 @@
               "label": "Telephone",
               "value": "+65 6266 1134",
               "iconName": "call",
-              "href": "tel:+6562661134"
+              "href": "#"
             },
             {
               "label": "Additional Line",
               "value": "+65 6338 0279",
               "iconName": "call",
-              "href": "tel:+6563380279"
+              "href": "#"
             },
             {
               "label": "Email",
               "value": "info@parkerrussell.sg",
               "iconName": "mail",
-              "href": "mailto:info@parkerrussell.sg"
+              "href": "#"
             },
             {
               "label": "Opening Hours",

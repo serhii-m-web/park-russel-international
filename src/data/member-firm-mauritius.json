@@ -42,13 +42,13 @@
               "label": "Telephone",
               "value": "+230 405 7777",
               "iconName": "call",
-              "href": "tel:+2304057777"
+              "href": "#"
             },
             {
               "label": "Email",
               "value": "info@parkerrussellmu.com",
               "iconName": "mail",
-              "href": "mailto:info@parkerrussellmu.com"
+              "href": "#"
             },
             {
               "label": "Opening Hours",

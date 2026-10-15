@@ -42,19 +42,19 @@
               "label": "Telephone",
               "value": "+505 2227 0687",
               "iconName": "call",
-              "href": "tel:+50522270687"
+              "href": "#"
             },
             {
               "label": "Mobile",
               "value": "+505 8296 1845",
               "icon": "/icons/icon-mobile.svg",
-              "href": "tel:+50582961845"
+              "href": "#"
             },
             {
               "label": "Email",
               "value": "fncruzp@ibw.com.ni",
               "iconName": "mail",
-              "href": "mailto:fncruzp@ibw.com.ni"
+              "href": "#"
             }
           ],
           "website": {

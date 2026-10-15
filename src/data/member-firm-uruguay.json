@@ -42,13 +42,13 @@
               "label": "Telephone",
               "value": "+598 2 901 9453",
               "iconName": "call",
-              "href": "tel:+59829019453"
+              "href": "#"
             },
             {
               "label": "Email",
               "value": "info@parkerrussell.com.uy",
               "iconName": "mail",
-              "href": "mailto:info@parkerrussell.com.uy"
+              "href": "#"
             },
             {
               "label": "Opening Hours",

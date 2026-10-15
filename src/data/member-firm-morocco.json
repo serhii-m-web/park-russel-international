@@ -42,19 +42,19 @@
               "label": "Telephone",
               "value": "+212 520 859420",
               "iconName": "call",
-              "href": "tel:+212520859420"
+              "href": "#"
             },
             {
               "label": "Mobile",
               "value": "+212 661 189051",
               "icon": "/icons/icon-mobile.svg",
-              "href": "tel:+212661189051"
+              "href": "#"
             },
             {
               "label": "Email",
               "value": "contact@parkerrussell-maroc.com",
               "iconName": "mail",
-              "href": "mailto:contact@parkerrussell-maroc.com"
+              "href": "#"
             },
             {
               "label": "Opening Hours",

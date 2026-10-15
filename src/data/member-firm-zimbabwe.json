@@ -42,19 +42,19 @@
               "label": "Telephone",
               "value": "+263 773 406 876",
               "iconName": "call",
-              "href": "tel:+263773406876"
+              "href": "#"
             },
             {
               "label": "Additional Line",
               "value": "+263 771 366 076",
               "iconName": "call",
-              "href": "tel:+263771366076"
+              "href": "#"
             },
             {
               "label": "Email",
               "value": "info@parkerrussell.co.zw",
               "iconName": "mail",
-              "href": "mailto:info@parkerrussell.co.zw"
+              "href": "#"
             },
             {
               "label": "Business Hours",

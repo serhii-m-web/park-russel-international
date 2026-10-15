@@ -42,13 +42,13 @@
               "label": "Telephone",
               "value": "+62 21 766 1348–50",
               "iconName": "call",
-              "href": "tel:+6221766134850"
+              "href": "#"
             },
             {
               "label": "Email",
               "value": "info@heliantonorekan.com",
               "iconName": "mail",
-              "href": "mailto:info@heliantonorekan.com"
+              "href": "#"
             }
           ],
           "website": {
@@ -77,13 +77,13 @@
               "label": "Telephone",
               "value": "+62 22 250 3217",
               "iconName": "call",
-              "href": "tel:+62222503217"
+              "href": "#"
             },
             {
               "label": "Email",
               "value": "bandung@heliantonorekan.com",
               "iconName": "mail",
-              "href": "mailto:bandung@heliantonorekan.com"
+              "href": "#"
             }
           ],
           "website": {
@@ -112,7 +112,7 @@
               "label": "Telephone",
               "value": "+62 24 7052 4666 / +62 24 850 5830",
               "iconName": "call",
-              "href": "tel:+622470524666"
+              "href": "#"
             }
           ],
           "website": {
@@ -141,7 +141,7 @@
               "label": "Telephone",
               "value": "+62 31 501 6906",
               "iconName": "call",
-              "href": "tel:+62315016906"
+              "href": "#"
             }
           ],
           "website": {

@@ -42,13 +42,13 @@
               "label": "Telephone",
               "value": "+1 242 322 5448",
               "iconName": "call",
-              "href": "tel:+12423225448"
+              "href": "#"
             },
             {
               "label": "Email",
               "value": "acole@sterling-bahamas.com",
               "iconName": "mail",
-              "href": "mailto:acole@sterling-bahamas.com"
+              "href": "#"
             },
             {
               "label": "Opening Hours",

@@ -42,13 +42,13 @@
               "label": "Telephone",
               "value": "+90 212 320 58 58",
               "iconName": "call",
-              "href": "tel:+902123205858"
+              "href": "#"
             },
             {
               "label": "Email",
               "value": "civan@karmadenetim.com.tr",
               "iconName": "mail",
-              "href": "mailto:civan@karmadenetim.com.tr"
+              "href": "#"
             },
             {
               "label": "Opening Hours",

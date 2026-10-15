@@ -15,13 +15,13 @@
     "buttons": [
       {
         "label": "Find a Member Firm",
-        "href": "#",
+        "href": "contact.html#contact-locations",
         "variant": "primary",
         "icon": true
       },
       {
         "label": "Join Parker Russell International",
-        "href": "#",
+        "href": "join.html",
         "variant": "secondary",
         "icon": true
       }
@@ -122,7 +122,7 @@
           "image": "/images/about-us/cap-cross-border.jpg",
           "icon": "/icons/icon-travel-explore.svg",
           "title": "Cross-border and international assignments",
-          "href": "#"
+          "href": "about-us.html"
         }
       ]
     },
@@ -211,16 +211,46 @@
     "imageAlt": "Professionals collaborating",
     "areasLabel": "This collaboration can become particularly valuable in areas such as:",
     "areas": [
-      { "number": "01", "title": "international taxation;" },
-      { "number": "02", "title": "audit and assurance;" },
-      { "number": "03", "title": "transfer pricing;" },
-      { "number": "04", "title": "cross-border transactions;" },
-      { "number": "05", "title": "business valuations;" },
-      { "number": "06", "title": "financial due diligence;" },
-      { "number": "07", "title": "corporate restructuring;" },
-      { "number": "08", "title": "international expansion;" },
-      { "number": "09", "title": "capital markets;" },
-      { "number": "10", "title": "specialist industry assignments." }
+      {
+        "number": "01",
+        "title": "international taxation;"
+      },
+      {
+        "number": "02",
+        "title": "audit and assurance;"
+      },
+      {
+        "number": "03",
+        "title": "transfer pricing;"
+      },
+      {
+        "number": "04",
+        "title": "cross-border transactions;"
+      },
+      {
+        "number": "05",
+        "title": "business valuations;"
+      },
+      {
+        "number": "06",
+        "title": "financial due diligence;"
+      },
+      {
+        "number": "07",
+        "title": "corporate restructuring;"
+      },
+      {
+        "number": "08",
+        "title": "international expansion;"
+      },
+      {
+        "number": "09",
+        "title": "capital markets;"
+      },
+      {
+        "number": "10",
+        "title": "specialist industry assignments."
+      }
     ],
     "conclusion": "When a client's requirements move beyond one jurisdiction, the network creates the connections required to bring the right professionals into the conversation."
   },
@@ -285,20 +315,90 @@
       "world": "/images/about-us/world-map.svg",
       "connections": "/images/about-us/map-connections.svg",
       "hubs": [
-        { "label": "London", "icon": "/icons/hub-primary.svg", "left": "48.75%", "top": "17.48%" },
-        { "label": "New York", "icon": "/icons/hub-secondary.svg", "left": "28.22%", "top": "25.29%" },
-        { "label": "Toronto", "icon": "/icons/hub-secondary.svg", "left": "26.72%", "top": "23.12%" },
-        { "label": "Mexico City", "icon": "/icons/hub-secondary.svg", "left": "21.25%", "top": "40.74%" },
-        { "label": "São Paulo", "icon": "/icons/hub-secondary.svg", "left": "35.84%", "top": "71.81%" },
-        { "label": "Frankfurt", "icon": "/icons/hub-secondary.svg", "left": "51.20%", "top": "18.49%" },
-        { "label": "Lagos", "icon": "/icons/hub-secondary.svg", "left": "49.73%", "top": "50.08%" },
-        { "label": "Johannesburg", "icon": "/icons/hub-secondary.svg", "left": "56.55%", "top": "73.78%" },
-        { "label": "Dubai", "icon": "/icons/hub-secondary.svg", "left": "64.14%", "top": "36.52%" },
-        { "label": "Mumbai", "icon": "/icons/hub-secondary.svg", "left": "69.00%", "top": "41.01%" },
-        { "label": "Singapore", "icon": "/icons/hub-secondary.svg", "left": "77.61%", "top": "53.82%" },
-        { "label": "Hong Kong", "icon": "/icons/hub-secondary.svg", "left": "80.50%", "top": "38.63%" },
-        { "label": "Tokyo", "icon": "/icons/hub-secondary.svg", "left": "87.58%", "top": "28.93%" },
-        { "label": "Sydney", "icon": "/icons/hub-secondary.svg", "left": "90.78%", "top": "79.36%" }
+        {
+          "label": "London",
+          "icon": "/icons/hub-primary.svg",
+          "left": "48.75%",
+          "top": "17.48%"
+        },
+        {
+          "label": "New York",
+          "icon": "/icons/hub-secondary.svg",
+          "left": "28.22%",
+          "top": "25.29%"
+        },
+        {
+          "label": "Toronto",
+          "icon": "/icons/hub-secondary.svg",
+          "left": "26.72%",
+          "top": "23.12%"
+        },
+        {
+          "label": "Mexico City",
+          "icon": "/icons/hub-secondary.svg",
+          "left": "21.25%",
+          "top": "40.74%"
+        },
+        {
+          "label": "São Paulo",
+          "icon": "/icons/hub-secondary.svg",
+          "left": "35.84%",
+          "top": "71.81%"
+        },
+        {
+          "label": "Frankfurt",
+          "icon": "/icons/hub-secondary.svg",
+          "left": "51.20%",
+          "top": "18.49%"
+        },
+        {
+          "label": "Lagos",
+          "icon": "/icons/hub-secondary.svg",
+          "left": "49.73%",
+          "top": "50.08%"
+        },
+        {
+          "label": "Johannesburg",
+          "icon": "/icons/hub-secondary.svg",
+          "left": "56.55%",
+          "top": "73.78%"
+        },
+        {
+          "label": "Dubai",
+          "icon": "/icons/hub-secondary.svg",
+          "left": "64.14%",
+          "top": "36.52%"
+        },
+        {
+          "label": "Mumbai",
+          "icon": "/icons/hub-secondary.svg",
+          "left": "69.00%",
+          "top": "41.01%"
+        },
+        {
+          "label": "Singapore",
+          "icon": "/icons/hub-secondary.svg",
+          "left": "77.61%",
+          "top": "53.82%"
+        },
+        {
+          "label": "Hong Kong",
+          "icon": "/icons/hub-secondary.svg",
+          "left": "80.50%",
+          "top": "38.63%"
+        },
+        {
+          "label": "Tokyo",
+          "icon": "/icons/hub-secondary.svg",
+          "left": "87.58%",
+          "top": "28.93%"
+        },
+        {
+          "label": "Sydney",
+          "icon": "/icons/hub-secondary.svg",
+          "left": "90.78%",
+          "top": "79.36%"
+        }
       ]
     },
     "stats": [
@@ -328,7 +428,7 @@
     "footerStatement": "Our international reach allows clients to access locally based professionals while benefiting from the wider knowledge and capabilities of the network.",
     "button": {
       "label": "Explore Our Member Firms",
-      "href": "#"
+      "href": "contact.html#contact-locations"
     }
   },
   "auReferral": {
@@ -405,13 +505,13 @@
     "buttons": [
       {
         "label": "Find a Member Firm",
-        "href": "#",
+        "href": "contact.html#contact-locations",
         "variant": "primary",
         "icon": true
       },
       {
         "label": "Join Parker Russell International",
-        "href": "#",
+        "href": "join.html",
         "variant": "secondary",
         "icon": true
       }

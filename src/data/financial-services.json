@@ -17,13 +17,13 @@
     "buttons": [
       {
         "label": "Speak to a Financial Services Adviser",
-        "href": "#",
+        "href": "contact.html",
         "variant": "primary",
         "icon": true
       },
       {
         "label": "Find a Member Firm",
-        "href": "#",
+        "href": "contact.html#contact-locations",
         "variant": "secondary",
         "icon": true
       }
@@ -52,7 +52,7 @@
     "className": "section-page-cards-content--muted section-page-cards-content--pressures",
     "ariaLabel": "Financial services challenges",
     "carouselLabel": "Financial challenges",
-    "eyebrow":"",
+    "eyebrow": "",
     "title": "The Challenges Behind Financial Confidence.",
     "description": "Financial services organisations operate in complex regulatory and commercial environments. Maintaining financial integrity requires effective controls, transparent reporting and a clear understanding of risks across the business.",
     "cards": [
@@ -213,8 +213,8 @@
         "title": "Audit & Assurance",
         "description": "Statutory audit, financial statement assurance, control reviews and relevant regulatory reporting engagements.",
         "link": {
-          "label": "",
-          "href": ""
+          "label": "Explore Assurance",
+          "href": "assurance.html"
         }
       },
       {
@@ -222,8 +222,8 @@
         "title": "Tax & International Tax",
         "description": "Corporate taxation, cross-border structuring, indirect tax and transaction-related tax considerations.",
         "link": {
-          "label": "",
-          "href": ""
+          "label": "Explore Tax & Legal",
+          "href": "tax-legal.html"
         }
       },
       {
@@ -231,8 +231,8 @@
         "title": "Accounting & Corporate Services",
         "description": "Financial reporting, management information, accounting support and corporate administration.",
         "link": {
-          "label": "",
-          "href": ""
+          "label": "Explore Corporate Services",
+          "href": "corporate-services.html"
         }
       },
       {
@@ -240,8 +240,8 @@
         "title": "Corporate Finance & Advisory",
         "description": "Financial due diligence, valuations, acquisitions, restructuring and transaction support.",
         "link": {
-          "label": "",
-          "href": ""
+          "label": "Explore Corporate Services",
+          "href": "corporate-services.html"
         }
       },
       {
@@ -249,8 +249,8 @@
         "title": "Transfer Pricing",
         "description": "Intercompany financing, related-party services, pricing policies and cross-border documentation.",
         "link": {
-          "label": "",
-          "href": ""
+          "label": "Explore Transfer Pricing",
+          "href": "transfer-pricing.html"
         }
       }
     ]
@@ -301,7 +301,7 @@
     "networkText": "Through Parker Russell International, independent member firms collaborate to provide locally informed expertise and support coordinated financial decision-making across international operations.",
     "button": {
       "label": "Find a Member Firm",
-      "href": "#"
+      "href": "contact.html#contact-locations"
     },
     "image": "/images/consumer-business/international.jpg",
     "imageAlt": "Global consumer business network",

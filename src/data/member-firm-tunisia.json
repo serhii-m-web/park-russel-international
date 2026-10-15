@@ -42,25 +42,25 @@
               "label": "Telephone",
               "value": "+216 71 947 048",
               "iconName": "call",
-              "href": "tel:+21671947048"
+              "href": "#"
             },
             {
               "label": "Additional Line",
               "value": "+216 71 947 058",
               "iconName": "call",
-              "href": "tel:+21671947058"
+              "href": "#"
             },
             {
               "label": "Mobile",
               "value": "+216 23 400 784",
               "icon": "/icons/icon-mobile.svg",
-              "href": "tel:+21623400784"
+              "href": "#"
             },
             {
               "label": "Email",
               "value": "walid.mlik@mca.com.tn",
               "iconName": "mail",
-              "href": "mailto:walid.mlik@mca.com.tn"
+              "href": "#"
             }
           ],
           "website": {

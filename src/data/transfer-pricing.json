@@ -16,13 +16,13 @@
     "buttons": [
       {
         "label": "Discuss Your Transfer Pricing Requirements",
-        "href": "#",
+        "href": "contact.html",
         "variant": "primary",
         "icon": true
       },
       {
         "label": "Find a Member Firm",
-        "href": "#",
+        "href": "contact.html#contact-locations",
         "variant": "secondary",
         "icon": true
       }
@@ -60,10 +60,22 @@
       "title": "That makes transfer pricing more than a documentation exercise.",
       "label": "It requires businesses to understand the relationship between:",
       "steps": [
-        { "number": "01", "text": "how the group operates;" },
-        { "number": "02", "text": "where value is created;" },
-        { "number": "03", "text": "how related entities transact;" },
-        { "number": "04", "text": "how profits are allocated;" },
+        {
+          "number": "01",
+          "text": "how the group operates;"
+        },
+        {
+          "number": "02",
+          "text": "where value is created;"
+        },
+        {
+          "number": "03",
+          "text": "how related entities transact;"
+        },
+        {
+          "number": "04",
+          "text": "how profits are allocated;"
+        },
         {
           "number": "05",
           "text": "and how that position can be supported.",
@@ -162,8 +174,14 @@
       }
     ],
     "principles": [
-      { "number": "01", "text": "Design the position correctly." },
-      { "number": "02", "text": "Document the reasoning clearly." },
+      {
+        "number": "01",
+        "text": "Design the position correctly."
+      },
+      {
+        "number": "02",
+        "text": "Document the reasoning clearly."
+      },
       {
         "number": "03",
         "text": "Be prepared to defend the result.",
@@ -180,7 +198,7 @@
     "title": "Expertise Across the Intercompany Relationship.",
     "button": {
       "label": "Explore Our Services",
-      "href": "#"
+      "href": "assurance.html"
     },
     "cards": [
       {
@@ -189,7 +207,10 @@
         "title": "Transfer Pricing Risk Assessment",
         "description": "Understanding where transfer pricing exposure exists across an international group.",
         "descriptionSecondary": "The assessment considers current or proposed intercompany arrangements, the jurisdictions involved and whether the wider transfer pricing system appropriately reflects the commercial and economic relationships within the business.",
-        "link": { "label": "Read More", "href": "#" }
+        "link": {
+          "label": "Read More",
+          "href": "insights.html"
+        }
       },
       {
         "image": "/images/transfer-pricing/expertise-2.jpg",
@@ -197,7 +218,10 @@
         "title": "Transfer Pricing Policy & Framework",
         "description": "A coherent transfer pricing framework provides a basis for how related-party transactions are approached across the organisation.",
         "descriptionSecondary": "The objective is to connect transfer pricing policy with the group's operating model rather than treating pricing as a separate tax exercise.",
-        "link": { "label": "Read More", "href": "#" }
+        "link": {
+          "label": "Read More",
+          "href": "insights.html"
+        }
       },
       {
         "image": "/images/transfer-pricing/expertise-3.jpg",
@@ -205,7 +229,10 @@
         "title": "Intercompany Transactions",
         "description": "Different transactions can create different transfer pricing considerations.",
         "descriptionSecondary": "Goods. Services. Financing. Intellectual property. Management and support arrangements.<br><br>Understanding the nature and economic purpose of each transaction is fundamental to determining an appropriate approach.",
-        "link": { "label": "Read More", "href": "#" }
+        "link": {
+          "label": "Read More",
+          "href": "insights.html"
+        }
       },
       {
         "image": "/images/transfer-pricing/expertise-4.jpg",
@@ -213,7 +240,10 @@
         "title": "Economic & Functional Analysis",
         "description": "Transfer pricing requires an understanding of what each entity actually contributes.",
         "descriptionSecondary": "Functions performed, assets used and risks assumed provide important context for assessing the economic relationship between related parties.",
-        "link": { "label": "Read More", "href": "#" }
+        "link": {
+          "label": "Read More",
+          "href": "insights.html"
+        }
       },
       {
         "image": "/images/transfer-pricing/expertise-5.jpg",
@@ -221,7 +251,10 @@
         "title": "Transfer Pricing Documentation",
         "description": "Clear documentation provides evidence of the basis on which a transfer pricing position has been established.",
         "descriptionSecondary": "For international groups, this also requires consideration of the requirements applicable within relevant jurisdictions.",
-        "link": { "label": "Read More", "href": "#" }
+        "link": {
+          "label": "Read More",
+          "href": "insights.html"
+        }
       },
       {
         "image": "/images/transfer-pricing/expertise-6.jpg",
@@ -229,7 +262,10 @@
         "title": "Transfer Pricing Review",
         "description": "Business models evolve.",
         "descriptionSecondary": "A transfer pricing approach established several years ago may no longer accurately reflect how the organisation operates today.<br><br>Periodic review can identify where changes in functions, transactions, markets or group structure have altered the transfer pricing position.",
-        "link": { "label": "Read More", "href": "#" }
+        "link": {
+          "label": "Read More",
+          "href": "insights.html"
+        }
       }
     ]
   },
@@ -303,7 +339,7 @@
     ],
     "button": {
       "label": "Explore Our Global Network",
-      "href": "#"
+      "href": "about-us.html"
     },
     "imageSecondary": "/images/transfer-pricing/challenge.jpg",
     "imageSecondaryAlt": "International collaboration on transfer pricing",
@@ -534,13 +570,13 @@
     "buttons": [
       {
         "label": "Discuss Your Transfer Pricing Requirements",
-        "href": "#",
+        "href": "contact.html",
         "variant": "primary",
         "icon": true
       },
       {
         "label": "Find a Member Firm",
-        "href": "#",
+        "href": "contact.html#contact-locations",
         "variant": "secondary",
         "icon": true
       }

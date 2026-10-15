@@ -16,7 +16,7 @@
       "date": "4th August 2025",
       "title": "Companies House Crackdown: Businesses Urged to Act on ECCTA Deadlines",
       "excerpt": "Research by Vistra shows fewer than one in three UK company directors feel ready for the upcoming Economic Crime and Corporate Transparency Act (ECCTA), with",
-      "href": "#",
+      "href": "news-article.html",
       "image": "/images/news-page/featured.jpg",
       "imageAlt": "Office meeting discussing regulatory deadlines"
     },
@@ -25,7 +25,7 @@
         "date": "25th June 2025",
         "title": "David M. Sullivan Appointed to Chair Financial Accounting Standards Advisory Council",
         "excerpt": "The Financial Accounting Foundation (FAF) Board of Trustees has appointed David M. Sullivan as Chair of the Financial Accounting Standards Advisory Council (FASAC), effective January",
-        "href": "#",
+        "href": "news-article.html",
         "image": "/images/news-page/article-1.jpg",
         "imageAlt": "Business professionals in a meeting"
       },
@@ -33,7 +33,7 @@
         "date": "18th June 2025",
         "title": "£4m Fine for Director in Client Money Breach",
         "excerpt": "A former law firm director Nural Miah has been hit with a multi million pound penalty after a regulatory investigation uncovered extensive misuse of client",
-        "href": "#",
+        "href": "news-article.html",
         "image": "/images/news-page/article-2.jpg",
         "imageAlt": "Gavel and scales of justice"
       },
@@ -41,7 +41,7 @@
         "date": "20th May 2025",
         "title": "The Next Generation of Investors Is Powering ESG's Revival",
         "excerpt": "ESG (Environmental, Social, and Governance) investing is experiencing renewed momentum among younger generations, despite mounting political resistance. Critics, particularly in states like Florida and Texas",
-        "href": "#",
+        "href": "news-article.html",
         "image": "/images/news-page/article-3.jpg",
         "imageAlt": "Hands holding a small plant"
       },
@@ -49,7 +49,7 @@
         "date": "12th May 2025",
         "title": "IAASB Publishes Comprehensive Implementation Guide for the ISA for LCE",
         "excerpt": "The International Auditing and Assurance Standards Board (IAASB) has published a comprehensive first-time implementation guide for the International Standard on Auditing for Less Complex Entities",
-        "href": "#",
+        "href": "news-article.html",
         "image": "/images/news-page/article-4.jpg",
         "imageAlt": "Team collaborating around a laptop"
       },
@@ -57,7 +57,7 @@
         "date": "2nd May 2025",
         "title": "Chancellor Outlines Strategy to Ensure Fair Competition for UK Businesses",
         "excerpt": "The government has announced prompt action by the Trade Remedies Authority, the organisation responsible for protecting the United Kingdom from unfair practices in international trade.",
-        "href": "#",
+        "href": "news-article.html",
         "image": "/images/news-page/article-5.jpg",
         "imageAlt": "UK Parliament building"
       }
@@ -88,10 +88,22 @@
       "follow": {
         "title": "Follow us",
         "links": [
-          { "label": "Twitter", "href": "#" },
-          { "label": "Facebook", "href": "#" },
-          { "label": "Linkedin", "href": "#" },
-          { "label": "Instagram", "href": "#" }
+          {
+            "label": "Twitter",
+            "href": "#"
+          },
+          {
+            "label": "Facebook",
+            "href": "#"
+          },
+          {
+            "label": "Linkedin",
+            "href": "#"
+          },
+          {
+            "label": "Instagram",
+            "href": "#"
+          }
         ]
       },
       "newsletter": {

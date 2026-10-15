@@ -41,13 +41,13 @@
               "label": "Telephone",
               "value": "+252 63 768 4922",
               "iconName": "call",
-              "href": "tel:+252637684922"
+              "href": "#"
             },
             {
               "label": "Email",
               "value": "hayatismail@parkerrussellsom.com",
               "iconName": "mail",
-              "href": "mailto:hayatismail@parkerrussellsom.com"
+              "href": "#"
             },
             {
               "label": "Opening Hours",
@@ -80,13 +80,13 @@
               "label": "Telephone",
               "value": "+252 63 768 4922",
               "iconName": "call",
-              "href": "tel:+252637684922"
+              "href": "#"
             },
             {
               "label": "Email",
               "value": "hayatismail@parkerrussellsom.com",
               "iconName": "mail",
-              "href": "mailto:hayatismail@parkerrussellsom.com"
+              "href": "#"
             }
           ],
           "website": {

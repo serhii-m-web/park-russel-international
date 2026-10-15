@@ -42,13 +42,13 @@
               "label": "Telephone",
               "value": "+51 1 255 7296",
               "iconName": "call",
-              "href": "tel:+5112557296"
+              "href": "#"
             },
             {
               "label": "Email",
               "value": "anavarro@parkerrussell.com.pe",
               "iconName": "mail",
-              "href": "mailto:anavarro@parkerrussell.com.pe"
+              "href": "#"
             },
             {
               "label": "Opening Hours",

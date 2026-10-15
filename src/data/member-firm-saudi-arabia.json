@@ -42,19 +42,19 @@
               "label": "Telephone",
               "value": "+966 12 663 1433",
               "iconName": "call",
-              "href": "tel:+966126631433"
+              "href": "#"
             },
             {
               "label": "Mobile",
               "value": "+966 56 096 0888",
               "icon": "/icons/icon-mobile.svg",
-              "href": "tel:+966560960888"
+              "href": "#"
             },
             {
               "label": "Email",
               "value": "info@parkerrussell-ksa.com",
               "iconName": "mail",
-              "href": "mailto:info@parkerrussell-ksa.com"
+              "href": "#"
             },
             {
               "label": "Opening Hours",
@@ -88,7 +88,7 @@
               "label": "Email",
               "value": "info@parkerrussell-ksa.com",
               "iconName": "mail",
-              "href": "mailto:info@parkerrussell-ksa.com"
+              "href": "#"
             }
           ],
           "website": {
@@ -117,7 +117,7 @@
               "label": "Email",
               "value": "info@parkerrussell-ksa.com",
               "iconName": "mail",
-              "href": "mailto:info@parkerrussell-ksa.com"
+              "href": "#"
             }
           ],
           "website": {

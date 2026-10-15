@@ -37,11 +37,26 @@
           "disabled": true,
           "selected": true
         },
-        { "value": "united-kingdom", "label": "United Kingdom" },
-        { "value": "united-states", "label": "United States" },
-        { "value": "canada", "label": "Canada" },
-        { "value": "australia", "label": "Australia" },
-        { "value": "other", "label": "Other" }
+        {
+          "value": "united-kingdom",
+          "label": "United Kingdom"
+        },
+        {
+          "value": "united-states",
+          "label": "United States"
+        },
+        {
+          "value": "canada",
+          "label": "Canada"
+        },
+        {
+          "value": "australia",
+          "label": "Australia"
+        },
+        {
+          "value": "other",
+          "label": "Other"
+        }
       ]
     },
     "independence": {
@@ -254,7 +269,7 @@
       },
       {
         "label": "Download Initial Application Form",
-        "href": "#",
+        "href": "join.html",
         "variant": "secondary",
         "downloadIcon": true
       }

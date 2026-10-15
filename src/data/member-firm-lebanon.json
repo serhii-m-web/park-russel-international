@@ -41,13 +41,13 @@
               "label": "Telephone",
               "value": "+961 3 956 252",
               "iconName": "call",
-              "href": "tel:+9613956252"
+              "href": "#"
             },
             {
               "label": "Email",
               "value": "info@parkerrussell-lb.com",
               "iconName": "mail",
-              "href": "mailto:info@parkerrussell-lb.com"
+              "href": "#"
             },
             {
               "label": "Opening Hours",

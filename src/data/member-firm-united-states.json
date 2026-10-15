@@ -42,19 +42,19 @@
               "label": "Telephone",
               "value": "+1 212 232 0122",
               "iconName": "call",
-              "href": "tel:+12122320122"
+              "href": "#"
             },
             {
               "label": "Email",
               "value": "charlesyi@yslcpa.com",
               "iconName": "mail",
-              "href": "mailto:charlesyi@yslcpa.com"
+              "href": "#"
             },
             {
               "label": "Email",
               "value": "susanli@yslcpa.com",
               "iconName": "mail",
-              "href": "mailto:susanli@yslcpa.com"
+              "href": "#"
             },
             {
               "label": "Opening Hours",
@@ -88,13 +88,13 @@
               "label": "Telephone / WhatsApp",
               "value": "+1 786 303 1578",
               "icon": "/icons/icon-mobile.svg",
-              "href": "tel:+17863031578"
+              "href": "#"
             },
             {
               "label": "Email",
               "value": "info@parkerrussellfl.com",
               "iconName": "mail",
-              "href": "mailto:info@parkerrussellfl.com"
+              "href": "#"
             },
             {
               "label": "Opening Hours",
