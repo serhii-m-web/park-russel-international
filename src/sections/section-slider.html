@@ -85,13 +85,15 @@
           <div class="swiper-wrapper">
             {{#each slider.slides}}
               <article class="swiper-slide section-slider__slide">
-                {{picture
-                  image
-                  alt=title
-                  class="section-slider__slide-img"
-                  width="500"
-                  height="500"
-                }}
+                {{#if image}}
+                  {{picture
+                    image
+                    alt=title
+                    class="section-slider__slide-img"
+                    width="500"
+                    height="500"
+                  }}
+                {{/if}}
 
                 {{#if icon}}
                   <div class="section-slider__slide-icon" aria-hidden="true">
