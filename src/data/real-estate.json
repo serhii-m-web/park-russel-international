@@ -24,7 +24,7 @@
       {
         "label": "Find a Member Firm",
         "href": "#",
-        "variant": "Secondary",
+        "variant": "secondary",
         "icon": true
       }
     ]
@@ -52,8 +52,9 @@
     "className": "section-page-cards-content--muted section-page-cards-content--pressures",
     "ariaLabel": "Financial challenges in real estate investment",
     "carouselLabel": "Financial challenges",
-    "eyebrow": "Real estate businesses operate in environments where capital, taxation, financing and asset performance are closely interconnected. Managing these complexities requires specialist expertise and a long-term financial perspective.",
+    "eyebrow": "",
     "title": "The Financial Challenges Behind Real Estate Investment.",
+    "description": "Real estate businesses operate in environments where capital, taxation, financing and asset performance are closely interconnected. Managing these complexities requires specialist expertise and a long-term financial perspective.",
     "cards": [
       {
         "icon": "/icons/icon-channel-cart.svg",

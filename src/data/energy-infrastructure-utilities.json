@@ -52,8 +52,9 @@
     "className": "section-page-cards-content--muted section-page-cards-content--pressures",
     "ariaLabel": "Financial challenges in energy, infrastructure and utilities",
     "carouselLabel": "Financial challenges",
-    "eyebrow": "Energy and infrastructure businesses operate in environments where investment decisions, regulatory obligations and financial performance are closely interconnected. Managing these complexities requires specialist expertise and a long-term perspective.",
+    "eyebrow": "",
     "title": "The Financial Challenges Behind Essential Infrastructure.",
+    "description": "Energy and infrastructure businesses operate in environments where investment decisions, regulatory obligations and financial performance are closely interconnected. Managing these complexities requires specialist expertise and a long-term perspective.",
     "cards": [
       {
         "icon": "/icons/icon-channel-cart.svg",
@@ -260,6 +261,7 @@
     "ariaLabel": "Investment lifecycle stages",
     "carouselLabel": "Investment lifecycle",
     "title": "From Initial Investment<span class=\"is-muted\"> to Long-Term Asset Performance.",
+    "description": "Financial priorities evolve throughout the investment lifecycle. Our member firms provide relevant professional expertise at each stage.",
     "cards": [
       {
         "icon": "/icons/icon-public.svg",

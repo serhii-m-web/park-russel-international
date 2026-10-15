@@ -18,13 +18,13 @@
       {
         "label": "Speak to a Public Sector Adviser",
         "href": "#",
-        "variant": "Primary",
+        "variant": "primary",
         "icon": true
       },
       {
         "label": "Find a Member Firm",
         "href": "#",
-        "variant": "Secondary",
+        "variant": "secondary",
         "icon": true
       }
     ]
@@ -52,7 +52,8 @@
     "className": "section-page-cards-content--muted section-page-cards-content--pressures",
     "ariaLabel": "Financial challenges in government and the public sector",
     "carouselLabel": "Financial challenges",
-    "eyebrow": "Public institutions operate in environments where financial decisions, governance and service outcomes are closely connected. Managing these responsibilities requires reliable information, effective controls and independent professional judgement.",
+    "eyebrow": "",
+    "description": "Public institutions operate in environments where financial decisions, governance and service outcomes are closely connected. Managing these responsibilities requires reliable information, effective controls and independent professional judgement.",
     "title": "The Financial Challenges Behind Public Responsibility.",
     "cards": [
       {
@@ -260,6 +261,7 @@
     "ariaLabel": "Public-sector programme lifecycle",
     "carouselLabel": "Programme lifecycle",
     "title": "From Strategic Planning<br><span class=\"is-muted\"> to Measurable Outcomes.</span>",
+    "description" : "Public-sector programmes and transformation initiatives require effective financial management throughout planning, implementation and ongoing review.",
     "cards": [
       {
         "icon": "/icons/icon-public.svg",

@@ -52,8 +52,9 @@
     "className": "section-page-cards-content--muted section-page-cards-content--pressures",
     "ariaLabel": "Financial services challenges",
     "carouselLabel": "Financial challenges",
-    "eyebrow": "Financial services organisations operate in complex regulatory and commercial environments. Maintaining financial integrity requires effective controls, transparent reporting and a clear understanding of risks across the business.",
+    "eyebrow":"",
     "title": "The Challenges Behind Financial Confidence.",
+    "description": "Financial services organisations operate in complex regulatory and commercial environments. Maintaining financial integrity requires effective controls, transparent reporting and a clear understanding of risks across the business.",
     "cards": [
       {
         "icon": "/icons/icon-channel-cart.svg",
@@ -260,6 +261,7 @@
     "ariaLabel": "Financial services business lifecycle",
     "carouselLabel": "Business lifecycle",
     "title": "From Market Entry to<span class=\"is-muted\"> International Expansion.</span>",
+    "description": "Financial priorities evolve as institutions establish operations, develop their capabilities and pursue new opportunities. Our member firms provide professional support aligned with each stage.",
     "cards": [
       {
         "icon": "/icons/icon-public.svg",
