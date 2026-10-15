@@ -6,20 +6,26 @@
   "fsHero": {
     "id": "fs-page-hero",
     "className": "",
-    "label": "",
+    "label": "FINANCIAL SERVICES",
     "labelPill": false,
-    "imageBg": "",
-    "imageLoading": "",
-    "title": "",
-    "description": "",
-    "note": "",
+    "imageBg": "/images/consumer-business/hero-bg.jpg",
+    "imageLoading": "eager",
+    "title": "Financial Confidence. Regulatory Complexity. International Expertise.",
+    "description": "Financial institutions operate where financial performance, regulatory scrutiny and stakeholder confidence are inseparable. Evolving regulations, sophisticated financial structures and technological change demand robust governance, reliable reporting and informed strategic decisions.",
+    "note": "Parker Russell International connects financial services businesses with independent member firms providing audit, tax, corporate finance and advisory expertise across international markets.",
     "aside": "",
     "buttons": [
       {
-        "label": "",
-        "href": "",
-        "variant": "",
-        "icon": false
+        "label": "Speak to a Financial Services Adviser",
+        "href": "#",
+        "variant": "primary",
+        "icon": true
+      },
+      {
+        "label": "Find a Member Firm",
+        "href": "#",
+        "variant": "secondary",
+        "icon": true
       }
     ]
   },
@@ -36,106 +42,222 @@
   },
   "fsOverview": {
     "id": "fs-overview",
-    "className": "",
-    "ariaLabel": "",
-    "image": "",
-    "imageAlt": "",
-    "text": "",
-    "body": "",
+    "className": "section-page-content-banner--muted",
+    "ariaLabel": "Financial services overview",
+    "image": "/images/consumer-business/overview.jpg",
+    "imageAlt": "Advisors consulting with a retail business owner",
+    "text": "<span>Financial Services Demands More Than Compliance.</span>",
+    "body": "Financial institutions must balance regulatory obligations with commercial performance, operational resilience and long-term growth.",
     "banner": {
-      "imageBg": "",
+      "imageBg": "/images/consumer-business/statement-bg.jpg",
       "leftColumn": {
-        "icon": ""
+        "icon": "/icons/financial-assurance.svg"
       },
       "rightColumn": {
-        "text": ""
+        "text": "<span class=\"is-muted\">From established banks and investment managers to fintech businesses and payment providers, organisations face increasingly interconnected challenges involving capital, governance, taxation, technology and financial reporting.</span><span>Effective financial oversight and strong internal controls are essential to maintaining stakeholder confidence and supporting sustainable development.</span>"
       }
     }
   },
   "fsPressures": {
     "id": "fs-pressures",
     "className": "",
-    "ariaLabel": "",
-    "carouselLabel": "",
-    "eyebrow": "",
-    "title": "",
+    "ariaLabel": "Financial services challenges",
+    "carouselLabel": "Financial challenges",
+    "eyebrow": "Financial services organisations operate in complex regulatory and commercial environments. Maintaining financial integrity requires effective controls, transparent reporting and a clear understanding of risks across the business.",
+    "title": "The Challenges Behind Financial Confidence.",
     "cards": [
       {
-        "icon": "",
-        "title": "",
-        "description": ""
+        "icon": "/icons/icon-channel-cart.svg",
+        "title": "Regulation & Governance",
+        "description": "Managing regulatory obligations, governance frameworks, accountability and compliance requirements."
+      },
+      {
+        "icon": "/icons/icon-pressure-percent.svg",
+        "title": "Audit & Financial Reporting",
+        "description": "Maintaining reliable financial information, appropriate accounting policies and independent assurance."
+      },
+      {
+        "icon": "/icons/icon-pressure-inventory.svg",
+        "title": "International Taxation",
+        "description": "Addressing corporate tax, cross-border transactions and reporting obligations across jurisdictions."
+      },
+      {
+        "icon": "/icons/icon-channel-storefront.svg",
+        "title": "Technology & Operational Risk",
+        "description": "Managing digital infrastructure, third-party dependencies, data risks and operational resilience."
+      },
+      {
+        "icon": "/icons/icon-pressure-shipping.svg",
+        "title": "Capital & Financial Controls",
+        "description": "Strengthening financial oversight, capital management, internal controls and risk monitoring."
+      },
+      {
+        "icon": "/icons/icon-public.svg",
+        "title": "Transactions & Growth",
+        "description": "Supporting investment, acquisitions, restructuring and expansion through financial analysis."
       }
     ]
   },
   "fsRevenue": {
     "id": "fs-revenue",
-    "ariaLabel": "",
-    "title": "",
-    "conclusion": "",
+    "ariaLabel": "Financial confidence beyond compliance",
+    "title": "Confidence Is Built Beyond Regulatory Compliance.",
+    "conclusion": "Strong financial institutions depend on systems, structures and decisions that support both regulatory responsibilities and commercial objectives.",
     "items": [
       {
-        "number": "",
-        "text": ""
+        "number": "01",
+        "text": "Regulation shapes business decisions. Governance, reporting obligations and regulatory requirements influence operational structures and strategic priorities."
+      },
+      {
+        "number": "02",
+        "text": "Financial transparency supports stakeholder confidence. Reliable reporting and effective controls strengthen accountability to boards, investors and regulators."
+      },
+      {
+        "number": "03",
+        "text": "International operations increase complexity. Cross-border taxation, group structures and intercompany arrangements require coordinated financial oversight."
+      },
+      {
+        "number": "04",
+        "text": "Technology introduces new financial and operational risks. Digital infrastructure and third-party dependencies require appropriate governance and control frameworks."
       }
     ]
   },
   "fsInventory": {
     "id": "fs-inventory",
-    "ariaLabel": "",
-    "title": "",
-    "lead": "",
+    "ariaLabel": "Financial integrity and internal controls",
+    "title": "Financial Integrity Depends on <br><span class=\"is-ice\">the Strength of Its Controls.</span>",
+    "lead": "Financial services businesses operate in environments where reporting accuracy, effective governance and operational accountability are fundamental.",
     "cards": [
       {
-        "text": ""
+        "text": "Financial Reporting & Assurance: Supporting accurate financial statements, appropriate accounting policies and independent assurance over financial information."
+      },
+      {
+        "text": "Governance & Internal Controls: Evaluating control frameworks, reporting processes and financial oversight to support effective accountability."
       }
     ],
-    "body": "",
-    "image": "",
-    "imageAlt": "",
-    "statement": ""
+    "body": "Weak controls, fragmented reporting or insufficient financial oversight can expose organisations to regulatory, financial and reputational consequences.",
+    "image": "/images/consumer-business/inventory.jpg",
+    "imageAlt": "Warehouse inventory and stock management",
+    "statement": "Strong financial foundations help organisations respond to scrutiny, manage complexity and maintain stakeholder confidence."
   },
   "fsChannels": {
     "id": "fs-channels",
     "className": "",
-    "ariaLabel": "",
-    "carouselLabel": "",
-    "title": "",
-    "lead": "",
+    "ariaLabel": "Financial services business models",
+    "carouselLabel": "Financial services sectors",
+    "title": "One Sector. Distinct Business Models. Different Requirements.",
+    "lead": "Financial services encompasses a broad range of institutions, each operating within different commercial, regulatory and financial structures.",
     "leadStrong": "",
     "cards": [
       {
-        "icon": "",
-        "title": "",
-        "description": ""
+        "icon": "/icons/icon-channel-storefront.svg",
+        "title": "Banking & Digital Banking",
+        "description": "Traditional and digital banking institutions managing capital, reporting, governance and operational risk."
+      },
+      {
+        "icon": "/icons/icon-channel-warehouse.svg",
+        "title": "Asset & Investment Management",
+        "description": "Asset managers, investment firms and fund managers requiring financial transparency, assurance and tax expertise."
+      },
+      {
+        "icon": "/icons/icon-channel-cart.svg",
+        "title": "Payments & Fintech",
+        "description": "Payment providers, e-money institutions and fintech businesses navigating financial controls, taxation and regulatory complexity."
+      },
+      {
+        "icon": "/icons/icon-channel-devices.svg",
+        "title": "Trading & Digital Assets",
+        "description": "FX, trading and digital-asset businesses operating across evolving markets and complex financial structures."
       }
     ],
-    "conclusion": ""
+    "conclusion": "Different financial models create distinct obligations — but all depend on reliable reporting, effective governance and professional judgement."
   },
   "fsQuestions": {
     "id": "fs-questions",
-    "ariaLabel": "",
-    "image": "",
-    "title": "",
+    "ariaLabel": "Questions financial services businesses are asking",
+    "image": "/images/consumer-business/earth-sphere.svg",
+    "title": "The Questions Financial Services Businesses Are Asking.",
     "items": [
       {
-        "number": "",
-        "question": "",
-        "answer": ""
+        "number": "01",
+        "question": "Are our financial controls sufficiently robust?",
+        "answer": "Governance, internal controls, reporting processes and operational accountability."
+      },
+      {
+        "number": "02",
+        "question": "Does our reporting meet stakeholder expectations?",
+        "answer": "Accounting policies, financial statements, assurance and applicable reporting obligations."
+      },
+      {
+        "number": "03",
+        "question": "Is our international structure appropriate?",
+        "answer": "Corporate entities, cross-border taxation, intercompany arrangements and local requirements."
+      },
+      {
+        "number": "04",
+        "question": "Are we managing regulatory and operational risks effectively?",
+        "answer": "Governance frameworks, regulatory obligations, technology risks and control arrangements."
+      },
+      {
+        "number": "05",
+        "question": "Are we prepared for investment or acquisition?",
+        "answer": "Financial due diligence, valuations, tax exposure and transaction readiness."
+      },
+      {
+        "number": "06",
+        "question": "Can our financial infrastructure support growth?",
+        "answer": "Management reporting, capital requirements, scalable controls and international coordination."
       }
     ]
   },
   "fsServices": {
     "id": "fs-services",
-    "ariaLabel": "",
-    "title": "",
-    "subtitle": "",
-    "image": "",
-    "imageAlt": "",
+    "ariaLabel": "Professional services for financial institutions",
+    "title": "Expertise Across the Financial Services Landscape.",
+    "subtitle": "Our independent member firms bring together audit, taxation, accounting and financial advisory expertise to support financial institutions operating within demanding regulatory and commercial environments.",
+    "image": "/images/consumer-business/services-team.jpg",
+    "imageAlt": "Advisory team meeting with a consumer business client",
     "items": [
       {
-        "icon": "",
-        "title": "",
-        "description": "",
+        "icon": "/icons/icon-verified-user.svg",
+        "title": "Audit & Assurance",
+        "description": "Statutory audit, financial statement assurance, control reviews and relevant regulatory reporting engagements.",
+        "link": {
+          "label": "",
+          "href": ""
+        }
+      },
+      {
+        "icon": "/icons/icon-gavel.svg",
+        "title": "Tax & International Tax",
+        "description": "Corporate taxation, cross-border structuring, indirect tax and transaction-related tax considerations.",
+        "link": {
+          "label": "",
+          "href": ""
+        }
+      },
+      {
+        "icon": "/icons/icon-monitoring.svg",
+        "title": "Accounting & Corporate Services",
+        "description": "Financial reporting, management information, accounting support and corporate administration.",
+        "link": {
+          "label": "",
+          "href": ""
+        }
+      },
+      {
+        "icon": "/icons/icon-handshake.svg",
+        "title": "Corporate Finance & Advisory",
+        "description": "Financial due diligence, valuations, acquisitions, restructuring and transaction support.",
+        "link": {
+          "label": "",
+          "href": ""
+        }
+      },
+      {
+        "icon": "/icons/icon-swap-horiz.svg",
+        "title": "Transfer Pricing",
+        "description": "Intercompany financing, related-party services, pricing policies and cross-border documentation.",
         "link": {
           "label": "",
           "href": ""
@@ -146,51 +268,91 @@
   "fsMoments": {
     "id": "fs-moments",
     "className": "",
-    "ariaLabel": "",
-    "carouselLabel": "",
-    "title": "",
+    "ariaLabel": "Financial services business lifecycle",
+    "carouselLabel": "Business lifecycle",
+    "title": "From Market Entry to<span class=\"is-muted\"> International Expansion.</span>",
     "cards": [
       {
-        "icon": "",
-        "description": ""
+        "icon": "/icons/icon-public.svg",
+        "description": "<strong>Establishment</strong><br>Corporate structures, accounting processes, financial controls and initial reporting requirements."
+      },
+      {
+        "icon": "/icons/icon-moment-sell.svg",
+        "description": "<strong>Growth</strong><br>Management reporting, governance, tax compliance and operational financial oversight."
+      },
+      {
+        "icon": "/icons/icon-moment-rocket.svg",
+        "description": "<strong>Expansion</strong><br>International taxation, group structures, transfer pricing and cross-border reporting."
+      },
+      {
+        "icon": "/icons/icon-handshake.svg",
+        "description": "<strong>Investment</strong><br>Financial due diligence, valuations, transaction preparation and investor reporting."
+      },
+      {
+        "icon": "/icons/icon-trending-up.svg",
+        "description": "<strong>Restructuring</strong><br>Corporate reorganisations, acquisitions, disposals and strategic financial transactions."
       }
     ],
-    "conclusion": ""
+    "conclusion": "At every stage, effective financial structures and informed professional advice support sound decisions and long-term confidence."
   },
   "fsInternational": {
     "id": "fs-international",
-    "ariaLabel": "",
-    "eyebrow": "",
-    "title": "",
-    "lead": "",
-    "bullets": [],
-    "networkText": "",
+    "ariaLabel": "International financial services expertise",
+    "eyebrow": "INTERNATIONAL REACH",
+    "title": "Financial Markets Are Global. Obligations Remain Local.",
+    "lead": "Financial services businesses increasingly operate across jurisdictions, while taxation, financial reporting and regulatory frameworks remain specific to individual markets.",
+    "bullets": [
+      "Understanding financial reporting and tax obligations across markets.",
+      "Supporting international corporate and group structures.",
+      "Addressing transfer pricing and cross-border financial arrangements.",
+      "Providing assurance and transaction expertise across jurisdictions."
+    ],
+    "networkText": "Through Parker Russell International, independent member firms collaborate to provide locally informed expertise and support coordinated financial decision-making across international operations.",
     "button": {
-      "label": "",
-      "href": ""
+      "label": "Find a Member Firm",
+      "href": "#"
     },
-    "image": "",
-    "imageAlt": "",
-    "overlayText": "",
+    "image": "/images/consumer-business/international.jpg",
+    "imageAlt": "Global consumer business network",
+    "overlayText": "International collaboration helps organisations consider local requirements within the wider financial and commercial structure of their business.",
     "stats": [
-      {
-        "number": "",
-        "label": ""
-      }
+      { "number": "86", "label": "Countries" },
+      { "number": "184", "label": "Offices" },
+      { "number": "2,000", "suffix": "+", "label": "Professionals" }
     ]
   },
   "fsSegments": {
     "id": "fs-segments",
     "className": "",
-    "ariaLabel": "",
-    "carouselLabel": "",
-    "title": "",
-    "lead": "",
+    "ariaLabel": "Critical financial priorities for financial institutions",
+    "carouselLabel": "Financial priorities",
+    "title": "Different Institutions. Critical Financial Priorities.",
+    "lead": "The financial, regulatory and commercial characteristics of each institution influence the professional expertise required.",
     "cards": [
       {
-        "icon": "",
-        "title": "",
-        "description": ""
+        "icon": "/icons/icon-segment-bag.svg",
+        "title": "Audit & Assurance",
+        "description": "Independent assurance, financial statements and stakeholder reporting requirements."
+      },
+      {
+        "icon": "/icons/icon-channel-storefront.svg",
+        "title": "Tax & Structuring",
+        "description": "Corporate taxation, international operations and cross-border financial arrangements."
+      },
+      {
+        "icon": "/icons/icon-channel-devices.svg",
+        "title": "Financial Controls",
+        "description": "Governance, accounting processes, risk oversight and reporting reliability."
+      },
+      {
+        "icon": "/icons/icon-channel-warehouse.svg",
+        "title": "Regulatory Reporting",
+        "description": "Financial information, reporting obligations and relevant assurance requirements."
+      },
+      {
+        "icon": "/icons/icon-hub.svg",
+        "title": "Investment & Transactions",
+        "description": "Financial due diligence, valuations, acquisitions and restructuring support."
       }
     ]
   },

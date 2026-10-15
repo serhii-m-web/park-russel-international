@@ -72,9 +72,11 @@
             {{/if}}
           </div>
         {{else if cardsContent.description}}
-          <p class="section-page-cards-content__description">
-            {{{ cardsContent.description }}}
-          </p>
+          <div class="section-page-cards-content__intro">
+            <p class="section-page-cards-content__description">
+              {{{ cardsContent.description }}}
+            </p>
+          </div>
         {{/if}}
       </div>
     {{else}}

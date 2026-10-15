@@ -6,20 +6,26 @@
   "gpsHero": {
     "id": "gps-page-hero",
     "className": "",
-    "label": "",
+    "label": "GOVERNMENT & PUBLIC SECTOR",
     "labelPill": false,
-    "imageBg": "",
-    "imageLoading": "",
-    "title": "",
-    "description": "",
-    "note": "",
+    "imageBg": "/images/consumer-business/hero-bg.jpg",
+    "imageLoading": "eager",
+    "title": "Public Accountability. Financial Integrity. Lasting Value",
+    "description": "Public-sector organisations manage essential services, significant financial resources and responsibilities that extend beyond commercial performance. Increasing financial pressures, evolving governance requirements and complex delivery models demand transparency, sound financial management and effective oversight.",
+    "note": "Parker Russell International connects public institutions and organisations working with government to independent member firms providing audit, assurance, financial advisory and specialist professional expertise across international markets.",
     "aside": "",
     "buttons": [
       {
-        "label": "",
-        "href": "",
-        "variant": "",
-        "icon": false
+        "label": "Speak to a Public Sector Adviser",
+        "href": "#",
+        "variant": "Primary",
+        "icon": true
+      },
+      {
+        "label": "Find a Member Firm",
+        "href": "#",
+        "variant": "Secondary",
+        "icon": true
       }
     ]
   },
@@ -37,105 +43,221 @@
   "gpsOverview": {
     "id": "gps-overview",
     "className": "",
-    "ariaLabel": "",
-    "image": "",
-    "imageAlt": "",
-    "text": "",
-    "body": "",
+    "ariaLabel": "Consumer business overview",
+    "image": "/images/consumer-business/overview.jpg",
+    "imageAlt": "Advisors consulting with a retail business owner",
+    "text": "<span>Accountability Sits at the Centre of Every Decision.</span>",
+    "body": "Public-sector organisations must demonstrate that financial resources are managed responsibly while delivering essential services and responding to changing demands.",
     "banner": {
-      "imageBg": "",
+      "imageBg": "/images/consumer-business/statement-bg.jpg",
       "leftColumn": {
-        "icon": ""
+        "icon": "/icons/financial-assurance.svg"
       },
       "rightColumn": {
-        "text": ""
+        "text": "<span class=\"is-muted\">From government departments and public authorities to infrastructure programmes and government-owned enterprises, effective decision-making depends on transparent reporting, appropriate governance and reliable financial controls.<span>Strong public financial management provides the foundation for institutional accountability, sustainable service delivery and confidence in the use of public resources.</span>"
       }
     }
   },
   "gpsPressures": {
     "id": "gps-pressures",
     "className": "",
-    "ariaLabel": "",
-    "carouselLabel": "",
-    "eyebrow": "",
-    "title": "",
+    "ariaLabel": "Financial challenges in government and the public sector",
+    "carouselLabel": "Financial challenges",
+    "eyebrow": "Public institutions operate in environments where financial decisions, governance and service outcomes are closely connected. Managing these responsibilities requires reliable information, effective controls and independent professional judgement.",
+    "title": "The Financial Challenges Behind Public Responsibility.",
     "cards": [
       {
-        "icon": "",
-        "title": "",
-        "description": ""
+        "icon": "/icons/icon-channel-cart.svg",
+        "title": "Financial Accountability",
+        "description": "Maintaining transparent reporting, responsible expenditure and effective oversight of public resources."
+      },
+      {
+        "icon": "/icons/icon-pressure-percent.svg",
+        "title": "Governance & Risk",
+        "description": "Establishing clear accountability, appropriate internal controls and robust risk management frameworks."
+      },
+      {
+        "icon": "/icons/icon-pressure-inventory.svg",
+        "title": "Funding & Sustainability",
+        "description": "Managing budget constraints, funding commitments and long-term financial pressures."
+      },
+      {
+        "icon": "/icons/icon-channel-storefront.svg",
+        "title": "Procurement & Contracts",
+        "description": "Strengthening financial oversight of procurement arrangements, contracts and external delivery partners."
+      },
+      {
+        "icon": "/icons/icon-pressure-shipping.svg",
+        "title": "Public-Sector Transformation",
+        "description": "Managing financial implications of digitalisation, organisational change and evolving service models."
+      },
+      {
+        "icon": "/icons/icon-public.svg",
+        "title": "Programme Performance",
+        "description": "Evaluating expenditure, financial objectives and delivery risks across major public initiatives."
       }
     ]
   },
   "gpsRevenue": {
     "id": "gps-revenue",
-    "ariaLabel": "",
-    "title": "",
-    "conclusion": "",
+    "ariaLabel": "Financial discipline and public value",
+    "title": "Public Value Depends on Financial Discipline.",
+    "conclusion": "Effective public financial management extends beyond meeting reporting requirements. It requires organisations to understand how financial decisions influence service delivery, accountability and long-term sustainability.",
     "items": [
       {
-        "number": "",
-        "text": ""
+        "number": "01",
+        "text": "Transparency strengthens public confidence. Reliable financial reporting enables governments, stakeholders and oversight bodies to assess the responsible use of resources."
+      },
+      {
+        "number": "02",
+        "text": "Financial controls protect public funds. Appropriate governance and oversight help identify risk, prevent weaknesses and strengthen accountability."
+      },
+      {
+        "number": "03",
+        "text": "Funding decisions shape service sustainability. Budget planning, forecasting and expenditure analysis support informed resource allocation."
+      },
+      {
+        "number": "04",
+        "text": "Transformation requires financial oversight. New delivery models, technology and organisational change demand clear objectives, financial controls and performance monitoring."
       }
     ]
   },
   "gpsInventory": {
     "id": "gps-inventory",
-    "ariaLabel": "",
-    "title": "",
-    "lead": "",
+    "ariaLabel": "Public funding and financial accountability",
+    "title": "Public Funding Carries<br><span class=\"is-ice\"> Responsibility Beyond Expenditure.</span>",
+    "lead": "Public-sector organisations must demonstrate not only how resources are allocated, but whether financial commitments are sustainable and expenditure supports agreed institutional objectives.",
     "cards": [
       {
-        "text": ""
+        "text": "Budgeting & Financial Planning: Developing budgets, forecasts and financial models that support responsible resource allocation and long-term sustainability."
+      },
+      {
+        "text": "Financial Oversight & Accountability: Reviewing expenditure, reporting processes and financial controls to strengthen transparency and informed decision-making."
       }
     ],
-    "body": "",
-    "image": "",
-    "imageAlt": "",
-    "statement": ""
+    "body": "Constrained budgets, growing service demands and complex funding arrangements place increasing importance on reliable financial planning.",
+    "image": "/images/consumer-business/inventory.jpg",
+    "imageAlt": "Warehouse inventory and stock management",
+    "statement": "Effective financial management helps public institutions maintain accountability while responding to operational pressures and changing priorities."
   },
   "gpsChannels": {
     "id": "gps-channels",
     "className": "",
-    "ariaLabel": "",
-    "carouselLabel": "",
-    "title": "",
-    "lead": "",
-    "leadStrong": "",
+    "ariaLabel": "Government and public-sector organisations",
+    "carouselLabel": "Public-sector organisations",
+    "title": "Different Institutions. Shared Public Responsibilities.",
+    "lead": "The public sector encompasses diverse organisational structures, funding arrangements and statutory responsibilities.",
+    "leadStrong": "Each requires financial management and governance appropriate to its operating environment.",
     "cards": [
       {
-        "icon": "",
-        "title": "",
-        "description": ""
+        "icon": "/icons/icon-channel-storefront.svg",
+        "title": "Government & Public Authorities",
+        "description": "Central and local government bodies, departments and agencies responsible for public funds and institutional accountability."
+      },
+      {
+        "icon": "/icons/icon-channel-warehouse.svg",
+        "title": "Public Institutions & Enterprises",
+        "description": "Government-owned businesses and public institutions balancing financial performance with wider public responsibilities."
+      },
+      {
+        "icon": "/icons/icon-channel-cart.svg",
+        "title": "Public Infrastructure",
+        "description": "Development bodies and public investment programmes managing long-term assets, project finance and major expenditure."
+      },
+      {
+        "icon": "/icons/icon-channel-devices.svg",
+        "title": "Public-Private Partnerships",
+        "description": "Government and private-sector arrangements involving shared investment, contractual responsibilities and complex governance."
       }
     ],
-    "conclusion": ""
+    "conclusion": "Different institutional structures require tailored financial approaches — supported by consistent principles of transparency, accountability and professional integrity."
   },
   "gpsQuestions": {
     "id": "gps-questions",
-    "ariaLabel": "",
-    "image": "",
-    "title": "",
+    "ariaLabel": "Questions behind responsible public financial management",
+    "image": "/images/consumer-business/earth-sphere.svg",
+    "title": "The Questions Behind Responsible Public Financial Management.",
     "items": [
       {
-        "number": "",
-        "question": "",
-        "answer": ""
+        "number": "01",
+        "question": "Are public funds being managed responsibly?",
+        "answer": "Expenditure controls, financial reporting, accountability and effective resource allocation."
+      },
+      {
+        "number": "02",
+        "question": "Are our governance structures sufficiently robust?",
+        "answer": "Decision-making responsibilities, internal controls, oversight and risk management."
+      },
+      {
+        "number": "03",
+        "question": "Can our funding support long-term commitments?",
+        "answer": "Budget forecasts, financial sustainability, expenditure pressures and funding arrangements."
+      },
+      {
+        "number": "04",
+        "question": "Are major programmes financially controlled?",
+        "answer": "Project expenditure, delivery risks, financial objectives and performance monitoring."
+      },
+      {
+        "number": "05",
+        "question": "Are our procurement arrangements appropriate?",
+        "answer": "Contractual obligations, financial governance, procurement controls and third-party accountability."
+      },
+      {
+        "number": "06",
+        "question": "Can our financial systems support transformation?",
+        "answer": "Reporting capacity, organisational change, financial controls and programme oversight."
       }
     ]
   },
   "gpsServices": {
     "id": "gps-services",
-    "ariaLabel": "",
-    "title": "",
-    "subtitle": "",
-    "image": "",
-    "imageAlt": "",
+    "ariaLabel": "Professional services for government and public-sector organisations",
+    "title": "Expertise Supporting Public Financial Responsibility.",
+    "subtitle": "Our independent member firms bring together audit, financial advisory, accounting and specialist expertise to support public institutions, complex programmes and organisations operating alongside government.",
+    "image": "/images/consumer-business/services-team.jpg",
+    "imageAlt": "Advisory team meeting with a consumer business client",
     "items": [
       {
-        "icon": "",
-        "title": "",
-        "description": "",
+        "icon": "/icons/icon-verified-user.svg",
+        "title": "Audit & Assurance",
+        "description": "Financial statement audits, independent assurance, financial reporting reviews and programme-related assurance.",
+        "link": {
+          "label": "",
+          "href": ""
+        }
+      },
+      {
+        "icon": "/icons/icon-gavel.svg",
+        "title": "Financial Advisory",
+        "description": "Financial modelling, project evaluation, due diligence, valuations and investment analysis.",
+        "link": {
+          "label": "",
+          "href": ""
+        }
+      },
+      {
+        "icon": "/icons/icon-monitoring.svg",
+        "title": "Accounting & Financial Reporting",
+        "description": "Management information, budgeting, forecasting, financial statements and finance-function support.",
+        "link": {
+          "label": "",
+          "href": ""
+        }
+      },
+      {
+        "icon": "/icons/icon-handshake.svg",
+        "title": "Governance & Financial Controls",
+        "description": "Internal control reviews, governance assessments, risk management and financial oversight.",
+        "link": {
+          "label": "",
+          "href": ""
+        }
+      },
+      {
+        "icon": "/icons/icon-swap-horiz.svg",
+        "title": "Tax & Structuring",
+        "description": "Taxation and structuring considerations for government-owned entities, commercial activities and public-private arrangements.",
         "link": {
           "label": "",
           "href": ""
@@ -146,51 +268,91 @@
   "gpsMoments": {
     "id": "gps-moments",
     "className": "",
-    "ariaLabel": "",
-    "carouselLabel": "",
-    "title": "",
+    "ariaLabel": "Public-sector programme lifecycle",
+    "carouselLabel": "Programme lifecycle",
+    "title": "From Strategic Planning<br><span class=\"is-muted\"> to Measurable Outcomes.</span>",
     "cards": [
       {
-        "icon": "",
-        "description": ""
+        "icon": "/icons/icon-public.svg",
+        "description": "<strong>Assessment</strong><br>Financial position, existing controls, institutional risks and programme requirements."
+      },
+      {
+        "icon": "/icons/icon-moment-sell.svg",
+        "description": "<strong>Planning</strong><br>Budget development, financial modelling, resource allocation and funding analysis."
+      },
+      {
+        "icon": "/icons/icon-moment-rocket.svg",
+        "description": "<strong>Structuring</strong><br>Governance arrangements, delivery models, financial frameworks and accountability."
+      },
+      {
+        "icon": "/icons/icon-handshake.svg",
+        "description": "<strong>Implementation</strong><br>Expenditure monitoring, financial reporting, operational controls and programme oversight."
+      },
+      {
+        "icon": "/icons/icon-trending-up.svg",
+        "description": "<strong>Assurance</strong><br>Independent reviews, financial assessments, governance evaluation and performance reporting."
       }
     ],
-    "conclusion": ""
+    "conclusion": "At every stage, reliable financial information and appropriate oversight support accountability and more effective public-sector decision-making."
   },
   "gpsInternational": {
     "id": "gps-international",
-    "ariaLabel": "",
-    "eyebrow": "",
-    "title": "",
-    "lead": "",
-    "bullets": [],
-    "networkText": "",
+    "ariaLabel": "International government and public-sector expertise",
+    "eyebrow": "INTERNATIONAL REACH",
+    "title": "Public Responsibilities Are Local. Financial Challenges Can Be International.",
+    "lead": "Government structures, financial reporting frameworks and public accountability requirements differ substantially across jurisdictions.",
+    "bullets": [
+      "Supporting internationally funded public programmes and initiatives.",
+      "Providing financial expertise for cross-border infrastructure investment.",
+      "Addressing reporting, governance and institutional requirements across jurisdictions.",
+      "Supporting public-private partnerships and multinational government-owned enterprises."
+    ],
+    "networkText": "Through Parker Russell International, independent member firms combine locally informed professional expertise with international collaboration where programmes, funding arrangements or operations extend beyond national borders.",
     "button": {
-      "label": "",
-      "href": ""
+      "label": "Find a Member Firm",
+      "href": "#"
     },
-    "image": "",
-    "imageAlt": "",
-    "overlayText": "",
+    "image": "/images/consumer-business/international.jpg",
+    "imageAlt": "Global consumer business network",
+    "overlayText": "International collaboration helps organisations address local institutional requirements <span class=\"is-ice\">while maintaining financial oversight of wider programmes and investments.</span>",
     "stats": [
-      {
-        "number": "",
-        "label": ""
-      }
+      { "number": "86", "label": "Countries" },
+      { "number": "184", "label": "Offices" },
+      { "number": "2,000", "suffix": "+", "label": "Professionals" }
     ]
   },
   "gpsSegments": {
     "id": "gps-segments",
     "className": "",
-    "ariaLabel": "",
-    "carouselLabel": "",
-    "title": "",
-    "lead": "",
+    "ariaLabel": "Critical financial priorities in the public sector",
+    "carouselLabel": "Financial priorities",
+    "title": "Public Responsibilities. Critical Financial Priorities.",
+    "lead": "The financial and institutional obligations of public-sector organisations create distinct areas requiring specialist oversight and professional expertise.",
     "cards": [
       {
-        "icon": "",
-        "title": "",
-        "description": ""
+        "icon": "/icons/icon-segment-bag.svg",
+        "title": "Audit & Assurance",
+        "description": "Independent assurance, financial statements and accountability to public stakeholders."
+      },
+      {
+        "icon": "/icons/icon-channel-storefront.svg",
+        "title": "Financial Governance",
+        "description": "Internal controls, risk management, institutional oversight and decision-making frameworks."
+      },
+      {
+        "icon": "/icons/icon-channel-devices.svg",
+        "title": "Funding & Budgets",
+        "description": "Financial planning, forecasting, expenditure analysis and long-term sustainability."
+      },
+      {
+        "icon": "/icons/icon-channel-warehouse.svg",
+        "title": "Programme Oversight",
+        "description": "Financial assessment, project controls, procurement and major programme assurance."
+      },
+      {
+        "icon": "/icons/icon-hub.svg",
+        "title": "Public Investment",
+        "description": "Financial modelling, due diligence, valuations and investment-related advisory."
       }
     ]
   },

@@ -6,20 +6,26 @@
   "reHero": {
     "id": "re-page-hero",
     "className": "",
-    "label": "",
+    "label": "REAL ESTATE",
     "labelPill": false,
-    "imageBg": "",
-    "imageLoading": "",
-    "title": "",
-    "description": "",
-    "note": "",
+    "imageBg": "/images/consumer-business/hero-bg.jpg",
+    "imageLoading": "eager",
+    "title": "Real Assets. Strategic Investment. Long-Term Value.",
+    "description": "Real estate investment brings together substantial capital commitments, complex financing structures and long-term financial considerations. Changing market conditions, property-specific taxation and evolving investment requirements demand reliable reporting, informed financial planning and sound strategic decisions.",
+    "note": "Parker Russell International connects property investors, developers and real estate businesses with independent member firms providing audit, tax, corporate finance and advisory expertise across international markets.",
     "aside": "",
     "buttons": [
       {
-        "label": "",
-        "href": "",
-        "variant": "",
-        "icon": false
+        "label": "Speak to a Real Estate Adviser",
+        "href": "#",
+        "variant": "primary",
+        "icon": true
+      },
+      {
+        "label": "Find a Member Firm",
+        "href": "#",
+        "variant": "Secondary",
+        "icon": true
       }
     ]
   },
@@ -37,105 +43,221 @@
   "reOverview": {
     "id": "re-overview",
     "className": "",
-    "ariaLabel": "",
-    "image": "",
-    "imageAlt": "",
-    "text": "",
-    "body": "",
+    "ariaLabel": "Real estate investment overview",
+    "image": "/images/consumer-business/overview.jpg",
+    "imageAlt": "Advisors consulting with a retail business owner",
+    "text": "<span>Property Decisions Are Financial Decisions.</span>",
+    "body": "Successful real estate investment depends on more than the quality or location of an asset. Ownership structures, financing arrangements, taxation and cash-flow management can materially influence long-term returns.",
     "banner": {
-      "imageBg": "",
+      "imageBg": "/images/consumer-business/statement-bg.jpg",
       "leftColumn": {
-        "icon": ""
+        "icon": "/icons/financial-assurance.svg"
       },
       "rightColumn": {
-        "text": ""
+        "text": "<span class=\"is-muted\">From property acquisition and development to portfolio management, refinancing and disposal, investors must evaluate financial risks and opportunities throughout the investment lifecycle.</span><span>Reliable financial information and appropriate investment structures provide the foundation for protecting asset value and making informed decisions.</span>"
       }
     }
   },
   "rePressures": {
     "id": "re-pressures",
-    "className": "",
-    "ariaLabel": "",
-    "carouselLabel": "",
-    "eyebrow": "",
-    "title": "",
+    "className": "section-page-cards-content--muted section-page-cards-content--pressures",
+    "ariaLabel": "Financial challenges in real estate investment",
+    "carouselLabel": "Financial challenges",
+    "eyebrow": "Real estate businesses operate in environments where capital, taxation, financing and asset performance are closely interconnected. Managing these complexities requires specialist expertise and a long-term financial perspective.",
+    "title": "The Financial Challenges Behind Real Estate Investment.",
     "cards": [
       {
-        "icon": "",
-        "title": "",
-        "description": ""
+        "icon": "/icons/icon-channel-cart.svg",
+        "title": "Financing & Interest Costs",
+        "description": "Managing acquisition finance, debt commitments, refinancing exposure and borrowing costs."
+      },
+      {
+        "icon": "/icons/icon-pressure-percent.svg",
+        "title": "Property Taxation",
+        "description": "Addressing property taxes, corporate taxation, capital gains and transaction-related obligations."
+      },
+      {
+        "icon": "/icons/icon-pressure-inventory.svg",
+        "title": "Asset Valuation & Reporting",
+        "description": "Maintaining reliable property valuations, financial statements and investment reporting."
+      },
+      {
+        "icon": "/icons/icon-channel-storefront.svg",
+        "title": "Development & Cost Control",
+        "description": "Monitoring construction expenditure, project budgets, financing and development profitability."
+      },
+      {
+        "icon": "/icons/icon-pressure-shipping.svg",
+        "title": "Ownership & Governance",
+        "description": "Structuring property companies, investment vehicles, SPVs and multi-investor arrangements."
+      },
+      {
+        "icon": "/icons/icon-public.svg",
+        "title": "Investment & Transactions",
+        "description": "Supporting acquisitions, financial due diligence, restructuring, disposals and exit planning."
       }
     ]
   },
   "reRevenue": {
     "id": "re-revenue",
-    "ariaLabel": "",
-    "title": "",
-    "conclusion": "",
+    "ariaLabel": "Real estate investment performance",
+    "title": "Investment Performance Goes Beyond Property Value.",
+    "conclusion": "The financial success of a property investment is shaped by decisions made throughout acquisition, ownership, development and disposal.",
     "items": [
       {
-        "number": "",
-        "text": ""
+        "number": "01",
+        "text": "Financing influences investment returns. Interest costs, repayment obligations and refinancing conditions can significantly affect profitability and liquidity."
+      },
+      {
+        "number": "02",
+        "text": "Ownership structures create tax consequences. The structure of an investment influences taxation, financing, distributions and eventual disposal."
+      },
+      {
+        "number": "03",
+        "text": "Asset values require informed financial judgement. Valuations, market assumptions and financial reporting affect investment decisions and stakeholder confidence."
+      },
+      {
+        "number": "04",
+        "text": "Development requires disciplined financial control. Construction costs, project timing and financing commitments influence the ultimate economic performance of an asset."
       }
     ]
   },
   "reInventory": {
     "id": "re-inventory",
-    "ariaLabel": "",
-    "title": "",
-    "lead": "",
+    "ariaLabel": "Property value and financial decisions",
+    "title": "Property Is a Tangible Asset.<br><span class=\"is-ice\"> Its Value Depends on Financial Decisions.</span>",
+    "lead": "Real estate investments often involve substantial capital commitments, long holding periods and financing obligations that extend across changing market conditions.",
     "cards": [
       {
-        "text": ""
+        "text": "Financing & Investment Analysis: Assessing funding arrangements, debt capacity, financial models and projected returns before and during investment."
+      },
+      {
+        "text": "Cash Flow & Asset Performance: Monitoring rental income, operating costs, capital expenditure and financing commitments throughout ownership."
       }
     ],
-    "body": "",
-    "image": "",
-    "imageAlt": "",
-    "statement": ""
+    "body": "Interest rates, occupancy, operating expenditure and refinancing requirements can materially affect both cash flow and investment returns.",
+    "image": "/images/consumer-business/inventory.jpg",
+    "imageAlt": "Warehouse inventory and stock management",
+    "statement": "Reliable financial analysis helps investors understand the performance of an asset beyond its market valuation."
   },
   "reChannels": {
     "id": "re-channels",
-    "className": "",
-    "ariaLabel": "",
-    "carouselLabel": "",
-    "title": "",
-    "lead": "",
-    "leadStrong": "",
+    "className": "section-page-cards-content--channels",
+    "ariaLabel": "Real estate investment models",
+    "carouselLabel": "Property assets",
+    "title": "Different Property Assets. Different Financial Priorities.",
+    "lead": "Real estate encompasses diverse investment models, ownership structures and operational requirements.",
+    "leadStrong": "Each creates distinct financial, tax and reporting considerations.",
     "cards": [
       {
-        "icon": "",
-        "title": "",
-        "description": ""
+        "icon": "/icons/icon-channel-storefront.svg",
+        "title": "Commercial Real Estate",
+        "description": "Office, retail, industrial and logistics properties with complex lease, financing and investment requirements."
+      },
+      {
+        "icon": "/icons/icon-channel-warehouse.svg",
+        "title": "Residential & Build-to-Rent",
+        "description": "Residential portfolios and developments requiring financial planning, tax analysis and ongoing reporting."
+      },
+      {
+        "icon": "/icons/icon-channel-cart.svg",
+        "title": "Property Development",
+        "description": "Land acquisition, construction and development projects involving significant capital and financial risk."
+      },
+      {
+        "icon": "/icons/icon-channel-devices.svg",
+        "title": "Property Funds & Investments",
+        "description": "Investment vehicles, property funds and SPVs managing assets, investors and multi-jurisdiction structures."
       }
     ],
-    "conclusion": ""
+    "conclusion": "Different property investment models require tailored financial approaches — supported by reliable reporting, appropriate structures and sound professional judgement."
   },
   "reQuestions": {
     "id": "re-questions",
-    "ariaLabel": "",
-    "image": "",
-    "title": "",
+    "ariaLabel": "Questions real estate investors are asking",
+    "image": "/images/consumer-business/earth-sphere.svg",
+    "title": "The Questions Real Estate Investors Are Asking.",
     "items": [
       {
-        "number": "",
-        "question": "",
-        "answer": ""
+        "number": "01",
+        "question": "Is this property investment financially viable?",
+        "answer": "Acquisition costs, projected returns, financing, taxation and investment assumptions."
+      },
+      {
+        "number": "02",
+        "question": "How should the investment be structured?",
+        "answer": "Ownership entities, SPVs, financing arrangements and tax consequences."
+      },
+      {
+        "number": "03",
+        "question": "Can our financing support long-term ownership?",
+        "answer": "Interest costs, debt capacity, cash flow, covenants and refinancing exposure."
+      },
+      {
+        "number": "04",
+        "question": "Are our properties valued and reported appropriately?",
+        "answer": "Asset valuations, accounting policies, financial statements and investor reporting."
+      },
+      {
+        "number": "05",
+        "question": "Are development costs financially controlled?",
+        "answer": "Construction budgets, project expenditure, funding requirements and financial forecasts."
+      },
+      {
+        "number": "06",
+        "question": "Are we prepared for refinancing or disposal?",
+        "answer": "Financial due diligence, valuation, tax exposure and transaction structuring."
       }
     ]
   },
   "reServices": {
     "id": "re-services",
-    "ariaLabel": "",
-    "title": "",
-    "subtitle": "",
-    "image": "",
-    "imageAlt": "",
+    "ariaLabel": "Professional services for real estate investment",
+    "title": "Expertise Across the Real Estate Investment Lifecycle.",
+    "subtitle": "Our independent member firms bring together audit, taxation, corporate services and financial advisory expertise to support property investors, developers and asset owners throughout the investment lifecycle.",
+    "image": "/images/consumer-business/services-team.jpg",
+    "imageAlt": "Advisory team meeting with a consumer business client",
     "items": [
       {
-        "icon": "",
-        "title": "",
-        "description": "",
+        "icon": "/icons/icon-verified-user.svg",
+        "title": "Audit & Assurance",
+        "description": "Statutory audit, financial statement assurance, group reporting and investor-related reporting requirements.",
+        "link": {
+          "label": "",
+          "href": ""
+        }
+      },
+      {
+        "icon": "/icons/icon-gavel.svg",
+        "title": "Tax & International Tax",
+        "description": "Property taxation, corporate tax, acquisition and disposal tax, cross-border investment structures.",
+        "link": {
+          "label": "",
+          "href": ""
+        }
+      },
+      {
+        "icon": "/icons/icon-monitoring.svg",
+        "title": "Accounting & Financial Reporting",
+        "description": "Property accounting, management reporting, budgeting, forecasting and cash-flow analysis.",
+        "link": {
+          "label": "",
+          "href": ""
+        }
+      },
+      {
+        "icon": "/icons/icon-handshake.svg",
+        "title": "Corporate Finance & Advisory",
+        "description": "Financial due diligence, valuations, financial modelling, refinancing and transaction support.",
+        "link": {
+          "label": "",
+          "href": ""
+        }
+      },
+      {
+        "icon": "/icons/icon-swap-horiz.svg",
+        "title": "Corporate Services & Structuring",
+        "description": "SPV establishment, investment structures, corporate administration and entity reporting requirements.",
         "link": {
           "label": "",
           "href": ""
@@ -145,52 +267,93 @@
   },
   "reMoments": {
     "id": "re-moments",
-    "className": "",
-    "ariaLabel": "",
-    "carouselLabel": "",
-    "title": "",
+    "className": "section-page-cards-content--moments",
+    "ariaLabel": "Real estate investment lifecycle",
+    "carouselLabel": "Investment lifecycle",
+    "title": "From Acquisition<span class=\"is-muted\"> to Long-Term Investment Value.</span>",
+    "description": "Financial priorities evolve throughout the property lifecycle. Our member firms provide professional expertise aligned with each stage of investment.",
     "cards": [
       {
-        "icon": "",
-        "description": ""
+        "icon": "/icons/icon-public.svg",
+        "description": "<strong>Acquisition</strong><br>Financial due diligence, tax analysis, investment modelling and ownership structuring."
+      },
+      {
+        "icon": "/icons/icon-moment-sell.svg",
+        "description": "<strong>Development</strong><br>Project accounting, construction cost control, budgeting and financial forecasting."
+      },
+      {
+        "icon": "/icons/icon-moment-rocket.svg",
+        "description": "<strong>Ownership</strong><br>Asset reporting, tax compliance, rental income analysis and cash-flow management."
+      },
+      {
+        "icon": "/icons/icon-handshake.svg",
+        "description": "<strong>Refinancing</strong><br>Debt restructuring, financial modelling, valuations and financing considerations."
+      },
+      {
+        "icon": "/icons/icon-trending-up.svg",
+        "description": "<strong>Disposal</strong><br>Transaction preparation, financial due diligence, tax planning and exit analysis."
       }
     ],
-    "conclusion": ""
+    "conclusion": "At every stage, informed financial decisions and appropriate structures help protect property value and support long-term investment performance."
   },
   "reInternational": {
     "id": "re-international",
-    "ariaLabel": "",
-    "eyebrow": "",
-    "title": "",
-    "lead": "",
-    "bullets": [],
-    "networkText": "",
+    "ariaLabel": "International real estate expertise",
+    "eyebrow": "INTERNATIONAL REACH",
+    "title": "Property Is Local. Investment Capital Is International.",
+    "lead": "Real estate assets are located within individual markets, but ownership, financing and investment structures increasingly extend across multiple jurisdictions.",
+    "bullets": [
+      "Understanding property taxation and reporting obligations across markets.",
+      "Supporting international ownership and investment structures.",
+      "Addressing cross-border financing and related-party arrangements.",
+      "Providing assurance and transaction expertise across jurisdictions."
+    ],
+    "networkText": "Through Parker Russell International, independent member firms collaborate to provide locally informed expertise and support coordinated financial management across international property investments.",
     "button": {
-      "label": "",
-      "href": ""
+      "label": "Find a Member Firm",
+      "href": "#"
     },
-    "image": "",
-    "imageAlt": "",
-    "overlayText": "",
+    "image": "/images/consumer-business/international.jpg",
+    "imageAlt": "Global consumer business network",
+    "overlayText": "International collaboration helps investors understand how local property obligations affect the wider<span class=\"is-ice\"> financial and commercial structure of their investments.</span>",
     "stats": [
-      {
-        "number": "",
-        "label": ""
-      }
+      { "number": "86", "label": "Countries" },
+      { "number": "184", "label": "Offices" },
+      { "number": "2,000", "suffix": "+", "label": "Professionals" }
     ]
   },
   "reSegments": {
     "id": "re-segments",
-    "className": "",
-    "ariaLabel": "",
-    "carouselLabel": "",
-    "title": "",
-    "lead": "",
+    "className": "section-page-cards-content--segments",
+    "ariaLabel": "Critical investment priorities",
+    "carouselLabel": "Investment priorities",
+    "title": "Different Assets. Critical Investment Priorities.",
+    "lead": "The financial characteristics of real estate investments create distinct requirements for ownership, financing, financial reporting and professional oversight.",
     "cards": [
       {
-        "icon": "",
-        "title": "",
-        "description": ""
+        "icon": "/icons/icon-segment-bag.svg",
+        "title": "Financing & Capital",
+        "description": "Acquisition finance, refinancing, debt commitments and investment modelling."
+      },
+      {
+        "icon": "/icons/icon-channel-storefront.svg",
+        "title": "Property Taxation",
+        "description": "Ownership structures, transaction taxes, capital gains and international taxation."
+      },
+      {
+        "icon": "/icons/icon-channel-devices.svg",
+        "title": "Asset Reporting",
+        "description": "Property valuations, financial statements and investor reporting requirements."
+      },
+      {
+        "icon": "/icons/icon-channel-warehouse.svg",
+        "title": "Development Control",
+        "description": "Construction expenditure, project budgets, cost monitoring and financial forecasts."
+      },
+      {
+        "icon": "/icons/icon-hub.svg",
+        "title": "Investment & Transactions",
+        "description": "Financial due diligence, acquisitions, restructuring, valuations and disposals."
       }
     ]
   },

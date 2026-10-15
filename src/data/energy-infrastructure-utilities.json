@@ -6,20 +6,26 @@
   "eiuHero": {
     "id": "eiu-page-hero",
     "className": "",
-    "label": "",
+    "label": "ENERGY, INFRASTRUCTURE & UTILITIES",
     "labelPill": false,
-    "imageBg": "",
-    "imageLoading": "",
-    "title": "",
-    "description": "",
-    "note": "",
+    "imageBg": "/images/consumer-business/hero-bg.jpg",
+    "imageLoading": "eager",
+    "title": "Essential Infrastructure. Complex Investment. Long-Term Value.",
+    "description": "Energy, infrastructure and utilities underpin economic development and global commerce. Their capital-intensive operations, long investment horizons and complex regulatory environments demand rigorous financial management, sound governance and informed strategic decisions.",
+    "note": "Parker Russell International connects businesses, developers and investors with independent member firms providing audit, tax, corporate finance and advisory expertise across international markets.",
     "aside": "",
     "buttons": [
       {
-        "label": "",
-        "href": "",
-        "variant": "",
-        "icon": false
+        "label": "Speak to an Adviser Secondary",
+        "href": "#",
+        "variant": "primaly",
+        "icon": true
+      },
+      {
+        "label": "Find a Member Firm",
+        "href": "#",
+        "variant": "secondary",
+        "icon": true
       }
     ]
   },
@@ -36,106 +42,222 @@
   },
   "eiuOverview": {
     "id": "eiu-overview",
-    "className": "",
-    "ariaLabel": "",
-    "image": "",
-    "imageAlt": "",
-    "text": "",
-    "body": "",
+    "className": "section-page-content-banner--muted",
+    "ariaLabel": "Energy, infrastructure and utilities overview",
+    "image": "/images/consumer-business/overview.jpg",
+    "imageAlt": "Advisors consulting with a retail business owner",
+    "text": "<span>Long-Term Assets Require Long-Term Financial Thinking</span>",
+    "body": "Major energy and infrastructure investments involve substantial capital commitments, complex financing arrangements and financial obligations extending across decades.",
     "banner": {
-      "imageBg": "",
+      "imageBg": "/images/consumer-business/statement-bg.jpg",
       "leftColumn": {
-        "icon": ""
+        "icon": "/icons/financial-assurance.svg"
       },
       "rightColumn": {
-        "text": ""
+        "text": "<span class=\"is-muted\">From project development and international investment to operational performance and strategic transactions, organisations must balance commercial objectives with taxation, financial reporting, regulatory requirements and stakeholder expectations.</span><span>Sound financial structures and reliable information are fundamental to protecting investment value throughout the asset lifecycle.</span>"
       }
     }
   },
   "eiuPressures": {
     "id": "eiu-pressures",
     "className": "",
-    "ariaLabel": "",
-    "carouselLabel": "",
-    "eyebrow": "",
-    "title": "",
+    "ariaLabel": "Financial challenges in energy, infrastructure and utilities",
+    "carouselLabel": "Financial challenges",
+    "eyebrow": "Energy and infrastructure businesses operate in environments where investment decisions, regulatory obligations and financial performance are closely interconnected. Managing these complexities requires specialist expertise and a long-term perspective.",
+    "title": "The Financial Challenges Behind Essential Infrastructure.",
     "cards": [
       {
-        "icon": "",
-        "title": "",
-        "description": ""
+        "icon": "/icons/icon-channel-cart.svg",
+        "title": "Capital Investment & Financing",
+        "description": "Evaluating funding structures, project economics, financial commitments and long-term investment returns."
+      },
+      {
+        "icon": "/icons/icon-pressure-percent.svg",
+        "title": "International Taxation",
+        "description": "Managing corporate taxation, withholding taxes and cross-border obligations across multiple jurisdictions."
+      },
+      {
+        "icon": "/icons/icon-pressure-inventory.svg",
+        "title": "Financial Reporting & Valuation",
+        "description": "Addressing asset valuations, impairment, capitalisation and complex reporting requirements."
+      },
+      {
+        "icon": "/icons/icon-channel-storefront.svg",
+        "title": "Joint Ventures & Ownership",
+        "description": "Structuring consortiums, special-purpose entities and arrangements involving multiple stakeholders."
+      },
+      {
+        "icon": "/icons/icon-pressure-shipping.svg",
+        "title": "Governance & Financial Controls",
+        "description": "Strengthening oversight, risk management, internal controls and financial accountability."
+      },
+      {
+        "icon": "/icons/icon-public.svg",
+        "title": "Project Cash Flow",
+        "description": "Managing capital expenditure, operational costs, financing commitments and long-term liquidity."
       }
     ]
   },
   "eiuRevenue": {
     "id": "eiu-revenue",
-    "ariaLabel": "",
-    "title": "",
-    "conclusion": "",
+    "ariaLabel": "Investment decisions and long-term financial implications",
+    "title": "Investment Decisions Extend Far Beyond the Initial Commitment.",
+    "conclusion": "In capital-intensive sectors, financial outcomes are determined by decisions made throughout the investment and operational lifecycle. Effective planning requires a clear understanding of their long-term implications.",
     "items": [
       {
-        "number": "",
-        "text": ""
+        "number": "01",
+        "text": "Financing decisions influence future flexibility. Debt structures, repayment obligations and funding arrangements directly affect cash flow and financial resilience."
+      },
+      {
+        "number": "02",
+        "text": "International operations introduce additional obligations. Taxation, transfer pricing and reporting requirements can vary significantly across jurisdictions."
+      },
+      {
+        "number": "03",
+        "text": "Asset values depend on long-term assumptions. Impairment assessments, provisions and valuations require careful consideration of future economic conditions."
+      },
+      {
+        "number": "04",
+        "text": "Governance protects investment interests. Clear reporting, financial controls and accountability are essential where multiple stakeholders are involved."
       }
     ]
   },
   "eiuInventory": {
     "id": "eiu-inventory",
-    "ariaLabel": "",
-    "title": "",
-    "lead": "",
+    "ariaLabel": "Capital investment and financial oversight",
+    "title": "Capital Is Committed Today.<br><span class=\"is-ice\"> Returns May Take Decades.</span>",
+    "lead": "Energy and infrastructure projects frequently require substantial investment before generating predictable operating cash flows.",
     "cards": [
       {
-        "text": ""
+        "text": "Investment & Financial Modelling: Assessing projected returns, funding requirements, commercial assumptions and financial risks before significant capital is committed."
+      },
+      {
+        "text": "Financial Oversight & Forecasting: Monitoring expenditure, liquidity, financing obligations and financial performance throughout the investment lifecycle."
       }
     ],
-    "body": "",
-    "image": "",
-    "imageAlt": "",
-    "statement": ""
+    "body": "Financing costs, construction expenditure, contractual commitments and changing market conditions can materially influence project performance.",
+    "image": "/images/consumer-business/inventory.jpg",
+    "imageAlt": "Warehouse inventory and stock management",
+    "statement": "Reliable analysis supports more informed decisions and stronger financial discipline across long-term projects."
   },
   "eiuChannels": {
     "id": "eiu-channels",
     "className": "",
-    "ariaLabel": "",
-    "carouselLabel": "",
-    "title": "",
-    "lead": "",
-    "leadStrong": "",
+    "ariaLabel": "Energy, infrastructure and utilities sectors",
+    "carouselLabel": "Sectors",
+    "title": "Different Sectors. Distinct Financial Requirements.",
+    "lead": "Energy, infrastructure and utilities encompass diverse operating models, investment structures and regulatory environments.",
+    "leadStrong": "Each creates specific financial, tax and reporting considerations.",
     "cards": [
       {
-        "icon": "",
-        "title": "",
-        "description": ""
+        "icon": "/icons/icon-channel-storefront.svg",
+        "title": "Oil, Gas & Natural Resources",
+        "description": "Capital-intensive exploration, production and extraction activities involving complex assets, taxation and international operations."
+      },
+      {
+        "icon": "/icons/icon-channel-warehouse.svg",
+        "title": "Power & Energy",
+        "description": "Electricity generation, energy trading and related operations requiring robust financial reporting and risk management."
+      },
+      {
+        "icon": "/icons/icon-channel-cart.svg",
+        "title": "Utilities",
+        "description": "Water, electricity and essential service operators managing regulated assets, infrastructure investment and long-term operating commitments."
+      },
+      {
+        "icon": "/icons/icon-channel-devices.svg",
+        "title": "Infrastructure & Development",
+        "description": "Developers, contractors and investors involved in major projects, project finance, construction and infrastructure operations."
       }
     ],
-    "conclusion": ""
+    "conclusion": "Different operating environments require different financial approaches — supported by consistent standards of quality, transparency and professional judgement."
   },
   "eiuQuestions": {
     "id": "eiu-questions",
-    "ariaLabel": "",
-    "image": "",
-    "title": "",
+    "ariaLabel": "Questions behind major investment decisions",
+    "image": "/images/consumer-business/earth-sphere.svg",
+    "title": "The Questions Behind Major Investment Decisions.",
     "items": [
       {
-        "number": "",
-        "question": "",
-        "answer": ""
+        "number": "01",
+        "question": "Is the investment financially viable?",
+        "answer": "Financial modelling, projected returns, funding requirements and long-term risks."
+      },
+      {
+        "number": "02",
+        "question": "How should the project be structured?",
+        "answer": "Ownership, financing, corporate entities, joint ventures and governance arrangements."
+      },
+      {
+        "number": "03",
+        "question": "What are our international tax obligations?",
+        "answer": "Corporate taxation, withholding tax, transfer pricing and cross-border transactions."
+      },
+      {
+        "number": "04",
+        "question": "Are our assets reported accurately?",
+        "answer": "Capitalisation, impairment, provisions, valuations and applicable accounting standards."
+      },
+      {
+        "number": "05",
+        "question": "Can our financing support long-term operations?",
+        "answer": "Debt commitments, cash-flow forecasting, liquidity and capital expenditure requirements."
+      },
+      {
+        "number": "06",
+        "question": "Are we prepared for investment or a transaction?",
+        "answer": "Financial reporting, due diligence, asset valuations and stakeholder requirements."
       }
     ]
   },
   "eiuServices": {
     "id": "eiu-services",
-    "ariaLabel": "",
-    "title": "",
-    "subtitle": "",
-    "image": "",
-    "imageAlt": "",
+    "ariaLabel": "Professional services for energy, infrastructure and utilities",
+    "title": "Expertise Across the Financial Lifecycle of Essential Assets.",
+    "subtitle": "Our independent member firms bring together audit, tax, accounting and financial advisory expertise to support organisations managing significant assets, complex investments and international operations.",
+    "image": "/images/consumer-business/services-team.jpg",
+    "imageAlt": "Advisory team meeting with a consumer business client",
     "items": [
       {
-        "icon": "",
-        "title": "",
-        "description": "",
+        "icon": "/icons/icon-verified-user.svg",
+        "title": "Audit & Assurance",
+        "description": "Statutory audit, financial statement assurance, financial controls and governance-related assurance.",
+        "link": {
+          "label": "",
+          "href": ""
+        }
+      },
+      {
+        "icon": "/icons/icon-gavel.svg",
+        "title": "Tax & International Tax",
+        "description": "Corporate taxation, indirect tax, cross-border structuring, financing considerations and compliance.",
+        "link": {
+          "label": "",
+          "href": ""
+        }
+      },
+      {
+        "icon": "/icons/icon-monitoring.svg",
+        "title": "Accounting & Financial Reporting",
+        "description": "Project accounting, management reporting, budgeting, forecasting and group financial statements.",
+        "link": {
+          "label": "",
+          "href": ""
+        }
+      },
+      {
+        "icon": "/icons/icon-handshake.svg",
+        "title": "Corporate Finance & Advisory",
+        "description": "Financial modelling, due diligence, valuations, acquisitions, restructuring and transaction support.",
+        "link": {
+          "label": "",
+          "href": ""
+        }
+      },
+      {
+        "icon": "/icons/icon-swap-horiz.svg",
+        "title": "Transfer Pricing",
+        "description": "Intercompany financing, related-party arrangements, cross-border services and transfer pricing documentation.",
         "link": {
           "label": "",
           "href": ""
@@ -146,51 +268,91 @@
   "eiuMoments": {
     "id": "eiu-moments",
     "className": "",
-    "ariaLabel": "",
-    "carouselLabel": "",
-    "title": "",
+    "ariaLabel": "Investment lifecycle stages",
+    "carouselLabel": "Investment lifecycle",
+    "title": "From Initial Investment<span class=\"is-muted\"> to Long-Term Asset Performance.",
     "cards": [
       {
-        "icon": "",
-        "description": ""
+        "icon": "/icons/icon-public.svg",
+        "description": "<strong>Feasibility</strong><br>Financial modelling, tax analysis, investment assessment and projected returns."
+      },
+      {
+        "icon": "/icons/icon-moment-sell.svg",
+        "description": "<strong>Structuring</strong><br>Ownership arrangements, project finance, corporate structures and tax considerations."
+      },
+      {
+        "icon": "/icons/icon-moment-rocket.svg",
+        "description": "<strong>Development</strong><br>Project accounting, expenditure monitoring, financial controls and compliance."
+      },
+      {
+        "icon": "/icons/icon-handshake.svg",
+        "description": "<strong>Operations</strong><br>Management reporting, asset valuations, cash-flow planning and governance."
+      },
+      {
+        "icon": "/icons/icon-trending-up.svg",
+        "description": "<strong>Transactions</strong><br>Due diligence, acquisitions, refinancing, restructuring and disposals."
       }
     ],
-    "conclusion": ""
+    "conclusion": "From feasibility to mature operations, sound financial decisions help protect asset value and support long-term performance."
   },
   "eiuInternational": {
     "id": "eiu-international",
-    "ariaLabel": "",
-    "eyebrow": "",
-    "title": "",
-    "lead": "",
-    "bullets": [],
-    "networkText": "",
+    "ariaLabel": "International energy and infrastructure expertise",
+    "eyebrow": "INTERNATIONAL REACH",
+    "title": "Major Projects Cross Borders. Financial Obligations Follow.",
+    "lead": "Energy and infrastructure investments frequently involve international ownership, funding, contractors, operating entities and supply chains.",
+    "bullets": [
+      "Assessing international tax and investment structures.",
+      "Supporting cross-border financing and intercompany arrangements.",
+      "Addressing local financial reporting and compliance requirements.",
+      "Providing assurance, valuation and transaction expertise across markets."
+    ],
+    "networkText": "Through Parker Russell International, independent member firms collaborate across jurisdictions to provide locally informed professional expertise and support coordinated financial decision-making.",
     "button": {
-      "label": "",
-      "href": ""
+      "label": "Find a Member Firm",
+      "href": "#"
     },
-    "image": "",
-    "imageAlt": "",
-    "overlayText": "",
+    "image": "/images/consumer-business/international.jpg",
+    "imageAlt": "Global consumer business network",
+    "overlayText": "International coordination helps organisations understand how individual<span class=\"is-ice\"> jurisdictional requirements affect the wider investment and operating structure.</span>",
     "stats": [
-      {
-        "number": "",
-        "label": ""
-      }
+      { "number": "86", "label": "Countries" },
+      { "number": "184", "label": "Offices" },
+      { "number": "2,000", "suffix": "+", "label": "Professionals" }
     ]
   },
   "eiuSegments": {
     "id": "eiu-segments",
     "className": "",
-    "ariaLabel": "",
-    "carouselLabel": "",
-    "title": "",
-    "lead": "",
+    "ariaLabel": "Critical financial priorities",
+    "carouselLabel": "Financial priorities",
+    "title": "Complex Assets. Critical Financial Priorities.",
+    "lead": "The scale, ownership and operating requirements of major energy and infrastructure assets create distinct areas of financial responsibility.",
     "cards": [
       {
-        "icon": "",
-        "title": "",
-        "description": ""
+        "icon": "/icons/icon-segment-bag.svg",
+        "title": "Project Finance",
+        "description": "Funding structures, financial modelling and long-term capital commitments."
+      },
+      {
+        "icon": "/icons/icon-channel-storefront.svg",
+        "title": "International Tax",
+        "description": "Cross-border taxation, investment structures and related-party transactions."
+      },
+      {
+        "icon": "/icons/icon-channel-devices.svg",
+        "title": "Asset Reporting",
+        "description": "Valuations, impairment assessments and financial reporting requirements."
+      },
+      {
+        "icon": "/icons/icon-channel-warehouse.svg",
+        "title": "Risk & Governance",
+        "description": "Financial controls, stakeholder accountability and effective oversight."
+      },
+      {
+        "icon": "/icons/icon-hub.svg",
+        "title": "Investment & Transactions",
+        "description": "Financial due diligence, valuations, acquisitions and restructuring."
       }
     ]
   },

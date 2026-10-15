@@ -410,6 +410,12 @@
       }
     }
 
+    .section-page-cards-content__description {
+      width: 100%;
+      max-width: none;
+      color: $color-text-muted;
+    }
+
     .section-page-cards-content__cards {
       grid-template-columns: repeat(5, minmax(0, 1fr));
       gap: 16px;
@@ -601,7 +607,7 @@
       background: $color-red !important;
     }
   }
-
+
 
   &.fa-insight {
     background-color: $color-bg-muted;

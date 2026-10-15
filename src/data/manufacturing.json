@@ -6,20 +6,26 @@
   "mfgHero": {
     "id": "mfg-page-hero",
     "className": "",
-    "label": "",
+    "label": "MANUFACTURING",
     "labelPill": false,
-    "imageBg": "",
-    "imageLoading": "",
-    "title": "",
-    "description": "",
-    "note": "",
+    "imageBg": "/images/consumer-business/hero-bg.jpg",
+    "imageLoading": "eager",
+    "title": "Manufacturing Performance. Financial Precision. International Expertise.",
+    "description": "Manufacturers operate where production efficiency, cost control and capital investment directly influence financial performance. Rising input costs, complex supply chains and international competition demand reliable reporting, disciplined financial management and informed strategic decisions.",
+    "note": "Parker Russell International connects manufacturing businesses with independent member firms providing audit, tax, accounting and financial advisory expertise across international markets.",
     "aside": "",
     "buttons": [
       {
-        "label": "",
-        "href": "",
-        "variant": "",
-        "icon": false
+        "label": "Speak to a Manufacturing Adviser",
+        "href": "#",
+        "variant": "primary",
+        "icon": true
+      },
+      {
+        "label": "Find a Member Firm",
+        "href": "#",
+        "variant": "secondary",
+        "icon": true
       }
     ]
   },
@@ -36,106 +42,222 @@
   },
   "mfgOverview": {
     "id": "mfg-overview",
-    "className": "",
-    "ariaLabel": "",
-    "image": "",
-    "imageAlt": "",
-    "text": "",
-    "body": "",
+    "className": "section-page-content-banner--muted",
+    "ariaLabel": "Manufacturing overview",
+    "image": "/images/consumer-business/overview.jpg",
+    "imageAlt": "Advisors consulting with a retail business owner",
+    "text": "<span>Strong Manufacturing Requires Control Beyond Production.</span>",
+    "body": "Manufacturing businesses must balance operational efficiency with profitability, working-capital requirements and long-term investment decisions.",
     "banner": {
-      "imageBg": "",
+      "imageBg": "/images/consumer-business/statement-bg.jpg",
       "leftColumn": {
-        "icon": ""
+        "icon": "/icons/financial-assurance.svg"
       },
       "rightColumn": {
-        "text": ""
+        "text": "<span class=\"is-muted\">From industrial producers and automotive suppliers to consumer-product manufacturers and international groups, organisations face interconnected challenges involving production costs, inventory, taxation, financing and financial reporting.</span><span>Reliable financial information provides the foundation for understanding performance, protecting margins and making informed decisions across the entire business.</span>"
       }
     }
   },
   "mfgPressures": {
     "id": "mfg-pressures",
     "className": "",
-    "ariaLabel": "",
-    "carouselLabel": "",
-    "eyebrow": "",
-    "title": "",
+    "ariaLabel": "Financial challenges in manufacturing",
+    "carouselLabel": "Financial challenges",
+    "eyebrow": "Manufacturers operate in environments where small changes in costs, production efficiency and supply-chain performance can materially affect profitability. Maintaining financial strength requires visibility across operations, investment and international obligations.",
+    "title": "The Financial Challenges Behind Manufacturing Performance.",
     "cards": [
       {
-        "icon": "",
-        "title": "",
-        "description": ""
+        "icon": "/icons/icon-channel-cart.svg",
+        "title": "Margin & Cost Control",
+        "description": "Understanding production costs, pricing, overhead allocation and profitability across products and markets."
+      },
+      {
+        "icon": "/icons/icon-pressure-percent.svg",
+        "title": "Inventory & Working Capital",
+        "description": "Managing stock levels, supplier payments, production requirements and cash tied up in operations."
+      },
+      {
+        "icon": "/icons/icon-pressure-inventory.svg",
+        "title": "Capital Investment",
+        "description": "Evaluating equipment, automation, production capacity and long-term investment returns."
+      },
+      {
+        "icon": "/icons/icon-channel-storefront.svg",
+        "title": "International Taxation",
+        "description": "Addressing corporate tax, customs, indirect taxation and cross-border supply-chain obligations."
+      },
+      {
+        "icon": "/icons/icon-pressure-shipping.svg",
+        "title": "Financial Reporting & Controls",
+        "description": "Maintaining accurate inventory valuations, cost allocation, financial statements and internal controls."
+      },
+      {
+        "icon": "/icons/icon-public.svg",
+        "title": "Supply Chain & Financial Risk",
+        "description": "Managing financial exposure arising from suppliers, international operations and changing market conditions."
       }
     ]
   },
   "mfgRevenue": {
     "id": "mfg-revenue",
-    "ariaLabel": "",
-    "title": "",
-    "conclusion": "",
+    "ariaLabel": "Manufacturing profitability and financial performance",
+    "title": "Production Efficiency Is Only Part of Profitability.",
+    "conclusion": "Strong manufacturing performance depends on understanding how operational decisions affect margins, working capital and long-term financial strength.",
     "items": [
       {
-        "number": "",
-        "text": ""
+        "number": "01",
+        "text": "Production costs determine true profitability. Materials, labour, energy, logistics and overhead allocation influence margins across products and operations."
+      },
+      {
+        "number": "02",
+        "text": "Inventory directly affects financial flexibility. Excess stock, production requirements and supplier terms can absorb significant working capital."
+      },
+      {
+        "number": "03",
+        "text": "Capital investment requires financial discipline. Equipment, automation and capacity expansion must be assessed against expected returns and financing needs."
+      },
+      {
+        "number": "04",
+        "text": "International supply chains create financial complexity. Cross-border transactions, taxation and reporting requirements influence the wider financial position of the business."
       }
     ]
   },
   "mfgInventory": {
     "id": "mfg-inventory",
-    "ariaLabel": "",
-    "title": "",
-    "lead": "",
+    "ariaLabel": "Inventory and cost management",
+    "title": "Inventory Keeps Production Moving.<br><span class=\"is-ice\"> It Also Ties Up Capital.</span>",
+    "lead": "Manufacturing businesses depend on materials, components and finished goods to maintain production and meet customer demand.",
     "cards": [
       {
-        "text": ""
+        "text": "Inventory & Cost Management: Monitoring stock valuation, production costs and inventory movements to understand their effect on profitability."
+      },
+      {
+        "text": "Working Capital & Cash Flow: Forecasting purchasing requirements, supplier payments and operational funding needs to maintain financial flexibility."
       }
     ],
-    "body": "",
-    "image": "",
-    "imageAlt": "",
-    "statement": ""
+    "body": "However, purchasing commitments, inventory levels, production cycles and supplier arrangements can place substantial pressure on cash flow.",
+    "image": "/images/consumer-business/inventory.jpg",
+    "imageAlt": "Warehouse inventory and stock management",
+    "statement": "Reliable financial analysis helps manufacturers balance production continuity with efficient use of capital."
   },
   "mfgChannels": {
     "id": "mfg-channels",
     "className": "",
-    "ariaLabel": "",
-    "carouselLabel": "",
-    "title": "",
-    "lead": "",
-    "leadStrong": "",
+    "ariaLabel": "Manufacturing sectors",
+    "carouselLabel": "Manufacturing sectors",
+    "title": "Different Manufacturing Models. Different Financial Priorities.",
+    "lead": "Manufacturing encompasses diverse production processes, commercial structures and international supply chains.",
+    "leadStrong": " Each creates specific financial, tax and reporting requirements.",
     "cards": [
       {
-        "icon": "",
-        "title": "",
-        "description": ""
+        "icon": "/icons/icon-channel-storefront.svg",
+        "title": "Industrial & Engineering",
+        "description": "Capital-intensive manufacturers managing complex production processes, fixed assets and long-term contracts."
+      },
+      {
+        "icon": "/icons/icon-channel-warehouse.svg",
+        "title": "Automotive & Components",
+        "description": "Manufacturers operating within international supply chains involving cost pressures, investment and intercompany arrangements."
+      },
+      {
+        "icon": "/icons/icon-channel-cart.svg",
+        "title": "Consumer & Food Products",
+        "description": "Businesses balancing production costs, changing demand, pricing, inventory and distribution requirements."
+      },
+      {
+        "icon": "/icons/icon-channel-devices.svg",
+        "title": "Chemicals & Materials",
+        "description": "Specialist manufacturers managing significant capital investment, complex production and international operations."
       }
     ],
-    "conclusion": ""
+    "conclusion": "Different manufacturing environments require tailored financial approaches — supported by reliable reporting, effective controls and sound professional judgement."
   },
   "mfgQuestions": {
     "id": "mfg-questions",
-    "ariaLabel": "",
-    "image": "",
-    "title": "",
+    "ariaLabel": "Questions manufacturing businesses are asking",
+    "image": "/images/consumer-business/earth-sphere.svg",
+    "title": "The Questions Manufacturing Businesses Are Asking.",
     "items": [
       {
-        "number": "",
-        "question": "",
-        "answer": ""
+        "number": "01",
+        "question": "Are our production margins accurate?",
+        "answer": "Materials, labour, overhead allocation, pricing and profitability across products."
+      },
+      {
+        "number": "02",
+        "question": "Is too much capital tied up in inventory?",
+        "answer": "Stock levels, purchasing commitments, supplier terms and working-capital requirements."
+      },
+      {
+        "number": "03",
+        "question": "Are our investment decisions financially justified?",
+        "answer": "Capital expenditure, expected returns, financing costs and cash-flow implications."
+      },
+      {
+        "number": "04",
+        "question": "Is our international structure appropriate?",
+        "answer": "Corporate entities, cross-border taxation, transfer pricing and supply-chain arrangements."
+      },
+      {
+        "number": "05",
+        "question": "Can our financial controls support growth?",
+        "answer": "Cost accounting, inventory valuation, internal controls and management reporting."
+      },
+      {
+        "number": "06",
+        "question": "Are we prepared for investment or acquisition?",
+        "answer": "Financial due diligence, valuations, tax exposure and transaction readiness."
       }
     ]
   },
   "mfgServices": {
     "id": "mfg-services",
     "ariaLabel": "",
-    "title": "",
-    "subtitle": "",
-    "image": "",
-    "imageAlt": "",
+    "title": "Expertise Across the Manufacturing Financial Landscape.",
+    "subtitle": "Our independent member firms bring together audit, taxation, accounting and financial advisory expertise to support manufacturers managing complex operations, international supply chains and long-term investment requirements.",
+    "image": "/images/consumer-business/services-team.jpg",
+    "imageAlt": "Advisory team meeting with a consumer business client",
     "items": [
       {
-        "icon": "",
-        "title": "",
-        "description": "",
+        "icon": "/icons/icon-verified-user.svg",
+        "title": "Audit & Assurance",
+        "description": "Statutory audit, financial statement assurance, internal controls and group reporting requirements.",
+        "link": {
+          "label": "",
+          "href": ""
+        }
+      },
+      {
+        "icon": "/icons/icon-gavel.svg",
+        "title": "Tax & International Tax",
+        "description": "Corporate taxation, indirect tax, customs considerations and international tax structuring.",
+        "link": {
+          "label": "",
+          "href": ""
+        }
+      },
+      {
+        "icon": "/icons/icon-monitoring.svg",
+        "title": "Accounting & Financial Reporting",
+        "description": "Management accounts, cost reporting, budgeting, forecasting and cash-flow analysis.",
+        "link": {
+          "label": "",
+          "href": ""
+        }
+      },
+      {
+        "icon": "/icons/icon-handshake.svg",
+        "title": "Corporate Finance & Advisory",
+        "description": "Financial modelling, due diligence, valuations, acquisitions, restructuring and transaction support.",
+        "link": {
+          "label": "",
+          "href": ""
+        }
+      },
+      {
+        "icon": "/icons/icon-swap-horiz.svg",
+        "title": "Transfer Pricing",
+        "description": "Intercompany transactions, related-party arrangements, pricing policies and supporting documentation.",
         "link": {
           "label": "",
           "href": ""
@@ -146,51 +268,91 @@
   "mfgMoments": {
     "id": "mfg-moments",
     "className": "",
-    "ariaLabel": "",
-    "carouselLabel": "",
-    "title": "",
+    "ariaLabel": "Manufacturing business lifecycle stages",
+    "carouselLabel": "Business lifecycle",
+    "title": "From Production Growth to International Expansion.",
     "cards": [
       {
-        "icon": "",
-        "description": ""
+        "icon": "/icons/icon-public.svg",
+        "description": "<strong>Establishment</strong><br>Accounting structures, financial controls, cost allocation and tax requirements."
+      },
+      {
+        "icon": "/icons/icon-moment-sell.svg",
+        "description": "<strong>Scaling</strong><br>Production reporting, margin analysis, inventory management and working capital."
+      },
+      {
+        "icon": "/icons/icon-moment-rocket.svg",
+        "description": "<strong>Investment</strong><br>Equipment financing, capital expenditure, financial modelling and expected returns."
+      },
+      {
+        "icon": "/icons/icon-handshake.svg",
+        "description": "<strong>Expansion</strong><br>International taxation, overseas operations, transfer pricing and group reporting."
+      },
+      {
+        "icon": "/icons/icon-trending-up.svg",
+        "description": "<strong>Transactions</strong><br>Financial due diligence, valuations, acquisitions, restructuring and disposals."
       }
     ],
-    "conclusion": ""
+    "conclusion": "At every stage, reliable financial information and informed professional advice support investment decisions, operational resilience and sustainable growth."
   },
   "mfgInternational": {
     "id": "mfg-international",
-    "ariaLabel": "",
-    "eyebrow": "",
-    "title": "",
-    "lead": "",
-    "bullets": [],
-    "networkText": "",
+    "ariaLabel": "International manufacturing expertise",
+    "eyebrow": "INTERNATIONAL REACH",
+    "title": "Manufacturing Crosses Borders. Financial Responsibilities Follow.",
+    "lead": "Modern manufacturers increasingly source materials, operate production facilities and distribute finished products across multiple jurisdictions.",
+    "bullets": [
+      "Understanding tax and reporting obligations across international markets.",
+      "Supporting overseas production and corporate group structures.",
+      "Addressing transfer pricing and cross-border supply-chain arrangements.",
+      "Providing assurance and transaction expertise across jurisdictions."
+    ],
+    "networkText": "Through Parker Russell International, independent member firms collaborate to provide locally informed expertise and support coordinated financial management across international manufacturing operations.",
     "button": {
-      "label": "",
-      "href": ""
+      "label": "Find a Member Firm",
+      "href": "#"
     },
-    "image": "",
-    "imageAlt": "",
-    "overlayText": "",
+    "image": "/images/consumer-business/international.jpg",
+    "imageAlt": "Global consumer business network",
+    "overlayText": "International collaboration helps manufacturers understand how local<span class=\"is-ice\"> obligations affect the financial performance and structure of the wider business.</span>",
     "stats": [
-      {
-        "number": "",
-        "label": ""
-      }
+      { "number": "86", "label": "Countries" },
+      { "number": "184", "label": "Offices" },
+      { "number": "2,000", "suffix": "+", "label": "Professionals" }
     ]
   },
   "mfgSegments": {
     "id": "mfg-segments",
     "className": "",
-    "ariaLabel": "",
-    "carouselLabel": "",
-    "title": "",
-    "lead": "",
+    "ariaLabel": "Critical financial priorities in manufacturing",
+    "carouselLabel": "Financial priorities",
+    "title": "Different Operations. Critical Financial Priorities.",
+    "lead": "The financial characteristics of manufacturing businesses create distinct requirements for financial management, investment planning and professional oversight.",
     "cards": [
       {
-        "icon": "",
-        "title": "",
-        "description": ""
+        "icon": "/icons/icon-segment-bag.svg",
+        "title": "Cost & Margins",
+        "description": "Production costs, overhead allocation, pricing and profitability analysis."
+      },
+      {
+        "icon": "/icons/icon-channel-storefront.svg",
+        "title": "Working Capital",
+        "description": "Inventory management, supplier commitments and cash-flow planning."
+      },
+      {
+        "icon": "/icons/icon-channel-devices.svg",
+        "title": "Capital Investment",
+        "description": "Equipment financing, automation, financial modelling and investment assessment."
+      },
+      {
+        "icon": "/icons/icon-channel-warehouse.svg",
+        "title": "International Tax",
+        "description": "Cross-border taxation, transfer pricing and international group structures."
+      },
+      {
+        "icon": "/icons/icon-hub.svg",
+        "title": "Investment & Transactions",
+        "description": "Financial due diligence, valuations, acquisitions and restructuring support."
       }
     ]
   },

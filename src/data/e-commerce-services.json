@@ -61,90 +61,206 @@
   "ecsPressures": {
     "id": "ecs-pressures",
     "className": "",
-    "ariaLabel": "",
-    "carouselLabel": "",
+    "ariaLabel": "Financial challenges in e-commerce",
+    "carouselLabel": "E-commerce financial challenges",
     "eyebrow": "",
-    "title": "",
+    "title": "What Happens Behind Every Online Transaction Matters.",
     "cards": [
       {
-        "icon": "",
-        "title": "",
-        "description": ""
+        "icon": "/icons/icon-channel-cart.svg",
+        "title": "Cross-Border Taxation",
+        "description": "Managing VAT, GST, sales taxes and corporate tax obligations across international markets."
+      },
+      {
+        "icon": "/icons/icon-pressure-percent.svg",
+        "title": "Marketplace Reporting",
+        "description": "Reconciling settlements, refunds, fees and transactions across multiple sales platforms."
+      },
+      {
+        "icon": "/icons/icon-pressure-percent.svg",
+        "title": "International Structures",
+        "description": "Establishing appropriate entities, intercompany arrangements and governance frameworks."
+      },
+      {
+        "icon": "/icons/icon-channel-storefront.svg",
+        "title": "Customs & Indirect Tax",
+        "description": "Addressing import obligations, inventory movements and indirect tax requirements."
+      },
+      {
+        "icon": "/icons/icon-pressure-shipping.svg",
+        "title": "Financial Controls",
+        "description": "Building reliable accounting processes and reporting systems as transaction volumes increase."
+      },
+      {
+        "icon": "/icons/icon-public.svg",
+        "title": "Working Capital",
+        "description": "Managing inventory funding, advertising costs, supplier payments and cash-flow pressures."
       }
     ]
   },
   "ecsRevenue": {
     "id": "ecs-revenue",
-    "ariaLabel": "",
-    "title": "",
-    "conclusion": "",
+    "ariaLabel": "Financial considerations beyond e-commerce revenue",
+    "title": "Revenue Is Only Part of the Picture.",
+    "conclusion": "Strong online sales do not necessarily translate into financial strength. Understanding the relationship between revenue, margins, obligations and cash flow is essential to building a resilient e-commerce business.",
     "items": [
       {
-        "number": "",
-        "text": ""
+        "number": "01",
+        "text": "Sales growth can conceal declining margins. Platform fees, fulfilment costs, refunds and advertising expenditure directly affect profitability."
+      },
+      {
+        "number": "02",
+        "text": "International sales create local obligations. Tax registrations, reporting requirements and customs arrangements depend on where business activities take place."
+      },
+      {
+        "number": "03",
+        "text": "Inventory can restrict working capital. Stock purchases and fulfilment arrangements can absorb cash before revenue is received."
+      },
+      {
+        "number": "04",
+        "text": "Reliable reporting supports better decisions. Accurate financial information helps management assess performance, investment requirements and expansion opportunities."
       }
     ]
   },
   "ecsInventory": {
     "id": "ecs-inventory",
-    "ariaLabel": "",
-    "title": "",
-    "lead": "",
+    "ariaLabel": "Inventory and working capital management",
+    "title": "Inventory Is More Than Stock. It Is Capital Already Committed.",
+    "lead": "For many e-commerce businesses, inventory represents a significant financial commitment.",
     "cards": [
       {
-        "text": ""
+        "text": "Inventory Management: Understanding inventory valuation, cost allocation and reporting requirements across locations."
+      },
+      {
+        "text": "Cash-Flow Planning: Forecasting stock purchases, supplier payments and financing needs to support continued operations."
       }
     ],
-    "body": "",
-    "image": "",
-    "imageAlt": "",
-    "statement": ""
+    "body": "Purchasing decisions, international storage, fulfilment arrangements and changing customer demand can create substantial working-capital pressure.",
+    "image": "/images/consumer-business/inventory.jpg",
+    "imageAlt": "Warehouse inventory and stock management",
+    "statement": "Reliable financial information helps management understand how inventory decisions affect profitability, liquidity and future growth."
   },
   "ecsChannels": {
     "id": "ecs-channels",
     "className": "",
-    "ariaLabel": "",
-    "carouselLabel": "",
-    "title": "",
-    "lead": "",
-    "leadStrong": "",
+    "ariaLabel": "E-commerce business models",
+    "carouselLabel": "E-commerce business models",
+    "title": "One Market. Different Models. Different Obligations.",
+    "lead": "E-commerce businesses operate through different sales, fulfilment and distribution structures.",
+    "leadStrong": "Each model creates its own accounting, taxation and financial management requirements.",
     "cards": [
       {
-        "icon": "",
-        "title": "",
-        "description": ""
+        "icon": "/icons/icon-channel-storefront.svg",
+        "title": "Direct-to-Consumer",
+        "description": "Independent online brands managing customer transactions, payment systems and direct sales."
+      },
+      {
+        "icon": "/icons/icon-channel-warehouse.svg",
+        "title": "Marketplaces",
+        "description": "Amazon and other platform sellers managing settlement data, fees and cross-border activity."
+      },
+      {
+        "icon": "/icons/icon-channel-cart.svg",
+        "title": "Omnichannel Retail",
+        "description": "Retailers operating physical stores, online platforms and multiple distribution channels."
+      },
+      {
+        "icon": "/icons/icon-channel-devices.svg",
+        "title": "International E-commerce",
+        "description": "Businesses managing overseas inventory, entities, supply chains and international operations."
       }
     ],
-    "conclusion": ""
+    "conclusion": "The commercial model determines how financial, tax and reporting obligations arise — and how they should be managed."
   },
   "ecsQuestions": {
     "id": "ecs-questions",
-    "ariaLabel": "",
-    "image": "",
-    "title": "",
+    "ariaLabel": "Questions e-commerce businesses are asking",
+    "image": "/images/consumer-business/earth-sphere.svg",
+    "title": "The Questions E-commerce Businesses Are Asking.",
     "items": [
       {
-        "number": "",
-        "question": "",
-        "answer": ""
+        "number": "01",
+        "question": "Where do we have tax obligations?",
+        "answer": "Sales destinations, inventory locations, business activities and applicable registration requirements."
+      },
+      {
+        "number": "02",
+        "question": "Are our reported margins accurate?",
+        "answer": "Marketplace fees, refunds, fulfilment costs, currency movements and financial reconciliations."
+      },
+      {
+        "number": "03",
+        "question": "Is our international structure appropriate?",
+        "answer": "Corporate entities, tax exposure, intercompany transactions and governance requirements."
+      },
+      {
+        "number": "04",
+        "question": "How much working capital do we need?",
+        "answer": "Inventory commitments, supplier payments, tax liabilities and forecast cash requirements."
+      },
+      {
+        "number": "05",
+        "question": "Are we ready for external investment?",
+        "answer": "Reporting quality, financial controls, ownership structures and due diligence readiness."
+      },
+      {
+        "number": "06",
+        "question": "Can our financial infrastructure support growth?",
+        "answer": "Accounting systems, reporting capacity, internal controls and international coordination."
       }
     ]
   },
   "ecsServices": {
     "id": "ecs-services",
-    "ariaLabel": "",
-    "title": "",
-    "subtitle": "",
-    "image": "",
-    "imageAlt": "",
+    "ariaLabel": "Professional services for e-commerce businesses",
+    "title": "Expertise Around the Decisions That Matter.",
+    "subtitle": "Our independent member firms bring together specialist knowledge across audit, taxation, accounting and corporate finance to address the financial and regulatory requirements of digital commerce.",
+    "image": "/images/consumer-business/services-team.jpg",
+    "imageAlt": "Advisory team meeting with a consumer business client",
     "items": [
       {
-        "icon": "",
-        "title": "",
-        "description": "",
+        "icon": "/icons/icon-verified-user.svg",
+        "title": "Tax & Indirect Tax",
+        "description": "Corporate tax, VAT, GST, international tax structuring and cross-border compliance.",
         "link": {
-          "label": "",
-          "href": ""
+          "label": "Explore Expertise",
+          "href": "#"
+        }
+      },
+      {
+        "icon": "/icons/icon-gavel.svg",
+        "title": "Audit & Assurance",
+        "description": "Statutory audit, financial reporting assurance and support for stakeholder requirements.",
+        "link": {
+          "label": "Explore Expertise",
+          "href": "#"
+        }
+      },
+      {
+        "icon": "/icons/icon-monitoring.svg",
+        "title": "Accounting & Outsourced Finance",
+        "description": "Management accounts, financial controls, reconciliations and cash-flow reporting.",
+        "link": {
+          "label": "Explore Expertise",
+          "href": "#"
+        }
+      },
+      {
+        "icon": "/icons/icon-handshake.svg",
+        "title": "Corporate Finance",
+        "description": "Financial due diligence, valuations, acquisitions, disposals and transaction support.",
+        "link": {
+          "label": "Explore Expertise",
+          "href": "#"
+        }
+      },
+      {
+        "icon": "/icons/icon-swap-horiz.svg",
+        "title": "Transfer Pricing",
+        "description": "Related-party arrangements, intercompany pricing policies and documentation.",
+        "link": {
+          "label": "Explore Expertise",
+          "href": "#"
         }
       }
     ]
@@ -152,51 +268,91 @@
   "ecsMoments": {
     "id": "ecs-moments",
     "className": "",
-    "ariaLabel": "",
-    "carouselLabel": "",
-    "title": "",
+    "ariaLabel": "E-commerce business growth stages",
+    "carouselLabel": "Business growth stages",
+    "title": "Growth Changes the Business.<br><span class=\"is-muted\">And It Changes the Questions.</span>",
     "cards": [
       {
-        "icon": "",
-        "description": ""
+        "icon": "/icons/icon-public.svg",
+        "description": "<strong>Establishing</strong><br>Company structure, tax registration and foundational accounting processes."
+      },
+      {
+        "icon": "/icons/icon-moment-sell.svg",
+        "description": "<strong>Scaling</strong><br>Financial controls, management reporting and cash-flow forecasting."
+      },
+      {
+        "icon": "/icons/icon-moment-rocket.svg",
+        "description": "<strong>Expanding</strong><br>International tax, overseas entities and cross-border operations."
+      },
+      {
+        "icon": "/icons/icon-handshake.svg",
+        "description": "<strong>Raising Capital</strong><br>Reliable forecasts, financial reporting and investment readiness."
+      },
+      {
+        "icon": "/icons/icon-trending-up.svg",
+        "description": "<strong>Transactions</strong><br>Business valuations, due diligence, acquisitions and exit planning."
       }
     ],
-    "conclusion": ""
+    "conclusion": "Parker Russell member firms provide professional support aligned with the requirements of each stage of development."
   },
   "ecsInternational": {
     "id": "ecs-international",
-    "ariaLabel": "",
-    "eyebrow": "",
-    "title": "",
-    "lead": "",
-    "bullets": [],
-    "networkText": "",
+    "ariaLabel": "International e-commerce services",
+    "eyebrow": "INTERNATIONAL REACH",
+    "title": "International Growth Creates More Than Commercial Opportunity.",
+    "lead": "Expanding across borders introduces new taxation, accounting, regulatory and corporate obligations.",
+    "bullets": [
+    "Understanding tax and reporting obligations in new markets.",
+    "Supporting appropriate international corporate structures.",
+    "Addressing transfer pricing and intercompany arrangements.",
+    "Providing accounting, audit and transaction expertise across jurisdictions."
+    ],
+    "networkText": "Through Parker Russell International, independent member firms can collaborate across jurisdictions to provide locally informed advice and support more coordinated international operations.",
     "button": {
-      "label": "",
-      "href": ""
+      "label": "Find a Member Firm",
+      "href": "#"
     },
-    "image": "",
-    "imageAlt": "",
-    "overlayText": "",
+    "image": "/images/consumer-business/international.jpg",
+    "imageAlt": "Global consumer business network",
+    "overlayText": "The objective is to help businesses manage<span class=\"is-ice\"> international complexity while maintaining reliable financial oversight.</span>",
     "stats": [
-      {
-        "number": "",
-        "label": ""
-      }
+      { "number": "86", "label": "Countries" },
+      { "number": "184", "label": "Offices" },
+      { "number": "2,000", "suffix": "+", "label": "Professionals" }
     ]
   },
   "ecsSegments": {
     "id": "ecs-segments",
     "className": "",
-    "ariaLabel": "",
-    "carouselLabel": "",
-    "title": "",
-    "lead": "",
+    "ariaLabel": "Priority areas for e-commerce businesses",
+    "carouselLabel": "E-commerce service priorities",
+    "title": "Different Models. Different Priorities.",
+    "lead": "Commercial structures and growth objectives influence the type of financial and professional support an e-commerce business requires.",
     "cards": [
       {
-        "icon": "",
-        "title": "",
-        "description": ""
+        "icon": "/icons/icon-segment-bag.svg",
+        "title": "Corporate Taxation",
+        "description": "Tax compliance and planning for domestic and international operations."
+      },
+      {
+        "icon": "/icons/icon-channel-storefront.svg",
+        "title": "VAT & Customs",
+        "description": "Indirect tax obligations, registrations and cross-border goods movements."
+      },
+      {
+        "icon": "/icons/icon-channel-devices.svg",
+        "title": "Financial Reporting",
+        "description": "Accurate accounts, marketplace reconciliations and management information."
+      },
+      {
+        "icon": "/icons/icon-channel-warehouse.svg",
+        "title": "Internal Controls",
+        "description": "Reliable processes supporting financial oversight and transaction accuracy."
+      },
+      {
+        "icon": "/icons/icon-hub.svg",
+        "title": "M&A & Investment",
+        "description": "Financial due diligence, valuations and transaction preparation."
       }
     ]
   },
