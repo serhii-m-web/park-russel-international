@@ -5,7 +5,7 @@
   },
   "eiuHero": {
     "id": "eiu-page-hero",
-    "className": "",
+    "className": "page-hero--rich",
     "label": "ENERGY, INFRASTRUCTURE & UTILITIES",
     "labelPill": false,
     "imageBg": "/images/consumer-business/hero-bg.jpg",
@@ -29,17 +29,6 @@
       }
     ]
   },
-  "eiuSwitcher": {
-    "id": "eiu-switcher",
-    "ariaLabel": "",
-    "items": [
-      {
-        "label": "",
-        "href": "",
-        "active": false
-      }
-    ]
-  },
   "eiuOverview": {
     "id": "eiu-overview",
     "className": "section-page-content-banner--muted",
@@ -60,7 +49,7 @@
   },
   "eiuPressures": {
     "id": "eiu-pressures",
-    "className": "",
+    "className": "section-page-cards-content--muted section-page-cards-content--pressures",
     "ariaLabel": "Financial challenges in energy, infrastructure and utilities",
     "carouselLabel": "Financial challenges",
     "eyebrow": "Energy and infrastructure businesses operate in environments where investment decisions, regulatory obligations and financial performance are closely interconnected. Managing these complexities requires specialist expertise and a long-term perspective.",
@@ -142,7 +131,7 @@
   },
   "eiuChannels": {
     "id": "eiu-channels",
-    "className": "",
+    "className": "section-page-cards-content--channels",
     "ariaLabel": "Energy, infrastructure and utilities sectors",
     "carouselLabel": "Sectors",
     "title": "Different Sectors. Distinct Financial Requirements.",
@@ -267,7 +256,7 @@
   },
   "eiuMoments": {
     "id": "eiu-moments",
-    "className": "",
+    "className": "section-page-cards-content--moments",
     "ariaLabel": "Investment lifecycle stages",
     "carouselLabel": "Investment lifecycle",
     "title": "From Initial Investment<span class=\"is-muted\"> to Long-Term Asset Performance.",
@@ -316,14 +305,24 @@
     "imageAlt": "Global consumer business network",
     "overlayText": "International coordination helps organisations understand how individual<span class=\"is-ice\"> jurisdictional requirements affect the wider investment and operating structure.</span>",
     "stats": [
-      { "number": "86", "label": "Countries" },
-      { "number": "184", "label": "Offices" },
-      { "number": "2,000", "suffix": "+", "label": "Professionals" }
+      {
+        "number": "86",
+        "label": "Countries"
+      },
+      {
+        "number": "184",
+        "label": "Offices"
+      },
+      {
+        "number": "2,000",
+        "suffix": "+",
+        "label": "Professionals"
+      }
     ]
   },
   "eiuSegments": {
     "id": "eiu-segments",
-    "className": "",
+    "className": "section-page-cards-content--segments",
     "ariaLabel": "Critical financial priorities",
     "carouselLabel": "Financial priorities",
     "title": "Complex Assets. Critical Financial Priorities.",
@@ -385,7 +384,7 @@
     "id": "eiu-final",
     "ariaLabel": "",
     "isSection": false,
-    "className": "",
+    "className": "page-hero--section",
     "imageBg": "",
     "imageLoading": "",
     "title": "",

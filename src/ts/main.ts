@@ -7,6 +7,7 @@ import { initAboutCardsSlider } from './aboutCardsSlider';
 import { initCsrValuesSlider } from './csrValuesSlider';
 import { initMissionFirmsSlider } from './missionFirmsSlider';
 import { initIndustryInsightsSlider } from './industryInsightsSlider';
+import { initIndustrySwitcher } from './industrySwitcher';
 import { initIaPublicationsFilter } from './iaPublicationsFilter';
 import { initIaPublicationsSlider } from './iaPublicationsSlider';
 import { initMegaMenu } from './megaMenu';
@@ -27,6 +28,7 @@ function init(): void {
   initMegaMenu();
   initMobileNav();
   initNavActive();
+  initIndustrySwitcher();
   initSectionSlider();
   initPublicationsSlider();
   initIaPublicationsFilter();

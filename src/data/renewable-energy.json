@@ -5,7 +5,7 @@
   },
   "renHero": {
     "id": "ren-page-hero",
-    "className": "",
+    "className": "page-hero--rich",
     "label": "",
     "labelPill": false,
     "imageBg": "",
@@ -23,20 +23,9 @@
       }
     ]
   },
-  "renSwitcher": {
-    "id": "ren-switcher",
-    "ariaLabel": "",
-    "items": [
-      {
-        "label": "",
-        "href": "",
-        "active": false
-      }
-    ]
-  },
   "renOverview": {
     "id": "ren-overview",
-    "className": "",
+    "className": "section-page-content-banner--muted",
     "ariaLabel": "",
     "image": "",
     "imageAlt": "",
@@ -54,7 +43,7 @@
   },
   "renPressures": {
     "id": "ren-pressures",
-    "className": "",
+    "className": "section-page-cards-content--muted section-page-cards-content--pressures",
     "ariaLabel": "",
     "carouselLabel": "",
     "eyebrow": "",
@@ -96,7 +85,7 @@
   },
   "renChannels": {
     "id": "ren-channels",
-    "className": "",
+    "className": "section-page-cards-content--channels",
     "ariaLabel": "",
     "carouselLabel": "",
     "title": "",
@@ -145,7 +134,7 @@
   },
   "renMoments": {
     "id": "ren-moments",
-    "className": "",
+    "className": "section-page-cards-content--moments",
     "ariaLabel": "",
     "carouselLabel": "",
     "title": "",
@@ -181,7 +170,7 @@
   },
   "renSegments": {
     "id": "ren-segments",
-    "className": "",
+    "className": "section-page-cards-content--segments",
     "ariaLabel": "",
     "carouselLabel": "",
     "title": "",
@@ -223,7 +212,7 @@
     "id": "ren-final",
     "ariaLabel": "",
     "isSection": false,
-    "className": "",
+    "className": "page-hero--section",
     "imageBg": "",
     "imageLoading": "",
     "title": "",

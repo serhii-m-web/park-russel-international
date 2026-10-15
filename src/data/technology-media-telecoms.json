@@ -5,7 +5,7 @@
   },
   "tmtHero": {
     "id": "tmt-page-hero",
-    "className": "",
+    "className": "page-hero--rich",
     "label": "",
     "labelPill": false,
     "imageBg": "",
@@ -23,20 +23,9 @@
       }
     ]
   },
-  "tmtSwitcher": {
-    "id": "tmt-switcher",
-    "ariaLabel": "",
-    "items": [
-      {
-        "label": "",
-        "href": "",
-        "active": false
-      }
-    ]
-  },
   "tmtOverview": {
     "id": "tmt-overview",
-    "className": "",
+    "className": "section-page-content-banner--muted",
     "ariaLabel": "",
     "image": "",
     "imageAlt": "",
@@ -54,7 +43,7 @@
   },
   "tmtPressures": {
     "id": "tmt-pressures",
-    "className": "",
+    "className": "section-page-cards-content--muted section-page-cards-content--pressures",
     "ariaLabel": "",
     "carouselLabel": "",
     "eyebrow": "",
@@ -96,7 +85,7 @@
   },
   "tmtChannels": {
     "id": "tmt-channels",
-    "className": "",
+    "className": "section-page-cards-content--channels",
     "ariaLabel": "",
     "carouselLabel": "",
     "title": "",
@@ -145,7 +134,7 @@
   },
   "tmtMoments": {
     "id": "tmt-moments",
-    "className": "",
+    "className": "section-page-cards-content--moments",
     "ariaLabel": "",
     "carouselLabel": "",
     "title": "",
@@ -181,7 +170,7 @@
   },
   "tmtSegments": {
     "id": "tmt-segments",
-    "className": "",
+    "className": "section-page-cards-content--segments",
     "ariaLabel": "",
     "carouselLabel": "",
     "title": "",
@@ -223,7 +212,7 @@
     "id": "tmt-final",
     "ariaLabel": "",
     "isSection": false,
-    "className": "",
+    "className": "page-hero--section",
     "imageBg": "",
     "imageLoading": "",
     "title": "",

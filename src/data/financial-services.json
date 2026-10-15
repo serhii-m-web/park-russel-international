@@ -5,7 +5,7 @@
   },
   "fsHero": {
     "id": "fs-page-hero",
-    "className": "",
+    "className": "page-hero--rich",
     "label": "FINANCIAL SERVICES",
     "labelPill": false,
     "imageBg": "/images/consumer-business/hero-bg.jpg",
@@ -29,17 +29,6 @@
       }
     ]
   },
-  "fsSwitcher": {
-    "id": "fs-switcher",
-    "ariaLabel": "",
-    "items": [
-      {
-        "label": "",
-        "href": "",
-        "active": false
-      }
-    ]
-  },
   "fsOverview": {
     "id": "fs-overview",
     "className": "section-page-content-banner--muted",
@@ -60,7 +49,7 @@
   },
   "fsPressures": {
     "id": "fs-pressures",
-    "className": "",
+    "className": "section-page-cards-content--muted section-page-cards-content--pressures",
     "ariaLabel": "Financial services challenges",
     "carouselLabel": "Financial challenges",
     "eyebrow": "Financial services organisations operate in complex regulatory and commercial environments. Maintaining financial integrity requires effective controls, transparent reporting and a clear understanding of risks across the business.",
@@ -142,7 +131,7 @@
   },
   "fsChannels": {
     "id": "fs-channels",
-    "className": "",
+    "className": "section-page-cards-content--channels",
     "ariaLabel": "Financial services business models",
     "carouselLabel": "Financial services sectors",
     "title": "One Sector. Distinct Business Models. Different Requirements.",
@@ -267,7 +256,7 @@
   },
   "fsMoments": {
     "id": "fs-moments",
-    "className": "",
+    "className": "section-page-cards-content--moments",
     "ariaLabel": "Financial services business lifecycle",
     "carouselLabel": "Business lifecycle",
     "title": "From Market Entry to<span class=\"is-muted\"> International Expansion.</span>",
@@ -316,14 +305,24 @@
     "imageAlt": "Global consumer business network",
     "overlayText": "International collaboration helps organisations consider local requirements within the wider financial and commercial structure of their business.",
     "stats": [
-      { "number": "86", "label": "Countries" },
-      { "number": "184", "label": "Offices" },
-      { "number": "2,000", "suffix": "+", "label": "Professionals" }
+      {
+        "number": "86",
+        "label": "Countries"
+      },
+      {
+        "number": "184",
+        "label": "Offices"
+      },
+      {
+        "number": "2,000",
+        "suffix": "+",
+        "label": "Professionals"
+      }
     ]
   },
   "fsSegments": {
     "id": "fs-segments",
-    "className": "",
+    "className": "section-page-cards-content--segments",
     "ariaLabel": "Critical financial priorities for financial institutions",
     "carouselLabel": "Financial priorities",
     "title": "Different Institutions. Critical Financial Priorities.",
@@ -385,7 +384,7 @@
     "id": "fs-final",
     "ariaLabel": "",
     "isSection": false,
-    "className": "",
+    "className": "page-hero--section",
     "imageBg": "",
     "imageLoading": "",
     "title": "",

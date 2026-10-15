@@ -1,37 +1,101 @@
 <nav
   class="
     section-industry-switcher
-    {{#if switcher.className}}
-      {{ switcher.className }}
-    {{/if}}
     {{#if sectionClass}}
       {{ sectionClass }}
     {{/if}}
   "
-  {{#if switcher.id}}
-    id="{{ switcher.id }}"
+  {{#if sectionClass}}
+    id="{{ sectionClass }}"
   {{/if}}
-  aria-label="{{#if switcher.ariaLabel}}{{ switcher.ariaLabel }}{{else}}Browse industries{{/if}}"
+  aria-label="Browse industries"
 >
   <div class="container">
     <div class="section-industry-switcher__scroller">
-      {{#if switcher.items.length}}
-        <ul class="section-industry-switcher__list">
-          {{#each switcher.items}}
-            <li class="section-industry-switcher__item">
-              <a
-                class="section-industry-switcher__chip{{#if active}} is-active{{/if}}"
-                href="{{ href }}"
-                {{#if active}}
-                  aria-current="page"
-                {{/if}}
-              >
-                {{ label }}
-              </a>
-            </li>
-          {{/each}}
-        </ul>
-      {{/if}}
+      <ul class="section-industry-switcher__list">
+        <li class="section-industry-switcher__item">
+          <a
+            class="section-industry-switcher__chip"
+            href="consumer-business.html"
+          >
+            Consumer Business
+          </a>
+        </li>
+        <li class="section-industry-switcher__item">
+          <a
+            class="section-industry-switcher__chip"
+            href="e-commerce-services.html"
+          >
+            E-commerce Services
+          </a>
+        </li>
+        <li class="section-industry-switcher__item">
+          <a
+            class="section-industry-switcher__chip"
+            href="energy-infrastructure-utilities.html"
+          >
+            Energy, Infrastructure &amp; Utilities
+          </a>
+        </li>
+        <li class="section-industry-switcher__item">
+          <a
+            class="section-industry-switcher__chip"
+            href="financial-services.html"
+          >
+            Financial Services
+          </a>
+        </li>
+        <li class="section-industry-switcher__item">
+          <a
+            class="section-industry-switcher__chip"
+            href="government-public-sector.html"
+          >
+            Government &amp; Public Sector
+          </a>
+        </li>
+        <li class="section-industry-switcher__item">
+          <a class="section-industry-switcher__chip" href="manufacturing.html">
+            Manufacturing
+          </a>
+        </li>
+        <li class="section-industry-switcher__item">
+          <a
+            class="section-industry-switcher__chip"
+            href="oil-gas-natural-resources.html"
+          >
+            Oil, Gas &amp; Natural Resources
+          </a>
+        </li>
+        <li class="section-industry-switcher__item">
+          <a class="section-industry-switcher__chip" href="real-estate.html">
+            Real Estate
+          </a>
+        </li>
+        <li class="section-industry-switcher__item">
+          <a
+            class="section-industry-switcher__chip"
+            href="renewable-energy.html"
+          >
+            Renewable Energy
+          </a>
+        </li>
+        <li class="section-industry-switcher__item">
+          <a
+            class="section-industry-switcher__chip"
+            href="technology-media-telecoms.html"
+          >
+            Technology, Media &amp; Telecoms
+          </a>
+        </li>
+        <li class="section-industry-switcher__item">
+          <a
+            class="section-industry-switcher__chip"
+            href="tourism-hospitality-leisure.html"
+          >
+            Tourism, Hospitality &amp; Leisure
+          </a>
+        </li>
+      </ul>
     </div>
   </div>
 </nav>

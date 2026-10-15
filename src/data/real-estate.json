@@ -5,7 +5,7 @@
   },
   "reHero": {
     "id": "re-page-hero",
-    "className": "",
+    "className": "page-hero--rich",
     "label": "REAL ESTATE",
     "labelPill": false,
     "imageBg": "/images/consumer-business/hero-bg.jpg",
@@ -29,20 +29,9 @@
       }
     ]
   },
-  "reSwitcher": {
-    "id": "re-switcher",
-    "ariaLabel": "",
-    "items": [
-      {
-        "label": "",
-        "href": "",
-        "active": false
-      }
-    ]
-  },
   "reOverview": {
     "id": "re-overview",
-    "className": "",
+    "className": "section-page-content-banner--muted",
     "ariaLabel": "Real estate investment overview",
     "image": "/images/consumer-business/overview.jpg",
     "imageAlt": "Advisors consulting with a retail business owner",
@@ -317,9 +306,19 @@
     "imageAlt": "Global consumer business network",
     "overlayText": "International collaboration helps investors understand how local property obligations affect the wider<span class=\"is-ice\"> financial and commercial structure of their investments.</span>",
     "stats": [
-      { "number": "86", "label": "Countries" },
-      { "number": "184", "label": "Offices" },
-      { "number": "2,000", "suffix": "+", "label": "Professionals" }
+      {
+        "number": "86",
+        "label": "Countries"
+      },
+      {
+        "number": "184",
+        "label": "Offices"
+      },
+      {
+        "number": "2,000",
+        "suffix": "+",
+        "label": "Professionals"
+      }
     ]
   },
   "reSegments": {
@@ -386,7 +385,7 @@
     "id": "re-final",
     "ariaLabel": "",
     "isSection": false,
-    "className": "",
+    "className": "page-hero--section",
     "imageBg": "",
     "imageLoading": "",
     "title": "",

@@ -38,9 +38,21 @@
     overflow-x: auto;
     scrollbar-width: none;
     -ms-overflow-style: none;
+    cursor: grab;
+    touch-action: pan-x;
+    user-select: none;
 
     &::-webkit-scrollbar {
       display: none;
+    }
+
+    &.is-dragging {
+      cursor: grabbing;
+      scroll-behavior: auto;
+
+      .section-industry-switcher__chip {
+        pointer-events: none;
+      }
     }
   }
 

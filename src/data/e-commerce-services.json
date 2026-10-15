@@ -5,7 +5,7 @@
   },
   "ecsHero": {
     "id": "ecs-page-hero",
-    "className": "",
+    "className": "page-hero--rich",
     "label": "E-COMMERCE SERVICES",
     "labelPill": false,
     "imageBg": "/images/consumer-business/hero-bg.jpg",
@@ -29,17 +29,6 @@
       }
     ]
   },
-  "ecsSwitcher": {
-    "id": "ecs-switcher",
-    "ariaLabel": "",
-    "items": [
-      {
-        "label": "",
-        "href": "#",
-        "active": false
-      }
-    ]
-  },
   "ecsOverview": {
     "id": "ecs-overview",
     "className": "section-page-content-banner--muted",
@@ -60,7 +49,7 @@
   },
   "ecsPressures": {
     "id": "ecs-pressures",
-    "className": "",
+    "className": "section-page-cards-content--muted section-page-cards-content--pressures",
     "ariaLabel": "Financial challenges in e-commerce",
     "carouselLabel": "E-commerce financial challenges",
     "eyebrow": "",
@@ -142,7 +131,7 @@
   },
   "ecsChannels": {
     "id": "ecs-channels",
-    "className": "",
+    "className": "section-page-cards-content--channels",
     "ariaLabel": "E-commerce business models",
     "carouselLabel": "E-commerce business models",
     "title": "One Market. Different Models. Different Obligations.",
@@ -267,7 +256,7 @@
   },
   "ecsMoments": {
     "id": "ecs-moments",
-    "className": "",
+    "className": "section-page-cards-content--moments",
     "ariaLabel": "E-commerce business growth stages",
     "carouselLabel": "Business growth stages",
     "title": "Growth Changes the Business.<br><span class=\"is-muted\">And It Changes the Questions.</span>",
@@ -302,10 +291,10 @@
     "title": "International Growth Creates More Than Commercial Opportunity.",
     "lead": "Expanding across borders introduces new taxation, accounting, regulatory and corporate obligations.",
     "bullets": [
-    "Understanding tax and reporting obligations in new markets.",
-    "Supporting appropriate international corporate structures.",
-    "Addressing transfer pricing and intercompany arrangements.",
-    "Providing accounting, audit and transaction expertise across jurisdictions."
+      "Understanding tax and reporting obligations in new markets.",
+      "Supporting appropriate international corporate structures.",
+      "Addressing transfer pricing and intercompany arrangements.",
+      "Providing accounting, audit and transaction expertise across jurisdictions."
     ],
     "networkText": "Through Parker Russell International, independent member firms can collaborate across jurisdictions to provide locally informed advice and support more coordinated international operations.",
     "button": {
@@ -316,14 +305,24 @@
     "imageAlt": "Global consumer business network",
     "overlayText": "The objective is to help businesses manage<span class=\"is-ice\"> international complexity while maintaining reliable financial oversight.</span>",
     "stats": [
-      { "number": "86", "label": "Countries" },
-      { "number": "184", "label": "Offices" },
-      { "number": "2,000", "suffix": "+", "label": "Professionals" }
+      {
+        "number": "86",
+        "label": "Countries"
+      },
+      {
+        "number": "184",
+        "label": "Offices"
+      },
+      {
+        "number": "2,000",
+        "suffix": "+",
+        "label": "Professionals"
+      }
     ]
   },
   "ecsSegments": {
     "id": "ecs-segments",
-    "className": "",
+    "className": "section-page-cards-content--segments",
     "ariaLabel": "Priority areas for e-commerce businesses",
     "carouselLabel": "E-commerce service priorities",
     "title": "Different Models. Different Priorities.",
@@ -385,7 +384,7 @@
     "id": "ecs-final",
     "ariaLabel": "",
     "isSection": false,
-    "className": "",
+    "className": "page-hero--section",
     "imageBg": "",
     "imageLoading": "",
     "title": "",

@@ -5,7 +5,7 @@
   },
   "mfgHero": {
     "id": "mfg-page-hero",
-    "className": "",
+    "className": "page-hero--rich",
     "label": "MANUFACTURING",
     "labelPill": false,
     "imageBg": "/images/consumer-business/hero-bg.jpg",
@@ -29,17 +29,6 @@
       }
     ]
   },
-  "mfgSwitcher": {
-    "id": "mfg-switcher",
-    "ariaLabel": "",
-    "items": [
-      {
-        "label": "",
-        "href": "",
-        "active": false
-      }
-    ]
-  },
   "mfgOverview": {
     "id": "mfg-overview",
     "className": "section-page-content-banner--muted",
@@ -60,7 +49,7 @@
   },
   "mfgPressures": {
     "id": "mfg-pressures",
-    "className": "",
+    "className": "section-page-cards-content--muted section-page-cards-content--pressures",
     "ariaLabel": "Financial challenges in manufacturing",
     "carouselLabel": "Financial challenges",
     "eyebrow": "Manufacturers operate in environments where small changes in costs, production efficiency and supply-chain performance can materially affect profitability. Maintaining financial strength requires visibility across operations, investment and international obligations.",
@@ -142,7 +131,7 @@
   },
   "mfgChannels": {
     "id": "mfg-channels",
-    "className": "",
+    "className": "section-page-cards-content--channels",
     "ariaLabel": "Manufacturing sectors",
     "carouselLabel": "Manufacturing sectors",
     "title": "Different Manufacturing Models. Different Financial Priorities.",
@@ -267,7 +256,7 @@
   },
   "mfgMoments": {
     "id": "mfg-moments",
-    "className": "",
+    "className": "section-page-cards-content--moments",
     "ariaLabel": "Manufacturing business lifecycle stages",
     "carouselLabel": "Business lifecycle",
     "title": "From Production Growth to International Expansion.",
@@ -316,14 +305,24 @@
     "imageAlt": "Global consumer business network",
     "overlayText": "International collaboration helps manufacturers understand how local<span class=\"is-ice\"> obligations affect the financial performance and structure of the wider business.</span>",
     "stats": [
-      { "number": "86", "label": "Countries" },
-      { "number": "184", "label": "Offices" },
-      { "number": "2,000", "suffix": "+", "label": "Professionals" }
+      {
+        "number": "86",
+        "label": "Countries"
+      },
+      {
+        "number": "184",
+        "label": "Offices"
+      },
+      {
+        "number": "2,000",
+        "suffix": "+",
+        "label": "Professionals"
+      }
     ]
   },
   "mfgSegments": {
     "id": "mfg-segments",
-    "className": "",
+    "className": "section-page-cards-content--segments",
     "ariaLabel": "Critical financial priorities in manufacturing",
     "carouselLabel": "Financial priorities",
     "title": "Different Operations. Critical Financial Priorities.",
@@ -385,7 +384,7 @@
     "id": "mfg-final",
     "ariaLabel": "",
     "isSection": false,
-    "className": "",
+    "className": "page-hero--section",
     "imageBg": "",
     "imageLoading": "",
     "title": "",

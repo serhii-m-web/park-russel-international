@@ -5,7 +5,7 @@
   },
   "ognHero": {
     "id": "ogn-page-hero",
-    "className": "",
+    "className": "page-hero--rich",
     "label": "",
     "labelPill": false,
     "imageBg": "",
@@ -23,20 +23,9 @@
       }
     ]
   },
-  "ognSwitcher": {
-    "id": "ogn-switcher",
-    "ariaLabel": "",
-    "items": [
-      {
-        "label": "",
-        "href": "",
-        "active": false
-      }
-    ]
-  },
   "ognOverview": {
     "id": "ogn-overview",
-    "className": "",
+    "className": "section-page-content-banner--muted",
     "ariaLabel": "",
     "image": "",
     "imageAlt": "",
@@ -54,7 +43,7 @@
   },
   "ognPressures": {
     "id": "ogn-pressures",
-    "className": "",
+    "className": "section-page-cards-content--muted section-page-cards-content--pressures",
     "ariaLabel": "",
     "carouselLabel": "",
     "eyebrow": "",
@@ -96,7 +85,7 @@
   },
   "ognChannels": {
     "id": "ogn-channels",
-    "className": "",
+    "className": "section-page-cards-content--channels",
     "ariaLabel": "",
     "carouselLabel": "",
     "title": "",
@@ -145,7 +134,7 @@
   },
   "ognMoments": {
     "id": "ogn-moments",
-    "className": "",
+    "className": "section-page-cards-content--moments",
     "ariaLabel": "",
     "carouselLabel": "",
     "title": "",
@@ -181,7 +170,7 @@
   },
   "ognSegments": {
     "id": "ogn-segments",
-    "className": "",
+    "className": "section-page-cards-content--segments",
     "ariaLabel": "",
     "carouselLabel": "",
     "title": "",
@@ -223,7 +212,7 @@
     "id": "ogn-final",
     "ariaLabel": "",
     "isSection": false,
-    "className": "",
+    "className": "page-hero--section",
     "imageBg": "",
     "imageLoading": "",
     "title": "",

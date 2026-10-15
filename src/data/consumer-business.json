@@ -29,23 +29,6 @@
       }
     ]
   },
-  "cbSwitcher": {
-    "id": "cb-switcher",
-    "ariaLabel": "Browse industries",
-    "items": [
-      { "label": "Consumer Business", "href": "consumer-business.html", "active": true },
-      { "label": "E-commerce Services", "href": "e-commerce-services.html" },
-      { "label": "Energy, Infrastructure & Utilities", "href": "energy-infrastructure-utilities.html" },
-      { "label": "Financial Services", "href": "financial-services.html" },
-      { "label": "Government & Public Sector", "href": "government-public-sector.html" },
-      { "label": "Manufacturing", "href": "manufacturing.html" },
-      { "label": "Oil, Gas & Natural Resources", "href": "oil-gas-natural-resources.html" },
-      { "label": "Real Estate", "href": "real-estate.html" },
-      { "label": "Renewable Energy", "href": "renewable-energy.html" },
-      { "label": "Technology, Media & Telecoms", "href": "technology-media-telecoms.html" },
-      { "label": "Tourism, Hospitality & Leisure", "href": "tourism-hospitality-leisure.html" }
-    ]
-  },
   "cbOverview": {
     "id": "cb-overview",
     "className": "section-page-content-banner--muted",
@@ -223,31 +206,46 @@
         "icon": "/icons/icon-verified-user.svg",
         "title": "Audit & Assurance",
         "description": "Confidence in financial reporting as operations, systems and group structures become more complex.",
-        "link": { "label": "Explore Assurance", "href": "assurance.html" }
+        "link": {
+          "label": "Explore Assurance",
+          "href": "assurance.html"
+        }
       },
       {
         "icon": "/icons/icon-gavel.svg",
         "title": "Tax & Legal",
         "description": "Tax expertise around domestic and international operations, transactions, indirect taxation and cross-border activity.",
-        "link": { "label": "Explore Tax & Legal", "href": "tax-legal.html" }
+        "link": {
+          "label": "Explore Tax & Legal",
+          "href": "tax-legal.html"
+        }
       },
       {
         "icon": "/icons/icon-monitoring.svg",
         "title": "Financial Advisory",
         "description": "Greater clarity around performance, value, capital, financial exposure and significant business decisions.",
-        "link": { "label": "Explore Financial Advisory", "href": "financial-advisory.html" }
+        "link": {
+          "label": "Explore Financial Advisory",
+          "href": "financial-advisory.html"
+        }
       },
       {
         "icon": "/icons/icon-handshake.svg",
         "title": "Corporate Services",
         "description": "Corporate finance expertise around acquisitions, disposals, financing and other strategic transactions.",
-        "link": { "label": "Explore Corporate Services", "href": "corporate-services.html" }
+        "link": {
+          "label": "Explore Corporate Services",
+          "href": "corporate-services.html"
+        }
       },
       {
         "icon": "/icons/icon-swap-horiz.svg",
         "title": "Transfer Pricing",
         "description": "Expertise around transactions and arrangements between associated businesses operating across jurisdictions.",
-        "link": { "label": "Explore Transfer Pricing", "href": "transfer-pricing.html" }
+        "link": {
+          "label": "Explore Transfer Pricing",
+          "href": "transfer-pricing.html"
+        }
       }
     ]
   },
@@ -302,9 +300,19 @@
     "imageAlt": "Global consumer business network",
     "overlayText": "Local knowledge where the business operates. <span class=\"is-ice\">International perspective where the business connects.</span>",
     "stats": [
-      { "number": "86", "label": "Countries" },
-      { "number": "184", "label": "Offices" },
-      { "number": "2,000", "suffix": "+", "label": "Professionals" }
+      {
+        "number": "86",
+        "label": "Countries"
+      },
+      {
+        "number": "184",
+        "label": "Offices"
+      },
+      {
+        "number": "2,000",
+        "suffix": "+",
+        "label": "Professionals"
+      }
     ]
   },
   "cbSegments": {
@@ -360,7 +368,10 @@
         "date": "4 AUGUST 2025",
         "datetime": "2025-08-04",
         "title": "Companies House Crackdown: Businesses Urged to Act on ECCTA Deadlines",
-        "link": { "label": "Read article", "href": "#" }
+        "link": {
+          "label": "Read article",
+          "href": "#"
+        }
       },
       {
         "image": "/images/consumer-business/insight-2.jpg",
@@ -368,7 +379,10 @@
         "date": "18 JUNE 2025",
         "datetime": "2025-06-18",
         "title": "£4m Fine for Director in Client Money Breach",
-        "link": { "label": "Read article", "href": "#" }
+        "link": {
+          "label": "Read article",
+          "href": "#"
+        }
       },
       {
         "image": "/images/consumer-business/insight-3.jpg",
@@ -376,7 +390,10 @@
         "date": "20 MAY 2025",
         "datetime": "2025-05-20",
         "title": "The Next Generation of Investors Is Powering ESG's Revival",
-        "link": { "label": "Read article", "href": "#" }
+        "link": {
+          "label": "Read article",
+          "href": "#"
+        }
       }
     ]
   },

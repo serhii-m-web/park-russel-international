@@ -5,7 +5,7 @@
   },
   "gpsHero": {
     "id": "gps-page-hero",
-    "className": "",
+    "className": "page-hero--rich",
     "label": "GOVERNMENT & PUBLIC SECTOR",
     "labelPill": false,
     "imageBg": "/images/consumer-business/hero-bg.jpg",
@@ -29,20 +29,9 @@
       }
     ]
   },
-  "gpsSwitcher": {
-    "id": "gps-switcher",
-    "ariaLabel": "",
-    "items": [
-      {
-        "label": "",
-        "href": "",
-        "active": false
-      }
-    ]
-  },
   "gpsOverview": {
     "id": "gps-overview",
-    "className": "",
+    "className": "section-page-content-banner--muted",
     "ariaLabel": "Consumer business overview",
     "image": "/images/consumer-business/overview.jpg",
     "imageAlt": "Advisors consulting with a retail business owner",
@@ -60,7 +49,7 @@
   },
   "gpsPressures": {
     "id": "gps-pressures",
-    "className": "",
+    "className": "section-page-cards-content--muted section-page-cards-content--pressures",
     "ariaLabel": "Financial challenges in government and the public sector",
     "carouselLabel": "Financial challenges",
     "eyebrow": "Public institutions operate in environments where financial decisions, governance and service outcomes are closely connected. Managing these responsibilities requires reliable information, effective controls and independent professional judgement.",
@@ -142,7 +131,7 @@
   },
   "gpsChannels": {
     "id": "gps-channels",
-    "className": "",
+    "className": "section-page-cards-content--channels",
     "ariaLabel": "Government and public-sector organisations",
     "carouselLabel": "Public-sector organisations",
     "title": "Different Institutions. Shared Public Responsibilities.",
@@ -267,7 +256,7 @@
   },
   "gpsMoments": {
     "id": "gps-moments",
-    "className": "",
+    "className": "section-page-cards-content--moments",
     "ariaLabel": "Public-sector programme lifecycle",
     "carouselLabel": "Programme lifecycle",
     "title": "From Strategic Planning<br><span class=\"is-muted\"> to Measurable Outcomes.</span>",
@@ -316,14 +305,24 @@
     "imageAlt": "Global consumer business network",
     "overlayText": "International collaboration helps organisations address local institutional requirements <span class=\"is-ice\">while maintaining financial oversight of wider programmes and investments.</span>",
     "stats": [
-      { "number": "86", "label": "Countries" },
-      { "number": "184", "label": "Offices" },
-      { "number": "2,000", "suffix": "+", "label": "Professionals" }
+      {
+        "number": "86",
+        "label": "Countries"
+      },
+      {
+        "number": "184",
+        "label": "Offices"
+      },
+      {
+        "number": "2,000",
+        "suffix": "+",
+        "label": "Professionals"
+      }
     ]
   },
   "gpsSegments": {
     "id": "gps-segments",
-    "className": "",
+    "className": "section-page-cards-content--segments",
     "ariaLabel": "Critical financial priorities in the public sector",
     "carouselLabel": "Financial priorities",
     "title": "Public Responsibilities. Critical Financial Priorities.",
@@ -385,7 +384,7 @@
     "id": "gps-final",
     "ariaLabel": "",
     "isSection": false,
-    "className": "",
+    "className": "page-hero--section",
     "imageBg": "",
     "imageLoading": "",
     "title": "",

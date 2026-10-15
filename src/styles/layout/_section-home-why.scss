@@ -150,7 +150,7 @@
     justify-content: center;
     width: 60px;
     height: 60px;
-    margin-bottom: 8px;
+    @include adaptive-value('margin-bottom', 48, 24, 1);
     border-radius: 12px;
     background-color: $color-red;
 
@@ -166,20 +166,16 @@
     color: $color-dark-blue;
     font-weight: 500;
     letter-spacing: -0.312px;
-    font-size: 26px;
+    @include adaptive-value('font-size', 26, 19, 1);
     line-height: calc(32 / 26);
-
-    @include media('<tablet') {
-      font-size: 22px;
-      line-height: calc(28 / 22);
-    }
+    @include adaptive-value('margin-bottom', 20, 16, 1);
   }
 
   &__card-description {
     margin: 0;
     color: $color-text-muted;
     font-weight: 400;
-    font-size: 17px;
+    @include adaptive-value('font-size', 17, 16, 1);
     line-height: calc(26 / 17);
   }
 

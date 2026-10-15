@@ -248,10 +248,10 @@
       flex: 1;
       background-color: $color-white;
       position: relative;
-      padding: 56px 32px 40px;
+      padding: 32px 28px;
 
       @include media('<tablet') {
-        padding: 46px 20px 24px 20px;
+        padding: 20px;
       }
     }
 
@@ -607,7 +607,6 @@
       background: $color-red !important;
     }
   }
-
 
   &.fa-insight {
     background-color: $color-bg-muted;
