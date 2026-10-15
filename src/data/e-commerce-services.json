@@ -6,20 +6,26 @@
   "ecsHero": {
     "id": "ecs-page-hero",
     "className": "",
-    "label": "",
+    "label": "E-COMMERCE SERVICES",
     "labelPill": false,
-    "imageBg": "",
-    "imageLoading": "",
-    "title": "",
-    "description": "",
-    "note": "",
+    "imageBg": "/images/consumer-business/hero-bg.jpg",
+    "imageLoading": "eager",
+    "title": "Digital Commerce Moves Fast.<br/>Financial Complexity Moves With It.",
+    "description": "E-commerce creates opportunities to reach customers, enter new markets and scale internationally. It also brings increasingly complex tax obligations, financial reporting requirements, payment structures and cross-border operations.",
+    "note": "Parker Russell International connects e-commerce businesses with independent member firms providing audit, tax, accounting and advisory expertise across jurisdictions.",
     "aside": "",
     "buttons": [
       {
-        "label": "",
-        "href": "",
-        "variant": "",
-        "icon": false
+        "label": "Speak to an E-commerce Adviser Secondary",
+        "href": "#",
+        "variant": "primary",
+        "icon": true
+      },
+      {
+        "label": "Find a Member Firm",
+        "href": "#",
+        "variant": "secondary",
+        "icon": true
       }
     ]
   },
@@ -29,26 +35,26 @@
     "items": [
       {
         "label": "",
-        "href": "",
+        "href": "#",
         "active": false
       }
     ]
   },
   "ecsOverview": {
     "id": "ecs-overview",
-    "className": "",
-    "ariaLabel": "",
-    "image": "",
-    "imageAlt": "",
-    "text": "",
-    "body": "",
+    "className": "section-page-content-banner--muted",
+    "ariaLabel": "e-commerce services overview",
+    "image": "/images/consumer-business/overview.jpg",
+    "imageAlt": "Advisors consulting with a retail business owner",
+    "text": "<span>E-commerce Is Borderless. Its Obligations Are Not.</span>",
+    "body": "Selling online makes international expansion more accessible, but operating across multiple markets introduces significant financial, tax and regulatory responsibilities.",
     "banner": {
-      "imageBg": "",
+      "imageBg": "/images/e-commerce-services/statement-bg.jpg",
       "leftColumn": {
-        "icon": ""
+        "icon": "/icons/financial-assurance.svg"
       },
       "rightColumn": {
-        "text": ""
+        "text": "<span class=\"is-muted\">From marketplace sellers and direct-to-consumer brands to established international retailers,</span> <span>businesses need reliable financial information, appropriate structures and a clear understanding of their obligations in each jurisdiction.</span>"
       }
     }
   },
