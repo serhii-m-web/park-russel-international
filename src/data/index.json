@@ -124,45 +124,45 @@
     "counter": false,
     "slides": [
       {
-        "image": "/images/sliders/slide-img-1.png",
+        "image": "/images/assurance-hero-bg.jpg",
         "title": "Assurance",
-        "description": "Independent assurance provides confidence where reliable information matters most. Parker Russell member firms deliver audit and assurance services across a wide range of businesses and industries, combining technical rigour with an understanding of financial reporting, regulatory requirements, risk and the commercial environment in which clients operate.",
+        "description": "Financial information sits behind some of the most important decisions an organisation makes — from investment and financing to governance, transactions and long-term strategy.",
         "link": {
           "label": "Read More",
           "href": "assurance.html"
         }
       },
       {
-        "image": "/images/sliders/slide-img-2.png",
+        "image": "/images/tax-legal/hero-bg.jpg",
         "title": "Tax & Legal",
-        "description": "Tax and legal matters become increasingly complex when business crosses borders. Our member firms advise companies, investors and individuals on domestic and international taxation, legal requirements, corporate structures, transactions and compliance — bringing together relevant expertise when matters extend across more than one jurisdiction.",
+        "description": "Tax and legal considerations influence how businesses invest, operate, employ people, structure transactions and enter new markets.",
         "link": {
           "label": "Read More",
           "href": "tax-legal.html"
         }
       },
       {
-        "image": "/images/sliders/slide-img-3.png",
+        "image": "/images/corporate-services/hero-bg.jpg",
         "title": "Corporate Services",
-        "description": "From establishing a business in a new market to managing an international corporate structure, our member firms provide practical support across company formation, governance, compliance and ongoing corporate requirements. Local knowledge is combined with international coordination where businesses operate through multiple entities or jurisdictions.",
+        "description": "These are not routine decisions. They can change the ownership, financial structure and future direction of an organisation.",
         "link": {
           "label": "Read More",
           "href": "corporate-services.html"
         }
       },
       {
-        "image": "/images/sliders/slide-img-1.png",
+        "image": "/images/transfer-pricing/hero-bg.jpg",
         "title": "Transfer Pricing",
-        "description": "International groups face growing scrutiny over how value, profits and transactions are allocated across jurisdictions. Parker Russell member firms provide specialist transfer pricing advice covering policy development, documentation, benchmarking, risk assessment and cross-border arrangements, aligned with both regulatory requirements and the commercial substance of the business.",
+        "description": "For multinational businesses, transactions between related entities are part of everyday operations. Goods are supplied. Services are provided. Intellectual property is used. Financing moves between companies. Functions, assets and risks are distributed across jurisdictions.",
         "link": {
           "label": "Read More",
           "href": "transfer-pricing.html"
         }
       },
       {
-        "image": "/images/sliders/slide-img-2.png",
+        "image": "/images/financial-advisory/hero-bg.jpg",
         "title": "Financial Advisory",
-        "description": "Major business decisions require more than financial data — they require informed judgement. Our member firms provide independent financial advisory expertise across transactions, valuations, restructuring, due diligence and other strategic matters, helping businesses and stakeholders assess opportunities, understand risk and make decisions with greater clarity.",
+        "description": "Significant business decisions rarely depend on a single number. They involve questions of value, performance, capital, risk and future outcomes — often at moments when the consequences of getting the decision wrong are substantial.",
         "link": {
           "label": "Read More",
           "href": "financial-advisory.html"
