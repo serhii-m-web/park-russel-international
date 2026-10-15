@@ -182,50 +182,5 @@
         "description": ""
       }
     ]
-  },
-  "renInsights": {
-    "id": "ren-insights",
-    "ariaLabel": "",
-    "carouselLabel": "",
-    "title": "",
-    "lead": "",
-    "body": "",
-    "button": {
-      "label": "",
-      "href": ""
-    },
-    "items": [
-      {
-        "image": "",
-        "topic": "",
-        "date": "",
-        "datetime": "",
-        "title": "",
-        "link": {
-          "label": "",
-          "href": ""
-        }
-      }
-    ]
-  },
-  "renFinal": {
-    "id": "ren-final",
-    "ariaLabel": "",
-    "isSection": false,
-    "className": "page-hero--section",
-    "imageBg": "",
-    "imageLoading": "",
-    "title": "",
-    "description": "",
-    "note": "",
-    "tagline": "",
-    "buttons": [
-      {
-        "label": "",
-        "href": "",
-        "variant": "",
-        "icon": false
-      }
-    ]
   }
 }

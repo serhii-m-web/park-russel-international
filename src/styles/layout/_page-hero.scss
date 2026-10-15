@@ -272,7 +272,7 @@
   }
 
   &--section {
-    padding: 0;
+    @include adaptive-value('padding-top', 96, 56, 1);
     @include adaptive-value('padding-bottom', 96, 56, 1);
 
     .page-hero__inner {

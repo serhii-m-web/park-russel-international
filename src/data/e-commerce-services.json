@@ -354,50 +354,5 @@
         "description": "Financial due diligence, valuations and transaction preparation."
       }
     ]
-  },
-  "ecsInsights": {
-    "id": "ecs-insights",
-    "ariaLabel": "",
-    "carouselLabel": "",
-    "title": "",
-    "lead": "",
-    "body": "",
-    "button": {
-      "label": "",
-      "href": ""
-    },
-    "items": [
-      {
-        "image": "",
-        "topic": "",
-        "date": "",
-        "datetime": "",
-        "title": "",
-        "link": {
-          "label": "",
-          "href": ""
-        }
-      }
-    ]
-  },
-  "ecsFinal": {
-    "id": "ecs-final",
-    "ariaLabel": "",
-    "isSection": false,
-    "className": "page-hero--section",
-    "imageBg": "",
-    "imageLoading": "",
-    "title": "",
-    "description": "",
-    "note": "",
-    "tagline": "",
-    "buttons": [
-      {
-        "label": "",
-        "href": "",
-        "variant": "",
-        "icon": false
-      }
-    ]
   }
 }

@@ -1,159 +1,238 @@
 <section
   class="
     section-industry-insights
-    {{#if insights.className}}
-      {{ insights.className }}
-    {{/if}}
     {{#if sectionClass}}
       {{ sectionClass }}
     {{/if}}
   "
-  {{#if insights.id}}
-    id="{{ insights.id }}"
+  {{#if sectionClass}}
+    id="{{ sectionClass }}"
   {{/if}}
   data-industry-insights-slider
-  aria-labelledby="{{#if insights.id}}{{ insights.id }}{{else}}section-industry-insights{{/if}}-title"
+  aria-labelledby="{{#if sectionClass}}{{ sectionClass }}{{else}}section-industry-insights{{/if}}-title"
 >
   <div class="container">
     <div class="section-industry-insights__header">
       <div class="section-industry-insights__intro">
-        {{#if insights.title}}
-          <h2
-            id="{{#if insights.id}}{{ insights.id }}{{else}}section-industry-insights{{/if}}-title"
-            class="section-industry-insights__title"
-          >
-            {{{ insights.title }}}
-          </h2>
-        {{/if}}
+        <h2
+          id="{{#if sectionClass}}{{ sectionClass }}{{else}}section-industry-insights{{/if}}-title"
+          class="section-industry-insights__title"
+        >
+          Insight for a Market That Never Stands Still.
+        </h2>
 
-        {{#if insights.lead}}
-          <p class="section-industry-insights__lead">
-            {{{ insights.lead }}}
-          </p>
-        {{/if}}
+        <p class="section-industry-insights__lead">
+          Consumer markets continue to evolve as technology, international
+          trade, economic conditions and customer behaviour reshape how
+          businesses operate.
+        </p>
 
-        {{#if insights.body}}
-          <p class="section-industry-insights__body">
-            {{{ insights.body }}}
-          </p>
-        {{/if}}
+        <p class="section-industry-insights__body">
+          Parker Russell perspectives examine the financial, tax and commercial
+          developments behind that change — and what they can mean for
+          businesses across the sector.
+        </p>
       </div>
 
-      {{#if insights.button}}
-        <a
-          class="section-industry-insights__button site-button secondary-red"
-          href="{{ insights.button.href }}"
-        >
-          <span>{{ insights.button.label }}</span>
-          {{> icon
-            name="arrow-right"
-            width="16"
-            height="16"
-          }}
-        </a>
-      {{/if}}
+      <a
+        class="section-industry-insights__button site-button secondary-red"
+        href="#"
+      >
+        <span>Explore Consumer Business Insights</span>
+        {{> icon
+          name="arrow-right"
+          width="16"
+          height="16"
+        }}
+      </a>
     </div>
 
-    {{#if insights.items.length}}
-      <div class="section-industry-insights__list-wrap">
-        <div
-          class="swiper section-industry-insights__list"
-          data-industry-insights-slider-el
-          data-industry-insights-slider-label="{{#if insights.carouselLabel}}{{ insights.carouselLabel }}{{else}}{{ insights.ariaLabel }}{{/if}}"
-        >
-          <div class="swiper-wrapper">
-            {{#each insights.items}}
-              <article class="swiper-slide section-industry-insights__item">
-                {{#if image}}
-                  <div class="section-industry-insights__item-image-wrapper">
-                    {{picture
-                      image
-                      alt=title
-                      class="section-industry-insights__item-image"
-                      width="400"
-                      height="260"
-                    }}
-                  </div>
-                {{/if}}
-
-                <div class="section-industry-insights__item-content">
-                  <div class="section-industry-insights__item-header">
-                    {{#if date}}
-                      <time
-                        class="section-industry-insights__item-date"
-                        datetime="{{ datetime }}"
-                      >
-                        {{ date }}
-                      </time>
-                    {{/if}}
-                    {{#if topic}}
-                      <span class="section-industry-insights__item-dot" aria-hidden="true"></span>
-                      <span class="section-industry-insights__item-topic">{{ topic }}</span>
-                    {{/if}}
-                  </div>
-
-                  <h3 class="section-industry-insights__item-title">{{ title }}</h3>
-
-                  {{#if link}}
-                    <a
-                      class="section-industry-insights__item-link site-link"
-                      href="{{ link.href }}"
-                    >
-                      <span>{{ link.label }}</span>
-                      {{> icon
-                        name="arrow-right"
-                        width="16"
-                        height="16"
-                      }}
-                    </a>
-                  {{/if}}
-                </div>
-              </article>
-            {{/each}}
-          </div>
-        </div>
-
-        <div
-          class="section-industry-insights__navigation"
-          role="group"
-          aria-label="Insights slider controls"
-          data-industry-insights-slider-nav
-          inert
-        >
-          <div
-            class="swiper-scrollbar section-industry-insights__scrollbar"
-            data-industry-insights-slider-scrollbar
-            tabindex="0"
-            aria-label="Slider progress"
-          ></div>
-          <div class="section-industry-insights__nav-buttons">
-            <button
-              class="site-nav-btn swiper-button-prev section-industry-insights__nav-btn prev"
-              type="button"
-              data-industry-insights-slider-prev
-              aria-label="Previous slide"
-            >
-              {{> icon
-                name="arrow-right"
-                width="16"
-                height="16"
+    <div class="section-industry-insights__list-wrap">
+      <div
+        class="swiper section-industry-insights__list"
+        data-industry-insights-slider-el
+        data-industry-insights-slider-label="Consumer business insights"
+      >
+        <div class="swiper-wrapper">
+          <article class="swiper-slide section-industry-insights__item">
+            <div class="section-industry-insights__item-image-wrapper">
+              {{picture
+                "/images/consumer-business/insight-1.jpg"
+                alt="Companies House Crackdown: Businesses Urged to Act on ECCTA Deadlines"
+                class="section-industry-insights__item-image"
+                width="400"
+                height="260"
               }}
-            </button>
-            <button
-              class="site-nav-btn swiper-button-next section-industry-insights__nav-btn next"
-              type="button"
-              data-industry-insights-slider-next
-              aria-label="Next slide"
-            >
-              {{> icon
-                name="arrow-right"
-                width="16"
-                height="16"
+            </div>
+
+            <div class="section-industry-insights__item-content">
+              <div class="section-industry-insights__item-header">
+                <time
+                  class="section-industry-insights__item-date"
+                  datetime="2025-08-04"
+                >
+                  4 AUGUST 2025
+                </time>
+                <span
+                  class="section-industry-insights__item-dot"
+                  aria-hidden="true"
+                ></span>
+                <span class="section-industry-insights__item-topic"
+                  >COMPLIANCE</span
+                >
+              </div>
+
+              <h3 class="section-industry-insights__item-title">
+                Companies House Crackdown: Businesses Urged to Act on ECCTA
+                Deadlines
+              </h3>
+
+              <a
+                class="section-industry-insights__item-link site-link"
+                href="#"
+              >
+                <span>Read article</span>
+                {{> icon
+                  name="arrow-right"
+                  width="16"
+                  height="16"
+                }}
+              </a>
+            </div>
+          </article>
+
+          <article class="swiper-slide section-industry-insights__item">
+            <div class="section-industry-insights__item-image-wrapper">
+              {{picture
+                "/images/consumer-business/insight-2.jpg"
+                alt="£4m Fine for Director in Client Money Breach"
+                class="section-industry-insights__item-image"
+                width="400"
+                height="260"
               }}
-            </button>
-          </div>
+            </div>
+
+            <div class="section-industry-insights__item-content">
+              <div class="section-industry-insights__item-header">
+                <time
+                  class="section-industry-insights__item-date"
+                  datetime="2025-06-18"
+                >
+                  18 JUNE 2025
+                </time>
+                <span
+                  class="section-industry-insights__item-dot"
+                  aria-hidden="true"
+                ></span>
+                <span class="section-industry-insights__item-topic"
+                  >REGULATION</span
+                >
+              </div>
+
+              <h3 class="section-industry-insights__item-title">
+                £4m Fine for Director in Client Money Breach
+              </h3>
+
+              <a
+                class="section-industry-insights__item-link site-link"
+                href="#"
+              >
+                <span>Read article</span>
+                {{> icon
+                  name="arrow-right"
+                  width="16"
+                  height="16"
+                }}
+              </a>
+            </div>
+          </article>
+
+          <article class="swiper-slide section-industry-insights__item">
+            <div class="section-industry-insights__item-image-wrapper">
+              {{picture
+                "/images/consumer-business/insight-3.jpg"
+                alt="The Next Generation of Investors Is Powering ESG's Revival"
+                class="section-industry-insights__item-image"
+                width="400"
+                height="260"
+              }}
+            </div>
+
+            <div class="section-industry-insights__item-content">
+              <div class="section-industry-insights__item-header">
+                <time
+                  class="section-industry-insights__item-date"
+                  datetime="2025-05-20"
+                >
+                  20 MAY 2025
+                </time>
+                <span
+                  class="section-industry-insights__item-dot"
+                  aria-hidden="true"
+                ></span>
+                <span class="section-industry-insights__item-topic">ESG</span>
+              </div>
+
+              <h3 class="section-industry-insights__item-title">
+                The Next Generation of Investors Is Powering ESG's Revival
+              </h3>
+
+              <a
+                class="section-industry-insights__item-link site-link"
+                href="#"
+              >
+                <span>Read article</span>
+                {{> icon
+                  name="arrow-right"
+                  width="16"
+                  height="16"
+                }}
+              </a>
+            </div>
+          </article>
         </div>
       </div>
-    {{/if}}
+
+      <div
+        class="section-industry-insights__navigation"
+        role="group"
+        aria-label="Insights slider controls"
+        data-industry-insights-slider-nav
+        inert
+      >
+        <div
+          class="swiper-scrollbar section-industry-insights__scrollbar"
+          data-industry-insights-slider-scrollbar
+          tabindex="0"
+          aria-label="Slider progress"
+        ></div>
+        <div class="section-industry-insights__nav-buttons">
+          <button
+            class="site-nav-btn swiper-button-prev section-industry-insights__nav-btn prev"
+            type="button"
+            data-industry-insights-slider-prev
+            aria-label="Previous slide"
+          >
+            {{> icon
+              name="arrow-right"
+              width="16"
+              height="16"
+            }}
+          </button>
+          <button
+            class="site-nav-btn swiper-button-next section-industry-insights__nav-btn next"
+            type="button"
+            data-industry-insights-slider-next
+            aria-label="Next slide"
+          >
+            {{> icon
+              name="arrow-right"
+              width="16"
+              height="16"
+            }}
+          </button>
+        </div>
+      </div>
+    </div>
   </div>
 </section>

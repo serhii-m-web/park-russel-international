@@ -354,50 +354,5 @@
         "description": "Financial due diligence, valuations, acquisitions and restructuring support."
       }
     ]
-  },
-  "mfgInsights": {
-    "id": "mfg-insights",
-    "ariaLabel": "",
-    "carouselLabel": "",
-    "title": "",
-    "lead": "",
-    "body": "",
-    "button": {
-      "label": "",
-      "href": ""
-    },
-    "items": [
-      {
-        "image": "",
-        "topic": "",
-        "date": "",
-        "datetime": "",
-        "title": "",
-        "link": {
-          "label": "",
-          "href": ""
-        }
-      }
-    ]
-  },
-  "mfgFinal": {
-    "id": "mfg-final",
-    "ariaLabel": "",
-    "isSection": false,
-    "className": "page-hero--section",
-    "imageBg": "",
-    "imageLoading": "",
-    "title": "",
-    "description": "",
-    "note": "",
-    "tagline": "",
-    "buttons": [
-      {
-        "label": "",
-        "href": "",
-        "variant": "",
-        "icon": false
-      }
-    ]
   }
 }
