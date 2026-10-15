@@ -52,7 +52,8 @@
     "className": "section-page-cards-content--muted section-page-cards-content--pressures",
     "ariaLabel": "Financial challenges in manufacturing",
     "carouselLabel": "Financial challenges",
-    "eyebrow": "Manufacturers operate in environments where small changes in costs, production efficiency and supply-chain performance can materially affect profitability. Maintaining financial strength requires visibility across operations, investment and international obligations.",
+    "eyebrow": "",
+    "description": "Manufacturers operate in environments where small changes in costs, production efficiency and supply-chain performance can materially affect profitability. Maintaining financial strength requires visibility across operations, investment and international obligations.",
     "title": "The Financial Challenges Behind Manufacturing Performance.",
     "cards": [
       {
@@ -260,6 +261,7 @@
     "ariaLabel": "Manufacturing business lifecycle stages",
     "carouselLabel": "Business lifecycle",
     "title": "From Production Growth to International Expansion.",
+    "description" : "Financial priorities evolve as manufacturing businesses increase capacity, invest in technology and expand into new markets. Our member firms provide professional expertise aligned with each stage.",
     "cards": [
       {
         "icon": "/icons/icon-public.svg",
