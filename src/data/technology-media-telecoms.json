@@ -6,20 +6,26 @@
   "tmtHero": {
     "id": "tmt-page-hero",
     "className": "page-hero--rich",
-    "label": "",
+    "label": "TECHNOLOGY, MEDIA & TELECOMS",
     "labelPill": false,
-    "imageBg": "",
-    "imageLoading": "",
-    "title": "",
-    "description": "",
-    "note": "",
+    "imageBg": "/images/consumer-business/hero-bg.jpg",
+    "imageLoading": "eager",
+    "title": "Innovation. Financial Confidence. International Growth.",
+    "description": "Technology, media and telecommunications businesses operate in markets defined by rapid innovation, evolving commercial models and international expansion. Intellectual property, recurring revenues, investment requirements and complex tax obligations demand reliable financial reporting, effective controls and informed strategic decisions.",
+    "note": "Parker Russell International connects TMT businesses, founders and investors with independent member firms providing audit, tax, corporate finance and advisory expertise across international markets.",
     "aside": "",
     "buttons": [
       {
-        "label": "",
+        "label": "Speak to a TMT Adviser",
         "href": "contact.html",
-        "variant": "",
-        "icon": false
+        "variant": "primary",
+        "icon": true
+      },
+      {
+        "label": "Find a Member Firm",
+        "href": "contact.html",
+        "variant": "secondary",
+        "icon": true
       }
     ]
   },
@@ -27,17 +33,17 @@
     "id": "tmt-overview",
     "className": "section-page-content-banner--muted",
     "ariaLabel": "",
-    "image": "",
-    "imageAlt": "",
-    "text": "",
-    "body": "",
+    "image": "/images/consumer-business/overview.jpg",
+    "imageAlt": "Advisors consulting with a retail business owner",
+    "text": "<span>Growth Changes the Financial Requirements of the Business.</span>",
+    "body": "Technology, media and telecoms businesses must balance innovation and commercial expansion with increasingly complex financial, tax and governance responsibilities.",
     "banner": {
-      "imageBg": "",
+      "imageBg": "/images/consumer-business/statement-bg.jpg",
       "leftColumn": {
-        "icon": ""
+        "icon": "/icons/financial-assurance.svg"
       },
       "rightColumn": {
-        "text": ""
+        "text": "<span class=\"is-muted\">From emerging software companies and digital platforms to established media groups and telecommunications operators, growth introduces new demands involving funding, revenue reporting, intellectual property and international structures.</span><span>Reliable financial information and scalable financial processes provide the foundation for attracting investment, managing risk and supporting long-term development.</span>"
       }
     }
   },
@@ -47,84 +53,201 @@
     "ariaLabel": "",
     "carouselLabel": "",
     "eyebrow": "",
-    "title": "",
+    "title": "The Financial Challenges Behind Innovation and Growth.",
+    "description": "TMT businesses operate in environments where commercial models, technology and financial requirements evolve rapidly. Maintaining financial strength requires specialist expertise across investment, reporting, taxation and international operations.",
     "cards": [
       {
-        "icon": "",
-        "title": "",
-        "description": ""
+        "icon": "/icons/icon-channel-cart.svg",
+        "title": "Funding & Growth Capital",
+        "description": "Managing investment requirements, financial forecasts, funding structures and investor expectations."
+      },
+      {
+        "icon": "/icons/icon-pressure-percent.svg",
+        "title": "Revenue & Financial Reporting",
+        "description": "Addressing subscription revenues, licensing arrangements, digital transactions and accounting requirements."
+      },
+      {
+        "icon": "/icons/icon-pressure-inventory.svg",
+        "title": "Intellectual Property & Tax",
+        "description": "Managing R&D incentives, intellectual property ownership and related tax considerations."
+      },
+      {
+        "icon": "/icons/icon-channel-storefront.svg",
+        "title": "International Expansion",
+        "description": "Structuring overseas entities, cross-border operations and international tax obligations."
+      },
+      {
+        "icon": "/icons/icon-pressure-shipping.svg",
+        "title": "Financial Controls & Governance",
+        "description": "Developing reliable reporting systems, financial oversight and scalable internal controls."
+      },
+      {
+        "icon": "/icons/icon-public.svg",
+        "title": "Investment & Transactions",
+        "description": "Supporting fundraising, valuations, acquisitions, IPO preparation and exit planning."
       }
     ]
   },
   "tmtRevenue": {
     "id": "tmt-revenue",
-    "ariaLabel": "",
-    "title": "",
-    "conclusion": "",
+    "ariaLabel": "Financial structure and business growth",
+    "title": "Innovation Creates Value. Financial Structure Protects It.",
+    "conclusion": "The financial strength of a TMT business depends on how effectively its reporting, funding and governance develop alongside commercial growth.",
     "items": [
       {
-        "number": "",
-        "text": ""
+        "number": "01",
+        "text": "Rapid growth requires scalable financial systems. Reporting, forecasting and internal controls must develop as revenues, teams and operations expand."
+      },
+      {
+        "number": "02",
+        "text": "Intellectual property creates structural complexity. Ownership, development expenditure and cross-border arrangements can materially influence taxation and value."
+      },
+      {
+        "number": "03",
+        "text": "Revenue models demand appropriate accounting treatment. Subscriptions, licences and long-term contracts require reliable reporting and financial oversight."
+      },
+      {
+        "number": "04",
+        "text": "Investment readiness begins before a transaction. Strong financial information, credible forecasts and appropriate structures support funding, acquisitions and exit opportunities."
       }
     ]
   },
   "tmtInventory": {
     "id": "tmt-inventory",
-    "ariaLabel": "",
-    "title": "",
-    "lead": "",
+    "ariaLabel": "Intellectual property and financial structuring",
+    "title": "Intellectual Property Creates Value.<br><span class=\"is-ice\">Its Structure Shapes the Return.</span>",
+    "lead": "Technology, media and digital businesses increasingly derive significant value from software, proprietary technology, creative content and intellectual property.",
     "cards": [
       {
-        "text": ""
+        "text": "Intellectual Property & Tax Structuring: Assessing ownership arrangements, R&D-related tax considerations and international structures relevant to intellectual property."
+      },
+      {
+        "text": "Financial Reporting & Valuation: Addressing development expenditure, accounting treatment, valuations and reporting requirements associated with intangible assets."
       }
     ],
-    "body": "",
-    "image": "",
-    "imageAlt": "",
-    "statement": ""
+    "body": "Ownership arrangements, development expenditure, licensing structures and international transactions can materially affect taxation, financial reporting and future investment value.",
+    "image": "/images/consumer-business/inventory.jpg",
+    "imageAlt": "Warehouse inventory and stock management",
+    "statement": "Appropriate financial and tax structures help businesses protect value while preparing for international growth and strategic transactions."
   },
   "tmtChannels": {
     "id": "tmt-channels",
     "className": "section-page-cards-content--channels",
-    "ariaLabel": "",
-    "carouselLabel": "",
-    "title": "",
-    "lead": "",
-    "leadStrong": "",
+    "ariaLabel": "Technology, media and telecoms business models",
+    "carouselLabel": "TMT business models",
+    "title": "Different Business Models. Different Financial Requirements.",
+    "lead": "Technology, media and telecommunications encompass distinct commercial models, revenue structures and investment requirements.",
+    "leadStrong": "Each creates specific financial, tax and reporting considerations.",
     "cards": [
       {
-        "icon": "",
-        "title": "",
-        "description": ""
+        "icon": "/icons/icon-channel-storefront.svg",
+        "title": "Technology & Software",
+        "description": "Software, SaaS and technology companies managing development costs, recurring revenues, funding and international expansion."
+      },
+      {
+        "icon": "/icons/icon-channel-warehouse.svg",
+        "title": "Fintech & Digital Platforms",
+        "description": "Financial technology and digital businesses navigating complex transactions, governance and regulatory requirements."
+      },
+      {
+        "icon": "/icons/icon-channel-cart.svg",
+        "title": "Media & Creative Industries",
+        "description": "Film, television, gaming and creative businesses managing intellectual property, production finance and content revenues."
+      },
+      {
+        "icon": "/icons/icon-channel-devices.svg",
+        "title": "Telecoms & Connectivity",
+        "description": "Telecommunications operators managing infrastructure investment, recurring revenues, financing and long-term assets."
       }
     ],
-    "conclusion": ""
+    "conclusion": "Different business models require tailored financial approaches — supported by reliable reporting, appropriate structures and sound professional judgement."
   },
   "tmtQuestions": {
     "id": "tmt-questions",
-    "ariaLabel": "",
-    "image": "",
-    "title": "",
+    "ariaLabel": "Key financial questions for TMT businesses",
+    "image": "/images/consumer-business/earth-sphere.svg",
+    "title": "The Questions TMT Businesses Are Asking.",
     "items": [
       {
-        "number": "",
-        "question": "",
-        "answer": ""
+        "number": "01",
+        "question": "Is our financial structure ready for growth?",
+        "answer": "Reporting systems, financial controls, funding requirements and scalable processes."
+      },
+      {
+        "number": "02",
+        "question": "How should we finance the next stage?",
+        "answer": "Cash-flow forecasts, funding structures, valuations and investor expectations."
+      },
+      {
+        "number": "03",
+        "question": "Are our revenues being reported appropriately?",
+        "answer": "Subscription models, licensing arrangements, contracts and accounting policies."
+      },
+      {
+        "number": "04",
+        "question": "How should intellectual property be structured?",
+        "answer": "Ownership, R&D incentives, transfer pricing and international tax considerations."
+      },
+      {
+        "number": "05",
+        "question": "Are we prepared for international expansion?",
+        "answer": "Corporate entities, cross-border taxation, group structures and reporting obligations."
+      },
+      {
+        "number": "06",
+        "question": "Are we ready for investment, IPO or exit?",
+        "answer": "Financial due diligence, valuations, reporting quality and transaction preparation."
       }
     ]
   },
   "tmtServices": {
     "id": "tmt-services",
     "ariaLabel": "",
-    "title": "",
-    "subtitle": "",
-    "image": "",
-    "imageAlt": "",
+    "title": "Expertise Across the TMT Financial Landscape.",
+    "subtitle": "Our independent member firms bring together audit, taxation, accounting and financial advisory expertise to support technology, media and telecoms businesses managing rapid growth, international operations and strategic investment decisions.",
+    "image": "/images/consumer-business/services-team.jpg",
+    "imageAlt": "Advisory team meeting with a consumer business client",
     "items": [
       {
-        "icon": "",
-        "title": "",
-        "description": "",
+        "icon": "/icons/icon-verified-user.svg",
+        "title": "Establishment",
+        "description": "Accounting structures, tax considerations, initial financial controls and funding requirements.",
+        "link": {
+          "label": "",
+          "href": "assurance.html"
+        }
+      },
+      {
+        "icon": "/icons/icon-gavel.svg",
+        "title": "Scaling",
+        "description": "Management reporting, revenue analysis, forecasting and financial oversight.",
+        "link": {
+          "label": "",
+          "href": "assurance.html"
+        }
+      },
+      {
+        "icon": "/icons/icon-monitoring.svg",
+        "title": "Expansion",
+        "description": "International tax, overseas entities, intellectual property and transfer pricing",
+        "link": {
+          "label": "",
+          "href": "assurance.html"
+        }
+      },
+      {
+        "icon": "/icons/icon-handshake.svg",
+        "title": "Investment",
+        "description": "Fundraising preparation, financial modelling, valuations and investor reporting.",
+        "link": {
+          "label": "",
+          "href": "assurance.html"
+        }
+      },
+      {
+        "icon": "/icons/icon-swap-horiz.svg",
+        "title": "Transactions",
+        "description": "Financial due diligence, acquisitions, IPO preparation, restructuring and exit.",
         "link": {
           "label": "",
           "href": "assurance.html"
@@ -135,51 +258,102 @@
   "tmtMoments": {
     "id": "tmt-moments",
     "className": "section-page-cards-content--moments",
-    "ariaLabel": "",
-    "carouselLabel": "",
-    "title": "",
+    "ariaLabel": "TMT business development stages",
+    "carouselLabel": "TMT growth stages",
+    "title": "Expertise Across the TMT Financial Landscape.",
+    "description": "Financial priorities evolve as TMT businesses develop products, attract investment and expand into new markets. Our member firms provide professional expertise aligned with each stage.",
     "cards": [
       {
-        "icon": "",
-        "description": ""
+        "icon": "/icons/icon-public.svg",
+        "description": "<strong>Establishment</strong><br>Accounting structures, tax considerations, initial financial controls and funding requirements."
+      },
+      {
+        "icon": "/icons/icon-moment-sell.svg",
+        "description": "<strong>Scaling</strong><br>Management reporting, revenue analysis, forecasting and financial oversight."
+      },
+      {
+        "icon": "/icons/icon-moment-rocket.svg",
+        "description": "<strong>Expansion</strong><br>International tax, overseas entities, intellectual property and transfer pricing."
+      },
+      {
+        "icon": "/icons/icon-handshake.svg",
+        "description": "<strong>Investment</strong><br>Fundraising preparation, financial modelling, valuations and investor reporting."
+      },
+      {
+        "icon": "/icons/icon-trending-up.svg  ",
+        "description": "<strong>Transactions</strong><br>Financial due diligence, acquisitions, IPO preparation, restructuring and exit."
       }
     ],
-    "conclusion": ""
+    "conclusion": "At every stage, reliable financial information and informed professional advice support investment decisions, international growth and long-term business value."
   },
   "tmtInternational": {
     "id": "tmt-international",
     "ariaLabel": "",
-    "eyebrow": "",
-    "title": "",
-    "lead": "",
-    "bullets": [],
-    "networkText": "",
+    "eyebrow": "INTERNATIONAL REACH",
+    "title": "Technology Scales Globally. Financial Obligations Follow.",
+    "lead": "Technology and digital businesses can reach international markets rapidly, while taxation, corporate structures and financial reporting obligations remain jurisdiction-specific.",
+    "bullets": [
+      "Understanding international tax and reporting requirements.",
+      "Supporting overseas entities and group structures.",
+      "Addressing intellectual property and transfer pricing arrangements.",
+      "Providing assurance and transaction expertise across jurisdictions."
+    ],
+    "networkText": "Through Parker Russell International, independent member firms collaborate to provide locally informed expertise and support coordinated financial management across international technology, media and telecoms operations.",
     "button": {
-      "label": "",
+      "label": "Find a Member Firm",
       "href": "about-us.html"
     },
-    "image": "",
-    "imageAlt": "",
-    "overlayText": "",
+    "image": "/images/consumer-business/international.jpg",
+    "imageAlt": "Global consumer business network",
+    "overlayText": "International collaboration helps businesses understand how local financial<span class=\"is-ice\"> obligations affect the wider structure, performance and development of their operations.</span>",
     "stats": [
       {
-        "number": "",
-        "label": ""
+        "number": "86",
+        "label": "Countries"
+      },
+      {
+        "number": "184",
+        "label": "Offices"
+      },
+      {
+        "number": "2,000",
+        "suffix": "+",
+        "label": "Professionals"
       }
     ]
   },
   "tmtSegments": {
     "id": "tmt-segments",
     "className": "section-page-cards-content--segments",
-    "ariaLabel": "",
-    "carouselLabel": "",
-    "title": "",
-    "lead": "",
+    "ariaLabel": "Critical financial priorities for TMT businesses",
+    "carouselLabel": "TMT financial priorities",
+    "title": "Different Technologies. Critical Financial Priorities.",
+    "lead": "The financial characteristics of TMT businesses create distinct requirements for funding, taxation, reporting and long-term growth.",
     "cards": [
       {
-        "icon": "",
-        "title": "",
-        "description": ""
+        "icon": "/icons/icon-segment-bag.svg",
+        "title": "Growth Capital",
+        "description": "Funding structures, financial forecasts, investor requirements and capital planning."
+      },
+      {
+        "icon": "/icons/icon-channel-storefront.svg",
+        "title": "R&D & Intellectual Property",
+        "description": "Development expenditure, tax incentives, intellectual property ownership and related arrangements."
+      },
+      {
+        "icon": "/icons/icon-channel-devices.svg",
+        "title": "Revenue Reporting",
+        "description": "Subscription income, licensing agreements, financial statements and accounting requirements."
+      },
+      {
+        "icon": "/icons/icon-channel-warehouse.svg",
+        "title": "International Tax",
+        "description": "Cross-border taxation, transfer pricing and international corporate structures."
+      },
+      {
+        "icon": "/icons/icon-hub.svg",
+        "title": "Investment & Transactions",
+        "description": "Financial due diligence, valuations, acquisitions, IPO preparation and exit."
       }
     ]
   }
