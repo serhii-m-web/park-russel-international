@@ -365,6 +365,12 @@
       }
     }
 
+    .page-hero__note {
+      @include media('<tablet') {
+        order: 3;
+      }
+    }
+
     .page-hero__description {
       @include media('<tablet') {
         order: 4;

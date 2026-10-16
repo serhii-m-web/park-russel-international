@@ -448,13 +448,12 @@
     }
   }
 
-
   &__archive-content {
     display: flex;
     flex-direction: column;
     flex: 1 1 auto;
     gap: 8px;
-    padding: 0 8px;
+    padding: 10px 8px;
     min-width: 0;
 
     @include media('<tablet') {

@@ -7,24 +7,38 @@
   &__scroller {
     position: relative;
 
-    // Fade the right edge to hint that more chips are scrollable
+    // Fade edges to hint that more chips are scrollable
+    &::before,
     &::after {
       content: '';
       position: absolute;
       top: 0;
-      right: 0;
       bottom: 0;
-      width: 64px;
+      width: 3%;
+      pointer-events: none;
+      z-index: 1;
+
+      @include media('<tablet') {
+        width: 40px;
+      }
+    }
+
+    &::before {
+      left: 0;
+      background: linear-gradient(
+        270deg,
+        rgba($color-white, 0) 0%,
+        $color-white 100%
+      );
+    }
+
+    &::after {
+      right: 0;
       background: linear-gradient(
         90deg,
         rgba($color-white, 0) 0%,
         $color-white 100%
       );
-      pointer-events: none;
-
-      @include media('<tablet') {
-        width: 40px;
-      }
     }
   }
 
@@ -33,7 +47,7 @@
     align-items: center;
     gap: 12px;
     margin: 0;
-    padding: 4px 64px 4px 0;
+    padding: 4px 64px 4px 16px;
     list-style: none;
     overflow-x: auto;
     scrollbar-width: none;

@@ -33,23 +33,19 @@ export function initIndustrySwitcher(root: ParentNode = document): void {
   lists.forEach((list) => {
     markActiveChip(list);
 
+    let isPointerDown = false;
     let isDragging = false;
     let pointerId: number | null = null;
     let startX = 0;
     let startScrollLeft = 0;
     let didDrag = false;
 
-    const stopDragging = (event?: PointerEvent): void => {
-      if (!isDragging) return;
-
-      if (
-        event &&
-        pointerId !== null &&
-        list.hasPointerCapture(pointerId)
-      ) {
+    const resetPointerState = (): void => {
+      if (pointerId !== null && list.hasPointerCapture(pointerId)) {
         list.releasePointerCapture(pointerId);
       }
 
+      isPointerDown = false;
       isDragging = false;
       pointerId = null;
       list.classList.remove('is-dragging');
@@ -59,29 +55,36 @@ export function initIndustrySwitcher(root: ParentNode = document): void {
       // Touch already scrolls via overflow; only add drag for mouse/pen.
       if (event.pointerType === 'touch' || event.button !== 0) return;
 
-      isDragging = true;
+      isPointerDown = true;
+      isDragging = false;
       didDrag = false;
       pointerId = event.pointerId;
       startX = event.clientX;
       startScrollLeft = list.scrollLeft;
-      list.classList.add('is-dragging');
-      list.setPointerCapture(event.pointerId);
     });
 
     list.addEventListener('pointermove', (event) => {
-      if (!isDragging || event.pointerId !== pointerId) return;
+      if (!isPointerDown || event.pointerId !== pointerId) return;
 
       const deltaX = event.clientX - startX;
-      if (Math.abs(deltaX) > DRAG_THRESHOLD_PX) {
+
+      // Start drag only after a small movement so plain clicks still hit links.
+      if (!isDragging) {
+        if (Math.abs(deltaX) <= DRAG_THRESHOLD_PX) return;
+
+        isDragging = true;
         didDrag = true;
+        list.classList.add('is-dragging');
+        list.setPointerCapture(event.pointerId);
       }
 
       list.scrollLeft = startScrollLeft - deltaX;
     });
 
-    list.addEventListener('pointerup', stopDragging);
-    list.addEventListener('pointercancel', stopDragging);
+    list.addEventListener('pointerup', resetPointerState);
+    list.addEventListener('pointercancel', resetPointerState);
     list.addEventListener('lostpointercapture', () => {
+      isPointerDown = false;
       isDragging = false;
       pointerId = null;
       list.classList.remove('is-dragging');

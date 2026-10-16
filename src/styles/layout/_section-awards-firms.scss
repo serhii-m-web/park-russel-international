@@ -391,6 +391,7 @@
     height: 56px;
     border-radius: 6px;
     background-color: $color-red;
+    @include adaptive-value('margin-bottom', 48, 24, 1);
 
     img {
       display: block;

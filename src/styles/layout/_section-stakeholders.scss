@@ -155,7 +155,7 @@
     font-weight: 400;
     letter-spacing: -0.1px;
     line-height: calc(28 / 20);
-    @include adaptive-value('font-size', 20, 16, 1);
+    @include adaptive-value('font-size', 18, 16, 1);
   }
 
   &__navigation {
@@ -194,7 +194,6 @@
       background: $color-red !important;
     }
   }
-
 
   &__statement {
     margin: 48px 0 0;

@@ -17,10 +17,7 @@
         }
       ]
     },
-    "titleLines": [
-      "Business Across Borders.",
-      "Expertise Across Markets."
-    ],
+    "titleLines": ["Business Across Borders.", "Expertise Across Markets."],
     "description": "Parker Russell International brings together independent audit, tax, accounting and advisory firms across the world — connecting businesses with the expertise they need in the markets where they operate and grow.",
     "buttons": [
       {
@@ -112,10 +109,7 @@
     "id": "expertise-slider",
     "className": "",
     "carouselLabel": "Expertise areas",
-    "titleLines": [
-      "Expertise for Business",
-      "at Every Stage"
-    ],
+    "titleLines": ["Expertise for Business", "at Every Stage"],
     "description": "Parker Russell International brings together specialist expertise across five core areas, helping businesses address financial, regulatory and strategic matters with the perspective of professionals who understand both local markets and international business.",
     "button": {
       "label": "Explore Our Services",
@@ -175,10 +169,7 @@
     "className": "section-slider--industry",
     "breakpoints": "regular",
     "carouselLabel": "Industry areas",
-    "titleLines": [
-      "Expertise Built Around",
-      "Your Industry"
-    ],
+    "titleLines": ["Expertise Built Around", "Your Industry"],
     "description": "Every industry faces its own combination of regulation, financial pressure, technological change and international complexity. Parker Russell member firms combine sector knowledge with audit, tax and advisory expertise to address the issues that matter within each market.",
     "button": {
       "label": "Explore All Industries",
@@ -241,9 +232,9 @@
         }
       },
       {
-        "image": "",
+        "image": "/images/consumer-business/hero-bg.jpg",
         "title": "Oil, Gas & Natural Resources",
-        "description": "",
+        "description": "Oil, gas and natural resources businesses operate in markets defined by substantial capital requirements, commodity volatility and complex international structures. Long investment horizons, demanding reporting obligations and changing market conditions require disciplined financial management, effective governance and informed investment decisions.",
         "link": {
           "label": "Read More",
           "href": "oil-gas-natural-resources.html"
@@ -259,27 +250,27 @@
         }
       },
       {
-        "image": "",
+        "image": "/images/consumer-business/hero-bg.jpg",
         "title": "Renewable Energy",
-        "description": "",
+        "description": "Renewable energy is reshaping global investment, infrastructure and energy markets. Significant capital requirements, evolving regulatory frameworks and long-term revenue commitments demand rigorous financial planning, appropriate investment structures and reliable financial oversight.",
         "link": {
           "label": "Read More",
           "href": "renewable-energy.html"
         }
       },
       {
-        "image": "",
+        "image": "/images/consumer-business/hero-bg.jpg",
         "title": "Technology, Media & Telecoms",
-        "description": "",
+        "description": "Technology, media and telecommunications businesses operate in markets defined by rapid innovation, evolving commercial models and international expansion. Intellectual property, recurring revenues, investment requirements and complex tax obligations demand reliable financial reporting, effective controls and informed strategic decisions.",
         "link": {
           "label": "Read More",
           "href": "technology-media-telecoms.html"
         }
       },
       {
-        "image": "",
+        "image": "/images/consumer-business/hero-bg.jpg",
         "title": "Tourism, Hospitality & Leisure",
-        "description": "",
+        "description": "Tourism, hospitality and leisure businesses operate in markets shaped by changing customer demand, seasonal fluctuations and significant operating costs. Pricing, labour, property commitments and international operations demand disciplined financial management, reliable reporting and informed investment decisions.",
         "link": {
           "label": "Read More",
           "href": "tourism-hospitality-leisure.html"
@@ -288,10 +279,7 @@
     ]
   },
   "mainContent": {
-    "title": [
-      "When Business Crosses Borders,",
-      "Complexity Multiplies."
-    ],
+    "title": ["When Business Crosses Borders,", "Complexity Multiplies."],
     "description": "International growth rarely creates just one challenge. Entering a new market can affect tax, reporting, regulation, corporate structure, financing and compliance — often across several jurisdictions at the same time.",
     "image": "/images/content-img.png",
     "imageAlt": "Global business network illustration",
