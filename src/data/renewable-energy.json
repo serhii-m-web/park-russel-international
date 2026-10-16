@@ -6,125 +6,248 @@
   "renHero": {
     "id": "ren-page-hero",
     "className": "page-hero--rich",
-    "label": "",
+    "label": "RENEWABLE ENERGY",
     "labelPill": false,
-    "imageBg": "",
-    "imageLoading": "",
-    "title": "",
-    "description": "",
-    "note": "",
+    "imageBg": "/images/consumer-business/hero-bg.jpg",
+    "imageLoading": "eager",
+    "title": "Renewable Investment. Financial Confidence. Long-Term Value.",
+    "description": "Renewable energy is reshaping global investment, infrastructure and energy markets. Significant capital requirements, evolving regulatory frameworks and long-term revenue commitments demand rigorous financial planning, appropriate investment structures and reliable financial oversight.",
+    "note": "Parker Russell International connects renewable energy developers, operators and investors with independent member firms providing audit, tax, corporate finance and advisory expertise across international markets.",
     "aside": "",
     "buttons": [
       {
-        "label": "",
+        "label": "Speak to a Renewable Energy Adviser",
         "href": "contact.html",
-        "variant": "",
-        "icon": false
+        "variant": "primary",
+        "icon": true
+      },
+      {
+        "label": "Find a Member Firm",
+        "href": "contact.html",
+        "variant": "secondary",
+        "icon": true
       }
     ]
   },
   "renOverview": {
     "id": "ren-overview",
     "className": "section-page-content-banner--muted",
-    "ariaLabel": "",
-    "image": "",
-    "imageAlt": "",
-    "text": "",
-    "body": "",
+    "ariaLabel": "Renewable energy financial foundations",
+    "image": "/images/consumer-business/overview.jpg",
+    "imageAlt": "Advisors consulting with a retail business owner",
+    "text": "<span>Strong Projects Begin with Strong Financial Foundations.</span>",
+    "body": "Renewable energy projects require substantial investment before they begin generating revenue. Early decisions concerning financing, taxation, ownership and commercial structure can influence returns throughout an asset's operating life.",
     "banner": {
-      "imageBg": "",
+      "imageBg": "/images/consumer-business/statement-bg.jpg",
       "leftColumn": {
-        "icon": ""
+        "icon": "/icons/financial-assurance.svg"
       },
       "rightColumn": {
-        "text": ""
+        "text": "<span class=\"is-muted\">From project development and construction to asset management, refinancing and disposal, organisations must balance commercial opportunities with financial risks and long-term commitments.</span><span>Reliable financial modelling, effective controls and appropriate investment structures provide the foundation for financially sustainable renewable energy projects.</span>"
       }
     }
   },
   "renPressures": {
     "id": "ren-pressures",
     "className": "section-page-cards-content--muted section-page-cards-content--pressures",
-    "ariaLabel": "",
-    "carouselLabel": "",
+    "ariaLabel": "Financial challenges behind renewable investment",
+    "carouselLabel": "Renewable investment financial challenges",
     "eyebrow": "",
-    "title": "",
+    "title": "The Financial Challenges Behind Renewable Investment",
+    "description": "Renewable energy projects bring together capital, technology, taxation and long-term financial commitments. Understanding how these elements interact is essential to managing investment risk and protecting project value.",
     "cards": [
       {
-        "icon": "",
-        "title": "",
-        "description": ""
+        "icon": "/icons/icon-channel-cart.svg",
+        "title": "Project Economics",
+        "description": "Assessing development costs, revenue assumptions, operating expenditure and projected investment returns."
+      },
+      {
+        "icon": "/icons/icon-pressure-percent.svg",
+        "title": "Capital & Financing",
+        "description": "Structuring debt, equity, project finance and long-term funding arrangements."
+      },
+      {
+        "icon": "/icons/icon-pressure-inventory.svg",
+        "title": "Tax & Incentives",
+        "description": "Managing corporate taxation, capital allowances, available incentives and cross-border tax obligations."
+      },
+      {
+        "icon": "/icons/icon-channel-storefront.svg",
+        "title": "Financial Reporting",
+        "description": "Addressing asset valuations, development expenditure, accounting requirements and investor reporting."
+      },
+      {
+        "icon": "/icons/icon-pressure-shipping.svg",
+        "title": "Ownership & Governance",
+        "description": "Structuring project companies, SPVs, joint ventures and investment arrangements."
+      },
+      {
+        "icon": "/icons/icon-public.svg",
+        "title": "Transactions & Investment",
+        "description": "Supporting acquisitions, financial due diligence, refinancing, restructuring and asset disposals."
       }
     ]
   },
   "renRevenue": {
     "id": "ren-revenue",
-    "ariaLabel": "",
-    "title": "",
-    "conclusion": "",
+    "ariaLabel": "Financial decisions and long-term returns",
+    "title": "Long-Term Returns Depend on Early Financial Decisions.",
+    "conclusion": "Renewable energy investment requires careful evaluation of financial assumptions, capital structures and risks throughout the project lifecycle.",
     "items": [
       {
-        "number": "",
-        "text": ""
+        "number": "01",
+        "text": "Project economics extend beyond construction. Development expenditure, operating costs, energy revenues and asset performance determine long-term financial viability."
+      },
+      {
+        "number": "02",
+        "text": "Financing structures influence investment returns. Debt commitments, equity arrangements and funding costs affect cash flow, risk allocation and financial flexibility."
+      },
+      {
+        "number": "03",
+        "text": "Tax treatment can materially change project economics. Capital allowances, available incentives and cross-border obligations influence investment outcomes."
+      },
+      {
+        "number": "04",
+        "text": "Reliable reporting supports investor confidence. Accurate financial information, appropriate asset valuations and independent assurance strengthen stakeholder oversight."
       }
     ]
   },
   "renInventory": {
     "id": "ren-inventory",
-    "ariaLabel": "",
-    "title": "",
-    "lead": "",
+    "ariaLabel": "Capital investment and renewable energy returns",
+    "title": "Capital Is Committed Early.<br><span class=\"is-ice\"> Returns Are Delivered Over Time.",
+    "lead": "Renewable energy projects frequently require significant development and construction expenditure before generating operational revenues.",
     "cards": [
       {
-        "text": ""
+        "text": "Investment & Financial Modelling: Evaluating project feasibility, development costs, financing requirements and revenue assumptions before committing capital."
+      },
+      {
+        "text": "Cash Flow & Project Performance: Monitoring expenditure, operating revenues, financing obligations and financial performance throughout the asset lifecycle."
       }
     ],
-    "body": "",
-    "image": "",
-    "imageAlt": "",
-    "statement": ""
+    "body": "Financing costs, construction delays, operating assumptions and changing market conditions can materially affect projected returns and long-term cash flow.",
+    "image": "/images/consumer-business/inventory.jpg",
+    "imageAlt": "Warehouse inventory and stock management",
+    "statement": "Reliable financial analysis helps developers and investors evaluate risk, maintain financial oversight and protect long-term project value."
   },
   "renChannels": {
     "id": "ren-channels",
     "className": "section-page-cards-content--channels",
-    "ariaLabel": "",
-    "carouselLabel": "",
-    "title": "",
-    "lead": "",
-    "leadStrong": "",
+    "ariaLabel": "Renewable energy asset types",
+    "carouselLabel": "Renewable energy business models",
+    "title": "Different Renewable Assets. Different Financial Requirements.",
+    "lead": "Renewable energy encompasses diverse technologies, project structures and commercial models.",
+    "leadStrong": "Each creates specific financial, taxation, investment and reporting considerations.",
     "cards": [
       {
-        "icon": "",
-        "title": "",
-        "description": ""
+        "icon": "/icons/icon-channel-storefront.svg",
+        "title": "Renewable Generation",
+        "description": "Solar, wind and other renewable generation projects requiring capital planning, financial reporting and long-term investment analysis."
+      },
+      {
+        "icon": "/icons/icon-channel-warehouse.svg",
+        "title": "Energy Storage",
+        "description": "Battery storage and supporting infrastructure involving significant capital expenditure, evolving revenue models and financing requirements."
+      },
+      {
+        "icon": "/icons/icon-channel-cart.svg",
+        "title": "Project Development",
+        "description": "Developers managing feasibility, construction financing, project costs and complex commercial arrangements."
+      },
+      {
+        "icon": "/icons/icon-channel-devices.svg",
+        "title": "Renewable Investment",
+        "description": "Infrastructure funds, institutional investors and asset owners managing renewable portfolios and investment structures."
       }
     ],
-    "conclusion": ""
+    "conclusion": "Different renewable energy models require tailored financial approaches — supported by reliable reporting, appropriate structures and sound professional judgement."
   },
   "renQuestions": {
     "id": "ren-questions",
-    "ariaLabel": "",
-    "image": "",
-    "title": "",
+    "ariaLabel": "Key financial questions for renewable energy businesses",
+    "image": "/images/consumer-business/earth-sphere.svg",
+    "title": "The Questions Renewable Energy Investors Are Asking.",
     "items": [
       {
-        "number": "",
-        "question": "",
-        "answer": ""
+        "number": "01",
+        "question": "Is the project financially viable?",
+        "answer": "Development expenditure, projected revenues, operating costs and investment assumptions."
+      },
+      {
+        "number": "02",
+        "question": "How should the investment be structured?",
+        "answer": "Ownership entities, SPVs, joint ventures, financing and taxation."
+      },
+      {
+        "number": "03",
+        "question": "Can our financing support long-term operations?",
+        "answer": "Debt commitments, equity arrangements, cash flow and refinancing exposure."
+      },
+      {
+        "number": "04",
+        "question": "Are we making effective use of available tax incentives?",
+        "answer": "Capital allowances, applicable incentives, tax treatment and jurisdictional requirements."
+      },
+      {
+        "number": "05",
+        "question": "Are our assets reported appropriately?",
+        "answer": "Development expenditure, asset valuations, accounting policies and investor reporting."
+      },
+      {
+        "number": "06",
+        "question": "Are we prepared for acquisition or disposal?",
+        "answer": "Financial due diligence, valuations, tax exposure and transaction structuring."
       }
     ]
   },
   "renServices": {
     "id": "ren-services",
-    "ariaLabel": "",
-    "title": "",
-    "subtitle": "",
-    "image": "",
-    "imageAlt": "",
+    "ariaLabel": "Professional services for renewable energy",
+    "title": "Expertise Across the Renewable Energy Investment Lifecycle.",
+    "subtitle": "Our independent member firms bring together audit, taxation, corporate services and financial advisory expertise to support renewable energy businesses, project developers and investors throughout the asset lifecycle.",
+    "image": "/images/consumer-business/services-team.jpg",
+    "imageAlt": "Advisory team meeting with a consumer business client",
     "items": [
       {
-        "icon": "",
-        "title": "",
-        "description": "",
+        "icon": "/icons/icon-verified-user.svg",
+        "title": "Audit & Assurance",
+        "description": "Statutory audit, financial statement assurance, internal controls and group or investor reporting.",
+        "link": {
+          "label": "",
+          "href": "assurance.html"
+        }
+      },
+      {
+        "icon": "/icons/icon-gavel.svg",
+        "title": "Tax & International Tax",
+        "description": "Corporate taxation, capital allowances, available incentives and cross-border investment structures.",
+        "link": {
+          "label": "",
+          "href": "assurance.html"
+        }
+      },
+      {
+        "icon": "/icons/icon-monitoring.svg",
+        "title": "Accounting & Financial Reporting",
+        "description": "Project accounting, budgeting, cash-flow forecasting, asset reporting and management information.",
+        "link": {
+          "label": "",
+          "href": "assurance.html"
+        }
+      },
+      {
+        "icon": "/icons/icon-handshake.svg",
+        "title": "Corporate Finance & Advisory",
+        "description": "Financial modelling, due diligence, valuations, acquisitions, restructuring and transaction support.",
+        "link": {
+          "label": "",
+          "href": "assurance.html"
+        }
+      },
+      {
+        "icon": "/icons/icon-swap-horiz.svg",
+        "title": "Corporate Services & Structuring",
+        "description": "Project company establishment, SPV administration, investment structures and corporate reporting.",
         "link": {
           "label": "",
           "href": "assurance.html"
@@ -137,49 +260,100 @@
     "className": "section-page-cards-content--moments",
     "ariaLabel": "",
     "carouselLabel": "",
-    "title": "",
+    "title": "From Project Development to Long-Term Asset Value.",
+    "description": "Financial priorities evolve throughout the renewable energy investment lifecycle. Our member firms provide professional expertise aligned with each stage.",
     "cards": [
       {
-        "icon": "",
-        "description": ""
+        "icon": "/icons/icon-public.svg",
+        "description": "<strong>Feasibility</strong><br>Financial modelling, tax assessment, project economics and investment structuring."
+      },
+      {
+        "icon": "/icons/icon-moment-sell.svg",
+        "description": "<strong>Construction</strong><br>Project financing, development expenditure, cost monitoring and cash-flow forecasting."
+      },
+      {
+        "icon": "/icons/icon-moment-rocket.svg",
+        "description": "<strong>Operation</strong><br>Financial reporting, tax compliance, asset performance and ongoing financial controls."
+      },
+      {
+        "icon": "/icons/icon-handshake.svg",
+        "description": "<strong>Refinancing</strong><br>Debt restructuring, financial analysis, valuations and financing considerations."
+      },
+      {
+        "icon": "/icons/icon-trending-up.svg",
+        "description": "<strong>Disposal</strong><br>Financial due diligence, transaction preparation, tax planning and exit analysis."
       }
     ],
-    "conclusion": ""
+    "conclusion": "At every stage, informed financial decisions and effective oversight help protect project value and support sustainable investment performance."
   },
   "renInternational": {
     "id": "ren-international",
-    "ariaLabel": "",
-    "eyebrow": "",
-    "title": "",
-    "lead": "",
-    "bullets": [],
-    "networkText": "",
+    "ariaLabel": "International renewable energy investment",
+    "eyebrow": "INTERNATIONAL REACH",
+    "title": "Energy Assets Are Local. Investment Capital Is International.",
+    "lead": "Renewable energy projects operate within local regulatory and tax frameworks, while ownership, financing and investment capital increasingly extend across international markets.",
+    "bullets": [
+      "Understanding local tax obligations and available investment incentives.",
+      "Supporting international ownership and project financing structures.",
+      "Addressing cross-border reporting and related-party arrangements.",
+      "Providing assurance and transaction expertise across jurisdictions."
+    ],
+    "networkText": "Through Parker Russell International, independent member firms collaborate to provide locally informed professional expertise and support coordinated financial management across international renewable energy investments.",
     "button": {
-      "label": "",
+      "label": "Find a Member Firm",
       "href": "about-us.html"
     },
-    "image": "",
-    "imageAlt": "",
-    "overlayText": "",
+    "image": "/images/consumer-business/international.jpg",
+    "imageAlt": "Global consumer business network",
+    "overlayText": "International collaboration helps investors understand how local project requirements <span class=\"is-ice\">affect the wider financial and commercial structure of their investments.</span>",
     "stats": [
       {
-        "number": "",
-        "label": ""
+        "number": "86",
+        "label": "Countries"
+      },
+      {
+        "number": "184",
+        "label": "Offices"
+      },
+      {
+        "number": "2,000",
+        "suffix": "+",
+        "label": "Professionals"
       }
     ]
   },
   "renSegments": {
     "id": "ren-segments",
     "className": "section-page-cards-content--segments",
-    "ariaLabel": "",
-    "carouselLabel": "",
-    "title": "",
-    "lead": "",
+    "ariaLabel": "Renewable energy specialist expertise",
+    "carouselLabel": "Areas of renewable energy expertise",
+    "title": "Different Projects. Critical Investment Priorities.",
+    "lead": "Renewable energy investments create distinct requirements for financial planning, ownership structures, taxation and long-term asset performance.",
     "cards": [
       {
-        "icon": "",
-        "title": "",
-        "description": ""
+        "icon": "/icons/icon-segment-bag.svg",
+        "title": "Project Finance",
+        "description": "Funding structures, capital commitments, financial modelling and investment returns."
+      },
+      {
+        "icon": "/icons/icon-channel-storefront.svg",
+        "title": "Tax & Incentives",
+        "description": "Corporate taxation, capital allowances, available incentives and international tax obligations."
+      },
+      {
+        "icon": "/icons/icon-channel-devices.svg",
+        "title": "Financial Reporting",
+        "description": "Asset valuations, project accounting, financial statements and investor reporting."
+      },
+      {
+        "icon": "/icons/icon-channel-warehouse.svg",
+        "title": "Project Controls",
+        "description": "Construction expenditure, development budgets, cash-flow monitoring and financial oversight."
+      },
+      {
+        "icon": "/icons/icon-hub.svg",
+        "title": "Investment & Transactions",
+        "description": "Financial due diligence, valuations, acquisitions, refinancing and disposals."
       }
     ]
   }
