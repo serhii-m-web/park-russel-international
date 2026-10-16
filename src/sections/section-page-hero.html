@@ -125,19 +125,21 @@
               {{#if pageHero.buttons.length}}
                 <div class="page-hero__buttons">
                   {{#each pageHero.buttons}}
-                    <a
-                      class="page-hero__button site-button {{ variant }}"
-                      href="{{ href }}"
-                    >
-                      <span>{{ label }}</span>
-                      {{#if icon}}
-                        {{> icon
-                          name="arrow-right"
-                          width="16"
-                          height="16"
-                        }}
-                      {{/if}}
-                    </a>
+                    {{#if label}}
+                      <a
+                        class="page-hero__button site-button {{ variant }}"
+                        href="{{ href }}"
+                      >
+                        <span>{{ label }}</span>
+                        {{#if icon}}
+                          {{> icon
+                            name="arrow-right"
+                            width="16"
+                            height="16"
+                          }}
+                        {{/if}}
+                      </a>
+                    {{/if}}
                   {{/each}}
                 </div>
               {{/if}}

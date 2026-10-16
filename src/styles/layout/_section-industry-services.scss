@@ -7,17 +7,12 @@
 
   &__layout {
     display: grid;
-    grid-template-columns: minmax(0, 464px) minmax(0, 1fr);
-    gap: 96px;
+    grid-template-columns: repeat(auto-fill, minmax(430px, 1fr));
+    @include adaptive-value('gap', 96, 28, 1);
     align-items: stretch;
 
-    @include media('<desktop') {
-      grid-template-columns: 1fr;
-      gap: 40px;
-    }
-
     @include media('<tablet') {
-      gap: 28px;
+      grid-template-columns: 1fr;
     }
   }
 
@@ -119,7 +114,6 @@
     list-style: none;
     margin: 0;
     padding: 0;
-    border-bottom: 1px solid $color-line;
 
     @include media('<tablet') {
       display: flex;
@@ -141,6 +135,10 @@
     padding: 28px 0;
     border-top: 1px solid $color-line;
 
+    &:last-child {
+      border-bottom: 1px solid $color-line;
+    }
+
     @include media('<desktop') {
       grid-template-columns: auto minmax(0, 1fr);
       grid-template-areas:
@@ -161,6 +159,19 @@
       border-top: none;
       border-radius: 16px;
       background-color: $color-bg-muted;
+    }
+
+    &:not(:has(> .section-industry-services__item-link)) {
+      grid-template-columns: auto minmax(0, 1fr);
+      grid-template-areas:
+        'icon title'
+        'icon description';
+
+      @include media('<tablet') {
+        grid-template-areas:
+          'icon title'
+          'description description';
+      }
     }
   }
 

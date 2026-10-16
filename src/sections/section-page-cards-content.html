@@ -154,7 +154,7 @@
                   </p>
                 {{/if}}
 
-                {{#if link}}
+                {{#if link.label}}
                   <a
                     class="section-page-cards-content__card-link site-link"
                     href="{{ link.href }}"
@@ -173,7 +173,7 @@
         </div>
       </div>
 
-      {{#if cardsContent.button}}
+      {{#if cardsContent.button.label}}
         <div class="section-page-cards-content__actions">
           <a
             class="section-page-cards-content__button site-button primary"

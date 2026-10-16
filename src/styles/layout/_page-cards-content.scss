@@ -15,6 +15,23 @@
     @include media('<desktop') {
       flex-direction: column;
     }
+
+    // Title without lead: keep description under the title
+    &:not(:has(.section-page-cards-content__lead)) {
+      flex-direction: column;
+      gap: 24px;
+
+      > .section-page-cards-content__heading,
+      > .section-page-cards-content__intro {
+        width: 100%;
+        max-width: none;
+      }
+
+      .section-page-cards-content__description {
+        width: 100%;
+        max-width: 752px;
+      }
+    }
   }
 
   &__heading {
