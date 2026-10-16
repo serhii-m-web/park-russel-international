@@ -129,20 +129,22 @@
                     {{ description }}
                   </p>
                 {{/if}}
-                <div class="section-slider__slide-footer">
-                  <a
-                    class="section-slider__slide-link site-link"
-                    href="{{ link.href }}"
-                  >
-                    {{ link.label }}
-                    <span class="visually-hidden">about {{ title }}</span>
-                    {{> icon
-                      name="arrow-right"
-                      width="16"
-                      height="16"
-                    }}
-                  </a>
-                </div>
+                {{#if link.label}}
+                  <div class="section-slider__slide-footer">
+                    <a
+                      class="section-slider__slide-link site-link"
+                      href="{{ link.href }}"
+                    >
+                      {{ link.label }}
+                      <span class="visually-hidden">about {{ title }}</span>
+                      {{> icon
+                        name="arrow-right"
+                        width="16"
+                        height="16"
+                      }}
+                    </a>
+                  </div>
+                {{/if}}
               </article>
             {{/each}}
           </div>
@@ -152,7 +154,7 @@
 
     {{#if slider.slides.length}}
       <div class="section-slider__footer">
-        {{#if slider.button}}
+        {{#if slider.button.label}}
           <a
             class="section-slider__button site-button primary"
             href="{{ slider.button.href }}"
