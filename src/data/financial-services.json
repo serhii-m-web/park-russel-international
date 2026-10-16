@@ -36,14 +36,14 @@
     "image": "/images/consumer-business/overview.jpg",
     "imageAlt": "Advisors consulting with a retail business owner",
     "text": "<span>Financial Services Demands More Than Compliance.</span>",
-    "body": "Financial institutions must balance regulatory obligations with commercial performance, operational resilience and long-term growth.",
+    "body": "Financial institutions must balance regulatory obligations with commercial performance, operational resilience and long-term growth.<br>From established banks and investment managers to fintech businesses and payment providers, organisations face increasingly interconnected challenges involving capital, governance, taxation, technology and financial reporting.",
     "banner": {
       "imageBg": "/images/consumer-business/statement-bg.jpg",
       "leftColumn": {
         "icon": "/icons/financial-assurance.svg"
       },
       "rightColumn": {
-        "text": "<span class=\"is-muted\">From established banks and investment managers to fintech businesses and payment providers, organisations face increasingly interconnected challenges involving capital, governance, taxation, technology and financial reporting.</span><span>Effective financial oversight and strong internal controls are essential to maintaining stakeholder confidence and supporting sustainable development.</span>"
+        "text": "<span>Effective financial oversight and strong internal controls are essential to maintaining stakeholder confidence and supporting sustainable development.</span>"
       }
     }
   },

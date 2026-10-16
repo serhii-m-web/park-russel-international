@@ -36,14 +36,14 @@
     "image": "/images/consumer-business/overview.jpg",
     "imageAlt": "Advisors consulting with a retail business owner",
     "text": "<span>Strong Customer Experiences Need Strong Financial Foundations.</span>",
-    "body": "Tourism, hospitality and leisure businesses must balance service quality with profitability, operational efficiency and long-term financial sustainability.",
+    "body": "Tourism, hospitality and leisure businesses must balance service quality with profitability, operational efficiency and long-term financial sustainability.<br>From independent hotels and restaurants to international travel groups and hospitality investors, organisations face interconnected challenges involving occupancy, pricing, labour costs, property investment and cash flow.",
     "banner": {
       "imageBg": "/images/consumer-business/statement-bg.jpg",
       "leftColumn": {
         "icon": "/icons/financial-assurance.svg"
       },
       "rightColumn": {
-        "text": "<span class=\"is-muted\">From independent hotels and restaurants to international travel groups and hospitality investors, organisations face interconnected challenges involving occupancy, pricing, labour costs, property investment and cash flow.</span><span>Reliable financial information provides the foundation for understanding operating performance, protecting margins and making informed commercial decisions.</span>"
+        "text": "<span>Reliable financial information provides the foundation for understanding operating performance, protecting margins and making informed commercial decisions.</span>"
       }
     }
   },

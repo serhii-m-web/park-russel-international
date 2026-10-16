@@ -36,14 +36,14 @@
     "image": "/images/consumer-business/overview.jpg",
     "imageAlt": "Advisors consulting with a retail business owner",
     "text": "<span>Accountability Sits at the Centre of Every Decision.</span>",
-    "body": "Public-sector organisations must demonstrate that financial resources are managed responsibly while delivering essential services and responding to changing demands.",
+    "body": "Public-sector organisations must demonstrate that financial resources are managed responsibly while delivering essential services and responding to changing demands.<br>From government departments and public authorities to infrastructure programmes and government-owned enterprises, effective decision-making depends on transparent reporting, appropriate governance and reliable financial controls.",
     "banner": {
       "imageBg": "/images/consumer-business/statement-bg.jpg",
       "leftColumn": {
         "icon": "/icons/financial-assurance.svg"
       },
       "rightColumn": {
-        "text": "<span class=\"is-muted\">From government departments and public authorities to infrastructure programmes and government-owned enterprises, effective decision-making depends on transparent reporting, appropriate governance and reliable financial controls.<span>Strong public financial management provides the foundation for institutional accountability, sustainable service delivery and confidence in the use of public resources.</span>"
+        "text": "<span>Strong public financial management provides the foundation for institutional accountability, sustainable service delivery and confidence in the use of public resources.</span>"
       }
     }
   },

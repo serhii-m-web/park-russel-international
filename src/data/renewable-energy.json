@@ -36,14 +36,14 @@
     "image": "/images/consumer-business/overview.jpg",
     "imageAlt": "Advisors consulting with a retail business owner",
     "text": "<span>Strong Projects Begin with Strong Financial Foundations.</span>",
-    "body": "Renewable energy projects require substantial investment before they begin generating revenue. Early decisions concerning financing, taxation, ownership and commercial structure can influence returns throughout an asset's operating life.",
+    "body": "Renewable energy projects require substantial investment before they begin generating revenue. Early decisions concerning financing, taxation, ownership and commercial structure can influence returns throughout an asset's operating life.<br>From project development and construction to asset management, refinancing and disposal, organisations must balance commercial opportunities with financial risks and long-term commitments.",
     "banner": {
       "imageBg": "/images/consumer-business/statement-bg.jpg",
       "leftColumn": {
         "icon": "/icons/financial-assurance.svg"
       },
       "rightColumn": {
-        "text": "<span class=\"is-muted\">From project development and construction to asset management, refinancing and disposal, organisations must balance commercial opportunities with financial risks and long-term commitments.</span><span>Reliable financial modelling, effective controls and appropriate investment structures provide the foundation for financially sustainable renewable energy projects.</span>"
+        "text": "<span>Reliable financial modelling, effective controls and appropriate investment structures provide the foundation for financially sustainable renewable energy projects.</span>"
       }
     }
   },

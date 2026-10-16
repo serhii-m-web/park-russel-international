@@ -36,14 +36,14 @@
     "image": "/images/consumer-business/overview.jpg",
     "imageAlt": "Advisors consulting with a retail business owner",
     "text": "<span>Long-Term Investment Requires Strong Financial Foundations.</span>",
-    "body": "Natural resources businesses must balance substantial capital commitments with operational performance, financing requirements and international financial obligations.",
+    "body": "Natural resources businesses must balance substantial capital commitments with operational performance, financing requirements and international financial obligations.<br>From exploration and development to production, acquisitions and capital-market transactions, organisations face interconnected challenges involving asset valuations, commodity exposure, taxation and financial reporting.",
     "banner": {
       "imageBg": "/images/consumer-business/statement-bg.jpg",
       "leftColumn": {
         "icon": "/icons/financial-assurance.svg"
       },
       "rightColumn": {
-        "text": "<span class=\"is-muted\">From exploration and development to production, acquisitions and capital-market transactions, organisations face interconnected challenges involving asset valuations, commodity exposure, taxation and financial reporting.</span><span>Reliable financial information and appropriate corporate structures provide the foundation for managing investment risk, maintaining financial resilience and supporting long-term business development.</span>"
+        "text": "<span>Reliable financial information and appropriate corporate structures provide the foundation for managing investment risk, maintaining financial resilience and supporting long-term business development.</span>"
       }
     }
   },

@@ -36,14 +36,14 @@
     "image": "/images/consumer-business/overview.jpg",
     "imageAlt": "Advisors consulting with a retail business owner",
     "text": "<span>Long-Term Assets Require Long-Term Financial Thinking</span>",
-    "body": "Major energy and infrastructure investments involve substantial capital commitments, complex financing arrangements and financial obligations extending across decades.",
+    "body": "Major energy and infrastructure investments involve substantial capital commitments, complex financing arrangements and financial obligations extending across decades.<br>From project development and international investment to operational performance and strategic transactions, organisations must balance commercial objectives with taxation, financial reporting, regulatory requirements and stakeholder expectations.",
     "banner": {
       "imageBg": "/images/consumer-business/statement-bg.jpg",
       "leftColumn": {
         "icon": "/icons/financial-assurance.svg"
       },
       "rightColumn": {
-        "text": "<span class=\"is-muted\">From project development and international investment to operational performance and strategic transactions, organisations must balance commercial objectives with taxation, financial reporting, regulatory requirements and stakeholder expectations.</span><span>Sound financial structures and reliable information are fundamental to protecting investment value throughout the asset lifecycle.</span>"
+        "text": "<span>Sound financial structures and reliable information are fundamental to protecting investment value throughout the asset lifecycle.</span>"
       }
     }
   },

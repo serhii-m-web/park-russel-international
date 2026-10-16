@@ -36,14 +36,14 @@
     "image": "/images/consumer-business/overview.jpg",
     "imageAlt": "Advisors consulting with a retail business owner",
     "text": "<span>Growth Changes the Financial Requirements of the Business.</span>",
-    "body": "Technology, media and telecoms businesses must balance innovation and commercial expansion with increasingly complex financial, tax and governance responsibilities.",
+    "body": "Technology, media and telecoms businesses must balance innovation and commercial expansion with increasingly complex financial, tax and governance responsibilities.<br>From emerging software companies and digital platforms to established media groups and telecommunications operators, growth introduces new demands involving funding, revenue reporting, intellectual property and international structures.",
     "banner": {
       "imageBg": "/images/consumer-business/statement-bg.jpg",
       "leftColumn": {
         "icon": "/icons/financial-assurance.svg"
       },
       "rightColumn": {
-        "text": "<span class=\"is-muted\">From emerging software companies and digital platforms to established media groups and telecommunications operators, growth introduces new demands involving funding, revenue reporting, intellectual property and international structures.</span><span>Reliable financial information and scalable financial processes provide the foundation for attracting investment, managing risk and supporting long-term development.</span>"
+        "text": "<span>Reliable financial information and scalable financial processes provide the foundation for attracting investment, managing risk and supporting long-term development.</span>"
       }
     }
   },

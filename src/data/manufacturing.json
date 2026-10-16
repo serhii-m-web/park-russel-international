@@ -36,14 +36,14 @@
     "image": "/images/consumer-business/overview.jpg",
     "imageAlt": "Advisors consulting with a retail business owner",
     "text": "<span>Strong Manufacturing Requires Control Beyond Production.</span>",
-    "body": "Manufacturing businesses must balance operational efficiency with profitability, working-capital requirements and long-term investment decisions.",
+    "body": "Manufacturing businesses must balance operational efficiency with profitability, working-capital requirements and long-term investment decisions.<br>From industrial producers and automotive suppliers to consumer-product manufacturers and international groups, organisations face interconnected challenges involving production costs, inventory, taxation, financing and financial reporting.",
     "banner": {
       "imageBg": "/images/consumer-business/statement-bg.jpg",
       "leftColumn": {
         "icon": "/icons/financial-assurance.svg"
       },
       "rightColumn": {
-        "text": "<span class=\"is-muted\">From industrial producers and automotive suppliers to consumer-product manufacturers and international groups, organisations face interconnected challenges involving production costs, inventory, taxation, financing and financial reporting.</span><span>Reliable financial information provides the foundation for understanding performance, protecting margins and making informed decisions across the entire business.</span>"
+        "text": "<span>Reliable financial information provides the foundation for understanding performance, protecting margins and making informed decisions across the entire business.</span>"
       }
     }
   },

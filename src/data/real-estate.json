@@ -36,14 +36,14 @@
     "image": "/images/consumer-business/overview.jpg",
     "imageAlt": "Advisors consulting with a retail business owner",
     "text": "<span>Property Decisions Are Financial Decisions.</span>",
-    "body": "Successful real estate investment depends on more than the quality or location of an asset. Ownership structures, financing arrangements, taxation and cash-flow management can materially influence long-term returns.",
+    "body": "Successful real estate investment depends on more than the quality or location of an asset. Ownership structures, financing arrangements, taxation and cash-flow management can materially influence long-term returns.<br>From property acquisition and development to portfolio management, refinancing and disposal, investors must evaluate financial risks and opportunities throughout the investment lifecycle.",
     "banner": {
       "imageBg": "/images/consumer-business/statement-bg.jpg",
       "leftColumn": {
         "icon": "/icons/financial-assurance.svg"
       },
       "rightColumn": {
-        "text": "<span class=\"is-muted\">From property acquisition and development to portfolio management, refinancing and disposal, investors must evaluate financial risks and opportunities throughout the investment lifecycle.</span><span>Reliable financial information and appropriate investment structures provide the foundation for protecting asset value and making informed decisions.</span>"
+        "text": "<span>Reliable financial information and appropriate investment structures provide the foundation for protecting asset value and making informed decisions.</span>"
       }
     }
   },
