@@ -6,125 +6,248 @@
   "ognHero": {
     "id": "ogn-page-hero",
     "className": "page-hero--rich",
-    "label": "",
+    "label": "OIL, GAS & NATURAL RESOURCES",
     "labelPill": false,
-    "imageBg": "",
-    "imageLoading": "",
-    "title": "",
-    "description": "",
-    "note": "",
+    "imageBg": "/images/consumer-business/hero-bg.jpg",
+    "imageLoading": "eager",
+    "title": "Complex Resources. Financial Precision. Long-Term Value.",
+    "description": "Oil, gas and natural resources businesses operate in markets defined by substantial capital requirements, commodity volatility and complex international structures. Long investment horizons, demanding reporting obligations and changing market conditions require disciplined financial management, effective governance and informed investment decisions.",
+    "note": "Parker Russell International connects resource companies, operators and investors with independent member firms providing audit, tax, corporate finance and advisory expertise across international markets.",
     "aside": "",
     "buttons": [
       {
-        "label": "",
+        "label": "Speak to a Natural Resources Adviser",
         "href": "contact.html",
-        "variant": "",
-        "icon": false
+        "variant": "primary",
+        "icon": true
+      },
+      {
+        "label": "Find a Member Firm",
+        "href": "contact.html",
+        "variant": "secondary",
+        "icon": true
       }
     ]
   },
   "ognOverview": {
     "id": "ogn-overview",
     "className": "section-page-content-banner--muted",
-    "ariaLabel": "",
-    "image": "",
-    "imageAlt": "",
-    "text": "",
-    "body": "",
+    "ariaLabel": "Financial foundations for natural resources businesses",
+    "image": "/images/consumer-business/overview.jpg",
+    "imageAlt": "Advisors consulting with a retail business owner",
+    "text": "<span>Long-Term Investment Requires Strong Financial Foundations.</span>",
+    "body": "Natural resources businesses must balance substantial capital commitments with operational performance, financing requirements and international financial obligations.",
     "banner": {
-      "imageBg": "",
+      "imageBg": "/images/consumer-business/statement-bg.jpg",
       "leftColumn": {
-        "icon": ""
+        "icon": "/icons/financial-assurance.svg"
       },
       "rightColumn": {
-        "text": ""
+        "text": "<span class=\"is-muted\">From exploration and development to production, acquisitions and capital-market transactions, organisations face interconnected challenges involving asset valuations, commodity exposure, taxation and financial reporting.</span><span>Reliable financial information and appropriate corporate structures provide the foundation for managing investment risk, maintaining financial resilience and supporting long-term business development.</span>"
       }
     }
   },
   "ognPressures": {
     "id": "ogn-pressures",
     "className": "section-page-cards-content--muted section-page-cards-content--pressures",
-    "ariaLabel": "",
-    "carouselLabel": "",
+    "ariaLabel": "Financial challenges behind natural resource investment",
+    "carouselLabel": "Natural resources financial challenges",
     "eyebrow": "",
-    "title": "",
+    "title": "The Financial Challenges Behind Natural Resource Investment.",
+    "description": "Natural resources businesses operate in environments where capital, commodity markets, taxation and international operations are closely connected. Managing these complexities requires specialist financial expertise and effective oversight.",
     "cards": [
       {
-        "icon": "",
-        "title": "",
-        "description": ""
+        "icon": "/icons/icon-channel-cart.svg",
+        "title": "Capital & Financing",
+        "description": "Managing exploration investment, project funding, capital requirements and long-term financing commitments."
+      },
+      {
+        "icon": "/icons/icon-pressure-percent.svg",
+        "title": "Commodity Exposure",
+        "description": "Assessing price volatility, financial forecasts, asset values and changing market conditions."
+      },
+      {
+        "icon": "/icons/icon-pressure-inventory.svg",
+        "title": "International Taxation",
+        "description": "Addressing corporate taxation, transfer pricing, indirect taxes and cross-border investment structures."
+      },
+      {
+        "icon": "/icons/icon-channel-storefront.svg",
+        "title": "Asset Valuation & Reporting",
+        "description": "Managing capitalised expenditure, impairment assessments, provisions and financial reporting requirements."
+      },
+      {
+        "icon": "/icons/icon-pressure-shipping.svg",
+        "title": "Governance & Controls",
+        "description": "Strengthening financial oversight, internal controls, group reporting and stakeholder accountability."
+      },
+      {
+        "icon": "/icons/icon-public.svg",
+        "title": "Investment & Transactions",
+        "description": "Supporting acquisitions, disposals, financial due diligence, fundraising and capital-market preparation."
       }
     ]
   },
   "ognRevenue": {
     "id": "ogn-revenue",
-    "ariaLabel": "",
-    "title": "",
-    "conclusion": "",
+    "ariaLabel": "Natural resources investment and financial performance",
+    "title": "Resource Value Depends on More Than Commodity Prices.",
+    "conclusion": "The financial performance of natural resources businesses is shaped by investment decisions, capital structures, operational risks and market conditions throughout the asset lifecycle.",
     "items": [
       {
-        "number": "",
-        "text": ""
+        "number": "01",
+        "text": "Capital commitments precede financial returns. Exploration, development and infrastructure frequently require substantial funding before projects generate operating cash flow."
+      },
+      {
+        "number": "02",
+        "text": "Commodity volatility affects investment decisions. Changes in market prices can influence revenue, asset valuations, financing and development plans."
+      },
+      {
+        "number": "03",
+        "text": "International structures introduce financial complexity. Cross-border taxation, intercompany transactions and local reporting obligations require coordinated oversight."
+      },
+      {
+        "number": "04",
+        "text": "Financial transparency supports access to capital. Reliable reporting, effective governance and credible forecasts strengthen investor and lender confidence."
       }
     ]
   },
   "ognInventory": {
     "id": "ogn-inventory",
-    "ariaLabel": "",
-    "title": "",
-    "lead": "",
+    "ariaLabel": "Capital investment and financial resilience in natural resources",
+    "title": "Significant Capital Is<span class=\"is-ice\"> Committed Before Returns Are Certain.</span>",
+    "lead": "Exploration, extraction and resource development often involve substantial investment before commercial production or predictable revenue begins.",
     "cards": [
       {
-        "text": ""
+        "text": "Investment & Financial Modelling: Evaluating capital requirements, projected returns, funding structures and commercial assumptions before major investment decisions."
+      },
+      {
+        "text": "Cash Flow & Financial Resilience: Monitoring development expenditure, financing obligations, commodity exposure and future liquidity requirements."
       }
     ],
-    "body": "",
-    "image": "",
-    "imageAlt": "",
-    "statement": ""
+    "body": "Commodity prices, development costs, financing commitments and changes in project assumptions can materially affect the financial viability of an asset.",
+    "image": "/images/consumer-business/inventory.jpg",
+    "imageAlt": "Warehouse inventory and stock management",
+    "statement": "Reliable financial analysis helps management assess risk, allocate capital and maintain financial discipline throughout the resource lifecycle."
   },
   "ognChannels": {
     "id": "ogn-channels",
     "className": "section-page-cards-content--channels",
-    "ariaLabel": "",
-    "carouselLabel": "",
-    "title": "",
-    "lead": "",
-    "leadStrong": "",
+    "ariaLabel": "Natural resources business models",
+    "carouselLabel": "Natural resources business models",
+    "title": "Different Resources. Distinct Financial Requirements.",
+    "lead": "Oil, gas and natural resources encompass diverse operating models, asset structures and investment requirements.",
+    "leadStrong": "Each creates specific financial, tax and reporting considerations.",
     "cards": [
       {
-        "icon": "",
-        "title": "",
-        "description": ""
+        "icon": "/icons/icon-channel-storefront.svg",
+        "title": "Oil & Gas",
+        "description": "Exploration, development and production businesses managing substantial capital investment, complex assets and international taxation."
+      },
+      {
+        "icon": "/icons/icon-channel-warehouse.svg",
+        "title": "Mining & Minerals",
+        "description": "Mining, metals and mineral businesses managing exploration costs, asset valuations, commodity exposure and financing."
+      },
+      {
+        "icon": "/icons/icon-channel-cart.svg",
+        "title": "Resource Infrastructure",
+        "description": "Businesses developing and operating infrastructure associated with natural-resource extraction, processing and transportation."
+      },
+      {
+        "icon": "/icons/icon-channel-devices.svg",
+        "title": "Specialist Services",
+        "description": "Engineering, technical services, logistics and resource-sector suppliers managing contracts, working capital and international operations."
       }
     ],
-    "conclusion": ""
+    "conclusion": "Different resource operations require tailored financial approaches — supported by reliable reporting, effective governance and sound professional judgement."
   },
   "ognQuestions": {
     "id": "ogn-questions",
-    "ariaLabel": "",
-    "image": "",
-    "title": "",
+    "ariaLabel": "Key financial questions for natural resources businesses",
+    "image": "/images/consumer-business/earth-sphere.svg",
+    "title": "The Questions Natural Resources Businesses Are Asking.",
     "items": [
       {
-        "number": "",
-        "question": "",
-        "answer": ""
+        "number": "01",
+        "question": "Is our investment financially viable?",
+        "answer": "Development costs, commodity assumptions, projected returns and funding requirements."
+      },
+      {
+        "number": "02",
+        "question": "Can our capital structure support operations?",
+        "answer": "Equity, debt, financing commitments, cash flow and access to capital."
+      },
+      {
+        "number": "03",
+        "question": "Are our assets valued and reported appropriately?",
+        "answer": "Exploration expenditure, impairment, provisions, accounting policies and financial statements."
+      },
+      {
+        "number": "04",
+        "question": "Is our international structure appropriate?",
+        "answer": "Corporate entities, taxation, transfer pricing and cross-border arrangements."
+      },
+      {
+        "number": "05",
+        "question": "Are we financially resilient to market changes?",
+        "answer": "Commodity price exposure, scenario analysis, liquidity and financial forecasts."
+      },
+      {
+        "number": "06",
+        "question": "Are we prepared for investment or public markets?",
+        "answer": "Financial reporting, governance, due diligence, valuations and transaction readiness."
       }
     ]
   },
   "ognServices": {
     "id": "ogn-services",
-    "ariaLabel": "",
-    "title": "",
-    "subtitle": "",
-    "image": "",
-    "imageAlt": "",
+    "ariaLabel": "Professional services for natural resources businesses",
+    "title": "Expertise Across the Natural Resources Financial Landscape.",
+    "subtitle": "Our independent member firms bring together audit, taxation, accounting and financial advisory expertise to support resource businesses managing capital-intensive operations, international structures and strategic investment decisions.",
+    "image": "/images/consumer-business/services-team.jpg",
+    "imageAlt": "Advisory team meeting with a consumer business client",
     "items": [
       {
-        "icon": "",
-        "title": "",
-        "description": "",
+        "icon": "/icons/icon-verified-user.svg",
+        "title": "Audit & Assurance",
+        "description": "Statutory audit, financial statement assurance, internal controls and group ",
+        "link": {
+          "label": "",
+          "href": "assurance.html"
+        }
+      },
+      {
+        "icon": "/icons/icon-gavel.svg",
+        "title": "Tax & International Tax",
+        "description": "Corporate taxation, capital allowances, indirect tax, international structuring and transaction taxation.",
+        "link": {
+          "label": "",
+          "href": "assurance.html"
+        }
+      },
+      {
+        "icon": "/icons/icon-monitoring.svg",
+        "title": "Accounting & Financial Reporting",
+        "description": "Management reporting, budgeting, forecasting, asset accounting and financial controls.",
+        "link": {
+          "label": "",
+          "href": "assurance.html"
+        }
+      },
+      {
+        "icon": "/icons/icon-handshake.svg",
+        "title": "Corporate Finance & Advisory",
+        "description": "Financial modelling, due diligence, valuations, fundraising, acquisitions and transaction support.",
+        "link": {
+          "label": "",
+          "href": "assurance.html"
+        }
+      },
+      {
+        "icon": "/icons/icon-swap-horiz.svg",
+        "title": "Capital Markets & Transactions",
+        "description": "IPO and AIM preparation, reporting-accountant support, capital-market readiness and strategic transactions, where available.",
         "link": {
           "label": "",
           "href": "assurance.html"
@@ -135,51 +258,102 @@
   "ognMoments": {
     "id": "ogn-moments",
     "className": "section-page-cards-content--moments",
-    "ariaLabel": "",
-    "carouselLabel": "",
-    "title": "",
+    "ariaLabel": "Natural resources business development stages",
+    "carouselLabel": "Natural resources lifecycle stages",
+    "title": "From Exploration to International Growth.",
+    "description": "Financial priorities evolve as resource businesses develop assets, establish production and pursue investment opportunities. Our member firms provide professional expertise aligned with each stage.",
     "cards": [
       {
-        "icon": "",
-        "description": ""
+        "icon": "/icons/icon-public.svg",
+        "description": "<strong>Establishment</strong><br>Corporate structures, accounting processes, tax considerations and initial financial controls."
+      },
+      {
+        "icon": "/icons/icon-moment-sell.svg",
+        "description": "<strong>Exploration</strong><br>Development budgets, financial modelling, funding requirements and expenditure reporting."
+      },
+      {
+        "icon": "/icons/icon-moment-rocket.svg",
+        "description": "<strong>Production</strong><br>Management reporting, asset accounting, cash-flow planning and financial oversight."
+      },
+      {
+        "icon": "/icons/icon-handshake.svg",
+        "description": "<strong>Expansion</strong><br>International taxation, acquisitions, group structures and transfer pricing."
+      },
+      {
+        "icon": "/icons/icon-trending-up.svg",
+        "description": "<strong>Transactions</strong><br>Financial due diligence, valuations, capital-market preparation and disposals."
       }
     ],
-    "conclusion": ""
+    "conclusion": "At every stage, reliable financial information and informed professional advice support capital allocation, financial resilience and long-term asset value."
   },
   "ognInternational": {
     "id": "ogn-international",
     "ariaLabel": "",
-    "eyebrow": "",
-    "title": "",
-    "lead": "",
-    "bullets": [],
-    "networkText": "",
+    "eyebrow": "INTERNATIONAL REACH",
+    "title": "Resource Assets Are Local. Financial Structures Cross Borders.",
+    "lead": "Natural resources businesses frequently operate across multiple jurisdictions, with assets, investors, financing arrangements and specialist suppliers located in different markets.",
+    "bullets": [
+      "Understanding tax and financial reporting obligations across markets.",
+      "Supporting international ownership and corporate group structures.",
+      "Addressing transfer pricing and cross-border financing arrangements.",
+      "Providing assurance, due diligence and transaction expertise across jurisdictions."
+    ],
+    "networkText": "Through Parker Russell International, independent member firms collaborate to provide locally informed expertise and support coordinated financial management across international resource operations.",
     "button": {
-      "label": "",
+      "label": "Find a Member Firm",
       "href": "about-us.html"
     },
-    "image": "",
-    "imageAlt": "",
-    "overlayText": "",
+    "image": "/images/consumer-business/international.jpg",
+    "imageAlt": "Global consumer business network",
+    "overlayText": "International collaboration helps organisations understand how local<span class=\"is-ice\"> requirements influence the financial position and structure of the wider group.</span>",
     "stats": [
       {
-        "number": "",
-        "label": ""
+        "number": "86",
+        "label": "Countries"
+      },
+      {
+        "number": "184",
+        "label": "Offices"
+      },
+      {
+        "number": "2,000",
+        "suffix": "+",
+        "label": "Professionals"
       }
     ]
   },
   "ognSegments": {
     "id": "ogn-segments",
     "className": "section-page-cards-content--segments",
-    "ariaLabel": "",
-    "carouselLabel": "",
-    "title": "",
-    "lead": "",
+    "ariaLabel": "Critical financial priorities for natural resources businesses",
+    "carouselLabel": "Natural resources financial priorities",
+    "title": "Complex Assets. Critical Financial Priorities.",
+    "lead": "The financial characteristics of natural resources businesses create distinct requirements for investment, governance, reporting and international operations.",
     "cards": [
       {
-        "icon": "",
-        "title": "",
-        "description": ""
+        "icon": "/icons/icon-segment-bag.svg",
+        "title": "Capital & Funding",
+        "description": "Investment requirements, financing structures, financial modelling and capital allocation."
+      },
+      {
+        "icon": "/icons/icon-channel-storefront.svg",
+        "title": "Commodity Risk",
+        "description": "Market volatility, financial forecasts, scenario analysis and cash-flow resilience."
+      },
+      {
+        "icon": "/icons/icon-channel-devices.svg",
+        "title": "Asset Reporting",
+        "description": "Asset valuations, impairment, expenditure accounting and financial statements."
+      },
+      {
+        "icon": "/icons/icon-channel-warehouse.svg",
+        "title": "International Tax",
+        "description": "Cross-border taxation, transfer pricing and international corporate structures."
+      },
+      {
+        "icon": "/icons/icon-hub.svg",
+        "title": "Investment & Transactions",
+        "description": "Financial due diligence, valuations, acquisitions, capital markets and disposals."
       }
     ]
   }
