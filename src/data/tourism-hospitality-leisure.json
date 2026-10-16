@@ -6,125 +6,248 @@
   "thlHero": {
     "id": "thl-page-hero",
     "className": "page-hero--rich",
-    "label": "",
+    "label": "TOURISM, HOSPITALITY & LEISURE",
     "labelPill": false,
-    "imageBg": "",
-    "imageLoading": "",
-    "title": "",
-    "description": "",
-    "note": "",
+    "imageBg": "/images/consumer-business/hero-bg.jpg",
+    "imageLoading": "eager",
+    "title": "Exceptional Experiences. Financial Strength. Sustainable Growth.",
+    "description": "Tourism, hospitality and leisure businesses operate in markets shaped by changing customer demand, seasonal fluctuations and significant operating costs. Pricing, labour, property commitments and international operations demand disciplined financial management, reliable reporting and informed investment decisions.",
+    "note": "Parker Russell International connects hospitality businesses, tourism operators and investors with independent member firms providing audit, tax, accounting and financial advisory expertise across international markets.",
     "aside": "",
     "buttons": [
       {
-        "label": "",
+        "label": "Speak to a Tourism & Hospitality Adviser",
         "href": "contact.html",
-        "variant": "",
-        "icon": false
+        "variant": "primary",
+        "icon": true
+      },
+      {
+        "label": "Find a Member Firm",
+        "href": "contact.html",
+        "variant": "secondary",
+        "icon": true
       }
     ]
   },
   "thlOverview": {
     "id": "thl-overview",
     "className": "section-page-content-banner--muted",
-    "ariaLabel": "",
-    "image": "",
-    "imageAlt": "",
-    "text": "",
-    "body": "",
+    "ariaLabel": "Financial foundations for tourism, hospitality and leisure",
+    "image": "/images/consumer-business/overview.jpg",
+    "imageAlt": "Advisors consulting with a retail business owner",
+    "text": "<span>Strong Customer Experiences Need Strong Financial Foundations.</span>",
+    "body": "Tourism, hospitality and leisure businesses must balance service quality with profitability, operational efficiency and long-term financial sustainability.",
     "banner": {
-      "imageBg": "",
+      "imageBg": "/images/consumer-business/statement-bg.jpg",
       "leftColumn": {
-        "icon": ""
+        "icon": "/icons/financial-assurance.svg"
       },
       "rightColumn": {
-        "text": ""
+        "text": "<span class=\"is-muted\">From independent hotels and restaurants to international travel groups and hospitality investors, organisations face interconnected challenges involving occupancy, pricing, labour costs, property investment and cash flow.</span><span>Reliable financial information provides the foundation for understanding operating performance, protecting margins and making informed commercial decisions.</span>"
       }
     }
   },
   "thlPressures": {
     "id": "thl-pressures",
     "className": "section-page-cards-content--muted section-page-cards-content--pressures",
-    "ariaLabel": "",
-    "carouselLabel": "",
+    "ariaLabel": "Financial challenges behind hospitality performance",
+    "carouselLabel": "Hospitality financial challenges",
     "eyebrow": "",
-    "title": "",
+    "title": "The Financial Challenges Behind Hospitality Performance.",
+    "description": "Hospitality and leisure businesses operate in environments where demand, operating costs and investment requirements can change significantly. Maintaining financial strength requires visibility across revenues, margins, cash flow and long-term commitments.",
     "cards": [
       {
-        "icon": "",
-        "title": "",
-        "description": ""
+        "icon": "/icons/icon-channel-cart.svg",
+        "title": "Revenue & Pricing",
+        "description": "Understanding occupancy, customer spending, pricing strategies and profitability across locations."
+      },
+      {
+        "icon": "/icons/icon-pressure-percent.svg",
+        "title": "Labour & Operating Costs",
+        "description": "Managing staffing expenditure, payroll, purchasing and other operational commitments."
+      },
+      {
+        "icon": "/icons/icon-pressure-inventory.svg",
+        "title": "Seasonality & Cash Flow",
+        "description": "Planning liquidity, working capital and funding requirements across changing demand cycles."
+      },
+      {
+        "icon": "/icons/icon-channel-storefront.svg",
+        "title": "Property & Capital Investment",
+        "description": "Evaluating property commitments, refurbishments, new locations and expected investment returns."
+      },
+      {
+        "icon": "/icons/icon-pressure-shipping.svg",
+        "title": "Financial Reporting & Controls",
+        "description": "Maintaining reliable management information, cost allocation, financial statements and oversight."
+      },
+      {
+        "icon": "/icons/icon-public.svg",
+        "title": "International Taxation",
+        "description": "Addressing corporate taxation, indirect taxes and cross-border obligations across multiple markets."
       }
     ]
   },
   "thlRevenue": {
     "id": "thl-revenue",
-    "ariaLabel": "",
-    "title": "",
-    "conclusion": "",
+    "ariaLabel": "Hospitality revenue and financial performance",
+    "title": "Revenue Is Only One Measure of Performance.",
+    "conclusion": "Strong hospitality performance depends on understanding how occupancy, operating costs, investment and financial management influence the profitability of the wider business.",
     "items": [
       {
-        "number": "",
-        "text": ""
+        "number": "01",
+        "text": "High revenue does not guarantee strong margins. Occupancy, pricing, distribution costs and operating expenditure determine underlying profitability."
+      },
+      {
+        "number": "02",
+        "text": "Labour costs directly influence financial performance. Staffing levels, payroll commitments and productivity must be assessed alongside service requirements."
+      },
+      {
+        "number": "03",
+        "text": "Seasonality creates working-capital pressures. Changes in customer demand affect cash flow, financing requirements and operational planning."
+      },
+      {
+        "number": "04",
+        "text": "Property decisions carry long-term consequences. Acquisitions, leases, refurbishments and new locations require disciplined investment analysis."
       }
     ]
   },
   "thlInventory": {
     "id": "thl-inventory",
-    "ariaLabel": "",
-    "title": "",
-    "lead": "",
+    "ariaLabel": "Occupancy, revenue and financial performance",
+    "title": "Occupancy Drives Revenue.<br><span class=\"is-ice\">Financial Discipline Protects Profit.</span>",
+    "lead": "Hotels, restaurants and leisure businesses depend on customer demand, pricing and operational efficiency to generate sustainable returns.",
     "cards": [
       {
-        "text": ""
+        "text": "Revenue & Margin Analysis: Evaluating occupancy, pricing, customer spending and operating costs to understand profitability across business units."
+      },
+      {
+        "text": "Cost Control & Financial Forecasting: Monitoring payroll, purchasing, cash flow and operational expenditure to support financial resilience."
       }
     ],
-    "body": "",
-    "image": "",
-    "imageAlt": "",
-    "statement": ""
+    "body": "However, labour expenditure, property commitments, distribution fees and fluctuating occupancy can materially affect profitability even when headline revenues remain strong.",
+    "image": "/images/consumer-business/inventory.jpg",
+    "imageAlt": "Warehouse inventory and stock management",
+    "statement": "Reliable financial reporting helps management understand where commercial performance translates into sustainable earnings."
   },
   "thlChannels": {
     "id": "thl-channels",
     "className": "section-page-cards-content--channels",
-    "ariaLabel": "",
-    "carouselLabel": "",
-    "title": "",
-    "lead": "",
-    "leadStrong": "",
+    "ariaLabel": "Tourism, hospitality and leisure business models",
+    "carouselLabel": "Hospitality business models",
+    "title": "Different Experiences. Different Financial Requirements.",
+    "lead": "Tourism, hospitality and leisure encompass diverse operating models, investment structures and customer markets.",
+    "leadStrong": "Each creates distinct financial, tax and reporting considerations.",
     "cards": [
       {
-        "icon": "",
-        "title": "",
-        "description": ""
+        "icon": "/icons/icon-channel-storefront.svg",
+        "title": "Hotels & Accommodation",
+        "description": "Hotels, resorts and accommodation providers managing occupancy, property costs and operational profitability."
+      },
+      {
+        "icon": "/icons/icon-channel-warehouse.svg",
+        "title": "Restaurants & Food Services",
+        "description": "Restaurants and food-service operators balancing pricing, labour, purchasing and location-level performance."
+      },
+      {
+        "icon": "/icons/icon-channel-cart.svg",
+        "title": "Travel & Tourism",
+        "description": "Travel companies and tourism operators managing customer funds, international suppliers and seasonal demand."
+      },
+      {
+        "icon": "/icons/icon-channel-devices.svg",
+        "title": "Leisure & Entertainment",
+        "description": "Leisure venues, attractions and entertainment businesses managing capital investment, staffing and customer demand."
       }
     ],
-    "conclusion": ""
+    "conclusion": "Different hospitality models require tailored financial approaches — supported by reliable reporting, effective controls and sound professional judgement."
   },
   "thlQuestions": {
     "id": "thl-questions",
-    "ariaLabel": "",
-    "image": "",
-    "title": "",
+    "ariaLabel": "Key financial questions for hospitality businesses",
+    "image": "/images/consumer-business/earth-sphere.svg",
+    "title": "The Questions Hospitality Businesses Are Asking.",
     "items": [
       {
-        "number": "",
-        "question": "",
-        "answer": ""
+        "number": "01",
+        "question": "Are our operations delivering sustainable margins?",
+        "answer": "Revenue, occupancy, pricing, labour costs and operational expenditure."
+      },
+      {
+        "number": "02",
+        "question": "Which locations generate the strongest returns?",
+        "answer": "Business-unit reporting, cost allocation, profitability and financial performance."
+      },
+      {
+        "number": "03",
+        "question": "Can our cash flow support seasonal demand?",
+        "answer": "Working capital, financial forecasts, operating commitments and liquidity requirements."
+      },
+      {
+        "number": "04",
+        "question": "Are our property investments financially justified?",
+        "answer": "Capital expenditure, lease obligations, financing and projected returns."
+      },
+      {
+        "number": "05",
+        "question": "Is our international structure appropriate?",
+        "answer": "Corporate entities, cross-border taxation, group reporting and operating arrangements."
+      },
+      {
+        "number": "06",
+        "question": "Are we prepared for expansion or acquisition?",
+        "answer": "Financial modelling, due diligence, valuations and transaction readiness."
       }
     ]
   },
   "thlServices": {
     "id": "thl-services",
-    "ariaLabel": "",
-    "title": "",
-    "subtitle": "",
-    "image": "",
-    "imageAlt": "",
+    "ariaLabel": "Professional services for hospitality businesses",
+    "title": "Expertise Across the Hospitality Financial Landscape.",
+    "subtitle": "Our independent member firms bring together audit, taxation, accounting and financial advisory expertise to support tourism, hospitality and leisure businesses managing operational complexity, international growth and strategic investment decisions.",
+    "image": "/images/consumer-business/services-team.jpg",
+    "imageAlt": "Advisory team meeting with a consumer business client",
     "items": [
       {
-        "icon": "",
-        "title": "",
-        "description": "",
+        "icon": "/icons/icon-verified-user.svg",
+        "title": "Audit & Assurance",
+        "description": "Statutory audit, financial statement assurance, internal controls and group or investor reporting.",
+        "link": {
+          "label": "",
+          "href": "assurance.html"
+        }
+      },
+      {
+        "icon": "/icons/icon-gavel.svg",
+        "title": "Tax & International Tax",
+        "description": "Corporate taxation, indirect taxes, international structures and transaction-related tax considerations.",
+        "link": {
+          "label": "",
+          "href": "assurance.html"
+        }
+      },
+      {
+        "icon": "/icons/icon-monitoring.svg",
+        "title": "Accounting & Financial Reporting",
+        "description": "Management accounts, location-level reporting, budgeting, forecasting and cash-flow analysis.",
+        "link": {
+          "label": "",
+          "href": "assurance.html"
+        }
+      },
+      {
+        "icon": "/icons/icon-handshake.svg",
+        "title": "Corporate Finance & Advisory",
+        "description": "Financial modelling, due diligence, valuations, acquisitions, restructuring and transaction support.",
+        "link": {
+          "label": "",
+          "href": "assurance.html"
+        }
+      },
+      {
+        "icon": "/icons/icon-swap-horiz.svg",
+        "title": "Corporate & International Services",
+        "description": "Corporate structures, entity administration, accounting and reporting across international operations.",
         "link": {
           "label": "",
           "href": "assurance.html"
@@ -135,51 +258,102 @@
   "thlMoments": {
     "id": "thl-moments",
     "className": "section-page-cards-content--moments",
-    "ariaLabel": "",
-    "carouselLabel": "",
-    "title": "",
+    "ariaLabel": "Hospitality business development stages",
+    "carouselLabel": "Hospitality growth stages",
+    "title": "From New Locations to International Expansion.",
+    "description": "Financial priorities evolve as hospitality businesses establish operations, develop new locations and pursue strategic investment. Our member firms provide professional expertise aligned with each stage.",
     "cards": [
       {
-        "icon": "",
-        "description": ""
+        "icon": "/icons/icon-moment-rocket.svg",
+        "description": "<strong>Establishment</strong><br>Financial planning, initial accounting structures, tax considerations and budgeting."
+      },
+      {
+        "icon": "/icons/icon-moment-sell.svg",
+        "description": "<strong>Scaling</strong><br>Location-level reporting, margin analysis, cash-flow management and financial controls."
+      },
+      {
+        "icon": "/icons/icon-moment-rocket.svg",
+        "description": "<strong>Expansion</strong><br>International taxation, overseas entities, group structures and reporting requirements."
+      },
+      {
+        "icon": "/icons/icon-handshake.svg",
+        "description": "<strong>Investment</strong><br>Financial modelling, property investment, valuations and acquisition preparation."
+      },
+      {
+        "icon": "/icons/icon-trending-up.svg",
+        "description": "<strong>Transactions</strong><br>Financial due diligence, refinancing, restructuring, disposals and exit planning."
       }
     ],
-    "conclusion": ""
+    "conclusion": "At every stage, reliable financial information and informed professional advice support operational resilience, commercial performance and sustainable growth."
   },
   "thlInternational": {
     "id": "thl-international",
-    "ariaLabel": "",
-    "eyebrow": "",
-    "title": "",
-    "lead": "",
-    "bullets": [],
-    "networkText": "",
+    "ariaLabel": "International tourism and hospitality operations",
+    "eyebrow": "INTERNATIONAL REACH",
+    "title": "Hospitality Is Experienced Locally. Business Operates Globally.",
+    "lead": "Tourism and hospitality businesses increasingly serve international customers, operate across multiple markets and attract investment from different jurisdictions.",
+    "bullets": [
+      "Understanding local tax and financial reporting obligations.",
+      "Supporting international ownership and corporate structures.",
+      "Addressing cross-border operations and intercompany arrangements.",
+      "Providing assurance and transaction expertise across jurisdictions."
+    ],
+    "networkText": "Through Parker Russell International, independent member firms collaborate to provide locally informed expertise and support coordinated financial management across international hospitality and leisure operations.",
     "button": {
-      "label": "",
+      "label": "Find a Member Firm",
       "href": "about-us.html"
     },
-    "image": "",
-    "imageAlt": "",
-    "overlayText": "",
+    "image": "/images/consumer-business/international.jpg",
+    "imageAlt": "Global consumer business network",
+    "overlayText": "International collaboration helps businesses understand how local<span class=\"is-ice\"> operational requirements affect the financial performance and structure of the wider group.</span>",
     "stats": [
       {
-        "number": "",
-        "label": ""
+        "number": "86",
+        "label": "Countries"
+      },
+      {
+        "number": "184",
+        "label": "Offices"
+      },
+      {
+        "number": "2,000",
+        "suffix": "+",
+        "label": "Professionals"
       }
     ]
   },
   "thlSegments": {
     "id": "thl-segments",
     "className": "section-page-cards-content--segments",
-    "ariaLabel": "",
-    "carouselLabel": "",
-    "title": "",
-    "lead": "",
+    "ariaLabel": "Critical financial priorities for hospitality businesses",
+    "carouselLabel": "Hospitality financial priorities",
+    "title": "Different Operations. Critical Financial Priorities.",
+    "lead": "The financial characteristics of hospitality and leisure businesses create distinct requirements for profitability, operational oversight, investment and long-term growth.",
     "cards": [
       {
-        "icon": "",
-        "title": "",
-        "description": ""
+        "icon": "/icons/icon-segment-bag.svg",
+        "title": "Revenue & Margins",
+        "description": "Occupancy, pricing, customer spending and profitability across business units."
+      },
+      {
+        "icon": "/icons/icon-channel-storefront.svg",
+        "title": "Labour & Costs",
+        "description": "Payroll, purchasing, operational expenditure and cost management."
+      },
+      {
+        "icon": "/icons/icon-channel-devices.svg",
+        "title": "Cash Flow",
+        "description": "Seasonal forecasting, working capital and financing requirements."
+      },
+      {
+        "icon": "/icons/icon-channel-warehouse.svg",
+        "title": "Property & Investment",
+        "description": "Capital expenditure, lease commitments, financial modelling and investment assessment."
+      },
+      {
+        "icon": "/icons/icon-hub.svg",
+        "title": "International Tax",
+        "description": "Cross-border taxation, international structures and group reporting obligations."
       }
     ]
   }
